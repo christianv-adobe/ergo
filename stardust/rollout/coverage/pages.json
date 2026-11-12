@@ -1,0 +1,473 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-28T16:32:24.531Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T23:22:40.265Z",
+  "pages": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:10bf46e3d65cc959b9d0ede024605f59386c8bc3639809e2510582a40ade336f",
+        "currentStatePath": "stardust/current/pages/de.json",
+        "sourceUrl": "https://www.ergo.de/de"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de",
+        "deployedAt": "2026-10-28T21:38:17.667Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.81,
+          "heightDelta": 25,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 29,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      }
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte",
+      "path": "/de/geschaeftskunden-produkte",
+      "title": "Gewerbliche Versicherungen für Geschäftskunden | ERGO",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:28e3dc9bac6cd8e1a1b696248ac10d6519bb643d36ba480f7e0d1abb56cb6511",
+        "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte.json",
+        "sourceUrl": "https://www.ergo.de/de/Geschaeftskunden-Produkte"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte",
+        "deployedAt": "2026-10-28T21:38:17.737Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 22.64,
+          "heightDelta": 141,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 22.64% > 10%"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Geschaeftskunden-Produkte"
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "path": "/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+      "title": "Betriebliche Altersversorgung für Geschäftskunden | ERGO",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:92a0da2376dbdf90ff19bd8b8bfb6c198aeb194be59de3877f5a7faba8e23bfd",
+        "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte-betriebliche-altersversorgung.json",
+        "sourceUrl": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+        "deployedAt": "2026-10-28T18:18:22.942Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.88,
+          "heightDelta": 86,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 33,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "path": "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+      "title": "Gewerbliche Cyber-Versicherung für Unternehmen | ERGO",
+      "templateId": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen/_meta.json",
+        "sourceHash": "sha256:befbd68b84a7fc2472f2cfee38da6efc64c2b897caf90c5efd844f50772f1ff4",
+        "sourceUrl": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+        "migratedFile": "stardust/migrated/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen/index.html"
+      },
+      "blocks": [
+        "hero",
+        "benefits",
+        "accordion",
+        "cta",
+        "product-table",
+        "carousel",
+        "promo"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+        "deployedAt": "2026-10-28T17:43:42.873Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.38,
+          "heightDelta": 102,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 23,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 10.38% > 10%"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+      "path": "/de/geschaeftskunden-produkte/dienstreiseversicherung",
+      "title": "Dienstreiseversicherung für Geschäftskunden | ERGO",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2b996e174b69ab771f05078ba9b01ab0d27631d1d3e9a1219004b8e25c401afb",
+        "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte-dienstreiseversicherung.json",
+        "sourceUrl": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung",
+        "deployedAt": "2026-10-28T18:18:23.004Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.72,
+          "heightDelta": 49,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+    },
+    {
+      "slug": "de-produkte",
+      "path": "/de/produkte",
+      "title": "Alle Produkte: Versicherungen & Investment | ERGO",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:87db799fdaa622d09f302d13fd0d744a65d3b612d1045834dfc4ab0442f16247",
+        "currentStatePath": "stardust/current/pages/de-produkte.json",
+        "sourceUrl": "https://www.ergo.de/de/Produkte"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/produkte",
+        "deployedAt": "2026-10-28T21:38:17.807Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 21.81,
+          "heightDelta": 159,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 96,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 21.81% > 10%"
+          ],
+          "override": "PASS (documented residual)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Produkte"
+    },
+    {
+      "slug": "de-ratgeber",
+      "path": "/de/ratgeber",
+      "title": "Ratgeber | ERGO",
+      "templateId": "de-ratgeber",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/de/Ratgeber/_meta.json",
+        "sourceHash": "sha256:75bee721754df9c5e07cc806e7271a0c59f1bbcdab49bd6cc579eddcd35a26eb",
+        "sourceUrl": "https://www.ergo.de/de/Ratgeber",
+        "migratedFile": "stardust/migrated/de/Ratgeber/index.html"
+      },
+      "blocks": [
+        "article-header",
+        "breadcrumb",
+        "ccw",
+        "promo",
+        "carousel",
+        "benefits"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/ratgeber",
+        "deployedAt": "2026-10-28T18:48:13.339Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 30.09,
+          "heightDelta": 250,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 50,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 30.09% > 10%",
+            "units off 0 hidden 0 missing 0"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Ratgeber"
+    },
+    {
+      "slug": "de-rechtsportal",
+      "path": "/de/rechtsportal",
+      "title": "Rechtsportal | ERGO",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8fce99713f5880529ca9d56bb165caabd8acf132c824ad19e56bdc31eff5ba9c",
+        "currentStatePath": "stardust/current/pages/de-rechtsportal.json",
+        "sourceUrl": "https://www.ergo.de/de/rechtsportal"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/rechtsportal",
+        "deployedAt": "2026-10-28T19:18:39.064Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 15.76,
+          "heightDelta": 35,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 23,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 15.76% > 10%"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      }
+    },
+    {
+      "slug": "de-service",
+      "path": "/de/service",
+      "title": "Servicebereich | ERGO",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:99b5dc13aac9f4cc6f02201e91659ddeb16ac0e209475a76693796b68a3b835c",
+        "currentStatePath": "stardust/current/pages/de-service.json",
+        "sourceUrl": "https://www.ergo.de/de/Service"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/de/service",
+        "deployedAt": "2026-10-28T21:38:17.858Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 22.46,
+          "heightDelta": 86,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 67,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 22.46% > 10%"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      },
+      "sourcePath": "/de/Service"
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:0138f03421ce416a4f799f74437214882022ba093209b432f0fd4518fff75d7d",
+        "sourceUrl": "https://www.ergo.de/"
+      },
+      "blocks": [
+        "banner",
+        "hero",
+        "carousel",
+        "cta",
+        "ekomi"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--856f1bba--aemcoder.aem.page/",
+        "deployedAt": "2026-10-28T19:41:41.109Z",
+        "verifiedAt": "2026-10-28T23:22:40.265Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.59,
+          "heightDelta": -144,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 29,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 14.59% > 10%"
+          ],
+          "override": "PASS (same-browser)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T23:09:05.547Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:54:01.916Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

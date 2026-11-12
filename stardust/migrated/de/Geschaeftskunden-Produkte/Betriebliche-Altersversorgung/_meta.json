@@ -1,0 +1,431 @@
+{
+  "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+  "modules": [
+    "hero",
+    "accordion",
+    "benefits",
+    "product-table",
+    "promo",
+    "carousel"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "grid"
+  ],
+  "canonShas": {
+    "header": "becebe785a60",
+    "footer": "8986912783c9",
+    "css": "49d76ee4a156"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Betriebliche Altersversorgung für Geschäftskunden | ERGO",
+    "description": "Mitarbeiter ans Unternehmen binden und Förderung für die Vorsorge Ihrer Mitarbeiter nutzen",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Betriebliche Altersversorgung für Geschäftskunden | ERGO",
+    "description": "Mitarbeiter ans Unternehmen binden und Förderung für die Vorsorge Ihrer Mitarbeiter nutzen",
+    "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+  },
+  "migratedAt": "2026-10-28T18:02:20Z",
+  "designMdSha": "9d465ca20858",
+  "designJsonSha": "7ad1fc1913c1",
+  "sourceCurrentSha": "975024d51730",
+  "sourceProposedSha": "e8f82e2bd890",
+  "fidelityTier": "sibling",
+  "archetypeSource": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+  "archetypeSha": "671a24a5e298",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 (content-driven deltas: accordion count/h2 headers, table w/ text cells + left alignment, box benefits light colours) -> variants product-table left, benefits light-teal/light-green; stardust/rollout/units/cluster-program-variance.json",
+    "content-count": "content-diff live vs aem.page main: MISSING 0 (headings/body/CTAs/images all present, 3 accordion-panel images restored from capture); looks-same 32 = ROLE SWAP p->heading (archetype ROLE UPGRADE convention: accordion/tile/promo/table heads), nothing-lost 8 = aria-label equal to link text (EDS links carry no aria-label); gate-all content MISSING 0 / HIDDEN 0",
+    "content-fidelity": "verbatim encode from the sibling prototype (encode-program-sibling.mjs); text, CTA labels+hrefs, image alts unchanged",
+    "delivery-lint": "0 P0 / 0 P1 / 1 P2 (hosted hero image)",
+    "media-reconcile": "all images hosted, in media ledger",
+    "pixel-gate-1440": "gate-all aem.page 8.74% dh 142 clip 0 MISSING 0/HIDDEN 0 PASS",
+    "pixel-gate-360": "gate-all aem.page 9.89% dh 86 clip 0 MISSING 0/HIDDEN 0 PASS"
+  },
+  "contentDeviations": [
+    {
+      "kind": "role-upgrade",
+      "source": "p (accordion/tile titles, promo headline, table column heads)",
+      "target": "h3/h4",
+      "reason": "archetype ROLE UPGRADE convention (eds-conversion-log archetype-program): same look, authored as headings"
+    },
+    {
+      "kind": "style",
+      "source": "ul.check-list--green mixed with plain ul inside one accordion; caption paragraphs (txt__caption)",
+      "target": "accordion check-list applies to every panel list; captions as plain paragraphs",
+      "reason": "closed panels only (not visible at rest); no per-list authoring signal in the accordion content model"
+    }
+  ],
+  "assetsBundled": 49,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebskostenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebsschliessungsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Landwirtschaftliche-Inhaltsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Kautionsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/mietkautionsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Bauleistungsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Elektronikversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Maschinenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Fahrbare-Maschinenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Montageversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Spezialdeckung-Erneuerbare-Energien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Industriehaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Vermoegensschadenhaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Warenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Haftungsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Schiffsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Nebenspartenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Risikomanagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Transportversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Firmen-Kunstversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/firmen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/aerzte-heilberufe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/landwirte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Gruppenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gruppen-Unfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Produkte",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Kundenbereich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ergo-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtsportal",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FBetriebliche-Altersversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Index-Rente/BetriebsrentenstaerkungsgesetzGK",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/nachhaltige-produktinformationen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-longial-pensionsplan.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-anlageportfolios.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-versicherungsfoermige-produktvariante.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-fondsfoermige-produktvariante.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-alpha-pensionsplan.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Kundenbereich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtsportal",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Newsletter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/kunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Anbieter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Barrierefreiheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-widerrufen",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung/_meta.json",
+  "driverVersion": "1"
+}

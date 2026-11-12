@@ -1,0 +1,1724 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-geschaeftskunden-produkte-betriebliche-altersversorgung-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Betriebliche Altersversorgung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Vorteile und Produkte der betrieblichen Altersversorgung"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FBetriebliche-Altersversorgung"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Mit dem brachte die Bundesregierung ein umfassendes Maßnahmenpaket zur Förderung der betrieblichen Altersversorgung (bAV) auf den Weg. Durch verschiedene, schrittweise Verbesserungen wurde die bAV für Arbeitgeber und Arbeitnehmer gleichermaßen attraktiver gestaltet. Zahlreiche Änderungen gelten seitdem unabhängig von Branche und Tarifbindung für alle Unternehmen. Nutzen Sie die Vorteile der bAV für Ihre Beschäftigten und Ihr Unternehmen:"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Betriebsrentenstärkungsgesetz",
+     "href": "/de/Produkte/Rentenversicherung/Index-Rente/BetriebsrentenstaerkungsgesetzGK"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fürs Alter vorsorgen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mitarbeiter absichern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Mitarbeiter motivieren"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unsere Top-Produkte für die Direktversicherung, Unterstützungskasse und Direktzusage"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Betriebs-Rente Index"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Maximale Sicherheit durch Anlage im klassischen Sicherungsvermögen und Chance auf attraktive Rendite"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "zum vereinbarten Beginn der Verfügungsphase stehen 100 % aller planmäßig eingezahlten Beiträge ab 12 Jahre Laufzeit zur Verfügung. Die der ERGO Vorsorge Lebensversicherung AG. Bei der Verwendung der Überschussbeteiligung haben Sie die Wahl zwischen klassischer Überschussbeteiligung oder Indexbeteiligung. Bei der Indexbeteiligung nehmen Sie an der Wertentwicklung des MSCI World Index (EUR) oder des Munich Re World Wide Trend Index teil. Auch eine Aufteilung der Überschussbeteiligung zwischen den Anlageformen ist möglich. der ERGO Betriebs-Rente Index: förderfähig nach § 3 Nr. 63 EstG und nach § 100 EstG,hohe Flexibilität der Vertragsgestaltung, optionaler Zusatzschutz sowie Rentenberechnung mit Dreifach-Vorteil."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ERGO garantiert:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Anlage erfolgt im klassischen Sicherungsvermögen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Weitere Vorteile"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Betriebs-Rente Dynamik / ERGO Betriebs-Rente Dynamik Comfort"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Anlage im Sicherungsvermögen und mit ausgewähltem Fondsportfolio. Für attraktive Renditechancen und Beitragsgarantie gemäß dem gewählten Garantieniveau"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die ERGO Betriebs-Rente Dynamik bietet , durch eine große Auswahl von Fonds oder​ sechs Anlageportfolios. Auf Wunsch mit kostengünstigen​ ETFs und unter Berücksichtigung von sozialen und ökologischen ​Kriterien. Absolut solide Sicherheit dank von​ 60 bis 100 %."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Renditechancen​ von Anfang an"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Beitragsgarantie"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Zum Schutz der Altersvorsorge wird ein Teil des Vertragsguthabens im ERGO-Sicherungsvermögen angelegt. Die ERGO Betriebsrente Dynamik weist für das Sicherungsvermögen aktuell mit 75% die höchste SFDR-Quote* aller Versicherer in Deutschland auf."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "der ERGO Betriebs-Rente Dynamik: förderfähig nach § 3 Nr. 63 EstG und nach § 100 EstG, hohe Flexibilität der Vertragsgestaltung, optionaler Zusatzschutz sowie Rentenberechnung mit Dreifach-Vorteil."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Weitere Vorteile"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Als bietet die die oben beschriebenen Vorteile, umfasst jedoch in Bezug auf Kapitalanlage, Garantieniveau und Zusatzversicherung ein schlankeres Spektrum an Optionen und ist damit einfacher beim Abschluss und im vertraglichen Ablauf. Die Comfort-Variante ist nur nach § 3 Nr. 63 EStG förderfähig."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Variante"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "ERGO Betriebs-Rente Dynamik Comfort"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "*Die SFDR-Quote (Sustainable Finance Disclosure Regulation, dt. EU-Offenlegungsverordnung) gibt an, inwieweit die Investi-tionen eines Versicherungsunternehmens oder eines von ihm angebotenen Finanzprodukts Aspekte in den Bereichen Um-welt, Soziales und Unternehmensführung berücksichtigen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die Produkte und Durchführungswege der ERGO"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Betriebs-Rente Index in der Direktversicherung, Unterstützungskasse oder Direktzusage"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Moderne Kombination aus Beitragsgarantie und Indexbeteiligung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "100 % Beitragsgarantie auf alle planmäßig eingezahlten Beiträge ab 12 Jahre Laufzeit"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Sichere Anlage im klassischen Sicherungsvermögen mit Überschussbeteiligung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Teilhabe an der Wertentwicklung des MSCI World Index und/oder des Munich Re World Wide Trend Index"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Alternativ klassische Überschussbeteiligung statt Indexbeteiligung oder in Kombination mit Indexbeteiligung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Hohe Flexibilität der Vertragsgestaltung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Zusatzschutz möglich"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Rentenberechnung mit Dreifach-Vorteil"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr Informationen",
+     "href": "http://www.ergo-meine-druckstuecke.de/download/12153"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "ERGO Betriebs-Rente Dynamik in der Direktversicherung, Unterstützungskasse oder Direktzusage"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Für Renditechancen mit Beitragsgarantie"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Solide Sicherheit dank Beitragsgarantie von​ 60 bis 100 %"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Anlage im Sicherungsvermögen und mit ausgewähltem Fondsportfolio"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Individuelle, große Fondsauswahl oder Wahl eines Anlageportfolios"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Auf Wunsch mit kostengünstigen ETFs und unter Berücksichtigung von sozialen und ökologischen​ Kriterien"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Zusätzlich Leistungen für versorgungsberechtigte Hinterbliebene (nur bei Direktversicherung) oder für den Fall der Berufsunfähigkeit möglich"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Flexible Anpassungsmöglichkeiten auch während der Laufzeit"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "hohe SFDR-Quote im Sicherungsvermögen (SFDR: Sustainable Finance Disclosure Regulation)"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Mehr Informationen",
+     "href": "http://www.ergo-meine-druckstuecke.de/download/12137"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "ERGO Betriebs-Rente Dynamik Comfort in der Direktversicherung"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Die komfortable Gestaltungsvariante"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Wahlweise 80% oder 100% Beitragsgarantie"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Anlage im Sicherungsvermögen und mit ausgewählter Fondsanlage"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Für die Fondsanlage stehen zwei Anlageportfolios zur Auswahl"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Hohe SFDR-Quote im Sicherungsvermögen (SFDR: Sustainable Finance Disclosure Regulation)"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Beitragsbefreiung für den Fall der Berufsunfähigkeit möglich"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Mehr Informationen",
+     "href": "http://www.ergo-meine-druckstuecke.de/download/12907"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "ERGO Betriebs-Rente Index – Arbeitgeberförderbetrag"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Arbeitgeberfinanzierte Direktversicherung mit Extra-Förderung für den Arbeitgeber"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Mindestens 100 % Beitragsgarantie auf alle planmäßig gezahlten Beiträge"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Sichere Anlage im klassischen Sicherungsvermögen mit Überschussbeteiligung"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Teilhabe an der Wertentwicklung des MSCI World Index und/oder des Munich Re World Wide Trend Index"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Alternativ klassische Überschussbeteiligung statt Indexbeteiligung oder in Kombination mit Indexbeteiligung"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Rentenberechnung mit Dreifach-Vorteil"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "240 bis 960 € jährlicher Beitrag als Arbeitgeberleistung"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Finanzamt erstattet Arbeitgeber sofort einen Teil der Beiträge für Mitarbeiter mit Bruttomonatsgehalt bis 2.575 €"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Mehr Informationen",
+     "href": "https://www.ergo-meine-druckstuecke.de/download/9612"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "ERGO Betriebs-Rente Dynamik – Arbeitgeberförderbetrag"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Arbeitgeberfinanzierte fondsgebundene Direktversicherung mit Extra-Förderung für den Arbeitgeber"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Solide Sicherheit dank Beitragsgarantie, wählbar zwischen 60 und 100%"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Anlage im Sicherungsvermögen und mit ausgewähltem Fondsportfolio"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Individuelle Fondsauswahl oder Wahl eines Anlageportfolios"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Jährlicher Beitrag auch über 960 € pro Jahr und Arbeitnehmer möglich – für den übersteigenden Teil Förde-rung nach § 3 Nr. 63 EstG möglich"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Hohe SFDR-Quote im Sicherungsvermögen (SFDR: Sustainable Finance Disclosure Regulation)"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Mehr Informationen",
+     "href": "http://www.ergo-meine-druckstuecke.de/download/9613"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "ERGO BU Best in der Direktversicherung"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Erstklassige Absicherung des Risikos Berufsunfähigkeit"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Leistung, wenn der zuletzt ausgeübte Beruf für voraussichtlich mehr als sechs Monate aus gesundheitlichen Gründen nicht mehr ausgeübt werden kann"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Verkürzter Prognosezeitraum: Leistungen nicht erst bei voraussichtlich dauerhafter Einschränkung, sondern bereits bei voraussichtlich 6-monatiger"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Rückwirkende Leistung: Wird die Berufsunfähigkeit erst später festgestellt, werden die Leistungen auch rückwirkend gezahlt"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Attraktive Förderung: Beiträge sind (bis zu einer Höchstgrenze) steuer- und sozialabgabenfrei"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Keine abstrakte Verweisung: ERGO verzichtet regelmäßig darauf, in einen anderen Beruf zu verweisen, wenn Ihr Mitarbeiter in seinem zuletzt ausgeübten Beruf berufsunfähig wird"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Weitere Top-Bedingungen, weitreichende Flexibilität"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Mehr Informationen zu ERGO BU Best und ERGO Body Protect",
+     "href": "http://www.ergo-meine-druckstuecke.de/download/11766"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "ERGO Body Protect in der Direktversicherung"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Erstklassige Absicherung von Grundfähigkeiten"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Leistung, wenn eine der versicherten Grundfähigkeiten für voraussichtlich mindestens sechs Monate verloren geht (auch, wenn Erwerbstätigkeit nicht eingeschränkt ist!)"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Bedarfsabhängig gestaltbare Absicherung der Leistungsfähigkeit Ihrer Mitarbeiter"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Auswahl zwischen drei Leistungspaketen und zwei optionalen Zusatzbausteinen"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Highlight: Mit dem Zusatzbaustein „Sport Plus“ können zahlreiche für die Sportausübung essenzielle Fähigkeiten abgesichert werden"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Rückwirkende Leistung: Wird der Verlust einer Grundfähigkeit erst später festgestellt, werden die Leistungen auch rückwirkend gezahlt"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Mehr Informationen zu ERGO BU Best und ERGO Body Protect",
+     "href": "https://www.ergo-meine-druckstuecke.de/download/11766"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 29,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 7,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vorteile der Direktversicherung von ERGO"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vorteil 1: Alters-, Berufsunfähigkeitsversorgung und Grundfähigkeitsabsicherung für Ihre Mitarbeiter"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Staatlich geförderte Versorgung finanziert durch Gehaltsumwandlung, Mischfinanzierung oder Arbeitgeberleistung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Steuer- und sozialabgabenfreie Beiträge zur Direktversicherung: Der Staat beteiligt sich an der Finanzierung."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Beiträge bis zu 8 % der Beitragsbemessungsgrenze steuerfrei und bis zu 4 % sozialversicherungsfrei. Es gilt die Beitragsbemessungsgrenze der gesetzlichen Rentenversicherung."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Erst die späteren Leistungen sind für den Begünstigten steuerpflichtig. Gesetzlich krankenversicherte Rentner leisten auf die Betriebsrente den vollen Beitrag zur gesetzlichen Krankenversicherung – nach Abzug des Freibetrags für Betriebsrenten in der gesetzlichen Krankenversicherung."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Bei Gehaltsumwandlung (sog. Entgeltumwandlung) zahlen Sie als Arbeitgeber einen Zuschuss in Höhe von 15 % des umgewandelten Betrags. Dieser Zuschuss finanziert sich aus Ihrer Sozialabgabenersparnis aufgrund der Gehaltsumwandlung Ihrer Mitarbeiter."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Damit erfüllen Sie den Rechtsanspruch der Mitarbeiter auf Gehaltsumwandlung."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Darüber hinaus können Sie sich mit einem zusätzlichen, freiwilligen Beitrag an der bAV Ihrer Mitarbeiter beteiligen. Die sog. Mischfinanzierung ist eine für beide Seiten attraktive und beliebte Form der Finanzierung."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Sie können auch eine bAV einrichten, bei der Sie die Beiträge allein finanzieren. Die arbeitgeberfinanzierte bAV kann eine lohnende Alternative zu einer Gehaltserhöhung sein."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "In jedem Fall gilt: Die betriebliche Altersversorgung ist ein Instrument, mit dem Sie bei Ihren Mitarbeitern punkten können."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Mehr Informationen",
+     "href": "https://www.ergo-meine-druckstuecke.de/download/8859"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Vorteil 2: Arbeitgeberfinanzierte Direktversicherung mit Extra-Förderung für den Arbeitgeber"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Staatliche Förderung für Arbeitgeber, die für Mitarbeiter mit kleineren und mittleren Einkommen eine bAV finanzieren"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Gefördert wird eine arbeitgeberfinanzierte bAV für Bezieher von Einkommen bis 2.575 € monatlich."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Sie als Arbeitgeber investieren zwischen 240 und 960 € jährlich je Mitarbeiter."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Der Staat erstattet Ihnen einen Teil der Beiträge. Der effektive Aufwand beträgt nach Steuern für Sie als Arbeitgeber häufig nur rund 50 % des tatsächlichen Beitrags. Die arbeitgeberfinanzierte bAV ist daher eine lohnende Alternative zu einer Gehaltserhöhung."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Mit der arbeitgeberfinanziertern bAV positionieren Sie sich als soziales Unternehmen und nutzen die staatliche Förderung für Beiträge. Sie binden Ihre Mitarbeiter stärker ans Unternehmen."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Mehr Informationen",
+     "href": "https://www.ergo-meine-druckstuecke.de/download/9613"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Vorteil 3: Einfache Handhabung & Transparenz"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Die Direktversicherung ist verwaltungsarm"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Arbeitgeber überweist Beiträge an ERGO"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "ERGO zahlt die spätere Rente direkt an Arbeitnehmer"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Die Direktversicherung ist bilanzneutral und insolvenzsicherungsfrei"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 11
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Weitere Durchführungswege der betrieblichen Altersversorgung und Ihre Vorteile"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unterstützungskasse"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "bAV im Rahmen einer kongruent rückgedeckten Unterstützungskasse"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Die Unterstützungskasse (U-Kasse) ist eine rechtlich selbstständige Versorgungseinrichtung, die für den Arbeitgeber die Verwaltung der bAV übernimmt."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Der Arbeitgeber erteilt seinem Arbeitnehmer über die U-Kasse eine Zusage auf Leistungen aus einer bAV. Zur Finanzierung dieser Leistungen schließt die U-Kasse bei ERGO eine Rückdeckungsversicherung ab. Im Leistungsfall erhält sie die Leistungen aus der Versicherung und zahlt damit die vereinbarten Versorgungsleistungen direkt an die Versorgungsberechtigten. Die vom Arbeitgeber an die U-Kasse zu leistenden Zuwendungen entsprechen den Beiträgen zur Rückdeckungsversicherung. Eine U-Kassen-Versorgung kann vom Arbeitgeber oder vom Arbeitnehmer (Gehaltsumwandlung) oder als Mischform dieser beiden finanziert werden."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Direktzusage"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Die bAV für individuelle Wünsche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Die Direktzusage ist eine betriebliche Altersversorgung für sehr individuellen Versorgungsbedarf. Sie sagen Ihrem Arbeitnehmer unmittelbar eine Versorgung zu. Das heißt, Sie sind selbst Träger der Versorgung und müssen sicherstellen, dass Sie die Zusage jederzeit erfüllen können. Dafür bilden Sie Rückstellungen in der Bilanz."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Zur planmäßigen Finanzierung der künftigen Verpflichtungen ist es sinnvoll, eine Rückdeckungsversicherung abzuschließen. Denn so übertragen Sie dieses Risiko ganz oder teilweise auf die ERGO Lebensversicherung AG. Die Rückdeckungsversicherung weisen Sie auf der Aktivseite der Bilanz aus."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Pensionsfonds"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Betriebsfremde Risiken auslagern"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Auf den Pensionsfonds können Sie bereits erdiente Anwartschaften Ihrer Mitarbeiter und laufende Versorgungsleistungen aus unmittelbaren Direktzusagen übertragen. Dazu leisten Sie einen Einmalbeitrag an die ERGO Pensionsfonds AG. Auf diese Weise können Sie Finanzierungslücken verringern und die Bilanz entlasten. Der Pensionsfonds räumt den Arbeitnehmern und ihren Hinterbliebenen in Höhe der übertragenen Anwartschaften und Leistungen einen eigenen Rechtsanspruch ein."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Risikoträger: ERGO Pensionsfonds AG"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vorteile der betrieblichen Altersversorgung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vorteile einer Unterstützungskasse"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "XXL-Versorgung – für Leitende und Führungskräfte"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Die Höhe der zugesagten Leistungen ist sehr flexibel."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Für den Arbeitnehmer sind die Beiträge zur Rückdeckungsversicherung nicht steuerpflichtig."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Erst die späteren Leistungen sind steuerpflichtig."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Geeignet für Personen, die bereits die steuerlichen Grenzen aus der Direktversicherung ausgeschöpft haben."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Finanzierung der Versorgungszusage"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Die Rückdeckungsversicherung sichert die zugesagten Leistungen ab. Die Finanzierung ist so kalkulierbar."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Der Arbeitgeber leistet Zuwendungen an die Unterstützungskasse in Höhe der Beiträge für die Rückdeckungsversicherung."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Die Zuwendungen zur U-Kasse sind steuermindernde Betriebsausgaben."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Die Finanzierung kann sowohl durch Gehaltsumwandlung als auch durch Aufwendungen des Arbeitgebers erfolgen."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Lagern Sie Risiken und Verwaltung einfach aus"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Die Verwaltung und Abwicklung übernimmt die Unterstützungskasse (gegen eine Verwaltungsgebühr)."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Die Versorgung über eine U-Kasse hat keine Auswirkungen auf die Bilanz."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Die Versorgungsrisiken lagern Sie an die rückgedeckte U-Kasse aus."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Vorteile einer rückgedeckten Direktzusage"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Individuelle Versorgung – für Leitende und Führungskräfte"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Die Höhe der zugesagten Leistungen ist sehr flexibel."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Für den Arbeitnehmer ist die Direktzusage in der Anwartschaftsphase nicht steuerpflichtig. Erst die späteren Leistungen sind steuerpflichtig."
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Die Gesamt-Versorgungsbezüge eines Gesellschafter-Geschäftsführers dürfen im Rahmen der Angemessenheitsprüfung 75 % der Aktivbezüge nicht übersteigen."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Wichtig:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Altersversorgung, Rente bei Berufsunfähigkeit oder auch Versorgung für Hinterbliebene möglich."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Finanzierung der Direktzusage"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Tritt der Versorgungsfall ein, muss der Arbeitgeber die zugesagten Leistungen zahlen."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Eine Rückdeckungsversicherung sichert die zugesagten Leistungen ab."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Diese zahlt das Unternehmen ganz oder teilweise aus der Versicherungsleistung. Die Finanzierung ist so kalkulierbar."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Die Finanzierung kann sowohl durch Gehaltsumwandlung als auch durch Aufwendungen des Arbeitgebers erfolgen."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Ausweis in der Bilanz"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Der Arbeitgeber ist unmittelbar Träger der Versorgung. Diese Verbindlichkeit weist das Unternehmen in der Bilanz aus."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Das in der Rückdeckungsversicherung angesammelte Kapital aktiviert das Unternehmen als Vermögen in der Bilanz."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Die Beiträge für die Rückdeckungsversicherung sind Betriebsausgaben. Diese mindern den Gewinn."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Vorteile eines Pensionsfonds"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Auslagerung betriebsfremder Risiken"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Der Pensionsfonds eignet sich für die Auslagerung erdienter Anwartschaften oder laufender Rentenzahlungen (sog. „past service“)."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Dazu leisten Sie einen Einmalbeitrag an den Pensionsfonds. Diesen können Sie als Betriebsausgabe steuerlich geltend machen."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Der Einmalbeitrag ist lohnsteuerfrei für die Versorgungsberechtigten."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Entlastung der Bilanz"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Für die betriebliche Altersversorgung im Rahmen von Direktzusagen haben Sie Rückstellungen gebildet. Diese werden als Verpflichtungen Dritten gegenüber wie Fremdkapital behandelt und belasten dadurch die Bilanz."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Die Rückstellungen für den übertragenen Teil der Versorgungszusage werden gewinnerhöhend aufgelöst."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Durch die Übertragung eines Teils Ihrer Versorgungsversprechen stellen Sie diese auf eine solide Basis und entlasten Ihre Bilanz um diese Position."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Mehr Zukunftssicherung für Ihr Unternehmen – und für Sie"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Durch die Auflösung der Rückstellungen für den übertragenen Teil der Versorgungszusagen bereinigen Sie Ihre Bilanz. Das kann für Ihr Unternehmen Vorteile haben:"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Bessere Kreditkonditionen, da rückstellungsfinanzierte Zusagen die Kreditwürdigkeit belasten."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Reduzierung der PSV-Beiträge"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Auslagerung administrativer Tätigkeiten"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 15
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die Durchführungswege im Vergleich"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "product-table",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Durchführungsweg der betrieblichen Altersversorgung (bAV)"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Art der bAV & Zielgruppe"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Anwartschaft"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Steuer & Sozialabgaben des Arbeitnehmers"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Leistungen"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Steuer & Sozialabgaben des Arbeitnehmers"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Direktversicherung nach § 3 Nr. 63 EStG Altersrente, Einkommensschutz über die bAV"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Altersversorgung bzw. Einkommensabsicherung bei Berufsunfähigkeit oder Verlust von Grundfähigkeiten im Rahmen des steuerfreien Höchstbeitrags der Direktversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "für alle Mitarbeiter"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Beiträge bis zu 8 % der Beitragsbemessungsgrenze steuerfrei und bis zu 4 % sozialversicherungsfrei"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Sozialabgabenpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Direktversicherung Arbeitgeberförderbetrag nach § 100 EStG"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Idealer Grundbaustein für Leistet der Arbeitgeber für diese Mitarbeiter Beiträge von 240 bis 960 € im Jahr, erhält er über Direktabzug von der Lohnsteuer einen Förderbetrag von 30%."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Mitarbeiter mit Bruttoeinkommen bis 2.575 €:"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "sozialabgabenfrei"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Sozialabgabenpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Unterstützungskasse"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Für Personen mit hohem Versorgungsbedarf, die bereits die Fördermöglichkeit der Direktversicherung ausgeschöpft haben."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Beiträge in Rückdeckungsversicherung sind kein steuerpflichtiger Arbeitslohn"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Sozialabgabenpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Direktzusage"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Für Personen mit hohem Versorgungsbedarf, die bereits die Fördermöglichkeit der Direktversicherung ausgeschöpft haben."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Rückstellungen und Beiträge in Rückdeckungsversicherung sind kein steuerpflichtiger Arbeitslohn"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Sozialabgabenpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Pensionsfonds - Auslagerung"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Unternehmen, die unmittelbare Versorgungsverpflichtungen gegen Einmalbeitrag auslagern möchten"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Steuerfrei"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Sozialabgabenfrei"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Steuerpflichtig"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Sozialabgabenpflichtig"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "DIV.productTable__row",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wissenswertes im Überblick"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Produktbezogene Informationen gemäß EU-OffenlegungsVO"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "finden Sie Informationen zu Nachhaltigkeitsaspekten der ERGO Produkte."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Hier",
+     "href": "/de/Produkte/Rentenversicherung/nachhaltige-produktinformationen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Pensionsfonds: Allgemeine Informationen zum Altersversorgungssystem (VAG-InfoV)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Hier finden Sie Informationen zum ERGO Pensionsfonds und ergänzende Hinweise. Diese Dokumente dienen der Information der versorgungsberechtigten Person gemäß §§ 234l bis 234n in Verbindung mit § 237 Abs. 1 VAG Versicherungsaufsichtsgesetz (VAG) und § 3 VAG-Informationspflichtenverordnung (VAG-InfoV)."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Informationen zum Longial Pensionsplan"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Merkblatt (individuelle Fondauswahl)",
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-longial-pensionsplan.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Merkblatt (Anlageportfolio)",
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-anlageportfolios.pdf"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Informationen zum Pensionsplan für Versorgungsablösungen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Merkblatt versicherungsförmige Produktvariante",
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-versicherungsfoermige-produktvariante.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Merkblatt fondsförmige Produktvariante",
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-pensionsplan-fondsfoermige-produktvariante.pdf"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Informationen zum ERGO Alpha Pensionsplan"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Merkblatt",
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/merkblatt-alpha-pensionsplan.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Lassen Sie sich ein individuelles Angebot erstellen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sie möchten eine persönliche Beratung? Ein ERGO Berater vor Ort ist für Sie da und spricht gern mit Ihnen über den passenden Versicherungsschutz."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Das könnte Sie auch interessieren:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Gewerbliche Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schützen Sie sich: mit der Gewerbe-Haftpflichtversicherung von ERGO für Unternehmen und Selbstständige."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Gewerbliche Gebäudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Eine gewerbliche Immobilie ist ein elementarer Bestandteil Ihres Betriebs. Sichern Sie sie ab."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Nicht sicher, was Sie benötigen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dann lassen Sie sich helfen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Per E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail schreiben",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gleich Termin vereinbaren."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mo–Sa 7–20 Uhr (gebührenfrei)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Rufen Sie an."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-12",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dies ist ein Produkt der ERGO Vorsorge Lebensversicherung AG bzw. ERGO Pensionsfonds AG."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

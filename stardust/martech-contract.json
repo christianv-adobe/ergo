@@ -1,0 +1,594 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-28T16:33:28.847Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.ergo.de"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "2e444b6c-b8f3-4168-9849-e299a3e2a79b"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "per-tag",
+  "categories": [
+   {
+    "id": "E0020",
+    "name": "Adobe Launch",
+    "status": "always active"
+   },
+   {
+    "id": "E0070",
+    "name": "Adobe Target Basis",
+    "status": "always active"
+   },
+   {
+    "id": "E0090",
+    "name": "ERGO Aktions-Webseite",
+    "status": "always active"
+   },
+   {
+    "id": "E0010",
+    "name": "OneTrust",
+    "status": "always active"
+   },
+   {
+    "id": "E0030",
+    "name": "Realperson Chat",
+    "status": "always active"
+   },
+   {
+    "id": "C0001",
+    "name": "Unbedingt erforderliche Tools",
+    "status": "always active"
+   },
+   {
+    "id": "P0010",
+    "name": "Adobe Analytics",
+    "status": "inactive"
+   },
+   {
+    "id": "P0020",
+    "name": "Adobe Target Personalisierung & Messung",
+    "status": "inactive"
+   },
+   {
+    "id": "P0110",
+    "name": "Alida Touchpoint-Survey Tool",
+    "status": "inactive"
+   },
+   {
+    "id": "P0050",
+    "name": "Dynatrace",
+    "status": "inactive"
+   },
+   {
+    "id": "P0080",
+    "name": "ERGO Online Survey Tool",
+    "status": "inactive"
+   },
+   {
+    "id": "P0100",
+    "name": "Fullstory",
+    "status": "inactive"
+   },
+   {
+    "id": "C0003",
+    "name": "Funktionelle Tools",
+    "status": "inactive"
+   },
+   {
+    "id": "P0090",
+    "name": "MouseFlow",
+    "status": "inactive"
+   },
+   {
+    "id": "P0030",
+    "name": "OneTrust Messung von Browser, Land, Device Type",
+    "status": "inactive"
+   },
+   {
+    "id": "C0002",
+    "name": "Komfort- & Analyse-Tools",
+    "status": "inactive"
+   },
+   {
+    "id": "M0010",
+    "name": "INACTIVE Adform",
+    "status": "inactive"
+   },
+   {
+    "id": "M0005",
+    "name": "Affiliate (Finance Ads)",
+    "status": "inactive"
+   },
+   {
+    "id": "M0090",
+    "name": "CND Motion Media GmbH",
+    "status": "inactive"
+   },
+   {
+    "id": "M0110",
+    "name": "emarsys Web Extend-Technologie",
+    "status": "inactive"
+   },
+   {
+    "id": "M0120",
+    "name": "ERGO Marketing Data Hub",
+    "status": "inactive"
+   },
+   {
+    "id": "M0140",
+    "name": "Facebook Conversion Tracking",
+    "status": "inactive"
+   },
+   {
+    "id": "M0130",
+    "name": "Facebook Retargeting",
+    "status": "inactive"
+   },
+   {
+    "id": "M0190",
+    "name": "Facebook Custom Audience",
+    "status": "inactive"
+   },
+   {
+    "id": "M0060",
+    "name": "Google Conversion Tracking inkl. Search Ads 360",
+    "status": "inactive"
+   },
+   {
+    "id": "M0230",
+    "name": "Google Custom Audience",
+    "status": "inactive"
+   },
+   {
+    "id": "M0040",
+    "name": "Google Enhanced Conversion",
+    "status": "inactive"
+   },
+   {
+    "id": "M0050",
+    "name": "Google Retargeting inkl. Search Ads 360",
+    "status": "inactive"
+   },
+   {
+    "id": "M0260",
+    "name": "LinkedIn Conversion-Tracking",
+    "status": "inactive"
+   },
+   {
+    "id": "M0030",
+    "name": "Microsoft Conversion Tracking & Remarketing (Bing)",
+    "status": "inactive"
+   },
+   {
+    "id": "M0080",
+    "name": "Microsoft Customer Match",
+    "status": "inactive"
+   },
+   {
+    "id": "M0160",
+    "name": "Outbrain Retargeting und Conversion Tracking (UK)",
+    "status": "inactive"
+   },
+   {
+    "id": "M0250",
+    "name": "Spoteffects",
+    "status": "inactive"
+   },
+   {
+    "id": "M0170",
+    "name": "Taboola Retargeting und Abschluss Conversion Tracking",
+    "status": "inactive"
+   },
+   {
+    "id": "M0240",
+    "name": "United Internet Media",
+    "status": "inactive"
+   },
+   {
+    "id": "M0270",
+    "name": "Xing",
+    "status": "inactive"
+   },
+   {
+    "id": "C0004",
+    "name": "Marketing-Tools",
+    "status": "inactive"
+   },
+   {
+    "id": "S0002",
+    "name": "Google Maps",
+    "status": "inactive"
+   },
+   {
+    "id": "S0003",
+    "name": "Vimeo",
+    "status": "inactive"
+   },
+   {
+    "id": "S0001",
+    "name": "Youtube Videos",
+    "status": "inactive"
+   },
+   {
+    "id": "C0005",
+    "name": "Sonstige Tools",
+    "status": "inactive"
+   },
+   {
+    "id": "E0050",
+    "name": "Liferay",
+    "status": "inactive"
+   },
+   {
+    "id": "nx000",
+    "name": "Erforderliche Dienste & Tools",
+    "status": "inactive"
+   },
+   {
+    "id": "nx100",
+    "name": "Statistische Funktionen",
+    "status": "inactive"
+   },
+   {
+    "id": "nx200",
+    "name": "Marketing Funktionen",
+    "status": "inactive"
+   },
+   {
+    "id": "nx300",
+    "name": "nx External Media",
+    "status": "inactive"
+   },
+   {
+    "id": "E0060",
+    "name": "Citrix",
+    "status": "inactive"
+   },
+   {
+    "id": "P0060",
+    "name": "NEXOVI – virtueller Beratungsassistent",
+    "status": "inactive"
+   },
+   {
+    "id": "M0180",
+    "name": "INACTIVE Yahoo Germany GmbH Lead-Conversion Tracking",
+    "status": "inactive"
+   },
+   {
+    "id": "M0150",
+    "name": "INACTIVE Kooperation Otto FinanzPlus - Adition",
+    "status": "inactive"
+   },
+   {
+    "id": "M0210",
+    "name": "INACTIVE 6h media",
+    "status": "inactive"
+   },
+   {
+    "id": "M0020",
+    "name": "INACTIVE Adality",
+    "status": "inactive"
+   },
+   {
+    "id": "P0070",
+    "name": "Knexus",
+    "status": "inactive"
+   },
+   {
+    "id": "M0100",
+    "name": "INACTIVE Performance Media",
+    "status": "inactive"
+   },
+   {
+    "id": "M0220",
+    "name": "INACTIVE PRIMEST GmbH Conversion Tracking",
+    "status": "inactive"
+   },
+   {
+    "id": "M0200",
+    "name": "INACTIVE - Lead Link",
+    "status": "inactive"
+   },
+   {
+    "id": "E0080",
+    "name": "Chatbase",
+    "status": "inactive"
+   },
+   {
+    "id": "M0070",
+    "name": "INACTIVE - IntelliAd",
+    "status": "inactive"
+   },
+   {
+    "id": "P0040",
+    "name": "UserZoom",
+    "status": "inactive"
+   },
+   {
+    "id": "E0040",
+    "name": "Inbenta",
+    "status": "inactive"
+   }
+  ],
+  "ruleSets": 1,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtag/js?id=AW-980528457",
+   "boot": "gtag",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "marketing: ad / retargeting pixel",
+  "social proof: reviews widget"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [
+   {
+    "id": "RL12232ba857584acea3205adb8a2b019f",
+    "name": "GE_03_FixforNotClosingConsentTool",
+    "paths": [],
+    "selectors": [
+     "#onetrust-accept-btn-handler",
+     "#onetrust-pc-sdk > div.ot-button-group-parent > div.ot-button-group > button.save-preference-btn-handler.onetrust-close-btn-handler",
+     "#accept-recommended-btn-handler"
+    ]
+   },
+   {
+    "id": "RL1ef7d7b1689f460abd6ad7cff01129c7",
+    "name": "MT_99_DKVBE_Google_AgencesSchmit",
+    "paths": [],
+    "selectors": [
+     "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.PhoneNumber > span.value > a",
+     "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.EmailAddress > a",
+     "#block-gbltoolbox-micrositeinfotop > div > div > div.brokercontact > div.tel > a"
+    ]
+   },
+   {
+    "id": "RL4765914371f9493a8fdd7731852e1ab9",
+    "name": "GE_03_AutoAllow4DigitalSignage",
+    "paths": [],
+    "selectors": [
+     "#onetrust-banner-sdk"
+    ]
+   },
+   {
+    "id": "RL58da75759ffa4fc9b26929d4c6b95c3d",
+    "name": "GE_03_redakteur_sitecore_fix",
+    "paths": [],
+    "selectors": [
+     "#onetrust-banner-sdk"
+    ]
+   },
+   {
+    "id": "RL72be451ad31f4778add213f542ffce4e",
+    "name": "GE_03_Author_Viewed_as_Published_AutoClose_50",
+    "paths": [],
+    "selectors": [
+     "#onetrust-banner-sdk"
+    ]
+   },
+   {
+    "id": "RL73d731a23eec41d0a164a1b6442561ed",
+    "name": "AA_07_CloseModal_50",
+    "paths": [],
+    "selectors": [
+     "button.ee_modal__close-button"
+    ]
+   },
+   {
+    "id": "RL7a5b93a207d64e2699d9a21b3f963cd4",
+    "name": "AA_10_Fahrraddiebstahl_GeneralClick_50",
+    "paths": [],
+    "selectors": [
+     "#fahrraddiebstahl"
+    ]
+   },
+   {
+    "id": "RL8a4d82fd5def44f6bccbe2c49b0261ae",
+    "name": "AA_06_NewContactLeadForm_ClickSubmit_50",
+    "paths": [],
+    "selectors": [
+     "button.ee_button:nth-child(2)"
+    ]
+   },
+   {
+    "id": "RL8bda31024b35496bbc075c44566baaef",
+    "name": "MT_03_google_Kontaktformulare_Angebot_ Feedback_50_WeAreReady",
+    "paths": [],
+    "selectors": [
+     "#c_page2 > div > div:nth-child(6) > a:nth-child(2)"
+    ]
+   },
+   {
+    "id": "RL9bdb7d757cd146fbb67bb662c945fbdf",
+    "name": "AA_03_RatingBlogArticle_Click_50",
+    "paths": [],
+    "selectors": [
+     "div.rating-form > ul"
+    ]
+   },
+   {
+    "id": "RLa38805b98cc44d31a16b148dfa2f2e70",
+    "name": "MT_99_DKVBE_Google_Facebook_Microsoft_Nova-LP-Scroll",
+    "paths": [],
+    "selectors": [
+     "#block-novamockuprighten > div > div.field--name-field_intro.field--type-text_long.field__item > h2",
+     "#block-novamockupright > div > div.field--name-field_intro.field--type-text_long.field__item > h2"
+    ]
+   },
+   {
+    "id": "RLb19102c980a240b1b063248c03dd0fc4",
+    "name": "AA_03_ShareBlogArticle_Click_50",
+    "paths": [],
+    "selectors": [
+     "div.share > ul"
+    ]
+   },
+   {
+    "id": "RLb6a19e1f9e0444b099112133b18fcff1",
+    "name": "MT_99_DKVBE_Google_Facebook_Microsoft_B2B-LP-Scroll",
+    "paths": [],
+    "selectors": [
+     "#block-gbltoolbox-content > div > article > div > div > div:nth-child(5) > div > div > div > div > div > h2"
+    ]
+   },
+   {
+    "id": "RLbd51a9e93a7244abbdd5d8c38cf6374a",
+    "name": "GE_03_OneTrust_RCM Aktionswebsites_dataSecurity+imprint",
+    "paths": [],
+    "selectors": [
+     "#onetrust-policy-text",
+     "#ot-pc-desc"
+    ]
+   },
+   {
+    "id": "RLe16a4ee3fd4b4d7da7d6084354796e5b",
+    "name": "GE_03_OneTrust_Hide_Banner",
+    "paths": [],
+    "selectors": [
+     ".onetrust-pc-dark-filter.ot-hide"
+    ]
+   },
+   {
+    "id": "RLe2a9769b48204c60b11dd7a8b31f23ab",
+    "name": "MT_99_DKVBE_Facebook_Communication-LPs-Scroll",
+    "paths": [],
+    "selectors": [
+     ".col-1.product_matrix_col_product.container-wrapper > div.read-more-wrapper.read-more-wrapper-footer > a"
+    ]
+   },
+   {
+    "id": "RLed2a1f2e0cdc4426976a48f7dd3843fd",
+    "name": "AA_03_ClickToTweetBlogArticle_Click_50",
+    "paths": [],
+    "selectors": [
+     "a.ctt-btn"
+    ]
+   },
+   {
+    "id": "RLf7c6fae82a5c4e8a8bb731ef0b33b320",
+    "name": "MT_99_DKVBE_MicrosoftAds_AgencesSchmit",
+    "paths": [],
+    "selectors": [
+     "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.PhoneNumber > span.value > a",
+     "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.EmailAddress > a",
+     "#block-gbltoolbox-micrositeinfotop > div > div > div.brokercontact > div.tel > a"
+    ]
+   }
+  ],
+  "dataElements": [
+   {
+    "name": "Tarif_CSS",
+    "selectors": [
+     "div.DataElementVertriebsprodukt"
+    ]
+   },
+   {
+    "name": "TarifModus_CSS",
+    "selectors": [
+     "div.DataElementTarifmodus"
+    ]
+   },
+   {
+    "name": "GroupOfPages_CustomCode",
+    "selectors": [
+     "head > link",
+     ".carbon-search"
+    ]
+   },
+   {
+    "name": "SalesValue_CSS",
+    "selectors": [
+     "div.DataElementBeitrag"
+    ]
+   },
+   {
+    "name": "nonce",
+    "selectors": [
+     "script[nonce]"
+    ]
+   }
+  ],
+  "library": "Adobe Launch",
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": {
+  "plugin": {
+   "name": "aem-martech",
+   "repo": "https://github.com/adobe-rnd/aem-martech.git",
+   "path": "plugins/martech",
+   "edge": "edge.adobedc.net",
+   "sdkDefaultConsent": "in",
+   "launchExtensions": [
+    "Adobe Client Data Layer"
+   ]
+  },
+  "config": {
+   "orgId": "1D3511B55605198B7F000101@AdobeOrg",
+   "datastreamId": "a91a67cc-9050-4e12-a01c-bb733b54c84f",
+   "alloyInstanceName": "alloy",
+   "edgeDomain": null,
+   "defaultConsent": "pending",
+   "launchUrls": [
+    "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js"
+   ]
+  },
+  "candidates": {
+   "datastreamId": [
+    "a91a67cc-9050-4e12-a01c-bb733b54c84f"
+   ],
+   "stagingDatastreamId": [
+    "a91a67cc-9050-4e12-a01c-bb733b54c84f"
+   ]
+  },
+  "extension": {
+   "version": "2.34.1",
+   "selfHostable": true,
+   "library": "managed"
+  },
+  "missingExtensions": [
+   "Adobe Client Data Layer"
+  ],
+  "category": null,
+  "enabled": false
+ },
+ "target": null
+}

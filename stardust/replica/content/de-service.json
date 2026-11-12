@@ -1,0 +1,2156 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-service.html (2026-10-28T14:21:48.651Z)",
+  "layout": "full"
+ },
+ "head": {
+  "title": "Servicebereich | ERGO",
+  "description": "Hier finden Sie praktische Services, die Ihnen echte Mehrwerte bieten.",
+  "lang": "de"
+ },
+ "footer": {
+  "variant": "b2b",
+  "note": null,
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+     },
+     {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+     },
+     {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+     },
+     {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+     },
+     {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+     },
+     {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Kunden werben Kunden",
+      "href": "https://freunde.ergo.de/?intcid=9001032"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+     },
+     {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/newsroom"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "ERGO Blog"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": "Sitemap"
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2026 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "productHero",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "orange",
+   "pos": "right",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/service/service-uebersicht-paar.dam.jpg",
+    "alt": "Services"
+   },
+   "h1": "Services",
+   "title": "Zeit und Geld sparen mit den Services von ERGO",
+   "textHtml": "<p>Viele Angelegenheiten erledigen Sie hier direkt online. Weitere Services rund um Ihre Verträge finden Sie im Kundenportal.</p>",
+   "ctas": [
+    {
+     "tag": "a",
+     "label": "Zum Kundenportal",
+     "href": "/de/Service/kundenportal",
+     "aria": "Zum Kundenportal",
+     "variant": "primary",
+     "size": "auto",
+     "width": "default",
+     "icon": null,
+     "iconPos": "right"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Alle Services im Überblick</h2><p>Verwalten Sie Ihre Versicherungen und persönliche Daten schnell und einfach selbst. Hier melden Sie einen Schaden oder ändern die Wohnadresse. Auch Änderungen rund um Ihre Versicherung nehmen Sie hier vor. Außerdem finden Sie viele nützliche Informationen.</p>"
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "top",
+   "bg": "magenta",
+   "html": "<h2 class=\"ta-c\">Umfassende Services</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": "magenta",
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"ta-c\">Meldungen</p>",
+     "titleHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\"><span class=\"color color--red\">Schaden- oder Leistungsfall melden</span></p>",
+     "textHtml": "<p class=\"ta-c\">Melden Sie Ereignisse wie einen Schaden- oder Leistungsfall, Sterbe- oder Pflegefall.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt melden",
+       "href": "/de/Service/ereignis-melden",
+       "aria": "Jetzt melden",
+       "variant": "secondary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"ta-c\">Persönliches</p>",
+     "titleHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\"><span class=\"color color--red\">Bankverbindung / Beitragskonto ändern</span></p>",
+     "textHtml": "<p class=\"ta-c\">Ändern Sie hier das Beitragskonto für Ihre Verträge.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt ändern",
+       "href": "/de/Service/Kundenbereich/bankverbindung-weiche",
+       "aria": "Jetzt ändern",
+       "variant": "secondary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"ta-c\">Meldungen</p>",
+     "titleHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\"><span class=\"color color--red\">Adresse und Kontaktdaten ändern</span></p>",
+     "textHtml": "<p class=\"ta-c\">Teilen Sie hier Ihre neue Adresse und aktuellen Kontaktdaten mit.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt ändern",
+       "href": "/de/Service/Kundenbereich/adresse-weiche",
+       "aria": "Jetzt ändern",
+       "variant": "secondary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "spacer",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fff",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/unwetter.dam.jpg",
+     "alt": "Eine Frau steht mit Regenschirm und Gummistiefeln im Hochwasser."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Unwetterschäden melden und richtig handeln</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Sie sind betroffen? Melden Sie Ihren Schaden einfach online und ersparen Sie sich lange Wartezeiten am Telefon.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt melden",
+      "href": "https://schadenservice.ergo.de/unwetterschaden",
+      "aria": "Jetzt melden",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": "ChevronRightIcon",
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Kfz-Versicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/OrdersIcon.svg",
+      "alt": ""
+     },
+     "title": "Ihr Vertrag: einsehen, verwalten, ändern, temporären / begleiteten Fahrer melden",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertragsinformationen einsehen & Verträge online ändern",
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "aria": "Vertragsinformationen einsehen & Verträge online ändern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentStarIcon.svg",
+      "alt": ""
+     },
+     "title": "Informationen zu Beitragsanpassungen erhalten",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Informationen zu Beitragsanpassungen erhalten",
+      "href": "/de/Service/Kundenbereich/kraftfahrt-beitragsinformation",
+      "aria": "Informationen zu Beitragsanpassungen erhalten",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CarPlusIcon.svg",
+      "alt": ""
+     },
+     "title": "Internationale Versicherungskarte anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Internationale Versicherungskarte anfordern",
+      "href": "/de/Service/Kundenbereich/ivk",
+      "aria": "Internationale Versicherungskarte anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für das Finanzamt anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für das Finanzamt anfordern",
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "aria": "Bescheinigung für das Finanzamt anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Ersatzversicherungsschein anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Ersatzversicherungsschein anfordern",
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "aria": "Ersatzversicherungsschein anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DownloadIcon.svg",
+      "alt": ""
+     },
+     "title": "Digitale Servicekarte anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Digitale Servicekarte anfordern",
+      "href": "/de/Service/Kundenbereich/digitalwallet/digital-wallet-kfz",
+      "aria": "Digitale Servicekarte anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MotorVehicleIcon.svg",
+      "alt": ""
+     },
+     "title": "Kilometerstand melden",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Kilometerstand melden",
+      "href": "/de/Service/Kundenbereich/kilometerstand",
+      "aria": "Kilometerstand melden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Zahn- und Krankenversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CrossSellingIcon.svg",
+      "alt": ""
+     },
+     "title": "Zahnarztkosten vergleichen (sparen)",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Zahnarztkosten vergleichen (sparen)",
+      "href": "/de/Service/Zahnkosten-Optimierer",
+      "aria": "Zahnarztkosten vergleichen (sparen)",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DentalProphylaxisIcon.svg",
+      "alt": ""
+     },
+     "title": "goDentis-Zahnarzt finden",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "goDentis-Zahnarzt finden",
+      "href": "https://www.godentis.de/",
+      "aria": "goDentis-Zahnarzt finden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Haftpflichtversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LawIcon.svg",
+      "alt": ""
+     },
+     "title": "Vertragsinformationen einsehen & ändern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertragsinformationen einsehen & ändern",
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "aria": "Vertragsinformationen einsehen & ändern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für das Finanzamt anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für das Finanzamt anfordern",
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "aria": "Bescheinigung für das Finanzamt anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Ersatzversicherungsschein anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Ersatzversicherungsschein anfordern",
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "aria": "Ersatzversicherungsschein anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für Versicherungsschutz anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für Versicherungsschutz anfordern",
+      "href": "/de/Service/Kundenbereich/haftpflichtbescheinigungen",
+      "aria": "Bescheinigung für Versicherungsschutz anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Hausrat- und Wohngebäudeversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LawIcon.svg",
+      "alt": ""
+     },
+     "title": "Vertragsinformationen einsehen & ändern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertragsinformationen einsehen & ändern",
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "aria": "Vertragsinformationen einsehen & ändern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChecklistIcon.svg",
+      "alt": ""
+     },
+     "title": "Baugerüst melden",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Baugerüst melden",
+      "href": "/de/Service/Kundenbereich/baugeruest",
+      "aria": "Baugerüst melden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseGroundIcon.svg",
+      "alt": ""
+     },
+     "title": "Rohbauende mitteilen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Rohbauende mitteilen",
+      "href": "/de/Service/Kundenbereich/rohbauende",
+      "aria": "Rohbauende mitteilen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für das Finanzamt anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für das Finanzamt anfordern",
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "aria": "Bescheinigung für das Finanzamt anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseGroundIcon.svg",
+      "alt": ""
+     },
+     "title": "Wohngebäude Eigentümerwechsel mitteilen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Wohngebäude Eigentümerwechsel mitteilen",
+      "href": "/de/Service/Kundenbereich/eigentuemerwechsel",
+      "aria": "Wohngebäude Eigentümerwechsel mitteilen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Ersatzversicherungsschein anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Ersatzversicherungsschein anfordern",
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "aria": "Ersatzversicherungsschein anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChecklistIcon.svg",
+      "alt": ""
+     },
+     "title": "Daten zum Umzug mitteilen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Daten zum Umzug mitteilen",
+      "href": "/de/Service/Kundenbereich/umzug",
+      "aria": "Daten zum Umzug mitteilen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Lebensversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentIcon.svg",
+      "alt": ""
+     },
+     "title": "Beitragsanpassung widerrufen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Beitragsanpassung widerrufen",
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/widerruf-automatische-anpassung",
+      "aria": "Beitragsanpassung widerrufen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigungen anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigungen anfordern",
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/Bescheinigungen",
+      "aria": "Bescheinigungen anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Beitragszahlung aussetzen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Beitragszahlung aussetzen",
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/beitragszahlung-aussetzen",
+      "aria": "Beitragszahlung aussetzen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Beitrag oder Leistung ändern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Beitrag oder Leistung ändern",
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/beitrag-aendern",
+      "aria": "Beitrag oder Leistung ändern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Rechtsschutzversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LawIcon.svg",
+      "alt": ""
+     },
+     "title": "Vertragsinformationen einsehen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertragsinformationen einsehen",
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "aria": "Vertragsinformationen einsehen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Stichtagmeldung abgeben",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Stichtagmeldung abgeben",
+      "href": "/de/Service/Kundenbereich/Stichtagsmeldung",
+      "aria": "Stichtagmeldung abgeben",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LawIcon.svg",
+      "alt": ""
+     },
+     "title": "Musterdokumente erhalten",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Musterdokumente erhalten",
+      "href": "/de/rechtsportal/servicebereich",
+      "aria": "Musterdokumente erhalten",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für das Finanzamt anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für das Finanzamt anfordern",
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "aria": "Bescheinigung für das Finanzamt anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Ersatzversicherungsschein anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Ersatzversicherungsschein anfordern",
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "aria": "Ersatzversicherungsschein anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Unfallversicherung</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LawIcon.svg",
+      "alt": ""
+     },
+     "title": "Vertragsinformationen einsehen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertragsinformationen einsehen",
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "aria": "Vertragsinformationen einsehen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Bescheinigung für das Finanzamt anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Bescheinigung für das Finanzamt anfordern",
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "aria": "Bescheinigung für das Finanzamt anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PatchIcon.svg",
+      "alt": ""
+     },
+     "title": "Dynamischer Anpassung widersprechen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Dynamischer Anpassung widersprechen",
+      "href": "/de/Service/Kundenbereich/unfallanpassung",
+      "aria": "Dynamischer Anpassung widersprechen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Ersatzversicherungsschein anfordern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Ersatzversicherungsschein anfordern",
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "aria": "Ersatzversicherungsschein anfordern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2>Weitere Services</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#d3ebe5",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+      "alt": ""
+     },
+     "title": "Newsletter abonnieren",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter",
+      "aria": "Newsletter abonnieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ffe0cb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MegaphoneIcon.svg",
+      "alt": ""
+     },
+     "title": "Werbung abbestellen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Werbung abbestellen",
+      "href": "/de/Service/werbung-abbestellen",
+      "aria": "Werbung abbestellen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ebe6d8",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BlueLightIcon.svg",
+      "alt": ""
+     },
+     "title": "Vertrag widerrufen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Vertrag widerrufen",
+      "href": "/de/Service/vertrag-widerrufen",
+      "aria": "Vertrag widerrufen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#f5e1eb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentIcon.svg",
+      "alt": ""
+     },
+     "title": "Versicherungsschutz kündigen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Versicherungsschutz kündigen",
+      "href": "/de/Service/vertrag-kuendigen",
+      "aria": "Versicherungsschutz kündigen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ccecef",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/AwardIcon.svg",
+      "alt": ""
+     },
+     "title": "Kundenbewertungen ansehen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Kundenbewertungen ansehen",
+      "href": "/de/Service/Kundenbewertungen",
+      "aria": "Kundenbewertungen ansehen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fef6d2",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ToolsIcon.svg",
+      "alt": ""
+     },
+     "title": "Kundenwerkstatt: mitmachen & gewinnen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Kundenwerkstatt: mitmachen & gewinnen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+      "aria": "Kundenwerkstatt: mitmachen & gewinnen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\"><a></a>Kundenportal Sofortregistrierung mit Selfie-Ident</h2>"
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Erfahren Sie hier, wie einfach, schnell und sicher Sie Ihre Anliegen im <a href=\"https://kundenlogin.ergo.de\">ERGO Kundenportal</a> online verwalten können.</p>"
+  },
+  {
+   "type": "embed",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "provider": "youtube",
+   "videoId": "njmpZ-JiKMw",
+   "title": "Kundenportal Sofortregistrierung",
+   "aria": "Sofortregistrierung mit Selfie-Ident",
+   "ratio": "56.25%"
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#d3ebe5",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/papierlos-2.c218x76x1022x767.dam.jpg",
+     "alt": "Eine junge Frau strahlt in ihren Laptop hinein. "
+    },
+    "rounded": false,
+    "ai": false,
+    "small": {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/3-mio-kunden.dam.svg",
+     "alt": "Über 3 Mio. registrierte Kunden!"
+    },
+    "icon": null,
+    "headlineHtml": "<p>Papierlos &amp; digital werden</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">ERGO Kundenportal</p>",
+    "textHtml": "<p>Hier sehen Sie alle Ihre Versicherungen im Überblick sowie den Status laufender Verträge. Im Kundenportal verwalten Sie einfach Ihre Verträge, melden einen Schaden direkt oder reichen Rechnungen ein und vieles mehr.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Kundenportal",
+      "href": "/de/Service/kundenportal",
+      "aria": "Zum Kundenportal",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#f5e1eb",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/apps/loginscreen-ergo-app.dam.jpg",
+     "alt": "Hier sehen Sie eine junge Frau, die in der neuen ERGO App surft."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p>Verträge unterwegs verwalten</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">ERGO App</p>",
+    "textHtml": "<p>Über die ERGO App haben Sie Ihre Versicherungen auch mobil im Blick: Finden Sie einen ERGO Berater vor Ort und melden schnell einen Schaden oder beantragen Leistung.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zur ERGO App",
+      "href": "/de/Service/ergo-app",
+      "aria": "Zur ERGO App",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/lebensphasen/versicherungskompass.dam.jpg",
+     "alt": "Eine Hand hält einen geöffneten Kompass."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": null,
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">Welche Versicherungen sind für Sie gerade wichtig?</p>",
+    "textHtml": "<p>Mit jeder Lebensphase ändern sich Vorsorge und Absicherung. Junge Erwachsene z. B. haben einen anderen Bedarf als Menschen im goldenen Herbst. Passt bei Ihnen im Moment alles? Oder gibt es eine Lücke?</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Machen Sie den Check",
+      "href": "/de/Produkte/Lebensphasen",
+      "aria": "Machen Sie den Check",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#f5e1eb",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": "ERGO Fast Lane",
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/frauaufdemfahrradunterwegs.dam.jpg",
+     "alt": "Eine Frau ist auf dem Fahrrad unterwegs (Bild KI-unterstützt generiert)"
+    },
+    "rounded": false,
+    "ai": true,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h3\">Die ERGO Fast Lane zum Altersvorsorgedepot</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif\"><span class=\"color color--red\">Altersvorsorgedepot</span></p>",
+    "textHtml": "<p>Mit dem neuen Altersvorsorgedepot wird private Altersvorsorge jetzt besonders einfach und profitabel. Mit der <b>ERGO Fast Lane</b> bleiben Sie immer einen Schritt voraus.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Komm in die ERGO Fast Lane!",
+      "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+      "aria": "Komm in die ERGO Fast Lane!",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ebe6d8",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/persoenlichkeitstest/typen-test.dam.jpg",
+     "alt": "Entspannte glückliche junge Frau."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p>Welcher Versicherungstyp sind Sie?</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">Persönlichkeitstest</p>",
+    "textHtml": "<p>Versicherungen sind nicht nur Zahlen und Verträge – sie sind auch eine Typfrage.<br> Dieser Test liefert in wenigen Schritten eine ehrliche, manchmal überraschende Selbsteinschätzung.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Persönlichkeitstest",
+      "href": "/de/Service/typen-test",
+      "aria": "Zum Persönlichkeitstest",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#d3ebe5",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": "Aktion bis 31.12.2026!",
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/freundschaftswerbung.dam.jpg",
+     "alt": "Ein Mann flüstert einer Frau etwas ins Ohr. Die Frau lächelt."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p>Weitersagen lohnt sich!</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">Kunden werben Kunden</p>",
+    "textHtml": "<p>Erzählen Sie Ihren Freunden und Bekannten, wie zufrieden Sie mit den Leistungen und dem Service von ERGO sind. Für jeden neu geworbenen Kunden erhalten Sie als Dankeschön <b>eine Geldprämie von bis zu 150 €</b>und sichern sich die <b>Gewinnchance auf einen von 3 kleinen Goldbarren.</b></p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Gleich mitmachen",
+      "href": "/de/Service/Freundschaftswerbung?intcid=9001027",
+      "aria": "Gleich mitmachen",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Ratgeber und Wissenswertes</h2><p class=\"ta-c\">Nicht fündig geworden? Informieren Sie sich in unserem Ratgeber über aktuelle Themen oder besuchen Sie das Rechtsportal.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/service-ratgeber-zahngesundheit.c144x191x1152x576.dam.jpg",
+      "alt": "Eine Zahnärztin untersucht eine Patientin."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--copytext txt__teaser\"><b>Ratgeber Zahngesundheit</b></p>",
+     "titleHtml": null,
+     "textHtml": "<p>Hier finden Sie alles rund um Zähne, Zahngesundheit und Zahnbehandlungen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zahngesundheit",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/service-rechtsportal.c144x191x1152x576.dam.jpg",
+      "alt": "Zwei Personen geben sich einen Handschlag . Daneben liegt ein Richterhammer."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--copytext txt__teaser\"><b>ERGO Rechtsportal</b></p>",
+     "titleHtml": null,
+     "textHtml": "<p>Im Rechtsportal erwarten Sie Tipps, Urteile und Hintergrundinfos zu Rechtsthemen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/rechtsportal",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/service-ratgeber.c144x191x1152x576.dam.jpg",
+      "alt": "Ein Mann liegt auf dem Sofa und freut sich über das, was er auf seinem Tablet sieht."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--copytext txt__teaser\"><b>Ratgeber mit aktuellen Themen</b></p>",
+     "titleHtml": null,
+     "textHtml": "<p>Hier bekommen Sie Tipps, Urteile und Hintergrundinfos zu unterschiedlichsten Versicherungsthemen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "spacer",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Nicht sicher, was Sie benötigen?</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Dann lassen Sie sich helfen. Die Experten von ERGO sind gern für Sie da.</p>",
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ffe0cb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PhoneIcon.svg",
+      "alt": ""
+     },
+     "title": "0800 / 3746 095",
+     "text": "Rufen Sie an – gebührenfrei.",
+     "cta": {
+      "tag": "a",
+      "label": "0800 / 3746 095",
+      "href": "tel:08003746095",
+      "aria": "0800 / 3746 095",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#f5e1eb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+      "alt": ""
+     },
+     "title": "ERGO Berater",
+     "text": "Finden Sie Ihren ERGO Berater.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Berater",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "Zum Berater",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#d3ebe5",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+      "alt": ""
+     },
+     "title": "E-Mail",
+     "text": "Schreiben Sie eine Nachricht.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Kontaktformular",
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "aria": "Zum Kontaktformular",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ccecef",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChatIcon.svg",
+      "alt": ""
+     },
+     "title": "Chat",
+     "text": "Ein Klick führt zum Chat.",
+     "cta": {
+      "tag": "button",
+      "label": "Chat öffnen",
+      "href": null,
+      "aria": "Chat öffnen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

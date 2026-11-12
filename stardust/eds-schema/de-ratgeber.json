@@ -1,0 +1,2944 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-ratgeber-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "article-header",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "ERGO Ratgeber"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bestens informiert über Versicherungen, Vorsorge und Gesundheit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ob Alltagsthemen oder Zukunftsplanung: Der ERGO Ratgeber bietet Ihnen aktuelle Informationen zu vielen Themen, die Sie bewegen."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home Page (German)",
+     "href": "/de"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ratgeber"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.cmp-breadcrumb__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "ccw",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen werden, neue Fragen tauchen auf. Im ERGO finden Sie auf alle Fragen schnell eine Antwort. Sie erhalten gebündelt rund um . Ganz gleich, ob es um Ihre Finanzen geht oder um die Gesundheit Ihrer Familie – nutzen Sie den Ratgeber als Orientierung und praktische Entscheidungshilfe im Alltag."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ratgeber"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "verlässliche Informationen zu allen Themen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Versicherung, Vorsorge, Recht und Alltag"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Gesundheit & Wohlbefinden",
+     "href": "#ank1"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zahngesundheit",
+     "href": "#ank2"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mobilität & Kfz",
+     "href": "#ank3"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Finanzielle Vorsorge",
+     "href": "#ank4"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Haus & Wohnung",
+     "href": "#ank5"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Im Todesfall",
+     "href": "#ank6"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ccw__column",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sichern Sie Ihre Liebsten im Ernstfall ab"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ein Trauerfall belastet Angehörige. Sorgen Sie dafür, dass sich Ihre Familie zumindest um finanzielle Fragen keine Sorgen machen muss."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "1,85"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt berechnen",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Gesundheit und Wohlbefinden: Weil Gesundheit das Wichtigste ist"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "sagen, dass in ihrem Leben ist. Wenn es darum geht, gesund zu leben, gibt es aber noch Luft nach oben: Laut dem leben gerade mal zwei Prozent der Deutschen rundum gesund. Experten sind sich einig, dass es für einen braucht – über Ernährung, Bewegung und Gesundheitsvorsorge. Der Ratgeber Gesundheit und zahlreiche Beiträge zu allen Gesundheitsthemen helfen Ihnen dabei."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vier von fünf Deutschen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Gesundheit das wichtigste Thema"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "aktuellen DKV-Report",
+     "href": "https://www.ergo.com/de/newsroom-ergo/medieninformationen/2025/20250804-ergo-dkv-report-2025"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "gesunden Lebensstil vor allem Wissen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratgeber Gesundheit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für die meisten Menschen ist Gesundheit eine der für ein glückliches Leben. Was Sie tun können, um Krankheiten vorzubeugen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "wichtigsten Voraussetzungen"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Zur Krankenversicherung",
+     "href": "/de/Produkte/Krankenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ratgeber Stress"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Anhaltender Stress erschöpft Körper und Seele und kann . Umso wichtiger ist der richtige Umgang mit Stress."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "krank machen"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit/stress"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Zur Berufsunfähigkeitsversicherung",
+     "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Ratgeber Augenkrankheiten"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Augenerkrankungen können die Lebensqualität stark beeinträchtigen. Viele Beschwerden sind"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "medizinisch behandelbar."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit/augenkrankheiten"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Zur Augenzusatzversicherung",
+     "href": "/de/Produkte/Krankenversicherung/Augenversicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Zahngesundheit – bis ins hohe Alter"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zahnerkrankungen und Zahnfehlstellungen können die Lebensqualität stark einschränken. Glücklicherweise gibt es heute viele Methoden, um die zu ."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "eigene Zahngesundheit"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "fördern"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Karies bei Kindern"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Im internationalen Vergleich sind Kinder in Deutschland von . Laut einer Studie der Bundeszahnärztekammer haben 12-jährige Kinder im Durschnitt . Nur Dänemark liegt in der Kariesprävention bei Kindern noch vor Deutschland."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "besonders selten"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Karies betroffen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "0,5 kariöse Zähne"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zahngesundheit/zahnpflege-kinder"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Zum Kieferorthopädie Sofortschutz",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Neue Behandlungstechnologien und das bessere Mundgefühl haben dafür gesorgt, dass sich ältere Menschen : In den letzten 20 Jahren ist der Anteil an festsitzendem Zahnersatz von rund gestiegen. Zahnprothesen machen nur noch ein knappes Drittel des Zahnersatzes aus."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "zunehmend für Implantate entscheiden"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "36 Prozent auf 65 Prozent"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zahngesundheit/zahnersatz"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Zur Versicherung für Zahnersatz",
+     "href": "/de/Produkte/Zahnzusatzversicherung/zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Zahnhygiene"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Prävention und gute Zahnhygiene wirken: Laut der Bundeszahnärztekammer hat sich der bei Erwachsenen in den letzten 30 Jahren . Heute haben die m eisten Erwachsenen in der Mitte ihres Lebens noch alle Zähne. bei Kindern, regelmäßige Vorsorgeuntersuchungen und verbesserte Behandlungsmethoden zeigen ihre Wirkung."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Kariesbefall"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "nahezu halbiert"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Früherkennung"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Zur Versicherung für Zahnerhalt",
+     "href": "/de/Produkte/Zahnzusatzversicherung/zahnerhaltung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 7
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hier geht´s zum Rechtsportal"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Von Arbeistrecht bis Zwangsvollstreckung: Hier Finden Sie Wissenswertes zu sowie Musterdokumente zm Download."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "aktuellen Rechtsthemen"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Rechtsportal",
+     "href": "/de/rechtsportal"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mobilität& Kfz: Sicher unterwegs auf zwei oder vier Rädern"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für viele Menschen ist das Auto nicht nur ein praktisches Fortbewegungsmittel, sondern ein Stück : Selbst entscheiden, wann man wohin startet, Freunde mitnehmen oder entspannt in den Urlaub fahren. Die Anzahl neu zugelassener Autos steigt seit Jahren: Rund sind laut aktuellen Zahlen des Kraftfahrtbundesamtes . Kein Wunder also, dass es manchmal zu Staus und Unfällen kommt. Wer sicher unterwegs sein will, sollte nicht nur umsichtig sein, sondern auch die passenden kennen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "persönliche Freiheit"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "69 Millionen Fahrzeuge"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "auf unseren Straßen unterwegs"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Kfz- Versicherungen",
+     "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Autoversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wer ein Auto besitzt, . Mehr über die unterschiedlichen Kfz-Versicherungstypen und erfahren Sie bei ERGO."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "muss es versichern"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "wichtigsten Versicherungsbegriffe"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/kfz/autoversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zur Autoversicherung",
+     "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ratgeber Unfall"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Eine kleine Unachtsamkeit reicht und schon ist der Unfall passiert. Jetzt gilt es, , um weitere Schäden zu vermeiden."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "umsichtig zu handeln"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/kfz/unfall"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Zum Kfz Schutzbrief",
+     "href": "/de/Produkte/KFZ-Versicherung/Schutzbrief"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "E-Bike kaufen"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "E-Bikes und Pedelecs haben viele Fans – sind aber in der Anschaffung. Worauf Sie achten sollten, um das perfekte E-Bike zu finden.v"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "relativ teuer"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zuhause/e-bike-worauf-achten"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Zur E-Bike Versicherung",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Finanzielle Vorsorge: Familie und Lebensstandard absichern"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Finanzielle Vorsorge: Familie und Lebensstandard absichern. Die gesetzliche Rente – das haben wir alle schon mal gehört. Wer , privat vorzusorgen, kann mit geringen monatlichen Beiträgen ein für den Ruhestand aufbauen."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "reicht im Alter nicht aus"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "rechtzeitig anfängt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "finanzielles Polster"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Finanzielle Vorsorge"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die ist für alle angestellten in Deutschland"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "gesetzliche Rentenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Arbeitnehmer"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pflicht."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Neben der Pflichtversicherung können Sie zusätzlich eine oder eine abschließen. Diese Formen der Altersvorsorge sind freiwillig."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "betriebliche Altersvorsorge",
+     "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "private Rentenversicherung",
+     "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ob sich staatlich geförderte private Altersvorsorgemodelle wie Riester-Rente und lohnen, hängt vom Einkommen, vom Familienstand und vom Arbeitsverhältnis ab."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Rürup-Rente",
+     "href": "/de/Produkte/Rentenversicherung/Basis-Rente"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Eine Kapitallebensversicherung kann ebenfalls als genutzt werden, während eine Ihre Hinterbliebenen im Todesfall finanziell absichert."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Altersvorsorge"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Risikolebensversicherung",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Alternativ können Sie Geld in anlegen – über einen längeren Zeitraum können Sie auf diese Weise aufbauen."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Investmentfonds",
+     "href": "/de/Produkte/Investmentprodukte"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Vermögen fürs Alter"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Auch eine kann als private Altersvorsorge genutzt werden. Dabei zahlen Sie nicht in einen Fonds oder eine Rentenkasse ein, sondern zahlen die Raten der nach und nach ab, bis die Immobilie lastenfrei ist."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Immobilie"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Immobilienfinanzierung",
+     "href": "/de/Produkte/Bausparen-Finanzierung"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Eine professionelle Beratung z. B. durch einen Finanz- oder Versicherungsexperten hilft Ihnen, die richtige Entscheidung zu treffen. Wichtig ist, dass Sie das Thema überhaupt angehen."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "finanzielle Vorsorge"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vermögenswirksame Leistungen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gezielt Vermögen aufbauen – mit einem : So funktioniert VL-Sparen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Zuschuss vom Arbeitgeber"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/finanzielle_vorsorge/vermoegenswirksame-leistungen"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Zum Bausparvertrag",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Früher in Rente"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Welche Regelaltersgrenzen gelten und welche Möglichkeiten Sie haben, um zu gehen."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "früher in den Ruhestand"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/finanzielle_vorsorge/tipps-frueher-rente"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Zur privaten Rentenversicherung",
+     "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Ratgeber Kapitallebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Eine Kapitallebensversicherung kann Ihre , sie kann aber auch als private Altersvorsorge genutzt werden."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Hinterbliebenen absichern"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/finanzielle_vorsorge/kapitallebensversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Zur Risikolebensversicherung",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Haus und Wohnung: Das eigene Zuhause rundum absichern"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ihr Zuhause ist viel mehr als ein Dach mit vier Wänden. Mit dem und gut informiert können Sie es sorgenfrei genießen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "passenden Schutz"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratgeber Hausbau-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ein Hausbau ist vielleicht die . Damit Sie bei Planung, Bau und Gestaltung keine bösen Überraschungen erleben, gibt es für Bauherren und Baufinanzierer."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "größte Investition Ihres Lebens"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "spezielle Versicherungen"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zuhause/hausbau-versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zur Bauherrenhaftpflichtversicherung",
+     "href": "/de/Produkte/Haftpflichtversicherung/Bauherrenhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Haus und Haushalt richtig absichern"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ob Wetterschäden, Einbruch oder Alterung – können teuer werden. Mit den richtigen Versicherungen schützen Sie sich vor hohen Folgekosten."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Schäden am Eigenheim"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zuhause/haus-versicherungen"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Zur Wohngebäudeversicherung",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Hausrat- oder Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Gerade in Mietwohnungen ist nicht immer direkt klar, ob die zuständig ist. Was sind die Unterschiede?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Hausrat- oder die Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zuhause/unterschied_hausrat_haftpflicht"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Zur Hausratversicherung",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Zeit für dich: Podcast und Versicherungs-Persönlichkeitstest"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Alles, was dich interessiert: Lehn dich entspannt zurück und hör zu, wie Katrin und wechselnde spannende Persönlichkeiten über deine Alltagsthemen sprechen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Lifehacks – der Podcast mit Katrin"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Katrin beleuchtet Themen aus dem Leben, die viele betreffen – leicht erklärt, alltagsnah und mit Blick auf Sicherheit, Finanzen und persönliche Entwicklung."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zu allen Episoden",
+     "href": "/de/Ratgeber/lifehacks"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Familie gründen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "mit Familiencoach Kira Liebmann"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "So sicherst du dich finanziell ab"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/32lEorCIPx4BsQeFbAgkAm"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Dankbarkeitstagebuch"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Wie man in den Alltag integrieren kann"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Dankbarkeit und Selbstliebe"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/0UikC7WXXygxk602wFuWb1?si=dszqk9D4TguQaDm4IoXTDw&nd=1&dlsi=9ab6800f97a645ad"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Voll- und Teilkaskoversicherung"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Bilal Nawaz über die"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "wichtigsten Aspekte der Kfz-Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/4tHVuPS8YRTgZw24ig9Gqt"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Philipp war 20, als ein sein Leben auf den Kopf stellte"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Sturz ins U-Bahn-Gleisbett"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/4g0SY1q3lRmfXxpwtEA8VE"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Zukunftsplanung"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Wir planen Urlaube, Karrieren und Wochenenden, aber selten die im Leben."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "wirklich entscheidenden Dinge"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/7DIqAnwLY7Pw0vmCNSbpFA"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Abenteuer Leben"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Extremsportler Jonas Deichmann über"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Risiko und Sicherheit"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/0FpHSAE3HRI35HmnKpDXVE"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Familie gründen"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "mit Familiencoach Kira Liebmann"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "So sicherst du dich finanziell ab"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/32lEorCIPx4BsQeFbAgkAm"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Dankbarkeitstagebuch"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Wie man in den Alltag integrieren kann"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Dankbarkeit und Selbstliebe"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/0UikC7WXXygxk602wFuWb1?si=dszqk9D4TguQaDm4IoXTDw&nd=1&dlsi=9ab6800f97a645ad"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Voll- und Teilkaskoversicherung"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Bilal Nawaz über die"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "wichtigsten Aspekte der Kfz-Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/4tHVuPS8YRTgZw24ig9Gqt"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Philipp war 20, als ein sein Leben auf den Kopf stellte"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Sturz ins U-Bahn-Gleisbett"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/4g0SY1q3lRmfXxpwtEA8VE"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Zukunftsplanung"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Wir planen Urlaube, Karrieren und Wochenenden, aber selten die im Leben."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "wirklich entscheidenden Dinge"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/7DIqAnwLY7Pw0vmCNSbpFA"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Abenteuer Leben"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Extremsportler Jonas Deichmann über"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Risiko und Sicherheit"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/0FpHSAE3HRI35HmnKpDXVE"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Familie gründen"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "mit Familiencoach Kira Liebmann"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "So sicherst du dich finanziell ab"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/32lEorCIPx4BsQeFbAgkAm"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Dankbarkeitstagebuch"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Wie man in den Alltag integrieren kann"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Dankbarkeit und Selbstliebe"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "Zum Podcast",
+     "href": "https://open.spotify.com/episode/0UikC7WXXygxk602wFuWb1?si=dszqk9D4TguQaDm4IoXTDw&nd=1&dlsi=9ab6800f97a645ad"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "vorherige Seite"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "nächste Seite"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 28,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 14,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.cmp-carousel__control-button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Versicherungs-Persönlichkeitstest"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dieser Persönlichkeitstest hilft dir herauszufinden, welcher Versicherungstyp du bist und welche Absicherung du wirklich brauchst. Klick dich in wenigen Minuten durch die Fragen!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Welcher Versicherungstyp sind Sie?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Versicherungen sind mehr als Verträge – sie sind eine Typfrage. Dieser Test zeigt in wenigen Schritten, welcher Versicherungstyp du bist und welche Absicherung zu deinem Leben passt."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Persönlichkeitstest",
+     "href": "/de/Service/typen-test"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Im Todesfall: Heute schon vorsorgen für den Ernstfall"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wenn ein lieber Mensch verstirbt, dann ist das immer ein Schock. Denn selbst wenn sich der Tod angekündigt hat, ist wirklich . Neben der Trauer müssen die Angehörigen auch rund um den Sterbefall bewältigen. Dazu gehört unter anderem, den Tod so früh wie möglich bei den verschiedenen Ämtern und Versicherern zu melden und sich einen Überblick über bestehende Verträge und Verpflichtungen zu verschaffen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "kaum jemand"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "vorbereitet"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "zahlreiche Formalitäten"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratgeber Todesfall"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Diese Dinge sollten geregelt werden, wenn ein Mensch verstirbt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "unmittelbar"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/todesfall"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Zur Sterbegeldversicherung",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Versicherungen im Todesfall"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Einige Versicherungen im Todesfall automatisch, einige können von Angehörigen werden."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "enden"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "übernommen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/todesfall/versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Zur Risikolebensversicherung",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Bestattungsarten"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "In Deutschland gibt es , Verstorbene zu beerdigen. Kosten, Dauer und Planungsaufwand sind sehr unterschiedlich."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "unterschiedliche Möglichkeiten"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/todesfall/beerdigung-organisieren"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Zum Bestattungskostenrechner",
+     "href": "/de/Ratgeber/todesfall/bestattungskosten-rechner"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Berufsunfähigkeit und Pflege: Auf alle Fälle vorbereitet"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Niemand denkt gern darüber nach, dass er oder sie sich möglicherweise irgendwann nicht mehr selbst versorgen kann. Aber statistisch gesehen, wird etwa im Laufe des Arbeitslebens . Knapp sind , mit steigender Tendenz. Wer sich schon heute mit diesen Themen auseinandersetzt und entsprechend vorsorgt, kann sich auch künftig ein selbstbestimmtes Leben sichern."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "jeder vierte Berufstätige in Deutschland"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "berufsunfähig"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "6 Millionen Deutsche"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "auf Pflege angewiesen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratgeber Berufsunfähigkeit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "So Sie sich für den richtig ab."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "sichern"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fall einer Berufsunfähigkeit"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/berufsunfaehigkeit"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zur Berufsunfähigkeitsversicherung",
+     "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ratgeber Pflege"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Finden Sie und Informationen rund um das komplexe Thema ."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "hilfreiche Tipps"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Pflege"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/pflege"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Zur Pflegezusatzversicherung",
+     "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Pflegegrad-Rechner"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Prüfen Sie mit dem Pflegegradrechner, ob Sie für sich oder Angehörige einen können."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Pflegegrad beantragen"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/pflege/pflegegrad-rechner"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Zur privaten Pflegeversicherung",
+     "href": "/de/Produkte/Pflegeversicherung/Private_Pflegeversicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Weitere Themen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ehe und Familie"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Heute gibt es viele verschiedene . Aber wie bliebt das Verhältnis zwischen Partnern, Eltern, Kindern, und Freunden harmonisch?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Familienmodelle"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/familie"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Reise und Freizeit"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Die Deutschen gelten als . Ob Kurzurlaub, Fernreise oder Abenteuer-Trip – wir haben , worauf es unterwegs wirklich ankommt."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Reiseweltmeister"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Tipps"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/reise_und_freizeit"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Digitalisierung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Die Digitalisierung unseren und die . Hier finden Sie praktische Tipps und wertvolle Einblicke für einen Umgang mit der Digitalisierung."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "verändert"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Alltag"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Arbeitswelt"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "bewussten"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/digital"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Existenzgründung"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Viele Menschen suchen nach einer Beschäftigung, die Spaß macht und sich auch finanziell lohnt. Worauf es bei der ankommt."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Berufswahl"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/beruf"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Versicherungen für Geflüchtete"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Für Geflüchtete in Deutschland sind die das Gesundheitssystem und die oft kompliziert. Unser Ratgeber schafft Klarheit."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Versicherungspflichten"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/fluechtlinge"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Auswirkungen von Stress"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Anhaltender Stress äußert sich schnell körperlich. Wer die erkennt, kann handeln, um weitere zu verhindern."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Symptome"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Folgen"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit/stress"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Ehe und Familie"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Heute gibt es viele verschiedene . Aber wie bliebt das Verhältnis zwischen Partnern, Eltern, Kindern, und Freunden harmonisch?"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Familienmodelle"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/familie"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Reise und Freizeit"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Die Deutschen gelten als . Ob Kurzurlaub, Fernreise oder Abenteuer-Trip – wir haben , worauf es unterwegs wirklich ankommt."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Reiseweltmeister"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Tipps"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/reise_und_freizeit"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Digitalisierung"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Die Digitalisierung unseren und die . Hier finden Sie praktische Tipps und wertvolle Einblicke für einen Umgang mit der Digitalisierung."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "verändert"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Alltag"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Arbeitswelt"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "bewussten"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/digital"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Existenzgründung"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Viele Menschen suchen nach einer Beschäftigung, die Spaß macht und sich auch finanziell lohnt. Worauf es bei der ankommt."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Berufswahl"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/beruf"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Versicherungen für Geflüchtete"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Für Geflüchtete in Deutschland sind die das Gesundheitssystem und die oft kompliziert. Unser Ratgeber schafft Klarheit."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Versicherungspflichten"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/fluechtlinge"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Auswirkungen von Stress"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Anhaltender Stress äußert sich schnell körperlich. Wer die erkennt, kann handeln, um weitere zu verhindern."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Symptome"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Folgen"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit/stress"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Ehe und Familie"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Heute gibt es viele verschiedene . Aber wie bliebt das Verhältnis zwischen Partnern, Eltern, Kindern, und Freunden harmonisch?"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Familienmodelle"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/familie"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Reise und Freizeit"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Die Deutschen gelten als . Ob Kurzurlaub, Fernreise oder Abenteuer-Trip – wir haben , worauf es unterwegs wirklich ankommt."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Reiseweltmeister"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Tipps"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/reise_und_freizeit"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Digitalisierung"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Die Digitalisierung unseren und die . Hier finden Sie praktische Tipps und wertvolle Einblicke für einen Umgang mit der Digitalisierung."
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "verändert"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Alltag"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Arbeitswelt"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "bewussten"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/digital"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Existenzgründung"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Viele Menschen suchen nach einer Beschäftigung, die Spaß macht und sich auch finanziell lohnt. Worauf es bei der ankommt."
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Berufswahl"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/beruf"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Versicherungen für Geflüchtete"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Für Geflüchtete in Deutschland sind die das Gesundheitssystem und die oft kompliziert. Unser Ratgeber schafft Klarheit."
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Versicherungspflichten"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/fluechtlinge"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Auswirkungen von Stress"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Anhaltender Stress äußert sich schnell körperlich. Wer die erkennt, kann handeln, um weitere zu verhindern."
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Symptome"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Folgen"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/gesundheit/stress"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "vorherige Seite"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "nächste Seite"
+    }
+   ],
+   "imgCount": 18,
+   "editableTexts": 36,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 18,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.cmp-carousel__control-button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-12",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Die am häufigsten gelesenen Artikel"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Kfz-Steuer-Rechner: Steuern für Ihr Auto berechnen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Auf öffentlichen Straßen fahren? Dann müssen Sie Kfz-Steuer zahlen. Der Kfz-Steuer-Rechner zeigt Ihnen, wie viel."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/kfz/steuer"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sonderurlaub im Todesfall: Zeit, um zu trauern"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bei einem Trauerfall in der Familie haben Arbeitnehmer Anspruch auf Sonderurlaub. Wie viele freie Tage Ihnen zustehen, ist im Arbeitsvertrag geregelt."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/todesfall/sonderurlaub-bei-todesfall"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-13",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "RATGEBER"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-14",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Alle Themen auf einen Blick"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Gesundheit"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/gesundheit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Zahngesundheit"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/zahngesundheit"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kfz"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/kfz"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Berufsunfähigkeit"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/berufsunfaehigkeit"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Finanzielle Vorsorge"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/finanzielle_vorsorge"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Todesfall"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/todesfall"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Ehe und Familie"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/familie"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Haus und Wohnung"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/zuhause"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Existenzgründung"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/beruf"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Reise und Freizeit"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/reise_und_freizeit"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Versicherungen für Flüchtlinge"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/fluechtlinge"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Digitalisierung"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/digital"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Pflege"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "mehr lesen",
+     "href": "/de/Ratgeber/pflege"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 13,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-15",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "KONTAKT"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-16",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sie haben Fragen?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Kontaktformular",
+     "href": "/de/Service/Kontakt/Kontaktformular"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Chat"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ein Klick führt zum Chat."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Chat öffnen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Finden Sie Ihren ERGO Berater."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Zum Berater",
+     "href": "/de/Service/Vermittlersuche"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "spacer-1",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-17",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sie suchen etwas anderes?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sicher unterwegs"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "weiter",
+     "href": "/de/Produkte/KFZ-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Welcher Versicherungstyp?"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "weiter",
+     "href": "/de/Service/typen-test"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schutz bei Unfällen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "weiter",
+     "href": "/de/Produkte/Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Gesund bleiben"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "weiter",
+     "href": "/de/Ratgeber/gesundheit"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Eigentum schützen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "weiter",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Richtig versichert?"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "weiter",
+     "href": "/de/Produkte/Lebensphasen"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Familie absichern"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Schöne Zähne"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "weiter",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Schaden melden"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "weiter",
+     "href": "/de/Service/ereignis-melden"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Sicher unterwegs"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "weiter",
+     "href": "/de/Produkte/KFZ-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Welcher Versicherungstyp?"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "weiter",
+     "href": "/de/Service/typen-test"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Schutz bei Unfällen"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "weiter",
+     "href": "/de/Produkte/Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Gesund bleiben"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "weiter",
+     "href": "/de/Ratgeber/gesundheit"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Eigentum schützen"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "weiter",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Richtig versichert?"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "weiter",
+     "href": "/de/Produkte/Lebensphasen"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Familie absichern"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Schöne Zähne"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "weiter",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Schaden melden"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "weiter",
+     "href": "/de/Service/ereignis-melden"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Sicher unterwegs"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "weiter",
+     "href": "/de/Produkte/KFZ-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Welcher Versicherungstyp?"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "weiter",
+     "href": "/de/Service/typen-test"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Schutz bei Unfällen"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "weiter",
+     "href": "/de/Produkte/Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "vorherige Seite"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "nächste Seite"
+    }
+   ],
+   "imgCount": 21,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 21,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.cmp-carousel__control-button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "spacer-2",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

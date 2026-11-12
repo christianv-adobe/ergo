@@ -1,0 +1,594 @@
+/* stylelint-disable no-descending-specificity -- canon cascade order kept */
+
+/* promo — canon promo card (canon.css c36 + modules.css data-color layer). */
+.promo {
+  --promo-bg: #fff;
+  --promo-flag-bg: var(--c-flag);
+  --promo-border-w: 1px;
+}
+
+.promo.blue {
+  --promo-bg: #ccecef;
+  --promo-flag-bg: #318187;
+  --promo-border-w: 0;
+}
+
+.promo.yellow {
+  --promo-bg: #fef6d2;
+  --promo-flag-bg: #e5c536;
+  --promo-border-w: 0;
+}
+
+.promo.green {
+  --promo-bg: #d3ebe5;
+  --promo-flag-bg: #428071;
+  --promo-border-w: 0;
+}
+
+.promo.magenta {
+  --promo-bg: #f5e1eb;
+  --promo-flag-bg: #c34a89;
+  --promo-border-w: 0;
+}
+
+.promo.orange {
+  --promo-bg: #ffe0cb;
+  --promo-flag-bg: #b46018;
+  --promo-border-w: 0;
+}
+
+.promo.warmgrey {
+  --promo-bg: #ebe6d8;
+  --promo-flag-bg: #77756e;
+  --promo-border-w: 0;
+}
+
+.promo .promo-card {
+  --pc-pt: 32px;
+  --pc-pb: 32px;
+  --pc-pi: 24px;
+  --promo-cta-width: 100%;
+
+  position: relative;
+  display: grid;
+  align-items: stretch;
+  overflow: hidden;
+  border: var(--promo-border-w) solid var(--c-border);
+  border-radius: 8px;
+  background: var(--promo-bg);
+  color: var(--c-text);
+  text-align: left;
+}
+
+.promo .promo-card:has(.promo-flag-container + .promo-content) {
+  grid-template-rows: auto 1fr;
+}
+
+.promo .promo-flag-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 28px;
+}
+
+.promo .promo-flag {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin-right: auto;
+  padding: 5px 8px;
+  overflow: hidden;
+  border-radius: 0 0 8px;
+  background: var(--promo-flag-bg);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+}
+
+.promo .promo-flag-container:not(:has(+ .promo-image-container)) .promo-flag {
+  margin-inline: auto;
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+}
+
+.promo .promo-flag p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.promo .promo-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.promo .promo-image {
+  position: relative;
+}
+
+.promo .promo-image picture {
+  display: block;
+}
+
+.promo .promo-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.promo .promo-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  padding: var(--pc-pt) var(--pc-pi) var(--pc-pb);
+}
+
+.promo .promo-flag-container + .promo-content {
+  --pc-pt: 16px;
+}
+
+.promo .promo-headline {
+  color: var(--c-text);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.promo .promo-headline :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.promo .promo-text {
+  margin: 0;
+}
+
+.promo .promo-headline + .promo-text {
+  margin-top: 24px;
+}
+
+.promo .promo-text :is(p, li) {
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo .promo-text :is(p, ul, ol) {
+  margin: 0 0 20px;
+}
+
+.promo .promo-text p + p {
+  margin-top: -10px;
+}
+
+.promo .promo-text > :last-child {
+  margin-bottom: 0;
+}
+
+.promo.center .promo-headline,
+.promo.center .promo-text {
+  text-align: center;
+}
+
+.promo .promo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.promo .promo-actions .promo-cta {
+  --cta-width: 100%;
+
+  width: var(--promo-cta-width);
+  margin-top: 32px;
+  text-align: center;
+}
+
+.promo .promo-actions .promo-cta + .promo-cta {
+  margin-top: 16px;
+}
+
+.promo .promo-actions p {
+  margin: 0;
+}
+
+.promo .promo-card[data-cta-count="1"] .cmp-cta {
+  --cta-border-hover: var(--cta-border);
+  --cta-bg-hover: var(--cta-bg);
+  --cta-color-hover: var(--cta-color);
+  --cta-deco-hover: none;
+}
+
+.promo .promo-card[data-cta-count="1"] a.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  cursor: pointer;
+}
+
+/* several cards: canon column control (ccw halves from 768) */
+.promo.cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo.cols .promo-column {
+  width: 100%;
+  padding: 12px;
+}
+
+.promo.cols .promo-card {
+  margin-inline: 24px;
+}
+
+@media (width <= 767px) {
+  .promo .promo-card.has-image:not(.promo.hide-image-mobile .promo-card) {
+    --pc-pt: 24px;
+  }
+
+  .promo.hide-image-mobile .promo-image-container {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .promo .promo-card {
+    --pc-pt: 48px;
+    --pc-pb: 48px;
+    --pc-pi: 32px;
+    --promo-cta-width: calc(50% - 12px);
+  }
+
+  .promo .promo-flag {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .promo .promo-flag-container {
+    min-height: 32px;
+  }
+
+  .promo .promo-headline {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .promo .promo-text :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .promo .promo-text :is(p, ul, ol) {
+    margin-bottom: 24px;
+  }
+
+  .promo .promo-text p + p {
+    margin-top: -12px;
+  }
+
+  .promo .promo-actions .promo-cta + .promo-cta {
+    margin-top: 32px;
+  }
+
+  .promo.image-left .promo-card.has-image {
+    grid-template-areas: "image content";
+    grid-template-columns: 40% 60%;
+  }
+
+  .promo.image-left .promo-card.has-image .promo-image-container {
+    position: relative;
+    grid-area: image;
+  }
+
+  .promo.image-left .promo-card.has-image .promo-image {
+    position: absolute;
+    inset: 0;
+  }
+
+  .promo.image-left .promo-card.has-image .promo-image :is(picture, img) {
+    height: 100%;
+  }
+
+  .promo.image-left .promo-card.has-image .promo-image img {
+    aspect-ratio: auto;
+  }
+
+  .promo.image-left .promo-card.has-image .promo-content {
+    grid-area: content;
+  }
+
+  /* cluster-landing: image right of the content (canon data-image-position="right") */
+  .promo.image-right .promo-card.has-image {
+    grid-template-areas: "content image";
+    grid-template-columns: 60% 40%;
+  }
+
+  .promo.image-right .promo-card.has-image .promo-image-container {
+    position: relative;
+    grid-area: image;
+  }
+
+  .promo.image-right .promo-card.has-image .promo-image {
+    position: absolute;
+    inset: 0;
+  }
+
+  .promo.image-right .promo-card.has-image .promo-image :is(picture, img) {
+    height: 100%;
+  }
+
+  .promo.image-right .promo-card.has-image .promo-image img {
+    aspect-ratio: auto;
+  }
+
+  .promo.image-right .promo-card.has-image .promo-content {
+    grid-area: content;
+  }
+
+  .promo.cols {
+    flex-flow: row wrap;
+  }
+
+  .promo.cols .promo-column {
+    flex-basis: 50%;
+    width: 50%;
+  }
+}
+
+@media (width <= 911px) {
+  .promo .promo-actions .promo-cta {
+    --cta-width: 100%;
+  }
+}
+
+@media (width >= 912px) {
+  .promo .promo-actions .promo-cta {
+    --cta-margin-inline: auto;
+  }
+}
+
+/* ---- listing additions (archetype-listing; modules.css c36 data-attribute layer) ---------- */
+
+/* title line under the headline: serif, brand colour, h2 size */
+.promo .promo-title {
+  margin-top: 8px;
+  color: var(--c-brand);
+  font-family: var(--ff-serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+}
+
+.promo .promo-title :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.promo .promo-title + .promo-text {
+  margin-top: 24px;
+}
+
+.promo.headline-xs .promo-headline {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.promo.headline-m .promo-headline {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.promo.headline-l .promo-headline {
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+/* cluster-landing: störer badge (second image) over the image's bottom-left corner; plain
+   subhead headline (headline-sub) and sans title line (title-sans) — /de/Service, /de/Produkte */
+.promo .promo-small-image {
+  position: relative;
+  z-index: 1;
+  width: 168px;
+  margin: -78px 0 0 24px; /* live mobile: overlaps the image by 78px, adds 34px below it */
+}
+
+.promo .promo-small-image :is(picture, img) {
+  display: block;
+  width: 168px;
+  height: 112px;
+  object-fit: contain;
+  object-position: 0% 100%;
+}
+
+.promo.headline-sub .promo-headline {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.promo.title-sans .promo-title {
+  color: var(--c-text);
+  font-family: var(--ff-sans);
+}
+
+/* cluster-landing: in image-left / image-right cards the flag overlays the card's top edge
+   (live: over the image top-left, or the content's top-right with flag-right) instead of
+   taking a row — the card height is the same with or without a flag */
+.promo:is(.image-left, .image-right) .promo-card.has-image:has(.promo-flag-container) {
+  position: relative;
+}
+
+.promo:is(.image-left, .image-right) .promo-card.has-image .promo-flag-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* cluster-landing: image at its own rendition ratio (live: no 3:2 crop for 2.13:1 / 4:3 art) */
+.promo.img-natural .promo-image img {
+  aspect-ratio: auto;
+}
+
+/* cluster-landing: flag on the right (canon data-flag-position="right") */
+.promo.flag-right .promo-flag {
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 0 0 0 8px;
+}
+
+/* price (canon c25 .cmp-price): amount bold 28/36 between prefix and suffix */
+.promo .promo-price {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.promo .promo-price p {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  color: var(--c-text);
+  white-space: nowrap;
+}
+
+.promo .promo-price strong {
+  margin-inline: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+/* CTA icon token: the canon ::after icon paints it, the token itself stays hidden */
+.promo .promo-cta.has-icon .icon {
+  display: none;
+}
+
+/* lock icon (not in the foundation icon set): painted with ::before so a single-CTA card keeps
+   its ::after stretched link; authored left of the label (`:lock: <strong><a>`) */
+.promo .promo-cta.ic-lock {
+  --icon: url("../../icons/lock.svg");
+}
+
+.promo .promo-cta.ic-lock.icon-left a.button {
+  flex-direction: row;
+}
+
+.promo .promo-cta.ic-lock.icon-left a.button::before {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px no-repeat;
+}
+
+/* rounded image (podcast): centred circle, image left from 768 */
+.promo.rounded .promo-card {
+  align-items: center;
+}
+
+.promo.rounded .promo-card.has-image .promo-image-container {
+  width: 30%;
+  min-width: 128px;
+  max-width: 256px;
+  height: auto;
+  margin: 32px auto 0;
+  overflow: hidden;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+
+.promo.rounded .promo-card.has-image .promo-image,
+.promo.rounded .promo-card.has-image .promo-image :is(picture, img) {
+  height: 100%;
+}
+
+.promo.rounded .promo-card.has-image .promo-image img {
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+.promo.rounded .promo-content {
+  align-self: stretch;
+}
+
+@media (width >= 768px) {
+  .promo .promo-title {
+    font-size: 28px;
+    line-height: 36.4px;
+  }
+
+  .promo.headline-xs .promo-headline {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .promo.headline-s .promo-headline {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .promo.headline-m .promo-headline {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .promo.headline-l .promo-headline {
+    font-size: 28px;
+    line-height: 36.4px;
+  }
+
+  .promo.headline-sub .promo-headline {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .promo .promo-small-image {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    margin: 0;
+  }
+
+  .promo .promo-small-image,
+  .promo .promo-small-image :is(picture, img) {
+    width: 246px;
+    height: 150px;
+  }
+
+  .promo .promo-price {
+    margin-top: 24px;
+  }
+
+  .promo.rounded.image-left .promo-card.has-image {
+    grid-template-columns: 264px 1fr;
+  }
+
+  .promo.rounded.image-left .promo-card.has-image .promo-image-container {
+    width: calc(100% - 32px);
+    max-width: none;
+    margin: 32px 0 32px 32px;
+  }
+
+  .promo.rounded.image-left .promo-card.has-image .promo-image {
+    position: relative;
+    inset: auto;
+  }
+
+  .promo.rounded.image-left .promo-content {
+    align-self: center;
+  }
+}

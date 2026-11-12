@@ -1,0 +1,1228 @@
+{
+ "_source": {
+  "dom": "live https://www.ergo.de/ @1440, snap 2026-10-28",
+  "note": "article teaser set + eKomi quote are randomized per load on live — frozen here (permanent residual)"
+ },
+ "head": {
+  "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+  "description": "Einfach, weil’s wichtig ist. Qualität & finanzielle Sicherheit sind unsere Stärke. Schließen Sie jetzt eine Versicherung bei ERGO online ab!",
+  "lang": "de"
+ },
+ "blocks": [
+  {
+   "type": "banner",
+   "size": "s",
+   "mode": "tb",
+   "bg": "yellow",
+   "center": false,
+   "cta": {
+    "tag": "a",
+    "label": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück eine Premium-Kreuzfahrt gewinnen",
+    "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+    "aria": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück eine Premium-Kreuzfahrt gewinnen",
+    "variant": "text-link",
+    "size": "auto",
+    "width": "100",
+    "icon": "ChevronRightIcon",
+    "iconPos": "right"
+   },
+   "inXf": true
+  },
+  {
+   "type": "hero",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "orange",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.dam.jpg",
+    "alt": "Eltern liegen auf dem Teppichboden und lachen mit der kleinen Tochter in die Kamera. "
+   },
+   "storer": {
+    "src": "https://assets.ergo.com/content/dam/ergo/grafiken/ohne-gesundheitsfragen-stoerer.dam.svg",
+    "alt": "Hinweis: Ohne Gesundheitsfragen."
+   },
+   "h1": "Zahnzusatzversicherungen im Vergleich",
+   "title": "Wer zuletzt lacht – ist bei ERGO versichert!",
+   "textHtml": "<p><b>Ausgezeichnete Leistungen und keine Wartezeiten:</b> Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.</p>",
+   "price": {
+    "prefix": "z. B.",
+    "value": "20,65",
+    "currency": "€",
+    "suffix": "monatlich"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "label": "Jetzt informieren",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+     "aria": "Jetzt informieren",
+     "variant": "primary",
+     "size": "auto",
+     "width": "100",
+     "icon": null,
+     "iconPos": "right"
+    },
+    {
+     "tag": "a",
+     "label": "Beitrag berechnen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss#tariff1=DVE&tariff2=DS90",
+     "aria": "Beitrag berechnen",
+     "variant": "secondary",
+     "size": "auto",
+     "width": "100",
+     "icon": "CalculatorIcon",
+     "iconPos": "left"
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>BESTSELLER</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Die beliebtesten Produkte</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "Zuverlässige Vorsorge für Sie: ganz einfach mit ERGO.",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "article": false,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": "Gewinne ein iPhone 18",
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/frauaufdemfahrradunterwegs.dam.jpg",
+      "alt": "Eine Frau ist auf dem Fahrrad unterwegs (Bild KI-unterstützt generiert)"
+     },
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headline": "Die ERGO Fast Lane zum Altersvorsorgedepot",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Mit dem neuen Altersvorsorgedepot wird private Altersvorsorge jetzt besonders einfach und profitabel. Mit der <b>ERGO Fast Lane</b> bleiben Sie immer einen Schritt voraus.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Komm in die ERGO Fast Lane!",
+       "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+       "aria": "Komm in die ERGO Fast Lane!",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/rechtsschutz/rechtsschutzversicherung.dam.jpg",
+      "alt": "Eine Familie spaziert am Strand."
+     },
+     "ai": false,
+     "small": {
+      "src": "https://assets.ergo.com/content/dam/ergo/grafiken/nebenkostenabrechnung-stoerer.dam.svg",
+      "alt": "Hinweis: Nebenkostencheck ohne Wartezeit"
+     },
+     "icon": null,
+     "headline": "Rechtsschutz",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Stellen Sie sich Ihr Rechtsschutzpaket so zusammen, wie es zu Ihrer Lebenssituation und Ihren Wünschen passt.</p>",
+     "textCentered": true,
+     "price": {
+      "prefix": "Ab",
+      "value": "12,17",
+      "currency": "€",
+      "suffix": "monatlich"
+     },
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt informieren",
+       "href": "/de/Produkte/Rechtsschutzversicherung",
+       "aria": "Jetzt informieren",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/augenversicherung.dam.jpg",
+      "alt": "Lächelnder Mann mit Brille zu Hause – zum Sehen, Entspannen und Ausruhen im Wohnzimmer. "
+     },
+     "ai": false,
+     "small": {
+      "src": "https://assets.ergo.com/content/dam/ergo/grafiken/neu-stoerer.dam.svg",
+      "alt": "Hinweis: Neu!"
+     },
+     "icon": null,
+     "headline": "Augen- und Brillenversicherung",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Für den perfekten Durchblick: Gesundheit &amp; Vorsorge Basic - <b>keine Gesundheitsfragen</b>&nbsp;und ohne Wartezeit!</p>",
+     "textCentered": true,
+     "price": {
+      "prefix": "Z. B.",
+      "value": "10,80",
+      "currency": "€",
+      "suffix": "monatlich"
+     },
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt informieren",
+       "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+       "aria": "Jetzt informieren",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Alle Produkte ansehen",
+    "href": "/de/Produkte",
+    "aria": "Alle Produkte ansehen",
+    "variant": "secondary",
+    "size": "auto",
+    "width": "50",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "top",
+   "bg": "magenta",
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>AKTUELLES</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "top",
+   "bg": "magenta",
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Aktionen und Produktangebote</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "top",
+   "bg": "magenta",
+   "kind": "p",
+   "tag": "p",
+   "html": "Wissenswertes für Sie",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "tb",
+   "bg": "magenta",
+   "article": false,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/RiskIcon.svg",
+      "alt": ""
+     },
+     "title": "Risikolebensversicherung",
+     "text": "Für alle, die Ihnen am Herzen liegen.",
+     "cta": {
+      "tag": "a",
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "aria": " Risikolebensversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DentalOrthodonticsIcon.svg",
+      "alt": ""
+     },
+     "title": "Kieferorthopädie Sofort für Kinder",
+     "text": "Rundum sicher vor hohen Zuzahlungen.",
+     "cta": {
+      "tag": "a",
+      "label": "Kieferorthopädie Sofort für Kinder",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+      "aria": "Kieferorthopädie Sofort für Kinder",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/AirplaneIcon.svg",
+      "alt": ""
+     },
+     "title": "Reiseversicherung",
+     "text": "Voll entspannt in den Urlaub.",
+     "cta": {
+      "tag": "a",
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung",
+      "aria": "Reiseversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/FuneralIcon.svg",
+      "alt": ""
+     },
+     "title": "Sterbegeldversicherung",
+     "text": "Hinterlassen Sie finanzielle Sicherheit.",
+     "cta": {
+      "tag": "a",
+      "label": "Sterbegeldversicherung",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+      "aria": "Sterbegeldversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HospitalIcon.svg",
+      "alt": ""
+     },
+     "title": "Krankenhauszusatzversicherung",
+     "text": "Für die beste Behandlung im Krankenhaus.",
+     "cta": {
+      "tag": "a",
+      "label": "Krankenhauszusatzversicherung",
+      "href": "/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung",
+      "aria": "Krankenhauszusatzversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HandsMoneyIcon.svg",
+      "alt": ""
+     },
+     "title": "Basis-Rente",
+     "text": "Sicher und flexibel im Alter – bereits ab 25 € monatlich.",
+     "cta": {
+      "tag": "a",
+      "label": "Basis-Rente",
+      "href": "/de/Produkte/Rentenversicherung/Basis-Rente",
+      "aria": "Basis-Rente",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HobbyIcon.svg",
+      "alt": ""
+     },
+     "title": "Berufsunfähigkeitsversicherung",
+     "text": "Flexibler Schutz, der Ihre Karriere und Ihr Leben begleitet.",
+     "cta": {
+      "tag": "a",
+      "label": "Berufsunfähigkeitsversicherung",
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "aria": "Berufsunfähigkeitsversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,255,255)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BrokenArmIcon.svg",
+      "alt": ""
+     },
+     "title": "Unfallversicherung",
+     "text": "Weltweiter Schutz - rund um die Uhr.",
+     "cta": {
+      "tag": "a",
+      "label": "Unfallversicherung",
+      "href": "/de/Produkte/Unfallversicherung",
+      "aria": "Unfallversicherung",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "size": "xl",
+   "mode": "top",
+   "bg": null,
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>SERVICES</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "top",
+   "bg": null,
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Sparen Sie Zeit durch einfache Online-Services</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "Informationen und Wissenswertes für ERGO Kunden und Interessierte",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "article": false,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": true,
+   "items": [
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/landingpages/frau-vor-laptop.dam.jpg",
+      "alt": "Eine Frau sitzt zufrieden lächelnd an ihrem Laptop."
+     },
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headline": "Schaden oder Leistungsfall melden",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Rechnungen einreichen, Schäden oder Leistungsfälle melden? Hier sind Sie richtig. Oder rufen Sie an.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Rechnung einreichen",
+       "href": "/de/Service/ereignis-melden",
+       "aria": "Rechnung einreichen",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/kundenbereich-vertraege-mann-tablet.dam.jpg",
+      "alt": "Ein junger Mann auf dem Sofa lächelt über das, was er im Tablet sieht."
+     },
+     "ai": false,
+     "small": {
+      "src": "https://assets.ergo.com/content/dam/ergo/grafiken/3-mio-kunden.dam.svg",
+      "alt": ""
+     },
+     "icon": null,
+     "headline": "Ihr ERGO Kundenportal",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Behalten Sie Ihre Versicherungen im Blick! Hier finden Sie viele Services, Ihr digitales Postfach und können bei Gewinnspielen mitmachen.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Kundenportal",
+       "href": "/de/Service/kundenportal",
+       "aria": "Zum Kundenportal",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/unwetter.dam.jpg",
+      "alt": "Eine Frau steht mit Regenschirm und Gummistiefeln im Hochwasser."
+     },
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headline": "Unwetterschäden melden und richtig handeln",
+     "headlineCentered": false,
+     "title": null,
+     "textHtml": "<p>Sie sind betroffen? Melden Sie Ihren Schaden einfach online und ersparen Sie sich lange Wartezeiten am Telefon.</p>",
+     "textCentered": false,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Unwetterschaden melden",
+       "href": "https://schadenservice.ergo.de/unwetterschaden",
+       "aria": "Unwetterschaden melden",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Alle Services ansehen",
+    "href": "/de/Service",
+    "aria": "Alle Services ansehen",
+    "variant": "secondary",
+    "size": "auto",
+    "width": "50",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "top",
+   "bg": "green",
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>KUNDENBEWERTUNGEN</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "top",
+   "bg": "green",
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Das sagen ERGO Kunden</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "top",
+   "bg": "green",
+   "kind": "p",
+   "tag": "p",
+   "html": "Nützliches Feedback und Erfahrungen für Sie",
+   "centered": true
+  },
+  {
+   "type": "ekomi",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "green",
+   "quote": "Da ich mehrmals im Jahr zur Prophylaxe zum Zahnarzt gehe, zahlt sich das für mich aus. Da ich die Kosten zu 100% erstattet bekomme. Bereits nach wenigen Tagen ist alles erledigt. Durch die App einfach und schnell.",
+   "seal": "EKomi Siegel: Silber",
+   "ratingAria": "4,6 von 5 Sternen",
+   "score": "4,6",
+   "ratingTextHtml": "Ermittelt aus <strong>387.152</strong> Bewertungen <br>ERGO Krankenversicherung AG",
+   "link": {
+    "tag": "a",
+    "label": "Zu den Kundenbewertungen",
+    "href": "/de/Service/Kundenbewertungen",
+    "aria": null,
+    "variant": "text-link",
+    "size": null,
+    "width": null,
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "text",
+   "size": "xl",
+   "mode": "top",
+   "bg": null,
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>KONTAKT</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "top",
+   "bg": null,
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Sie haben Fragen?</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "Ob Fragen, Kritik oder persönliche Beratung: ERGO ist für Sie da",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "article": false,
+   "cols": {
+    "m": 2,
+    "l": 4
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "color": "rgb(211,235,229)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+      "alt": ""
+     },
+     "title": "E-Mail",
+     "text": "Schreiben Sie eine Nachricht.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Kontaktformular",
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "aria": "Zum Kontaktformular",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(204,236,239)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChatIcon.svg",
+      "alt": ""
+     },
+     "title": "Chat",
+     "text": "Ein Klick führt zum Chat.",
+     "cta": {
+      "tag": "button",
+      "label": "Chat öffnen",
+      "href": null,
+      "aria": "Chat öffnen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(245,225,235)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+      "alt": ""
+     },
+     "title": "ERGO Berater",
+     "text": "Finden Sie Ihren ERGO Berater.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Berater",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "Zum Berater",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "tile",
+     "color": "rgb(255,224,203)",
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PhoneIcon.svg",
+      "alt": ""
+     },
+     "title": "Telefon",
+     "text": "Rufen Sie an – gebührenfrei.",
+     "cta": {
+      "tag": "a",
+      "label": "0800 / 3746 095",
+      "href": "tel:08003746095",
+      "aria": "0800 / 3746 095",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     }
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Alle Kontaktmöglichkeiten ansehen",
+    "href": "/de/Service/Kontakt",
+    "aria": "Alle Kontaktmöglichkeiten ansehen",
+    "variant": "secondary",
+    "size": "auto",
+    "width": "50",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>WISSENSWERTES</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Rundum gut informiert mit ERGO</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "Ihr Plus an Serviceleistungen",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "article": false,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": "Aktion bis 31.12.2026",
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MegaphoneIcon.svg",
+      "alt": ""
+     },
+     "headline": "Kunden werben Kunden",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Für jeden neu geworbenen Kunden erhalten Sie eine <b>Geldprämie von bis zu 150 € </b>und sichern sich die <b>Gewinnchance auf einen von 3 kleinen Goldbarren</b>.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Gleich mitmachen",
+       "href": "https://freunde.ergo.de/?intcid=9001026",
+       "aria": "Gleich mitmachen",
+       "variant": "text-link",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BusinessCardIcon.svg",
+      "alt": ""
+     },
+     "headline": "Der ERGO Newsletter",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Nichts mehr verpassen und immer top informiert.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Jetzt anmelden",
+       "href": "/de/Service/Newsletter",
+       "aria": "Jetzt anmelden",
+       "variant": "text-link",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(255,255,255)",
+     "flag": null,
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/StoreIcon.svg",
+      "alt": ""
+     },
+     "headline": "Extra für Geschäftskunden",
+     "headlineCentered": true,
+     "title": null,
+     "textHtml": "<p>Eine passgenaue, breite Produktpalette für Gewerbe.</p>",
+     "textCentered": true,
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Geschäftskundenbereich",
+       "href": "/de/Geschaeftskunden-Produkte",
+       "aria": "Zum Geschäftskundenbereich",
+       "variant": "text-link",
+       "size": "auto",
+       "width": "100",
+       "icon": "ChevronRightIcon",
+       "iconPos": "right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "<b>RATGEBER</b>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Tipps der Redaktion</span>",
+   "centered": true
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "kind": "p",
+   "tag": "p",
+   "html": "Lesen lohnt sich!",
+   "centered": true
+  },
+  {
+   "type": "carousel",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "article": true,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": true,
+   "items": [
+    {
+     "kind": "article",
+     "bg": "rgb(245,225,235)",
+     "subhead": "Wie schädlich sind Amalgamfüllungen?",
+     "headline": "Zahnfüllung mit Risiko",
+     "text": "Amalgam war lange Zeit Standard in der Zahnmedizin. Seit dem 1. Januar 2025 sind Amalgamfüllungen in Deutschland allerdings verboten.",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam",
+      "aria": "Mehr lesen: Wie schädlich sind Amalgamfüllungen?",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "article",
+     "bg": "rgb(204,236,239)",
+     "subhead": "Knochenaufbau für Implantate",
+     "headline": "Methoden und Kosten",
+     "text": "Ein Implantat setzt einen gesunden Kieferknochen voraus. Ist nicht ausreichend Substanz für ein Zahnimplantat vorhanden, kann Knochenaufbau helfen.",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/knochenaufbau",
+      "aria": "Mehr lesen: Knochenaufbau für Implantate",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "article",
+     "subhead": "Professionelle Zahnreinigung",
+     "headline": "Was ist PZR?",
+     "text": "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat.",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung",
+      "aria": "Mehr lesen: Professionelle Zahnreinigung",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     },
+     "bg": "rgb(211,235,229)"
+    },
+    {
+     "kind": "article",
+     "bg": "rgb(254,246,210)",
+     "subhead": "Mundfäule",
+     "headline": "Diagnose und Behandlung der Stomatitis",
+     "text": "Stomatitis bei Kindern rechtzeitig erkennen und behandeln.",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule",
+      "aria": "Mehr lesen: Mundfäule",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "article",
+     "bg": "rgb(255,224,203)",
+     "subhead": "Weisheitszähne ziehen lassen",
+     "headline": "Die letzten in der Reihe",
+     "text": "Weisheitszähne machen oft Probleme – doch nicht immer ist eine OP nötig. Wann das Entfernen der Weisheitszähne sinnvoll ist und was Sie wissen sollten",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne",
+      "aria": "Mehr lesen: Weisheitszähne ziehen lassen",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     }
+    },
+    {
+     "kind": "article",
+     "bg": "rgb(245,225,235)",
+     "subhead": "Zahn ziehen",
+     "headline": "Wenn ein Zahn nicht mehr zu retten ist",
+     "text": "Ein Zahn wird nur dann gezogen, wenn keine andere Behandlungsmethode mehr in Frage kommt. Anschließend wird oft Zahnersatz benötigt.",
+     "cta": {
+      "tag": "a",
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahn-ziehen",
+      "aria": "Mehr lesen: Zahn ziehen",
+      "variant": "secondary",
+      "size": null,
+      "width": null,
+      "icon": null,
+      "iconPos": "right"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "size": "l",
+   "mode": "top",
+   "bg": "blue",
+   "kind": "eyebrow",
+   "tag": "h2",
+   "html": "<b>WARUM ERGO?</b>",
+   "centered": true,
+   "inXf": true
+  },
+  {
+   "type": "text",
+   "size": "m",
+   "mode": "tb",
+   "bg": "blue",
+   "kind": "h2",
+   "tag": "h2",
+   "html": "<span>Einfach, weil's wichtig ist.</span>",
+   "centered": true,
+   "inXf": true
+  },
+  {
+   "type": "text",
+   "size": "s",
+   "mode": "bottom",
+   "bg": "blue",
+   "kind": "p",
+   "tag": "p",
+   "html": "Ihr verlässlicher Partner für Versicherungen.",
+   "centered": true,
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "blue",
+   "article": false,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "color": "rgb(204,236,239)",
+     "flag": null,
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GlobeIcon.svg",
+      "alt": ""
+     },
+     "headline": "Weltweit",
+     "headlineCentered": true,
+     "title": "in über 20 Ländern",
+     "textHtml": null,
+     "textCentered": false,
+     "price": null,
+     "ctas": []
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(204,236,239)",
+     "flag": null,
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GroupIcon.svg",
+      "alt": ""
+     },
+     "headline": "31 Mio.",
+     "headlineCentered": true,
+     "title": "zufriedene Kunden",
+     "textHtml": null,
+     "textCentered": false,
+     "price": null,
+     "ctas": []
+    },
+    {
+     "kind": "promo",
+     "color": "rgb(204,236,239)",
+     "flag": null,
+     "image": null,
+     "ai": false,
+     "small": null,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HandshakeIcon.svg",
+      "alt": ""
+     },
+     "headline": "100+ Jahre",
+     "headlineCentered": true,
+     "title": "Erfahrung",
+     "textHtml": null,
+     "textCentered": false,
+     "price": null,
+     "ctas": []
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

@@ -1,0 +1,529 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica (recreate+gate, landing + listing + program)",
+  "writtenAt": "2026-10-28T16:23:58.798Z"
+ },
+ "types": {
+  "landing": {
+   "pageType": "landing",
+   "archetype": "index",
+   "url": "https://www.ergo.de/",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "contentRoot": "#main",
+   "files": {
+    "shared": [
+     "stardust/prototypes/shared/canon.css",
+     "stardust/prototypes/shared/chrome.css",
+     "stardust/prototypes/shared/chrome.js",
+     "stardust/prototypes/shared/carousel.js",
+     "stardust/prototypes/shared/header.html",
+     "stardust/prototypes/shared/footer.html",
+     "stardust/prototypes/shared/fonts/"
+    ],
+    "page": [
+     "stardust/prototypes/index.css"
+    ],
+    "build": [
+     "stardust/replica/build-prototype.mjs",
+     "stardust/replica/extract-index-content.mjs",
+     "stardust/replica/extract-chrome-content.mjs",
+     "stardust/replica/content/index.json",
+     "stardust/replica/content/index.frozen.json",
+     "stardust/replica/content/chrome.json"
+    ]
+   },
+   "fonts": {
+    "policy": "licensed kits substituted, never rehosted; brand family first",
+    "substitutes": [
+     {
+      "brand": "FS Me",
+      "substitute": "Fira Sans 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "99.0%",
+       "700": "102.1%"
+      },
+      "method": "advance-width ratio vs captured FSMeWeb (stardust/.work/replica/fontmatch*.mjs)"
+     },
+     {
+      "brand": "Fedra Serif",
+      "substitute": "Noto Serif 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "103.7%",
+       "700": "104.5%"
+      },
+      "method": "advance-width ratio vs captured Fedra Serif (WF-006389-*)"
+     }
+    ],
+    "stack": [
+     "\"FS Me\", \"FS Me Substitute\", Arial, Helvetica, sans-serif",
+     "\"Fedra Serif\", \"Fedra Serif Substitute\", Georgia, \"Times New Roman\", serif"
+    ]
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "confirmation": "final/final2 (post-motion)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 6,
+      "visualFlags": "24 justified (font substitution)",
+      "pixelPct": 3.09,
+      "heightDelta": -12,
+      "clipped": 0,
+      "overflow": 0,
+      "chromeCrop": {
+       "header": 0.75,
+       "footer": 1.18
+      },
+      "pass": false
+     },
+     "justified": [
+      {
+       "probe": "content+visual",
+       "flag": "🟠 FONT FORK / FONT MISMATCH ×24 headings",
+       "why": "licensed FS Me + Fedra Serif kits not rehosted (Fonts policy); metric-matched OFL substitutes Fira Sans (400/700) and Noto Serif (400/700) with size-adjust, brand family first in stack",
+       "permanent": true
+      },
+      {
+       "probe": "content",
+       "flag": "footer icons 8 live vs 7 build; chrome-parity OFFSET",
+       "why": "Realperson chat button/invite (martech/chat, out of the prototype per brief); offset = randomized eKomi quote / article set on the live probe load",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 8000–9000",
+       "pct": 6.4,
+       "heightDelta": -12,
+       "cause": "nondeterministic article set: the frozen set's tallest card is 468px at 360 vs 456px in the cached live capture (the set that matches the 1440 capture height exactly); card height also depends on substitute-font headline wraps",
+       "flaggedFor": "delivery",
+       "permanent": true
+      },
+      {
+       "band": "y 500–1000",
+       "pct": 12.7,
+       "cause": "Realperson chat invite bubble (fixed, bottom-right) painted in the live capture; chat is martech, out of the prototype per brief; plus substitute-font hyphenation/price glyph widths in the hero",
+       "flaggedFor": "user",
+       "permanent": true
+      },
+      {
+       "band": "y 9500–10500",
+       "pct": 6,
+       "cause": "offset-contaminated by the -12px article band above; footer crop itself 1.18%",
+       "flaggedFor": "delivery"
+      },
+      {
+       "probe": "content",
+       "flag": "nothing-lost 🟡 ×6 MISSING ARIA-LABEL \"Mehr lesen: <article>\"",
+       "cause": "randomized article set on the live load",
+       "flaggedFor": "delivery",
+       "permanent": true
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "confirmation": "final/final2 (post-motion)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 6,
+      "visualFlags": "24 justified (font substitution)",
+      "pixelPct": 1.18,
+      "heightDelta": 0,
+      "clipped": 0,
+      "overflow": 0,
+      "chromeCrop": {
+       "header": 1.85,
+       "footer": 1.76
+      },
+      "pass": false
+     },
+     "justified": [
+      {
+       "probe": "content+visual",
+       "flag": "🟠 FONT FORK / FONT MISMATCH ×24 headings",
+       "why": "licensed FS Me + Fedra Serif kits not rehosted (Fonts policy); metric-matched OFL substitutes Fira Sans (400/700) and Noto Serif (400/700) with size-adjust, brand family first in stack",
+       "permanent": true
+      },
+      {
+       "probe": "content",
+       "flag": "footer icons 8 live vs 7 build; chrome-parity OFFSET",
+       "why": "Realperson chat button/invite (martech/chat, out of the prototype per brief); offset = randomized eKomi quote / article set on the live probe load",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "probe": "content",
+       "flag": "nothing-lost 🟡 ×6 MISSING ARIA-LABEL \"Mehr lesen: <article>\"",
+       "cause": "nondeterministic: live randomizes the Ratgeber article teaser set (6 of ~10) per load; prototype freezes one observed set (content/index.frozen.json)",
+       "flaggedFor": "delivery",
+       "permanent": true
+      },
+      {
+       "region": "header",
+       "cause": "chrome-parity Δw 2–4px on text boxes (font substitution glyph widths); crop 1.85% ≤2%",
+       "flaggedFor": "user",
+       "permanent": true
+      },
+      {
+       "band": "y 5500–6000",
+       "pct": 1.8,
+       "cause": "article teaser texts differ per live load (randomized set)",
+       "flaggedFor": "delivery"
+      }
+     ]
+    }
+   },
+   "capProbe": {
+    "width": 2560,
+    "result": "PASS",
+    "rows": "0 of 37 failed",
+    "evidence": "stardust/replica/gates/index-2560/cap-iter.json",
+    "note": "wrapper cap removed: every module capped min(1256px, 100%-24px) like live"
+   },
+   "captureState": [
+    {
+     "what": "Ratgeber article teaser set/order frozen (Amalgam, Knochenaufbau, PZR, Mundfäule, Weisheitszähne, Zahn ziehen)",
+     "where": "articleTeaserCarousel",
+     "restoreAtDelivery": "live picks 6 random articles per load from articleteaserdata.json (d-article-data / l-article-teaser-rail, dynamic-features rows 6+11)"
+    },
+    {
+     "what": "eKomi quote frozen (\"Da ich mehrmals im Jahr zur Prophylaxe…\")",
+     "where": "ekomi band",
+     "restoreAtDelivery": "live shows 1 random quote of 9 from ekomireact.quotes.json per load (d-reviews-quotes, row 10)"
+    },
+    {
+     "what": "personalization slots #reminder-offer / #recommendations(-hero) empty (0px) in headless live",
+     "where": "after hero, after bestseller",
+     "restoreAtDelivery": null
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/index.json",
+    "build": "stardust/replica/motion/index-build.json",
+    "implemented": [
+     "article/services carousel: track transform transition 0.4s cubic-bezier(.25,1,.5,1), loop clones (2×perPage per side), is-active/is-prev/is-next/is-visible slide states, dot is-active, arrows wrap (loop), pointer drag",
+     "header nav button hover: color #8e0038 + bg #fbf4f4",
+     "header flyouts / search overlay / mobile drawer per header contract (chrome-explore)",
+     "footer accordions <768"
+    ],
+    "dead": [
+     "promo card hover (box-shadow transition, no diff)",
+     "tile hover (no diff)",
+     "article teaser card hover (no diff)",
+     "header scroll-morph (static on live)",
+     "CTA hover (probe hit a hidden flyout CTA; source CSS hover kept, unverified)"
+    ],
+    "outOfScope": [
+     "rp-chat-button-pulse / rpAnimationFadeIn / rp-invite-active — Realperson chat (martech off)"
+    ],
+    "compare": "6 parity, 5 missing (all Realperson chat), 0 extra, 1 advisory (footer link hover: source CSS rule kept)"
+   },
+   "reuseForNextArchetypes": "import shared/canon.css + shared/chrome.css + shared/chrome.js + shared/carousel.js; header/footer markup from shared/header.html + footer.html (or build-prototype.mjs with a new content/<slug>.json); re-run chrome-parity against the new page live chrome first"
+  },
+  "listing": {
+   "pageType": "listing",
+   "archetype": "de-ratgeber",
+   "url": "https://www.ergo.de/de/Ratgeber",
+   "prototype": "stardust/prototypes/de-ratgeber-proposed.html",
+   "contentRoot": "#main",
+   "siblings": [
+    "de-rechtsportal (pending)"
+   ],
+   "files": {
+    "shared": [
+     "stardust/prototypes/shared/canon.css",
+     "stardust/prototypes/shared/chrome.css",
+     "stardust/prototypes/shared/chrome.js",
+     "stardust/prototypes/shared/carousel.js",
+     "stardust/prototypes/shared/header.html",
+     "stardust/prototypes/shared/footer.html",
+     "stardust/prototypes/shared/fonts/",
+     "stardust/prototypes/shared/modules.css (NEW: listing-family modules — rich text, article header, breadcrumb, column control, promo by data attributes incl. left/rounded, tertiary CTA, icon-less reduced tile, benefits, article-footer note row, narrow grid)"
+    ],
+    "page": [
+     "stardust/prototypes/de-ratgeber.css (empty page layer)"
+    ],
+    "build": [
+     "stardust/replica/build-prototype.mjs (extended: v2 promo/tile, articleHeader/breadcrumb/columns/richtext/promo/benefits blocks, page footer variant; index output byte-identical)",
+     "stardust/replica/extract-listing-content.mjs",
+     "stardust/replica/content/de-ratgeber.json",
+     "stardust/replica/units.json"
+    ]
+   },
+   "fonts": {
+    "policy": "licensed kits substituted, never rehosted; brand family first",
+    "substitutes": [
+     {
+      "brand": "FS Me",
+      "substitute": "Fira Sans 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "99.0%",
+       "700": "102.1%"
+      },
+      "method": "advance-width ratio vs captured FSMeWeb (stardust/.work/replica/fontmatch*.mjs)"
+     },
+     {
+      "brand": "Fedra Serif",
+      "substitute": "Noto Serif 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "103.7%",
+       "700": "104.5%"
+      },
+      "method": "advance-width ratio vs captured Fedra Serif (WF-006389-*)"
+     }
+    ],
+    "stack": [
+     "\"FS Me\", \"FS Me Substitute\", Arial, Helvetica, sans-serif",
+     "\"Fedra Serif\", \"Fedra Serif Substitute\", Georgia, \"Times New Roman\", serif"
+    ]
+   },
+   "chrome": {
+    "header": "canon header unchanged (crop 1.85% / 0.75%)",
+    "footer": "page footer variant \"article\" (Hinweis note row, Service 8 links incl. \"Ratgeber & Rechtsportal\"/\"Freundschaftswerbung\", older Über ERGO hrefs, © 2025) from content/de-ratgeber.json footer; shared/footer.html untouched (crop 1.86% / 1.50%)"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "confirmation": "final (full)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 0,
+      "visualFlags": "17 justified (font substitution)",
+      "pixelPct": 5.7,
+      "heightDelta": 1,
+      "clipped": 0,
+      "overflow": 0,
+      "units": "PASS",
+      "chromeCrop": {
+       "header": 0.75,
+       "footer": 1.5
+      },
+      "pass": true
+     },
+     "residuals": [
+      {
+       "probe": "layout",
+       "cause": "two paragraphs (Rechtsportal promo text, Persönlichkeitstest intro) wrap one line shorter with the substitute font (−21px each, real Chrome); net doc Δh +1 in the gate",
+       "flaggedFor": "delivery",
+       "permanent": true
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "confirmation": "final (full)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 0,
+      "visualFlags": "20 justified (font substitution)",
+      "pixelPct": 8.01,
+      "heightDelta": 17,
+      "clipped": 0,
+      "overflow": 0,
+      "units": "PASS",
+      "chromeCrop": {
+       "header": 1.85,
+       "footer": 1.86
+      },
+      "pass": false
+     },
+     "residuals": [
+      {
+       "probe": "pixel",
+       "heightDelta": 17,
+       "cause": "first Ratgeber card text wraps 6 lines in the gate browser (bundled Chromium) vs 7 on live — substitute-font glyph width / hyphenation; in real Chrome (modrows/rowdetail probes) every module row matches live to 0px",
+       "flaggedFor": "delivery",
+       "permanent": true
+      },
+      {
+       "probe": "pixel",
+       "bands": "y 3500–4000, 8500–9000, 9500–10000 (16–18%)",
+       "cause": "offset contamination from the +17px card above; aligned crops (--y-b −17) measure 3.3% / 2.3% / 2.1%",
+       "flaggedFor": "none"
+      }
+     ]
+    }
+   },
+   "capProbe": {
+    "width": 2560,
+    "result": "PASS",
+    "rows": "0 of 41 failed",
+    "evidence": "stardust/replica/gates/de-ratgeber-2560/cap-iter.json"
+   },
+   "motion": {
+    "observed": "stardust/replica/motion/de-ratgeber.json",
+    "build": "stardust/replica/motion/de-ratgeber-build.json",
+    "implemented": [
+     "carousel track transform 0.4s + is-active/is-prev/is-next slide classes (shared/carousel.js)",
+     "breadcrumb link hover colour (fired on first live observation)"
+    ],
+    "dead": [
+     "promo cta-count=1 hover shadow (lifted c36 rule removed)",
+     "tile hover",
+     "cta hover",
+     "rich-text link hover (removed)"
+    ],
+    "outOfScope": [
+     "Realperson chat rp-chat-button-pulse / rpAnimationFadeIn / rp-invite-active"
+    ],
+    "compare": "5 parity, 4 missing (all Realperson chat), 0 extra, 2 advisory"
+   },
+   "reuseForNextArchetypes": "listing pages: build with extract-listing-content.mjs <slug> + build-prototype.mjs <slug> (layout narrow → links shared/modules.css); Rechtsportal should only need its new modules"
+  },
+  "program": {
+   "pageType": "program",
+   "archetype": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+   "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+   "prototype": "stardust/prototypes/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen-proposed.html",
+   "contentRoot": "#main",
+   "siblings": [
+    "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+    "de-geschaeftskunden-produkte-dienstreiseversicherung"
+   ],
+   "files": {
+    "shared": [
+     "stardust/prototypes/shared/canon.css",
+     "stardust/prototypes/shared/chrome.css",
+     "stardust/prototypes/shared/chrome.js",
+     "stardust/prototypes/shared/carousel.js",
+     "stardust/prototypes/shared/fonts/",
+     "stardust/prototypes/shared/modules.css (extended: rich-text p+p −10/−12px rule, promo image hidden on mobile; Ratgeber/landing unaffected — no p+p, no hidden-mobile promos)",
+     "stardust/prototypes/shared/program.css (NEW: product hero image right, accordion, product table incl. sticky/pinned header, download, icon benefits, CTA width 33)",
+     "stardust/prototypes/shared/product-table.js (NEW: is-pinned while the sticky header row is stuck)",
+     "stardust/prototypes/shared/header-b2b.html, footer-b2b.html (NEW: Geschäftskunden chrome variant partials)"
+    ],
+    "page": [
+     "stardust/prototypes/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.css (empty page layer)"
+    ],
+    "build": [
+     "stardust/replica/build-prototype.mjs (extended: recursive renderer, productHero/accordion/productTable/download blocks, column modules, icon benefits, B2B header variant, optional sitemap; index + Ratgeber output byte-identical)",
+     "stardust/replica/extract-listing-content.mjs (extended: program modules, carousel downloads, XF slide padding, hidden-mobile promo image, B2B header/footer; Ratgeber model byte-identical)",
+     "stardust/replica/content/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.json"
+    ]
+   },
+   "fonts": {
+    "policy": "licensed kits substituted, never rehosted; brand family first",
+    "substitutes": [
+     {
+      "brand": "FS Me",
+      "substitute": "Fira Sans 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "99.0%",
+       "700": "102.1%"
+      },
+      "method": "advance-width ratio vs captured FSMeWeb (stardust/.work/replica/fontmatch*.mjs)"
+     },
+     {
+      "brand": "Fedra Serif",
+      "substitute": "Noto Serif 400/700 (OFL, self-hosted)",
+      "sizeAdjust": {
+       "400": "103.7%",
+       "700": "104.5%"
+      },
+      "method": "advance-width ratio vs captured Fedra Serif (WF-006389-*)"
+     }
+    ],
+    "stack": [
+     "\"FS Me\", \"FS Me Substitute\", Arial, Helvetica, sans-serif",
+     "\"Fedra Serif\", \"Fedra Serif Substitute\", Georgia, \"Times New Roman\", serif"
+    ]
+   },
+   "chrome": {
+    "header": "B2B header variant from the page model (top nav Produkte für Geschäftskunden / Service / Kontakt, Berater + Log-in + Über ERGO icon buttons, no search / phone, own flyout tree); crop 0.55% / 0.43%",
+    "footer": "B2B footer variant (Geschäftskunden product column, E-Mail → kontakt-geschaeftskunden, Presse → Media-Relations, no Sitemap button); crop 1.62% / 1.20% (360 aligned at +10px main offset)"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "confirmation": "final (full)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 0,
+      "visualFlags": "19 justified (font substitution)",
+      "pixelPct": 3.13,
+      "heightDelta": -10,
+      "clipped": 0,
+      "overflow": 0,
+      "units": "n/a (none declared)",
+      "chromeCrop": {
+       "header": 0.43,
+       "footer": 1.2
+      },
+      "pass": false
+     },
+     "residuals": [
+      {
+       "probe": "pixel",
+       "heightDelta": -31,
+       "cause": "h2 \"Präventionsdienstleistungen\" wraps to 2 lines in FS Me at 312px, fits 1 line in the Fira Sans substitute (−31px)",
+       "flaggedFor": "delivery",
+       "permanent": true
+      },
+      {
+       "probe": "pixel",
+       "heightDelta": 10,
+       "cause": "contact tile text \"Schreiben Sie eine Nachricht.\" wraps 2 lines in the substitute vs 1 on live (+10px)",
+       "flaggedFor": "delivery",
+       "permanent": true
+      },
+      {
+       "probe": "pixel",
+       "heightDelta": 24,
+       "cause": "footer link \"Alle Geschäftskunden-Produkte im Überblick\" fills exactly 280px in FS Me, wraps in the substitute (+24px in the closed-accordion footer)",
+       "flaggedFor": "delivery",
+       "permanent": true
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "confirmation": "final (full)",
+     "result": {
+      "structuralRed": 0,
+      "nothingLost": 0,
+      "visualFlags": "19 justified (font substitution)",
+      "pixelPct": 1.22,
+      "heightDelta": 0,
+      "clipped": 0,
+      "overflow": 0,
+      "units": "n/a (none declared)",
+      "chromeCrop": {
+       "header": 0.55,
+       "footer": 1.62
+      },
+      "pass": true
+     },
+     "residuals": []
+    }
+   },
+   "capProbe": {
+    "width": 2560,
+    "result": "PASS",
+    "rows": "0 of 27 failed",
+    "evidence": "stardust/replica/gates/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen-2560/cap-iter.json"
+   },
+   "motion": {
+    "observed": "stardust/replica/motion/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.json",
+    "build": "stardust/replica/motion/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen-build.json",
+    "implemented": [
+     "accordion chevron rotate .275s (details open)",
+     "product table header is-pinned while stuck (shared/product-table.js)"
+    ],
+    "dead": [
+     "accordion summary hover",
+     "download link hover",
+     "tile hover",
+     "cta hover",
+     "product table row hover",
+     "header scroll-morph"
+    ],
+    "outOfScope": [],
+    "compare": "2 parity, 0 missing, 0 extra"
+   },
+   "reuseForNextArchetypes": "program pages: extract-listing-content.mjs <slug> + build-prototype.mjs <slug> (links modules.css + program.css, B2B chrome from the page model)"
+  }
+ }
+}

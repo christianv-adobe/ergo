@@ -1,0 +1,4 @@
+{
+  "listing-promo-card": { "origin": "main .carouselContainer .splide__list > .promo:not(.splide__slide--clone) > .cmp-promo", "build": "main .splide__list > .slide:not(.splide__slide--clone) > .cmp-promo", "n": 2, "required": true, "pages": ["de-ratgeber"], "templates": ["listing"] },
+  "listing-nav-tile": { "origin": "main .carouselContainer .splide__list > .tile:not(.splide__slide--clone) > .cmp-tile", "build": "main .splide__list > .slide:not(.splide__slide--clone) > .cmp-tile", "n": 2, "required": true, "pages": ["de-ratgeber"], "templates": ["listing"] }
+}

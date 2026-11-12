@@ -1,0 +1,2208 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-produkte-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Alle ERGO Produkte entdecken"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Das ganze Angebot auf einen Blick"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Bis 31.12.2026"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Jetzt ERGO Sterbegeldvorsorge online oder telefonisch abschließen und eine Kreuzfahrt für 2 Personen gewinnen!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sichern Sie Ihre Liebsten ab – und mit etwas Glück gewinnen Sie eine im Wert von oder weitere Sachpreise."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Premium-Kreuzfahrt"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "15.000 € für 2 Personen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Abschließen und gewinnen",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung/abschluss"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Teilnahmebedingungen",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung/gewinnspiel"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "ZAHNZUSATZVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Schutz nach Maß für Ihr Lächeln."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Möchten Sie hohe Zahnarztrechnungen für vermeiden? Vergleichen Sie die Leistungen der ERGO Zahnversicherungen ohne Gesundheitsfragen für passgenauen Schutz."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zahnerhalt, Zahnersatz, Kieferorthopädie oder bereits begonnene Behandlungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Individueller Zahnschutz"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ausgezeichnete Leistungen für Ihr schönstes Lachen. Bis zu 100 % Premiumschutz. Wählen Sie Ihre individuelle Zahnversicherung und zahlen Sie nur für Leistungen, die Sie auch wirklich brauchen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "z. B."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "20,65"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dental-Vorsorge für Zahnerhalt"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/zahnerhaltung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Dental-Schutz für Zahnersatz"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Zahnzusatzversicherung mit Sofortschutz ohne Wartezeit"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Kieferorthopädie Sofortschutz für Kinder"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Zahnzusatzversicherung (DKV Deutsche Krankenversicherung AG)"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Zahnzusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Zahnersatzversicherung mit Implantaten"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnersatzversicherung-mit-Implantaten"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Zahnersatzversicherung mit verdoppeltem Festzuschuss"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Zahnzusatzversicherung/verdoppelter-Festzuschuss-bei-Zahnersatz"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "LEBENSVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Damit Ihre Liebsten finanziell abgesichert sind."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sind Sie und Stellen Sie sich diese Frage rechtzeitig, damit es später kein böses Erwachen gibt – für Jung und Alt."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ihre Lieben für jede Lebenslage finanziell abgesichert?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit Waisenschutz im Premiumtarif."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Exklusiv bei ERGO:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "1,85"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sterbegeldversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Kidspolicen"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "RECHTSSCHUTZVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Damit Sie Ihr gutes Recht bekommen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Die ERGO Rechtsschutzversicherungen bieten . Machen Sie kurzen Prozess mit dem Kostenrisiko bei einem Rechtsstreit."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "umfassenden Schutz vor finanziellen Risiken durch rechtliche Auseinandersetzungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Rechtsschutzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ob für Singles, Alleinerziehende, Paare und Familien: Stellen Sie sich Ihr Rechtsschutzpaket so zusammen, wie es zu Ihrer Lebenssituation und Ihren Wünschen passt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "12,17"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Rechtsschutzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Rechtsschutzversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Verkehrsrechtsschutz"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Rechtsschutz für Mieter, Vermieter, Eigentümer"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Rechtsschutzversicherung/Rechtsschutz-Immobilien"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "HAFTPFLICHTVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Damit aus kleinen Missgeschicken kein großer Ärger wird."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-12",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Was auch immer passiert: Sichern Sie sich finanziell mit einer ab, die zu Ihrer Lebenssituation passt – zum Beispiel für Sie selbst, Ihre Familie oder Ihren Hund."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Haftpflichtversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Private Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gegen dumm gelaufen hilft nur klug versichert. Denn dann sind Sie vor den finanziellen Folgen kleiner und großer Missgeschicke geschützt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "5,26"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Haus- und Grundbesitzer-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Haus-und-Grundbesitzerhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bauherren-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Bauherrenhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gewässerschaden-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Gewaesserschadenhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Jagd-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Jagdhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Hundehalter-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Hundehalterhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Pferdehalter-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Pferdehalterhaftpflicht"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Wassersport-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Haftpflichtversicherung/Wassersporthaftpflicht"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-13",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "KFZ-VERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-14",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unterwegs immer gut versichert."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-15",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Schützen Sie Ihre Fahrzeuge entspannt vor hohen Kosten, die durch Unfälle, Diebstahl oder sonstige Schäden entstehen können. Egal, wie Sie motorisiert sind: Bei ERGO finden Sie alles, von A wie Autoversicherung, über E-Bike- und Motorradversicherung bis W wie Wohnmobilversicherung."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Autoversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schneller Schadenservice. Hohe Versicherungssummen. Umfangreicher Versicherungsschutz."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Z. B. ab"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "29,92"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "E-Auto-Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/KFZ-Versicherung/e-auto-versicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Motorradversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Versicherung für besondere Fahrzeuge"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/KFZ-Versicherung/Kfz-Versicherung-Spezial-fuer-Wohnmobile"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Schutzbrief"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/KFZ-Versicherung/Schutzbrief"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Mopedversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/KFZ-Versicherung/Mopedversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "E-Bike Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-16",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "UNFALL-, BERUFSUNFÄHIGKEITS- UND GRUNDFÄHIGKEITSVERSICHERUNG"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-17",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Absicherung Ihres Körpers und Ihrer Arbeitskraft."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-18",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Passiert ein Unfall, kann man seinen Beruf nicht mehr ausüben oder fallen Grundfähigkeiten des Körpers aus, fehlen Einkommen und Lebensqualität. Stellen Sie sich finanziell sicher auf. Die ERGO Unfallversicherung bietet für Sie und Ihre Kinder."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "sinnvolle und wichtige Leistungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Individueller Schutz im Baukastensystem für finanzielle und praktische Hilfe nach einem Unfall, z. B. im Haushalt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "1,89"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Unfallversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Unfallversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Berufsunfähigkeitsversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Grundfähigkeitsversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/grundfaehigkeitsversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-19",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "HAUSRAT- UND GEBÄUDEVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-20",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Schützen Sie, was Ihnen gehört."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-21",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dinge, die Ihnen lieb und teuer sind, bedürfen besonderer Aufmerksamkeit. mit einer ERGO Hausrat- und einer Glasversicherung ab. Als Hauseigentümer ist die Gebäudeversicherung ebenfalls unverzichtbar."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sichern Sie Ihren Besitz"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hausratversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Damit sichern Sie Ihr Hab und Gut finanziell ab gegen Schäden, z. B. durch Brand, Leitungswasser oder Einbruchdiebstahl. ERGO erstattet den Neuwert Ihres Hausrats. Wählen Sie individuelle Zusatzbausteine wie Fahrradschutz."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "3,90"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Online abschließen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Wohngebäudeversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Gegenstandsversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Gegenstandversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schließfachversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Kunstversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/PrivateKunstversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Glasversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Glasversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "E-Bike Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Geräteversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "https://technikschutz.ergo.de"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-22",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "REISEVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-23",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Urlaub? Aber sicher!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-24",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Genießen Sie die schönste Zeit des Jahres in vollen Zügen! Und falls doch mal eine Krankheit dazwischen kommen sollte, haben Sie – auch z. B. bei Reiserücktritt oder Reiseabbruch."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "mit einer Reiseversicherung vorausschauend vorgesorgt"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Auslandskrankenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Krank im Urlaub? Sichern Sie sich bessere medizinische Versorgung und kompetente Ansprechpartner für optimale Hilfe im Notfall. Für alle Reisen im Jahr."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ab"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "24,80"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "jährlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Beitrag berechnen",
+     "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "RundumSorglos-Reiseversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/RundumSorglos-Schutz"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Reiserücktrittsversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schülerreiseversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Schuelerreise-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Incoming-Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Incoming-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Reiseschutz für Langzeitaufenthalte"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/langzeit"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Gruppenreiseversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Gruppenreise-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Ticketversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Ticketversicherung"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Campingversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Campingversicherung"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Selbstbeteiligungs-Schutz für gemietete Wohnmobile (CDW)"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Reiseversicherung/Wohnmobil-versichern"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-25",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "RENTENVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-26",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Flexible Vorsorge für eine entspannte Zukunft."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-27",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Die von ERGO ermöglichen Ihnen schon mit kleinen Beiträgen ein . Je füher Sie beginnen, desto besser."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ausgezeichneten privaten Rentenversicherungen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "finanzielles Polster für Ihre Altersvorsorge"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Private Rentenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für jeden Vorsorgetyp gibt es das passende Anlagekonzept: von renditestark bis sicherheitsorientiert."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "25,00"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Chance Familie"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Rentenversicherung/chance"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ERGO Balance Familie"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Rentenversicherung/Index-Rente/Indexbeteiligung-Balance"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ERGO Index Familie"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Rentenversicherung/Index-Rente/Indexbeteiligung-Rente"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Betriebliche Altersversorgung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Mehr erfahren",
+     "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-28",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "KRANKENVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-29",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Die optimale Ergänzung für gesetzlich Krankenversicherte."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-30",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fangen Sie Mehrkosten ab, die Sie sonst aus eigener Tasche zahlen müssen. , z. B. mit einer Krankenhauszusatzversicherung oder Krankentagegeld. Damit Sie schneller und entspannter gesund werden."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ergänzen Sie die Leistungen Ihrer gesetzlichen Krankenversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Private Krankenzusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit wählen Sie eine Zusatzversicherung für Ihre mit vielen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ERGO Gesundheit & Vorsorge"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "private Gesundheitsvorsorge"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "starken Zuschüssen."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "12,30"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Augen- und Brillenversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Augenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Krankentagegeldversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Krankentagegeld"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Rundumzusatzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Rundum-Zusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "ERGO Krankenhauszusatzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenhauszusatzversicherungen/Private-Krankenhauszusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Krankenvollversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Krankenvollversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Beihilfeversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Krankenversicherung/Beihilfeversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-31",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "PFLEGEVERSICHERUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-32",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Damit Sie im Pflegefall Hilfe und Unterstützung bekommen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-33",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Denken Sie daran: Pflegebedürftigkeit kann nicht nur ältere Menschen plötzlich und unerwartet treffen. Rechtzeitige . Finanzielle Leistungen bei Pflegebedürftigkeit sind enorm wichtig."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Vorsorge in eine private Pflegeversicherung zahlt sich aus"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Pflegezusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die Kosten im Pflegefall sind enorm. Hier ist private Vorsorge gefragt. Auch der Staat unterstützt Sie mit einem Zuschuss."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "30,20"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Beitrag berechnen",
+     "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung/abschluss-zuschuss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Pflege Schutz Paket"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Zum Produkt",
+     "href": "/de/Produkte/Pflegeversicherung/pflegeschutzpaket"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Pflegezusatzversicherung mit staatlicher Förderung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-34",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "BAUSPAREN UND FINANZPRODUKTE"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-35",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Indivduelle und zielgerichtete Finanzlösungen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-36",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "und sehen für jeden Menschen in unterschiedlichen Lebenssituationen anders aus. Finden Sie bei ERGO die für Sie optimalen Produkte für Immobilienfinanzierung, Geldanlage, Bausparvertrag und finanzielle Absicherung."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Finanzielle Sicherheit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vorsorge für später"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Kidspolicen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schenken Sie Zukunft und schaffen Sie für Ihre Kinder, Enkel oder Patenkinder ein attraktives Startkapital. Z. B. für den Führerschein oder ein Auslandssemester."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Bausparvertrag"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Immobilienfinanzierung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Vermögenspolicen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Geldanlage in Investmentfonds"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Investmentprodukte"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Monatsgeld"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/Produkte/Monatsgeld"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

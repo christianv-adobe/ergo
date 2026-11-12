@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.ergo.de/" target="_blank" rel="noopener">https://www.ergo.de/</a><br>Preview site: <a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--856f1bba--aemcoder.aem.page/</a><br>Last updated: 2026-10-28 23:35 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 10 pages, chosen from the 513 we found on your site. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.ergo.de/" target="_blank" rel="noopener">https://www.ergo.de/</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de" target="_blank" rel="noopener">https://www.ergo.de/de</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Geschaeftskunden-Produkte" target="_blank" rel="noopener">https://www.ergo.de/de/Geschaeftskunden-Produkte</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Produkte" target="_blank" rel="noopener">https://www.ergo.de/de/Produkte</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Ratgeber" target="_blank" rel="noopener">https://www.ergo.de/de/Ratgeber</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/rechtsportal" target="_blank" rel="noopener">https://www.ergo.de/de/rechtsportal</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Service" target="_blank" rel="noopener">https://www.ergo.de/de/Service</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung" target="_blank" rel="noopener">https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen" target="_blank" rel="noopener">https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung" target="_blank" rel="noopener">https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung</a></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Overview pages</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Guides and listings</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Business product pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel" id="blocks-used">
+    <h2 class="spectrum-panel-header">Blocks used</h2>
+    <div class="panel-body">
+      <p>13 blocks in 69 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="22">carousel<span class="block-pages">10 pages</span></td><td><span class="variant">cols-m-2</span><span class="variant">cols-l-2</span><span class="variant">reduced-mobile</span><span class="variant">reduced-desktop</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">slide-pad</span><span class="variant">reduced-mobile</span></td><td><button class="more" popovertarget="blocks-pages-0-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">reduced-mobile</span><span class="variant">reduced-desktop</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">slider-always</span><span class="variant">articles</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">cards</span><span class="variant">canon</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">cards</span><span class="variant">canon</span><span class="variant">cta-text-link</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">slider-mobile</span><span class="variant">cards</span><span class="variant">canon</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">cards</span><span class="variant">canon</span><span class="variant">stats</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-2</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a> <span class="blocks-count">×2</span>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-2</span><span class="variant">slide-pad</span><span class="variant">reduced-mobile</span><span class="variant">reduced-desktop</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-4</span><span class="variant">reduced-mobile</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-2</span><span class="variant">slider-always</span><span class="variant">cards</span><span class="variant">blue</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-2</span><span class="variant">cards</span><span class="variant">cta-primary</span><span class="variant">plain</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">slide-pad</span><span class="variant">cards</span><span class="variant">cta-auto</span><span class="variant">cta-primary</span><span class="variant">plain</span><span class="variant">headline-s</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">slider-always</span><span class="variant">slide-pad</span><span class="variant">cards</span><span class="variant">warmgrey</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">slider-always</span><span class="variant">cards</span><span class="variant">cta-auto</span><span class="variant">cta-primary</span><span class="variant">plain</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">cards</span><span class="variant">cta-secondary</span><span class="variant">h-red</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">slide-pad</span><span class="variant">cards</span><span class="variant">plain</span><span class="variant">wide-image</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">slide-pad</span><span class="variant">cards</span><span class="variant">warmgrey</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a> <span class="blocks-count">×7</span></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">slider-always</span><span class="variant">slide-pad</span><span class="variant">reduced-mobile</span><span class="variant">reduced-desktop</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-2</span><span class="variant">cols-l-3</span><span class="variant">reduced-mobile</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">cols-m-3</span><span class="variant">cols-l-3</span><span class="variant">reduced-mobile</span><span class="variant">reduced-desktop</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a> <span class="blocks-count">×7</span></td></tr>
+          <tr class="group"><td class="block" rowspan="5">hero<span class="block-pages">8 pages</span></td><td><span class="variant">product</span><span class="variant">yellow</span><span class="variant">image-right</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">product</span><span class="variant">orange</span><span class="variant">landing</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr><td><span class="variant">product</span><span class="variant">orange</span><span class="variant">image-right</span><span class="variant">hide-image-mobile</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">product</span><span class="variant">magenta</span><span class="variant">image-right</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">product</span><span class="variant">orange</span><span class="variant">image-right</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td></tr>
+          <tr class="group"><td class="block" rowspan="21">promo<span class="block-pages">8 pages</span></td><td><span class="variant">white</span><span class="variant">image-left</span><span class="variant">hide-image-mobile</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">orange</span><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a> <span class="blocks-count">×4</span>, <a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">image-left</span><span class="variant">rounded</span><span class="variant">headline-m</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a> <span class="blocks-count">×6</span></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">image-left</span><span class="variant">headline-xs</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">image-left</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">green</span><span class="variant">center</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr><td><span class="variant">magenta</span><span class="variant">image-left</span><span class="variant">headline-m</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">magenta</span><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a></td></tr>
+          <tr><td><span class="variant">yellow</span><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a></td></tr>
+          <tr><td><span class="variant">warmgrey</span><span class="variant">image-right</span><span class="variant">headline-s</span><span class="variant">cta-auto</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a></td></tr>
+          <tr><td><span class="variant">green</span><span class="variant">image-left</span><span class="variant">flag-right</span><span class="variant">headline-sub</span><span class="variant">title-sans</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">green</span><span class="variant">image-left</span><span class="variant">img-natural</span><span class="variant">headline-sub</span><span class="variant">title-sans</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">orange</span><span class="variant">image-left</span><span class="variant">headline-l</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">warmgrey</span><span class="variant">image-left</span><span class="variant">headline-l</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">image-left</span><span class="variant">headline-s</span><span class="variant">img-natural</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">magenta</span><span class="variant">image-left</span><span class="variant">headline-sub</span><span class="variant">title-sans</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">warmgrey</span><span class="variant">image-left</span><span class="variant">headline-sub</span><span class="variant">title-sans</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+          <tr><td><span class="variant">yellow</span><span class="variant">image-left</span><span class="variant">headline-xs</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr><td><span class="variant">image-left</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="3">cta<span class="block-pages">5 pages</span></td><td><span class="variant">secondary</span><span class="variant">size-auto</span><span class="variant">w-50</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a> <span class="blocks-count">×3</span>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">size-auto</span><span class="variant">w-33</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">tertiary</span><span class="variant">size-auto</span><span class="variant">w-50</span><span class="variant">ic-chevron</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="3">accordion<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a> <span class="blocks-count">×5</span>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">open-first</span><span class="variant">check-list</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">check-list</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="5">benefits<span class="block-pages">4 pages</span></td><td><span class="variant">frame</span><span class="variant">grey</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr><td><span class="variant">box</span><span class="variant">light-green</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">box</span><span class="variant">light-teal</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">frame</span><span class="variant">green</span><span class="variant">flag-center</span><span class="variant">check-list</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">frame</span><span class="variant">green</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">article-header<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr><td><span class="variant">blue</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr class="group"><td class="block">banner<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+          <tr class="group"><td class="block">breadcrumb<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de/rechtsportal" target="_blank" rel="noopener">Rechtsportal | ERGO</a></td></tr>
+          <tr class="group"><td class="block">ekomi<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a>, <a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="3">product-table<span class="block-pages">2 pages</span></td><td><span class="variant">label-4</span><span class="variant">green</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr><td><span class="variant">label-4</span><span class="variant">yellow</span><span class="variant">sticky</span><span class="variant">left</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></td></tr>
+          <tr><td><span class="variant">label-6</span><span class="variant">magenta</span><span class="variant">sticky</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></td></tr>
+          <tr class="group"><td class="block">ccw<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/ratgeber" target="_blank" rel="noopener">Ratgeber | ERGO</a></td></tr>
+          <tr class="group"><td class="block">embed<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 13</span><span class="bp-range bp-range-2">Blocks 6–10 of 13</span><span class="bp-range bp-range-3">Blocks 11–13 of 13</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">carousel <span class="variant-inline">cols-m-2 cols-l-2 reduced-mobile reduced-desktop</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/" target="_blank" rel="noopener">Versicherungen &amp;amp; Vorsorge für Ihre Sicherheit | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de" target="_blank" rel="noopener">Versicherungen &amp; Vorsorge für Ihre Sicherheit | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/produkte" target="_blank" rel="noopener">Alle Produkte: Versicherungen &amp; Investment | ERGO</a> <span class="blocks-count">×12</span></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/service" target="_blank" rel="noopener">Servicebereich | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-1" class="blocks-popover" aria-labelledby="blocks-pages-0-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-1-title">carousel <span class="variant-inline">cols-m-2 cols-l-3 slide-pad reduced-mobile</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte" target="_blank" rel="noopener">Gewerbliche Versicherungen für Geschäftskunden | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung" target="_blank" rel="noopener">Betriebliche Altersversorgung für Geschäftskunden | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen" target="_blank" rel="noopener">Gewerbliche Cyber-Versicherung für Unternehmen | ERGO</a></li>
+          <li><a href="https://main--856f1bba--aemcoder.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung" target="_blank" rel="noopener">Dienstreiseversicherung für Geschäftskunden | ERGO</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Analytics and tags <span class="spectrum-badge">Switched off</span></h2>
+    <div class="panel-body">
+      <p>We carried over 2 tags and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.ergo.de</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-EN641c84e26bb144c49c90c0078d982c0b.min.js</code></td></tr>
+          <tr><td>Google Tag Manager</td><td><code>AW-980528457</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 60 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+          <tr><td>Adobe Web SDK</td><td>Version 2.34.1</td></tr>
+          <tr><td>Loaded by your tags</td><td>ad / retargeting pixel, reviews widget</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (0 data-layer fields used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 18 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>GE_03_FixforNotClosingConsentTool</code>, <code>MT_99_DKVBE_Google_AgencesSchmit</code>, <code>GE_03_AutoAllow4DigitalSignage</code> and 15 more.
+          <details><summary>Show all 18</summary><ul class="all"><li><code>GE_03_FixforNotClosingConsentTool</code></li><li><code>MT_99_DKVBE_Google_AgencesSchmit</code></li><li><code>GE_03_AutoAllow4DigitalSignage</code></li><li><code>GE_03_redakteur_sitecore_fix</code></li><li><code>GE_03_Author_Viewed_as_Published_AutoClose_50</code></li><li><code>AA_07_CloseModal_50</code></li><li><code>AA_10_Fahrraddiebstahl_GeneralClick_50</code></li><li><code>AA_06_NewContactLeadForm_ClickSubmit_50</code></li><li><code>MT_03_google_Kontaktformulare_Angebot_ Feedback_50_WeAreReady</code></li><li><code>AA_03_RatingBlogArticle_Click_50</code></li><li><code>MT_99_DKVBE_Google_Facebook_Microsoft_Nova-LP-Scroll</code></li><li><code>AA_03_ShareBlogArticle_Click_50</code></li><li><code>MT_99_DKVBE_Google_Facebook_Microsoft_B2B-LP-Scroll</code></li><li><code>GE_03_OneTrust_RCM Aktionswebsites_dataSecurity+imprint</code></li><li><code>GE_03_OneTrust_Hide_Banner</code></li><li><code>MT_99_DKVBE_Facebook_Communication-LPs-Scroll</code></li><li><code>AA_03_ClickToTweetBlogArticle_Click_50</code></li><li><code>MT_99_DKVBE_MicrosoftAds_AgencesSchmit</code></li></ul></details></li>
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your migration is complete: all ten pages are live on the new platform, match the current site on desktop and mobile, and have passed the final checks. Old addresses forward to the new pages, and your analytics and consent setup has been carried over, switched off until you choose to turn it on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>A few choices are now yours: switching on analytics, adding your licensed brand fonts, and whether the German start page should forward to the home page.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

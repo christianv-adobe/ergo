@@ -1,0 +1,459 @@
+{
+  "archetype": "https://www.ergo.de/de/Ratgeber",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "article": ".cmp-article-header",
+    "breadcrumb": ".cmp-breadcrumb",
+    "ccw": ".ccw",
+    "promo": ".cmp-promo",
+    "carousel": ".cmp-carousel__container",
+    "tile": ".cmp-tile",
+    "benefits": ".benefits",
+    "cta": ".cmp-cta"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "esc_container.grid-container",
+        "h": 12387
+      }
+    ],
+    "probes": {
+      "article": {
+        "sel": ".cmp-article-header",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 864,
+            "h": 387
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 fs me 18px/24px 700 rgb(51, 51, 51)",
+          "image": {
+            "w": 840,
+            "h": 387
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "ERGO Ratgeber Bestens informiert über Versicherungen, Vorsor"
+      },
+      "breadcrumb": {
+        "sel": ".cmp-breadcrumb",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1392,
+            "h": 30
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 14px/22px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Home Page (German) Ratgeber"
+      },
+      "ccw": {
+        "sel": ".ccw",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 864,
+            "h": 240
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen w"
+      },
+      "promo": {
+        "sel": ".cmp-promo",
+        "count": 59,
+        "first": {
+          "rect": {
+            "w": 864,
+            "h": 439
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(204, 236, 239)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": {
+            "w": 346,
+            "h": 439
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 9,
+        "text": "Risikolebensversicherung Sichern Sie Ihre Liebsten im Ernstf"
+      },
+      "carousel": {
+        "sel": ".cmp-carousel__container",
+        "count": 12,
+        "first": {
+          "rect": {
+            "w": 888,
+            "h": 718
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 272,
+            "h": 182
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 5,
+        "text": "Ratgeber Gesundheit Für die meisten Menschen ist Gesundheit "
+      },
+      "tile": {
+        "sel": ".cmp-tile",
+        "count": 37,
+        "first": {
+          "rect": {
+            "w": 272,
+            "h": 96
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "24px 80px 24px 32px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 9,
+        "text": "Gesundheit mehr lesen"
+      },
+      "benefits": {
+        "sel": ".benefits",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 888,
+            "h": 663
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(245, 225, 235)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 12px 48px 12px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Finanzielle Vorsorge Die gesetzliche Rentenversicherung ist "
+      },
+      "cta": {
+        "sel": ".cmp-cta",
+        "count": 84,
+        "first": {
+          "rect": {
+            "w": 215,
+            "h": 48
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Jetzt informieren"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ergo.de/de/rechtsportal",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 12387→4153"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "article",
+          "msg": "rect{h 387 → 350}; image{h 387 → 350}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "ccw",
+          "msg": "\".ccw\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "59 → 8 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "9 → 5 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{w 864 → 420, h 439 → 552}; backgroundColor rgb(204, 236, 239) → rgb(255, 255, 255); image{w 346 → 418, h 439 → 279}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "carousel",
+          "msg": "12 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "carousel",
+          "msg": "5 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "carousel",
+          "msg": "rect{h 718 → 584}; image{w 272 → 418, h 182 → 279}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "tile",
+          "msg": "37 → 12 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "tile",
+          "msg": "9 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "benefits",
+          "msg": "\".benefits\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cta",
+          "msg": "84 → 11 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cta",
+          "msg": "rect{w 215 → 354, h 48 → 40}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 4153
+          }
+        ],
+        "probes": {
+          "article": {
+            "sel": ".cmp-article-header",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 350
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/24px 700 rgb(51, 51, 51)",
+              "image": {
+                "w": 840,
+                "h": 350
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Rechtsportal Tipps für Ihr gutes Recht Hier finden Sie zu ga"
+          },
+          "breadcrumb": {
+            "sel": ".cmp-breadcrumb",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1392,
+                "h": 30
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 14px/22px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Page (German) Rechtsportal"
+          },
+          "ccw": {
+            "sel": ".ccw",
+            "count": 0
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 8,
+            "first": {
+              "rect": {
+                "w": 420,
+                "h": 552
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 418,
+                "h": 279
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 5,
+            "text": "Darf ich an Halloween Waffen tragen? Zu manch gruseligen Hal"
+          },
+          "carousel": {
+            "sel": ".cmp-carousel__container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 888,
+                "h": 584
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 418,
+                "h": 279
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Darf ich an Halloween Waffen tragen? Zu manch gruseligen Hal"
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 272,
+                "h": 98
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Arbeit & Beruf mehr lesen"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".cmp-cta",
+            "count": 11,
+            "first": {
+              "rect": {
+                "w": 354,
+                "h": 40
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Mehr lesen"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "SECTION HEIGHTS",
+      "article",
+      "ccw",
+      "promo",
+      "carousel",
+      "tile",
+      "benefits",
+      "cta"
+    ]
+  }
+}

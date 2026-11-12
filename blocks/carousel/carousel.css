@@ -1,0 +1,1278 @@
+/* carousel — canon carousel container (canon.css c18), download card (program.css),
+   tile (canon.css c42 + modules.css icon-less reduced variant). */
+/* stylelint-disable no-descending-specificity -- tile variants mirror the canon cascade */
+.carousel {
+  --column-width: 100%;
+
+  margin-inline: -12px;
+}
+
+@media (width >= 768px) and (width <= 911px) {
+  .carousel.cols-m-2 {
+    --column-width: 50%;
+  }
+
+  .carousel.cols-m-3 {
+    --column-width: 33.3333%;
+  }
+}
+
+@media (width >= 912px) {
+  .carousel.cols-l-2 {
+    --column-width: 50%;
+  }
+
+  .carousel.cols-l-3 {
+    --column-width: 33.3333%;
+  }
+
+  .carousel.cols-l-4 {
+    --column-width: 25%;
+  }
+}
+
+.carousel .splide {
+  position: relative;
+}
+
+.carousel .splide-track {
+  position: relative;
+  margin-block: -16px;
+  overflow: hidden;
+}
+
+.carousel .splide-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  row-gap: 24px;
+  margin: 0;
+  padding-block: 16px;
+  list-style: none;
+}
+
+.carousel .slide {
+  flex: 0 0 var(--column-width);
+  width: var(--column-width);
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  overflow-wrap: anywhere;
+}
+
+.carousel .slide.pad-m {
+  padding-bottom: 24px;
+}
+
+/* slider mode (observed on live: track transform 0.4s, splide speed 400) */
+.carousel.is-slider .splide-list {
+  flex-wrap: nowrap;
+  row-gap: 0;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.carousel.is-slider .slide {
+  position: relative;
+}
+
+.carousel .carousel-navigation {
+  display: none;
+}
+
+.carousel.is-slider .carousel-navigation {
+  --nav-h: 40px;
+  --dot: 12px;
+
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  margin: 16px auto 0;
+  padding: 0 66px;
+}
+
+.carousel .carousel-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  height: var(--nav-h);
+  padding: 0 12px;
+  pointer-events: none;
+}
+
+.carousel .carousel-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nav-h);
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--c-brand);
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.carousel .carousel-control::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: url("../../icons/arrow-left.svg") center / contain no-repeat;
+}
+
+.carousel .carousel-control.next::before {
+  mask-image: url("../../icons/arrow-right.svg");
+}
+
+.carousel .carousel-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--dot);
+  min-height: 100%;
+  margin: 0 auto;
+  padding: calc((var(--nav-h) - var(--dot)) / 2) 0 0;
+  line-height: 1;
+}
+
+.carousel .carousel-indicators > li {
+  width: var(--dot);
+  height: var(--dot);
+}
+
+.carousel .carousel-indicator {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--c-brand);
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.carousel .carousel-indicator.is-active {
+  background: var(--c-brand);
+}
+
+@media (width >= 768px) {
+  .carousel.is-slider .carousel-navigation {
+    --nav-h: 48px;
+    --dot: 16px;
+
+    width: max-content;
+    min-height: 48px;
+    padding: 0 100px;
+  }
+}
+
+@media (width >= 912px) {
+  .carousel.is-slider .carousel-navigation {
+    margin-top: 24px;
+  }
+}
+
+/* ---- download card ---------------------------------------------------------------- */
+.carousel .download {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .download-link {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 80px;
+  margin: 0;
+  padding: 16px 88px 16px 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+  text-decoration: none;
+}
+
+.carousel .download-link::before,
+.carousel .download-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  width: 48px;
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+}
+
+.carousel .download-link::before {
+  z-index: 1;
+  border: 2px solid var(--c-brand);
+  border-radius: 50%;
+  background: transparent;
+}
+
+.carousel .download-link::after {
+  z-index: 2;
+  background-color: var(--c-brand);
+  mask: url("../../icons/download.svg") center / 24px 24px no-repeat;
+}
+
+.carousel .download-title {
+  flex: 0 0 100%;
+  order: -1;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.carousel .download-title :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel .download-props ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel .download-props li {
+  margin: 12px 0 0;
+  color: #737373;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.carousel .download-props li li {
+  display: inline;
+  margin: 0;
+}
+
+.carousel .download-props ul ul {
+  display: inline;
+}
+
+.carousel .download-prop-label {
+  display: none;
+}
+
+/* file name | format | size (canon dl): the file name is hidden as on the source */
+.carousel .download-props li:first-child:nth-last-child(3) {
+  display: none;
+}
+
+.carousel .download-props li:nth-last-child(2) {
+  text-transform: uppercase;
+}
+
+.carousel .download-props li:last-child:not(:only-child) li::before {
+  content: "|";
+  padding: 0 5px;
+}
+
+/* ---- tile ----------------------------------------------------------------------- */
+.carousel .tile {
+  --tile-icon-size: 40px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  padding: 32px 24px;
+  overflow: hidden;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--c-text);
+  text-align: center;
+}
+
+.carousel .tile-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.carousel .tile-icon-wrapper :is(p, .icon) {
+  display: block;
+  width: var(--tile-icon-size);
+  height: var(--tile-icon-size);
+  margin: 0 auto;
+}
+
+.carousel .tile-icon-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .tile-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.carousel .tile-title :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel .tile-text {
+  padding-top: 24px;
+  font-size: 14px;
+  line-height: 1.4286;
+}
+
+.carousel .tile-text :is(p, li) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel .tile-cta-wrapper {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+
+.carousel .tile .cmp-cta {
+  --cta-width: 100%;
+  --cta-margin-inline: auto;
+}
+
+.carousel .tile .cmp-cta p {
+  margin: 0;
+}
+
+.carousel .tile a.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  cursor: pointer;
+}
+
+@media (width >= 768px) {
+  .carousel .tile {
+    --tile-icon-size: 48px;
+
+    padding: 48px 32px;
+  }
+
+  .carousel .tile-icon-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .carousel .tile-title {
+    font-size: 18px;
+    line-height: 1.3333;
+  }
+
+  .carousel .tile-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .carousel .tile-cta-wrapper {
+    padding-top: 32px;
+  }
+}
+
+/* reduced tile: icon left, arrow right, whole tile is the link */
+@media (width <= 911px) {
+  .carousel .tile.reduced-m {
+    --tile-icon-size: 32px;
+
+    justify-content: center;
+    min-height: 96px;
+    padding: 16px 60px 16px 68px;
+    overflow: visible;
+    text-align: left;
+  }
+
+  .carousel .tile.reduced-m.no-icon {
+    padding: 16px 60px 16px 20px;
+  }
+
+  .carousel .tile.reduced-m .tile-icon-wrapper {
+    position: absolute;
+    inset: 0 auto 0 20px;
+    width: var(--tile-icon-size);
+    margin: 0;
+  }
+
+  .carousel .tile.reduced-m .tile-text {
+    padding-top: 8px;
+  }
+
+  .carousel .tile.reduced-m .tile-cta-wrapper {
+    display: contents;
+  }
+
+  .carousel .tile.reduced-m .cta-label {
+    display: none;
+  }
+
+  .carousel .tile.reduced-m .cmp-cta {
+    --cta-min-width: 0;
+    --cta-pad-inline: 0;
+    --cta-border: transparent;
+    --cta-bg: transparent;
+    --cta-color: currentcolor;
+    --cta-bg-hover: transparent;
+    --cta-border-hover: transparent;
+    --cta-color-hover: var(--c-brand);
+  }
+
+  .carousel .tile.reduced-m a.button {
+    position: absolute;
+    inset: 0;
+    justify-content: flex-end;
+    column-gap: 0;
+    letter-spacing: 0;
+    width: auto;
+    padding: 0 20px 0 0;
+    border-width: 0;
+    border-radius: var(--radius);
+    font-size: 0;
+  }
+
+  .carousel .tile.reduced-m a.button::before {
+    content: "";
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    background-color: currentcolor;
+    mask: url("../../icons/arrow-right-new.svg") center / contain no-repeat;
+  }
+
+  .carousel .tile.reduced-m a.button::after {
+    content: none;
+  }
+}
+
+@media (width >= 768px) and (width <= 911px) {
+  .carousel .tile.reduced-m {
+    padding: 24px 80px 24px 104px;
+  }
+
+  .carousel .tile.reduced-m.no-icon {
+    padding: 24px 80px 24px 32px;
+  }
+
+  .carousel .tile.reduced-m .tile-icon-wrapper {
+    inset: 0 auto 0 32px;
+  }
+
+  .carousel .tile.reduced-m .tile-text {
+    padding-top: 12px;
+  }
+
+  .carousel .tile.reduced-m a.button {
+    padding-right: 32px;
+  }
+}
+
+@media (width >= 912px) {
+  .carousel .tile.reduced-d {
+    --tile-icon-size: 48px;
+
+    justify-content: center;
+    min-height: 96px;
+    padding: 24px 80px 24px 104px;
+    overflow: visible;
+    text-align: left;
+  }
+
+  .carousel .tile.reduced-d.no-icon {
+    padding: 24px 80px 24px 32px;
+  }
+
+  .carousel .tile.reduced-d .tile-icon-wrapper {
+    position: absolute;
+    inset: 0 auto 0 32px;
+    width: var(--tile-icon-size);
+    margin: 0;
+  }
+
+  .carousel .tile.reduced-d .tile-text {
+    padding-top: 12px;
+  }
+
+  .carousel .tile.reduced-d .tile-cta-wrapper {
+    display: contents;
+  }
+
+  .carousel .tile.reduced-d .cta-label {
+    display: none;
+  }
+
+  .carousel .tile.reduced-d .cmp-cta {
+    --cta-min-width: 0;
+    --cta-pad-inline: 0;
+    --cta-border: transparent;
+    --cta-bg: transparent;
+    --cta-color: currentcolor;
+    --cta-bg-hover: transparent;
+    --cta-border-hover: transparent;
+    --cta-color-hover: var(--c-brand);
+  }
+
+  .carousel .tile.reduced-d a.button {
+    position: absolute;
+    inset: 0;
+    justify-content: flex-end;
+    column-gap: 0;
+    letter-spacing: 0;
+    width: auto;
+    padding: 0 32px 0 0;
+    border-width: 0;
+    border-radius: var(--radius);
+    font-size: 0;
+  }
+
+  .carousel .tile.reduced-d a.button::before {
+    content: "";
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    background-color: currentcolor;
+    mask: url("../../icons/arrow-right-new.svg") center / contain no-repeat;
+  }
+
+  .carousel .tile.reduced-d a.button::after {
+    content: none;
+  }
+}
+
+/* ---- listing additions (archetype-listing) ------------------------------------------------ */
+
+/* tile colours (canon --tile-bg: a coloured tile has no border) */
+.carousel .tile.tile-blue {
+  border: 0;
+  background: #ccecef;
+}
+
+.carousel .tile.tile-green {
+  border: 0;
+  background: #d3ebe5;
+}
+
+.carousel .tile.tile-magenta {
+  border: 0;
+  background: #f5e1eb;
+}
+
+.carousel .tile.tile-yellow {
+  border: 0;
+  background: #fef6d2;
+}
+
+.carousel .tile.tile-orange {
+  border: 0;
+  background: #ffe0cb;
+}
+
+/* cluster-landing: warm grey tile (/de/Service "Vertrag widerrufen", canon --tile-bg #ebe6d8) */
+.carousel .tile.tile-warmgrey {
+  border: 0;
+  background: #ebe6d8;
+}
+
+/* CTA face without a target (chat button, off until the martech decision) */
+.carousel .tile .cmp-cta.static p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--cta-width, 100%);
+  min-width: var(--cta-min-width, 123px);
+  max-width: 100%;
+  min-height: var(--cta-height, 40px);
+  margin-inline: var(--cta-margin-inline, 0 auto);
+  padding: 1px var(--cta-pad-inline, 24px);
+  border: 1px solid var(--cta-border, var(--c-brand));
+  border-radius: var(--cta-radius, 8px);
+  background-color: var(--cta-bg, transparent);
+  color: var(--cta-color, var(--c-brand));
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+}
+
+.carousel .tile .cmp-cta.static :is(em, strong) {
+  font-style: normal;
+  font-weight: inherit;
+}
+
+@media (width >= 912px) {
+  .carousel .tile .cmp-cta.static p {
+    width: var(--cta-width-l, var(--cta-width, fit-content));
+  }
+}
+
+@media (width <= 911px) {
+  .carousel .tile.reduced-m .cmp-cta.static p {
+    position: absolute;
+    inset: 0;
+    justify-content: flex-end;
+    width: auto;
+    padding: 0 20px 0 0;
+    border-width: 0;
+    border-radius: var(--radius);
+    font-size: 0;
+    letter-spacing: 0;
+  }
+
+  .carousel .tile.reduced-m .cmp-cta.static p::before {
+    content: "";
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    background-color: currentcolor;
+    mask: url("../../icons/arrow-right-new.svg") center / contain no-repeat;
+  }
+}
+
+@media (width >= 768px) and (width <= 911px) {
+  .carousel .tile.reduced-m .cmp-cta.static p {
+    padding-right: 32px;
+  }
+}
+
+/* promo-card slides (variant `cards`, canon c36 by data attributes inside c18) */
+.carousel .card {
+  --pc-pt: 32px;
+  --pc-pb: 32px;
+  --pc-pi: 24px;
+  --card-bg: #fff;
+  --card-flag-bg: var(--c-flag);
+  --card-border-w: 1px;
+
+  position: relative;
+  display: grid;
+  align-items: stretch;
+  height: 100%;
+  overflow: hidden;
+  border: var(--card-border-w) solid var(--c-border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--c-text);
+  text-align: left;
+  overflow-wrap: normal;
+}
+
+.carousel.blue .card {
+  --card-bg: #ccecef;
+  --card-flag-bg: #318187;
+  --card-border-w: 0;
+}
+
+.carousel.warmgrey .card {
+  --card-bg: #ebe6d8;
+  --card-flag-bg: #77756e;
+  --card-border-w: 0;
+}
+
+.carousel .card.has-image,
+.carousel .card:has(.card-flag-container + .card-content) {
+  grid-template-rows: auto 1fr;
+}
+
+.carousel .card-flag-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 28px;
+}
+
+.carousel .card-flag {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin-inline: auto;
+  padding: 5px 8px;
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+  background: var(--card-flag-bg);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.carousel .card-flag p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.carousel .card-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .card-image {
+  position: relative;
+}
+
+.carousel .card-image picture {
+  display: block;
+}
+
+.carousel .card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+/* cluster-landing: 2:1 card images (live cropped renditions .c…x…, /de/Service Ratgeber cards) */
+.carousel.wide-image .card-image img {
+  aspect-ratio: 2 / 1;
+}
+
+.carousel .card-image.ai-generated::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 24px;
+  height: 24px;
+  background: url("../../icons/ai-icon.svg") center / contain no-repeat;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.carousel .card-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  padding: var(--pc-pt) var(--pc-pi) var(--pc-pb);
+}
+
+.carousel .card-flag-container + .card-content {
+  --pc-pt: 16px;
+}
+
+.carousel .card-headline {
+  color: var(--c-text);
+  font-family: var(--ff-serif);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* cluster-landing: subhead line above the card title (canon .cmp-promo__headline over a
+   .cmp-promo__title, /de/Service) and brand-colour titles (variant h-red) */
+.carousel .card-subhead {
+  margin-bottom: 8px;
+  color: var(--c-text);
+  font-family: var(--ff-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.carousel .card-subhead :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel.h-red .card-headline {
+  color: var(--c-brand);
+}
+
+.carousel .card-headline :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel .card-text {
+  text-align: center;
+}
+
+.carousel .card-headline + .card-text {
+  margin-top: 24px;
+}
+
+.carousel .card-text :is(p, li) {
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.carousel .card-text :is(p, ul, ol) {
+  margin: 0 0 20px;
+}
+
+.carousel .card-text p + p {
+  margin-top: -10px;
+}
+
+.carousel .card-text > :last-child {
+  margin-bottom: 0;
+}
+
+.carousel .card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.carousel .card-actions .card-cta {
+  --cta-width: 100%;
+
+  width: 100%;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.carousel .card-actions .card-cta + .card-cta {
+  margin-top: 16px;
+}
+
+.carousel .card-actions p {
+  margin: 0;
+}
+
+.carousel .card-cta.has-icon .icon {
+  display: none;
+}
+
+.carousel .card[data-cta-count="1"] .cmp-cta {
+  --cta-border-hover: var(--cta-border);
+  --cta-bg-hover: var(--cta-bg);
+  --cta-color-hover: var(--cta-color);
+  --cta-deco-hover: none;
+}
+
+.carousel .card[data-cta-count="1"] a.button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  cursor: pointer;
+}
+
+@media (width <= 767px) {
+  .carousel .card.has-image {
+    --pc-pt: 24px;
+  }
+}
+
+@media (width >= 768px) {
+  .carousel .card {
+    --pc-pt: 48px;
+    --pc-pb: 48px;
+    --pc-pi: 32px;
+  }
+
+  .carousel .card-subhead {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .carousel .card.has-image {
+    --pc-pt: 32px;
+  }
+
+  .carousel .card-flag-container {
+    min-height: 32px;
+  }
+
+  .carousel .card-flag {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .carousel .card-headline {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .carousel .card-text :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .carousel .card-text :is(p, ul, ol) {
+    margin-bottom: 24px;
+  }
+
+  .carousel .card-text p + p {
+    margin-top: -12px;
+  }
+}
+
+@media (width >= 912px) {
+  .carousel .card-actions .card-cta {
+    --cta-width: fit-content;
+    --cta-margin-inline: auto;
+  }
+}
+
+/* ---- Variant `plain` (rechtsportal cards): canon promo default typography — sans
+   headline, left-aligned headline/text; a flag authored before the image overlays the
+   image's top-right corner (live .cmp-promo__flag with an image container after it). */
+.carousel.plain .card-headline {
+  font-family: var(--ff-sans);
+  font-size: 16px;
+  line-height: 20.8px;
+  text-align: left;
+}
+
+.carousel.plain .card-text {
+  text-align: left;
+}
+
+.carousel.plain .card-flag-container:has(+ .card-image-container) {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 2;
+}
+
+.carousel.plain .card-flag-container:has(+ .card-image-container) .card-flag {
+  margin-inline: auto 0;
+  border-radius: 0 0 0 8px;
+  text-align: right;
+}
+
+/* cluster-landing: plain card titles at canon txt__h4 (18 → 20 from 768) */
+.carousel.plain.headline-s .card-headline {
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+@media (width >= 768px) {
+  .carousel.plain .card-headline {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .carousel.plain.headline-s .card-headline {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+/* ---- Variant `canon` (landing): canon default promo card (canon.css c36 .cmp-promo) — a
+   bordered flex column, sans centred headline (txt-h4), centred text, flag top-left over the
+   image or centred above an icon, störer badge over the image, price + CTA in the
+   placeholder. Additive: every rule is scoped to `.carousel.canon`. */
+.carousel.canon .card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.carousel.canon .card-flag-container {
+  min-height: 28px;
+}
+
+.carousel.canon .card-flag-container.over {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 2;
+}
+
+.carousel.canon .card-flag {
+  margin-inline: 0 auto;
+  border-radius: 0 0 8px;
+  background: var(--c-flag);
+  text-align: left;
+}
+
+.carousel.canon .card-flag-container.centered .card-flag {
+  margin-inline: auto;
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+}
+
+.carousel.canon .card-small-image {
+  position: relative;
+  width: 168px;
+  margin: -78px 0 0 24px;
+}
+
+.carousel.canon .card-small-image img {
+  display: block;
+  width: 168px;
+  height: 112px;
+  object-fit: contain;
+  object-position: 0% 100%;
+}
+
+.carousel.canon .card-icon-container {
+  display: flex;
+  justify-content: center;
+  padding: 48px 24px 0;
+}
+
+.carousel.canon .card-flag-container + .card-icon-container {
+  padding-top: 16px;
+}
+
+.carousel.canon .card-icon-container :is(p, .icon) {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+
+.carousel.canon .card-icon-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel.canon .card-content {
+  flex: 1 1 auto;
+  padding: 24px 24px 32px;
+}
+
+.carousel.canon .card-icon-container + .card-content {
+  padding-top: 16px;
+}
+
+.carousel.canon .card-headline {
+  font-family: var(--ff-sans);
+  font-size: 18px;
+  line-height: 23.4px;
+  text-align: center;
+}
+
+.carousel.canon .card-headline + .card-text {
+  margin-top: 24px;
+}
+
+.carousel.canon.stats .card-headline + .card-text {
+  margin-top: 8px;
+}
+
+.carousel.canon .card-text :is(p, ul, ol) {
+  margin: 0;
+}
+
+.carousel.canon .card.left :is(.card-headline, .card-text) {
+  text-align: left;
+}
+
+.carousel.canon .card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.carousel.canon .card-actions > * {
+  width: 100%;
+}
+
+.carousel.canon .card-price {
+  margin-top: 14px;
+}
+
+.carousel.canon .card-price p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.carousel.canon .card-price strong {
+  margin-inline: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.carousel.canon .card-actions .card-cta {
+  --cta-margin-inline: 0 auto;
+}
+
+.carousel.canon .card-actions .card-cta + .card-cta {
+  margin-top: 32px;
+}
+
+/* card colours (canon .cmp-promo.plain with --bg): no border */
+.carousel.canon .card:is(.card-blue, .card-green, .card-magenta, .card-yellow, .card-orange) {
+  border: 0;
+}
+
+.carousel.canon .card.card-blue {
+  --card-bg: var(--bg-blue);
+}
+
+.carousel.canon .card.card-green {
+  --card-bg: var(--bg-green);
+}
+
+.carousel.canon .card.card-magenta {
+  --card-bg: var(--bg-magenta);
+}
+
+.carousel.canon .card.card-yellow {
+  --card-bg: var(--bg-yellow);
+}
+
+.carousel.canon .card.card-orange {
+  --card-bg: var(--bg-orange);
+}
+
+@media (width <= 767px) {
+  .carousel.canon .card.has-image {
+    --pc-pt: 24px;
+  }
+}
+
+@media (width >= 768px) {
+  .carousel.canon .card-flag-container {
+    min-height: 32px;
+  }
+
+  .carousel.canon .card-content {
+    padding: 32px 32px 48px;
+  }
+
+  .carousel.canon .card-icon-container {
+    padding-inline: 32px;
+  }
+
+  .carousel.canon .card-icon-container + .card-content {
+    padding-top: 16px;
+  }
+
+  .carousel.canon .card-headline {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .carousel.canon .card-price {
+    margin-top: 24px;
+  }
+}
+
+@media (width >= 912px) {
+  .carousel.canon .card-actions .card-cta {
+    --cta-width: 100%;
+    --cta-margin-inline: 0 auto;
+  }
+}
+
+/* ---- Variant `articles` (landing): canon c15 article teaser cards ---------------------- */
+.carousel.articles .article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 48px 32px;
+  border-radius: var(--radius);
+  background: var(--bg, var(--bg-magenta));
+  color: var(--c-text);
+  text-align: left;
+}
+
+.carousel.articles .article-blue {
+  --bg: var(--bg-blue);
+}
+
+.carousel.articles .article-green {
+  --bg: var(--bg-green);
+}
+
+.carousel.articles .article-magenta {
+  --bg: var(--bg-magenta);
+}
+
+.carousel.articles .article-yellow {
+  --bg: var(--bg-yellow);
+}
+
+.carousel.articles .article-orange {
+  --bg: var(--bg-orange);
+}
+
+.carousel.articles .article p {
+  margin: 0;
+}
+
+.carousel.articles .article-subhead {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.carousel.articles .article-headline {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--c-brand);
+  font-family: var(--ff-serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.carousel.articles .article-headline :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.carousel.articles .article-text {
+  margin-top: 32px;
+}
+
+.carousel.articles .article-cta {
+  margin-top: auto;
+  padding-top: 32px;
+}
+
+.carousel.articles .article-cta .cmp-cta {
+  --cta-width: 100%;
+  --cta-width-l: 100%;
+  --cta-bg: transparent;
+  --cta-color: var(--c-brand);
+  --cta-bg-hover: transparent;
+  --cta-color-hover: var(--c-brand-hover);
+}
+
+.carousel.articles .article-cta a.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}

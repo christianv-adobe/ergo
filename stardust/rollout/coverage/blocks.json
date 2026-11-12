@@ -1,0 +1,265 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-28T16:32:30.594Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T23:23:27.796Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "article-header",
+      "label": "article-header",
+      "kind": "module",
+      "signature": "module:article-header",
+      "source": null,
+      "usedByTemplates": [
+        "de-ratgeber"
+      ],
+      "usedByPages": [
+        "de-ratgeber"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "article-header",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "banner",
+      "label": "banner",
+      "kind": "module",
+      "signature": "module:banner",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "benefits",
+      "label": "benefits",
+      "kind": "module",
+      "signature": "module:benefits",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "benefits",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "de-ratgeber"
+      ],
+      "usedByPages": [
+        "de-ratgeber"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "carousel",
+      "label": "carousel",
+      "kind": "module",
+      "signature": "module:carousel",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber",
+        "index"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber",
+        "index"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ccw",
+      "label": "ccw",
+      "kind": "module",
+      "signature": "module:ccw",
+      "source": null,
+      "usedByTemplates": [
+        "de-ratgeber"
+      ],
+      "usedByPages": [
+        "de-ratgeber"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "ccw",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "kind": "module",
+      "signature": "module:cta",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "index"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ekomi",
+      "label": "ekomi",
+      "kind": "module",
+      "signature": "module:ekomi",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "ekomi",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "index"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-table",
+      "label": "product-table",
+      "kind": "module",
+      "signature": "module:product-table",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "promo",
+      "label": "promo",
+      "kind": "module",
+      "signature": "module:promo",
+      "source": null,
+      "usedByTemplates": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber"
+      ],
+      "usedByPages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-ratgeber"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "promo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

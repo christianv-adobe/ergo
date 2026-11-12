@@ -1,0 +1,1561 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-28T14:28:58.147Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/de-geschaeftskunden-produkte-betriebliche-altersversorgung.json",
+      "stardust/current/pages/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.json",
+      "stardust/current/pages/de-geschaeftskunden-produkte-dienstreiseversicherung.json",
+      "stardust/current/pages/de-geschaeftskunden-produkte.json",
+      "stardust/current/pages/de-produkte.json",
+      "stardust/current/pages/de-ratgeber.json",
+      "stardust/current/pages/de-rechtsportal.json",
+      "stardust/current/pages/de-service.json",
+      "stardust/current/pages/de.json",
+      "stardust/current/pages/index.json",
+      "live stylesheets /etc.clientlibs/**.css (43 files, @font-face + .bg-* rules)"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "notes": [
+      "/de 301→/ (index and de are the same page; de lacks the personalised \"Ihre Versicherungen\" recommendations block)",
+      "Home-only radius mode equals cross-page mode (8px)."
+    ]
+  },
+  "site": {
+    "name": "ERGO",
+    "tagline": "Einfach, weil's wichtig ist.",
+    "originUrl": "https://www.ergo.de"
+  },
+  "origins": [
+    {
+      "origin": "https://www.ergo.de",
+      "role": "primary",
+      "pages": 10
+    }
+  ],
+  "logo": {
+    "kind": "svg",
+    "path": "stardust/current/assets/logo.svg",
+    "source": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+    "selector": "#MainNavi-logo-ergo-smallView > a > img",
+    "variants": [
+      {
+        "path": "stardust/current/assets/logo-claim.svg",
+        "source": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ergo_logo.dam.svg",
+        "use": "desktop header, with claim"
+      },
+      {
+        "path": "stardust/current/assets/logo-dkv.svg",
+        "source": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+        "use": "footer co-brand"
+      }
+    ],
+    "color": "#bf1528"
+  },
+  "favicon": {
+    "path": "stardust/current/assets/favicon.png"
+  },
+  "palette": [
+    {
+      "hex": "#333333",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 3884,
+      "by": {
+        "text": 3121,
+        "link": 313,
+        "button-text": 101,
+        "background": 15,
+        "heading": 334
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#MainNavi-navigation-item-0 > button > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#MainNavi-action-item-login > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#MainNavi-navigation-item-0 > button > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#8e0038",
+      "roles": [
+        "primary"
+      ],
+      "weight": 1190,
+      "by": {
+        "text": 306,
+        "border": 226,
+        "background": 154,
+        "link": 132,
+        "button-border": 177,
+        "button-text": 73,
+        "button-background": 122
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "#MainNavi-action-item-phone > div > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(2) > div > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "#MainNavi-action-item-phone > div > span:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "background"
+      ],
+      "weight": 908,
+      "by": {
+        "background": 641,
+        "text": 145,
+        "button-text": 122
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "#MainNavi",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "#MainNavi",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#MainNavi",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#c9c5c7",
+      "roles": [
+        "accent",
+        "border"
+      ],
+      "weight": 658,
+      "by": {
+        "border": 557,
+        "button-border": 101
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "#root-carouselcontainer_1jnWB-splide_sJ2NU > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "div:nth-of-type(4) > div > div > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#ccecef",
+      "roles": [
+        "surface"
+      ],
+      "weight": 85,
+      "by": {
+        "background": 85
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div:nth-of-type(27) > div > div > div > div > div > div:nth-of-type(2) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "div > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(4) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#main > section > div > div > div:nth-of-type(4) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#ebe6d8",
+      "roles": [],
+      "weight": 54,
+      "by": {
+        "background": 54
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div:nth-of-type(6) > div > div > div > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "div:nth-of-type(21) > div > div > div > div > div > div:nth-of-type(3) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "div > div > div:nth-of-type(2) > div > div > div > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#f5e1eb",
+      "roles": [],
+      "weight": 42,
+      "by": {
+        "background": 42
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "#main > section > div > div > div:nth-of-type(3)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "#main > section > div > div > div:nth-of-type(11)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#main > section > div > div > div:nth-of-type(12)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#d9d9d9",
+      "roles": [],
+      "weight": 31,
+      "by": {
+        "border": 31
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "selector": "#MainNavi",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "#MainNavi",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+          "selector": "#MainNavi",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#fef6d2",
+      "roles": [],
+      "weight": 29,
+      "by": {
+        "background": 29
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-producttable_5aa61 > div:nth-of-type(1) > div:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "#main > section > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+          "selector": "#main > section > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#ffe0cb",
+      "roles": [],
+      "weight": 29,
+      "by": {
+        "background": 29
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "#root-promo_7ka7V_sJ2NU",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "#main > section > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div:nth-of-type(2) > div > div > div > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#737373",
+      "roles": [],
+      "weight": 18,
+      "by": {
+        "text": 16,
+        "background": 2
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "selector": "div:nth-of-type(1) > div > div > div > a > dl > div:nth-of-type(2) > dd",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+          "selector": "div > div > div > div > a > dl > div:nth-of-type(2) > dd",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#428071",
+      "roles": [],
+      "weight": 14,
+      "by": {
+        "background": 10,
+        "border": 4
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "selector": "#main > section > div > div > div:nth-of-type(5) > div > div:nth-of-type(1) > p",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "#main > section > div > div > div:nth-of-type(30) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "#main > section > div > div > div:nth-of-type(14) > div > div:nth-of-type(1) > p",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#c34a89",
+      "roles": [],
+      "weight": 12,
+      "by": {
+        "background": 12
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "selector": "#main > section > div > div > div:nth-of-type(12) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/rechtsportal",
+          "selector": "div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#318187",
+      "roles": [],
+      "weight": 3,
+      "by": {
+        "background": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#e5c536",
+      "roles": [],
+      "weight": 2,
+      "by": {
+        "background": 2
+      },
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-producttable_5aa61 > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    }
+  ],
+  "paletteRoles": {
+    "background": "#ffffff",
+    "surface": [
+      "#ffe0cb",
+      "#fef6d2",
+      "#f5e1eb",
+      "#ccecef",
+      "#d3ebe5",
+      "#ebe6d8"
+    ],
+    "text": "#333333",
+    "textMuted": "#737373",
+    "primary": "#8e0038",
+    "primaryHover": "#601028",
+    "border": "#c9c5c7",
+    "logo": "#bf1528",
+    "accents": [
+      "#428071",
+      "#c34a89",
+      "#318187",
+      "#e5c536",
+      "#b46018"
+    ],
+    "source": "census + .bg-* style-system classes in components.min.css"
+  },
+  "type": {
+    "families": [
+      {
+        "family": "FS Me",
+        "count": 794,
+        "headings": 312,
+        "text": 186,
+        "buttons": 296
+      },
+      {
+        "family": "Fedra Serif",
+        "count": 52,
+        "headings": 22,
+        "text": 30,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "Fedra Serif (claims + section h2) / FS Me (eyebrows, h3/h4, UI)",
+    "bodyFamily": "FS Me",
+    "sizes": [
+      {
+        "px": 40,
+        "count": 9,
+        "headings": 0,
+        "text": 9,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 68,
+        "headings": 59,
+        "text": 9,
+        "buttons": 0
+      },
+      {
+        "px": 26,
+        "count": 2,
+        "headings": 0,
+        "text": 2,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 70,
+        "headings": 62,
+        "text": 8,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 52,
+        "headings": 39,
+        "text": 13,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 47,
+        "headings": 30,
+        "text": 17,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 513,
+        "headings": 134,
+        "text": 83,
+        "buttons": 296
+      },
+      {
+        "px": 14,
+        "count": 82,
+        "headings": 10,
+        "text": 72,
+        "buttons": 0
+      },
+      {
+        "px": 12,
+        "count": 3,
+        "headings": 0,
+        "text": 3,
+        "buttons": 0
+      }
+    ],
+    "weights": [
+      {
+        "weight": "700",
+        "count": 602,
+        "headings": 246,
+        "text": 78,
+        "buttons": 278
+      },
+      {
+        "weight": "400",
+        "count": 244,
+        "headings": 88,
+        "text": 138,
+        "buttons": 18
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 18,
+        "fontWeight": "700",
+        "count": 9,
+        "score": 94.5
+      },
+      "h2": {
+        "fontSize": 28,
+        "fontWeight": "700",
+        "count": 59,
+        "score": 376.38
+      },
+      "h3": {
+        "fontSize": 14,
+        "fontWeight": "700",
+        "count": 8,
+        "score": 69.3
+      },
+      "h4": {
+        "fontSize": 20,
+        "fontWeight": "700",
+        "count": 36,
+        "score": 210
+      }
+    },
+    "claim": {
+      "family": "Fedra Serif",
+      "weight": 700,
+      "size": {
+        "desktop": "40px",
+        "mobile": "28px"
+      },
+      "lineHeight": 1.3,
+      "color": "#8e0038",
+      "source": "--text-base--*__claim__font-size; census text[0] https://www.ergo.de/"
+    },
+    "files": [
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Bold.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Bold.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Bold.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Bold.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-BoldItalic.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-BoldItalic.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-BoldItalic.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-BoldItalic.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Heavy.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Heavy.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Heavy.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Heavy.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-HeavyItalic.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-HeavyItalic.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-HeavyItalic.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-HeavyItalic.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Italic.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Italic.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Italic.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Italic.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Light.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Light.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Light.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Light.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-LightItalic.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-LightItalic.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-LightItalic.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-LightItalic.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Regular.woff",
+        "family": "FS Me",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Regular.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/FSMeWeb-Regular.woff2",
+        "family": "FS Me",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fsme/FSMeWeb-Regular.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000003.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000003.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000003.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000003.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000046.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000046.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000046.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000046.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000047.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000047.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000047.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000047.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000050.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000050.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000050.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000050.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000051.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000051.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000051.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000051.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000054.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000054.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000054.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000054.woff2"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000055.woff",
+        "family": "Fedra Serif",
+        "format": "woff",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000055.woff"
+      },
+      {
+        "file": "stardust/current/assets/fonts/WF-006389-009281-000055.woff2",
+        "family": "Fedra Serif",
+        "format": "woff2",
+        "licensed": true,
+        "sourceUrl": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/fonts/fedra_serif/WF-006389-009281-000055.woff2"
+      }
+    ],
+    "fontFace": [
+      {
+        "family": "FS Me",
+        "weights": [
+          300,
+          500,
+          700,
+          900
+        ],
+        "italic": true
+      },
+      {
+        "family": "Fedra Serif",
+        "weights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "italic": true
+      }
+    ],
+    "licensing": {
+      "FS Me": "commercial (Fontsmith/Monotype) — licensed to ERGO; self-host only under the owner's licence",
+      "Fedra Serif": "commercial (Typotheque, licence WF-006389-009281) — licensed to ERGO; self-host only under the owner's licence"
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "steps": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        24,
+        28,
+        40
+      ],
+      "note": "token scale --erde-font-size-* (0.625–1.5rem) plus claim 40/28; ratios irregular"
+    }
+  },
+  "spacing": {
+    "unit": 8,
+    "scale": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ],
+    "source": "--gap--* custom properties"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "8px",
+      "areaMode": "8px",
+      "pill": "50%",
+      "values": [
+        {
+          "value": "8px",
+          "count": 1274,
+          "area": 69481704,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#MainNavi-logo-ergo-smallView > a"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#MainNavi-action-item-login"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#MainNavi-action-item-phone"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#MainNavi-logo-ergo > a"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#MainNavi-navigation-item-0 > button"
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 86,
+          "area": 1236453,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div:nth-of-type(1) > div > div > div > div > div > a"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3) > div > a"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+              "selector": "#root-ctareact_XDhHa > a"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+              "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > a"
+            }
+          ]
+        },
+        {
+          "value": "50%",
+          "count": 70,
+          "area": 134958,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div:nth-of-type(18) > div > div > div > div:nth-of-type(2) > div > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div:nth-of-type(18) > div > div > div > div:nth-of-type(2) > div > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div:nth-of-type(18) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div:nth-of-type(36) > div > div > div > div:nth-of-type(2) > div > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div > div:nth-of-type(36) > div > div > div > div:nth-of-type(2) > div > button:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 16px 16px",
+          "count": 18,
+          "area": 114459,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#skip-to-content"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+              "selector": "#skip-to-content"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+              "selector": "#skip-to-content"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+              "selector": "#skip-to-content"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+              "selector": "#skip-to-content"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 8px",
+          "count": 8,
+          "area": 30067,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+              "selector": "div > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Produkte",
+              "selector": "div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Service",
+              "selector": "div:nth-of-type(28) > div > div > div > div > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 0px 8px",
+          "count": 6,
+          "area": 25827,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+              "selector": "#root-carouselcontainer_AoR5T-splide-list > div:nth-of-type(2) > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Service",
+              "selector": "#main > section > div > div > div:nth-of-type(30) > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/rechtsportal",
+              "selector": "div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "5px",
+          "count": 6,
+          "area": 5277412,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+              "selector": "#root-producttable_5aa61"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+              "selector": "#accordion-2f02ba3a86 > details:nth-of-type(1) > div > div > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+              "selector": "#main > section > div > div > div:nth-of-type(12) > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 8px 8px",
+          "count": 5,
+          "area": 21529,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "div:nth-of-type(1) > div > div > div > div > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Ratgeber",
+              "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Ratgeber",
+              "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.ergo.de/de/Ratgeber",
+              "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 5,
+          "area": 11089,
+          "sources": [
+            {
+              "url": "https://www.ergo.de/",
+              "selector": "#RealpersonChatStatusButton"
+            },
+            {
+              "url": "https://www.ergo.de/de/Produkte",
+              "selector": "#RealpersonChatStatusButton"
+            },
+            {
+              "url": "https://www.ergo.de/de/Ratgeber",
+              "selector": "#RealpersonChatStatusButton"
+            },
+            {
+              "url": "https://www.ergo.de/de/Service",
+              "selector": "#RealpersonChatStatusButton"
+            },
+            {
+              "url": "https://www.ergo.de/de/rechtsportal",
+              "selector": "#RealpersonChatStatusButton"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.25) 0px 4px 10px 0px",
+        "count": 7,
+        "sources": [
+          {
+            "url": "https://www.ergo.de/",
+            "selector": "#RealpersonChatStatusButton"
+          },
+          {
+            "url": "https://www.ergo.de/de/Produkte",
+            "selector": "#RealpersonChatStatusButton"
+          },
+          {
+            "url": "https://www.ergo.de/de/Ratgeber",
+            "selector": "#RealpersonChatStatusButton"
+          },
+          {
+            "url": "https://www.ergo.de/de/Service",
+            "selector": "#RealpersonChatStatusButton"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px",
+        "count": 6,
+        "sources": [
+          {
+            "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+            "selector": "#root-producttable_5aa61"
+          },
+          {
+            "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+            "selector": "#accordion-2f02ba3a86 > details:nth-of-type(1) > div > div > div"
+          },
+          {
+            "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+            "selector": "#main > section > div > div > div:nth-of-type(12) > div"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.027) 0px 0.451199px 1.128px 44.36px",
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://www.ergo.de/de/Ratgeber",
+            "selector": "#RealpersonChatStatusButton"
+          }
+        ]
+      }
+    ],
+    "gradients": [],
+    "patterns": [
+      "pastel full-width bands",
+      "split hero with photo right",
+      "white cards 8px radius on pastel",
+      "pill (50%) icon buttons / carousel dots"
+    ]
+  },
+  "hover": [
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(51, 51, 51)"
+      },
+      "to": {
+        "color": "rgb(142, 0, 56)"
+      },
+      "count": 21,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div > div > div:nth-of-type(3) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div > div > div:nth-of-type(3) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+          "selector": "#root-contactcardreact_cop_N9EXd_rsm34 > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-navigationcardreact_9a18c-cta_PzagB > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-navigationcardreact_9a18c-cta_PzagB > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(142, 0, 56)",
+        "borderColor": "rgb(142, 0, 56)",
+        "boxShadow": "none"
+      },
+      "to": {
+        "backgroundColor": "rgb(96, 16, 40)",
+        "borderColor": "rgb(96, 16, 40)",
+        "boxShadow": "rgba(58, 58, 58, 0.04) 0px 0px 2px 0px, rgba(58, 58, 58, 0.05) 0px 4px 8px 0px"
+      },
+      "count": 19,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+          "selector": "#root-ctareact_XDhHa > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+          "selector": "#root-ctareact_XDhHa > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-productheaderreact_c_93e6f > div:nth-of-type(2) > div:nth-of-type(3) > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "color": "rgb(142, 0, 56)",
+        "borderColor": "rgb(142, 0, 56)",
+        "boxShadow": "none"
+      },
+      "to": {
+        "color": "rgb(96, 16, 40)",
+        "borderColor": "rgb(96, 16, 40)",
+        "boxShadow": "rgba(58, 58, 58, 0.04) 0px 0px 2px 0px, rgba(58, 58, 58, 0.05) 0px 4px 8px 0px"
+      },
+      "count": 15,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(7) > section > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+          "selector": "#root-contactcardreact_cop_N9EXd_rsm34 > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+          "selector": "#root-promoreact-container-cta_IT3Q6 > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "boxShadow": "none"
+      },
+      "to": {
+        "boxShadow": "rgba(58, 58, 58, 0.04) 0px 0px 2px 0px, rgba(58, 58, 58, 0.05) 0px 4px 8px 0px"
+      },
+      "count": 8,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+          "selector": "#root-promoreact-container-cta_kyFgt > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(4) > div > div > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(4) > div > div > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Service",
+          "selector": "#root-promoreact_copy_JZmXq-textContainer > div:nth-of-type(4) > div > div > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(201, 197, 199)",
+        "boxShadow": "none"
+      },
+      "to": {
+        "backgroundColor": "rgb(246, 245, 245)",
+        "borderColor": "rgb(122, 117, 120)",
+        "boxShadow": "rgba(58, 58, 58, 0.04) 0px 0px 2px 0px, rgba(58, 58, 58, 0.05) 0px 4px 8px 0px"
+      },
+      "count": 4,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/rechtsportal",
+          "selector": "#root-cta_ndGiN > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/rechtsportal",
+          "selector": "#root-cta_ndGiN > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(142, 0, 56)"
+      },
+      "to": {
+        "color": "rgb(96, 16, 40)"
+      },
+      "count": 4,
+      "sources": [
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "selector": "div > div:nth-of-type(1) > div > div > div > div > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "div > div > div:nth-of-type(3) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.ergo.de/de/Produkte",
+          "selector": "div > div > div:nth-of-type(3) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > a"
+        }
+      ]
+    }
+  ],
+  "componentStyle": {
+    "button": {
+      "radius": "12px",
+      "border": "1px solid #8e0038",
+      "font": "FS Me 700 16px / .5px",
+      "primary": "#8e0038 bg, #fff text → #601028 hover",
+      "secondary": "transparent bg, #8e0038 text+border → #601028"
+    },
+    "card": {
+      "radius": "8px",
+      "border": "1px solid #c9c5c7"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 10,
+      "exampleSlug": "index",
+      "exampleSelector": "header #MainNavi",
+      "examplePages": [
+        "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "de-geschaeftskunden-produkte-dienstreiseversicherung",
+        "de-geschaeftskunden-produkte",
+        "de-produkte",
+        "de-ratgeber",
+        "de-rechtsportal",
+        "de-service",
+        "de",
+        "index"
+      ],
+      "ctaLabels": [
+        "Suche",
+        "Berater",
+        "Log-in",
+        "Anrufen 0800 / 3746 095"
+      ],
+      "headingSequence": [
+        "Versicherungen & Finanzen",
+        "Service",
+        "Kontakt"
+      ],
+      "notes": "Geschäftskunden pages (4) swap the first nav item to \"Produkte für Geschäftskunden\"; mega-menu flyouts"
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 10,
+      "exampleSlug": "index",
+      "exampleSelector": "footer",
+      "headingSequence": [
+        "Versicherungen & Finanzen",
+        "Service",
+        "Kontakt",
+        "Über ERGO"
+      ],
+      "ctaLabels": [
+        "Nach oben"
+      ],
+      "notes": "4 footerAccordion columns, social icons, legal ribbon (.page-footer__ribbon), ERGO|DKV logos"
+    },
+    {
+      "name": "scroll-to-top",
+      "kind": "other",
+      "occurrences": 10,
+      "exampleSlug": "index",
+      "exampleSelector": ".scrollToTop",
+      "ctaLabels": [
+        "Nach oben"
+      ]
+    },
+    {
+      "name": "contact-band",
+      "kind": "cta-band",
+      "occurrences": 8,
+      "exampleSlug": "de-service",
+      "exampleSelector": ".experienceFragment",
+      "headingSequence": [
+        "Nicht sicher, was Sie benötigen?"
+      ],
+      "ctaLabels": [
+        "E-Mail schreiben",
+        "ERGO Berater finden",
+        "0800 / 3746 095"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 2,
+      "exampleSlug": "de-ratgeber",
+      "exampleSelector": ".breadcrumb"
+    },
+    {
+      "name": "chat-launcher",
+      "kind": "other",
+      "occurrences": 10,
+      "exampleSlug": "index",
+      "exampleSelector": "[class*=chat]",
+      "notes": "floating round red chat button (rp-chat-icons icon font)"
+    }
+  ],
+  "iconFont": {
+    "family": "rp-chat-icons",
+    "scope": "chat launcher only",
+    "glyphs": [],
+    "file": null,
+    "note": "site icons are SVG images, not an icon font"
+  },
+  "voice": {
+    "heroHeadline": "Wer zuletzt lacht – ist bei ERGO versichert!",
+    "heroLede": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.",
+    "eyebrow": "Zahnzusatzversicherungen im Vergleich",
+    "tagline": "Einfach, weil's wichtig ist.",
+    "ctas": [
+      "Jetzt informieren",
+      "Beitrag berechnen",
+      "Angebot anfordern"
+    ],
+    "address": "Sie (formal), warm, reassuring",
+    "firstParagraph": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.",
+    "heroImage": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.dam.jpg",
+      "alt": "Eltern liegen auf dem Teppichboden und lachen mit der kleinen Tochter in die Kamera. ",
+      "slug": "index"
+    },
+    "heroMedium": null,
+    "links": [
+      "Zahnzusatzversicherung",
+      "Reiseversicherung",
+      "Kfz-Versicherung",
+      "Rechtsschutzversicherung",
+      "Private Haftpflichtversicherung",
+      "Hausratversicherung"
+    ]
+  },
+  "voiceTable": {
+    "de-geschaeftskunden-produkte-betriebliche-altersversorgung": {
+      "eyebrow": "Betriebliche Altersversorgung",
+      "headline": "Vorteile und Produkte der betrieblichen Altersversorgung",
+      "lede": null
+    },
+    "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen": {
+      "eyebrow": "Cyber-Versicherung für Unternehmen",
+      "headline": "Schützen Sie Ihr Unternehmen gegen Cyber-Risiken",
+      "lede": null
+    },
+    "de-geschaeftskunden-produkte-dienstreiseversicherung": {
+      "eyebrow": "Dienstreiseversicherung",
+      "headline": "Sichern Sie Ihre Mitarbeiter auf Dienstreisen umfangreich ab",
+      "lede": null
+    },
+    "de-geschaeftskunden-produkte": {
+      "eyebrow": "Gewerbe-Versicherungen",
+      "headline": "Willkommen im ERGO Geschäftskunden-Bereich",
+      "lede": null
+    },
+    "de-produkte": {
+      "eyebrow": "Alle ERGO Produkte entdecken",
+      "headline": "Das ganze Angebot auf einen Blick",
+      "lede": null
+    },
+    "de-ratgeber": {
+      "eyebrow": "ERGO Ratgeber",
+      "headline": "Bestens informiert über Versicherungen, Vorsorge und Gesundheit",
+      "lede": "Ob Alltagsthemen oder Zukunftsplanung: Der ERGO Ratgeber bietet Ihnen aktuelle Informationen zu vielen Themen, die Sie bewegen."
+    },
+    "de-rechtsportal": {
+      "eyebrow": "Rechtsportal",
+      "headline": "Tipps für Ihr gutes Recht",
+      "lede": "Hier finden Sie zu ganz unterschiedlichen Rechtsthemen Tipps, Urteile und spannende Hintergrundinfos."
+    },
+    "de-service": {
+      "eyebrow": "Services",
+      "headline": "Zeit und Geld sparen mit den Services von ERGO",
+      "lede": "Viele Angelegenheiten erledigen Sie hier direkt online. Weitere Services rund um Ihre Verträge finden Sie im Kundenportal."
+    },
+    "de": {
+      "eyebrow": "Zahnzusatzversicherungen im Vergleich",
+      "headline": "Wer zuletzt lacht – ist bei ERGO versichert!",
+      "lede": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen."
+    },
+    "index": {
+      "eyebrow": "Zahnzusatzversicherungen im Vergleich",
+      "headline": "Wer zuletzt lacht – ist bei ERGO versichert!",
+      "lede": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen."
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "instances": [
+      "Das könnte Sie auch interessieren: (3 Geschäftskunden product pages)",
+      "Auch interessant: (rechtsportal)"
+    ]
+  },
+  "register": "brand"
+}

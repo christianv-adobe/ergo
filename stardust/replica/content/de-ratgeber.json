@@ -1,0 +1,2830 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-ratgeber.html (2026-10-28T14:21:42.604Z)",
+  "layout": "narrow"
+ },
+ "head": {
+  "title": "Ratgeber | ERGO",
+  "description": "Alles, was wichtig ist: Im ERGO Ratgeber finden Sie zahlreiche aktuelle Infos zu den Themen Kfz, Gesundheit, Vorsorge, Reise und mehr ▻ Jetzt entdecken!",
+  "lang": "de"
+ },
+ "footer": {
+  "variant": "article",
+  "note": "<p class=\"txt txt--copytext txt__caption\"><b>Hinweis</b>: Unsere Beiträge geben den Sach- und Rechtsstand zum Zeitpunkt der Veröffentlichung wieder.</p>",
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+     },
+     {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+     },
+     {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+     },
+     {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+     },
+     {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+     },
+     {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber & Rechtsportal",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Freundschaftswerbung",
+      "href": "/de/Service/Freundschaftswerbung"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/Unternehmen"
+     },
+     {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://www.ergo.com/de/karriere"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/Media-Relations"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/Verantwortung"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "TikTok"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": "Sitemap"
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2025 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "articleHeader",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "orange",
+   "h1": "ERGO Ratgeber",
+   "title": "Bestens informiert über Versicherungen, Vorsorge und Gesundheit",
+   "text": "Ob Alltagsthemen oder Zukunftsplanung: Der ERGO Ratgeber bietet Ihnen aktuelle Informationen zu vielen Themen, die Sie bewegen.",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/impuls/ratgeber.dam.jpg",
+    "alt": "Eine Frau lächelt in Richtung Kamera und hält ein Smartphone hoch, auf dem die ERGO-Webseite geöffnet ist."
+   },
+   "ai": false
+  },
+  {
+   "type": "breadcrumb",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "aria": "Breadcrumb",
+   "items": [
+    {
+     "label": "Home Page (German)",
+     "href": "/de",
+     "aria": "Home Page (German)",
+     "current": false
+    },
+    {
+     "label": "Ratgeber",
+     "href": null,
+     "aria": null,
+     "current": true
+    }
+   ]
+  },
+  {
+   "type": "columns",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": [
+    {
+     "width": "half",
+     "html": "<p>Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen werden, neue Fragen tauchen auf. Im ERGO <b>Ratgeber </b>finden Sie auf alle Fragen schnell eine Antwort. Sie erhalten gebündelt <b>verlässliche Informationen zu allen Themen</b> rund um <b>Versicherung, Vorsorge, Recht und Alltag</b>. Ganz gleich, ob es um Ihre Finanzen geht oder um die Gesundheit Ihrer Familie – nutzen Sie den Ratgeber als Orientierung und praktische Entscheidungshilfe im Alltag.</p>"
+    },
+    {
+     "width": "half",
+     "html": "<ul><li><a href=\"#ank1\">Gesundheit &amp; Wohlbefinden</a></li><li><a href=\"#ank2\">Zahngesundheit</a></li><li><a href=\"#ank3\">Mobilität &amp; Kfz</a></li><li><a href=\"#ank4\">Finanzielle Vorsorge</a></li><li><a href=\"#ank5\">Haus &amp; Wohnung</a></li><li><a href=\"#ank6\">Im Todesfall</a></li></ul>"
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/risikolebensversicherung-aktion.dam.jpg",
+     "alt": "Ein Baby schläft auf der Brust des Vaters. Die Mutter gibt dem Baby einen Kuss auf den Kopf."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Risikolebensversicherung</span></p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif\"><span class=\"color color--red\">Sichern Sie Ihre Liebsten im Ernstfall ab</span></p>",
+    "textHtml": "<p>Ein Trauerfall belastet Angehörige. Sorgen Sie dafür, dass sich Ihre Familie zumindest um finanzielle Fragen keine Sorgen machen muss.</p>",
+    "price": {
+     "prefix": "Ab",
+     "value": "1,85",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Jetzt berechnen",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung/abschluss",
+      "aria": "Jetzt berechnen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": "CalculatorIcon",
+      "iconPos": "left"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\"><a id=\"ank1\"></a>Gesundheit und Wohlbefinden: Weil Gesundheit das Wichtigste ist</h2><p><b>Vier von fünf Deutschen</b> sagen, dass <b>Gesundheit das wichtigste Thema</b> in ihrem Leben ist. Wenn es darum geht, gesund zu leben, gibt es aber noch Luft nach oben: Laut dem <a href=\"https://www.ergo.com/de/newsroom-ergo/medieninformationen/2025/20250804-ergo-dkv-report-2025\">aktuellen DKV-Report</a> leben gerade mal zwei Prozent der Deutschen rundum gesund. Experten sind sich einig, dass es für einen <b>gesunden Lebensstil vor allem Wissen </b>braucht – über Ernährung, Bewegung und Gesundheitsvorsorge. Der Ratgeber Gesundheit und zahlreiche Beiträge zu allen Gesundheitsthemen helfen Ihnen dabei.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/gesundheit/ratgeber-gesundheit.dam.jpg",
+      "alt": "Arzt und Patient schauen auf eine Röntgenaufnahme."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\"><span class=\"color color--red\"><span class=\"color color--black\">Ratgeber Gesundheit</span></span></p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Für die meisten Menschen ist Gesundheit eine der <b>wichtigsten Voraussetzungen</b> für ein glückliches Leben. Was Sie tun können, um Krankheiten vorzubeugen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/gesundheit",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Krankenversicherung",
+       "href": "/de/Produkte/Krankenversicherung",
+       "aria": "Zur Krankenversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/gesundheit/gesundheit-frau-bauchschmerzen.dam.jpg",
+      "alt": "Frau sitzt mit Bauchschmerzen auf ihrem Bett. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Stress</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Anhaltender Stress erschöpft Körper und Seele und kann <b>krank machen</b>. Umso wichtiger ist der richtige Umgang mit Stress.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/gesundheit/stress",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Berufsunfähigkeitsversicherung",
+       "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+       "aria": "Zur Berufsunfähigkeitsversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/gesundheit/augenkrankheiten-untersuchung.dam.jpg",
+      "alt": "Junges Mädchen wird beim Augenarzt untersucht. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Ratgeber Augenkrankheiten</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Augenerkrankungen können die Lebensqualität stark beeinträchtigen. Viele Beschwerden sind <b>medizinisch behandelbar.</b></p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/gesundheit/augenkrankheiten",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Augenzusatzversicherung",
+       "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+       "aria": "Zur Augenzusatzversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\"><a id=\"ank2\"></a>Zahngesundheit – bis ins hohe Alter</h2><p>Zahnerkrankungen und Zahnfehlstellungen können die Lebensqualität stark einschränken. Glücklicherweise gibt es heute viele Methoden, um die <b>eigene Zahngesundheit</b> zu <b>fördern</b>.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zahngesundheit/zahnpflege-mädchen.dam.jpg",
+      "alt": "Junges Mädchen mit Zöpfen putzt sich die Zähne. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Karies bei Kindern</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Im internationalen Vergleich sind Kinder in Deutschland <b>besonders selten</b> von <b>Karies betroffen</b>. Laut einer Studie der Bundeszahnärztekammer haben 12-jährige Kinder im Durschnitt <b>0,5 kariöse Zähne</b> . Nur Dänemark liegt in der Kariesprävention bei Kindern noch vor Deutschland.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zahngesundheit/zahnpflege-kinder",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zum Kieferorthopädie Sofortschutz",
+       "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+       "aria": "Zum Kieferorthopädie Sofortschutz",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zahngesundheit/kreuzbiss-zahnarzt.dam.jpg",
+      "alt": "Eine Verblendungsschale wird einem Gebiss angelegt. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Zahnersatz</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Neue Behandlungstechnologien und das bessere Mundgefühl haben dafür gesorgt, dass sich ältere Menschen <b>zunehmend für Implantate entscheiden</b>: In den letzten 20 Jahren ist der Anteil an festsitzendem Zahnersatz von rund <b>36 Prozent auf 65 Prozent</b> gestiegen. Zahnprothesen machen nur noch ein knappes Drittel des Zahnersatzes aus.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zahngesundheit/zahnersatz",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Versicherung für Zahnersatz",
+       "href": "/de/Produkte/Zahnzusatzversicherung/zahnersatz",
+       "aria": "Zur Versicherung für Zahnersatz",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zek-usecase-sabine.dam.jpg",
+      "alt": "Frau mit gesunden Zähnen sitzt lächelnd in ihrem Wohnzimmer."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Zahnhygiene</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Prävention und gute Zahnhygiene wirken: Laut der Bundeszahnärztekammer hat sich der <b>Kariesbefall</b> bei Erwachsenen in den letzten 30 Jahren <b>nahezu halbiert</b>. Heute haben die m eisten Erwachsenen in der Mitte ihres Lebens noch alle Zähne.<b> Früherkennung</b> bei Kindern, regelmäßige Vorsorgeuntersuchungen und verbesserte Behandlungsmethoden zeigen ihre Wirkung. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Versicherung für Zahnerhalt",
+       "href": "/de/Produkte/Zahnzusatzversicherung/zahnerhaltung",
+       "aria": "Zur Versicherung  für Zahnerhalt",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/familie/paar-laptop.dam.jpg",
+     "alt": "Paar sitzt mit Laptop auf der Couch."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Hier geht´s zum Rechtsportal</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Von Arbeistrecht bis Zwangsvollstreckung: Hier Finden Sie Wissenswertes zu <b>aktuellen Rechtsthemen</b> sowie Musterdokumente zm Download.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Rechtsportal",
+      "href": "/de/rechtsportal",
+      "aria": "Zum Rechtsportal",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2><a id=\"ank3\"></a>Mobilität&amp; Kfz: Sicher unterwegs auf zwei oder vier Rädern</h2><p>Für viele Menschen ist das Auto nicht nur ein praktisches Fortbewegungsmittel, sondern ein Stück <b>persönliche Freiheit</b>: Selbst entscheiden, wann man wohin startet, Freunde mitnehmen oder entspannt in den Urlaub fahren. Die Anzahl neu zugelassener Autos steigt seit Jahren: Rund <b>69 Millionen Fahrzeuge</b> sind laut aktuellen Zahlen des Kraftfahrtbundesamtes <b>auf unseren Straßen unterwegs</b>. Kein Wunder also, dass es manchmal zu Staus und Unfällen kommt. Wer sicher unterwegs sein will, sollte nicht nur umsichtig sein, sondern auch die passenden <a href=\"/de/Produkte/KFZ-Versicherung/Autoversicherung\">Kfz- Versicherungen</a> kennen.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/verkehrsrecht/freunde-im-auto.dam.jpg",
+      "alt": "Eine Gruppe von Freunden in einem Auto."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Autoversicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Wer ein Auto besitzt, <b>muss es versichern</b>. Mehr über die unterschiedlichen Kfz-Versicherungstypen und <b>wichtigsten Versicherungsbegriffe</b> erfahren Sie bei ERGO.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/kfz/autoversicherung",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Autoversicherung",
+       "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+       "aria": "Zur Autoversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/kfz-kosten-unfall.dam.jpg",
+      "alt": "Ein Warndreieck steht auf der Straße vor einem Auto."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Unfall</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Eine kleine Unachtsamkeit reicht und schon ist der Unfall passiert. Jetzt gilt es, <b>umsichtig zu handeln</b>, um weitere Schäden zu vermeiden.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/kfz/unfall",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zum Kfz Schutzbrief",
+       "href": "/de/Produkte/KFZ-Versicherung/Schutzbrief",
+       "aria": "Zum Kfz Schutzbrief",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zu-hause/e-bike-versicherung-frau.dam.jpg",
+      "alt": "Eine junge Frau fährt auf ihrem E-Bike."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">E-Bike kaufen</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">E-Bikes und Pedelecs haben viele Fans – sind aber <b>relativ teuer</b> in der Anschaffung. Worauf Sie achten sollten, um das perfekte E-Bike zu finden.v</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zuhause/e-bike-worauf-achten",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur E-Bike Versicherung",
+       "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung",
+       "aria": "Zur E-Bike Versicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": "magenta",
+   "html": "<h2><a id=\"ank4\"></a>Finanzielle Vorsorge: Familie und Lebensstandard absichern</h2>"
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": "magenta",
+   "html": "<p>Finanzielle Vorsorge: Familie und Lebensstandard absichern. Die gesetzliche Rente <b>reicht im Alter nicht aus</b> – das haben wir alle schon mal gehört. Wer <b>rechtzeitig anfängt</b>, privat vorzusorgen, kann mit geringen monatlichen Beiträgen ein<b> finanzielles Polster</b> für den Ruhestand aufbauen.</p>"
+  },
+  {
+   "type": "benefits",
+   "size": "l",
+   "mode": "bottom",
+   "bg": "magenta",
+   "color": "#428071",
+   "frame": "frame",
+   "flag": "Finanzielle Vorsorge",
+   "flagPos": "center",
+   "items": [
+    "<ul class=\"check-list--black\"><li>Die <b>gesetzliche Rentenversicherung</b> ist für alle angestellten <b>Arbeitnehmer</b> in Deutschland <b>Pflicht.</b></li><li>Neben der Pflichtversicherung können Sie zusätzlich eine <a href=\"/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge\">betriebliche Altersvorsorge</a> oder eine <a href=\"/de/Produkte/Rentenversicherung/Private-Rentenversicherung\">private Rentenversicherung</a> abschließen. Diese Formen der Altersvorsorge sind freiwillig. </li><li>Ob sich staatlich geförderte private Altersvorsorgemodelle wie Riester-Rente und <a href=\"/de/Produkte/Rentenversicherung/Basis-Rente\">Rürup-Rente</a> lohnen, hängt vom Einkommen, vom Familienstand und vom Arbeitsverhältnis ab. </li><li>Eine Kapitallebensversicherung kann ebenfalls als <b>Altersvorsorge</b> genutzt werden, während eine <a href=\"/de/Produkte/Lebensversicherung/Risikolebensversicherung\">Risikolebensversicherung</a> Ihre Hinterbliebenen im Todesfall finanziell absichert. </li><li>Alternativ können Sie Geld in <a href=\"/de/Produkte/Investmentprodukte\">Investmentfonds</a> anlegen – über einen längeren Zeitraum können Sie auf diese Weise <b>Vermögen fürs Alter</b> aufbauen. </li><li>Auch eine <b>Immobilie</b> kann als private Altersvorsorge genutzt werden. Dabei zahlen Sie nicht in einen Fonds oder eine Rentenkasse ein, sondern zahlen die Raten der <a href=\"/de/Produkte/Bausparen-Finanzierung\">Immobilienfinanzierung</a> nach und nach ab, bis die Immobilie lastenfrei ist. </li><li>Eine professionelle Beratung z. B. durch einen Finanz- oder Versicherungsexperten hilft Ihnen, die richtige Entscheidung zu treffen. Wichtig ist, dass Sie das Thema <b>finanzielle Vorsorge</b> überhaupt angehen. </li></ul>"
+   ]
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/bkv-vorteile-arbeitgeber.dam.jpg",
+      "alt": "Paar in einem Büroraum arbeiten zusammen am Laptop.."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Vermögenswirksame Leistungen</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Gezielt Vermögen aufbauen – mit einem <b>Zuschuss vom Arbeitgeber</b>: So funktioniert VL-Sparen. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/finanzielle_vorsorge/vermoegenswirksame-leistungen",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zum Bausparvertrag",
+       "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+       "aria": "Zum Bausparvertrag",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/finanzielle-vorsorge/tipps-frueher-rente-rentner-fussball.dam.jpg",
+      "alt": "Zwei gute gelaunte Rentner in Sportkleidung, einer davon hat einen Fußball in der Hand."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Früher in Rente</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Welche Regelaltersgrenzen gelten und welche Möglichkeiten Sie haben, um <b>früher in den Ruhestand </b>zu gehen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/finanzielle_vorsorge/tipps-frueher-rente",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur privaten Rentenversicherung",
+       "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung",
+       "aria": "Zur privaten Rentenversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zu-hause/paar-schluessel.dam.jpg",
+      "alt": "Eine junge Frau fährt auf ihrem E-Bike."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Ratgeber Kapitallebensversicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Eine Kapitallebensversicherung kann Ihre <b>Hinterbliebenen absichern</b>, sie kann aber auch als private Altersvorsorge genutzt werden. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/finanzielle_vorsorge/kapitallebensversicherung",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Risikolebensversicherung",
+       "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+       "aria": "Zur Risikolebensversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2><a id=\"ank5\"></a>Haus und Wohnung: Das eigene Zuhause rundum absichern</h2><p>Ihr Zuhause ist viel mehr als ein Dach mit vier Wänden. Mit dem <b>passenden Schutz</b> und gut informiert können Sie es sorgenfrei genießen.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/mietrecht/doppelhaus-bau.dam.jpg",
+      "alt": "Ein Rohbau eines Doppelhauses mit Garage."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Hausbau-Versicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Ein Hausbau ist vielleicht die <b>größte Investition Ihres Lebens</b>. Damit Sie bei Planung, Bau und Gestaltung keine bösen Überraschungen erleben, gibt es <b>spezielle Versicherungen</b> für Bauherren und Baufinanzierer.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zuhause/hausbau-versicherung",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Bauherrenhaftpflichtversicherung",
+       "href": "/de/Produkte/Haftpflichtversicherung/Bauherrenhaftpflicht",
+       "aria": "Zur Bauherrenhaftpflichtversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zu-hause/haus-familie.dam.jpg",
+      "alt": "Ein Warndreieck steht auf der Straße vor einem Auto."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Haus und Haushalt richtig absichern</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Ob Wetterschäden, Einbruch oder Alterung –<b> Schäden am Eigenheim</b> können teuer werden. Mit den richtigen Versicherungen schützen Sie sich vor hohen Folgekosten. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zuhause/haus-versicherungen",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Wohngebäudeversicherung",
+       "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+       "aria": "Zur Wohngebäudeversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/zu-hause/hausrat-ungeziefer-paar.dam.jpg",
+      "alt": "Eine junge Frau fährt auf ihrem E-Bike."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Hausrat- oder Haftpflichtversicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Gerade in Mietwohnungen ist nicht immer direkt klar, ob die <b>Hausrat- oder die Haftpflichtversicherung</b> zuständig ist. Was sind die Unterschiede? </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/zuhause/unterschied_hausrat_haftpflicht",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Hausratversicherung",
+       "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+       "aria": "Zur Hausratversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">Zeit für dich: Podcast und Versicherungs-Persönlichkeitstest</h2><p>Alles, was dich interessiert: Lehn dich entspannt zurück und hör zu, wie Katrin und wechselnde spannende Persönlichkeiten über deine Alltagsthemen sprechen.</p>"
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/podcast/katrin.dam.jpg",
+     "alt": "LIFEHACKS mit Katrin"
+    },
+    "rounded": true,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h3\"><span class=\"color color--black\">Lifehacks – der Podcast mit Katrin</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Katrin beleuchtet Themen aus dem Leben, die viele betreffen – leicht erklärt, alltagsnah und mit Blick auf Sicherheit, Finanzen und persönliche Entwicklung.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zu allen Episoden",
+      "href": "/de/Ratgeber/lifehacks",
+      "aria": "Zu allen Episoden",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": true,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Zukunftsplanung",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Wir planen Urlaube, Karrieren und Wochenenden, aber selten die <b>wirklich entscheidenden Dinge</b> im Leben.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/7DIqAnwLY7Pw0vmCNSbpFA",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Abenteuer Leben",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Extremsportler Jonas Deichmann über <b>Risiko und Sicherheit</b></p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/0FpHSAE3HRI35HmnKpDXVE",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Familie gründen",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\"><b>So sicherst du dich finanziell ab </b>mit Familiencoach Kira Liebmann</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/32lEorCIPx4BsQeFbAgkAm",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Dankbarkeitstagebuch",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Wie man <b>Dankbarkeit und Selbstliebe</b> in den Alltag integrieren kann</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/0UikC7WXXygxk602wFuWb1?si=dszqk9D4TguQaDm4IoXTDw&nd=1&dlsi=9ab6800f97a645ad",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Voll- und Teilkaskoversicherung",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Bilal Nawaz über die <b>wichtigsten Aspekte der Kfz-Versicherung</b></p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/4tHVuPS8YRTgZw24ig9Gqt",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ccecef",
+     "pos": null,
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Unfallversicherung",
+     "image": null,
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": null,
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Philipp war 20, als ein <b>Sturz ins U-Bahn-Gleisbett</b> sein Leben auf den Kopf stellte</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Podcast",
+       "href": "https://open.spotify.com/episode/4g0SY1q3lRmfXxpwtEA8VE",
+       "aria": "Zum Podcast",
+       "variant": "tertiary",
+       "size": "auto",
+       "width": "default",
+       "icon": "HeadsetIcon",
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h3>Versicherungs-Persönlichkeitstest</h3><p>Dieser Persönlichkeitstest hilft dir herauszufinden, welcher Versicherungstyp du bist und welche Absicherung du wirklich brauchst. Klick dich in wenigen Minuten durch die Fragen!</p>"
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ebe6d8",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/service/persoenlichkeitstest/typen-test.dam.jpg",
+     "alt": "Entspannte glückliche junge Frau."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": null,
+    "titleHtml": "<p class=\"txt txt--headline txt__h2\">Welcher Versicherungstyp sind Sie?</p>",
+    "textHtml": "<p>Versicherungen sind mehr als Verträge – sie sind eine Typfrage. Dieser Test zeigt in wenigen Schritten, welcher Versicherungstyp du bist und welche Absicherung zu deinem Leben passt.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Persönlichkeitstest",
+      "href": "/de/Service/typen-test",
+      "aria": "Zum Persönlichkeitstest",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2><a id=\"ank6\"></a>Im Todesfall: Heute schon vorsorgen für den Ernstfall</h2><p>Wenn ein lieber Mensch verstirbt, dann ist das immer ein Schock. Denn selbst wenn sich der Tod angekündigt hat, ist <b>kaum jemand</b> wirklich <b>vorbereitet</b>. Neben der Trauer müssen die Angehörigen auch <b>zahlreiche Formalitäten</b> rund um den Sterbefall bewältigen. Dazu gehört unter anderem, den Tod so früh wie möglich bei den verschiedenen Ämtern und Versicherern zu melden und sich einen Überblick über bestehende Verträge und Verpflichtungen zu verschaffen.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/todesfall/asche-verstreuen-grossvater-kind.dam.jpg",
+      "alt": "Ein Opa und sein Enkel betrachten gemeinsam eine Pusteblume.."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Todesfall</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Diese Dinge sollten <b>unmittelbar </b>geregelt werden, wenn ein Mensch verstirbt. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/todesfall",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Sterbegeldversicherung",
+       "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+       "aria": "Zur Sterbegeldversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/finanzielle-vorsorge/bezugsrecht-rlv-familie.dam.jpg",
+      "alt": "Ein Warndreieck steht auf der Straße vor einem Auto. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Versicherungen im Todesfall</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Einige Versicherungen<b> enden </b>im Todesfall automatisch, einige können von Angehörigen <b>übernommen</b> werden.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/todesfall/versicherung",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Risikolebensversicherung",
+       "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+       "aria": "Zur Risikolebensversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/testament-und-erbrecht/friedhof.dam.jpg",
+      "alt": "Eine junge Frau fährt auf ihrem E-Bike."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Bestattungsarten</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">In Deutschland gibt es <b>unterschiedliche Möglichkeiten</b>, Verstorbene zu beerdigen. Kosten, Dauer und Planungsaufwand sind sehr unterschiedlich. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/todesfall/beerdigung-organisieren",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zum Bestattungskostenrechner",
+       "href": "/de/Ratgeber/todesfall/bestattungskosten-rechner",
+       "aria": "Zum Bestattungskostenrechner",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2>Berufsunfähigkeit und Pflege: Auf alle Fälle vorbereitet&nbsp;</h2><p>Niemand denkt gern darüber nach, dass er oder sie sich möglicherweise irgendwann nicht mehr selbst versorgen kann. Aber statistisch gesehen, wird etwa <b>jeder vierte Berufstätige in Deutschland</b> im Laufe des Arbeitslebens <b>berufsunfähig</b>. Knapp <b>6 Millionen Deutsche</b> sind <b>auf Pflege angewiesen</b> , mit steigender Tendenz. Wer sich schon heute mit diesen Themen auseinandersetzt und entsprechend vorsorgt, kann sich auch künftig ein selbstbestimmtes Leben sichern.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/handwerk/dachdecker.dam.jpg",
+      "alt": "Zwei Dachdecker gehen bei bestem Wetter ihrer Arbeit nach."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Berufsunfähigkeit</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">So<b> sichern</b> Sie sich für den <b>Fall einer Berufsunfähigkeit </b>richtig ab. </p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/berufsunfaehigkeit",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Berufsunfähigkeitsversicherung",
+       "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+       "aria": "Zur Berufsunfähigkeitsversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/pflege/pflegegrade-wohnzimmer.dam.jpg",
+      "alt": "Ein Pflegeer und eine alte Dame sitzen lächelnd in ihrem Wohnzimmer. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ratgeber Pflege</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Finden Sie <b>hilfreiche Tipps </b>und Informationen rund um das komplexe Thema <b>Pflege</b>.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/pflege",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur Pflegezusatzversicherung",
+       "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+       "aria": "Zur Pflegezusatzversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 2,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/pflege/pflegegrad-rechner.dam.jpg",
+      "alt": "Eine junge Frau fährt auf ihrem E-Bike."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Pflegegrad-Rechner</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Prüfen Sie mit dem Pflegegradrechner, ob Sie für sich oder Angehörige einen <b>Pflegegrad beantragen</b> können.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/pflege/pflegegrad-rechner",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      },
+      {
+       "tag": "a",
+       "label": "Zur privaten Pflegeversicherung",
+       "href": "/de/Produkte/Pflegeversicherung/Private_Pflegeversicherung",
+       "aria": "Zur privaten Pflegeversicherung",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2 ta-c\">Weitere Themen</h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": true,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/persoenlichkeitstest/vorsorger.dam.jpg",
+      "alt": "Junge Familie im Freien: Mutter und Vater umarmen liebevoll ihre lächelnde Tochter."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Ehe und Familie</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Heute gibt es viele verschiedene <b>Familienmodelle</b>. Aber wie bliebt das Verhältnis zwischen Partnern, Eltern, Kindern, und Freunden harmonisch?</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/familie",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/reise/reise-krankenschutz-surferin.dam.jpg",
+      "alt": "Surferin gleitet über den See bei Sonnenuntergang."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Reise und Freizeit&nbsp;</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Die Deutschen gelten als <b>Reiseweltmeister</b>. Ob Kurzurlaub, Fernreise oder Abenteuer-Trip – wir haben <b>Tipps</b>, worauf es unterwegs wirklich ankommt.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/reise_und_freizeit",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/service/einwilligung-see.dam.jpg",
+      "alt": "Junge Frau beim Scrollen auf ihrem iPad."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Digitalisierung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Die Digitalisierung <b>verändert</b> unseren <b>Alltag </b>und die <b>Arbeitswelt</b>. Hier finden Sie praktische Tipps und wertvolle Einblicke für einen <b>bewussten </b>Umgang mit der Digitalisierung.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/digital",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/beruf/existenzgruendung/beruf-kollegen-notizzettel.dam.jpg",
+      "alt": "Mehrere Personen stehen an einer Glaswand mit vielen Notizzetteln."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Existenzgründung</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Viele Menschen suchen nach einer Beschäftigung, die Spaß macht und sich auch finanziell lohnt. Worauf es bei der <b>Berufswahl </b>ankommt.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/beruf",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/landingpages/eigenverantwortung/vaterundtochter.dam.jpg",
+      "alt": "Ein Mann und ein Mädchen liegen nebeneinander auf dem Boden und lächeln fröhlich in die Kamera. (Bild KI-unterstützt generiert)"
+     },
+     "rounded": false,
+     "ai": true,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\">Versicherungen für Geflüchtete</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Für Geflüchtete in Deutschland sind die das Gesundheitssystem und die <b>Versicherungspflichten </b>oft kompliziert. Unser Ratgeber schafft Klarheit.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/fluechtlinge",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#ebe6d8",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/tiere/hund-traurige-frau.dam.jpg",
+      "alt": "Eine Frau liegt müde und traurig neben ihrem Hund im Bett."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h3 font font--fedra-serif ta-c\">Auswirkungen von Stress&nbsp;</p>",
+     "titleHtml": null,
+     "textHtml": "<p class=\"ta-c\">Anhaltender Stress äußert sich schnell körperlich. Wer die <b>Symptome </b>erkennt, kann handeln, um weitere <b>Folgen </b>zu verhindern.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr erfahren",
+       "href": "/de/Ratgeber/gesundheit/stress",
+       "aria": "Mehr erfahren",
+       "variant": "tertiary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h3 class=\"font font--fedra-serif ta-c\"><span class=\"color color--red\">Die am häufigsten gelesenen Artikel</span></h3>"
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fff",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/kfz/kfz-steuer-smart.dam.jpg",
+     "alt": "Versicherungen von der Steuer absetzen"
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Kfz-Steuer-Rechner: Steuern für Ihr Auto berechnen</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Auf öffentlichen Straßen fahren? Dann müssen Sie Kfz-Steuer zahlen. Der Kfz-Steuer-Rechner zeigt Ihnen, wie viel.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Ratgeber/kfz/steuer",
+      "aria": "Mehr erfahren",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fff",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/todesfall/sonderurlaub-todesfall.dam.jpg",
+     "alt": "Stress: Methoden zur Bewältigung"
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Sonderurlaub im Todesfall: Zeit, um zu trauern</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Bei einem Trauerfall in der Familie haben Arbeitnehmer Anspruch auf Sonderurlaub. Wie viele freie Tage Ihnen zustehen, ist im Arbeitsvertrag geregelt.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Ratgeber/todesfall/sonderurlaub-bei-todesfall",
+      "aria": "Mehr erfahren",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "tb",
+   "bg": null,
+   "html": "<p class=\"ta-c\"><b>RATGEBER</b></p>"
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"font font--fedra-serif txt txt--headline txt__h3 ta-c\"><span class=\"color color--red\">Alle Themen auf einen Blick</span></p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Gesundheit",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/gesundheit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Zahngesundheit",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/zahngesundheit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Kfz",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/kfz",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Berufsunfähigkeit",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/berufsunfaehigkeit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Finanzielle Vorsorge",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/finanzielle_vorsorge",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Todesfall",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/todesfall",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Ehe und Familie",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/familie",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Haus und Wohnung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/zuhause",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Existenzgründung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/beruf",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Reise und Freizeit",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/reise_und_freizeit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Versicherungen für Flüchtlinge",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/fluechtlinge",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Digitalisierung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/digital",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Pflege",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Ratgeber/pflege",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--copytext txt__teaser ta-c\"><b>KONTAKT</b></h2>"
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Sie haben Fragen?</span></h2>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#d3ebe5",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+      "alt": ""
+     },
+     "title": "E-Mail",
+     "text": "Schreiben Sie eine Nachricht.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Kontaktformular",
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "aria": "Zum Kontaktformular",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ccecef",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChatIcon.svg",
+      "alt": ""
+     },
+     "title": "Chat",
+     "text": "Ein Klick führt zum Chat.",
+     "cta": {
+      "tag": "button",
+      "label": "Chat öffnen",
+      "href": null,
+      "aria": "Chat öffnen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#f5e1eb",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+      "alt": ""
+     },
+     "title": "ERGO Berater",
+     "text": "Finden Sie Ihren ERGO Berater.",
+     "cta": {
+      "tag": "a",
+      "label": "Zum Berater",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "Zum Berater",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h3 ta-c\">Sie suchen etwas anderes?</h2>",
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": true,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#f5e1eb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HeartIcon.svg",
+      "alt": ""
+     },
+     "title": "Familie absichern",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "aria": "Familie absichern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fef6d2",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ToothIcon.svg",
+      "alt": ""
+     },
+     "title": "Schöne Zähne",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+      "aria": "Gesunde Zähne",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ffe0cb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DocumentCurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Schaden melden",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Service/ereignis-melden",
+      "aria": "Schaden melden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ccecef",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MotorVehicleIcon.svg",
+      "alt": ""
+     },
+     "title": "Sicher unterwegs",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "aria": "Sicher unterwegs",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#d3ebe5",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChecklistIcon.svg",
+      "alt": ""
+     },
+     "title": "Welcher Versicherungstyp?",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Service/typen-test",
+      "aria": "Versicherungstyp testen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#f5e1eb",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/AmbulanceIcon.svg",
+      "alt": ""
+     },
+     "title": "Schutz bei Unfällen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Produkte/Unfallversicherung",
+      "aria": "Freizeit absichern",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#ccecef",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HealthcareIcon.svg",
+      "alt": ""
+     },
+     "title": "Gesund bleiben",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Ratgeber/gesundheit",
+      "aria": "Gesund bleiben",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fef6d2",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseGroundIcon.svg",
+      "alt": ""
+     },
+     "title": "Eigentum schützen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+      "aria": "Eigentum schützen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#d3ebe5",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightBulbIcon.svg",
+      "alt": ""
+     },
+     "title": "Richtig versichert?",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "weiter",
+      "href": "/de/Produkte/Lebensphasen",
+      "aria": "Richtig versichert?",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

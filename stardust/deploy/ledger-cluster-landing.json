@@ -1,0 +1,38 @@
+{
+  "/de/geschaeftskunden-produkte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T21:22:46.573Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/produkte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T21:22:52.447Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/service": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T21:22:59.346Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T21:23:05.597Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

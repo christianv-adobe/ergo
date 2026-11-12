@@ -1,0 +1,199 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-28T16:32:30.660Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T16:32:30.660Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "de",
+    "de-geschaeftskunden-produkte",
+    "de-produkte",
+    "de-service",
+    "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+    "de-geschaeftskunden-produkte-dienstreiseversicherung",
+    "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+    "de-ratgeber",
+    "index",
+    "de-rechtsportal"
+  ],
+  "steps": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte",
+      "path": "/de/Geschaeftskunden-Produkte",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-produkte",
+      "path": "/de/Produkte",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-service",
+      "path": "/de/Service",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "path": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+      "path": "/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "path": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+      "templateId": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "benefits",
+          "edsBlockName": "benefits"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta"
+        },
+        {
+          "id": "product-table",
+          "edsBlockName": "product-table"
+        },
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel"
+        },
+        {
+          "id": "promo",
+          "edsBlockName": "promo"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "de-ratgeber",
+      "path": "/de/Ratgeber",
+      "templateId": "de-ratgeber",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "article-header",
+          "edsBlockName": "article-header"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "ccw",
+          "edsBlockName": "ccw"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "promo",
+          "edsBlockName": "promo",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        },
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        },
+        {
+          "id": "benefits",
+          "edsBlockName": "benefits",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "banner",
+          "edsBlockName": "banner"
+        },
+        {
+          "id": "ekomi",
+          "edsBlockName": "ekomi"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        },
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+        }
+      ]
+    },
+    {
+      "slug": "de-rechtsportal",
+      "path": "/de/rechtsportal",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

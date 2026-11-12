@@ -74,6 +74,21 @@ function buildWidgetAutoBlocks(main) {
 }
 
 /**
+ * Turns a lone YouTube link in default content (a paragraph holding only that link) into an
+ * `embed` block. Links inside blocks (incl. an authored `embed`) are left alone.
+ * @param {Element} main The container element
+ */
+function buildEmbedAutoBlocks(main) {
+  const yt = /^https:\/\/(?:www\.)?(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)[\w-]{6,}/;
+  main.querySelectorAll(':scope > div > p > a[href]').forEach((link) => {
+    const p = link.parentElement;
+    if (!yt.test(link.href) || p.children.length !== 1
+      || p.textContent.trim() !== link.textContent.trim()) return;
+    p.replaceWith(buildBlock('embed', { elems: [link.cloneNode(true)] }));
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
@@ -97,6 +112,7 @@ function buildAutoBlocks(main) {
       });
     }
     buildWidgetAutoBlocks(main);
+    buildEmbedAutoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
@@ -160,7 +176,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = 'de';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -204,6 +221,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

@@ -1,0 +1,208 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "listing",
+        "program"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-28T16:35:13.810Z",
+      "endedAt": "2026-10-28T17:18:59.470Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "cropHeader": "0.75%",
+          "cropFooter": "1.13%"
+        },
+        "1440": {
+          "cropHeader": "1.85%",
+          "cropFooter": "1.75%"
+        },
+        "chrome": "chrome-compare exit 2: 16 residuals after 3 rounds — 1 search typeahead (backend data, dynamics row chrome-search), 15 open-state panel crops 2–7% (substitute-font glyphs vs licensed FS Me); owner decision file stardust/chrome/header-decisions.json",
+        "pixel": "deferred to archetype-landing (shell carries hero only)"
+      },
+      "verdict": "foundation: chrome docs 4/4 live, shell previewed, lint ok, chrome-compare exit 2 (16 named residuals), crop header 1440 1.85% / 360 0.75%, footer 1440 1.75% / 360 1.13%"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T19:19:59.176Z",
+      "endedAt": "2026-10-28T19:48:07.857Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "archetype": "9.56% Δh-3 PASS"
+        },
+        "1440": {
+          "archetype": "4.18% Δh+47 PASS"
+        },
+        "rounds": 1
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 5 (new: banner, ekomi; reused: hero, carousel, cta), gate 1440 4.18% Δh 47 / 360 9.56% Δh -3, clip 0, missing 0, rounds 1, requests 1; program+listing re-gated unchanged"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:57:41.487Z",
+      "endedAt": "2026-10-28T18:48:27.662Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "30.17% Δh+334 cross-browser → same-browser 5.68% Δh+85 PASS (override); clip 0, missing 0"
+        },
+        "1440": {
+          "archetype": "19.48% Δh+402 cross-browser → same-browser 8.06% Δh+86 PASS (override); clip 0, missing 0"
+        },
+        "rounds": 2
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 6 (new: article-header, breadcrumb, ccw; listing variants promo/carousel/benefits), gate same-browser 1440 8.06% / 360 5.68%, clip 0, missing 0, rounds 2 (carousel tile CTA accessible name)"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:19:16.537Z",
+      "endedAt": "2026-10-28T17:57:26.054Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "archetype": "10.38% Δh+102 FAIL pixel-only (residual: capture-browser hyphenation asymmetry — live shot in headed Chrome without de hyphenation dictionary, EDS in bundled Chromium; same-browser title boxes identical); clip 0, missing 0"
+        },
+        "1440": {
+          "archetype": "8.32% Δh+90 PASS"
+        },
+        "chrome": "business chrome docs",
+        "rounds": 3
+      },
+      "verdict": "archetype-program: pages 1/1 live, blocks 7 (new: hero, benefits, accordion, cta, product-table, promo, carousel), gate 1440 8.32% Δh 90 / 360 10.38% Δh 102, clip 0, missing 0, rounds 3, requests 1"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 4,
+      "startedAt": "2026-10-28T19:48:19.836Z",
+      "endedAt": "2026-10-28T22:05:20.058Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "de": "8.81% PASS",
+          "de-geschaeftskunden-produkte": "23.53% FAIL (same-browser 16.03%: check-list item width wrap offset)",
+          "de-produkte": "21.81% FAIL (same-browser 10.06% Δh 21: centred text wrap + promo price 24 vs 28px)",
+          "de-service": "22.46% → same-browser 8.39% PASS (override)"
+        },
+        "1440": {
+          "de": "5.56% PASS",
+          "de-geschaeftskunden-produkte": "8.15% PASS",
+          "de-produkte": "1.80% PASS",
+          "de-service": "15.26% → same-browser 2.41% PASS (override)"
+        },
+        "rounds": 3
+      },
+      "residuals": [
+        "de-produkte 360 same-browser 10.06%",
+        "de-geschaeftskunden-produkte 360 same-browser 16.03%"
+      ],
+      "verdict": "cluster-landing: pages 4/4 live, blocks 7 (new: embed), 1440 4/4 pass, 360 2/4 pass (produkte, geschaeftskunden-produkte residual after 3 rounds — fix at C-final), clip 0, missing 0, requests 2"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T18:49:08.598Z",
+      "endedAt": "2026-10-28T19:19:40.632Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "de-rechtsportal": "15.81% Δh+119 cross-browser → same-browser 6.87% Δh+80 PASS (override); clip 0, missing 0"
+        },
+        "1440": {
+          "de-rechtsportal": "12.91% Δh+126 cross-browser → same-browser 4.99% Δh+61 PASS (override); clip 0, missing 0"
+        },
+        "rounds": 3
+      },
+      "verdict": "cluster-listing: pages 1/1 live, blocks 5 (0 new), gate same-browser 1440 4.99% / 360 6.87%, clip 0, missing 0, requests 1 (footer article variant); de-ratgeber re-gated unchanged"
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 2,
+      "startedAt": "2026-10-28T17:58:15.728Z",
+      "endedAt": "2026-10-28T18:27:03.051Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "betriebliche-altersversorgung": "9.89%",
+          "dienstreiseversicherung": "7.72%",
+          "archetype": "10.38% (hyphenation residual, unchanged)"
+        },
+        "1440": {
+          "betriebliche-altersversorgung": "8.74%",
+          "dienstreiseversicherung": "3.95%",
+          "archetype": "8.32% (re-gated, unchanged)"
+        },
+        "contentDiff": "0 missing; ROLE SWAP 🔴 32/9 (headline-styled <p> authored as headings, same as archetype) + 8 🟡 redundant aria-labels per page — logged as role-upgrade deviation"
+      },
+      "verdict": "cluster-program: pages 2/2 live, blocks 6 (no new ones), gate 1440 bAV 8.74% / Dienstreise 3.95%, 360 bAV 9.89% / Dienstreise 7.72%, clip 0, missing 0, requests 1"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "listing",
+        "program"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-28T22:57:19.082Z",
+      "endedAt": "2026-10-28T23:09:15.868Z",
+      "gates": {
+        "360": "3 PASS + 7 documented overrides = 10/10 delivered",
+        "1440": "7 PASS + 3 documented overrides = 10/10 delivered"
+      },
+      "verdict": "gate-all: roster 10 pages, --skip-existing on the published origin; 1440 10/10 delivered (3 overrides), 360 10/10 delivered (7 overrides: 6 hyphenation capture asymmetry, 1 font-substitution residual); clip 0, MISSING/HIDDEN 0; coverage 10/10 gate.pass true"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "listing",
+        "program"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-28T22:06:56.344Z",
+      "endedAt": "2026-10-28T22:57:06.252Z",
+      "gates": {
+        "360": "10/10 (produkte 10.06% same-browser = documented font-substitution residual override; geschaeftskunden 4.25, cyber 2.97, index 8.93 same-browser)",
+        "1440": "10/10 PASS (service 2.40, ratgeber 8.02, rechtsportal 4.91 same-browser)"
+      },
+      "residuals": [
+        "de-produkte 360 same-browser 10.06% — FS Me→Fira Sans wrap, documented override"
+      ],
+      "verdict": "final: 6/6 foundation requests applied (page layers → styles.css, benefits colours, footer-article variant live, YouTube auto-block), geschaeftskunden 360 fixed 16.03→4.25%, re-gate 1440 10/10, 360 9/10 + 1 documented residual; foundation re-frozen; commits 8d096dc 779e936"
+    }
+  }
+}

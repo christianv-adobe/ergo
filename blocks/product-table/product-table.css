@@ -1,0 +1,339 @@
+/* product-table — canon productTable (program.css), class names kebab-cased. */
+/* stylelint-disable no-descending-specificity -- zebra/header order mirrors the canon cascade */
+.product-table {
+  --pt-label: #77756e;
+  --pt-tint: #ebe6d8;
+  --pt-label-color: #fff;
+  --pt-hdr-h: 73px;
+}
+
+.product-table.green {
+  --pt-label: #428071;
+  --pt-tint: #d3ebe5;
+}
+
+.product-table.magenta {
+  --pt-label: #c34a89;
+  --pt-tint: #f5e1eb;
+}
+
+.product-table.teal {
+  --pt-label: #318187;
+  --pt-tint: #ccecef;
+}
+
+.product-table.yellow {
+  --pt-label: #e5c536;
+  --pt-tint: #fef6d2;
+  --pt-label-color: #333;
+}
+
+.product-table.orange {
+  --pt-label: #b46018;
+  --pt-tint: #ffe0cb;
+}
+
+.product-table .pt-table {
+  position: relative;
+  overflow: clip;
+  border-radius: 5px;
+  box-shadow:
+    0 3px 5px -1px rgb(0 0 0 / 20%),
+    0 6px 10px 0 rgb(0 0 0 / 14%),
+    0 1px 18px 0 rgb(0 0 0 / 12%);
+  overflow-wrap: anywhere;
+}
+
+.product-table .pt-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.product-table .pt-row:not(.pt-row-header):nth-child(2n) {
+  background-color: #f6f5f5;
+}
+
+.product-table .pt-row-header:first-child ~ .pt-row:not(.pt-row-header):nth-child(2n),
+.product-table .pt-row:not(.pt-row-header):nth-child(odd) {
+  background-color: #fff;
+}
+
+.product-table .pt-row-header:first-child ~ .pt-row:not(.pt-row-header):nth-child(odd) {
+  background-color: #f6f5f5;
+}
+
+.product-table .pt-cell {
+  flex: 0 0 auto;
+  overflow: clip;
+  padding: 20px 16px;
+}
+
+.product-table .pt-cell-tariff {
+  position: relative;
+  text-align: center;
+}
+
+.product-table .pt-cell-tariff::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 0;
+  z-index: 10;
+  width: 1px;
+  border-left: 1px solid #000;
+}
+
+.product-table .has-tariff-cols-1 ~ .pt-cell-tariff {
+  flex-basis: 100%;
+}
+
+.product-table .has-tariff-cols-2 ~ .pt-cell-tariff {
+  flex-basis: 50%;
+}
+
+.product-table .has-tariff-cols-3 ~ .pt-cell-tariff {
+  flex-basis: 33.3333%;
+}
+
+.product-table .pt-cell-label {
+  flex-basis: 100%;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.product-table .pt-row-header {
+  align-content: flex-start;
+  background-color: transparent;
+}
+
+.product-table .pt-row-header .pt-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.product-table .pt-row-header .pt-cell-label {
+  align-self: stretch;
+  margin-bottom: 0;
+  background-color: var(--pt-label);
+  color: var(--pt-label-color);
+}
+
+.product-table .pt-row-header .pt-cell-label :is(p, h2, h3, h4, h5, h6) {
+  color: inherit;
+}
+
+.product-table .pt-row-header .pt-cell-tariff {
+  background-color: var(--pt-tint);
+}
+
+.product-table .pt-row-header .pt-cell-tariff::before {
+  top: 12px;
+  bottom: 12px;
+}
+
+.product-table .pt-group {
+  position: relative;
+}
+
+.product-table .pt-subheading {
+  background-color: #fff;
+  color: var(--c-brand);
+}
+
+.product-table .pt-subheading .pt-cell {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.product-table .pt-subheading :is(p, h2, h3, h4, h5, h6) {
+  color: inherit;
+}
+
+.product-table .pt-row-header.is-sticky {
+  position: sticky;
+  top: var(--pt-hdr-h);
+  z-index: 40;
+}
+
+.product-table .pt-group.is-sticky .pt-subheading {
+  position: sticky;
+  top: calc(var(--pt-hdr-h) + var(--pt-head-h, 0px));
+  z-index: 30;
+}
+
+.product-table .pt-icon {
+  height: 31px;
+}
+
+.product-table .pt-icon :is(p, .icon) {
+  display: inline;
+  margin: 0;
+}
+
+.product-table .pt-icon img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+}
+
+/* cell text: canon .cmp-text.rt with zero paragraph margins; headings = txt__teaser */
+.product-table .pt-text :is(p, li) {
+  margin: 0;
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.product-table .pt-text :is(h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--c-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.product-table .pt-subheading .pt-text :is(h2, h3, h4, h5, h6),
+.product-table .pt-subheading.pt-text :is(h2, h3, h4, h5, h6) {
+  color: inherit;
+}
+
+@media (width <= 911px) {
+  .product-table .pt-cell-tariff:nth-child(2)::before {
+    content: none;
+  }
+
+  .product-table .pt-cell-label {
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
+  .product-table .pt-row-header.is-pinned .pt-cell:not(.pt-cell-label:not(:only-child)) .pt-text > :not(:first-child) {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .product-table .pt-text :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .product-table .pt-text :is(h2, h3, h4, h5, h6) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (width >= 912px) {
+  .product-table {
+    --pt-hdr-h: 97px;
+  }
+
+  .product-table .pt-row {
+    flex-wrap: nowrap;
+  }
+
+  .product-table .pt-cell {
+    padding: 24px;
+  }
+
+  .product-table .pt-cell-tariff::before {
+    top: 16px;
+    bottom: 16px;
+  }
+
+  .product-table .pt-row-header .pt-cell {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .product-table .pt-row-header .pt-cell-tariff::before {
+    top: 16px;
+    bottom: 16px;
+  }
+
+  .product-table .pt-row-header .pt-cell-tariff:nth-child(2)::before {
+    content: none;
+  }
+
+  .product-table .pt-cell-label,
+  .product-table .has-tariff-cols-1 ~ .pt-cell-tariff {
+    flex-basis: 50%;
+  }
+
+  .product-table .has-tariff-cols-2 ~ .pt-cell-tariff {
+    flex-basis: 25%;
+  }
+
+  .product-table .has-tariff-cols-3 ~ .pt-cell-tariff {
+    flex-basis: 16.6667%;
+  }
+
+  .product-table.label-4 .pt-cell-label {
+    flex-basis: 33.3333%;
+  }
+
+  .product-table.label-4 .has-tariff-cols-1 ~ .pt-cell-tariff {
+    flex-basis: 66.6667%;
+  }
+
+  .product-table.label-4 .has-tariff-cols-2 ~ .pt-cell-tariff {
+    flex-basis: 33.3333%;
+  }
+
+  .product-table.label-4 .has-tariff-cols-3 ~ .pt-cell-tariff {
+    flex-basis: 22.2222%;
+  }
+
+  .product-table .pt-row-header.is-pinned .pt-cell .pt-text > :not(:first-child) {
+    display: none;
+  }
+}
+
+/* left: tariff cells left-aligned (source productTable__table--tariff-alignment-left) */
+.product-table.left .pt-cell-tariff {
+  text-align: left;
+}
+
+/* lists in cells: canon .rt lists (disc, 32/36 indent), last list flush */
+.product-table .pt-text :is(ul, ol) {
+  margin: 0 0 20px;
+  padding-left: 24px;
+}
+
+.product-table .pt-text :is(ul, ol) li {
+  margin-bottom: 10px;
+  padding-left: 8px;
+  list-style-position: outside;
+}
+
+.product-table .pt-text ul li {
+  list-style-type: disc;
+}
+
+.product-table .pt-text > :is(ul, ol):last-child,
+.product-table .pt-text > :is(ul, ol):last-child li:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .product-table .pt-text :is(ul, ol) {
+    margin-bottom: 24px;
+    padding-left: 28px;
+  }
+
+  .product-table .pt-text :is(ul, ol) li {
+    margin-bottom: 12px;
+  }
+}

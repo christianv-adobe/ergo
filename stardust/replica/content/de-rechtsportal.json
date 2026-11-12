@@ -1,0 +1,997 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-rechtsportal.html (2026-10-28T14:21:38.715Z)",
+  "layout": "narrow"
+ },
+ "head": {
+  "title": "Rechtsportal | ERGO",
+  "description": "Im Rechtsportal der ERGO können Sie sich über unterschiedliche Rechtsthemen, aktuelle Urteile und spannende Themen rund um Ihr gutes Recht informieren.",
+  "lang": "de"
+ },
+ "footer": {
+  "variant": "article",
+  "note": "<p class=\"txt txt--copytext txt__caption\"><b>Hinweis</b>: Unsere Beiträge geben den Sach- und Rechtsstand zum Zeitpunkt der Veröffentlichung wieder.</p>",
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+     },
+     {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+     },
+     {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+     },
+     {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+     },
+     {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+     },
+     {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber & Rechtsportal",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Freundschaftswerbung",
+      "href": "/de/Service/Freundschaftswerbung"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/Unternehmen"
+     },
+     {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://www.ergo.com/de/karriere"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/Media-Relations"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/Verantwortung"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "TikTok"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": "Sitemap"
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2025 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "articleHeader",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "blue",
+   "h1": "Rechtsportal",
+   "title": "Tipps für Ihr gutes Recht",
+   "text": "Hier finden Sie zu ganz unterschiedlichen Rechtsthemen Tipps, Urteile und spannende Hintergrundinfos.",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/familie/paar-laptop.dam.jpg",
+    "alt": "Ein Paar surft mit einem Laptop im Internet."
+   },
+   "ai": false
+  },
+  {
+   "type": "breadcrumb",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "aria": "Breadcrumb",
+   "items": [
+    {
+     "label": "Home Page (German)",
+     "href": "/de",
+     "aria": "Home Page (German)",
+     "current": false
+    },
+    {
+     "label": "Rechtsportal",
+     "href": null,
+     "aria": null,
+     "current": true
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h3 ta-c\"><span class=\"color color--red\">Aktuelle Rechtsfragen</span></p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": true,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/events-wetter-jahreszeiten/halloween.dam.jpg",
+      "alt": "Kekse in Form von Geistern und Kürbissen, für Halloween dekoriert auf einem Backblech. "
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h1\">Darf ich an Halloween Waffen tragen?</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Zu manch gruseligen Halloween-Kostümen gehören Spielzeugpistolen oder -dolche einfach dazu. Zu echt dürfen diese aber nicht aussehen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr lesen",
+       "href": "/de/rechtsportal/rechtsfrage-des-tages/halloween-mit-gummidolch",
+       "aria": "Mehr lesen",
+       "variant": "primary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Für Gewerbekunden",
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/arbeitsrecht/frau-im-buero.dam.jpg",
+      "alt": "Eine Frau ist im Büro."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h1\">Kann ich Überstunden anordnen?</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Manchmal ist mehr zu tun, als die reguläre Arbeitszeit hergibt. Als Arbeitgeber müssen Sie wissen, welche Regeln zu Überstunden gelten.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr lesen",
+       "href": "/de/rechtsportal/gewerbe/kann-ich-ueberstunden-anordnen",
+       "aria": "Mehr lesen",
+       "variant": "primary",
+       "size": "normal",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Weitere Aktuelle Rechtsfragen",
+    "href": "/de/rechtsportal/rechtsfrage-des-tages",
+    "aria": "Weitere Aktuelle Rechtsfragen",
+    "variant": "tertiary",
+    "size": "auto",
+    "width": "50",
+    "icon": "ChevronRightIcon",
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "cta",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Weitere Gewerberechtsfragen",
+    "href": "/de/rechtsportal/gewerbe",
+    "aria": "Weitere Gewerberechtsfragen",
+    "variant": "tertiary",
+    "size": "auto",
+    "width": "50",
+    "icon": "ChevronRightIcon",
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h3 ta-c\"><span class=\"color color--red\">Wichtige Themen und Fragestellungen</span></p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 3,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/reiserecht/stornierung-reise.dam.jpg",
+      "alt": "Junger Mann auf einem gelben Sofa mit Hund und Laptop auf dem Schoß."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h1\">Kann ich eine Online-Reise widerrufen?</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Lieber doch nicht in den Sommerferien nach Kreta? Haben Sie Ihre Reise online gebucht, können Sie diese nicht so einfach widerrufen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr lesen",
+       "href": "/de/rechtsportal/reiserecht/stornierung-ruecktritt-uebertragung-von-reisen/online-reise-widerrufen",
+       "aria": "Mehr lesen",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/mietrecht/rasenmaeher.dam.jpg",
+      "alt": "Ein Rasenmäher im Garten. "
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h1\">Rasen mähen zu jeder Zeit?</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Es ist nicht zu überhören, überall brummen wieder die Rasenmäher. Zu jeder Tageszeit dürfen Sie Ihren lärmenden Helfer aber nicht anwerfen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Mehr lesen",
+       "href": "/de/rechtsportal/rechtsfrage-des-tages/rasenmaehen-welche-ruhezeiten-gelten",
+       "aria": "Mehr lesen",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": false,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/reiserecht/flugzeug-blauer-hintergrund.dam.jpg",
+      "alt": "Ein Flugzeug auf blauem Hintergrund. "
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h1\"><span class=\"color color--black\">Ansprüche bei Flugverspätung und Flugausfall</span></p>",
+     "titleHtml": "<p>Wurde Ihre Urlaubsfreude getrübt durch eine stundenlange Flugverspätung oder gar einen -ausfall?</p>",
+     "textHtml": "<p><b>*) </b>Auf der<b> Seite des Bundesjustizministeriums</b> können Fluggäste selbst Ihre <b>Rechte und Ansprüche prüfen</b> lassen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Online-Portal*",
+       "href": "https://service.justiz.de/fluggastrechte",
+       "aria": "Zum Online-Portal*",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fef6d2",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/rechtsportal/01-themenbezogen/justiz-und-rechtssymbole/anwalt-vertrag.dam.jpg",
+     "alt": "Ein Mann hält ein Dokument in der Hand, im Vordergrund ist ein Rechtssymbol zu sehen."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h1\">Vorlagen &amp; Musterdokumente</p>",
+    "titleHtml": "<p>Exklusiv für ERGO Rechtsschutz Kunden:</p><p>- über 100 Musterschreiben</p><p>- laufend aktualisierte Vorlagen nach aktueller Rechtslage</p><p>- direkt ausfüllbar und downloadbar</p>",
+    "textHtml": "<p>Hier finden Sie laufend aktualisierte Musterschreiben, Merkblätter und Checklisten – zum kostenlosen Download.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Alle Musterdokumente anzeigen",
+      "href": "/de/rechtsportal/servicebereich",
+      "aria": "Alle Musterdokumente anzeigen",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": "LockIcon",
+      "iconPos": "left"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h3 ta-c\"><span class=\"color color--red\">Alle Bereiche auf einen Blick</span></p>"
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": "green",
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Arbeit & Beruf",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/arbeitsrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Arzt & Patient",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/patiententrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Familie & Partnerschaft",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/familienrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Internet & Online-Shopping",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/internetrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Mietwohnung & Eigenheim",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/mietrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Reise & Erholung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/reiserecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Schule & Unterricht",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/schule-und-unterricht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Studium & Ausbildung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/ausbildungsrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Testament & Erbschaft",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/testament-und-erbrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Verkehr & Mobilität",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/verkehrsrecht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Vorsorge & Pflege",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/vorsorgeverfuegung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fef6d2",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BlueLightIcon.svg",
+      "alt": ""
+     },
+     "title": "Gewerbe",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/rechtsportal/gewerbe",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Auch interessant:</h2>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/rechtsschutz/familien-rechtsschutzversicherung.dam.jpg",
+     "alt": "Ein Mann trägt seine Frau und seine Tochter huckepack auf dem Rücken."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h1\">Rechtsschutzversicherung</p>",
+    "titleHtml": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif\"><span class=\"color color--red\">Rechtsschutz für Singles, Alleinerziehende, Paare und Familien</span></p>",
+    "textHtml": "<p>Genau der Schutz, den Sie für Ihr Leben brauchen: ERGO vermittelt kompetente Anwälte, hilft bei außergerichtlichen Lösungen und gibt Ihnen finanzielle Rückendeckung, wenn es zum Prozess kommt.</p>",
+    "price": {
+     "prefix": "Ab",
+     "value": "12,17",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Jetzt berechnen",
+      "href": "/de/Produkte/Rechtsschutzversicherung/abschluss",
+      "aria": "Jetzt berechnen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": "CalculatorIcon",
+      "iconPos": "left"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/ratgeber/impuls/ratgeber.dam.jpg",
+     "alt": "Paar sitzt mit Laptop auf der Couch."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Hier geht´s zum ERGO Ratgeber</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Ob Alltagsthemen oder Zukunftsplanung: Der <b>ERGO Ratgeber</b> bietet Ihnen aktuelle Informationen zu vielen Themen, die Sie bewegen.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Ratgeber",
+      "href": "/de/Ratgeber",
+      "aria": "Zum Ratgeber",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

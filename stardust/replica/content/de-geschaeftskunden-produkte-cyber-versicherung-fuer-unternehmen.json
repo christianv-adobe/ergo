@@ -1,0 +1,1905 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.html (2026-10-28T14:21:51.004Z)",
+  "layout": "narrow"
+ },
+ "head": {
+  "title": "Gewerbliche Cyber-Versicherung für Unternehmen | ERGO",
+  "description": "Die ERGO Cyber-Versicherung sichert Sie leistungsstark ab gegen die Folgen von Cyber-Risiken.",
+  "lang": "de"
+ },
+ "header": {
+  "variant": "b2b",
+  "skip": "zum Inhalt springen",
+  "closeAria": "Hauptmenü schließen",
+  "top": [
+   "Produkte für Geschäftskunden",
+   "Service",
+   "Kontakt"
+  ],
+  "logoDesktop": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ergo_logo.dam.svg",
+   "alt": "Logo: ERGO. Einfach weil's wichtig ist.",
+   "href": "/de"
+  },
+  "logoMobile": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+   "alt": "Logo: ERGO",
+   "href": "/de"
+  },
+  "buttons": [
+   {
+    "label": "Berater",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "Sie können hier einen Berater finden.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+    "mobile": false
+   },
+   {
+    "label": "Log-in",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "aria": "Hier erreichen Sie das Log-in zum Kundenportal.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+    "mobile": true
+   },
+   {
+    "label": "Über ERGO",
+    "href": "https://www.ergo.com/de",
+    "aria": "Hier erfahren Sie mehr über ERGO.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg",
+    "mobile": false
+   }
+  ],
+  "menu": {
+   "open": "Menü",
+   "close": "Hauptmenü schließen"
+  },
+  "navAria": "Untermenü",
+  "nav": [
+   {
+    "label": "Produkte für Geschäftskunden",
+    "heading": "Produkte für Geschäftskunden",
+    "children": [
+     {
+      "label": "Gewerbliche Sachversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Betriebskostenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebskostenversicherung"
+       },
+       {
+        "label": "Betriebsschließungs-Pauschalversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebsschliessungsversicherung"
+       },
+       {
+        "label": "Gewerbliche Gebäudeversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung"
+       },
+       {
+        "label": "Geschäftsinhaltsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung"
+       },
+       {
+        "label": "Landwirtschaftliche Inhaltsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Landwirtschaftliche-Inhaltsversicherung"
+       },
+       {
+        "label": "Geschäft & Gebäude im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Kautionsversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Kautionsversicherung"
+     },
+     {
+      "label": "Mietkautionsversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/mietkautionsversicherung"
+     },
+     {
+      "label": "Betriebliche Altersversorgung",
+      "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+     },
+     {
+      "label": "Cyber-Versicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+     },
+     {
+      "label": "Technische Versicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Bauleistungsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Bauleistungsversicherung"
+       },
+       {
+        "label": "Elektronikversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Elektronikversicherung"
+       },
+       {
+        "label": "Maschinenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Maschinenversicherung"
+       },
+       {
+        "label": "Maschinenversicherung für fahrbare Geräte",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Fahrbare-Maschinenversicherung"
+       },
+       {
+        "label": "Montageversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Montageversicherung"
+       },
+       {
+        "label": "Photovoltaikversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Spezialdeckung-Erneuerbare-Energien"
+       },
+       {
+        "label": "Technische Versicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Dienstreiseversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+     },
+     {
+      "label": "Haftpflichtversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Gewerbe-Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+       },
+       {
+        "label": "Industrielle Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Industriehaftpflichtversicherung"
+       },
+       {
+        "label": "Vermögensschaden-Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Vermoegensschadenhaftpflichtversicherung"
+       },
+       {
+        "label": "Haftpflichtversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Transportversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Warenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Warenversicherung"
+       },
+       {
+        "label": "Haftungsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Haftungsversicherung"
+       },
+       {
+        "label": "Schiffsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Schiffsversicherung"
+       },
+       {
+        "label": "Nebenspartenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Nebenspartenversicherung"
+       },
+       {
+        "label": "Risikomanagement",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Risikomanagement"
+       },
+       {
+        "label": "Transportversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Flottenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung"
+     },
+     {
+      "label": "Firmen-Kunstversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Firmen-Kunstversicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Rechtsschutz für Selbstständige und Unternehmer",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/firmen"
+       },
+       {
+        "label": "Rechtsschutz für Heilberufe",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/aerzte-heilberufe"
+       },
+       {
+        "label": "Rechtsschutz Agrar für Landwirte",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/landwirte"
+       },
+       {
+        "label": "Gewerbliche Rechtsschutzversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Krankenversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Betriebliche Krankenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung"
+       },
+       {
+        "label": "Gruppenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Gruppenversicherung"
+       },
+       {
+        "label": "Krankenversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Gruppen-Unfallversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gruppen-Unfall"
+     },
+     {
+      "label": "Geschäftskunden-Produkte im Überblick",
+      "href": "/de/Geschaeftskunden-Produkte"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/FamilyIcon.svg",
+      "title": "Sie sind Privatkunde?",
+      "text": "Dann bitte hier entlang:",
+      "cta": {
+       "label": "Privatkundenbereich",
+       "href": "/de/Produkte",
+       "aria": "Hier erreichen Sie den Privatkundenbereich."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Service",
+    "heading": "Service",
+    "children": [
+     {
+      "label": "Kundenbereich",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Kundenbewertungen",
+      "href": "/de/Service/Kundenbewertungen"
+     },
+     {
+      "label": "ERGO App",
+      "href": "/de/Service/ergo-app"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Datenschutz",
+      "href": "/de/Service/Datenschutz"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+      "title": "Meine Versicherungen",
+      "text": "Sehen Sie auf einen Blick Ihre Versicherungen bei ERGO, dem ERGO Rechtsschutz und der DKV.",
+      "cta": {
+       "label": "Zum Kundenportal",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "aria": "Hier geht es zum Kundenportal."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Kontakt",
+    "heading": "Kontakt",
+    "children": [
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg",
+      "title": "Über ERGO",
+      "text": "Erfahren Sie mehr über die ERGO Group",
+      "cta": {
+       "label": "Zur ERGO Group",
+       "href": "https://www.ergo.com/de",
+       "aria": "Hier erfahren Sie mehr zur ERGO Group."
+      }
+     }
+    ]
+   }
+  ],
+  "actionItems": [
+   {
+    "label": "ERGO Berater finden",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "Berater",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg"
+   },
+   {
+    "label": "Log-in",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "aria": "Log-in",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg"
+   },
+   {
+    "label": "Über ERGO",
+    "href": "https://www.ergo.com/de",
+    "aria": "Über ERGO",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg"
+   }
+  ]
+ },
+ "footer": {
+  "variant": "b2b",
+  "note": null,
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Gewerbe-Haftpflichtversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+     },
+     {
+      "label": "Betriebliche Altersversorgung",
+      "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+     },
+     {
+      "label": "Cyber-Versicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+     },
+     {
+      "label": "Flottenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung"
+     },
+     {
+      "label": "Betriebliche Krankenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung"
+     },
+     {
+      "label": "Versicherungen für Privatkunden",
+      "href": "/de"
+     },
+     {
+      "label": "Alle Geschäftskunden-Produkte im Überblick",
+      "href": "/de/Geschaeftskunden-Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/Media-Relations"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "TikTok"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": ""
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2026 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "productHero",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "yellow",
+   "pos": "right",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/cyberversicherung.dam.jpg",
+    "alt": "Cyber-Versicherung für Unternehmen"
+   },
+   "h1": "Cyber-Versicherung für Unternehmen",
+   "title": "Schützen Sie Ihr Unternehmen gegen Cyber-Risiken",
+   "textHtml": null,
+   "ctas": [
+    {
+     "tag": "a",
+     "label": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+     "aria": "Angebot anfordern",
+     "variant": "primary",
+     "size": "auto",
+     "width": "default",
+     "icon": null,
+     "iconPos": "right"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p>Als Unternehmer arbeiten Sie selbstverständlich mit modernen Anlagen, aktuellen Betriebssystemen und einem guten Netzwerk. Aufträge, Kundendaten und sämtliche Informationen sind in Ihrem IT-System gespeichert und für Sie jederzeit abrufbar. Doch was ist, wenn plötzlich ein Virus Ihr IT-System lahmlegt? Oder ein Mitarbeiter versehentlich eine wichtige Datenbank löscht?</p><p><b>Datenverlust oder Cyber-Bedrohungen</b> sind nur einige der möglichen Szenarien. Die <b>ERGO Cyber-Versicherung</b> bzw. die ERGO Cyber-Versicherung Kompakt unterstützt Sie dabei, Ihren Geschäftsbetrieb schnell fortzusetzen. Sie&nbsp;erhalten Ersatz für den entstandenen Schaden. Für ausgewählte Branchen gibt es bei ERGO spezielle Konzepte.</p>"
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<ul class=\"check-list--green\"><li><b>Viren &amp; Phishing</b></li><li><b>Bedienungsfehler</b></li><li><b>Bedrohung</b></li></ul>"
+  },
+  {
+   "type": "benefits",
+   "size": "m",
+   "mode": "tb",
+   "bg": "orange",
+   "color": "#c9c5c7",
+   "frame": "frame",
+   "flag": null,
+   "flagPos": "left",
+   "items": [
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseGroundIcon.svg",
+      "alt": ""
+     },
+     "title": "Homeoffice-Schutz inklusive",
+     "html": "<p> Auch im Homeoffice bzw. beim mobilen Arbeiten sind Sie und Ihre Mitarbeiter mit den ERGO Cyber-Versicherungen gegen die Folgen von Cyber-Risiken versichert.</p>"
+    }
+   ]
+  },
+  {
+   "type": "benefits",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "color": "#428071",
+   "frame": "frame",
+   "flag": "Einige Beispiele aus der Praxis",
+   "flagPos": "left",
+   "items": [
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CompassIcon.svg",
+      "alt": ""
+     },
+     "title": "Ein Virus",
+     "html": "<p>Ein Schadprogramm im Anhang einer E-Mail dringt in die IT-Systeme des Unternehmens ein und löscht Dateien in der Buchhaltung. Die ERGO Cyber-Versicherungen erstatten die anfallenden Kosten.</p>"
+    },
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+      "alt": ""
+     },
+     "title": "Phishing",
+     "html": "<p>Ein Mitarbeiter wird in einer E-Mail aufgefordert, auf einen Link zu klicken und auf der dann angezeigten Website die Zugangsdaten für das Onlinebanking einzugeben. Nach einigen Tagen fehlen 90.000 € auf dem Geschäftskonto. Die ERGO Cyber-Versicherungen ersetzen den Schaden.</p>"
+    },
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ManIcon.svg",
+      "alt": ""
+     },
+     "title": "Bedienungsfehler",
+     "html": "<p>Ein Mitarbeiter löscht versehentlich eine Datenbank. Die ERGO Cyber-Versicherung übernimmt die Kosten für die Rücksicherung und Neuprogrammierung.</p>"
+    },
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightningIcon.svg",
+      "alt": ""
+     },
+     "title": "Bedrohung",
+     "html": "<p>Ein Mitarbeiter klickt bei einer Internetrecherche nichts ahnend auf einen Link. Ein Krypto-Trojaner verschlüsselt alle Daten. Die ERGO Cyber-Versicherungen übernehmen die Kosten für die Behebung.</p>"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2>Präventionsdienstleistungen</h2>"
+  },
+  {
+   "type": "accordion",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "items": [
+    {
+     "title": "Unsere Servicepakete im Detail",
+     "open": false,
+     "blocks": [
+      {
+       "type": "productTable",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "labelWidth": 4,
+       "align": "center",
+       "rows": [
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p><b>Leistungen</b></p>"
+          },
+          {
+           "html": "<p class=\"ta-c\"><b>Cyber-Prävention<br> Komfort</b></p>"
+          },
+          {
+           "html": "<p class=\"ta-c\"><b>Cyber-Prävention<br> Premium</b></p>"
+          }
+         ]
+        },
+        {
+         "header": true,
+         "sticky": false,
+         "color": "#428071",
+         "cells": [
+          {
+           "html": "<p>Stand 08.23</p>"
+          },
+          {
+           "html": "<p class=\"txt txt--copytext txt__paragraph\"> Prämienzuschlag 20%, mindestens 150 EUR, maximal 3.000 EUR</p>"
+          },
+          {
+           "html": "<p class=\"txt txt--copytext txt__paragraph\"> Prämienzuschlag 20%, mindestens 300 EUR, maximal 3.000 EUR</p>"
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Onlinetraining (Cyber-Sicherheit, DSGVO)</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Browser-Check</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Blog, Newsletter, Glossar</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Phishing-Kampagnen</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Tools (E-Mail-Scanner, Datensicherheits-Check)</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Reporting (IT-Sicherheits-Score, Phishing-Report)</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Automatische Aktivierung der Mitarbeiter</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Gefahrenwarnung bei akuten Cyber-Bedrohungen</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>individualisierbarer Notfallplan</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Richtlinien und Leitfäden (Datensicherungsstrategie, Datenschutz, Social Media, u.a.)</p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CloseIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        },
+        {
+         "header": false,
+         "sticky": false,
+         "color": null,
+         "cells": [
+          {
+           "html": "<p>Security Baseline Check <b>im Wert von 650 €</b></p>"
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CloseIcon.svg",
+            "alt": ""
+           }
+          },
+          {
+           "icon": {
+            "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+            "alt": ""
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Highlights Komfort und Premium",
+     "open": false,
+     "blocks": [
+      {
+       "type": "columns",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "cols": [
+        {
+         "width": "half",
+         "blocks": [
+          {
+           "type": "promo",
+           "size": null,
+           "mode": "bottom",
+           "bg": null,
+           "promo": {
+            "kind": "promo",
+            "v": 2,
+            "color": "#d3ebe5",
+            "pos": null,
+            "ctaCount": 0,
+            "equal": false,
+            "flag": "Highlight",
+            "image": null,
+            "rounded": false,
+            "ai": false,
+            "small": null,
+            "icon": null,
+            "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme ta-c\"><span class=\"color color--black\">Komfort:</span></p>",
+            "titleHtml": null,
+            "textHtml": "<p class=\"ta-c\">SB-Reduzierung um 50%,<br> max. um 2.500 EUR im ersten Schadensfall<br><br><br> &nbsp;</p>",
+            "price": null,
+            "ctas": []
+           }
+          }
+         ]
+        },
+        {
+         "width": "half",
+         "blocks": [
+          {
+           "type": "promo",
+           "size": null,
+           "mode": "bottom",
+           "bg": null,
+           "promo": {
+            "kind": "promo",
+            "v": 2,
+            "color": "#d3ebe5",
+            "pos": null,
+            "ctaCount": 0,
+            "equal": false,
+            "flag": null,
+            "image": null,
+            "rounded": false,
+            "ai": false,
+            "small": null,
+            "icon": null,
+            "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme ta-c\"><span class=\"color color--black\">Premium:</span></p>",
+            "titleHtml": null,
+            "textHtml": "<p class=\"ta-c\">SB-Verzicht um bis zu 5.000 EUR im ersten Schadensfall,<br> Verzicht auf Schadensfallkündigung,<br> Verzicht auf Einrede der groben<br> Fahrlässigkeit bis 5.000 EUR<br> &nbsp;</p>",
+            "price": null,
+            "ctas": []
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Historie Präventionspakete",
+     "open": false,
+     "blocks": [
+      {
+       "type": "columns",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "cols": [
+        {
+         "width": "half",
+         "blocks": [
+          {
+           "type": "download",
+           "size": null,
+           "mode": "bottom",
+           "bg": null,
+           "href": "/content/dam/ergo/geschaeftskunden/pdf/onepager-cyber-praevention-historie.pdf.coredownload.pdf",
+           "title": "Prävention Historie (Stand 01.21)",
+           "props": [
+            {
+             "kind": "filename",
+             "label": "Dateiname",
+             "value": "onepager-cyber-praevention-historie.pdf"
+            },
+            {
+             "kind": "format",
+             "label": "Format",
+             "value": "pdf"
+            },
+            {
+             "kind": "size",
+             "label": "Größe",
+             "value": "63 KB"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "width": "half",
+         "html": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Angebot anfordern",
+    "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+    "aria": "Angebot anfordern",
+    "variant": "primary",
+    "size": "auto",
+    "width": "33",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "xl",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2>Zwischen diesen Varianten können Sie wählen</h2>"
+  },
+  {
+   "type": "accordion",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "items": [
+    {
+     "title": "Cyber-Versicherung Kompakt",
+     "open": true,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p><b>Attraktiver Schutz für Ihre Daten</b></p><p>Bei der ERGO Cyber-Versicherung Kompakt sind die wichtigsten Eigenschäden versichert und alle Serviceleistungen enthalten.</p><ul class=\"check-list--green\"><li>Eigenschäden</li><li>Pauschale Versicherungssumme (wählbar)</li><li>Serviceleistungen</li></ul>"
+      }
+     ]
+    },
+    {
+     "title": "Cyber-Versicherung",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p><b>Mehr Cyber-Schutz + Drittschäden</b></p><p>Mit der umfangreichen ERGO Cyber-Versicherung sind noch mehr Eigenschäden versichert, Sie haben höhere Versicherungssummen und sind zusätzlich abgesichert gegen Drittschäden wie Personenschäden.</p><ul class=\"check-list--green\"><li>Eigenschäden</li><li>Drittschäden</li><li>Erhöhte Versicherungssumme</li><li>Serviceleistungen</li></ul>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2>Die Varianten der ERGO Cyber-Versicherung im Vergleich</h2>"
+  },
+  {
+   "type": "productTable",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "labelWidth": 6,
+   "align": "center",
+   "rows": [
+    {
+     "header": true,
+     "sticky": true,
+     "color": "#c34a89",
+     "cells": [
+      {
+       "html": null
+      },
+      {
+       "html": "<p class=\"txt txt--headline txt__teaser\"> ERGO Cyber-Versicherung Kompakt</p>"
+      },
+      {
+       "html": "<p class=\"txt txt--headline txt__teaser\"> ERGO Cyber-Versicherung </p>"
+      }
+     ]
+    },
+    {
+     "group": "<p class=\"txt txt--headline txt__teaser\"> Versicherungsschutz bei Ansprüchen Dritter </p>",
+     "rows": [
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Datenschutzverletzungen</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CalculatorIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Datenvertraulichkeitsverletzungen</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CalculatorIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>IT-Sicherheitsverletzung</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CalculatorIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "group": "<p class=\"txt txt--headline txt__teaser\"> Versicherungsschutz für Eigenschäden </p>",
+     "rows": [
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Schäden durch Bedienfehler von Mitarbeitern</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CalculatorIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Ertragsausfall oder Mehrkosten</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CalculatorIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Mehrkosten IT und Telekommunikation</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Wiederherstellung von Daten und Programmen</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Computerbetrug</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "group": "<p class=\"txt txt--headline txt__teaser\"> Serviceleistungen </p>",
+     "rows": [
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Kosten für IT-Dienst- und Forensikleistungen</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Benachrichtigungskosten</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Kosten für Krisenmanagement</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Kosten bei einer Cyber-Bedrohung</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      },
+      {
+       "header": false,
+       "sticky": false,
+       "color": null,
+       "cells": [
+        {
+         "html": "<p class=\"txt txt--copytext txt__paragraph\"><b>Cyber-Rechtsschutz</b></p>"
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        },
+        {
+         "icon": {
+          "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CheckIcon.svg",
+          "alt": ""
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "Angebot anfordern",
+    "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+    "aria": "Angebot anfordern",
+    "variant": "primary",
+    "size": "auto",
+    "width": "33",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2>Ihre Vorteile mit den ERGO Cyber-Versicherungen</h2>"
+  },
+  {
+   "type": "accordion",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "items": [
+    {
+     "title": "Passgenauer Schutz",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Mit der <b>ERGO Cyber-Versicherung Kompakt</b> sichert ERGO Ihre Eigenschäden im vereinbarten Umfang ab. Wenn Sie zusätzlich die Ansprüche Dritter sowie Ertragsausfall oder Mehrkosten absichern möchten, wählen Sie einfach die ERGO Cyber-Versicherung.<br></p>"
+      }
+     ]
+    },
+    {
+     "title": "Umfangreiche Serviceleistungen",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Im Schadensfall übernimmt ERGO die <b>Kosten für IT-Dienstleister</b> und, wenn erforderlich, für Forensikleistungen.</p><p>Im Fall eines Reputationsschadens übernimmt ERGO auch die <b>Kosten für einen externen Berater</b> und PR-Maßnahmen.</p><p>Im Fall einer <b>Cyber-Bedrohung</b> hilft ERGO, die Bedrohungslage abzuwenden.</p>"
+      }
+     ]
+    },
+    {
+     "title": "Mehr Sicherheit durch Prävention",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Sicherheit geht vor – das gilt natürlich auch online. Zusammen mit dem Partner Perseus bietet Ihnen ERGO noch höhere Cyber-Sicherheit durch <b>zusätzliche Servicepakete</b>. Diese enthalten unter anderem:</p><ul><li>Sicherheitstrainings für Mitarbeiter</li><li>Tools für den Arbeitsalltag</li><li>Viele praktische Tipps zu Cyber-Sicherheit</li></ul>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Wissenswertes im Überblick<br></h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "top",
+   "bg": null,
+   "html": "<p class=\"font font--fsme txt txt--copytext txt__paragraph ta-c\">Hier können Sie sich bequem und einfach weitere Informationen zur ERGO Cyberversicherung herunterladen.</p>"
+  },
+  {
+   "type": "carousel",
+   "size": "l",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "download",
+     "v": 2,
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/bedigungsupdate-cyber-versicherungen.pdf.coredownload.pdf",
+     "title": "Cyber-Bedingungsupdate - 2024",
+     "props": [
+      {
+       "kind": "filename",
+       "label": "Dateiname",
+       "value": "bedigungsupdate-cyber-versicherungen.pdf"
+      },
+      {
+       "kind": "format",
+       "label": "Format",
+       "value": "pdf"
+      },
+      {
+       "kind": "size",
+       "label": "Größe",
+       "value": "1 MB"
+      }
+     ],
+     "slidePad": null
+    },
+    {
+     "kind": "download",
+     "v": 2,
+     "href": "/content/dam/ergo/geschaeftskunden/pdf/highlights-cyber-versicherungen.pdf.coredownload.pdf",
+     "title": "Highlights der ERGO Cyberversicherung",
+     "props": [
+      {
+       "kind": "filename",
+       "label": "Dateiname",
+       "value": "highlights-cyber-versicherungen.pdf"
+      },
+      {
+       "kind": "format",
+       "label": "Format",
+       "value": "pdf"
+      },
+      {
+       "kind": "size",
+       "label": "Größe",
+       "value": "98 KB"
+      }
+     ],
+     "slidePad": null
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": "yellow",
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fff",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/vermittlersuche.dam.jpg",
+     "alt": "Lassen Sie sich ein individuelles Angebot erstellen vor Ort beim Berater oder online."
+    },
+    "hideMobile": true,
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\"><span class=\"color color--red\"><span class=\"color color--black\">Lassen Sie sich ein individuelles Angebot erstellen</span></span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Sie möchten eine persönliche Beratung? Ein ERGO Berater vor Ort ist für Sie da und spricht gern mit Ihnen über den passenden Versicherungsschutz.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Angebot anfordern",
+      "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+      "aria": "Angebot anfordern",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "ERGO Berater finden",
+      "variant": "secondary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Das könnte Sie auch interessieren:</h2>",
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Betriebskostenversicherung",
+     "text": "ERGO erstattet z. B. die fortlaufenden Betriebskosten und übernimmt die Kosten für eine externe Ersatzkraft.",
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebskostenversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Betriebsschließungsversicherung",
+     "text": "ERGO übernimmt z. B. die laufenden Kosten und erstattet die Lohn- und Gehaltsaufwendungen.",
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebsschliessungsversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Nicht sicher, was Sie benötigen?</h2><p class=\"ta-c\">Dann lassen Sie sich helfen.</p><p>&nbsp;</p>",
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/EditIcon.svg",
+      "alt": ""
+     },
+     "title": "Per E-Mail",
+     "text": "Schreiben Sie eine Nachricht.",
+     "cta": {
+      "tag": "a",
+      "label": "E-Mail schreiben",
+      "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt",
+      "aria": "E-Mail schreiben",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ManIcon.svg",
+      "alt": ""
+     },
+     "title": "Ihr ERGO Berater",
+     "text": "Gleich Termin vereinbaren.",
+     "cta": {
+      "tag": "a",
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "ERGO Berater finden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PhoneIcon.svg",
+      "alt": ""
+     },
+     "title": "Mo–Sa 7–20 Uhr (gebührenfrei)",
+     "text": "Rufen Sie an.",
+     "cta": {
+      "tag": "a",
+      "label": "0800 / 3746 095",
+      "href": "tel:08003746095",
+      "aria": "0800 / 3746 095",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "html": "<p>Dies ist ein Produkt der ERGO Versicherung AG.</p>",
+   "inXf": true
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top",
+   "inXf": true
+  }
+ ]
+}

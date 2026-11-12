@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-10-28T23:34:41.439Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.ergo.de/",
+    "liveHost": "main--856f1bba--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 8
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 2,
+    "optimised": 8
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "de",
+      "path": "/de",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte",
+      "path": "/de/geschaeftskunden-produkte",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "path": "/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "path": "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+      "stage": "optimised",
+      "templateId": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+      "path": "/de/geschaeftskunden-produkte/dienstreiseversicherung",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-produkte",
+      "path": "/de/produkte",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-ratgeber",
+      "path": "/de/ratgeber",
+      "stage": "optimised",
+      "templateId": "de-ratgeber",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-rechtsportal",
+      "path": "/de/rechtsportal",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-service",
+      "path": "/de/service",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "archetype": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "de-ratgeber",
+      "archetype": "de-ratgeber",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "de",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "de-rechtsportal",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    }
+  ],
+  "blocks": {
+    "total": 12,
+    "converted": 12
+  },
+  "quality": {
+    "overall": 93,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 86
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 1
+    },
+    "history": [
+      43,
+      93
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "design-pass": 2
+    },
+    "byAutofix": {
+      "pending": 1
+    }
+  }
+}

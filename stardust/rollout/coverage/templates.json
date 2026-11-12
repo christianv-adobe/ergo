@@ -1,0 +1,129 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-28T16:32:24.531Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T23:23:27.796Z",
+  "templates": [
+    {
+      "id": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "representativeSlug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "pages": [
+        "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "benefits",
+        "carousel",
+        "cta",
+        "hero",
+        "product-table",
+        "promo"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-ratgeber",
+      "representativeSlug": "de-ratgeber",
+      "pages": [
+        "de-ratgeber"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "article-header",
+        "benefits",
+        "breadcrumb",
+        "carousel",
+        "ccw",
+        "promo"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner",
+        "carousel",
+        "cta",
+        "ekomi",
+        "hero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "de",
+      "pages": [
+        "de",
+        "de-geschaeftskunden-produkte",
+        "de-produkte",
+        "de-service"
+      ],
+      "pageCount": 4,
+      "blocks": [],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "de-rechtsportal",
+      "pages": [
+        "de-rechtsportal"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "pages": [
+        "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+        "de-geschaeftskunden-produkte-dienstreiseversicherung"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

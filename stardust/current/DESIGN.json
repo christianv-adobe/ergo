@@ -1,0 +1,1789 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-28T14:28:24.705Z",
+    "mode": "prep",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html",
+      "stardust/.work/css (live stylesheets)"
+    ],
+    "synthesizedInputs": []
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T14:28:24.705Z",
+  "title": "Design System: ERGO (current state, ergo.de)",
+  "extensions": {
+    "colorMeta": {
+      "ergo-red": {
+        "role": "primary",
+        "displayName": "ERGO Bordeaux",
+        "canonical": "#8e0038",
+        "source": "--theme-primary; census colors[1]"
+      },
+      "ergo-red-dark": {
+        "role": "primary-hover",
+        "displayName": "Bordeaux Deep",
+        "canonical": "#601028",
+        "source": "census hover button bg"
+      },
+      "logo-red": {
+        "role": "brand-mark",
+        "displayName": "Logo Red",
+        "canonical": "#bf1528",
+        "source": "assets/logo.svg fill"
+      },
+      "text": {
+        "role": "text",
+        "displayName": "Ink Grey",
+        "canonical": "#333333"
+      },
+      "text-muted": {
+        "role": "text-muted",
+        "displayName": "Muted Grey",
+        "canonical": "#737373"
+      },
+      "border": {
+        "role": "border",
+        "displayName": "Warm Border",
+        "canonical": "#c9c5c7"
+      },
+      "header-border": {
+        "role": "border",
+        "displayName": "Header Rule",
+        "canonical": "#d9d9d9"
+      },
+      "bg-orange": {
+        "role": "surface",
+        "displayName": "Peach",
+        "canonical": "#ffe0cb",
+        "source": ".bg-orange"
+      },
+      "bg-yellow": {
+        "role": "surface",
+        "displayName": "Cream Yellow",
+        "canonical": "#fef6d2",
+        "source": ".bg-yellow"
+      },
+      "bg-magenta": {
+        "role": "surface",
+        "displayName": "Rose",
+        "canonical": "#f5e1eb",
+        "source": ".bg-magenta"
+      },
+      "bg-blue": {
+        "role": "surface",
+        "displayName": "Aqua",
+        "canonical": "#ccecef",
+        "source": ".bg-blue"
+      },
+      "bg-green": {
+        "role": "surface",
+        "displayName": "Mint",
+        "canonical": "#d3ebe5",
+        "source": ".bg-green"
+      },
+      "bg-gray": {
+        "role": "surface",
+        "displayName": "Sand",
+        "canonical": "#ebe6d8",
+        "source": ".bg-gray-bright"
+      },
+      "accent-green": {
+        "role": "accent",
+        "displayName": "Forest",
+        "canonical": "#428071",
+        "source": ".bg-green-dark"
+      },
+      "accent-magenta": {
+        "role": "accent",
+        "displayName": "Berry",
+        "canonical": "#c34a89",
+        "source": ".bg-magenta-dark"
+      },
+      "accent-teal": {
+        "role": "accent",
+        "displayName": "Teal",
+        "canonical": "#318187",
+        "source": ".bg-blue-dark"
+      },
+      "accent-yellow": {
+        "role": "accent",
+        "displayName": "Mustard",
+        "canonical": "#e5c536",
+        "source": ".bg-yellow-dark"
+      }
+    },
+    "typographyMeta": {
+      "claim": {
+        "displayName": "Claim",
+        "purpose": "Hero headline (p.txt__claim) — Fedra Serif 700, 40/52 desktop, 28 mobile, ERGO red."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "h2 Fedra Serif 700 28/36.4, #333."
+      },
+      "eyebrow": {
+        "displayName": "Eyebrow",
+        "purpose": "Hero h1 and section kicker h2 — FS Me 18px; hero h1 is 700, kicker 400 (authored uppercase)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "FS Me 400 16/24, #333."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "FS Me 700 16px, letter-spacing .5px."
+      },
+      "footer-heading": {
+        "displayName": "Footer heading",
+        "purpose": "h4 FS Me 700 20px."
+      }
+    },
+    "fonts": [
+      {
+        "family": "FS Me",
+        "foundry": "Fontsmith (Monotype)",
+        "weights": [
+          300,
+          500,
+          700,
+          900
+        ],
+        "styles": [
+          "normal",
+          "italic"
+        ],
+        "files": "stardust/current/assets/fonts/FSMeWeb-*.woff2|woff",
+        "licensed": true,
+        "selfHostable": "licensee-only (commercial webfont licence held by ERGO; reuse on the ERGO-owned replatformed site is the owner's licence call)",
+        "fallback": "Arial, Helvetica, sans-serif"
+      },
+      {
+        "family": "Fedra Serif",
+        "foundry": "Typotheque",
+        "weights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "styles": [
+          "normal",
+          "italic"
+        ],
+        "files": "stardust/current/assets/fonts/WF-006389-009281-*.woff2|woff",
+        "licensed": true,
+        "selfHostable": "licensee-only (Typotheque webfont licence id WF-006389-009281 in filenames)",
+        "fallback": "Georgia, Times New Roman, serif"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "card-hover",
+        "value": "0 0 2px 0 rgba(58,58,58,.04), 0 4px 8px 0 rgba(58,58,58,.05)",
+        "purpose": "Button/tile hover lift."
+      },
+      {
+        "name": "base",
+        "value": "0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12)",
+        "purpose": "--erde-box-shadow-base (floating chat button, overlays)."
+      },
+      {
+        "name": "soft",
+        "value": "0 4px 10px 0 rgba(0,0,0,.25)",
+        "purpose": "Carousel controls."
+      }
+    ],
+    "motion": [],
+    "layoutBreakpoints": [
+      {
+        "name": "s",
+        "value": "320px"
+      },
+      {
+        "name": "m",
+        "value": "768px"
+      },
+      {
+        "name": "l",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "xxl",
+        "value": "1440px"
+      }
+    ],
+    "containerMaxWidth": "see extensions.breakpoints (cap-probe): module caps 888px (Ratgeber, product pages) / 1256px (home XF); shell fluid",
+    "spacing": {
+      "unit": "8px",
+      "gaps": {
+        "xxs": "4px",
+        "xs": "12px",
+        "s": "16px",
+        "default": "24px",
+        "m": "32px",
+        "l": "48px",
+        "xl": "64px",
+        "xxl": "96px"
+      },
+      "sectionPadding": "padding-s|m|l|xl style-system classes"
+    },
+    "componentStyle": {
+      "buttons": "radius 12px, 1px border, FS Me 700 16px, .5px tracking; primary filled #8e0038 → #601028 hover with soft lift; secondary outline #8e0038",
+      "cards": "radius 8px, 1px #c9c5c7 border, white on pastel bands",
+      "sections": "full-width pastel bands alternating with white"
+    },
+    "motifs": {
+      "radius": {
+        "mode": "8px",
+        "button": "12px",
+        "pill": "50%"
+      },
+      "gradients": [],
+      "pastelBands": [
+        "bg-orange",
+        "bg-yellow",
+        "bg-magenta",
+        "bg-blue",
+        "bg-green",
+        "bg-gray"
+      ],
+      "floatingChat": "round red chat button right edge (rp-chat-icons icon font)"
+    },
+    "voice": {
+      "tagline": "Einfach, weil's wichtig ist.",
+      "heroClaim": "Wer zuletzt lacht – ist bei ERGO versichert!",
+      "ctas": [
+        "Jetzt informieren",
+        "Beitrag berechnen",
+        "Angebot anfordern"
+      ],
+      "address": "formal Sie"
+    },
+    "modules": [
+      {
+        "id": "candidate-hero-split",
+        "name": "Split pastel hero (eyebrow h1 + Fedra claim + lede + CTA, photo right)",
+        "slots": [
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "claim",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "lede",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "background",
+            "type": "enum(bg-orange|bg-yellow|bg-magenta|bg-blue|bg-green)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-produkte",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".hero .cmp-hero"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".hero .cmp-hero"
+          }
+        ],
+        "signals": [
+          "components: hero on 8/10",
+          "heroResolution selector .cmp-hero__teaser-title"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-article-header",
+        "name": "Article-hub header (breadcrumb + eyebrow h1 + claim + lede, photo right)",
+        "slots": [
+          {
+            "name": "breadcrumb",
+            "type": "links",
+            "required": false
+          },
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "claim",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "lede",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-ratgeber",
+            "selector": ".cmp-article-header"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".cmp-article-header"
+          }
+        ],
+        "signals": [
+          "components: breadcrumb + cmp-article-header on 2/2 listing pages"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-section-heading",
+        "name": "Section heading pair (FS Me uppercase eyebrow h2 + Fedra Serif 28px h2)",
+        "slots": [
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "intro",
+            "type": "richtext",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-ratgeber",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".text .cmp-text h2"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".text .cmp-text h2"
+          }
+        ],
+        "signals": [
+          "headings: BESTSELLER/AKTUELLES/SERVICES… eyebrow + Fedra h2 pattern"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-product-tile",
+        "name": "Product tile (icon/image, title, \"ab X €\" price, primary + outline CTA)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "price",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta-primary",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "cta-secondary",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".cmp-tile"
+          },
+          {
+            "slug": "de",
+            "selector": ".cmp-tile"
+          },
+          {
+            "slug": "de-produkte",
+            "selector": ".cmp-tile"
+          },
+          {
+            "slug": "de-ratgeber",
+            "selector": ".cmp-tile"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".cmp-tile"
+          }
+        ],
+        "signals": [
+          "cmp-price on 5 pages",
+          "ctas \"Jetzt informieren\"/\"Beitrag berechnen\""
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-link-tile-grid",
+        "name": "Icon link-tile grid (tile.cta: icon + label + arrow)",
+        "slots": [
+          {
+            "name": "tiles",
+            "type": "list<{icon:image,label:text,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".tile.cta .cmp-tile"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".tile.cta .cmp-tile"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".tile.cta .cmp-tile"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".tile.cta .cmp-tile"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".tile.cta .cmp-tile"
+          }
+        ],
+        "signals": [
+          "components: tile.cta on 4 pages; Service dense icon grids"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-teaser-card-carousel",
+        "name": "Teaser-card carousel (image card, title, text, \"mehr lesen\", splide dots)",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards",
+            "type": "list<{image:image,title:text,text:richtext,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-produkte",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-ratgeber",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".carouselContainer .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".carouselContainer .cmp-promo"
+          }
+        ],
+        "signals": [
+          "components: carouselContainer + promo on 10/10",
+          "cta \"mehr lesen\" ×6"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-promo-band",
+        "name": "Promo band (pastel bg, image + heading + text + CTA)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "background",
+            "type": "enum",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-ratgeber",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".promo .cmp-promo"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".promo .cmp-promo"
+          }
+        ],
+        "signals": [
+          "components: promo.padding-top-bottom (bg-yellow on 3 product pages)",
+          "cta \"Angebot anfordern\" ×3"
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-accordion",
+        "name": "Accordion / FAQ (\"Wissenswertes im Überblick\")",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items",
+            "type": "list<{title:text,body:richtext}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".accordion .cmp-accordion"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".accordion .cmp-accordion"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".accordion .cmp-accordion"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".accordion .cmp-accordion"
+          }
+        ],
+        "signals": [
+          "headings \"Wissenswertes im Überblick\" ×3",
+          "cmp-accordion on 4 pages"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-contact-band",
+        "name": "Contact band (\"Nicht sicher, was Sie benötigen?\" / \"Sie haben Fragen?\": E-Mail, Berater, Telefon)",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "channels",
+            "type": "list<{icon:image,label:text,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-ratgeber",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-service",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".experienceFragment"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".experienceFragment"
+          }
+        ],
+        "signals": [
+          "headings \"Nicht sicher, was Sie benötigen?\" ×5, \"Sie haben Fragen?\" ×3",
+          "ctas \"E-Mail schreiben\" ×8, \"ERGO Berater finden\" ×8, \"0800 / 3746 095\" ×7"
+        ],
+        "confidence": "high",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cross-sell",
+        "name": "Cross-sell carousel (\"Das könnte Sie auch interessieren:\")",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "cards",
+            "type": "list<{image:image,title:text,link:link}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".carouselContainer"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".carouselContainer"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".carouselContainer"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".carouselContainer"
+          }
+        ],
+        "signals": [
+          "headings \"Das könnte Sie auch interessieren:\" ×3 / \"Auch interessant:\""
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cta-band",
+        "name": "Centered CTA band (cta.position-center)",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".cta.position-center"
+          },
+          {
+            "slug": "de",
+            "selector": ".cta.position-center"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".cta.position-center"
+          },
+          {
+            "slug": "de-rechtsportal",
+            "selector": ".cta.position-center"
+          }
+        ],
+        "signals": [
+          "components: cta.position-center on 4 pages"
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-download-list",
+        "name": "Download list (PDF prospect links)",
+        "slots": [
+          {
+            "name": "items",
+            "type": "list<{label:text,link:link,meta:text}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".cmp-download"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+            "selector": ".cmp-download"
+          }
+        ],
+        "signals": [
+          "cmp-download on 2 product pages"
+        ],
+        "confidence": "medium",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-benefits",
+        "name": "Benefits list (numbered/iconed advantages)",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items",
+            "type": "list<{icon:image,title:text,text:richtext}>",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+            "selector": ".benefits"
+          },
+          {
+            "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+            "selector": ".benefits"
+          }
+        ],
+        "signals": [
+          "components: benefits on 2 product pages"
+        ],
+        "confidence": "speculative",
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "888px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "max-width",
+          "selector": "div.articleHeader.padding-bottom > section.cmp-article-header.cmp-article-header__container > div.cmp-article-header__background.full-width > div.cmp-article-header__container.cmp-article-header__wrapper",
+          "pages": [
+            "https://www.ergo.de/de/Ratgeber"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1256,
+          "via": "fixed",
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "pages": [
+            "https://www.ergo.de/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1008,
+          "via": "max-width",
+          "selector": "#root-ekomireact_d2cc1 > div.cmp-ekomi > div.cmp-ekomi__blockquote > figure.cmp-ekomi__blockquote-figure",
+          "pages": [
+            "https://www.ergo.de/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 888,
+          "via": "fixed",
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.articleHeader.padding-bottom",
+          "pages": [
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 840,
+          "via": "fixed",
+          "selector": "section.cmp-article-header.cmp-article-header__container > div.cmp-article-header__background.full-width > div.cmp-article-header__container.cmp-article-header__wrapper > div.cmp-article-header__image",
+          "pages": [
+            "https://www.ergo.de/de/Ratgeber"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.hero.padding-bottom > div.cmp-hero.full-width > div.cmp-hero__image",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 687,
+          "via": "fixed",
+          "selector": "div.cmp-text.cmp-text--v1 > div > h2.txt.txt--headline > span.color.color--red",
+          "pages": [
+            "https://www.ergo.de/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 616,
+          "via": "fixed",
+          "selector": "div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-xl > div.cmp-cta",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 540,
+          "via": "fixed",
+          "selector": "div.hero.padding-bottom > div.cmp-hero.full-width > div.cmp-hero__teaser > div.cmp-hero__teaser-title.cmp-text",
+          "pages": [
+            "https://www.ergo.de/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 506,
+          "via": "fixed",
+          "selector": "#text-ef45bae90e > div > h2.txt.txt--headline > span.color.color--red",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 466,
+          "via": "fixed",
+          "selector": "div.cmp-text.cmp-text--v1 > div > h2.txt.txt--headline > span.color.color--red",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 444,
+          "via": "fixed",
+          "selector": "div.splide.splide--loop > div.splide__track.splide__track--loop > div.splide__list > div.promo.padding-top-bottom",
+          "pages": [
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 419,
+          "via": "fixed",
+          "selector": "#root-carouselcontainer_mCeMv-splide-list > div.experienceFragment.experiencefragment",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 385,
+          "via": "fixed",
+          "selector": "div.cmp-text.cmp-text--v1 > div > h2.txt.txt--headline > span.color.color--red",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 359,
+          "via": "fixed",
+          "selector": "#text-dd18a9c3a9 > div > h2.txt.txt--headline > span.color.color--red",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 312,
+          "via": "fixed",
+          "selector": "div.cmp-hero.full-width > div.cmp-hero__teaser > div.cmp-hero__child-components.aem-react-child-components > div.cta",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 275,
+          "via": "fixed",
+          "selector": "div.cmp-hero__child-components.aem-react-child-components > div.price > div.cmp-price.cmp-price--size-auto > div.cmp-price__wrapper",
+          "pages": [
+            "https://www.ergo.de/",
+            "https://www.ergo.de/de/Ratgeber",
+            "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 246,
+          "via": "fixed",
+          "selector": "#root-ekomireact_d2cc1 > div.cmp-ekomi > div.cmp-ekomi__quoteslink.cmp-cta",
+          "pages": [
+            "https://www.ergo.de/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.ergo.de/",
+          "section": 0,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 1,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 2,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-s",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 3,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-m",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 4,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-l",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 5,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-l",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 6,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-xl",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 7,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 8,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 9,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 10,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 11,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 12,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 13,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 14,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 15,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-xl",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 16,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 17,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 18,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 19,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.ekomi.padding-m",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 20,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 21,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 22,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 23,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 24,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-xl",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 25,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-s",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 26,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-m",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 27,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-l",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 28,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-m",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 29,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 30,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-m",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 31,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-l",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 32,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.articleTeaserCarousel.padding-xl",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 33,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/",
+          "section": 34,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.scrollToTop.padding-top-bottom",
+          "px": 1256
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 0,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.articleHeader.padding-bottom",
+          "px": 1440
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 1,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.breadcrumb.padding-top-bottom",
+          "px": null
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 2,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.columnControl.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 3,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 4,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 5,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 6,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 7,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 8,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 9,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 10,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 11,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 12,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 13,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.benefits.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 14,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 15,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 16,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 17,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 18,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 19,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 20,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 21,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 22,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 23,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 24,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 25,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 26,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 27,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 28,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 29,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 30,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 31,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 32,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 33,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 34,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 35,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 36,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 37,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Ratgeber",
+          "section": 38,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.scrollToTop.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 0,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.hero.padding-m",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 1,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 2,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-l",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 3,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.benefits.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 4,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.benefits.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 5,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 6,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.accordion.panelcontainer",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 7,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 8,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 9,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.accordion.panelcontainer",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 10,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 11,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.productTable.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 12,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.cta.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 13,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 14,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.accordion.panelcontainer",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 15,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 16,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.text.padding-top",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 17,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 18,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.promo.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 19,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 20,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.padding-top-bottom",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 21,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 22,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.carouselContainer.aem-GridColumn",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 23,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        },
+        {
+          "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+          "section": 24,
+          "selector": "section.esc_container.grid-container > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experienceFragment.experiencefragment",
+          "px": 888
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1256 (https://www.ergo.de/), 888 (https://www.ergo.de/de/Ratgeber), 888 (https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen) — decide per template in the inconsistency register",
+        "module cap 1440px on a single section (div.articleHeader.padding-bottom > section.cmp-article-header.cmp-article-header__container > div.cmp-article-header__background.full-width > div.cmp-article-header__container.cmp-article-header__wrapper, https://www.ergo.de/de/Ratgeber) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-28T14:28:25.278Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.ergo.de/",
+          "https://www.ergo.de/de/Ratgeber",
+          "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled Bordeaux action (Jetzt informieren, Angebot anfordern).",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Jetzt informieren</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;background:#8e0038;color:#fff;border:1px solid #8e0038;border-radius:12px;font:700 16px/1.5 \"FS Me\",Arial,sans-serif;letter-spacing:.5px;text-decoration:none;transition:background .2s,box-shadow .2s}.ds-btn-primary:hover{background:#601028;border-color:#601028;box-shadow:0 0 2px rgba(58,58,58,.04),0 4px 8px rgba(58,58,58,.05)}.ds-btn-primary:focus-visible{outline:2px solid #8e0038;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline Bordeaux (Beitrag berechnen).",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Beitrag berechnen</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;background:transparent;color:#8e0038;border:1px solid #8e0038;border-radius:12px;font:700 16px/1.5 \"FS Me\",Arial,sans-serif;letter-spacing:.5px;text-decoration:none}.ds-btn-secondary:hover{color:#601028;border-color:#601028;box-shadow:0 0 2px rgba(58,58,58,.04),0 4px 8px rgba(58,58,58,.05)}.ds-btn-secondary:focus-visible{outline:2px solid #8e0038;outline-offset:2px}"
+    },
+    {
+      "name": "Product Tile",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White product card with price teaser and two CTAs.",
+      "html": "<div class=\"ds-tile\"><h3>Zahnzusatzversicherung</h3><p class=\"ds-price\">ab 4,90 €</p><a class=\"ds-tile-cta\" href=\"#\">Jetzt informieren</a></div>",
+      "css": ".ds-tile{background:#fff;border:1px solid #c9c5c7;border-radius:8px;padding:24px;font:400 16px/1.5 \"FS Me\",Arial,sans-serif;color:#333}.ds-tile h3{font-size:20px;font-weight:700;margin:0 0 8px}.ds-price{color:#8e0038;font-weight:700}.ds-tile-cta{display:inline-block;margin-top:16px;padding:12px 24px;background:#8e0038;color:#fff;border-radius:12px;text-decoration:none;font-weight:700}.ds-tile:hover{box-shadow:0 0 2px rgba(58,58,58,.04),0 4px 8px rgba(58,58,58,.05)}"
+    },
+    {
+      "name": "Split Hero",
+      "kind": "custom",
+      "refersTo": "band-orange",
+      "description": "Pastel hero: eyebrow h1, Fedra claim, lede, CTA; photo right.",
+      "html": "<section class=\"ds-hero\"><div><h1>Zahnzusatzversicherungen im Vergleich</h1><p class=\"ds-claim\">Wer zuletzt lacht – ist bei ERGO versichert!</p><p>Ausgezeichnete Leistungen und keine Wartezeit.</p></div><div class=\"ds-hero-img\"></div></section>",
+      "css": ".ds-hero{display:grid;grid-template-columns:1fr 1fr;gap:24px;background:#ffe0cb;padding:48px 24px;font-family:\"FS Me\",Arial,sans-serif;color:#333}.ds-hero h1{font-size:18px;font-weight:700;margin:0 0 16px}.ds-claim{font:700 40px/1.3 \"Fedra Serif\",Georgia,serif;color:#8e0038;margin:0 0 24px}.ds-hero-img{background:#f5e1eb;border-radius:8px;min-height:240px}"
+    },
+    {
+      "name": "Contact Band",
+      "kind": "custom",
+      "refersTo": "band-magenta",
+      "description": "Nicht sicher, was Sie benötigen? — e-mail, adviser, phone.",
+      "html": "<section class=\"ds-contact\"><h2>Nicht sicher, was Sie benötigen?</h2><ul><li>E-Mail schreiben</li><li>ERGO Berater finden</li><li>0800 / 3746 095</li></ul></section>",
+      "css": ".ds-contact{background:#f5e1eb;padding:48px 24px;text-align:center;font-family:\"FS Me\",Arial,sans-serif;color:#333}.ds-contact h2{font:700 28px/1.3 \"Fedra Serif\",Georgia,serif;margin:0 0 24px}.ds-contact ul{display:flex;gap:24px;justify-content:center;list-style:none;padding:0}.ds-contact li{color:#8e0038;font-weight:700}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Friendly Policy Desk",
+    "overview": "ergo.de is a calm, approachable catalogue: white pages broken into full-width pastel bands, white 8px cards, one saturated Bordeaux for every action and claim, FS Me for UI and body with Fedra Serif claims.",
+    "keyCharacteristics": [
+      "Split hero on a pastel band",
+      "FS Me kicker above Fedra Serif 28px h2",
+      "Pastel band alternation via AEM style-system classes",
+      "Flat surfaces, faint hover lift"
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "body": "Bordeaux is the only saturated colour on a page; pastels carry the mood, red carries the action.",
+        "section": "colors"
+      },
+      {
+        "name": "The Eyebrow-H1 Rule",
+        "body": "The semantic h1 is the small FS Me eyebrow; the visual headline is a p.txt__claim in Fedra Serif.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do keep every action in Bordeaux #8e0038 and every claim in Fedra Serif.",
+      "Do alternate full-width pastel bands with white sections.",
+      "Do keep cards at 8px radius and buttons at 12px."
+    ],
+    "donts": [
+      "Don't introduce gradients, dark sections or heavy shadows.",
+      "Don't use the logo red #bf1528 for UI.",
+      "Don't promote the eyebrow to a large heading; the claim carries the visual weight."
+    ]
+  }
+}

@@ -1,0 +1,2596 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-28T16:32:40.435Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.ergo.de/",
+   "https://www.ergo.de/de/Ratgeber",
+   "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.ergo.de/",
+   "status": 200,
+   "host": "www.ergo.de",
+   "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+   "forms": [
+    {
+     "name": "cmp-search__form",
+     "action": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/sonstige/suchergebnisse",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search"
+     ],
+     "hidden": [
+      "i"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Versicherungen & Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 5,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 14,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Versicherungen & Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Zahn",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Gesundheit",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Hausrat & Gebäude",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Haftpflicht",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Kfz",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Reise",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Vorsorge",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Kundenportal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 12,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Cookies",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Tool-Einstellungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 18,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Einstellungen zum Datenschutz",
+     "textLen": 786,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=3;ord=6922300335733;npa=0;auiddc=2066876238.1793205163;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=3;ord=6922300335733;npa=0;auiddc=2066876238.1793205163;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6ar0v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793205163_BW-O0SV_dr7hCiaHOGWuPcyhjB4IRkNYQg;_dc_test=1;~oref=https%3A%2F%2Fwww.ergo.de%2F?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://www.ergo.de/de",
+     "https://www.ergo.de/de",
+     "https://www.ergo.de/de/Service/Vermittlersuche",
+     "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+     "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ],
+    "CQ": [
+     "shared",
+     "Sling",
+     "I18n",
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Komm in die ERGO Fast Lane!"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Ab 12,17 € monatlich Jetzt informieren"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Z. B. 10,80 € monatlich Jetzt informieren"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Unwetterschaden melden"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Zum Geschäftskundenbereich"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 8,
+     "sameSite": 8,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 18,
+     "sameSite": 18,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 34,
+   "inlineFetch": true,
+   "mainText": 6904,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.ergo.de": 110,
+    "cdn.cookielaw.org": 7,
+    "rum.hlx.page": 1,
+    "geolocation.onetrust.com": 1,
+    "assets.ergo.com": 19,
+    "assets.adobedtm.com": 15,
+    "edge.adobedc.net": 2,
+    "connect.facebook.net": 2,
+    "amplify.outbrain.com": 1,
+    "bat.bing.com": 8,
+    "cdn.taboola.com": 4,
+    "wave.outbrain.com": 1,
+    "trc.taboola.com": 1,
+    "cdn.scarabresearch.com": 1,
+    "chat12.realperson.de": 11,
+    "tr.outbrain.com": 3,
+    "pips.taboola.com": 1,
+    "cm.g.doubleclick.net": 1,
+    "bat.bing.net": 1,
+    "www.googletagmanager.com": 2,
+    "ad.doubleclick.net": 3,
+    "www.google.com": 5,
+    "privacyportal-de.onetrust.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "cds.taboola.com": 1,
+    "www.facebook.com": 1,
+    "10334510.fls.doubleclick.net": 2,
+    "adservice.google.com": 1,
+    "server.cnd-motionmedia.de": 2,
+    "trck.spoteffects.net": 2,
+    "trck-ipv6.spoteffects.net": 1,
+    "trc-events.taboola.com": 2
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "rum.hlx.page",
+    "geolocation.onetrust.com",
+    "assets.ergo.com",
+    "assets.adobedtm.com",
+    "edge.adobedc.net",
+    "connect.facebook.net",
+    "amplify.outbrain.com",
+    "bat.bing.com",
+    "cdn.taboola.com",
+    "wave.outbrain.com",
+    "trc.taboola.com",
+    "cdn.scarabresearch.com",
+    "chat12.realperson.de",
+    "tr.outbrain.com",
+    "pips.taboola.com",
+    "cm.g.doubleclick.net",
+    "bat.bing.net",
+    "www.googletagmanager.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "privacyportal-de.onetrust.com",
+    "googleads.g.doubleclick.net",
+    "cds.taboola.com",
+    "www.facebook.com",
+    "10334510.fls.doubleclick.net",
+    "adservice.google.com",
+    "server.cnd-motionmedia.de",
+    "trck.spoteffects.net",
+    "trck-ipv6.spoteffects.net",
+    "trc-events.taboola.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/integrations/commons.min.ACSHASH26353970f559eccdb415c3669c4f0178.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tracking.min.ACSHASH9060f0c3701c75f1b476b0b4eed03d9a.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/shared.min.ACSHASHb9e4cca7162a5f6762739fbdf6c6fea9.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.min.ACSHASH775c9eb7ff4c48025fbe3d707bcf5f55.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/loi.min.ACSHASHcd0deeceaa29f252794d2d61a24d2117.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.min.ACSHASHfc8ef6447fa888623aca974c48fc1b35.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery/granite.min.ACSHASH011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/bundle.min.ACSHASH7160bf395aa3d26d781bffb4e0c3a150.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/jquery.min.ACSHASHdd9b395c741ce2784096e26619e14910.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/utils.min.ACSHASH899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/underscore.min.ACSHASHbb50e8989e1105edfefd521e5fc3662c.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.ACSHASH27d0b0b68fbb5801e7673e06a33866e2.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery.min.ACSHASHcf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/202606.2.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/navigation.min.ACSHASHc893ed9e2dce4f407470dac1200111f4.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe6cafafb591d4071aa123874f13534e1-source.min.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.ACSHASH79325bbbcfd5123ce0760bfe7144e3b4.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tile.min.ACSHASHb89ac5351bec54a759fd22a3decfb5bc.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-cc-analytics-image.min.ACSHASHf5146c7e7e35128838dc1db66dea4844.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.ACSHASH0a6aff292f5cc42142779cde92054524.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/image/v3/image/clientlibs/site.min.ACSHASHc7d8c8a31404fb2a97939ee4096001bf.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/cta.min.ACSHASHb79d47fdb616775b2787968e415414e1.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/accordion.min.ACSHASHb89c0b35edeb7ead29f980368b57d8f2.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tooltip.min.ACSHASH7ed7337b179a8ad9e1655d2a08dba3e2.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/promo.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/price.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/hero.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/sitemap.min.ACSHASH2c025d18d4e06b8ebc720ca5542872f2.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/search.min.ACSHASHa1e9bdece3d77e5cf29f1e8f089fdcde.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/scrollToTop.min.ACSHASH895ead0b7a73e002164d8b5dc3423525.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/ekomi.min.ACSHASH1ea752a13a856e53e6da02b775c81c31.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/footerCookies.min.ACSHASH69c99476bb8c30e550f6d0fbe8eb8a50.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/carouselContainer.min.ACSHASH2794ccf7152cbb9c55307674c2a4458a.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC79bf05c39e4c49c3b39360672fa9de06-source.min.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/articleTeaserCarousel.min.ACSHASHb66bb82eb4010193526cf0cb359adf14.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC2ae30fbf6a374703ad85652803afef5f-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC331db67dae0e400187685f7faa64c501-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC39ad36c87b404f8b8e816cba4fef988a-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe7dfe21bd2d942079000cbc05f4bf601-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC86422b88e8ca405aabfd9f56d3115df7-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc9d0f85aa3b841529ea6d8f03c4b7967-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC5c2ec7365137481c81848c74da2d97b5-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe85de011cd924fac9459703b99916144-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc26676039e19478aba9a676e8c326591-source.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCff2c1aeb28d14ff593ba4da8a561da1d-source.min.js",
+    "https://amplify.outbrain.com/cp/obtp.js",
+    "https://bat.bing.com/bat.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7a849e8c3c3a4edfbfc4be6bb46ebcfe-source.min.js",
+    "https://cdn.taboola.com/libtrc/unip/1304742/tfa.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb66eda789fb44d9eb3785d5a1496517a-source.min.js",
+    "https://wave.outbrain.com/mtWavesBundler/handler/0077d83a5c1aa8b8cdb0025aa7c3772003",
+    "https://bat.bing.com/p/action/5999421.js",
+    "https://trc.taboola.com/1304742/trc/3/json?tim=1793205163238&data=%7B%22id%22%3A536%2C%22ii%22%3A%22%2F%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1793205163229%2C%22",
+    "https://cdn.taboola.com/scripts/cds-pips.js?dc=la&d=d"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json",
+     "query": [
+      "1793205163"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/segmentation.segment.js",
+     "query": [],
+     "status": 200,
+     "contentType": "application/javascript",
+     "example": "https://www.ergo.de/etc/segmentation.segment.js"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/clientcontext/default/content/jcr:content/stores.init.js",
+     "query": [
+      "_",
+      "path"
+     ],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://www.ergo.de/etc/clientcontext/default/content/jcr:content/stores.init.js"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/2e444b6c-b8f3-4168-9849-e299a3e2a7",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/0a3b0e64-7677-4b5b-ac58-b9cb1c48b6",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json",
+    "POST edge.adobedc.net/ee/v1/privacy/set-consent",
+    "POST edge.adobedc.net/ee/or2/v1/interact",
+    "GET tr.outbrain.com/unifiedPixel",
+    "GET pips.taboola.com/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "POST privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST www.google.com/rmkt/collect/980528457/",
+    "GET cds.taboola.com/",
+    "POST bat.bing.com/p/insights/c/n",
+    "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=3;ord=6922300335733;npa=0;auid",
+    "GET ad.doubleclick.net/activity;dc_pre=CLHy0-aR3ZcDFecOhAgdGoQabA;src=10334510;type=visit0;cat=visit0;",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=16021491842589182204;_dc_ptd=ChEI8LqG1wYQireW-K2X8",
+    "POST chat12.realperson.de/api/embed/config",
+    "POST chat12.realperson.de/api/embed/status",
+    "GET trc-events.taboola.com/1304742/log/3/unip"
+   ],
+   "postBodies": [
+    {
+     "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+     "body": "{\"requestInformation\":\"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6IjQwMzc4MDZmLWQxODAtNDhlNC05ZGI3LWY0NzQ4MzJhYzZlOSIsInByb2Nlc3NWZXJzaW9uIjo1NDcsImlhdCI6IjIwMjAtMDctMTZUMDc6MjI6MTguMDU3IiwibW9jIjoiQ09PS0lFIiwicG9saWN5X3VyaSI6ImVyZ28uZGUiLCJzdWIiOiJDb29raWUgVW5pcXVlIElkIiwiaXNzIjpudWxsLCJ0ZW5hbnRJZCI6IjhlY2NkMThkLTcxMDEtNDY3MC05YTNlLWQ5ODMwZDcxOTAxNSIsImRlc2NyaXB0aW9uIjoiVGhpcyBj"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/v1/privacy/set-consent?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=bf73acb2-349a-47da-9980-0db64fc2b6e4",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=7ea45b6d-fa06-4e33-850e-2f50475c0304",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://chat12.realperson.de/api/embed/config",
+     "body": "{\"deptid\":68,\"pageurl\":\"https%3A%2F%2Fwww.ergo.de%2F\",\"session_rp\":\"\",\"deptlist\":\"\",\"referer\":\"\",\"screen_width\":1440,\"customValues\":\"{}\",\"load_config_counter\":1,\"current_time\":1793205163,\"cpid\":\"\",\"hasStatusButtonPlaceholder\":1}"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/980528457/?random=1793205163418&cv=11&fst=1793205163418&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6aq1h1v9126942928za208zd9126942928xecxf1&gcd=13r3r3X3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=2066876238.1793205163&dt=Versicherungen%20%26%20Vorsorge%20f%C3%BCr%20Ihre%20Sicherheit%20%7C%20ERGO&tid=AW-980528457&en=page_view&dl=https%",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=aAlnehnVKkJAg8KjjhlQsW3wvDSzakC2YQ&auid=2066876238.1793205163&gtm=45be6aq1h1v9126942928za208zd9126942928xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=2066876238.1793205163&dt=Versicherungen%20%26%20Vorsorge%20f%C3%BCr%20Ihre%20Sicherheit%20%7C%20ERGO&tid=DC-10334510&en=page_view&dl=https%3A",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=3;ord=6922300335733;npa=0;auiddc=2066876238.1793205163;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;ua",
+     "body": ""
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/n",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�@\u0010��e\u001eJ\u0002cygo�ܧ4�4$m�N҂\u0010F��%�X�$ǦM�e}돕����BY\u0016�\u001cfv�Μ\u001f�a��\f� T��\u0012I\u0011��rgvE����`�ڴ1 (3�-\u001d��@=\f��l:�n���mP�)�\b\u0019̒DI����\u0018R$SL\u0014!с��H�\b�#�&D��\u00050\u000e_0�1��\u0006�tq>\u0007L�\u0000Ǜ\",6~xlJ�VQ���T�$�(�Y��\u0005��E:��%��^�Y\u001eF�&U��qe>�u�&a�mat�m\u0011\u0001�_\u001a���ͺo���\u001fz1c�86jԺh�W�\u0013A:�������{�ZeS\u001bHq�譸l֛��En�̱8��_��>�h���a��8��p��\u0012Ū����\u0017���8����Oɺ@�\u0011�ʺf,�\u0014\t��Oc\u00027�뛢��f��k�Fܴ]�vK/�߿:q^w^��\t�o\u0006�$�9�\f)Ƙ�_O������!�2�\u000e\u0013(=��\u0014&��\u0016\u0003�\t|j��"
+    },
+    {
+     "url": "https://chat12.realperson.de/api/embed/status",
+     "body": "{\"deptid\":68,\"pageurl\":\"https%3A%2F%2Fwww.ergo.de%2F\",\"inviteEnabled\":1,\"chatlayer\":0,\"customValues\":\"{}\",\"adblock_detected\":0,\"count_status_requests\":0,\"session_rp\":\"cts2mkedd1c1486ogh6t3fb5h52psiajimofnsfu\"}"
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/n",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003���j�0\f\u0006�w�Y$�\"�r^��P��\u001eʺ��\\\u0018}����u�C�\u0018>���\u001f�`�@�wQ\u0000\u0005Y\u0018=\r\u0011�sw����]\r\u0010t��c\u0002\u0004�9T\u0006d���~�?Nc��Z��kw�ަ\u001e\n�\u0006ƜC\u0014G��o'B��p�\u001c�t\u0015\u000e-%��D\u001b�\u0014y�AZb�G)�4�=K��<�dm�����R�\u001e\r��<Ѳ?EFV%����JD�<�����W���|Y\u0013�ڒ+(�,�\\\u0001O� >�\u0001\u0000\u0000"
+    }
+   ],
+   "textAtLoad": 3501,
+   "mainEmptyAtLoad": false
+  },
+  "/de/Ratgeber": {
+   "url": "https://www.ergo.de/de/Ratgeber",
+   "status": 200,
+   "host": "www.ergo.de",
+   "title": "Ratgeber | ERGO",
+   "forms": [
+    {
+     "name": "cmp-search__form",
+     "action": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/sonstige/suchergebnisse",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search"
+     ],
+     "hidden": [
+      "i"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Versicherungen & Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 5,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 14,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Versicherungen & Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 25,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Zahn",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Gesundheit",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Hausrat & Gebäude",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Haftpflicht",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Kfz",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Reise",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Vorsorge",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Finanzen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Kundenportal",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 12,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Cookies",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Tool-Einstellungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 18,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Einstellungen zum Datenschutz",
+     "textLen": 786,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=0;ord=2158362048380;npa=0;auiddc=2058449927.1793205177;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=0;ord=2158362048380;npa=0;auiddc=2058449927.1793205177;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6ar0v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~117776795~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121246026~121246034~123489731~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793205177_lJ6ZNz9dgLHRHh8PpmbL7c2AFu4CA1MS5g;_dc_test=1;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ],
+    "CQ": [
+     "shared",
+     "Sling",
+     "I18n",
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "ccw__column__placeholder",
+     "attrs": [],
+     "text": "Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen w"
+    },
+    {
+     "cls": "ccw__column__placeholder",
+     "attrs": [],
+     "text": "Gesundheit & WohlbefindenZahngesundheitMobilität & KfzFinanz"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Ab 1,85 € monatlich Jetzt informieren Jetzt berechnen"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Krankenversicherung"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Berufsunfähigkeitsversicherung"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Augenzusatzversicherung"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zum Kieferorthopädie Sofortschutz"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Versicherung für Zahnersatz"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Versicherung für Zahnerhalt"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur Autoversicherung"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zum Kfz Schutzbrief"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Mehr erfahren Zur E-Bike Versicherung"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "ul",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 18,
+     "sameSite": 18,
+     "hasDate": false
+    },
+    {
+     "cls": "splide__list",
+     "cards": 13,
+     "sameSite": 13,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 34,
+   "inlineFetch": true,
+   "mainText": 16750,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.ergo.de": 97,
+    "assets.ergo.com": 34,
+    "rum.hlx.page": 1,
+    "cdn.cookielaw.org": 7,
+    "geolocation.onetrust.com": 1,
+    "assets.adobedtm.com": 15,
+    "cdn.taboola.com": 4,
+    "chat12.realperson.de": 11,
+    "edge.adobedc.net": 2,
+    "trc.taboola.com": 1,
+    "cm.g.doubleclick.net": 1,
+    "pips.taboola.com": 1,
+    "connect.facebook.net": 2,
+    "amplify.outbrain.com": 1,
+    "wave.outbrain.com": 1,
+    "bat.bing.com": 8,
+    "cds.taboola.com": 1,
+    "www.facebook.com": 1,
+    "tr.outbrain.com": 3,
+    "privacyportal-de.onetrust.com": 1,
+    "cdn.scarabresearch.com": 1,
+    "www.googletagmanager.com": 2,
+    "bat.bing.net": 1,
+    "www.google.com": 5,
+    "googleads.g.doubleclick.net": 1,
+    "ad.doubleclick.net": 3,
+    "server.cnd-motionmedia.de": 2,
+    "10334510.fls.doubleclick.net": 2,
+    "adservice.google.com": 1,
+    "trck.spoteffects.net": 2,
+    "trc-events.taboola.com": 2
+   },
+   "thirdPartyHosts": [
+    "assets.ergo.com",
+    "rum.hlx.page",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "assets.adobedtm.com",
+    "cdn.taboola.com",
+    "chat12.realperson.de",
+    "edge.adobedc.net",
+    "trc.taboola.com",
+    "cm.g.doubleclick.net",
+    "pips.taboola.com",
+    "connect.facebook.net",
+    "amplify.outbrain.com",
+    "wave.outbrain.com",
+    "bat.bing.com",
+    "cds.taboola.com",
+    "www.facebook.com",
+    "tr.outbrain.com",
+    "privacyportal-de.onetrust.com",
+    "cdn.scarabresearch.com",
+    "www.googletagmanager.com",
+    "bat.bing.net",
+    "www.google.com",
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "server.cnd-motionmedia.de",
+    "10334510.fls.doubleclick.net",
+    "adservice.google.com",
+    "trck.spoteffects.net",
+    "trc-events.taboola.com"
+   ],
+   "scripts": [
+    "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.min.ACSHASH775c9eb7ff4c48025fbe3d707bcf5f55.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/loi.min.ACSHASHcd0deeceaa29f252794d2d61a24d2117.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/bundle.min.ACSHASH7160bf395aa3d26d781bffb4e0c3a150.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/jquery.min.ACSHASHdd9b395c741ce2784096e26619e14910.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tracking.min.ACSHASH9060f0c3701c75f1b476b0b4eed03d9a.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.min.ACSHASHfc8ef6447fa888623aca974c48fc1b35.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery.min.ACSHASHcf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/integrations/commons.min.ACSHASH26353970f559eccdb415c3669c4f0178.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery/granite.min.ACSHASH011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/shared.min.ACSHASHb9e4cca7162a5f6762739fbdf6c6fea9.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/utils.min.ACSHASH899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.ACSHASH27d0b0b68fbb5801e7673e06a33866e2.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/underscore.min.ACSHASHbb50e8989e1105edfefd521e5fc3662c.js",
+    "https://cdn.cookielaw.org/scripttemplates/202606.2.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/navigation.min.ACSHASHc893ed9e2dce4f407470dac1200111f4.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/accordion.min.ACSHASHb89c0b35edeb7ead29f980368b57d8f2.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.ACSHASH0a6aff292f5cc42142779cde92054524.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/search.min.ACSHASHa1e9bdece3d77e5cf29f1e8f089fdcde.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/cta.min.ACSHASHb79d47fdb616775b2787968e415414e1.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tile.min.ACSHASHb89ac5351bec54a759fd22a3decfb5bc.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/image/v3/image/clientlibs/site.min.ACSHASHc7d8c8a31404fb2a97939ee4096001bf.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.ACSHASH79325bbbcfd5123ce0760bfe7144e3b4.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe6cafafb591d4071aa123874f13534e1-source.min.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/price.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/promo.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/articleHeader.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tooltip.min.ACSHASH7ed7337b179a8ad9e1655d2a08dba3e2.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/breadcrumb.min.ACSHASHcc5ff4fddad28c2a97ed1d8353e43116.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-cc-analytics-image.min.ACSHASHf5146c7e7e35128838dc1db66dea4844.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/carouselContainer.min.ACSHASH2794ccf7152cbb9c55307674c2a4458a.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/scrollToTop.min.ACSHASH895ead0b7a73e002164d8b5dc3423525.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/benefits.min.ACSHASH8a72771e075cfdf91bd0701e4fd8a307.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/footerCookies.min.ACSHASH69c99476bb8c30e550f6d0fbe8eb8a50.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/sitemap.min.ACSHASH2c025d18d4e06b8ebc720ca5542872f2.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC79bf05c39e4c49c3b39360672fa9de06-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC2ae30fbf6a374703ad85652803afef5f-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC331db67dae0e400187685f7faa64c501-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC39ad36c87b404f8b8e816cba4fef988a-source.min.js",
+    "https://cdn.taboola.com/libtrc/unip/1304742/tfa.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe7dfe21bd2d942079000cbc05f4bf601-source.min.js",
+    "https://chat12.realperson.de/system/scripts/loadchatmodul.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC86422b88e8ca405aabfd9f56d3115df7-source.min.js",
+    "https://trc.taboola.com/1304742/trc/3/json?tim=1793205176627&data=%7B%22id%22%3A299%2C%22ii%22%3A%22%2Fde%2Fratgeber%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A179320",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc9d0f85aa3b841529ea6d8f03c4b7967-source.min.js",
+    "https://cdn.taboola.com/scripts/cds-pips.js?dc=la&d=d",
+    "https://cdn.taboola.com/scripts/eid.es5.js",
+    "https://cdn.taboola.com/scripts/eid-ls-new.es5.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC5c2ec7365137481c81848c74da2d97b5-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe85de011cd924fac9459703b99916144-source.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc26676039e19478aba9a676e8c326591-source.min.js",
+    "https://amplify.outbrain.com/cp/obtp.js",
+    "https://connect.facebook.net/signals/config/156009031434684?v=2.9.429&r=stable&domain=www.ergo.de&hme=e7a5ac71fbf0293a48c0a6b6de35ad61286effa29f2279ff1fce9a756cccd512&ex_m=118%2C241%2C171%2C27%2C82%2C",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCff2c1aeb28d14ff593ba4da8a561da1d-source.min.js",
+    "https://wave.outbrain.com/mtWavesBundler/handler/0077d83a5c1aa8b8cdb0025aa7c3772003"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/segmentation.segment.js",
+     "query": [],
+     "status": 200,
+     "contentType": "application/javascript",
+     "example": "https://www.ergo.de/etc/segmentation.segment.js"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/clientcontext/default/content/jcr:content/stores.init.js",
+     "query": [
+      "_",
+      "path"
+     ],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://www.ergo.de/etc/clientcontext/default/content/jcr:content/stores.init.js"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/2e444b6c-b8f3-4168-9849-e299a3e2a7",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/0a3b0e64-7677-4b5b-ac58-b9cb1c48b6",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCommonStyles.css",
+    "POST edge.adobedc.net/ee/v1/privacy/set-consent",
+    "GET pips.taboola.com/",
+    "POST edge.adobedc.net/ee/or2/v1/interact",
+    "GET cds.taboola.com/",
+    "GET tr.outbrain.com/unifiedPixel",
+    "POST privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/980528457/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST chat12.realperson.de/api/embed/config",
+    "POST bat.bing.com/p/insights/c/q",
+    "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=0;ord=2158362048380;npa=0;auid",
+    "GET ad.doubleclick.net/activity;dc_pre=COqfm-2R3ZcDFT4OhAgdAR8eLA;src=10334510;type=visit0;cat=visit0;",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=6168912784234876349;_dc_ptd=ChEI8LqG1wYQireW-K2X8f",
+    "POST chat12.realperson.de/api/embed/status",
+    "GET trc-events.taboola.com/1304742/log/3/unip"
+   ],
+   "postBodies": [
+    {
+     "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+     "body": "{\"requestInformation\":\"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6IjQwMzc4MDZmLWQxODAtNDhlNC05ZGI3LWY0NzQ4MzJhYzZlOSIsInByb2Nlc3NWZXJzaW9uIjo1NDcsImlhdCI6IjIwMjAtMDctMTZUMDc6MjI6MTguMDU3IiwibW9jIjoiQ09PS0lFIiwicG9saWN5X3VyaSI6ImVyZ28uZGUiLCJzdWIiOiJDb29raWUgVW5pcXVlIElkIiwiaXNzIjpudWxsLCJ0ZW5hbnRJZCI6IjhlY2NkMThkLTcxMDEtNDY3MC05YTNlLWQ5ODMwZDcxOTAxNSIsImRlc2NyaXB0aW9uIjoiVGhpcyBj"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/v1/privacy/set-consent?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=57340cca-3cd4-44ad-9bbd-31c7a7ac3249",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=e27eaf7c-272a-46e8-ad1f-f9db1b3b0e95",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://chat12.realperson.de/api/embed/config",
+     "body": "{\"deptid\":68,\"pageurl\":\"https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber\",\"session_rp\":\"\",\"deptlist\":\"\",\"referer\":\"\",\"screen_width\":1440,\"customValues\":\"{}\",\"load_config_counter\":1,\"current_time\":1793205176,\"cpid\":\"\",\"hasStatusButtonPlaceholder\":1}"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/980528457/?random=1793205177198&cv=11&fst=1793205177198&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ar0v9126942928za208zd9126942928xecxf1&gcd=13r3r3X3r5",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=2058449927.1793205177&dt=Ratgeber%20%7C%20ERGO&tid=AW-980528457&en=page_view&dl=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber&scrsrc=www.googleta",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=s-iXb8IDzeQ1N_YyMtWJgfOjDwrMS-WB2A&auid=2058449927.1793205177&gtm=45be6ar0v9126942928za208zd9126942928xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&auid=2058449927.1793205177&dt=Ratgeber%20%7C%20ERGO&tid=DC-10334510&en=page_view&dl=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber&scrsrc=www.googletag",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=0;ord=2158362048380;npa=0;auiddc=2058449927.1793205177;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=",
+     "body": ""
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/q",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�j�@\u0010�\u00151O\t����Ir�RSҒ��8��E����E|�%�&M��ed��1,\u000bs��r4{�@��\u0003\u0011gq*\u0001\t\u0005�T\b��G}�6�\u0007\u0003\b��\u0015�\u0019G\u000b�0����\u0007\u0016m�m�Ir8\u001cⰛo�*$UH�};\u000fe�A��a�\u0014�!i-��\u0014T���D'*\u0017�D�\f�O\u0016u�$$�a��1u�%*�0�|\u001b\u0003: ���\u0002a�\u000f�s]1�J��>\u0017�\f\u0015ь<\u0005#s��6SIƞ�W�t*)-+�\r�Pꁞ�a�\u0007o\u0006R\b�!�A�<�#iܹ����狶9�b��y�e�uR7�W���?ް���K�\\���\"��E�)����ct������j�]������Ĩ4V6����pw�Ѳ~\n�u�>m.��b�Y����\u0005�h�g~W�%P ���S*tp��k����\u0007\u0014����\u001e<���A\u0007����\u0003#�\u000e�\u0000\u0005J�\u000e:�\f4:��i�W��;���2@�$���"
+    },
+    {
+     "url": "https://chat12.realperson.de/api/embed/status",
+     "body": "{\"deptid\":68,\"pageurl\":\"https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber\",\"inviteEnabled\":1,\"chatlayer\":0,\"customValues\":\"{}\",\"adblock_detected\":0,\"count_status_requests\":0,\"session_rp\":\"ednfld8h62ulojsip504i8in4jmj1suv4jcg5v5k\"}"
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/q",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��Mj�@\fF�%͟�ct;x�4\u0013���i�ցл�\t\u001d��m�\u0010�Ǉ\u001e�A�>\u00025�\u0004\u0001\u0014d1��u\bo��^\u001f/\u001f�\u0003\u00046���C�f3��\u0013 #�\u000b�e9]��]׵I��٧v�ڇq��.�a@\u0018���;5�t\u000f*\u0011\u0002��\u0001���\u0015¾F�sAbk�vK\u0019�Qg���\n\u0005����\u001f���\\�\u00118hA��\b⥠Pk\u0004��Z#��\"#[K�F�{��w��\u001f��\u001e\u0003FU��Btl�a���0|~\u0001��\rs\u0003\u0002\u0000\u0000"
+    }
+   ],
+   "textAtLoad": 16750,
+   "mainEmptyAtLoad": false
+  },
+  "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen": {
+   "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+   "status": 200,
+   "host": "www.ergo.de",
+   "title": "Gewerbliche Cyber-Versicherung für Unternehmen | ERGO",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Produkte für Geschäftskunden",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Menü Hauptmenü schließen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Produkte für Geschäftskunden",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 28,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Gewerbliche Sachversicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Technische Versicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Haftpflichtversicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Transportversicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Rechtsschutzversicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Krankenversicherungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Service",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Kontakt",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Cookies",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Tool-Einstellungen",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 18,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Einstellungen zum Datenschutz",
+     "textLen": 786,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=17;ord=5442492584823;npa=0;auiddc=1584884070.1793205191;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhM",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://10334510.fls.doubleclick.net/activityi;src=10334510;type=visit0;cat=visit0;rcb=17;ord=5442492584823;npa=0;auiddc=1584884070.1793205191;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6ar0v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121399758;epver=2;em=tv.1;emd=tvd.1;dc_random=1793205191_HPUcDEbukiLFkiXoijOpZHOGQjUmQ7KGZA;_dc_test=1;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FCyber-Versicherung-fuer-Unternehmen?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ],
+    "CQ": [
+     "shared",
+     "Sling",
+     "I18n",
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "ccw__column__placeholder",
+     "attrs": [],
+     "text": "Highlight Komfort: SB-Reduzierung um 50%, max. um 2.500 EUR "
+    },
+    {
+     "cls": "ccw__column__placeholder",
+     "attrs": [],
+     "text": "Premium: SB-Verzicht um bis zu 5.000 EUR im ersten Schadensf"
+    },
+    {
+     "cls": "ccw__column__placeholder",
+     "attrs": [],
+     "text": "Prävention Historie (Stand 01.21) Dateiname onepager-cyber-p"
+    },
+    {
+     "cls": "cmp-promo__placeholder",
+     "attrs": [],
+     "text": "Angebot anfordern ERGO Berater finden"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 33,
+   "inlineFetch": true,
+   "mainText": 4175,
+   "domAddedAfterLoad": 38,
+   "hosts": {
+    "www.ergo.de": 84,
+    "assets.ergo.com": 10,
+    "cdn.cookielaw.org": 7,
+    "rum.hlx.page": 1,
+    "geolocation.onetrust.com": 1,
+    "assets.adobedtm.com": 15,
+    "cdn.taboola.com": 4,
+    "trc.taboola.com": 1,
+    "edge.adobedc.net": 2,
+    "pips.taboola.com": 1,
+    "cm.g.doubleclick.net": 1,
+    "connect.facebook.net": 2,
+    "amplify.outbrain.com": 1,
+    "bat.bing.com": 8,
+    "wave.outbrain.com": 1,
+    "cds.taboola.com": 1,
+    "www.facebook.com": 1,
+    "www.googletagmanager.com": 2,
+    "tr.outbrain.com": 3,
+    "bat.bing.net": 1,
+    "privacyportal-de.onetrust.com": 1,
+    "www.google.com": 5,
+    "ad.doubleclick.net": 3,
+    "googleads.g.doubleclick.net": 1,
+    "cdn.scarabresearch.com": 1,
+    "10334510.fls.doubleclick.net": 2,
+    "server.cnd-motionmedia.de": 2,
+    "adservice.google.com": 1,
+    "trck.spoteffects.net": 2,
+    "trc-events.taboola.com": 2
+   },
+   "thirdPartyHosts": [
+    "assets.ergo.com",
+    "cdn.cookielaw.org",
+    "rum.hlx.page",
+    "geolocation.onetrust.com",
+    "assets.adobedtm.com",
+    "cdn.taboola.com",
+    "trc.taboola.com",
+    "edge.adobedc.net",
+    "pips.taboola.com",
+    "cm.g.doubleclick.net",
+    "connect.facebook.net",
+    "amplify.outbrain.com",
+    "bat.bing.com",
+    "wave.outbrain.com",
+    "cds.taboola.com",
+    "www.facebook.com",
+    "www.googletagmanager.com",
+    "tr.outbrain.com",
+    "bat.bing.net",
+    "privacyportal-de.onetrust.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "cdn.scarabresearch.com",
+    "10334510.fls.doubleclick.net",
+    "server.cnd-motionmedia.de",
+    "adservice.google.com",
+    "trck.spoteffects.net",
+    "trc-events.taboola.com"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/loi.min.ACSHASHcd0deeceaa29f252794d2d61a24d2117.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tracking.min.ACSHASH9060f0c3701c75f1b476b0b4eed03d9a.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/integrations/commons.min.ACSHASH26353970f559eccdb415c3669c4f0178.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/bundle.min.ACSHASH7160bf395aa3d26d781bffb4e0c3a150.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery.min.ACSHASHcf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.min.ACSHASHfc8ef6447fa888623aca974c48fc1b35.js",
+    "https://www.ergo.de/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.min.ACSHASH775c9eb7ff4c48025fbe3d707bcf5f55.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/underscore.min.ACSHASHbb50e8989e1105edfefd521e5fc3662c.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/jquery/granite.min.ACSHASH011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/jquery.min.ACSHASHdd9b395c741ce2784096e26619e14910.js",
+    "https://www.ergo.de/etc.clientlibs/clientlibs/granite/utils.min.ACSHASH899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ergo.de/etc.clientlibs/foundation/clientlibs/shared.min.ACSHASHb9e4cca7162a5f6762739fbdf6c6fea9.js",
+    "https://www.ergo.de/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.ACSHASH27d0b0b68fbb5801e7673e06a33866e2.js",
+    "https://cdn.cookielaw.org/scripttemplates/202606.2.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/navigation.min.ACSHASHc893ed9e2dce4f407470dac1200111f4.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/productTable.min.ACSHASH42823e5bc096efdb333c0d2b493157e3.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/image.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/accordion.min.ACSHASHb89c0b35edeb7ead29f980368b57d8f2.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.ACSHASH0a6aff292f5cc42142779cde92054524.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.ACSHASH79325bbbcfd5123ce0760bfe7144e3b4.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe6cafafb591d4071aa123874f13534e1-source.min.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/hero.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/promo.min.ACSHASHd41d8cd98f00b204e9800998ecf8427e.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/footerCookies.min.ACSHASH69c99476bb8c30e550f6d0fbe8eb8a50.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/scrollToTop.min.ACSHASH895ead0b7a73e002164d8b5dc3423525.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/cta.min.ACSHASHb79d47fdb616775b2787968e415414e1.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/tile.min.ACSHASHb89ac5351bec54a759fd22a3decfb5bc.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/benefits.min.ACSHASH8a72771e075cfdf91bd0701e4fd8a307.js",
+    "https://www.ergo.de/etc.clientlibs/core/wcm/components/image/v3/image/clientlibs/site.min.ACSHASHc7d8c8a31404fb2a97939ee4096001bf.js",
+    "https://www.ergo.de/etc.clientlibs/carbon/image/components/image/v1/clientlib-cc-analytics-image.min.ACSHASHf5146c7e7e35128838dc1db66dea4844.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/download.min.ACSHASHb1bdcebbf3c51ad4273ca13ec97314da.js",
+    "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/typescript/carouselContainer.min.ACSHASH2794ccf7152cbb9c55307674c2a4458a.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC79bf05c39e4c49c3b39360672fa9de06-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC2ae30fbf6a374703ad85652803afef5f-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC331db67dae0e400187685f7faa64c501-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC39ad36c87b404f8b8e816cba4fef988a-source.min.js",
+    "https://cdn.taboola.com/libtrc/unip/1304742/tfa.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe7dfe21bd2d942079000cbc05f4bf601-source.min.js",
+    "https://trc.taboola.com/1304742/trc/3/json?tim=1793205190411&data=%7B%22id%22%3A249%2C%22ii%22%3A%22%2Fde%2Fgeschaeftskunden-produkte%2Fcyber-versicherung-fuer-unternehmen%22%2C%22it%22%3A%22video%22%",
+    "https://cdn.taboola.com/scripts/cds-pips.js?dc=la&d=d",
+    "https://cdn.taboola.com/scripts/eid.es5.js",
+    "https://cdn.taboola.com/scripts/eid-ls-new.es5.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC86422b88e8ca405aabfd9f56d3115df7-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc9d0f85aa3b841529ea6d8f03c4b7967-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC5c2ec7365137481c81848c74da2d97b5-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe85de011cd924fac9459703b99916144-source.min.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc26676039e19478aba9a676e8c326591-source.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCff2c1aeb28d14ff593ba4da8a561da1d-source.min.js",
+    "https://amplify.outbrain.com/cp/obtp.js",
+    "https://bat.bing.com/bat.js",
+    "https://connect.facebook.net/signals/config/156009031434684?v=2.9.429&r=stable&domain=www.ergo.de&hme=e7a5ac71fbf0293a48c0a6b6de35ad61286effa29f2279ff1fce9a756cccd512&ex_m=118%2C241%2C171%2C27%2C82%2C",
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7a849e8c3c3a4edfbfc4be6bb46ebcfe-source.min.js",
+    "https://wave.outbrain.com/mtWavesBundler/handler/0077d83a5c1aa8b8cdb0025aa7c3772003",
+    "https://bat.bing.com/p/action/5999421.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-980528457"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ergo.de/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/segmentation.segment.js",
+     "query": [],
+     "status": 200,
+     "contentType": "application/javascript",
+     "example": "https://www.ergo.de/etc/segmentation.segment.js"
+    },
+    {
+     "method": "GET",
+     "host": "www.ergo.de",
+     "path": "/etc/clientcontext/default/content/jcr:content/stores.init.js",
+     "query": [
+      "_",
+      "path"
+     ],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://www.ergo.de/etc/clientcontext/default/content/jcr:content/stores.init.js"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/2e444b6c-b8f3-4168-9849-e299a3e2a7",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/0a3b0e64-7677-4b5b-ac58-b9cb1c48b6",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json",
+    "POST edge.adobedc.net/ee/v1/privacy/set-consent",
+    "GET pips.taboola.com/",
+    "POST edge.adobedc.net/ee/or2/v1/interact",
+    "GET cds.taboola.com/",
+    "GET tr.outbrain.com/unifiedPixel",
+    "POST privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/980528457/",
+    "POST bat.bing.com/p/insights/c/i",
+    "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=17;ord=5442492584823;npa=0;aui",
+    "GET ad.doubleclick.net/activity;dc_pre=COGj3fOR3ZcDFe0MhAgdK98iJQ;src=10334510;type=visit0;cat=visit0;",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=18444685828465181103;_dc_ptd=ChEI8LqG1wYQireW-K2X8",
+    "GET trc-events.taboola.com/1304742/log/3/unip"
+   ],
+   "postBodies": [
+    {
+     "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+     "body": "{\"requestInformation\":\"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6IjQwMzc4MDZmLWQxODAtNDhlNC05ZGI3LWY0NzQ4MzJhYzZlOSIsInByb2Nlc3NWZXJzaW9uIjo1NDcsImlhdCI6IjIwMjAtMDctMTZUMDc6MjI6MTguMDU3IiwibW9jIjoiQ09PS0lFIiwicG9saWN5X3VyaSI6ImVyZ28uZGUiLCJzdWIiOiJDb29raWUgVW5pcXVlIElkIiwiaXNzIjpudWxsLCJ0ZW5hbnRJZCI6IjhlY2NkMThkLTcxMDEtNDY3MC05YTNlLWQ5ODMwZDcxOTAxNSIsImRlc2NyaXB0aW9uIjoiVGhpcyBj"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/v1/privacy/set-consent?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=0655db0a-dfce-47f0-86d4-716483fec842",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://edge.adobedc.net/ee/or2/v1/interact?configId=a91a67cc-9050-4e12-a01c-bb733b54c84f&requestId=7bb73186-28fb-448c-909b-1d6807513e5f",
+     "body": "{\"meta\":{\"configOverrides\":{\"com_adobe_analytics\":{\"reportSuites\":[\"ergo.delive201502\"]},\"com_adobe_audiencemanager\":{\"enabled\":false},\"com_adobe_experience_platform\":{\"enabled\":false,\"datasets\":{\"event\":{\"datasetId\":\"6943d56ae494e72768c77f91\"}},\"com_adobe_edge_ajo\":{\"enabled\":false},\"com_adobe_edge_ode\":{\"enabled\":false},\"com_adobe_edge_destinations\":{\"enabled\":false},\"com_adobe_edge_segmentation"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/980528457/?random=1793205190864&cv=11&fst=1793205190864&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6aq1v9126942928za208zd9126942928xecxf1&gcd=13r3r3X3r5",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&auid=1584884070.1793205191&dt=Gewerbliche%20Cyber-Versicherung%20f%C3%BCr%20Unternehmen%20%7C%20ERGO&tid=AW-980528457&en=page_view&dl=https%3A%2F%",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=ssIhjNlU7AFphpVe3SgvJQDvWU_fjNdiVw&auid=1584884070.1793205191&gtm=45be6aq1v9126942928za208zd9126942928xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=1584884070.1793205191&dt=Gewerbliche%20Cyber-Versicherung%20f%C3%BCr%20Unternehmen%20%7C%20ERGO&tid=DC-10334510&en=page_view&dl=https%3A%2F%",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=17;ord=5442492584823;npa=0;auiddc=1584884070.1793205191;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=",
+     "body": ""
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/i",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�S�n�P\u0010�\u0015k�Zim���\u001d�J�\u0002jK\u0011m\u0001ɲ\"'^'V\u001c��ҤP�e��ch�\u0014U�\u0017dY�\u001d�3�\u0019\u0007�Q\n\"�\u0003�\u0000%\n��\"|]��n��o- 4E�$\u0003 �H�\u00075?��\u0003˾��Fa��n\u0003j\u0017�����pB�|�S�w��)��?��bX�\u0014�\u001ff��������ڡY��@����6�\\S\u0003\u0019B\u000e�4U\nc��\bt\fS�Q�\u0003��#�b�\\94\u000e�P� �T��^�{V�\r�x��\u001a0\u0005�r�o�0\u001d���\nƍ��X\u001bQ(*�,e^Z��Hrmi�\"�<�>��Q�\"�;?&;�Mi\u0013?щ��Mb��\u0016�0��6�'w|h�t�b�w��\u0018�I�\u0018u�:��\u0017أ�쨏]I�r��<���N�H�ʻ��a���h\u001a�S���4;���j\u0017��;9{sy�^]�ț�|�9���v��P�(\u0010�x�y���q\u00052���/�5�0�-���Ǽ���"
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/i",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��=o�@\f\u0006���ـ}�/X;t��.�!\u0005\u0007��K{@IT��W$�\nse�:�3���A�(�R�:\u0005���A�\u0014#|�g}����\u0000Bh��O����EՀ�t-���c(�l��Tb{J\u001b�\u001a�\u001ee���\u001c��8�FB�\u0014O�t\u001c%{��JL^$\u000eou'q\nmr�$&�a�\u0018�{�\u0000\u0015�\u001e������t��\u0010`i�����U�n�k^I�-�J��S\u001br���HӖ��R�m\f��Y�lc��V+Yv��\\Y##kM����\u0013�}����=*,��v�\u0005\u001a��^�Kh���_�M�\u001b\u0000\u0002\u0000\u0000"
+    }
+   ],
+   "textAtLoad": 4175,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-chat12-realperson-de",
+   "class": "A",
+   "feature": "unknown third-party host chat12.realperson.de",
+   "hint": "inspect",
+   "evidence": [
+    "chat12.realperson.de"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-cmp-promo-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot cmp-promo__placeholder",
+   "hint": "client-rendered",
+   "evidence": [
+    "Komm in die ERGO Fast Lane!",
+    "Ab 12,17 € monatlich Jetzt informieren",
+    "Z. B. 10,80 € monatlich Jetzt informieren",
+    "Unwetterschaden melden",
+    "Zum Geschäftskundenbereich",
+    "Ab 1,85 € monatlich Jetzt informieren Jetzt berechnen",
+    "Mehr erfahren Zur Krankenversicherung",
+    "Mehr erfahren Zur Berufsunfähigkeitsversicherung",
+    "Mehr erfahren Zur Augenzusatzversicherung",
+    "Mehr erfahren Zum Kieferorthopädie Sofortschutz",
+    "Mehr erfahren Zur Versicherung für Zahnersatz",
+    "Mehr erfahren Zur Versicherung für Zahnerhalt"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-ccw-column-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot ccw__column__placeholder",
+   "hint": "client-rendered",
+   "evidence": [
+    "Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen w",
+    "Gesundheit & WohlbefindenZahngesundheitMobilität & KfzFinanz",
+    "Highlight Komfort: SB-Reduzierung um 50%, max. um 2.500 EUR ",
+    "Premium: SB-Verzicht um bis zu 5.000 EUR im ersten Schadensf",
+    "Prävention Historie (Stand 01.21) Dateiname onepager-cyber-p"
+   ],
+   "pages": [
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/csrf/token.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json?1793205163 → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "i18n-locale-variants-de-de-de-de-de",
+   "class": "I18N",
+   "feature": "locale variants de,de,de,de,de",
+   "hint": "locale",
+   "evidence": [
+    "https://www.ergo.de/de",
+    "https://www.ergo.de/de/Service/Vermittlersuche"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-splide-list-18-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (18 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de/Ratgeber"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-splide-list-8-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (8 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-ul-6-cards",
+   "class": "L",
+   "feature": "listing candidate ul (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/Ratgeber"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-splide-list-13-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (13 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/Ratgeber"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Versicherungen & Finanzen",
+    "Service",
+    "Kontakt",
+    "Suche",
+    "Produkte für Geschäftskunden",
+    "Menü Hauptmenü schließen"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ],
+   "reach": {
+    "pages": 164,
+    "of": 10
+   }
+  },
+  {
+   "id": "s-site-search-form-content-ergo-ergo-one-ergo-one-portal-de-",
+   "class": "S",
+   "feature": "site search form → /content/ergo/ergo-one/ergo-one-portal/de/sonstige/suchergebnisse",
+   "hint": "search",
+   "evidence": [
+    "text:search"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 10
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "privacyportal-de.onetrust.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-rum-hlx-page",
+   "class": "T",
+   "feature": "unknown third-party host rum.hlx.page",
+   "hint": "inspect",
+   "evidence": [
+    "rum.hlx.page"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-assets-ergo-com",
+   "class": "T",
+   "feature": "unknown third-party host assets.ergo.com",
+   "hint": "inspect",
+   "evidence": [
+    "assets.ergo.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "edge.adobedc.net"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "amplify.outbrain.com",
+    "bat.bing.com",
+    "cdn.taboola.com",
+    "wave.outbrain.com",
+    "trc.taboola.com",
+    "tr.outbrain.com",
+    "pips.taboola.com",
+    "cm.g.doubleclick.net",
+    "bat.bing.net",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-scarabresearch-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.scarabresearch.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.scarabresearch.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-server-cnd-motionmedia-de",
+   "class": "T",
+   "feature": "unknown third-party host server.cnd-motionmedia.de",
+   "hint": "inspect",
+   "evidence": [
+    "server.cnd-motionmedia.de"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-trck-spoteffects-net",
+   "class": "T",
+   "feature": "unknown third-party host trck.spoteffects.net",
+   "hint": "inspect",
+   "evidence": [
+    "trck.spoteffects.net"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber",
+    "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-trck-ipv6-spoteffects-net",
+   "class": "T",
+   "feature": "unknown third-party host trck-ipv6.spoteffects.net",
+   "hint": "inspect",
+   "evidence": [
+    "trck-ipv6.spoteffects.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+   ],
+   "pages": [
+    "/",
+    "/de/Ratgeber"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 10,
+  "of": 10,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 10,
+   "GET www.ergo.de/libs/granite/csrf/token.json": 10,
+   "GET www.ergo.de/etc/segmentation.segment.js": 10,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/de.json": 10,
+   "GET www.ergo.de/etc/clientcontext/default/content/jcr:content/stores.init.js": 10,
+   "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCenterRounded.json": 10,
+   "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json": 10,
+   "GET cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCommonStyles.css": 10,
+   "GET pips.taboola.com/": 10,
+   "POST edge.adobedc.net/ee/or2/v1/interact": 10,
+   "GET tr.outbrain.com/unifiedPixel": 10,
+   "GET cds.taboola.com/": 10,
+   "POST www.google.com/ccm/collect": 10,
+   "POST www.google.com/rmkt/collect/{n}/": 10,
+   "GET recommender.scarabresearch.com/merchants/{hash}/": 7,
+   "POST bat.bing.com/p/insights/c/o": 7,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=8;ord=4823554372411;npa=0;auiddc=340528359.1793197285;u1=GewerbeAltersvorsorge;u3=GewerbeAltersvorsorge%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_hn1ub-LFAkub4kmWGHoeiHOQn05EeC0hTQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FBetriebliche-Altersversorgung": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLSAlsP03JcDFbsMhAgd_6wtYQ;src=10334510;type=visit0;cat=visit0;rcb=8;ord=4823554372411;npa=0;auiddc=340528359.1793197285;u1=GewerbeAltersvorsorge;u3=GewerbeAltersvorsorge%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_hn1ub-LFAkub4kmWGHoeiHOQn05EeC0hTQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FBetriebliche-Altersversorgung": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=17437148128477282556;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMeelbQsGczNcGwAEQOtQWokMJD2oiKEzkJQsDg;_dc_time=1793197305;cid=CAQS4gEAQM4h3KHkuV7UQl4wjWaQpJre6cLj_5TTPf0A_x-ifRapWPT-_jMNfwQQg7mk0bq0I_Dxvyxu4KqANux6Uc3mgIMws421kKIKJ369j9KpyT-P9C2KErnvQS853cLloe5xxJGP-ldcKHB902HMd3pIBTPM6tohdS9WiLATzBvsFYu6iw-QVGCjEYk4yYuPvQVtkm_9X8loR-hI78n-8igxJZbSGAGQRD0y1ZuS55SMHIUD2jilrrtaI6236Azi-249DfIHgoFeEtfjuspjYutLQ7QJ20x8-ApTkjeityyFXyKq;eps=AHas8cArp6dIukLzvMeQYnazrABCFqtJFLaGQWKqf01paUW4cVis7oFNRQupvOqlA0NkguTsci9mKty5auAJqtqlDqElpAyzpoET8QT3zun4zD4h8g;dc_pre=CLSAlsP03JcDFbsMhAgd_6wtYQ;src=10334510;type=visit0;cat=visit0;rcb=8;ord=4823554372411;npa=0;auiddc=340528359.1793197285;u1=GewerbeAltersvorsorge;u3=GewerbeAltersvorsorge%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_hn1ub-LFAkub4kmWGHoeiHOQn05EeC0hTQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FBetriebliche-Altersversorgung": 1,
+   "POST bat.bing.com/p/insights/c/g": 3,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=16;ord=8169922019989;npa=0;auiddc=1326892381.1793197285;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~118131810~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197305_DHH1UJDrc8AMe2ndOZXE5xNJVwAn8SxSyw;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FCyber-Versicherung-fuer-Unternehmen": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CNj-rsP03JcDFYYOhAgdaE8jpw;src=10334510;type=visit0;cat=visit0;rcb=16;ord=8169922019989;npa=0;auiddc=1326892381.1793197285;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~118131810~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197305_DHH1UJDrc8AMe2ndOZXE5xNJVwAn8SxSyw;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FCyber-Versicherung-fuer-Unternehmen": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=10422527887328969148;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMecc0tIQT2O8TLaEMuL5JLlMn5QY8qaOnXFYTg;_dc_time=1793197305;cid=CAQS4gEAQM4h3HyV-JXU30NwMuwtJjeoW4CfoW678DBmG0CMB_l0GDuzoM3pK9Eez-U9ztuZoVA3iJWwZtOrjVLwEnOB0G8i04HQEjdeg46XKTWGKhuCYsQhyLFad86uNm86cHOTJ1u1DOQ97CpY3oxOJuLUtpftCw8_Hz6AuLQlGA_j7G_B59IvHjh3rYcyQiYTzOME_Xk7OLJVQzid2DX6ye30ubnQDUsnau-6eaL659nFtxRcQgLCrJHUn5hJYNSnwezv-ol09Jn4kqvPukbwLPssSmXH_Kueok5jr-rpoYYn5W28;eps=AHas8cCO0FlRzTamHvyFjFw-XzydofgKAxAieDJqRuQ02BP24j0SFlASjkoUJ4Z_346vE-tYtKuHCE2gFVU65cWmo6zeNikRP-CLp3x08wKt_tT3ZQ;dc_pre=CNj-rsP03JcDFYYOhAgdaE8jpw;src=10334510;type=visit0;cat=visit0;rcb=16;ord=8169922019989;npa=0;auiddc=1326892381.1793197285;u1=GewerbeCyber;u3=GewerbeCyber%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~118131810~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197305_DHH1UJDrc8AMe2ndOZXE5xNJVwAn8SxSyw;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FCyber-Versicherung-fuer-Unternehmen": 1,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=7;ord=211724703358;npa=0;auiddc=431840622.1793197285;u1=GewerbeReise;u3=GewerbeReise%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~119381663~120213116~120385422~120412528~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197310_67kNp_lfxUx6RdQ2z0cvkX0gCGWGnzZepA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FDienstreiseversicherung": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CNDrgMb03JcDFWwOhAgdk-0qgg;src=10334510;type=visit0;cat=visit0;rcb=7;ord=211724703358;npa=0;auiddc=431840622.1793197285;u1=GewerbeReise;u3=GewerbeReise%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~119381663~120213116~120385422~120412528~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197310_67kNp_lfxUx6RdQ2z0cvkX0gCGWGnzZepA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FDienstreiseversicherung": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=13150137164065781231;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMed4_2Oy5Jk-fhgG1yMsT6aO4RxeD5HN-m31QA;_dc_time=1793197311;cid=CAQS4gEAQM4h3M7kjJBU3iqk17GsTZn_hNS9TwiUe-0xf8LNE8eDpur9G-bAWFj5sxEWgEhsg6yMCfYGzvZHWNHg8Y6kyFkkHMfZXxgiYJI2_qVkLSa74PsloFzd-3ilPdOktuvihS5qjAILG-eeThDAly6vVg41IkP18Jj0-6qMH4NkU5zSsbkgWW6qkWsaIMj-rGhHnncoIFdh0PUZFT-cHNWqQNGDJ8jHaB-hXClrVFWPRtOWRylInO63Q7KkOcqPBXA_yucYKcG6seQrnF-FJ1biTuIxzYNiIXE-NfHV2ZU27RCP;eps=AHas8cBhCA0V6mPZFdGW024LbTQlQ1-XBdLeK08rF1eioUlsY_3AS40TiZ4kRDpN0VfV3vdSXMClrtYVrMZV4aaVH8frr-3mu6_mY10CaIRoIyRSlw;dc_pre=CNDrgMb03JcDFWwOhAgdk-0qgg;src=10334510;type=visit0;cat=visit0;rcb=7;ord=211724703358;npa=0;auiddc=431840622.1793197285;u1=GewerbeReise;u3=GewerbeReise%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~119381663~120213116~120385422~120412528~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197310_67kNp_lfxUx6RdQ2z0cvkX0gCGWGnzZepA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FDienstreiseversicherung": 1,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 6,
+   "POST edge.adobedc.net/ee/v1/privacy/set-consent": 3,
+   "POST ad.doubleclick.net/ccm/s/collect": 3,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=4;ord=1577715605068;npa=0;auiddc=431840622.1793197285;u1=Gewerbe;u3=Geschaeftskunden%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~118897920~118897930~119381663~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_YGpzkTCSOtk_8dXb5TqNLD80Jin_epB6Kg;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLmWgrr03JcDFRQNhAgd72wnnQ;src=10334510;type=visit0;cat=visit0;rcb=4;ord=1577715605068;npa=0;auiddc=431840622.1793197285;u1=Gewerbe;u3=Geschaeftskunden%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~118897920~118897930~119381663~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_YGpzkTCSOtk_8dXb5TqNLD80Jin_epB6Kg;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=6646224599073212388;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMef9BTeYNMvwx6vrCU72oWRzRbNg4qgFj2Tm2A;_dc_time=1793197286;cid=CAQS4gEAQM4h3IJXUdH3_l2OernQ9-0H2orFe38wnjtbuyCX13XKaCTWlINlNhW17KztwvXR_uVKP5po-T6lcRFr2ObkFKaIkqmuDHLfWw_n3y18vw7NVD8nE9eTL-k1T92Cs_BwuL7FBudkJOx_RSCowdrv-FuPFF0_bLVxltNtuSYEVx_TDCNeyQseKygh1u2A2r_t_R3hEZ36sIO5Q2vrzyuBuJhWxQ6gHtZ8ZhRzMu8421jFennkBb9s982YxJ4v6uds-pl_hO3jnfTiKbYR9OVtkLleDrqnwr7bx_ko8XOh0yUn;eps=AHas8cBjVyFymnPjFza9L61C1wFHQHdVB8fnRlaTdxjFweJic8ULRQuN6CKWmvAAGRo2yUlYa_Hz_ju09-8oSPJmQCUDq-ifU0tzqRjYo6XX9vorHw;dc_pre=CLmWgrr03JcDFRQNhAgd72wnnQ;src=10334510;type=visit0;cat=visit0;rcb=4;ord=1577715605068;npa=0;auiddc=431840622.1793197285;u1=Gewerbe;u3=Geschaeftskunden%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938469~118897920~118897930~119381663~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_YGpzkTCSOtk_8dXb5TqNLD80Jin_epB6Kg;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte": 1,
+   "POST chat12.realperson.de/api/embed/config": 6,
+   "POST chat12.realperson.de/api/embed/status": 6,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=10;ord=7840632077297;npa=0;auiddc=340528359.1793197285;u1=AlleProdukte;u3=AlleProdukte%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_TFd0bEPAdTvIgudvWGHa8xhREOr4xjb3EQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FProdukte": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CJrs5b703JcDFcAMhAgdxbMffQ;src=10334510;type=visit0;cat=visit0;rcb=10;ord=7840632077297;npa=0;auiddc=340528359.1793197285;u1=AlleProdukte;u3=AlleProdukte%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_TFd0bEPAdTvIgudvWGHa8xhREOr4xjb3EQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FProdukte": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=4796610273309610565;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMefDsUPOqLQk4Rd6tM5kw5rqkEqLptz6r5mX9Q;_dc_time=1793197296;cid=CAQS4gEAQM4h3FqrR35MY7fwCPFLy_-aYN67YEAbclQijYvez-sMM37H-2q2kwZYcjIMrCDaOi72qmDqQGEDjVNcjJjoqQ03i1w5FhzGs-w0Kgfjmg8OjXRz_n_CvQJ0QNf6BL7hwwF6gELo1KGXryha7w80LBC8IA5uIdWk6ZRIU2KQTKjO771xjJrjyetXbFjVMnsdVW4jvWgS7Vs_WjjIxNNqCU4Z8QX1TQCPvuUXsS1-ZtSp4Xo5Gq7JrqrHDLqgqrWcLc8jkU-Lktahpeidb58v47dE6XisHcf6LZ10dV7Zq5i2;eps=AHas8cB0ehA-9ZG7ZpV1MO__j-SYI3NkirgIttFaHtfAQBwzj5ZuNABUjYk06H2waLD71dIlhUWmd7XjUAiGTuUbLub9b595MAOCP_zSdCCCAKOsIA;dc_pre=CJrs5b703JcDFcAMhAgdxbMffQ;src=10334510;type=visit0;cat=visit0;rcb=10;ord=7840632077297;npa=0;auiddc=340528359.1793197285;u1=AlleProdukte;u3=AlleProdukte%3AKatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776795~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_TFd0bEPAdTvIgudvWGHa8xhREOr4xjb3EQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FProdukte": 1,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=5;ord=9897627290302;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_QcdUD-swDRZwB5IMseFiIn4arohzDHUYGQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CL775b703JcDFTcOhAgdazEn3A;src=10334510;type=visit0;cat=visit0;rcb=5;ord=9897627290302;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_QcdUD-swDRZwB5IMseFiIn4arohzDHUYGQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=18352489479572465021;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMeeP7yD8VR3uGOhZSqeB0w2Qv6QzGpyOG0jcRg;_dc_time=1793197296;cid=CAQS4gEAQM4h3N6-A4MLbIg8IfepoSBmEflPALcZK6M-_9d_rA-XgDtxcA6oTtp8jOAe1SdLOilNHOJT8q4mF2a1Piv2IDmMnXhaiX5xzandlFNGs8-XBnJAT1OQ4rgG3OHu1F0-8IK6k-4Pimwwy8t3VikoWFnWhXlot5psTJ03agO675dOWxlh9OTykARfumaT_CavFpydLdcEYum8lCJXFKmymt3aGgWocDQtam8Zv-LR6ORHGH5tpOTzwQBEVskDEqOO-xzP2LOmLLJC7fW68TpCMPgLJZiGuOi_fbjou6xwqWib;eps=AHas8cCAl2EHf2UKH0oJbBj1jyNPDqSXBLqttkmYPcdP0wvA57AH5zhrYoHcRIzJl25jelVZHkJDz-lrAOaG00x5OOyd0ODgbPgCOTPnODTCzfojIg;dc_pre=CL775b703JcDFTcOhAgdazEn3A;src=10334510;type=visit0;cat=visit0;rcb=5;ord=9897627290302;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=RatEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620777;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197295_QcdUD-swDRZwB5IMseFiIn4arohzDHUYGQ;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FRatgeber": 1,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=11;ord=521203644732;npa=0;auiddc=431840622.1793197285;u1=rsfa;u3=RPEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~119381663~120213116~120385423~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197294_-Tti71AiBN2Cen5g_OdrdHMAvPt3fq-GyA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2Frechtsportal": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CPaYmb703JcDFUsNhAgdE-0SdA;src=10334510;type=visit0;cat=visit0;rcb=11;ord=521203644732;npa=0;auiddc=431840622.1793197285;u1=rsfa;u3=RPEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~119381663~120213116~120385423~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197294_-Tti71AiBN2Cen5g_OdrdHMAvPt3fq-GyA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2Frechtsportal": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=3224039173872547551;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMedh7wNRYRIfzcA6qQ7lfo9VA7DVmTWmT9joYQ;_dc_time=1793197294;cid=CAQS4gEAQM4h3A54NoAx7nswddLhvK0B5NT2GHkXggtoidlU7QN7WzQLCaEBd9ghx6KyYJBawnrLrrCh7jKhVxaKgEA0DZBMFKrdZXLZxIbGAlfsV31q58Jn__ckdx1AmZLSRynPTcs3GTsuU7pVjQkfD6NPjfmqNuXdyeKglLmEnNAtwTRy_Mgki_jPChmjVCVGM0Bvh2Dd52uLcg17jsif0BG5KnjqQHbo13EQKuwPLokFWl6qaVzxbWY2Y1Oputj9uW059V9WXUs8oc2UvKha42tGDIOVw-Wo2jm37W1kv1xg4rF2;eps=AHas8cBClPZ2z0o93EVlOUBGs3Q4vFOrz1TS9075m1QYwHcq050eYNt2x-5cwfcjxx_ZgewWjU04xOdr9DHKXZF5KPOKBFO0UEDuLu7jnTCmsLqQ0A;dc_pre=CPaYmb703JcDFUsNhAgdE-0SdA;src=10334510;type=visit0;cat=visit0;rcb=11;ord=521203644732;npa=0;auiddc=431840622.1793197285;u1=rsfa;u3=RPEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~119381663~120213116~120385423~120469145~120469153~121246026~121246034~123620776;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197294_-Tti71AiBN2Cen5g_OdrdHMAvPt3fq-GyA;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2Frechtsportal": 1,
+   "GET googleads.g.doubleclick.net/pagead/id": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 1,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=14;ord=1309628493007;npa=0;auiddc=431840622.1793197285;u1=undefined;u3=ServiceEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119381663~119793972~120213116~120385423~120420414~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_-JaELQP0lv4PbFGPzn1HPokAuDaz_7Pd_g;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FService": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CPOL98L03JcDFSUNhAgdoCo96g;src=10334510;type=visit0;cat=visit0;rcb=14;ord=1309628493007;npa=0;auiddc=431840622.1793197285;u1=undefined;u3=ServiceEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119381663~119793972~120213116~120385423~120420414~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_-JaELQP0lv4PbFGPzn1HPokAuDaz_7Pd_g;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FService": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=11748409469252033849;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMec6tfiJNB9AQvoICYctWrp5NuEX4vlqrERd3A;_dc_time=1793197304;cid=CAQS4gEAQM4h3E9d_xyctRg8mNa-cSLlcWf8MvqePdsI10BcBI90BAFblKRqZAU3-h3E-shrW5b-rLbNMpx62CcuXsxSvUTEVLaNorAFzmrQ_lKOpNgswV2ziE3mFnmI2iSzbP46zIYW1bTrpv-_RUwRcSeTlROpExRp_jUZDdFOH2AN5oEh4aKQRf15efGtXQRvK2owGGC86e_DwqDM6KJT3Feae9VviHbVU9bwuLogGcFfvyNEYsoVsgumBLYs2Wt62-4HYhFWwqxt_jzwKgCyYqCUh2bTbuyQ6GId7EVybp3NheYJ;eps=AHas8cCsC41n0XyzPYDN0Ld2d7k7gd5P1HbHJPh79ZhOqhPt2vu-1DqTa0Yt9ZNFNXkPLaOKqZy5EKL6FCrSLYa0meAhKaDdPlFRHh3k4Hdpo_rZjQ;dc_pre=CPOL98L03JcDFSUNhAgdoCo96g;src=10334510;type=visit0;cat=visit0;rcb=14;ord=1309628493007;npa=0;auiddc=431840622.1793197285;u1=undefined;u3=ServiceEinstieg;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~119381663~119793972~120213116~120385423~120420414~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197304_-JaELQP0lv4PbFGPzn1HPokAuDaz_7Pd_g;~oref=https%3A%2F%2Fwww.ergo.de%2Fde%2FService": 1,
+   "POST www.youtube.com/youtubei/v1/log_event": 1,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json": 2,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json": 2,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahn-ziehen/jcr:content.articledata.json": 1,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json": 2,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnersatz/jcr:content.articledata.json": 1,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json": 2,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json": 2,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json": 2,
+   "POST privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous": 2,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=11;ord=3741024324663;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_Yk3twC9DBMiYI_90QcsMfEhv0zCJLxIEqg;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CNDSg7r03JcDFYhb4QYdqygcCA;src=10334510;type=visit0;cat=visit0;rcb=11;ord=3741024324663;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_Yk3twC9DBMiYI_90QcsMfEhv0zCJLxIEqg;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=16409336048112849656;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMecBj1XmisnCm8owbs5c5LD-P4W72rQrIQBWvA;_dc_time=1793197286;cid=CAQS4gEAQM4h3MRy7Y2GgjUAxiz5x2ytAJJ81-WclCDf8YDiHVZcFtcKN_JP-zX5TMxIg81azgrA2bnE2s0bCCTA9FVLDgY3P_r6vLTCEB_X-mwKQMM_Op3P8BzMHLZSbaScENTkbMoDV9vME58eLYhu19gHXzZqA8d1ERN3PowGHjRO_SRCmtnhW5APemZ1v-tPLWSTkymQIWORtP2EOvpIUBfyT2g5WwrthBxy2iJy53q0o1nGEz9qn1sdn12Hn3HvKd-_96Hzyc7kJXjH-7L_6tWna9tfqoeHFx4wWI7CJRDILmvb;eps=AHas8cCrL9k68k3K_cplcp9gEURT62lDQduTLpv5TuM2-NC2PuSmpLWI974pKXYo3mZTFHrLsl47tjEw5z-FIpZzZHZiZqEUQlOe8qG_9gABCrsyig;dc_pre=CNDSg7r03JcDFYhb4QYdqygcCA;src=10334510;type=visit0;cat=visit0;rcb=11;ord=3741024324663;npa=0;auiddc=1326892381.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118131810~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_Yk3twC9DBMiYI_90QcsMfEhv0zCJLxIEqg;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1,
+   "GET trc-events.taboola.com/{n}/log/{n}/unip": 1,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json": 1,
+   "GET www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json": 1,
+   "POST ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=18428517123989351943;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMecdsxSqbGiMFis8xpCkMfXpj6YCjB6Gmyrdig;_dc_time=1793197286;cid=CAQS4gEAQM4h3P4QgvPoNHP8ocF1WTmCFRhVJZ7HB-W1BTFkYTbxKbWWck5yEhZRSrH8zJwvh0eVxLy_YY9ZLjJL6o6-sdlK6H-YLjsVt4kSRZXTS43nHEyH9MMarrg78BTosOwyzrvsIG96V8fUNtf_eEeImKFQplAxTRZ_1bJyM6YpReGeALQd-PnPx3cFpY0Y6LvaHYdjdj_qPajSJgTUDTZitEKDrkhOuxnfsQRbgbrllxbe_vO8mZATgUw0yzbo0YwYez54icy2MToafRxJBaqNDyZ_mZUg3afSHg21ljMcdZ26;eps=AHas8cC-56X4Roe7lTowmqcPo_k0hA-FZ66Apprv4INkjBcgPf3WiFxQOBdzZ76BLQBSB53SPxJmt6_UOLCRmDEBxwGNb6q50olpEKAksqshYazCBQ;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 164
+  }
+ }
+}

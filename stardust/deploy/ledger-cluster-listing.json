@@ -1,0 +1,11 @@
+{
+  "/de/rechtsportal": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:09:29.279Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

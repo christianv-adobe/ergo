@@ -1,0 +1,1373 @@
+{
+  "archetype": "https://www.ergo.de/",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".cmp-hero",
+    "text": ".cmp-text",
+    "promo": ".cmp-promo",
+    "carousel": ".cmp-carousel__container",
+    "tile": ".cmp-tile",
+    "article": ".cmp-articleTeaser",
+    "ekomi": ".cmp-ekomi",
+    "cta": ".cmp-cta",
+    "benefits": ".benefits",
+    "accordion": ".cmp-accordion"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "esc_container.grid-container",
+        "h": 6552
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".cmp-hero",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 521
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 224, 203)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+          "image": {
+            "w": 720,
+            "h": 521
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Zahnzusatzversicherungen im Vergleich Wer zuletzt lacht – is"
+      },
+      "text": {
+        "sel": ".cmp-text",
+        "count": 59,
+        "first": {
+          "rect": {
+            "w": 540,
+            "h": 23
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 8,
+        "text": "Zahnzusatzversicherungen im Vergleich"
+      },
+      "promo": {
+        "sel": ".cmp-promo",
+        "count": 12,
+        "first": {
+          "rect": {
+            "w": 395,
+            "h": 640
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": {
+            "w": 393,
+            "h": 262
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 4,
+        "text": "Gewinne ein iPhone 18 Die ERGO Fast Lane zum Altersvorsorged"
+      },
+      "carousel": {
+        "sel": ".cmp-carousel__container",
+        "count": 7,
+        "first": {
+          "rect": {
+            "w": 1256,
+            "h": 672
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 393,
+            "h": 262
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 3,
+        "text": "Gewinne ein iPhone 18 Die ERGO Fast Lane zum Altersvorsorged"
+      },
+      "tile": {
+        "sel": ".cmp-tile",
+        "count": 12,
+        "first": {
+          "rect": {
+            "w": 604,
+            "h": 110
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "24px 80px 24px 104px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": {
+            "w": 48,
+            "h": 48
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 5,
+        "text": "Risikolebensversicherung Für alle, die Ihnen am Herzen liege"
+      },
+      "article": {
+        "sel": ".cmp-articleTeaser",
+        "count": 18,
+        "first": {
+          "rect": {
+            "w": 395,
+            "h": 408
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(245, 225, 235)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "48px 32px 48px 32px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 5,
+        "text": "Weisheitszähne ziehen lassenDie letzten in der ReiheWeisheit"
+      },
+      "ekomi": {
+        "sel": ".cmp-ekomi",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1232,
+            "h": 297
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/16px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Ich bin sehr zufrieden mit der Zusatzversicherung. Habe bis "
+      },
+      "cta": {
+        "sel": ".cmp-cta",
+        "count": 38,
+        "first": {
+          "rect": {
+            "w": 1232,
+            "h": 48
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 4,
+        "text": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück"
+      },
+      "benefits": {
+        "sel": ".benefits",
+        "count": 0
+      },
+      "accordion": {
+        "sel": ".cmp-accordion",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 330,
+            "h": 448
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h4 fs me 20px/32px 700 rgb(51, 51, 51)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Versicherungen & Finanzen Zahnzusatzversicherung Reiseversic"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ergo.de/de",
+      "findings": [],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 6552
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 521
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 224, 203)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": {
+                "w": 720,
+                "h": 521
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Zahnzusatzversicherungen im Vergleich Wer zuletzt lacht – is"
+          },
+          "text": {
+            "sel": ".cmp-text",
+            "count": 59,
+            "first": {
+              "rect": {
+                "w": 540,
+                "h": 23
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 8,
+            "text": "Zahnzusatzversicherungen im Vergleich"
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 395,
+                "h": 640
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 393,
+                "h": 262
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 4,
+            "text": "Gewinne ein iPhone 18 Die ERGO Fast Lane zum Altersvorsorged"
+          },
+          "carousel": {
+            "sel": ".cmp-carousel__container",
+            "count": 7,
+            "first": {
+              "rect": {
+                "w": 1256,
+                "h": 672
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 393,
+                "h": 262
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Gewinne ein iPhone 18 Die ERGO Fast Lane zum Altersvorsorged"
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 604,
+                "h": 110
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 104px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 48,
+                "h": 48
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 5,
+            "text": "Risikolebensversicherung Für alle, die Ihnen am Herzen liege"
+          },
+          "article": {
+            "sel": ".cmp-articleTeaser",
+            "count": 18,
+            "first": {
+              "rect": {
+                "w": 395,
+                "h": 408
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 225, 235)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "48px 32px 48px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 5,
+            "text": "Geplante Zahnbehandlung im AuslandGut vorbereitetWer beim Th"
+          },
+          "ekomi": {
+            "sel": ".cmp-ekomi",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1232,
+                "h": 297
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/16px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Ich hatte eine kleine Zahnfüllung erhalten. Rechnung per E-M"
+          },
+          "cta": {
+            "sel": ".cmp-cta",
+            "count": 38,
+            "first": {
+              "rect": {
+                "w": 1232,
+                "h": 48
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 4,
+            "text": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".cmp-accordion",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 330,
+                "h": 448
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h4 fs me 20px/32px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Versicherungen & Finanzen Zahnzusatzversicherung Reiseversic"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 6552→3902"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 521 → 360}; backgroundColor rgb(255, 224, 203) → rgb(245, 225, 235); image{h 521 → 360}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "text",
+          "msg": "59 → 30 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "text",
+          "msg": "8 → 7 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{w 540 → 648}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "12 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "4 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{w 395 → 864, h 640 → 316}; image{w 393 → 345, h 262 → 314}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "carousel",
+          "msg": "7 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "carousel",
+          "msg": "3 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "carousel",
+          "msg": "rect{w 1256 → 888, h 672 → 664}; image{w 393 → 270, h 262 → 180}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "tile",
+          "msg": "12 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "tile",
+          "msg": "5 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "tile",
+          "msg": "rect{w 604 → 272, h 110 → 338}; padding 24px 80px 24px 104px → 48px 32px 48px 32px"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "article",
+          "msg": "\".cmp-articleTeaser\" matches 18 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "ekomi",
+          "msg": "\".cmp-ekomi\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cta",
+          "msg": "38 → 8 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "cta",
+          "msg": "4 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cta",
+          "msg": "rect{w 1232 → 285}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "benefits",
+          "msg": "\".benefits\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "accordion",
+          "msg": "4 → 5 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "accordion",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "accordion",
+          "msg": "rect{w 330 → 864, h 448 → 280}; heading h4 fs me 20px/32px 700 rgb(51, 51, 51) → h2 fs me 16px/24px 400 rgb(51, 51, 51)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 3902
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 360
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 225, 235)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": {
+                "w": 720,
+                "h": 360
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Gewerbe-Versicherungen Willkommen im ERGO Geschäftskunden-Be"
+          },
+          "text": {
+            "sel": ".cmp-text",
+            "count": 30,
+            "first": {
+              "rect": {
+                "w": 648,
+                "h": 23
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 7,
+            "text": "Gewerbe-Versicherungen"
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 316
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 345,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Gewerbe-Haftpflichtversicherung Wer einem anderen einen Scha"
+          },
+          "carousel": {
+            "sel": ".cmp-carousel__container",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 888,
+                "h": 664
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 270,
+                "h": 180
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Cyber-Versicherung Datenverlust oder Cyber-Bedrohungen sind "
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 272,
+                "h": 338
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "48px 32px 48px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 48,
+                "h": 48
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mo–Sa 7–20 Uhr (gebührenfrei) Rufen Sie an. 0800 / 3746 095"
+          },
+          "article": {
+            "sel": ".cmp-articleTeaser",
+            "count": 0
+          },
+          "ekomi": {
+            "sel": ".cmp-ekomi",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".cmp-cta",
+            "count": 8,
+            "first": {
+              "rect": {
+                "w": 285,
+                "h": 48
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "ERGO Berater finden"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 888,
+                "h": 326
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 12px 24px 12px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 32,
+                "h": 32
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Berufsunfähigkeitsschutz mit Krankentagegeld Eine Kombinatio"
+          },
+          "accordion": {
+            "sel": ".cmp-accordion",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 280
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 fs me 16px/24px 400 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Geschäftsinhaltsversicherung Schützen Sie Ihr Inventar gegen"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ergo.de/de/Produkte",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 6552→11978"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 521 → 360}; backgroundColor rgb(255, 224, 203) → rgb(254, 246, 210); image{h 521 → 360}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "text",
+          "msg": "59 → 69 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "text",
+          "msg": "8 → 4 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{w 540 → 648}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "12 → 13 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "4 → 7 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{w 395 → 1232, h 640 → 300}; backgroundColor rgb(255, 255, 255) → rgb(235, 230, 216); image{w 393 → 493, h 262 → 300}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "carousel",
+          "msg": "7 → 12 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "carousel",
+          "msg": "3 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "carousel",
+          "msg": "rect{h 672 → 490}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "tile",
+          "msg": "12 → 59 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "tile",
+          "msg": "5 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "tile",
+          "msg": "rect{h 110 → 96}; padding 24px 80px 24px 104px → 24px 80px 24px 32px; image [object Object] → null"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "article",
+          "msg": "\".cmp-articleTeaser\" matches 18 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "ekomi",
+          "msg": "\".cmp-ekomi\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cta",
+          "msg": "38 → 23 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "cta",
+          "msg": "4 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cta",
+          "msg": "rect{w 1232 → 326}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 11978
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 360
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(254, 246, 210)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": {
+                "w": 720,
+                "h": 360
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Alle ERGO Produkte entdecken Das ganze Angebot auf einen Bli"
+          },
+          "text": {
+            "sel": ".cmp-text",
+            "count": 69,
+            "first": {
+              "rect": {
+                "w": 648,
+                "h": 23
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 4,
+            "text": "Alle ERGO Produkte entdecken"
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 13,
+            "first": {
+              "rect": {
+                "w": 1232,
+                "h": 300
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(235, 230, 216)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 493,
+                "h": 300
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 7,
+            "text": "Bis 31.12.2026 Jetzt ERGO Sterbegeldvorsorge online oder tel"
+          },
+          "carousel": {
+            "sel": ".cmp-carousel__container",
+            "count": 12,
+            "first": {
+              "rect": {
+                "w": 1256,
+                "h": 490
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Dental-Vorsorge für Zahnerhalt mehr lesen Dental-Schutz für "
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 59,
+            "first": {
+              "rect": {
+                "w": 604,
+                "h": 96
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Dental-Vorsorge für Zahnerhalt mehr lesen"
+          },
+          "article": {
+            "sel": ".cmp-articleTeaser",
+            "count": 0
+          },
+          "ekomi": {
+            "sel": ".cmp-ekomi",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".cmp-cta",
+            "count": 23,
+            "first": {
+              "rect": {
+                "w": 326,
+                "h": 48
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Abschließen und gewinnen"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".cmp-accordion",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 330,
+                "h": 448
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h4 fs me 20px/32px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Versicherungen & Finanzen Zahnzusatzversicherung Reiseversic"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ergo.de/de/Service",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 6552→8389"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 521 → 455}; image{h 521 → 455}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "text",
+          "msg": "59 → 57 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "text",
+          "msg": "8 → 6 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{w 540 → 648}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "12 → 13 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "4 → 9 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{h 640 → 336}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "carousel",
+          "msg": "7 → 11 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "carousel",
+          "msg": "rect{h 672 → 368}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "tile",
+          "msg": "12 → 43 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "tile",
+          "msg": "5 → 7 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "tile",
+          "msg": "rect{w 604 → 395, h 110 → 146}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "article",
+          "msg": "\".cmp-articleTeaser\" matches 18 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "ekomi",
+          "msg": "\".cmp-ekomi\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cta",
+          "msg": "38 → 14 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "cta",
+          "msg": "4 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cta",
+          "msg": "rect{w 1232 → 312}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 8389
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 455
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 224, 203)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": {
+                "w": 720,
+                "h": 455
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Services Zeit und Geld sparen mit den Services von ERGO Viel"
+          },
+          "text": {
+            "sel": ".cmp-text",
+            "count": 57,
+            "first": {
+              "rect": {
+                "w": 648,
+                "h": 23
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 fs me 18px/23.4px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 6,
+            "text": "Services"
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 13,
+            "first": {
+              "rect": {
+                "w": 395,
+                "h": 336
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 9,
+            "text": "Meldungen Schaden- oder Leistungsfall melden Melden Sie Erei"
+          },
+          "carousel": {
+            "sel": ".cmp-carousel__container",
+            "count": 11,
+            "first": {
+              "rect": {
+                "w": 1256,
+                "h": 368
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Meldungen Schaden- oder Leistungsfall melden Melden Sie Erei"
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 43,
+            "first": {
+              "rect": {
+                "w": 395,
+                "h": 146
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 104px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 48,
+                "h": 48
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 7,
+            "text": "Ihr Vertrag: einsehen, verwalten, ändern, temporären / begle"
+          },
+          "article": {
+            "sel": ".cmp-articleTeaser",
+            "count": 0
+          },
+          "ekomi": {
+            "sel": ".cmp-ekomi",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".cmp-cta",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 312,
+                "h": 48
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Zum Kundenportal"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".cmp-accordion",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 330,
+                "h": 448
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h4 fs me 20px/32px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Versicherungen & Finanzen Zahnzusatzversicherung Reiseversic"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 4,
+    "varying": 3,
+    "probesVarying": [
+      "SECTION HEIGHTS",
+      "hero",
+      "text",
+      "promo",
+      "carousel",
+      "tile",
+      "article",
+      "ekomi",
+      "cta",
+      "benefits",
+      "accordion"
+    ]
+  }
+}

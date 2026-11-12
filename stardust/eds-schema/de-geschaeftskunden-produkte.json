@@ -1,0 +1,576 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-geschaeftskunden-produkte-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Gewerbe-Versicherungen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Willkommen im ERGO Geschäftskunden-Bereich"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unternehmer und Geschäftsführer tragen große Verantwortung für ihr Unternehmen. Dazu gehört auch eine passgenaue Absicherung. Deshalb bietet ERGO Geschäftskunden eine breit gefächerte Produktpalette und ausgezeichnete Beratung – für passende Versicherungslösungen und maximalen Schutz. Es erwarten Sie immer neue Versicherungslösungen und ein regelmäßig aktualisiertes Produktportfolio. Gewinnen Sie hier einen Überblick über die Produkt-Highlights."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "ERGO schützt, was Sie aufgebaut haben"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sie bekommen Versicherungsschutz für , die , , , , sowie , oder . Im Blickfeld ist auch Ihr , Ihre und Ihre ."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "betriebliche Risiken",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Gewerbe-Haftpflicht",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Vermögensschaden-Haftpflichtversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Vermoegensschadenhaftpflichtversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Sach- und Inhaltsversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Transportversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Transportversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Technische Versicherungen",
+     "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Cyber-",
+     "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Flottenversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/flottenversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Recht",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Gesundheit",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Altersabsicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Sie können außerdem auch ungewöhnliche Risiken absichern. Beispielsweise durch eine oder eine"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Kautionsversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Kautionsversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Firmen-Kunstversicherung",
+     "href": "/de/Geschaeftskunden-Produkte/Firmen-Kunstversicherung"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Sie genießen Service, auf den Sie sich verlassen können und individuelle Betreuung."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Sie werden durch umfassende Serviceleistungen und persönliche Beratung immer unterstützt."
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Welche Versicherung brauchen Sie unbedingt?"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Um diese Frage zu beantworten, sollten Sie sich fragen: Was ist das größte Risiko für mein Unternehmen? Die Schäden, die so groß sind, dass sie Ihre Existenz gefährden, sollten in jedem Fall gut abgedeckt sein. Natürlich sind auch weitere Gefahren für Ihr Unternehmen, für Ihre Mitarbeiter und Sie selbst zu beachten. ERGO hilft Ihnen bei der Bewertung und Einordnung dieser Risiken und finden den für Sie passenden Schutz."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Sie können folgende Überlegungen zugrunde legen:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Fehler passieren auch den Profis. Für die Absicherung von Schäden, die Sie anderen zufügen könnten, benötigen Sie einen Haftpflicht-Schutz."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Haben Sie Betriebsinhalte, dann sollten diese ebenfalls ausreichend geschützt werden"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Und Sie brauchen Rückendeckung im Fall der Fälle: Eine Rechtsschutzversicherung ist daher sinnvoll"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Je nach Gewerbe sind weitere Versicherungen notwendig und ratsam. Diese richten sich nach dem Umfang des Betriebes und den möglichen Schäden, die entstehen können."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Mit all diesen Fragen lässt ERGO Sie nicht alleine. Vertrauen Sie auf individuelle Beratung und Begleitung."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 11,
+      "imgs": 0,
+      "textRuns": 11
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Gewerbe-Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wer einem anderen einen Schaden zufügt, ist gesetzlich zum Schadensersatz verpflichtet, egal, wie hoch er ist. Als Unternehmer stehen Sie außerdem für die Handlungen Ihrer Mitarbeiter ein."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Produkt",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Cyber-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Datenverlust oder Cyber-Bedrohungen sind nur einige der möglichen Szenarien. Die ERGO Cyber-Versicherung bzw. die ERGO Cyber-Versicherung Kompakt unterstützt Sie dabei, Ihren Geschäftsbetrieb schnell fortzusetzen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Produkt",
+     "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Top Produkt"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Geschäftsinhaltsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Viele Verbesserungen, einfache Prozesse und ein fairer Preis: Rundum Sicherheits-Garantie. 10 % beitragsfreie Vorsorge. Quotelungs- und Unterversicherungsverzicht."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Zum Produkt",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Gewerbliche Gebäudeversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ein Schaden am gewerblichen Gebäude kann unvorhersehbare Folgen haben. ERGO sichert Sie individuell ab. Ganz gleich, ob Sie Ihre Immobilie selbst nutzen oder vermieten."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Zum Produkt",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Das ist besonders in der ERGO Geschäftskunden-Produktpalette"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Berufsunfähigkeitsschutz mit Krankentagegeld"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Eine Kombination, die Sinn macht: Berufsunfähigkeits­schutz mit Krankentagegeld. Einfach und verwaltungsarm. Mit allen Steuervorteilen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Kautionsversicherung für jede Unternehmensgröße"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Die ERGO Kautionsversicherung bietet für jede Unternehmensgröße die passende Avallösung. Im Maschinen- und Anlagenbau kann ein Avalrahmen zu 100 % für Anzahlungsavale genutzt werden (entsprechende Bonität vorausgesetzt)."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.benefits__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die beliebtesten Produkte der Geschäftskunden von ERGO"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Geschäftsinhaltsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schützen Sie Ihr Inventar gegen Feuer, Diebstahl und mehr. ERGO erstattet Schäden zum Neuwert. Und Sie erhalten einen besonderen Schutz vor Unterversicherung."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "mehr >",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Gewerbe-Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schützen Sie sich mit der Gewerbe-Haftpflichtversicherung von ERGO für kleine und mittelständische Unternehmen sowie Selbstständige."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr >",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Betriebliche Altersversorgung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mit der betrieblichen Altersversorgung machen Sie Ihr Unternehmen attraktiv für Mitarbeiter und können zudem Lohnnebenkosten sparen."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "mehr >",
+     "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Rechtsschutz für Selbstständige und Unternehmer"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Für Selbstständige bzw. Unternehmer sollte das Thema Absicherung nicht zu kurz kommen. Für passenden Schutz sorgt der ERGO Rechtsschutz mit einer Absicherung, die Ihren Bedarf in den Mittelpunkt stellt."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr >",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Nicht sicher, was Sie benötigen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dann lassen Sie sich helfen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Mo–Sa 7–20 Uhr (gebührenfrei)"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rufen Sie an."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gleich Termin vereinbaren."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Per E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "E-Mail schreiben",
+     "href": "/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,4042 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--856f1bba--aemcoder.aem.live/",
+ "at": "2026-10-28T23:29:43.451Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "#MainNavi",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://main--856f1bba--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      24,
+      12,
+      85,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Log-in",
+     "key": "login",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+     "expanded": null,
+     "rect": [
+      198,
+      12,
+      48,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Anrufen 0800 / 3746 095 Mo–Sa 7–20 Uhr (gebührenfrei)",
+     "key": "anrufen 0800 3746 095 mosa 720 uhr gebührenfrei",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>div>a",
+     "href": "tel:08003746095",
+     "expanded": null,
+     "rect": [
+      258,
+      12,
+      48,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Menü",
+     "key": "menü",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>button:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      318,
+      12,
+      48,
+      48
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "0800 / 3746 095 Mo–Sa 7–20 Uhr (gebührenfrei)",
+          "href": "tel:08003746095"
+         },
+         {
+          "text": "ERGO Berater finden",
+          "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+         },
+         {
+          "text": "Kundenportal Log-in",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Suche starten",
+         "Versicherungen & Finanzen",
+         "Service",
+         "Kontakt"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         73,
+         390,
+         771
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "390-001-Men--click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "0800 / 3746 095 Mo–Sa 7–20 Uhr (gebührenfrei)",
+          "href": "tel:08003746095"
+         },
+         {
+          "text": "ERGO Berater finden",
+          "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+         },
+         {
+          "text": "Kundenportal Log-in",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Suche starten",
+         "Versicherungen & Finanzen",
+         "Service",
+         "Kontakt"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         73,
+         390,
+         771
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "390-002-Men--key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Suchbegriff eingeben",
+       "key": "suchbegriff eingeben",
+       "role": "input",
+       "kind": "search",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>div>div>div>form>div>input",
+       "expanded": null,
+       "rect": [
+        24,
+        105,
+        342,
+        56
+       ],
+       "actions": {},
+       "search": {
+        "probe": "inhalt",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.ergo.de/de/sonstige/suchergebnisse?search={q}"
+       }
+      },
+      {
+       "name": "Suche starten",
+       "key": "suche starten",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>div>div>div>form>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        318,
+        111,
+        44,
+        44
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Tresorsparen, Vermögenspolicen & Anlage",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+           },
+           {
+            "text": "Zahnversicherung ohne Wartezeit, Sofortschutz für die Zähne",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+           },
+           {
+            "text": "Pflegebedürftigkeit, Pflegegrad, Pflegeversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+           },
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Reiserücktrittsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+           },
+           {
+            "text": "Versicherungskompass",
+            "href": "https://www.ergo.de/de/Produkte/Lebensphasen"
+           },
+           {
+            "text": "Schaden melden und Rechnung einreichen",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           },
+           {
+            "text": "Vertrag kündigen",
+            "href": "https://www.ergo.de/de/Service/vertrag-kuendigen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 8,
+          "rect": [
+           24,
+           161,
+           342,
+           624
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-003-Suche-starten-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Tresorsparen, Vermögenspolicen & Anlage",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+           },
+           {
+            "text": "Zahnversicherung ohne Wartezeit, Sofortschutz für die Zähne",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+           },
+           {
+            "text": "Pflegebedürftigkeit, Pflegegrad, Pflegeversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+           },
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Reiserücktrittsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+           },
+           {
+            "text": "Versicherungskompass",
+            "href": "https://www.ergo.de/de/Produkte/Lebensphasen"
+           },
+           {
+            "text": "Schaden melden und Rechnung einreichen",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           },
+           {
+            "text": "Vertrag kündigen",
+            "href": "https://www.ergo.de/de/Service/vertrag-kuendigen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 8,
+          "rect": [
+           24,
+           161,
+           342,
+           624
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-004-Suche-starten-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Versicherungen & Finanzen",
+       "key": "versicherungen finanzen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        189,
+        342,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Rechtsschutz",
+            "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung"
+           },
+           {
+            "text": "Unfallversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Unfallversicherung"
+           },
+           {
+            "text": "Jetzt informieren",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+           },
+           {
+            "text": "Hier können Sie ERGO kontaktieren.",
+            "href": "https://www.ergo.de/de/Service/Kontakt"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [
+           "Zahn",
+           "Gesundheit",
+           "Hausrat & Gebäude",
+           "Haftpflicht",
+           "Kfz",
+           "Reise",
+           "Vorsorge",
+           "Finanzen"
+          ],
+          "options": 0,
+          "rect": [
+           24,
+           253,
+           342,
+           591
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-005-Versicherungen-Finanzen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Rechtsschutz",
+            "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung"
+           },
+           {
+            "text": "Unfallversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Unfallversicherung"
+           },
+           {
+            "text": "Jetzt informieren",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+           },
+           {
+            "text": "Hier können Sie ERGO kontaktieren.",
+            "href": "https://www.ergo.de/de/Service/Kontakt"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [
+           "Zahn",
+           "Gesundheit",
+           "Hausrat & Gebäude",
+           "Haftpflicht",
+           "Kfz",
+           "Reise",
+           "Vorsorge",
+           "Finanzen"
+          ],
+          "options": 0,
+          "rect": [
+           24,
+           253,
+           342,
+           591
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-006-Versicherungen-Finanzen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Zahn",
+         "key": "zahn",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          253,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Zahnzusatzversicherungen im Vergleich",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+             },
+             {
+              "text": "Zahnzusatzversicherung mit Sofortschutz",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+             },
+             {
+              "text": "Kieferorthopädie Sofortschutz für Kinder",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+             },
+             {
+              "text": "Zahnschutz: Bedarf individuell ermitteln",
+              "href": "https://www.ergo.de/de/Service/zahnversicherung-vergleich"
+             },
+             {
+              "text": "Zahnzusatzversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             304
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-007-Zahn-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Zahnzusatzversicherungen im Vergleich",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+             },
+             {
+              "text": "Zahnzusatzversicherung mit Sofortschutz",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+             },
+             {
+              "text": "Kieferorthopädie Sofortschutz für Kinder",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+             },
+             {
+              "text": "Zahnschutz: Bedarf individuell ermitteln",
+              "href": "https://www.ergo.de/de/Service/zahnversicherung-vergleich"
+             },
+             {
+              "text": "Zahnzusatzversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             304
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-008-Zahn-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Gesundheit",
+         "key": "gesundheit",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          381,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Zahnzusatzversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+             },
+             {
+              "text": "Private Zusatzversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+             },
+             {
+              "text": "Augenversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung"
+             },
+             {
+              "text": "Krankenversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung"
+             },
+             {
+              "text": "Krankenhauszusatzversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenhauszusatzversicherungen"
+             },
+             {
+              "text": "Pflegezusatzversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+             },
+             {
+              "text": "Auslandskrankenversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             432
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-009-Gesundheit-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Zahnzusatzversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+             },
+             {
+              "text": "Private Zusatzversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+             },
+             {
+              "text": "Augenversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung"
+             },
+             {
+              "text": "Krankenversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenversicherung"
+             },
+             {
+              "text": "Krankenhauszusatzversicherungen",
+              "href": "https://www.ergo.de/de/Produkte/Krankenhauszusatzversicherungen"
+             },
+             {
+              "text": "Pflegezusatzversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+             },
+             {
+              "text": "Auslandskrankenversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             432
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-010-Gesundheit-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Hausrat & Gebäude",
+         "key": "hausrat gebäude",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          445,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Hausratversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+             },
+             {
+              "text": "Wohngebäudeversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+             },
+             {
+              "text": "Schließfachversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+             },
+             {
+              "text": "Hausrat- und Gebäudeversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             264
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-011-Hausrat-Geb-ude-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Hausratversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+             },
+             {
+              "text": "Wohngebäudeversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+             },
+             {
+              "text": "Schließfachversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+             },
+             {
+              "text": "Hausrat- und Gebäudeversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             264
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-012-Hausrat-Geb-ude-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Haftpflicht",
+         "key": "haftpflicht",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(5)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          509,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Private Haftpflichtversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+             },
+             {
+              "text": "Haftpflichtversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             112
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "border-top-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-bottom-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-left-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-right-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            }
+           ],
+           "shot": "390-013-Haftpflicht-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Private Haftpflichtversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+             },
+             {
+              "text": "Haftpflichtversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             112
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-014-Haftpflicht-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Kfz",
+         "key": "kfz",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(6)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          573,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Autoversicherung",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung"
+             },
+             {
+              "text": "Motorradversicherung",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+             },
+             {
+              "text": "Verkehrsrechtsschutz",
+              "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+             },
+             {
+              "text": "Kfz-Versicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             240
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "border-top-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-bottom-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-left-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-right-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            }
+           ],
+           "shot": "390-015-Kfz-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Autoversicherung",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung"
+             },
+             {
+              "text": "Motorradversicherung",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+             },
+             {
+              "text": "Verkehrsrechtsschutz",
+              "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+             },
+             {
+              "text": "Kfz-Versicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             240
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-016-Kfz-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Reise",
+         "key": "reise",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(7)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          637,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Auslandskrankenversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+             },
+             {
+              "text": "Reiserücktrittsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+             },
+             {
+              "text": "Reiseversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             176
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "border-top-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-bottom-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-left-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-right-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            }
+           ],
+           "shot": "390-017-Reise-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Auslandskrankenversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+             },
+             {
+              "text": "Reiserücktrittsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+             },
+             {
+              "text": "Reiseversicherungen im Überblick",
+              "href": "https://www.ergo.de/de/Produkte/Reiseversicherung"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             176
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-018-Reise-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Vorsorge",
+         "key": "vorsorge",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(9)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          765,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Risikolebensversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+             },
+             {
+              "text": "Sterbegeldversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+             },
+             {
+              "text": "Grundfähigkeitsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung"
+             },
+             {
+              "text": "Berufsunfähigkeitsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung"
+             },
+             {
+              "text": "Private Altersvorsorge",
+              "href": "https://www.ergo.de/de/Produkte/Rentenversicherung"
+             },
+             {
+              "text": "Betriebliche Altersversorgung",
+              "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             368
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "border-top-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-bottom-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-left-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-right-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            }
+           ],
+           "shot": "390-019-Vorsorge-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Risikolebensversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+             },
+             {
+              "text": "Sterbegeldversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+             },
+             {
+              "text": "Grundfähigkeitsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung"
+             },
+             {
+              "text": "Berufsunfähigkeitsversicherung",
+              "href": "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung"
+             },
+             {
+              "text": "Private Altersvorsorge",
+              "href": "https://www.ergo.de/de/Produkte/Rentenversicherung"
+             },
+             {
+              "text": "Betriebliche Altersversorgung",
+              "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             368
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-020-Vorsorge-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Finanzen",
+         "key": "finanzen",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(10)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          829,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Vermögenspolicen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+             },
+             {
+              "text": "Kidspolicen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+             },
+             {
+              "text": "Immobilienfinanzierung",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+             },
+             {
+              "text": "Bausparen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Bausparen"
+             },
+             {
+              "text": "Monatsgeld",
+              "href": "https://www.ergo.de/de/Produkte/Monatsgeld"
+             },
+             {
+              "text": "Geldanlage in Investmentfonds",
+              "href": "https://www.ergo.de/de/Produkte/Investmentprodukte"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             220,
+             342,
+             368
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "border-top-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-bottom-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-left-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            },
+            {
+             "kind": "transition",
+             "prop": "border-right-color",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.button"
+            }
+           ],
+           "shot": "390-021-Finanzen-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 11,
+           "panel": {
+            "links": [
+             {
+              "text": "Vermögenspolicen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+             },
+             {
+              "text": "Kidspolicen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+             },
+             {
+              "text": "Immobilienfinanzierung",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+             },
+             {
+              "text": "Bausparen",
+              "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Bausparen"
+             },
+             {
+              "text": "Monatsgeld",
+              "href": "https://www.ergo.de/de/Produkte/Monatsgeld"
+             },
+             {
+              "text": "Geldanlage in Investmentfonds",
+              "href": "https://www.ergo.de/de/Produkte/Investmentprodukte"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             220,
+             342,
+             368
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-022-Finanzen-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": false,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Jetzt informieren",
+         "key": "jetzt informieren",
+         "role": "link",
+         "kind": "link",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+         "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+         "expanded": null,
+         "rect": [
+          48,
+          1234,
+          294,
+          40
+         ],
+         "actions": {}
+        },
+        {
+         "name": "Hier können Sie ERGO kontaktieren.",
+         "key": "hier können sie ergo kontaktieren",
+         "role": "link",
+         "kind": "link",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(4)>div>p>a",
+         "href": "https://www.ergo.de/de/Service/Kontakt",
+         "expanded": null,
+         "rect": [
+          25,
+          1339,
+          340,
+          108
+         ],
+         "actions": {}
+        }
+       ]
+      },
+      {
+       "name": "Service",
+       "key": "service",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        253,
+        342,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Alle Services im Überblick",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/service"
+           },
+           {
+            "text": "Ratgeber",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/ratgeber"
+           },
+           {
+            "text": "Rechtsportal",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/rechtsportal"
+           },
+           {
+            "text": "Kunden werben Kunden",
+            "href": "https://www.ergo.de/de/Service/Freundschaftswerbung"
+           },
+           {
+            "text": "Versicherungs-Check",
+            "href": "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916"
+           },
+           {
+            "text": "Persönlichkeitstest",
+            "href": "https://www.ergo.de/de/Service/typen-test"
+           },
+           {
+            "text": "Zum Kundenportal",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Sie können hier eine Rechnung einreichen.",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [
+           "Kundenportal"
+          ],
+          "options": 0,
+          "rect": [
+           24,
+           253,
+           342,
+           591
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-023-Service-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Alle Services im Überblick",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/service"
+           },
+           {
+            "text": "Ratgeber",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/ratgeber"
+           },
+           {
+            "text": "Rechtsportal",
+            "href": "https://main--856f1bba--aemcoder.aem.live/de/rechtsportal"
+           },
+           {
+            "text": "Kunden werben Kunden",
+            "href": "https://www.ergo.de/de/Service/Freundschaftswerbung"
+           },
+           {
+            "text": "Versicherungs-Check",
+            "href": "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916"
+           },
+           {
+            "text": "Persönlichkeitstest",
+            "href": "https://www.ergo.de/de/Service/typen-test"
+           },
+           {
+            "text": "Zum Kundenportal",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Sie können hier eine Rechnung einreichen.",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [
+           "Kundenportal"
+          ],
+          "options": 0,
+          "rect": [
+           24,
+           253,
+           342,
+           591
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-024-Service-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Kundenportal",
+         "key": "kundenportal",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          24,
+          317,
+          342,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 7,
+           "panel": {
+            "links": [
+             {
+              "text": "Login",
+              "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+             },
+             {
+              "text": "Registrierung",
+              "href": "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+             },
+             {
+              "text": "Das ERGO Kundenportal",
+              "href": "https://www.ergo.de/de/Service/kundenportal"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             176
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-025-Kundenportal-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 7,
+           "panel": {
+            "links": [
+             {
+              "text": "Login",
+              "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+             },
+             {
+              "text": "Registrierung",
+              "href": "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+             },
+             {
+              "text": "Das ERGO Kundenportal",
+              "href": "https://www.ergo.de/de/Service/kundenportal"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             24,
+             253,
+             342,
+             176
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [],
+           "shot": "390-026-Kundenportal-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": true
+         },
+         "children": []
+        },
+        {
+         "name": "Zum Kundenportal",
+         "key": "zum kundenportal",
+         "role": "link",
+         "kind": "link",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+         "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+         "expanded": null,
+         "rect": [
+          48,
+          974,
+          294,
+          40
+         ],
+         "actions": {}
+        },
+        {
+         "name": "Sie können hier eine Rechnung einreichen.",
+         "key": "sie können hier eine rechnung einreichen",
+         "role": "link",
+         "kind": "link",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(4)>div>p>a",
+         "href": "https://www.ergo.de/de/Service/ereignis-melden",
+         "expanded": null,
+         "rect": [
+          25,
+          1079,
+          340,
+          108
+         ],
+         "actions": {}
+        }
+       ]
+      },
+      {
+       "name": "Kontakt",
+       "key": "kontakt",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        317,
+        342,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "E-Mail schreiben",
+            "href": "https://www.ergo.de/de/Service/Kontakt/Kontaktformular"
+           },
+           {
+            "text": "ERGO Berater finden",
+            "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+           },
+           {
+            "text": "Auskunft zu bestehenden Verträgen",
+            "href": "https://www.ergo.de/de/Service/Kontakt/kunden"
+           },
+           {
+            "text": "Kontaktmöglichkeiten im Überblick",
+            "href": "https://www.ergo.de/de/Service/Kontakt"
+           },
+           {
+            "text": "Zum Kundenportal",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Sie können hier eine Rechnung einreichen.",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           189,
+           342,
+           655
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-027-Kontakt-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "E-Mail schreiben",
+            "href": "https://www.ergo.de/de/Service/Kontakt/Kontaktformular"
+           },
+           {
+            "text": "ERGO Berater finden",
+            "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+           },
+           {
+            "text": "Auskunft zu bestehenden Verträgen",
+            "href": "https://www.ergo.de/de/Service/Kontakt/kunden"
+           },
+           {
+            "text": "Kontaktmöglichkeiten im Überblick",
+            "href": "https://www.ergo.de/de/Service/Kontakt"
+           },
+           {
+            "text": "Zum Kundenportal",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Sie können hier eine Rechnung einreichen.",
+            "href": "https://www.ergo.de/de/Service/ereignis-melden"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           189,
+           342,
+           655
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-028-Kontakt-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "Zum Kundenportal",
+         "key": "zum kundenportal",
+         "role": "link",
+         "kind": "link",
+         "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+         "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+         "expanded": null,
+         "rect": [
+          48,
+          782,
+          294,
+          40
+         ],
+         "actions": {}
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 73,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 73,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 73,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 73,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 28,
+   "truncated": null,
+   "loads": 2
+  },
+  "1440": {
+   "root": "#MainNavi",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(1)>div:nth-of-type(2)>a",
+     "href": "https://main--856f1bba--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      24,
+      16,
+      151,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Versicherungen & Finanzen",
+     "key": "versicherungen finanzen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#MainNavi>div>nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      223,
+      24,
+      230,
+      48
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Risikolebensversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+         },
+         {
+          "text": "Rechtsschutz",
+          "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung"
+         },
+         {
+          "text": "Unfallversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Unfallversicherung"
+         },
+         {
+          "text": "Jetzt informieren",
+          "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+         },
+         {
+          "text": "Hier können Sie ERGO kontaktieren.",
+          "href": "https://www.ergo.de/de/Service/Kontakt"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen",
+         "Zahn",
+         "Gesundheit",
+         "Hausrat & Gebäude",
+         "Haftpflicht",
+         "Kfz",
+         "Reise",
+         "Vorsorge",
+         "Finanzen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-001-Versicherungen-Finanzen-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Risikolebensversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+         },
+         {
+          "text": "Rechtsschutz",
+          "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung"
+         },
+         {
+          "text": "Unfallversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Unfallversicherung"
+         },
+         {
+          "text": "Jetzt informieren",
+          "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+         },
+         {
+          "text": "Hier können Sie ERGO kontaktieren.",
+          "href": "https://www.ergo.de/de/Service/Kontakt"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen",
+         "Zahn",
+         "Gesundheit",
+         "Hausrat & Gebäude",
+         "Haftpflicht",
+         "Kfz",
+         "Reise",
+         "Vorsorge",
+         "Finanzen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-002-Versicherungen-Finanzen-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen",
+       "key": "schließen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1352,
+        129,
+        64,
+        64
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 16
+        },
+        "key": {
+         "opened": false,
+         "hides": 16
+        }
+       }
+      },
+      {
+       "name": "Zahn",
+       "key": "zahn",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        217,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zahnzusatzversicherungen im Vergleich",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+           },
+           {
+            "text": "Zahnzusatzversicherung mit Sofortschutz",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+           },
+           {
+            "text": "Kieferorthopädie Sofortschutz für Kinder",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+           },
+           {
+            "text": "Zahnschutz: Bedarf individuell ermitteln",
+            "href": "https://www.ergo.de/de/Service/zahnversicherung-vergleich"
+           },
+           {
+            "text": "Zahnzusatzversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           304
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-003-Zahn-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zahnzusatzversicherungen im Vergleich",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+           },
+           {
+            "text": "Zahnzusatzversicherung mit Sofortschutz",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+           },
+           {
+            "text": "Kieferorthopädie Sofortschutz für Kinder",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+           },
+           {
+            "text": "Zahnschutz: Bedarf individuell ermitteln",
+            "href": "https://www.ergo.de/de/Service/zahnversicherung-vergleich"
+           },
+           {
+            "text": "Zahnzusatzversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           304
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-004-Zahn-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Gesundheit",
+       "key": "gesundheit",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        345,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zahnzusatzversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+           },
+           {
+            "text": "Private Zusatzversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+           },
+           {
+            "text": "Augenversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung"
+           },
+           {
+            "text": "Krankenversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung"
+           },
+           {
+            "text": "Krankenhauszusatzversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenhauszusatzversicherungen"
+           },
+           {
+            "text": "Pflegezusatzversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+           },
+           {
+            "text": "Auslandskrankenversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           432
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-005-Gesundheit-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zahnzusatzversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung"
+           },
+           {
+            "text": "Private Zusatzversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+           },
+           {
+            "text": "Augenversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung"
+           },
+           {
+            "text": "Krankenversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenversicherung"
+           },
+           {
+            "text": "Krankenhauszusatzversicherungen",
+            "href": "https://www.ergo.de/de/Produkte/Krankenhauszusatzversicherungen"
+           },
+           {
+            "text": "Pflegezusatzversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+           },
+           {
+            "text": "Auslandskrankenversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           432
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-006-Gesundheit-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Hausrat & Gebäude",
+       "key": "hausrat gebäude",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        409,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Hausratversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+           },
+           {
+            "text": "Wohngebäudeversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+           },
+           {
+            "text": "Schließfachversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+           },
+           {
+            "text": "Hausrat- und Gebäudeversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-007-Hausrat-Geb-ude-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Hausratversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+           },
+           {
+            "text": "Wohngebäudeversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+           },
+           {
+            "text": "Schließfachversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+           },
+           {
+            "text": "Hausrat- und Gebäudeversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-008-Hausrat-Geb-ude-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Haftpflicht",
+       "key": "haftpflicht",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        473,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Private Haftpflichtversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+           },
+           {
+            "text": "Haftpflichtversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           112
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-009-Haftpflicht-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Private Haftpflichtversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+           },
+           {
+            "text": "Haftpflichtversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           112
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-010-Haftpflicht-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Kfz",
+       "key": "kfz",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        537,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Autoversicherung",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung"
+           },
+           {
+            "text": "Motorradversicherung",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+           },
+           {
+            "text": "Verkehrsrechtsschutz",
+            "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+           },
+           {
+            "text": "Kfz-Versicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-011-Kfz-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Autoversicherung",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung"
+           },
+           {
+            "text": "Motorradversicherung",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+           },
+           {
+            "text": "Verkehrsrechtsschutz",
+            "href": "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+           },
+           {
+            "text": "Kfz-Versicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/KFZ-Versicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-012-Kfz-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Reise",
+       "key": "reise",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(7)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        601,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Auslandskrankenversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+           },
+           {
+            "text": "Reiserücktrittsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+           },
+           {
+            "text": "Reiseversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           176
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-013-Reise-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Auslandskrankenversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+           },
+           {
+            "text": "Reiserücktrittsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+           },
+           {
+            "text": "Reiseversicherungen im Überblick",
+            "href": "https://www.ergo.de/de/Produkte/Reiseversicherung"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           176
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-014-Reise-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Vorsorge",
+       "key": "vorsorge",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(9)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        729,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Sterbegeldversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+           },
+           {
+            "text": "Grundfähigkeitsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung"
+           },
+           {
+            "text": "Berufsunfähigkeitsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung"
+           },
+           {
+            "text": "Private Altersvorsorge",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung"
+           },
+           {
+            "text": "Betriebliche Altersversorgung",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           368
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-015-Vorsorge-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Risikolebensversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+           },
+           {
+            "text": "Sterbegeldversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+           },
+           {
+            "text": "Grundfähigkeitsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung"
+           },
+           {
+            "text": "Berufsunfähigkeitsversicherung",
+            "href": "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung"
+           },
+           {
+            "text": "Private Altersvorsorge",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung"
+           },
+           {
+            "text": "Betriebliche Altersversorgung",
+            "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           368
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-016-Vorsorge-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Finanzen",
+       "key": "finanzen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>ul>li:nth-of-type(10)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        793,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Vermögenspolicen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+           },
+           {
+            "text": "Kidspolicen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+           },
+           {
+            "text": "Immobilienfinanzierung",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+           },
+           {
+            "text": "Bausparen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Bausparen"
+           },
+           {
+            "text": "Monatsgeld",
+            "href": "https://www.ergo.de/de/Produkte/Monatsgeld"
+           },
+           {
+            "text": "Geldanlage in Investmentfonds",
+            "href": "https://www.ergo.de/de/Produkte/Investmentprodukte"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           368
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-017-Finanzen-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Vermögenspolicen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+           },
+           {
+            "text": "Kidspolicen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+           },
+           {
+            "text": "Immobilienfinanzierung",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+           },
+           {
+            "text": "Bausparen",
+            "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Bausparen"
+           },
+           {
+            "text": "Monatsgeld",
+            "href": "https://www.ergo.de/de/Produkte/Monatsgeld"
+           },
+           {
+            "text": "Geldanlage in Investmentfonds",
+            "href": "https://www.ergo.de/de/Produkte/Investmentprodukte"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           368
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-018-Finanzen-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Jetzt informieren",
+       "key": "jetzt informieren",
+       "role": "link",
+       "kind": "link",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+       "href": "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+       "expanded": null,
+       "rect": [
+        1005,
+        457,
+        379,
+        48
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Hier können Sie ERGO kontaktieren.",
+       "key": "hier können sie ergo kontaktieren",
+       "role": "link",
+       "kind": "link",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(4)>div>p>a",
+       "href": "https://www.ergo.de/de/Service/Kontakt",
+       "expanded": null,
+       "rect": [
+        974,
+        586,
+        441,
+        132
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "Service",
+     "key": "service",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#MainNavi>div>nav>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      470,
+      24,
+      85,
+      48
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Alle Services im Überblick",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/service"
+         },
+         {
+          "text": "Ratgeber",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/ratgeber"
+         },
+         {
+          "text": "Rechtsportal",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/rechtsportal"
+         },
+         {
+          "text": "Kunden werben Kunden",
+          "href": "https://www.ergo.de/de/Service/Freundschaftswerbung"
+         },
+         {
+          "text": "Versicherungs-Check",
+          "href": "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916"
+         },
+         {
+          "text": "Persönlichkeitstest",
+          "href": "https://www.ergo.de/de/Service/typen-test"
+         },
+         {
+          "text": "Zum Kundenportal",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         },
+         {
+          "text": "Sie können hier eine Rechnung einreichen.",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen",
+         "Kundenportal"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-019-Service-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Alle Services im Überblick",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/service"
+         },
+         {
+          "text": "Ratgeber",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/ratgeber"
+         },
+         {
+          "text": "Rechtsportal",
+          "href": "https://main--856f1bba--aemcoder.aem.live/de/rechtsportal"
+         },
+         {
+          "text": "Kunden werben Kunden",
+          "href": "https://www.ergo.de/de/Service/Freundschaftswerbung"
+         },
+         {
+          "text": "Versicherungs-Check",
+          "href": "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916"
+         },
+         {
+          "text": "Persönlichkeitstest",
+          "href": "https://www.ergo.de/de/Service/typen-test"
+         },
+         {
+          "text": "Zum Kundenportal",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         },
+         {
+          "text": "Sie können hier eine Rechnung einreichen.",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen",
+         "Kundenportal"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-020-Service-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen",
+       "key": "schließen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1352,
+        129,
+        64,
+        64
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 12
+        },
+        "key": {
+         "opened": false,
+         "hides": 12
+        }
+       }
+      },
+      {
+       "name": "Kundenportal",
+       "key": "kundenportal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        281,
+        443,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Login",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Registrierung",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+           },
+           {
+            "text": "Das ERGO Kundenportal",
+            "href": "https://www.ergo.de/de/Service/kundenportal"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           176
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-021-Kundenportal-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Login",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+           },
+           {
+            "text": "Registrierung",
+            "href": "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+           },
+           {
+            "text": "Das ERGO Kundenportal",
+            "href": "https://www.ergo.de/de/Service/kundenportal"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           499,
+           217,
+           443,
+           176
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-022-Kundenportal-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Zum Kundenportal",
+       "key": "zum kundenportal",
+       "role": "link",
+       "kind": "link",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "expanded": null,
+       "rect": [
+        1005,
+        457,
+        379,
+        48
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Sie können hier eine Rechnung einreichen.",
+       "key": "sie können hier eine rechnung einreichen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(4)>div>p>a",
+       "href": "https://www.ergo.de/de/Service/ereignis-melden",
+       "expanded": null,
+       "rect": [
+        974,
+        586,
+        441,
+        132
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "Kontakt",
+     "key": "kontakt",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#MainNavi>div>nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      570,
+      24,
+      89,
+      48
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "E-Mail schreiben",
+          "href": "https://www.ergo.de/de/Service/Kontakt/Kontaktformular"
+         },
+         {
+          "text": "ERGO Berater finden",
+          "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+         },
+         {
+          "text": "Auskunft zu bestehenden Verträgen",
+          "href": "https://www.ergo.de/de/Service/Kontakt/kunden"
+         },
+         {
+          "text": "Kontaktmöglichkeiten im Überblick",
+          "href": "https://www.ergo.de/de/Service/Kontakt"
+         },
+         {
+          "text": "Zum Kundenportal",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         },
+         {
+          "text": "Sie können hier eine Rechnung einreichen.",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-023-Kontakt-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "E-Mail schreiben",
+          "href": "https://www.ergo.de/de/Service/Kontakt/Kontaktformular"
+         },
+         {
+          "text": "ERGO Berater finden",
+          "href": "https://www.ergo.de/de/Service/Vermittlersuche"
+         },
+         {
+          "text": "Auskunft zu bestehenden Verträgen",
+          "href": "https://www.ergo.de/de/Service/Kontakt/kunden"
+         },
+         {
+          "text": "Kontaktmöglichkeiten im Überblick",
+          "href": "https://www.ergo.de/de/Service/Kontakt"
+         },
+         {
+          "text": "Zum Kundenportal",
+          "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+         },
+         {
+          "text": "Sie können hier eine Rechnung einreichen.",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Schließen"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-024-Kontakt-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen",
+       "key": "schließen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1352,
+        129,
+        64,
+        64
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 9
+        },
+        "key": {
+         "opened": false,
+         "hides": 9
+        }
+       }
+      },
+      {
+       "name": "Zum Kundenportal",
+       "key": "zum kundenportal",
+       "role": "link",
+       "kind": "link",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>nav>ul>li:nth-of-type(3)>div>div:nth-of-type(1)>div:nth-of-type(4)>div>p>a",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "expanded": null,
+       "rect": [
+        1005,
+        457,
+        379,
+        48
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "Suche",
+     "key": "suche",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      952,
+      16,
+      64,
+      64
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tresorsparen, Vermögenspolicen & Anlage",
+          "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+         },
+         {
+          "text": "Zahnversicherung ohne Wartezeit, Sofortschutz für die Zähne",
+          "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+         },
+         {
+          "text": "Pflegebedürftigkeit, Pflegegrad, Pflegeversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+         },
+         {
+          "text": "Risikolebensversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+         },
+         {
+          "text": "Reiserücktrittsversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+         },
+         {
+          "text": "Versicherungskompass",
+          "href": "https://www.ergo.de/de/Produkte/Lebensphasen"
+         },
+         {
+          "text": "Schaden melden und Rechnung einreichen",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         },
+         {
+          "text": "Vertrag kündigen",
+          "href": "https://www.ergo.de/de/Service/vertrag-kuendigen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Schließen",
+         "Suche starten"
+        ],
+        "options": 8,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-025-Suche-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Tresorsparen, Vermögenspolicen & Anlage",
+          "href": "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+         },
+         {
+          "text": "Zahnversicherung ohne Wartezeit, Sofortschutz für die Zähne",
+          "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+         },
+         {
+          "text": "Pflegebedürftigkeit, Pflegegrad, Pflegeversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+         },
+         {
+          "text": "Risikolebensversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+         },
+         {
+          "text": "Reiserücktrittsversicherung",
+          "href": "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+         },
+         {
+          "text": "Versicherungskompass",
+          "href": "https://www.ergo.de/de/Produkte/Lebensphasen"
+         },
+         {
+          "text": "Schaden melden und Rechnung einreichen",
+          "href": "https://www.ergo.de/de/Service/ereignis-melden"
+         },
+         {
+          "text": "Vertrag kündigen",
+          "href": "https://www.ergo.de/de/Service/vertrag-kuendigen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Schließen",
+         "Suche starten"
+        ],
+        "options": 8,
+        "rect": [
+         0,
+         97,
+         1440,
+         803
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__backdrop"
+        },
+        {
+         "kind": "animation",
+         "prop": "hn-fade-in",
+         "ms": 50,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.headerNavigation__sidebar"
+        }
+       ],
+       "shot": "1440-026-Suche-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen",
+       "key": "schließen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        1352,
+        129,
+        64,
+        64
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 19
+        },
+        "key": {
+         "opened": false,
+         "hides": 19
+        }
+       }
+      },
+      {
+       "name": "Suchbegriff eingeben",
+       "key": "suchbegriff eingeben",
+       "role": "input",
+       "kind": "search",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>div>div>div>form>div>input",
+       "expanded": null,
+       "rect": [
+        24,
+        217,
+        1392,
+        56
+       ],
+       "actions": {},
+       "search": {
+        "probe": "inhalt",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.ergo.de/de/sonstige/suchergebnisse?search={q}"
+       }
+      },
+      {
+       "name": "Suche starten",
+       "key": "suche starten",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#headerNavigation__sidebar>div>div:nth-of-type(1)>div>div>div>form>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1368,
+        223,
+        44,
+        44
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Berater",
+     "key": "berater",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://www.ergo.de/de/Service/Vermittlersuche",
+     "expanded": null,
+     "rect": [
+      1032,
+      16,
+      64,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Log-in",
+     "key": "login",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+     "expanded": null,
+     "rect": [
+      1112,
+      16,
+      64,
+      64
+     ],
+     "actions": {}
+    },
+    {
+     "name": "0800 / 3746 095 Mo–Sa 7–20 Uhr (gebührenfrei)",
+     "key": "0800 3746 095 mosa 720 uhr gebührenfrei",
+     "role": "link",
+     "kind": "link",
+     "sel": "#MainNavi>div>div:nth-of-type(2)>div>a",
+     "href": "tel:08003746095",
+     "expanded": null,
+     "rect": [
+      1209,
+      16,
+      207,
+      64
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 97,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 97,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 97,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 97,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 26,
+   "truncated": null,
+   "loads": 2
+  }
+ },
+ "probe": "inhalt"
+}

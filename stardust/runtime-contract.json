@@ -1,0 +1,17 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-10-28",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonRules": "decorateButtons(): p a[href] alone in its <p>, wrapped in <strong> (primary), <em> (secondary), <strong><em> (accent); bare links stay links; links containing <img> skipped",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "fragmentDecoration": "loadFragment() runs decorateMain (icons, auto-blocks, sections, blocks, buttons) on the fetched .plain.html",
+  "sectionMetadataClientSide": false,
+  "sectionMetadataNote": "this aem.js vintage has no client-side section-metadata handling; section styles rely on the delivery pipeline rendering them server-side",
+  "widgetAutoBlocks": true,
+  "emptySectionCollapse": true,
+  "lang": "de (set in loadEager)"
+}

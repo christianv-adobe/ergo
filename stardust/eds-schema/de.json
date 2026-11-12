@@ -1,0 +1,1495 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück eine Premium-Kreuzfahrt gewinnen",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Zahnzusatzversicherungen im Vergleich"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wer zuletzt lacht – ist bei ERGO versichert!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bis zu 100 % Premiumschutz für Ihr schönstes Lachen."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ausgezeichnete Leistungen und keine Wartezeiten:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "z. B."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "20,65"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Beitrag berechnen",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss#tariff1=DVE&tariff2=DS90"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "BESTSELLER"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Die beliebtesten Produkte"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Zuverlässige Vorsorge für Sie: ganz einfach mit ERGO."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Gewinne ein iPhone 18"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die ERGO Fast Lane zum Altersvorsorgedepot"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Mit dem neuen Altersvorsorgedepot wird private Altersvorsorge jetzt besonders einfach und profitabel. Mit der bleiben Sie immer einen Schritt voraus."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ERGO Fast Lane"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Komm in die ERGO Fast Lane!",
+     "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Rechtsschutz"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Stellen Sie sich Ihr Rechtsschutzpaket so zusammen, wie es zu Ihrer Lebenssituation und Ihren Wünschen passt."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "12,17"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Rechtsschutzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Augen- und Brillenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Für den perfekten Durchblick: Gesundheit & Vorsorge Basic - und ohne Wartezeit!"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "keine Gesundheitsfragen"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Z. B."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "10,80"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Krankenversicherung/Augenversicherung"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Alle Produkte ansehen",
+     "href": "/de/Produkte"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "AKTUELLES"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Aktionen und Produktangebote"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Wissenswertes für Sie"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für alle, die Ihnen am Herzen liegen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Risikolebensversicherung",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Kieferorthopädie Sofort für Kinder"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Rundum sicher vor hohen Zuzahlungen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Kieferorthopädie Sofort für Kinder",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Reiseversicherung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Voll entspannt in den Urlaub."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Reiseversicherung",
+     "href": "/de/Produkte/Reiseversicherung"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sterbegeldversicherung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Hinterlassen Sie finanzielle Sicherheit."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Sterbegeldversicherung",
+     "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Krankenhauszusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Für die beste Behandlung im Krankenhaus."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Krankenhauszusatzversicherung",
+     "href": "/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Basis-Rente"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Sicher und flexibel im Alter – bereits ab 25 € monatlich."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Basis-Rente",
+     "href": "/de/Produkte/Rentenversicherung/Basis-Rente"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Berufsunfähigkeitsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Flexibler Schutz, der Ihre Karriere und Ihr Leben begleitet."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Berufsunfähigkeitsversicherung",
+     "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Unfallversicherung"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Weltweiter Schutz - rund um die Uhr."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Unfallversicherung",
+     "href": "/de/Produkte/Unfallversicherung"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "SERVICES"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sparen Sie Zeit durch einfache Online-Services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Informationen und Wissenswertes für ERGO Kunden und Interessierte"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Schaden oder Leistungsfall melden"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rechnungen einreichen, Schäden oder Leistungsfälle melden? Hier sind Sie richtig. Oder rufen Sie an."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Rechnung einreichen",
+     "href": "/de/Service/ereignis-melden"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr ERGO Kundenportal"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Behalten Sie Ihre Versicherungen im Blick! Hier finden Sie viele Services, Ihr digitales Postfach und können bei Gewinnspielen mitmachen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zum Kundenportal",
+     "href": "/de/Service/kundenportal"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Unwetterschäden melden und richtig handeln"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Sie sind betroffen? Melden Sie Ihren Schaden einfach online und ersparen Sie sich lange Wartezeiten am Telefon."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Unwetterschaden melden",
+     "href": "https://schadenservice.ergo.de/unwetterschaden"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "vorherige Seite"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "nächste Seite"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.cmp-carousel__control-button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Alle Services ansehen",
+     "href": "/de/Service"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "KUNDENBEWERTUNGEN"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Das sagen ERGO Kunden"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-12",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Nützliches Feedback und Erfahrungen für Sie"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "ekomi",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Da ich mehrmals im Jahr zur Prophylaxe zum Zahnarzt gehe, zahlt sich das für mich aus. Da ich die Kosten zu 100% erstattet bekomme. Bereits nach wenigen Tagen ist alles erledigt. Durch die App einfach und schnell."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "/5"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "4,6"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ermittelt aus Bewertungen ERGO Krankenversicherung AG"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "387.152"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zu den Kundenbewertungen",
+     "href": "/de/Service/Kundenbewertungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-13",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "KONTAKT"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-14",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sie haben Fragen?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-15",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ob Fragen, Kritik oder persönliche Beratung: ERGO ist für Sie da"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Kontaktformular",
+     "href": "/de/Service/Kontakt/Kontaktformular"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Chat"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ein Klick führt zum Chat."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Chat öffnen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Finden Sie Ihren ERGO Berater."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Zum Berater",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Telefon"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Rufen Sie an – gebührenfrei."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Alle Kontaktmöglichkeiten ansehen",
+     "href": "/de/Service/Kontakt"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-16",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WISSENSWERTES"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-17",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Rundum gut informiert mit ERGO"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-18",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ihr Plus an Serviceleistungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Aktion bis 31.12.2026"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Kunden werben Kunden"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Für jeden neu geworbenen Kunden erhalten Sie eine und sichern sich die ."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Geldprämie von bis zu 150 €"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gewinnchance auf einen von 3 kleinen Goldbarren"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Gleich mitmachen",
+     "href": "https://freunde.ergo.de/?intcid=9001026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Der ERGO Newsletter"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Nichts mehr verpassen und immer top informiert."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt anmelden",
+     "href": "/de/Service/Newsletter"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Extra für Geschäftskunden"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Eine passgenaue, breite Produktpalette für Gewerbe."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Zum Geschäftskundenbereich",
+     "href": "/de/Geschaeftskunden-Produkte"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-19",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "RATGEBER"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-20",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Tipps der Redaktion"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-21",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Lesen lohnt sich!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Zahn ziehen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wenn ein Zahn nicht mehr zu retten ist"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ein Zahn wird nur dann gezogen, wenn keine andere Behandlungsmethode mehr in Frage kommt. Anschließend wird oft Zahnersatz benötigt."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahn-ziehen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Letzte Rettung?"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Eine Wurzelbehandlung ist manchmal zur Erhaltung des eigenen Zahnes nötig, um Zahnersatz zu vermeiden."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Kronen, Brücken, Implantate und Prothesen"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Zahnersatz umfasst alle Möglichkeiten, um einen Zahn teilweise oder vollständig zu ersetzen. Fast jeder ist früher oder später davon betroffen."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Professionelle Zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Was ist PZR?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Weisheitszähne ziehen lassen"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Die letzten in der Reihe"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Weisheitszähne machen oft Probleme – doch nicht immer ist eine OP nötig. Wann das Entfernen der Weisheitszähne sinnvoll ist und was Sie wissen sollten"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Wie schädlich sind Amalgamfüllungen?"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Zahnfüllung mit Risiko"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Amalgam war lange Zeit Standard in der Zahnmedizin. Seit dem 1. Januar 2025 sind Amalgamfüllungen in Deutschland allerdings verboten."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Zahn ziehen"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Wenn ein Zahn nicht mehr zu retten ist"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Ein Zahn wird nur dann gezogen, wenn keine andere Behandlungsmethode mehr in Frage kommt. Anschließend wird oft Zahnersatz benötigt."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahn-ziehen"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Letzte Rettung?"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Eine Wurzelbehandlung ist manchmal zur Erhaltung des eigenen Zahnes nötig, um Zahnersatz zu vermeiden."
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Kronen, Brücken, Implantate und Prothesen"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Zahnersatz umfasst alle Möglichkeiten, um einen Zahn teilweise oder vollständig zu ersetzen. Fast jeder ist früher oder später davon betroffen."
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Professionelle Zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Was ist PZR?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat."
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Weisheitszähne ziehen lassen"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Die letzten in der Reihe"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Weisheitszähne machen oft Probleme – doch nicht immer ist eine OP nötig. Wann das Entfernen der Weisheitszähne sinnvoll ist und was Sie wissen sollten"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Wie schädlich sind Amalgamfüllungen?"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Zahnfüllung mit Risiko"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Amalgam war lange Zeit Standard in der Zahnmedizin. Seit dem 1. Januar 2025 sind Amalgamfüllungen in Deutschland allerdings verboten."
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Zahn ziehen"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Wenn ein Zahn nicht mehr zu retten ist"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Ein Zahn wird nur dann gezogen, wenn keine andere Behandlungsmethode mehr in Frage kommt. Anschließend wird oft Zahnersatz benötigt."
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahn-ziehen"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Letzte Rettung?"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Eine Wurzelbehandlung ist manchmal zur Erhaltung des eigenen Zahnes nötig, um Zahnersatz zu vermeiden."
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Kronen, Brücken, Implantate und Prothesen"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Zahnersatz umfasst alle Möglichkeiten, um einen Zahn teilweise oder vollständig zu ersetzen. Fast jeder ist früher oder später davon betroffen."
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnersatz"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Professionelle Zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Was ist PZR?"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Weisheitszähne ziehen lassen"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Die letzten in der Reihe"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Weisheitszähne machen oft Probleme – doch nicht immer ist eine OP nötig. Wann das Entfernen der Weisheitszähne sinnvoll ist und was Sie wissen sollten"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Wie schädlich sind Amalgamfüllungen?"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Zahnfüllung mit Risiko"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Amalgam war lange Zeit Standard in der Zahnmedizin. Seit dem 1. Januar 2025 sind Amalgamfüllungen in Deutschland allerdings verboten."
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Mehr lesen",
+     "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "vorherige Seite"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "nächste Seite"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 54,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 18,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.cmp-carousel__control-button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-22",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "WARUM ERGO?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-23",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Einfach, weil's wichtig ist."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-24",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ihr verlässlicher Partner für Versicherungen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Weltweit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "in über 20 Ländern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "31 Mio."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "zufriedene Kunden"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "100+ Jahre"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Erfahrung"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

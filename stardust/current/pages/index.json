@@ -1,0 +1,2499 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-28T14:21:31.436Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.ergo.de/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-28T14:21:31.436Z",
+  "finalUrl": "https://www.ergo.de/",
+  "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+  "description": "Einfach, weil’s wichtig ist. Qualität & finanzielle Sicherheit sind unsere Stärke. Schließen Sie jetzt eine Versicherung bei ERGO online ab!",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Zahnzusatzversicherungen im Vergleich"
+    },
+    {
+      "tag": "h2",
+      "text": "IHRE VERSICHERUNGEN"
+    },
+    {
+      "tag": "h2",
+      "text": "Persönliche Empfehlungen für Sie"
+    },
+    {
+      "tag": "h2",
+      "text": "BESTSELLER"
+    },
+    {
+      "tag": "h2",
+      "text": "Die beliebtesten Produkte"
+    },
+    {
+      "tag": "h2",
+      "text": "AKTUELLES"
+    },
+    {
+      "tag": "h2",
+      "text": "Aktionen und Produktangebote"
+    },
+    {
+      "tag": "h2",
+      "text": "SERVICES"
+    },
+    {
+      "tag": "h2",
+      "text": "Sparen Sie Zeit durch einfache Online-Services"
+    },
+    {
+      "tag": "h2",
+      "text": "KUNDENBEWERTUNGEN"
+    },
+    {
+      "tag": "h2",
+      "text": "Das sagen ERGO Kunden"
+    },
+    {
+      "tag": "h2",
+      "text": "KONTAKT"
+    },
+    {
+      "tag": "h2",
+      "text": "Sie haben Fragen?"
+    },
+    {
+      "tag": "h2",
+      "text": "WISSENSWERTES"
+    },
+    {
+      "tag": "h2",
+      "text": "Rundum gut informiert mit ERGO"
+    },
+    {
+      "tag": "h2",
+      "text": "Tipps der Redaktion"
+    },
+    {
+      "tag": "h2",
+      "text": "WARUM ERGO?"
+    },
+    {
+      "tag": "h2",
+      "text": "Einfach, weil's wichtig ist."
+    },
+    {
+      "tag": "h4",
+      "text": "Versicherungen & Finanzen"
+    },
+    {
+      "tag": "h4",
+      "text": "Service"
+    },
+    {
+      "tag": "h4",
+      "text": "Kontakt"
+    },
+    {
+      "tag": "h4",
+      "text": "Über ERGO"
+    }
+  ],
+  "body": [
+    "Wer zuletzt lacht – ist bei ERGO versichert!",
+    "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.",
+    "Passende Produkte für Ihren Bedarf",
+    "Krankentagegeld",
+    "Eine Krankentagegeldversicherung schützt Sie vor dem finanziellen Aus bei längerer Krankheit mit Arbeitsunfähigkeit.",
+    "Private Haftpflichtversicherung",
+    "Ein Missgeschick ist schnell passiert: Schützen Sie sich mit einer der wichtigsten Versicherungen: der Privathaftpflicht.",
+    "Zahnersatz Sofort",
+    "Unerwartet hohe Kosten für Zahnersatz? Dann leistet Zahnersatz Sofort ohne Wartezeit - auch für laufende Behandlungen.",
+    "Zuverlässige Vorsorge für Sie: ganz einfach mit ERGO.",
+    "Gewinne ein iPhone 18",
+    "Die ERGO Fast Lane zum Altersvorsorgedepot",
+    "Mit dem neuen Altersvorsorgedepot wird private Altersvorsorge jetzt besonders einfach und profitabel. Mit der ERGO Fast Lane bleiben Sie immer einen Schritt voraus.",
+    "Rechtsschutz",
+    "Stellen Sie sich Ihr Rechtsschutzpaket so zusammen, wie es zu Ihrer Lebenssituation und Ihren Wünschen passt.",
+    "Augen- und Brillenversicherung",
+    "Für den perfekten Durchblick: Gesundheit & Vorsorge Basic - keine Gesundheitsfragen und ohne Wartezeit!",
+    "Wissenswertes für Sie",
+    "Risikolebensversicherung",
+    "Kieferorthopädie Sofort für Kinder",
+    "Reiseversicherung",
+    "Sterbegeldversicherung",
+    "Krankenhauszusatzversicherung",
+    "Basis-Rente",
+    "Berufsunfähigkeitsversicherung",
+    "Unfallversicherung",
+    "Informationen und Wissenswertes für ERGO Kunden und Interessierte",
+    "Schaden oder Leistungsfall melden",
+    "Rechnungen einreichen, Schäden oder Leistungsfälle melden? Hier sind Sie richtig. Oder rufen Sie an.",
+    "Ihr ERGO Kundenportal",
+    "Behalten Sie Ihre Versicherungen im Blick! Hier finden Sie viele Services, Ihr digitales Postfach und können bei Gewinnspielen mitmachen.",
+    "Unwetterschäden melden und richtig handeln",
+    "Sie sind betroffen? Melden Sie Ihren Schaden einfach online und ersparen Sie sich lange Wartezeiten am Telefon.",
+    "Nützliches Feedback und Erfahrungen für Sie",
+    "Ich habe meine Zahnzusatzversicherung in Anspruch genommen, bin sehr zufrieden. Es ging alles unkompliziert und schnell, kann ich nur weiterempfehlen.",
+    "Ermittelt aus 387.152 Bewertungen ERGO Krankenversicherung AG",
+    "Ob Fragen, Kritik oder persönliche Beratung: ERGO ist für Sie da",
+    "E-Mail",
+    "Chat",
+    "ERGO Berater",
+    "Telefon",
+    "Ihr Plus an Serviceleistungen",
+    "Aktion bis 31.12.2026",
+    "Kunden werben Kunden",
+    "Für jeden neu geworbenen Kunden erhalten Sie eine Geldprämie von bis zu 150 € und sichern sich die Gewinnchance auf einen von 3 kleinen Goldbarren.",
+    "Der ERGO Newsletter",
+    "Nichts mehr verpassen und immer top informiert.",
+    "Extra für Geschäftskunden",
+    "Eine passgenaue, breite Produktpalette für Gewerbe.",
+    "RATGEBER",
+    "Lesen lohnt sich!",
+    "Weisheitszähne ziehen lassen",
+    "Die letzten in der Reihe",
+    "Weisheitszähne machen oft Probleme – doch nicht immer ist eine OP nötig. Wann das Entfernen der Weisheitszähne sinnvoll ist und was Sie wissen sollten",
+    "Professionelle Zahnreinigung",
+    "Was ist PZR?",
+    "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat.",
+    "Wie sinnvoll ist eine Fissurenversiegelung?",
+    "Zähne versiegeln",
+    "Bei der Fissurenversiegelung wird die Oberfläche der Zähne geglättet. Dadurch können sich Verschmutzungen und Bakterien nicht so leicht ablagern.",
+    "Ihr verlässlicher Partner für Versicherungen.",
+    "Weltweit",
+    "in über 20 Ländern",
+    "31 Mio.",
+    "zufriedene Kunden",
+    "100+ Jahre",
+    "Erfahrung"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Zum Inhalt springen",
+      "href": "#main"
+    },
+    {
+      "label": "Versicherungen & Finanzen",
+      "href": null
+    },
+    {
+      "label": "Service",
+      "href": null
+    },
+    {
+      "label": "Kontakt",
+      "href": null
+    },
+    {
+      "label": "Suche",
+      "href": null
+    },
+    {
+      "label": "Berater",
+      "href": "/de/Service/Vermittlersuche"
+    },
+    {
+      "label": "Log-in",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+    },
+    {
+      "label": "Anrufen 0800 / 3746 095 Mo–Sa 7–20 Uhr (gebührenfrei)",
+      "href": "tel:08003746095"
+    },
+    {
+      "label": "Jetzt Sterbegeldversicherung abschließen und mit etwas Glück eine Premium-Kreuzfahrt gewinnen",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    },
+    {
+      "label": "Beitrag berechnen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss#tariff1=DVE&tariff2=DS90"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "https://www.ergo.de/de/Produkte/Krankenversicherung/Krankentagegeld"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+    },
+    {
+      "label": "Komm in die ERGO Fast Lane!",
+      "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+    },
+    {
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Krankenversicherung/Augenversicherung"
+    },
+    {
+      "label": "Alle Produkte ansehen",
+      "href": "/de/Produkte"
+    },
+    {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+      "label": "Kieferorthopädie Sofort für Kinder",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+    },
+    {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+    },
+    {
+      "label": "Sterbegeldversicherung",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+    },
+    {
+      "label": "Krankenhauszusatzversicherung",
+      "href": "/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung"
+    },
+    {
+      "label": "Basis-Rente",
+      "href": "/de/Produkte/Rentenversicherung/Basis-Rente"
+    },
+    {
+      "label": "Berufsunfähigkeitsversicherung",
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+    },
+    {
+      "label": "Unfallversicherung",
+      "href": "/de/Produkte/Unfallversicherung"
+    },
+    {
+      "label": "Rechnung einreichen",
+      "href": "/de/Service/ereignis-melden"
+    },
+    {
+      "label": "Zum Kundenportal",
+      "href": "/de/Service/kundenportal"
+    },
+    {
+      "label": "Unwetterschaden melden",
+      "href": "https://schadenservice.ergo.de/unwetterschaden"
+    },
+    {
+      "label": "Alle Services ansehen",
+      "href": "/de/Service"
+    },
+    {
+      "label": "Zu den Kundenbewertungen",
+      "href": "/de/Service/Kundenbewertungen"
+    },
+    {
+      "label": "Zum Kontaktformular",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+    },
+    {
+      "label": "Chat öffnen",
+      "href": null
+    },
+    {
+      "label": "Zum Berater",
+      "href": "/de/Service/Vermittlersuche"
+    },
+    {
+      "label": "0800 / 3746 095",
+      "href": "tel:08003746095"
+    },
+    {
+      "label": "Alle Kontaktmöglichkeiten ansehen",
+      "href": "/de/Service/Kontakt"
+    },
+    {
+      "label": "Gleich mitmachen",
+      "href": "https://freunde.ergo.de/?intcid=9001026"
+    },
+    {
+      "label": "Jetzt anmelden",
+      "href": "/de/Service/Newsletter"
+    },
+    {
+      "label": "Zum Geschäftskundenbereich",
+      "href": "/de/Geschaeftskunden-Produkte"
+    },
+    {
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne"
+    },
+    {
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung"
+    },
+    {
+      "label": "Mehr lesen",
+      "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung"
+    },
+    {
+      "label": "vorherige Seite",
+      "href": null
+    },
+    {
+      "label": "nächste Seite",
+      "href": null
+    },
+    {
+      "label": "Nach oben",
+      "href": "#page-top"
+    },
+    {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+    },
+    {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+    },
+    {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+    },
+    {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+    },
+    {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+    },
+    {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+    },
+    {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+    },
+    {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+    },
+    {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+    },
+    {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+    },
+    {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+    },
+    {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+    },
+    {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+    },
+    {
+      "label": "Kunden werben Kunden",
+      "href": "https://freunde.ergo.de/?intcid=9001032"
+    },
+    {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+    },
+    {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+    },
+    {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+    },
+    {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+    },
+    {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+    },
+    {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+    },
+    {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+    },
+    {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+    },
+    {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+    },
+    {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+    },
+    {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+    },
+    {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+    },
+    {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+    },
+    {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+    },
+    {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+    },
+    {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/newsroom"
+    },
+    {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+    },
+    {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+    },
+    {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+    },
+    {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+    },
+    {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+    },
+    {
+      "label": "Impressum/Erstinformation",
+      "href": "/de/Service/Anbieter"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/de/Service/Kontakt"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+      "label": "Datenschutz",
+      "href": "/de/Service/Datenschutz"
+    },
+    {
+      "label": "Cookies",
+      "href": null
+    },
+    {
+      "label": "Sitemap",
+      "href": null
+    },
+    {
+      "label": "Vertrag widerrufen",
+      "href": "/de/Service/vertrag-widerrufen"
+    }
+  ],
+  "links": [
+    "https://www.ergo.de/#main",
+    "https://www.ergo.de/de",
+    "https://www.ergo.de/de/Service/Vermittlersuche",
+    "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "tel:08003746095",
+    "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+    "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+    "https://www.ergo.de/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+    "https://www.ergo.de/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+    "https://www.ergo.de/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+    "https://www.ergo.de/de/Produkte/Lebensphasen",
+    "https://www.ergo.de/de/Service/ereignis-melden",
+    "https://www.ergo.de/de/Service/vertrag-kuendigen",
+    "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+    "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+    "https://www.ergo.de/de/Service/zahnversicherung-vergleich",
+    "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung",
+    "https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge",
+    "https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung",
+    "https://www.ergo.de/de/Produkte/Krankenversicherung",
+    "https://www.ergo.de/de/Produkte/Krankenhauszusatzversicherungen",
+    "https://www.ergo.de/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+    "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+    "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+    "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung",
+    "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+    "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+    "https://www.ergo.de/de/Produkte/Haftpflichtversicherung",
+    "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung",
+    "https://www.ergo.de/de/Produkte/KFZ-Versicherung/Motorradversicherung",
+    "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz",
+    "https://www.ergo.de/de/Produkte/KFZ-Versicherung",
+    "https://www.ergo.de/de/Produkte/Reiseversicherung",
+    "https://www.ergo.de/de/Produkte/Rechtsschutzversicherung",
+    "https://www.ergo.de/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+    "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung",
+    "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung",
+    "https://www.ergo.de/de/Produkte/Rentenversicherung",
+    "https://www.ergo.de/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+    "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+    "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung",
+    "https://www.ergo.de/de/Produkte/Bausparen-Finanzierung/Bausparen",
+    "https://www.ergo.de/de/Produkte/Monatsgeld",
+    "https://www.ergo.de/de/Produkte/Investmentprodukte",
+    "https://www.ergo.de/de/Produkte/Unfallversicherung",
+    "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+    "https://www.ergo.de/de/Service/Kontakt",
+    "https://www.ergo.de/de/Service",
+    "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo",
+    "https://www.ergo.de/de/Service/kundenportal",
+    "https://www.ergo.de/de/Ratgeber",
+    "https://www.ergo.de/de/rechtsportal",
+    "https://www.ergo.de/de/Service/Freundschaftswerbung",
+    "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916",
+    "https://www.ergo.de/de/Service/typen-test",
+    "https://www.ergo.de/de/Service/Kontakt/Kontaktformular",
+    "https://www.ergo.de/de/Service/Kontakt/kunden",
+    "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss#tariff1=DVE&tariff2=DS90",
+    "https://www.ergo.de/de/Produkte/Krankenversicherung/Krankentagegeld",
+    "https://www.ergo.de/de/Produkte",
+    "https://www.ergo.de/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung",
+    "https://www.ergo.de/de/Produkte/Rentenversicherung/Basis-Rente",
+    "https://schadenservice.ergo.de/unwetterschaden",
+    "https://www.ergo.de/de/Service/Kundenbewertungen",
+    "https://freunde.ergo.de/?intcid=9001026",
+    "https://www.ergo.de/de/Service/Newsletter",
+    "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung",
+    "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam",
+    "https://www.ergo.de/#page-top",
+    "https://www.ergo.de/de/Service/Kundenbereich",
+    "https://freunde.ergo.de/?intcid=9001032",
+    "https://www.ergo.de/de/Service/Kundenbewertungen/Kundenwerkstatt",
+    "https://www.ergo.de/de/Versicherung-vor-Ort/Regional",
+    "https://www.ergo.de/de/Service/videoberatung",
+    "https://www.ergo.de/de/Service/Kontakt/Lob-und-Beschwerde",
+    "https://www.ergo.com/de/unternehmen",
+    "https://www.ergo.de/de/Service/einfach",
+    "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb",
+    "https://careers.munichre.com/de/ergo",
+    "https://www.ergo.com/de/newsroom",
+    "https://www.ergo.com/de/nachhaltigkeit",
+    "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte",
+    "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem",
+    "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung",
+    "https://www.ergo.com/de/unternehmen/geschaeftspartner",
+    "https://www.instagram.com/ergodeutschland/",
+    "https://www.facebook.com/ERGO.Deutschland/",
+    "https://www.youtube.com/ErgoDeutschland_de",
+    "https://www.pinterest.de/ergodeutschland/",
+    "https://www.tiktok.com/@ergodeutschland",
+    "https://www.ergo.de/de/Service/Anbieter",
+    "https://www.ergo.de/de/Service/Barrierefreiheit",
+    "https://www.ergo.de/de/Service/Datenschutz",
+    "https://www.ergo.de/de/Service/vertrag-widerrufen"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+        "alt": "Logo: ERGO",
+        "w": 300,
+        "h": 88
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ergo_logo.dam.svg",
+        "alt": "Logo: ERGO. Einfach weil's wichtig ist.",
+        "w": 300,
+        "h": 127
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/SearchIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BurgerMenuIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BlueLightIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HelpIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightningIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightningIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.w768.dam.jpg.webp",
+        "alt": "Eltern liegen auf dem Teppichboden und lachen mit der kleinen Tochter in die Kamera. ",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/ohne-gesundheitsfragen-stoerer.w100.dam.svg",
+        "alt": "Hinweis: Ohne Gesundheitsfragen.",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/frauaufdemfahrradunterwegs.w768.dam.jpg.webp",
+        "alt": "Eine Frau ist auf dem Fahrrad unterwegs (Bild KI-unterstützt generiert)",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/rechtsschutz/rechtsschutzversicherung.w768.dam.jpg.webp",
+        "alt": "Eine Familie spaziert am Strand.",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/nebenkostenabrechnung-stoerer.w400.dam.svg",
+        "alt": "Hinweis: Nebenkostencheck ohne Wartezeit",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/augenversicherung.w768.dam.jpg.webp",
+        "alt": "Lächelnder Mann mit Brille zu Hause – zum Sehen, Entspannen und Ausruhen im Wohnzimmer. ",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/neu-stoerer.w400.dam.svg",
+        "alt": "Hinweis: Neu!",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/RiskIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/DentalOrthodonticsIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/AirplaneIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/FuneralIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HospitalIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HandsMoneyIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HobbyIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BrokenArmIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/landingpages/frau-vor-laptop.w768.dam.jpg.webp",
+        "alt": "Eine Frau sitzt zufrieden lächelnd an ihrem Laptop.",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/service/kundenbereich-vertraege-mann-tablet.w768.dam.jpg.webp",
+        "alt": "Ein junger Mann auf dem Sofa lächelt über das, was er im Tablet sieht.",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/3-mio-kunden.w400.dam.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/service/unwetter.w768.dam.jpg.webp",
+        "alt": "Eine Frau steht mit Regenschirm und Gummistiefeln im Hochwasser.",
+        "w": 768,
+        "h": 512
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MailIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ChatIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PhoneIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MegaphoneIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BusinessCardIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/StoreIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GlobeIcon.svg",
+        "alt": "",
+        "w": 151,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GroupIcon.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.ergo.de/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HandshakeIcon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+        "alt": "Instagram",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+        "alt": "Facebook",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+        "alt": "Youtube",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+        "alt": "Pinterest",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+        "alt": "ERGO Blog",
+        "w": 148,
+        "h": 150
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+        "alt": "",
+        "w": 300,
+        "h": 88
+      },
+      {
+        "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+        "alt": "",
+        "w": 300,
+        "h": 74
+      }
+    ],
+    "allImgCount": 51,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--erde-font-family-fedra": "Fedra Serif,Georgia,Times New Roman,serif",
+    "--erde-font-family-fsme": "FS Me,Arial,Helvetica,sans-serif",
+    "--erde-font-size-base": "16px",
+    "--erde-font-size-xxs": "0.625rem",
+    "--erde-font-size-xs": "0.75rem",
+    "--erde-font-size-s": "0.875rem",
+    "--erde-font-size-m": "1rem",
+    "--erde-font-size-l": "1.125rem",
+    "--erde-font-size-xl": "1.25rem",
+    "--erde-font-size-xxl": "1.5rem",
+    "--erde-line-height-base": "1.5",
+    "--erde-line-height-headers": "1.3",
+    "--erde-font-weight-normal": "400",
+    "--erde-font-weight-bold": "700",
+    "--erde-border-radius-base": "8px",
+    "--erde-border-radius-s": "4px",
+    "--erde-border-radius-xs": "2px",
+    "--erde-box-shadow-base": "0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12)",
+    "--font-family-fedra": "Fedra Serif,Georgia,Times New Roman,serif",
+    "--font-family-fsme": "FS Me,Arial,Helvetica,sans-serif",
+    "--spacing": "8px",
+    "--gap": "-- 24px",
+    "--gap--xxs": "4px",
+    "--gap--xs": "12px",
+    "--gap--s": "16px",
+    "--gap--m": "32px",
+    "--gap--l": "48px",
+    "--gap--xl": "64px",
+    "--gap--xxl": "96px",
+    "--column-gap": "24px",
+    "--icon-size": "24px",
+    "--rem-size": "16px",
+    "--font-size": "1rem",
+    "--font-size--xxxs": "0.5rem",
+    "--font-size--xxs": "0.625rem",
+    "--font-size--xs": "0.75rem",
+    "--font-size--s": "0.875rem",
+    "--font-size--m": "1rem",
+    "--font-size--l": "1rem",
+    "--font-size--xl": "1.125rem",
+    "--font-size--xxl": "1.25rem",
+    "--author-border": "#d0d0d0",
+    "--author-focus": "#326ec8",
+    "--icons-path": "\"../../../assets/resources/icons\"",
+    "--font-weight-normal": "400",
+    "--font-weight-bold": "700",
+    "--text-base--small-screen__claim__font-size": "28",
+    "--text-base--small-screen__h1__font-size": "16",
+    "--text-base--small-screen__h2__font-size": "24",
+    "--text-base--small-screen__h3__font-size": "20",
+    "--text-base--small-screen__h4__font-size": "18",
+    "--text-base--small-screen__h5__font-size": "14",
+    "--text-base--small-screen__teaser__font-size": "16",
+    "--text-base--small-screen__paragraph__font-size": "14",
+    "--text-base--small-screen__caption__font-size": "12",
+    "--text-base--large-screen__claim__font-size": "40",
+    "--text-base--large-screen__h1__font-size": "18",
+    "--text-base--large-screen__h2__font-size": "28",
+    "--text-base--large-screen__h3__font-size": "24",
+    "--text-base--large-screen__h4__font-size": "20",
+    "--text-base--large-screen__h5__font-size": "16",
+    "--text-base--large-screen__teaser__font-size": "18",
+    "--text-base--large-screen__paragraph__font-size": "16",
+    "--text-base--large-screen__caption__font-size": "14",
+    "--text-base--paragraph__line-height": "1.5",
+    "--text-base--headers__line-height": "1.3",
+    "--text-base--small-screen__claim__margin-bottom": "32px",
+    "--text-base--small-screen__h1__margin-bottom": "12px",
+    "--text-base--small-screen__h2__margin-bottom": "24px",
+    "--text-base--small-screen__h3__margin-bottom": "16px",
+    "--text-base--small-screen__h4__margin-bottom": "16px",
+    "--text-base--small-screen__h5__margin-bottom": "12px",
+    "--text-base--small-screen__copytext__margin-bottom": "20px",
+    "--text-base--large-screen__claim__margin-bottom": "48px",
+    "--text-base--large-screen__h1__margin-bottom": "16px",
+    "--text-base--large-screen__h2__margin-bottom": "40px",
+    "--text-base--large-screen__h3__margin-bottom": "32px",
+    "--text-base--large-screen__h4__margin-bottom": "24px",
+    "--text-base--large-screen__h5__margin-bottom": "16px",
+    "--text-base--large-screen__copytext__margin-bottom": "24px",
+    "--header-height": "97px",
+    "--theme-primary": "#8e0038",
+    "--theme-secondary": "#bf1528",
+    "--theme-tertiary": "#71022e",
+    "--theme-brand-color-lighter": "#8e0038",
+    "--theme-brand-color": "#8e0038",
+    "--theme-brand-color-dark": "#71022e",
+    "--theme-brand-color-darker": "#71022e",
+    "--theme-white": "#fff",
+    "--theme-lightest-gray": "#f2f2f2",
+    "--theme-lighter-gray": "#e1e1e1",
+    "--theme-light-gray": "#d9d9d9",
+    "--theme-medium-gray": "#c8c8c8",
+    "--theme-dark-gray": "#aeaeae",
+    "--theme-darker-gray": "#737373",
+    "--theme-darkest-gray": "#333",
+    "--theme-black": "#000",
+    "--theme-error-color": "#e80c26",
+    "--theme-success-color": "#5de38e",
+    "--theme-additional-1": "#b31767",
+    "--theme-additional-1-light": "#e4d6e4",
+    "--theme-additional-1-lighter": "#efe7ed",
+    "--theme-additional-2": "#009284",
+    "--theme-additional-2-light": "#b5d5c1",
+    "--theme-additional-2-lighter": "#e3f0e6",
+    "--theme-additional-3": "#0f94a7",
+    "--theme-additional-3-light": "#ccebed",
+    "--theme-additional-3-lighter": "#e2f6f8",
+    "--theme-additional-4": "#f6cb00",
+    "--theme-additional-4-light": "#f8e89d",
+    "--theme-additional-4-lighter": "#fff4b0",
+    "--theme-additional-5": "#e87a16",
+    "--theme-additional-5-light": "#f0c495",
+    "--theme-additional-5-lighter": "#ffeede",
+    "--theme-additional-6": "#545241",
+    "--theme-additional-6-light": "#bbb9ad",
+    "--theme-additional-6-lighter": "#ebe6d8",
+    "--theme-brand-color-light": "#af2b30",
+    "--header-border-color": "#d9d9d9",
+    "--header-button-size": "64px",
+    "--header-button-icon-size": "24px",
+    "--header-button-border-radius": "8px",
+    "--header-button-background-color": "transparent",
+    "--header-button-background-color-hover": "#fbf4f4",
+    "--header-button-color": "inherit",
+    "--header-button-color-hover": "#8e0038",
+    "--header-button-icon-filter-hover": "brightness(0) saturate(100%) invert(9%) sepia(94%) saturate(3182%) hue-rotate(322deg) brightness(106%) contrast(112%)",
+    "--header-navigation-item-height": "48px",
+    "--header-navigation-list-row-gap": "16px",
+    "--cc-radius-none": "0",
+    "--cc-radius-xs": "4px",
+    "--cc-radius-s": "8px",
+    "--cc-radius-m": "12px",
+    "--cc-radius-l": "16px",
+    "--cc-box-shadow-50": "inset 0 0.5px 4px rgba(96,97,112,.32)",
+    "--cc-box-shadow-0": "0 0 0 rgba(96,97,112,0),0 0 0 rgba(96,97,112,0)",
+    "--cc-box-shadow-100": "0 0 1px rgb(40 41 61/8%),0 0.5px 2px rgba(96,97,112,.16)",
+    "--cc-box-shadow-200": "0 0 2px rgb(58 58 58/4%),0 4px 8px rgb(58 58 58/5%)",
+    "--cc-box-shadow-300": "0 0 2px rgb(40 41 61/4%),0 4px 8px rgba(96,97,112,.16)",
+    "--cc-box-shadow-400": "0 2px 4px rgb(40 41 61/4%),0 8px 16px rgba(96,97,112,.16)",
+    "--cc-box-shadow-500": "0 2px 8px rgb(40 41 61/4%),0 16px 24px rgba(96,97,112,.16)",
+    "--cc-box-shadow-600": "0 2px 8px rgb(40 41 61/8%),0 20 32px rgba(96,97,112,.24)",
+    "--cc-box-shadow-100-to-top": "0 0 1px rgb(40 41 61/8%),0 -0.5px 2px rgba(96,97,112,.16)",
+    "--cc-box-shadow-200-to-top": "0 0 2px rgb(58 58 58/4%),0 -4px 8px rgb(58 58 58/5%)",
+    "--cc-box-shadow-300-to-top": "0 0 2px rgb(40 41 61/4%),0 -4px 8px rgba(96,97,112,.16)",
+    "--cc-box-shadow-400-to-top": "0 2px 4px rgb(40 41 61/4%),0 -8px 16px rgba(96,97,112,.16)",
+    "--cc-box-shadow-500-to-top": "0 2px 8px rgb(40 41 61/4%),0 -16px 24px rgba(96,97,112,.16)",
+    "--cc-box-shadow-600-to-top": "0 2px 8px rgb(40 41 61/8%),0 -20 32px rgba(96,97,112,.24)",
+    "--cc-box-shadow-search-input": "0 4px 8px 0 rgba(96,97,112,.16),0 0 2px 0 rgb(40 41 61/4%)",
+    "--cc-breakpoint-xxl": "1440px",
+    "--cc-breakpoint-xl": "1280px",
+    "--cc-breakpoint-l": "1024px",
+    "--cc-breakpoint-m": "768px",
+    "--cc-breakpoint-s": "320px",
+    "--cc-breakpoint-xs": "320px",
+    "--cc-breakpoint-s-max": "calc(100vw - 30px - 30px)",
+    "--cc-breakpoint-s-max-v2": "calc(100vw - 8px)",
+    "--cc-breakpoint-m-max": "calc(100vw - 30px - 30px)",
+    "--cc-breakpoint-m-max-v2": "calc(100vw - 24px)",
+    "--cc-breakpoint-l-max": "calc(100vw - 30px - 30px)",
+    "--cc-breakpoint-l-max-v2": "calc(100vw - 40px)",
+    "--cc-breakpoint-xl-max": "1200px",
+    "--cc-breakpoint-xl-max-v2": "calc(1200px + 24px)",
+    "--cc-breakpoint-max": "320px",
+    "--cc-header-height": "88px",
+    "--cc-z-index-max": "1000",
+    "--cc-spacing-3xs": "2px",
+    "--cc-spacing-xxs": "4px",
+    "--cc-spacing-xs": "8px",
+    "--cc-spacing-s": "12px",
+    "--cc-spacing-m": "16px",
+    "--cc-spacing-l": "24px",
+    "--cc-spacing-xl": "32px",
+    "--cc-spacing-xxl": "40px",
+    "--cc-spacing-3xl": "48px",
+    "--cc-spacing-4xl": "56px",
+    "--cc-spacing-5xl": "64px",
+    "--cc-spacing-6xl": "80px",
+    "--cc-inner-gutter": "30px",
+    "--cc-section-spacing-s": "8px",
+    "--cc-section-spacing-m": "24px",
+    "--cc-section-spacing-l": "40px",
+    "--cc-transition-duration": "0.5s",
+    "--cc-transition-duration-short": "0.3s",
+    "--cc-transition-duration-super-short": "0.15s",
+    "--cc-transition-duration-long": "1s",
+    "--cc-transition-duration-super-long": "2.5s",
+    "--cc-transition-timing-function": "ease-in-out",
+    "--cc-transition-timing-function-alt": "ease",
+    "--cc-transition-timing-function-fast-to-slow": "cubic-bezier(0,0.6,0.36,0.95)",
+    "--cc-transition-timing-function-slow-to-fast": "cubic-bezier(0.83,0,0.93,0.64)",
+    "--cc-transition": "0.5s ease-in-out",
+    "--cc-transition-long": "1s ease",
+    "--cc-transition-short": "0.3s ease-in-out",
+    "--cc-transition-super-short": "0.15s ease-in-out",
+    "--cc-transition-super-long": "2.5s ease-in-out",
+    "--cc-font-family-base": "\"FS Me CC\",\"FS Me\",\"Helvetica Neue\",helvetica,arial,sans-serif",
+    "--cc-font-family-decor": "\"Fedra Serif CC\",\"Fedra Serif\",\"Palatino Linotype\",\"Book Antiqua\",\"Palatino\",serif",
+    "--cc-font-size": "1rem",
+    "--cc-font-size-xxxs": "0.5rem",
+    "--cc-font-size-xxs": "0.625rem",
+    "--cc-font-size-xs": "0.75rem",
+    "--cc-font-size-s": "0.875rem",
+    "--cc-font-size-m": "1rem",
+    "--cc-font-size-l": "1.125rem",
+    "--cc-font-size-xl": "1.25rem",
+    "--cc-font-size-xxl": "1.5rem",
+    "--cc-font-size-3xl": "1.75rem",
+    "--cc-font-size-4xl": "2rem",
+    "--cc-font-size-5xl": "2.25rem",
+    "--cc-font-size-6xl": "3rem",
+    "--cc-font-size-heading-1": "3rem",
+    "--cc-font-size-heading-2": "2.25rem",
+    "--cc-font-size-heading-3": "1.75rem",
+    "--cc-font-size-heading-4": "1.5rem",
+    "--cc-font-size-heading-5": "1.25rem",
+    "--cc-font-size-heading-6": "1.125rem",
+    "--scrollbarWidth": "0px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 22,
+    "mainTextLen": 7650,
+    "realImageCount": 50,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/2e444b6c-b8f3-4168-9849-e299a3e2a79b.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.ergo.de/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 692,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json",
+        "query": [
+          "1793197284"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 520,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/etc/segmentation.segment.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/javascript",
+        "status": 200,
+        "bytes": 196,
+        "hits": 1,
+        "example": "https://www.ergo.de/etc/segmentation.segment.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/2e444b6c-b8f3-4168-9849-e299a3e2a79b/0a3b0e64-7677-4b5b-ac58-b9cb1c48b6e6/de.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/etc/clientcontext/default/content/jcr:content/stores.init.js",
+        "query": [
+          "_",
+          "path"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 1101,
+        "hits": 1,
+        "example": "https://www.ergo.de/etc/clientcontext/default/content/jcr:content/stores.init.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202606.2.0/assets/otCenterRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2720,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCenterRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1997,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202606.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202606.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 300,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 250,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 246,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 256,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 287,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.ergo.de",
+        "path": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 288,
+        "hits": 1,
+        "example": "https://www.ergo.de/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/v1/privacy/set-consent",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://edge.adobedc.net/ee/v1/privacy/set-consent",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pips.taboola.com",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 200,
+        "bytes": 64,
+        "hits": 1,
+        "example": "https://pips.taboola.com/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tr.outbrain.com",
+        "path": "/unifiedPixel",
+        "query": [
+          "au",
+          "bust",
+          "dl",
+          "g",
+          "marketerId",
+          "name",
+          "obApiVersion",
+          "obtpVersion",
+          "pRef",
+          "pld",
+          "referrer",
+          "zone"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 54,
+        "hits": 2,
+        "example": "https://tr.outbrain.com/unifiedPixel",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "chat12.realperson.de",
+        "path": "/api/embed/config",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1310,
+        "hits": 1,
+        "example": "https://chat12.realperson.de/api/embed/config",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cds.taboola.com",
+        "path": "/",
+        "query": [
+          "bnd",
+          "bndv",
+          "dc",
+          "mbl",
+          "ptf",
+          "uad",
+          "uid"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cds.taboola.com/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_gsid",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/980528457/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "_gsid",
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/o",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bat.bing.com/p/insights/c/o",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=18428517123989351943;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMecdsxSqbGiMFis8xpCkMfXpj6YCjB6Gmyrdig;_dc_time=1793197286;cid=CAQS4gEAQM4h3P4QgvPoNHP8ocF1WTmCFRhVJZ7HB-W1BTFkYTbxKbWWck5yEhZRSrH8zJwvh0eVxLy_YY9ZLjJL6o6-sdlK6H-YLjsVt4kSRZXTS43nHEyH9MMarrg78BTosOwyzrvsIG96V8fUNtf_eEeImKFQplAxTRZ_1bJyM6YpReGeALQd-PnPx3cFpY0Y6LvaHYdjdj_qPajSJgTUDTZitEKDrkhOuxnfsQRbgbrllxbe_vO8mZATgUw0yzbo0YwYez54icy2MToafRxJBaqNDyZ_mZUg3afSHg21ljMcdZ26;eps=AHas8cC-56X4Roe7lTowmqcPo_k0hA-FZ66Apprv4INkjBcgPf3WiFxQOBdzZ76BLQBSB53SPxJmt6_UOLCRmDEBxwGNb6q50olpEKAksqshYazCBQ;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 42,
+        "hits": 1,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=18428517123989351943;_dc_ptd=ChEI8LqG1wYQireW-K2X8f7JARIfAHJKMecdsxSqbGiMFis8xpCkMfXpj6YCjB6Gmyrdig;_dc_time=1793197286;cid=CAQS4gEAQM4h3P4QgvPoNHP8ocF1WTmCFRhVJZ7HB-W1BTFkYTbxKbWWck5yEhZRSrH8zJwvh0eVxLy_YY9ZLjJL6o6-sdlK6H-YLjsVt4kSRZXTS43nHEyH9MMarrg78BTosOwyzrvsIG96V8fUNtf_eEeImKFQplAxTRZ_1bJyM6YpReGeALQd-PnPx3cFpY0Y6LvaHYdjdj_qPajSJgTUDTZitEKDrkhOuxnfsQRbgbrllxbe_vO8mZATgUw0yzbo0YwYez54icy2MToafRxJBaqNDyZ_mZUg3afSHg21ljMcdZ26;eps=AHas8cC-56X4Roe7lTowmqcPo_k0hA-FZ66Apprv4INkjBcgPf3WiFxQOBdzZ76BLQBSB53SPxJmt6_UOLCRmDEBxwGNb6q50olpEKAksqshYazCBQ;dc_pre=CLvlirr03JcDFYENhAgdLScjHQ;src=10334510;type=visit0;cat=visit0;rcb=14;ord=6871298325769;npa=0;auiddc=340528359.1793197285;u1=undefined;u3=Homepage%20(Ergo.de);gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=IFA;gtm=45fe6aq1h1v9181781594za200zb9126942928zd9126942928xecxf1;gcs=G111;gcd=13r3r3X3r5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117776795~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034;epver=2;em=tv.1;emd=tvd.1;dc_random=1793197285_wlw26Fur4Bf41u2PX4u8sjevlpVTYQHf7g;~oref=https%3A%2F%2Fwww.ergo.de%2F",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "chat12.realperson.de",
+        "path": "/api/embed/status",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 268,
+        "hits": 1,
+        "example": "https://chat12.realperson.de/api/embed/status",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 19
+      },
+      {
+        "host": "chat12.realperson.de",
+        "count": 5
+      },
+      {
+        "host": "cdn.taboola.com",
+        "count": 4
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "server.cnd-motionmedia.de",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "trc.taboola.com",
+        "count": 1
+      },
+      {
+        "host": "amplify.outbrain.com",
+        "count": 1
+      },
+      {
+        "host": "wave.outbrain.com",
+        "count": 1
+      },
+      {
+        "host": "tr.outbrain.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.scarabresearch.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "trck.spoteffects.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 11,
+      "thirdPartyEndpoints": 21,
+      "thirdPartyScriptHosts": 16,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html",
+  "heroEyebrow": "Zahnzusatzversicherungen im Vergleich",
+  "heroHeadline": "Wer zuletzt lacht – ist bei ERGO versichert!",
+  "heroLede": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.",
+  "heroImage": {
+    "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.dam.jpg",
+    "alt": "Eltern liegen auf dem Teppichboden und lachen mit der kleinen Tochter in die Kamera. "
+  },
+  "heroResolution": {
+    "method": "rendered-dom",
+    "selector": ".cmp-hero__teaser-title",
+    "eyebrowSelector": ".cmp-hero__teaser-headline h1",
+    "note": "h1 is the small eyebrow; the visual headline is a p.txt__claim (Fedra Serif) — vision check 2026-10-28"
+  },
+  "components": {
+    "source": "main .aem-Grid > * (AEM ergoone component wrappers)",
+    "sequence": [
+      {
+        "component": "experienceFragment",
+        "modifiers": [
+          "experiencefragment"
+        ],
+        "heading": null
+      },
+      {
+        "component": "cta",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-s",
+          "bg-yellow"
+        ],
+        "heading": null
+      },
+      {
+        "component": "experienceFragment",
+        "modifiers": [
+          "experiencefragment",
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "hero",
+        "modifiers": [
+          "padding-bottom",
+          "padding-m",
+          "bg-orange"
+        ],
+        "heading": null
+      },
+      {
+        "component": "html",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "html",
+        "modifiers": [],
+        "heading": "IHRE VERSICHERUNGEN"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-s"
+        ],
+        "heading": "BESTSELLER"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-m"
+        ],
+        "heading": "Die beliebtesten Produkte"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "html",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "cta",
+        "modifiers": [
+          "padding-xl",
+          "position-center"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-l",
+          "bg-magenta"
+        ],
+        "heading": "AKTUELLES"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-s",
+          "bg-magenta"
+        ],
+        "heading": "Aktionen und Produktangebote"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-m",
+          "bg-magenta"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-l",
+          "bg-magenta"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "tile",
+        "modifiers": [
+          "cta",
+          "padding-top-bottom",
+          "no-padding"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-xl"
+        ],
+        "heading": "SERVICES"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-s"
+        ],
+        "heading": "Sparen Sie Zeit durch einfache Online-Services"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-m"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "cta",
+        "modifiers": [
+          "padding-xl",
+          "position-center"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-l",
+          "bg-green"
+        ],
+        "heading": "KUNDENBEWERTUNGEN"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-s",
+          "bg-green"
+        ],
+        "heading": "Das sagen ERGO Kunden"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-m",
+          "bg-green"
+        ],
+        "heading": null
+      },
+      {
+        "component": "ekomi",
+        "modifiers": [
+          "padding-m",
+          "bg-green"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-xl"
+        ],
+        "heading": "KONTAKT"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-s"
+        ],
+        "heading": "Sie haben Fragen?"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-m"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "cta",
+        "modifiers": [
+          "padding-xl",
+          "position-center"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-s"
+        ],
+        "heading": "WISSENSWERTES"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-m"
+        ],
+        "heading": "Rundum gut informiert mit ERGO"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-m"
+        ],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "promo",
+        "modifiers": [],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-m"
+        ],
+        "heading": null
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-m"
+        ],
+        "heading": "Tipps der Redaktion"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-l"
+        ],
+        "heading": null
+      },
+      {
+        "component": "articleTeaserCarousel",
+        "modifiers": [
+          "padding-xl"
+        ],
+        "heading": null
+      },
+      {
+        "component": "experienceFragment",
+        "modifiers": [
+          "experiencefragment"
+        ],
+        "heading": "WARUM ERGO?"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top",
+          "padding-l",
+          "bg-blue"
+        ],
+        "heading": "WARUM ERGO?"
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-m",
+          "bg-blue"
+        ],
+        "heading": "Einfach, weil's wichtig ist."
+      },
+      {
+        "component": "text",
+        "modifiers": [
+          "padding-s",
+          "bg-blue"
+        ],
+        "heading": null
+      },
+      {
+        "component": "carouselContainer",
+        "modifiers": [
+          "padding-m",
+          "bg-blue"
+        ],
+        "heading": null
+      },
+      {
+        "component": "scrollToTop",
+        "modifiers": [
+          "padding-top-bottom",
+          "padding-m"
+        ],
+        "heading": null
+      }
+    ]
+  },
+  "type": "landing",
+  "slots": {
+    "hero-eyebrow": "Zahnzusatzversicherungen im Vergleich",
+    "hero-headline": "Wer zuletzt lacht – ist bei ERGO versichert!",
+    "hero-lede": "Ausgezeichnete Leistungen und keine Wartezeiten: Bis zu 100 % Premiumschutz für Ihr schönstes Lachen.",
+    "hero-image": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.dam.jpg",
+    "sections": [
+      "IHRE VERSICHERUNGEN",
+      "Persönliche Empfehlungen für Sie",
+      "BESTSELLER",
+      "Die beliebtesten Produkte",
+      "AKTUELLES",
+      "Aktionen und Produktangebote",
+      "SERVICES",
+      "Sparen Sie Zeit durch einfache Online-Services",
+      "KUNDENBEWERTUNGEN",
+      "Das sagen ERGO Kunden",
+      "KONTAKT",
+      "Sie haben Fragen?",
+      "WISSENSWERTES",
+      "Rundum gut informiert mit ERGO",
+      "Tipps der Redaktion",
+      "WARUM ERGO?",
+      "Einfach, weil's wichtig ist."
+    ],
+    "product-tiles": [
+      {
+        "title": "Risikolebensversicherung",
+        "link": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+        "price": null
+      },
+      {
+        "title": "Kieferorthopädie Sofort für Kinder",
+        "link": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+        "price": null
+      },
+      {
+        "title": "Reiseversicherung",
+        "link": "/de/Produkte/Reiseversicherung",
+        "price": null
+      },
+      {
+        "title": "Sterbegeldversicherung",
+        "link": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+        "price": null
+      },
+      {
+        "title": "Krankenhauszusatzversicherung",
+        "link": "/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung",
+        "price": null
+      },
+      {
+        "title": "Basis-Rente",
+        "link": "/de/Produkte/Rentenversicherung/Basis-Rente",
+        "price": null
+      },
+      {
+        "title": "Berufsunfähigkeitsversicherung",
+        "link": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+        "price": null
+      },
+      {
+        "title": "Unfallversicherung",
+        "link": "/de/Produkte/Unfallversicherung",
+        "price": null
+      },
+      {
+        "title": "E-Mail",
+        "link": "/de/Service/Kontakt/Kontaktformular",
+        "price": null
+      },
+      {
+        "title": "Chat",
+        "link": null,
+        "price": null
+      },
+      {
+        "title": "ERGO Berater",
+        "link": "/de/Service/Vermittlersuche",
+        "price": null
+      },
+      {
+        "title": "Telefon",
+        "link": "tel:08003746095",
+        "price": null
+      }
+    ],
+    "teaser-cards": [
+      {
+        "title": null,
+        "link": "https://www.ergo.de/de/Produkte/Krankenversicherung/Krankentagegeld",
+        "image": null
+      },
+      {
+        "title": null,
+        "link": "https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+        "image": null
+      },
+      {
+        "title": null,
+        "link": "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+        "image": null
+      },
+      {
+        "title": null,
+        "link": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+        "image": "https://assets.ergo.com/content/dam/ergo/produkte/leben/frauaufdemfahrradunterwegs.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "/de/Produkte/Rechtsschutzversicherung",
+        "image": "https://assets.ergo.com/content/dam/ergo/produkte/sach/rechtsschutz/rechtsschutzversicherung.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "/de/Produkte/Krankenversicherung/Augenversicherung",
+        "image": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/augenversicherung.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "/de/Service/ereignis-melden",
+        "image": "https://assets.ergo.com/content/dam/ergo/landingpages/frau-vor-laptop.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "/de/Service/kundenportal",
+        "image": "https://assets.ergo.com/content/dam/ergo/service/kundenbereich-vertraege-mann-tablet.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "https://schadenservice.ergo.de/unwetterschaden",
+        "image": "https://assets.ergo.com/content/dam/ergo/service/unwetter.dam.jpg"
+      },
+      {
+        "title": null,
+        "link": "https://freunde.ergo.de/?intcid=9001026",
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/MegaphoneIcon.svg"
+      },
+      {
+        "title": null,
+        "link": "/de/Service/Newsletter",
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BusinessCardIcon.svg"
+      },
+      {
+        "title": null,
+        "link": "/de/Geschaeftskunden-Produkte",
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/StoreIcon.svg"
+      },
+      {
+        "title": null,
+        "link": null,
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GlobeIcon.svg"
+      },
+      {
+        "title": null,
+        "link": null,
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/GroupIcon.svg"
+      },
+      {
+        "title": null,
+        "link": null,
+        "image": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HandshakeIcon.svg"
+      }
+    ],
+    "contact-band": true
+  }
+}

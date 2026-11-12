@@ -1,36 +1,56 @@
-/* stylelint-disable max-line-length */
+/*
+ * ERGO replica — self-hosted OFL substitutes for the licensed brand kits.
+ * FS Me (Fontsmith) and Fedra Serif (Typotheque) are licensed webfont kits and are
+ * NEVER rehosted. Fira Sans / Noto Serif (SIL OFL 1.1) stand in, metric-matched to the
+ * captured brand faces: size-adjust = measured advance-width ratio, ascent/descent
+ * overrides reproduce the brand face's vertical metrics (stardust/replica/progress.json
+ * types.landing.fonts). The brand family stays FIRST in every stack, so a licensed kit
+ * dropped in later wins without a code change.
+ */
 @font-face {
-  font-family: roboto-condensed;
+  font-family: "FS Me Substitute";
+  src: url("../fonts/fira-sans-400.woff2") format("woff2");
+  font-weight: 100 599;
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
-  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 99%;
+  ascent-override: 92.9%;
+  descent-override: 27.3%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto;
+  font-family: "FS Me Substitute";
+  src: url("../fonts/fira-sans-700.woff2") format("woff2");
+  font-weight: 600 900;
   font-style: normal;
-  font-weight: 700;
   font-display: swap;
-  src: url('../fonts/roboto-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 102.1%;
+  ascent-override: 90.1%;
+  descent-override: 26.4%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto;
+  font-family: "Fedra Serif Substitute";
+  src: url("../fonts/noto-serif-400.woff2") format("woff2");
+  font-weight: 100 599;
   font-style: normal;
-  font-weight: 500;
   font-display: swap;
-  src: url('../fonts/roboto-medium.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 103.7%;
+  ascent-override: 75.2%;
+  descent-override: 21.2%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto;
+  font-family: "Fedra Serif Substitute";
+  src: url("../fonts/noto-serif-700.woff2") format("woff2");
+  font-weight: 600 900;
   font-style: normal;
-  font-weight: 400;
   font-display: swap;
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 104.5%;
+  ascent-override: 74.6%;
+  descent-override: 21.1%;
+  line-gap-override: 0%;
 }

@@ -1,0 +1,472 @@
+[
+ {
+  "domainScript": "2e444b6c-b8f3-4168-9849-e299a3e2a79b",
+  "version": "202606.2.0",
+  "ruleSets": [
+   {
+    "name": "Global",
+    "type": "GDPR",
+    "countries": 211,
+    "default": true,
+    "gpc": true,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "E0020",
+      "name": "Adobe Launch",
+      "status": "always active",
+      "hosts": [
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "E0070",
+      "name": "Adobe Target Basis",
+      "status": "always active",
+      "hosts": [
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "E0090",
+      "name": "ERGO Aktions-Webseite",
+      "status": "always active",
+      "hosts": [
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "E0010",
+      "name": "OneTrust",
+      "status": "always active",
+      "hosts": [
+       "onetrust.com"
+      ]
+     },
+     {
+      "id": "E0030",
+      "name": "Realperson Chat",
+      "status": "always active",
+      "hosts": [
+       "SessionStorage",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "C0001",
+      "name": "Unbedingt erforderliche Tools",
+      "status": "always active",
+      "hosts": [
+       "www.das.de",
+       "SessionStorage",
+       "www.ergo.com",
+       "kunde-s.ergo.de",
+       "ergo.de",
+       "www.2te-zahnarztmeinung.de",
+       "LocalStorage",
+       "www.google.com",
+       "LocalStorage www.google.com"
+      ]
+     },
+     {
+      "id": "P0010",
+      "name": "Adobe Analytics",
+      "status": "inactive",
+      "hosts": [
+       "ergodirekt.de",
+       "everesttech.net",
+       "demdex.net",
+       ".omtrdc.net",
+       "LocalStorage",
+       "dpm.demdex.net"
+      ]
+     },
+     {
+      "id": "P0020",
+      "name": "Adobe Target Personalisierung & Messung",
+      "status": "inactive",
+      "hosts": [
+       "ergode.tt.omtrdc.net"
+      ]
+     },
+     {
+      "id": "P0110",
+      "name": "Alida Touchpoint-Survey Tool",
+      "status": "inactive",
+      "hosts": [
+       "Fingerprint",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "P0050",
+      "name": "Dynatrace",
+      "status": "inactive",
+      "hosts": [
+       "SessionStorage",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "P0080",
+      "name": "ERGO Online Survey Tool",
+      "status": "inactive",
+      "hosts": [
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "P0100",
+      "name": "Fullstory",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0003",
+      "name": "Funktionelle Tools",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "P0090",
+      "name": "MouseFlow",
+      "status": "inactive",
+      "hosts": [
+       "SessionStorage"
+      ]
+     },
+     {
+      "id": "P0030",
+      "name": "OneTrust Messung von Browser, Land, Device Type",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0002",
+      "name": "Komfort- & Analyse-Tools",
+      "status": "inactive",
+      "hosts": [
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "M0010",
+      "name": "INACTIVE Adform",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0005",
+      "name": "Affiliate (Finance Ads)",
+      "status": "inactive",
+      "hosts": [
+       "www.financeads.net"
+      ]
+     },
+     {
+      "id": "M0090",
+      "name": "CND Motion Media GmbH",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0110",
+      "name": "emarsys Web Extend-Technologie",
+      "status": "inactive",
+      "hosts": [
+       "scarabresearch.com",
+       "recommender.scarabresearch.com",
+       "ergo.de",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "M0120",
+      "name": "ERGO Marketing Data Hub",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0140",
+      "name": "Facebook Conversion Tracking",
+      "status": "inactive",
+      "hosts": [
+       ".facebook.com",
+       "www.facebook.com",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "M0130",
+      "name": "Facebook Retargeting",
+      "status": "inactive",
+      "hosts": [
+       ".facebook.com"
+      ]
+     },
+     {
+      "id": "M0190",
+      "name": "Facebook Custom Audience",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0060",
+      "name": "Google Conversion Tracking inkl. Search Ads 360",
+      "status": "inactive",
+      "hosts": [
+       ".googleadservices.com",
+       ".google.com",
+       "google.com",
+       ".doubleclick.net",
+       "LocalStorage",
+       "doubleclick.net"
+      ]
+     },
+     {
+      "id": "M0230",
+      "name": "Google Custom Audience",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0040",
+      "name": "Google Enhanced Conversion",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0050",
+      "name": "Google Retargeting inkl. Search Ads 360",
+      "status": "inactive",
+      "hosts": [
+       "google.com",
+       ".doubleclick.net"
+      ]
+     },
+     {
+      "id": "M0260",
+      "name": "LinkedIn Conversion-Tracking",
+      "status": "inactive",
+      "hosts": [
+       "linkedin.com",
+       ".linkedin.com",
+       ".www.linkedin.com",
+       ".linkedin.com "
+      ]
+     },
+     {
+      "id": "M0030",
+      "name": "Microsoft Conversion Tracking & Remarketing (Bing)",
+      "status": "inactive",
+      "hosts": [
+       "bing.com",
+       "bat.bing.com",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "M0080",
+      "name": "Microsoft Customer Match",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0160",
+      "name": "Outbrain Retargeting und Conversion Tracking (UK)",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0250",
+      "name": "Spoteffects",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0170",
+      "name": "Taboola Retargeting und Abschluss Conversion Tracking",
+      "status": "inactive",
+      "hosts": [
+       "taboola.com",
+       "trc.taboola.com",
+       "SessionStorage",
+       "LocalStorage"
+      ]
+     },
+     {
+      "id": "M0240",
+      "name": "United Internet Media",
+      "status": "inactive",
+      "hosts": [
+       "uimserv.net"
+      ]
+     },
+     {
+      "id": "M0270",
+      "name": "Xing",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0004",
+      "name": "Marketing-Tools",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "S0002",
+      "name": "Google Maps",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "S0003",
+      "name": "Vimeo",
+      "status": "inactive",
+      "hosts": [
+       "vimeo.com"
+      ]
+     },
+     {
+      "id": "S0001",
+      "name": "Youtube Videos",
+      "status": "inactive",
+      "hosts": [
+       "LocalStorage www.youtube.com",
+       "SessionStorage www.youtube.com",
+       ".youtube.com",
+       "youtube-nocookie.com",
+       "www.youtube.com",
+       "SessionStorage www.youtube-nocookie.com",
+       "LocalStorage www.youtube-nocookie.com",
+       "youtube.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Sonstige Tools",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "E0050",
+      "name": "Liferay",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "nx000",
+      "name": "Erforderliche Dienste & Tools",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "nx100",
+      "name": "Statistische Funktionen",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "nx200",
+      "name": "Marketing Funktionen",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "nx300",
+      "name": "nx External Media",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "E0060",
+      "name": "Citrix",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "P0060",
+      "name": "NEXOVI – virtueller Beratungsassistent",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0180",
+      "name": "INACTIVE Yahoo Germany GmbH Lead-Conversion Tracking",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0150",
+      "name": "INACTIVE Kooperation Otto FinanzPlus - Adition",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0210",
+      "name": "INACTIVE 6h media",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0020",
+      "name": "INACTIVE Adality",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "P0070",
+      "name": "Knexus",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0100",
+      "name": "INACTIVE Performance Media",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0220",
+      "name": "INACTIVE PRIMEST GmbH Conversion Tracking",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0200",
+      "name": "INACTIVE - Lead Link",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "E0080",
+      "name": "Chatbase",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "M0070",
+      "name": "INACTIVE - IntelliAd",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "P0040",
+      "name": "UserZoom",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "E0040",
+      "name": "Inbenta",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   }
+  ]
+ }
+]

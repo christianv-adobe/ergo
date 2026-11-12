@@ -1,0 +1,32 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "fs me substitute",
+        "createdAt": "2026-10-28T14:59:12.195Z",
+        "reason": "replica Fonts policy: FS Me is a licensed kit, never rehosted; metric-matched OFL substitute (Fira Sans) behind brand family name"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fedra serif substitute",
+        "createdAt": "2026-10-28T14:59:12.215Z",
+        "reason": "replica Fonts policy: Fedra Serif is a licensed kit, never rehosted; metric-matched OFL substitute (Noto Serif) behind brand family name"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fs-me-fallback",
+        "createdAt": "2026-10-28T16:43:48.079Z",
+        "reason": "deploy skill Step 4: metric-matched local -fallback face for the FS Me stack (boilerplate convention), not a new brand font"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "fedra-serif-fallback",
+        "createdAt": "2026-10-28T16:43:48.099Z",
+        "reason": "deploy skill Step 4: metric-matched local -fallback face for the Fedra Serif stack, not a new brand font"
+      }
+    ]
+  }
+}
