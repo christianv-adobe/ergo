@@ -1,0 +1,11 @@
+/* cta — the anchor reads the --cta-* variables the foundation's .cmp-cta modifiers set
+   (styles.css); multiple CTAs stack with the canon 16px gap. */
+.cta.cmp-cta {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.cta.cmp-cta p {
+  margin: 0;
+}

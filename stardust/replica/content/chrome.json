@@ -1,0 +1,711 @@
+{
+ "_source": "header: extract capture stardust/current/pages/index.html; footer: live snapshot @1440",
+ "header": {
+  "logoDesktop": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ergo_logo.dam.svg",
+   "alt": "Logo: ERGO. Einfach weil's wichtig ist.",
+   "href": "/de"
+  },
+  "logoMobile": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+   "alt": "Logo: ERGO",
+   "href": "/de"
+  },
+  "top": [
+   "Versicherungen & Finanzen",
+   "Service",
+   "Kontakt"
+  ],
+  "actions": {
+   "search": {
+    "label": "Suche",
+    "aria": "Hier erreichen Sie die Suche."
+   },
+   "agent": {
+    "label": "Berater",
+    "aria": "Sie können hier einen Berater finden.",
+    "href": "/de/Service/Vermittlersuche"
+   },
+   "login": {
+    "label": "Log-in",
+    "aria": "Hier erreichen Sie das Log-in zum Kundenportal.",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+   },
+   "phone": {
+    "label": "Anrufen",
+    "aria": "Anrufen, 0800 / 3746 095, Mo–Sa 7–20 Uhr (gebührenfrei)",
+    "href": "tel:08003746095",
+    "number": "0800 / 3746 095",
+    "hours": "Mo–Sa 7–20 Uhr (gebührenfrei)"
+   },
+   "menu": {
+    "open": "Menü",
+    "close": "Schließen"
+   }
+  },
+  "search": {
+   "placeholder": "Suchbegriff eingeben",
+   "navAria": "Untermenü",
+   "heading": "Wonach suchen Sie?",
+   "formAria": "Suchbegriff eingeben",
+   "clear": "Eingabe löschen",
+   "submit": "Suche starten",
+   "suggestionsHeader": "ERGO Kunden suchen oft:",
+   "suggestions": [
+    {
+     "label": "Tresorsparen, Vermögenspolicen & Anlage",
+     "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+    },
+    {
+     "label": "Zahnversicherung ohne Wartezeit, Sofortschutz für die Zähne",
+     "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+    },
+    {
+     "label": "Pflegebedürftigkeit, Pflegegrad, Pflegeversicherung",
+     "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+    },
+    {
+     "label": "Risikolebensversicherung",
+     "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+    },
+    {
+     "label": "Reiserücktrittsversicherung",
+     "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+    },
+    {
+     "label": "Versicherungskompass",
+     "href": "/de/Produkte/Lebensphasen"
+    },
+    {
+     "label": "Schaden melden und Rechnung einreichen",
+     "href": "/de/Service/ereignis-melden"
+    },
+    {
+     "label": "Vertrag kündigen",
+     "href": "/de/Service/vertrag-kuendigen"
+    }
+   ]
+  },
+  "nav": [
+   {
+    "label": "Versicherungen & Finanzen",
+    "heading": "Versicherungen & Finanzen",
+    "children": [
+     {
+      "label": "Zahn",
+      "heading": null,
+      "children": [
+       {
+        "label": "Zahnzusatzversicherungen im Vergleich",
+        "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+       },
+       {
+        "label": "Zahnzusatzversicherung mit Sofortschutz",
+        "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit"
+       },
+       {
+        "label": "Kieferorthopädie Sofortschutz für Kinder",
+        "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie"
+       },
+       {
+        "label": "Zahnschutz: Bedarf individuell ermitteln",
+        "href": "/de/Service/zahnversicherung-vergleich"
+       },
+       {
+        "label": "Zahnzusatzversicherungen im Überblick",
+        "href": "/de/Produkte/Zahnzusatzversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Gesundheit",
+      "heading": null,
+      "children": [
+       {
+        "label": "Zahnzusatzversicherungen im Überblick",
+        "href": "/de/Produkte/Zahnzusatzversicherung"
+       },
+       {
+        "label": "Private Zusatzversicherung",
+        "href": "/de/Produkte/Krankenversicherung/gesundheitsvorsorge"
+       },
+       {
+        "label": "Augenversicherungen",
+        "href": "/de/Produkte/Krankenversicherung/Augenversicherung"
+       },
+       {
+        "label": "Krankenversicherungen",
+        "href": "/de/Produkte/Krankenversicherung"
+       },
+       {
+        "label": "Krankenhauszusatzversicherungen",
+        "href": "/de/Produkte/Krankenhauszusatzversicherungen"
+       },
+       {
+        "label": "Pflegezusatzversicherung",
+        "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+       },
+       {
+        "label": "Auslandskrankenversicherung",
+        "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Hausrat & Gebäude",
+      "heading": null,
+      "children": [
+       {
+        "label": "Hausratversicherung",
+        "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+       },
+       {
+        "label": "Wohngebäudeversicherung",
+        "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung"
+       },
+       {
+        "label": "Schließfachversicherung",
+        "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung"
+       },
+       {
+        "label": "Hausrat- und Gebäudeversicherungen im Überblick",
+        "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Haftpflicht",
+      "heading": null,
+      "children": [
+       {
+        "label": "Private Haftpflichtversicherung",
+        "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+       },
+       {
+        "label": "Haftpflichtversicherungen im Überblick",
+        "href": "/de/Produkte/Haftpflichtversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Kfz",
+      "heading": null,
+      "children": [
+       {
+        "label": "Autoversicherung",
+        "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung"
+       },
+       {
+        "label": "Motorradversicherung",
+        "href": "/de/Produkte/KFZ-Versicherung/Motorradversicherung"
+       },
+       {
+        "label": "Verkehrsrechtsschutz",
+        "href": "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz"
+       },
+       {
+        "label": "Kfz-Versicherungen im Überblick",
+        "href": "/de/Produkte/KFZ-Versicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Reise",
+      "heading": null,
+      "children": [
+       {
+        "label": "Auslandskrankenversicherung",
+        "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV"
+       },
+       {
+        "label": "Reiserücktrittsversicherung",
+        "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung"
+       },
+       {
+        "label": "Reiseversicherungen im Überblick",
+        "href": "/de/Produkte/Reiseversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Rechtsschutz",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Vorsorge",
+      "heading": null,
+      "children": [
+       {
+        "label": "Risikolebensversicherung",
+        "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+       },
+       {
+        "label": "Sterbegeldversicherung",
+        "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung"
+       },
+       {
+        "label": "Grundfähigkeitsversicherung",
+        "href": "/de/Produkte/grundfaehigkeitsversicherung"
+       },
+       {
+        "label": "Berufsunfähigkeitsversicherung",
+        "href": "/de/Produkte/Berufsunfaehigkeitsversicherung"
+       },
+       {
+        "label": "Private Altersvorsorge",
+        "href": "/de/Produkte/Rentenversicherung"
+       },
+       {
+        "label": "Betriebliche Altersversorgung",
+        "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Finanzen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Vermögenspolicen",
+        "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen"
+       },
+       {
+        "label": "Kidspolicen",
+        "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen"
+       },
+       {
+        "label": "Immobilienfinanzierung",
+        "href": "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung"
+       },
+       {
+        "label": "Bausparen",
+        "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen"
+       },
+       {
+        "label": "Monatsgeld",
+        "href": "/de/Produkte/Monatsgeld"
+       },
+       {
+        "label": "Geldanlage in Investmentfonds",
+        "href": "/de/Produkte/Investmentprodukte"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Unfallversicherung",
+      "href": "/de/Produkte/Unfallversicherung"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BlueLightIcon.svg",
+      "title": "Die ERGO Fast Lane zum Altersvorsorgedepot",
+      "text": "Mit der ERGO Fast Lane bleiben Sie immer einen Schritt voraus.",
+      "cta": {
+       "label": "Jetzt informieren",
+       "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+       "aria": "zur ERGO Risikolebensversicherung"
+      }
+     },
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HelpIcon.svg",
+      "title": "Nicht sicher, was Sie benötigen?",
+      "text": "Dann lassen Sie sich helfen.",
+      "cta": {
+       "label": "ERGO kontaktieren",
+       "href": "/de/Service/Kontakt",
+       "aria": "Hier können Sie ERGO kontaktieren."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Service",
+    "heading": "Service",
+    "children": [
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     },
+     {
+      "label": "Kundenportal",
+      "heading": null,
+      "children": [
+       {
+        "label": "Login",
+        "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+       },
+       {
+        "label": "Registrierung",
+        "href": "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+       },
+       {
+        "label": "Das ERGO Kundenportal",
+        "href": "/de/Service/kundenportal"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Kunden werben Kunden",
+      "href": "/de/Service/Freundschaftswerbung"
+     },
+     {
+      "label": "Versicherungs-Check",
+      "href": "https://start.ergo.de/check-b?pp-paris=true&pp-anr=5916"
+     },
+     {
+      "label": "Persönlichkeitstest",
+      "href": "/de/Service/typen-test"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+      "title": "Meine Versicherungen",
+      "text": "Sehen Sie auf einen Blick Ihre Versicherungen bei ERGO, dem ERGO Rechtsschutz und der DKV.",
+      "cta": {
+       "label": "Zum Kundenportal",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "aria": "Hier geht es zum Kundenportal."
+      }
+     },
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightningIcon.svg",
+      "title": "Schaden- oder Leistungsfall melden",
+      "text": "Bequem online oder telefonisch.",
+      "cta": {
+       "label": "Rechnung einreichen",
+       "href": "/de/Service/ereignis-melden",
+       "aria": "Sie können hier eine Rechnung einreichen."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Kontakt",
+    "heading": "Kontakt",
+    "children": [
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+      "title": "Meine Versicherungen",
+      "text": "Sehen Sie auf einen Blick Ihre Versicherungen bei ERGO, dem ERGO Rechtsschutz und der DKV.",
+      "cta": {
+       "label": "Zum Kundenportal",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "aria": "Hier geht es zum Kundenportal."
+      }
+     },
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LightningIcon.svg",
+      "title": "Schaden- oder Leistungsfall melden",
+      "text": "Bequem online oder telefonisch.",
+      "cta": {
+       "label": "Rechnung einreichen",
+       "href": "/de/Service/ereignis-melden",
+       "aria": "Sie können hier eine Rechnung einreichen."
+      }
+     }
+    ]
+   }
+  ],
+  "actionItems": [
+   {
+    "label": "ERGO Berater finden",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "Berater",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg"
+   },
+   {
+    "label": "Kundenportal Log-in",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "aria": "Log-in",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg"
+   }
+  ]
+ },
+ "footer": {
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+     },
+     {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+     },
+     {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+     },
+     {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+     },
+     {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+     },
+     {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Kunden werben Kunden",
+      "href": "https://freunde.ergo.de/?intcid=9001032"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+     },
+     {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/newsroom"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "ERGO Blog"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": "Sitemap"
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2026 ERGO. Alle Rechte vorbehalten."
+ }
+}

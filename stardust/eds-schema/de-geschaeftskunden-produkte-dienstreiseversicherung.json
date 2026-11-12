@@ -1,0 +1,616 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-geschaeftskunden-produkte-dienstreiseversicherung-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Dienstreiseversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sichern Sie Ihre Mitarbeiter auf Dienstreisen umfangreich ab"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https%3A%2F%2Fwww.ergo.de%2Fde%2FGeschaeftskunden-Produkte%2FDienstreiseversicherung"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Als Unternehmen schicken Sie Ihre Mitarbeiter oft auf Dienstreisen. Dabei haben Sie eine besondere Fürsorgepflicht für Ihre Angestellten. Hat beispielsweise ein Mitarbeiter auf einer Dienstreise abends nach Dienstende einen Unfall, ist er nicht über die Berufsgenossenschaft abgesichert. Die bietet Ihren Mitarbeitern einen umfangreichen Versicherungsschutz. Das reicht von modularen Lösungen für kleine und mittelständische Firmen bis hin zu individuellen Absicherungen für Großunternehmen."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ERGO Reiseversicherung (ERV)"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Erfüllung Ihrer Fürsorgepflicht"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Weltweite Absicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Einfache Beantragung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die Vorteile der Dienstreise-Versicherung der ERV"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Weltweite Absicherung aller Dienst- und Geschäftsreisen der Mitarbeiter Ihres Unternehmens"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Schnelle Hilfe rund um die Uhr durch die ERGO Reiseversicherung-Notrufzentrale"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Erfahrenes Expertenteam bei Unfällen, Krankenrücktransporten und medizinischer Versorgung vor Ort"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ERGO travel & care Sicherheits-App mit wertvollen Reiseinfos"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Die passende Lösung für alle Fälle – von der Krankenversicherung bis hin zum umfassenden Paket"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Einfache Kalkulation durch Tagesprämien – namentliche Nennung der Mitarbeiter nicht notwendig"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Varianten der Dienstreise-Versicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "CareBasic"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Der attraktive Krankenversicherungs-Schutz"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Wenn Ihre Mitarbeiter auf Dienstreisen unterwegs sind, gehört CareBasic zur Grundausstattung Ihres Unternehmens. Mit bis zu 10.000 versicherten Reisetagen für Ihr Unternehmen pro Jahr und einer ununterbrochenen Reisedauer von bis zu 180 Tagen ist die weltweite medizinische Versorgung Ihrer Mitarbeiter sicher. Auch dann, wenn die Krankheit oder Verletzung nicht unmittelbar bei der beruflichen Tätigkeit entstanden ist. Im Produktumfang sind enthalten:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Reise-Krankenversicherung (Heilbehandlungskosten & Krankenrücktransport)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "CarePlus"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Der Rundum-Schutz für alle Fälle"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Zusätzlich zu den Leistungen von CareBasic erhalten Sie bei CarePlus den RundumSorglos-Service, einen Verspätungsschutz und einen Krisenschutz. Zudem können Sie weitere optionale Module für eine noch bessere Absicherung einschließen. Im Produktumfang enthalten:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Reise-Krankenversicherung (Heilbehandlungskosten & Krankenrücktransport)"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "RundumSorglos-Service (Hilfe bei nichtmedizinischen Notfällen, z. B. mit Reisedokumenten)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Verspätungsschutz (Schäden aus Verspätungen mit öffentlichen Verkehrsmitteln)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Krisenschutz (Kosten für psychologische Akutintervention)"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Hinzu wählbar:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Reiseunfall-Versicherung (abgesichert auch außerhalb der Arbeitszeit)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Reisegepäck-Versicherung (Schutz bei Diebstahl und Verlust)"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Reisehaftpflicht-Versicherung (private Haftpflichtrisiken)"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Reiserücktritts-Versicherung (Übernahme der Stornokosten, sowie der Mehrkosten bei Reiseabbruch)"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Ersatzmitarbeiter-Versicherung (Zusätzliche Kosten durch Ersatzkräfte)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Verkehrsrechtsschutz für Dienstreisen"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Individual"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Der individuelle Schutz für Ihren Bedarf"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Stellen Sie sich alle Bausteine individuell nach Ihrem Bedarf zusammen. Es sind keine Bausteine vorausgewählt. Auswählbar:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Reise-Krankenversicherung (Heilbehandlungskosten & Transport ins Krankenhaus)"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "RundumSorglos-Service (Hilfe bei nichtmedizinischen Notfällen, z. B. mit Reisedokumenten)"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Verspätungs-Schutz (Schäden aus Verspätungen mit öffentlichen Verkehrsmitteln)"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Krisenschutz (Kosten für psychologische Akutintervention)"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Reiseunfall-Versicherung (abgesichert auch außerhalb der Arbeitszeit)"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Reisegepäck-Versicherung (Schutz bei Diebstahl und Verlust)"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Reisehaftpflicht-Versicherung (private Haftpflichtrisiken)"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Reiserücktritts-Versicherung (Übernahme der Stornokosten, sowie der Mehrkosten bei Reiseabbruch)"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Ersatzmitarbeiter-Versicherung (Zusätzliche Kosten durch Ersatzkräfte)"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Verkehrsrechtsschutz für Dienstreisen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wissenswertes im Überblick"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hier können Sie sich bequem und einfach weitere Informationen zur ERGO Dienstreise-Versicherung herunterladen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Prospekt Dienstreise-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dateiname"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "prospekt-dienstreise-versicherung.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Format"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "pdf"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Größe"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "245 KB"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-download__property",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Lassen Sie sich ein individuelles Angebot erstellen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sie möchten eine persönliche Beratung? Ein ERGO Berater vor Ort ist für Sie da und spricht gern mit Ihnen über den passenden Versicherungsschutz."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Das könnte Sie auch interessieren:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Industrielle Haftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In Industriebetrieben kann auch ein kleiner Fehler teure Auswirkungen haben."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Industriehaftpflichtversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Geschäftsinhaltsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schützen Sie Ihr Geschäft und Ihre Einkünfte: Nutzen Sie die Möglichkeiten der ERGO Geschäftsinhaltsversicherung."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Nicht sicher, was Sie benötigen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dann lassen Sie sich helfen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Per E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail schreiben",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gleich Termin vereinbaren."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mo–Sa 7–20 Uhr (gebührenfrei)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Rufen Sie an."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dies ist ein Produkt der ERGO Reiseversicherung AG."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

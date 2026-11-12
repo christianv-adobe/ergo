@@ -1,0 +1,635 @@
+{
+  "slug": "de-service",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "index",
+  "modules": [
+    "hero",
+    "carousel",
+    "promo",
+    "embed"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "grid"
+  ],
+  "canonShas": {
+    "header": "62dc8f8f6fdf",
+    "footer": "e66cb435fee6",
+    "css": "49d76ee4a156"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Servicebereich | ERGO",
+    "description": "Hier finden Sie praktische Services, die Ihnen echte Mehrwerte bieten.",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Servicebereich | ERGO",
+    "description": "Hier finden Sie praktische Services, die Ihnen echte Mehrwerte bieten.",
+    "url": "https://www.ergo.de/de/Service"
+  },
+  "migratedAt": "2026-10-28T19:54:16Z",
+  "designMdSha": "9d465ca20858",
+  "designJsonSha": "7ad1fc1913c1",
+  "sourceCurrentSha": "72cba8bcd9b9",
+  "sourceProposedSha": "2c9340ed8ca6",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "e2be58170715",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs / (productpage family: product hero, promos, tile/promo carousels, benefits, accordion, embed) -> program/listing encoders + additive variants; stardust/rollout/units/cluster-landing-variance.json",
+    "content-count": "content-diff live vs aem.page main: MISSING 0 body/CTA/heading in main except consent-wall CTAs of the YouTube embed (service, consent off); looks-same reds = ROLE SWAP p->heading (archetype ROLE UPGRADE convention, deviation logged); gate-all MISSING 0 / HIDDEN 0 both widths",
+    "content-fidelity": "verbatim encode from the sibling prototype (stardust/.work/deploy/probes/encode-landing-product.mjs)",
+    "delivery-lint": "0 P0 / 0 P1",
+    "pixel-gate-1440": "gate-all 15.26% dh 4 -> PASS (same-browser) 2.41% dh -44 (hyphenation asymmetry; override gates/all-1440/overrides.json)",
+    "pixel-gate-360": "gate-all 22.46% dh 86 -> PASS (same-browser) 8.39% dh -11 (hyphenation asymmetry; override gates/all-360/overrides.json)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "role-upgrade",
+      "source": "p (promo/card headlines + titles, tile titles, serif section titles txt__h2)",
+      "target": "h2/h3/h4",
+      "reason": "archetype ROLE UPGRADE convention (eds-conversion-log archetype-program/listing): same look, authored as headings"
+    },
+    {
+      "kind": "restructure",
+      "source": "cmp-embed YouTube iframe (consent-gated on live)",
+      "target": "embed block: one link to the embed URL (title = player title, link title = aria-label)",
+      "reason": "new block embed; davids-model prefers a default-content link auto-blocked in scripts.js — scripts/ frozen, foundation request filed"
+    }
+  ],
+  "assetsBundled": 78,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-kuendigen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/zahnversicherung-vergleich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung/gesundheitsvorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenhauszusatzversicherungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Motorradversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/grundfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Monatsgeld",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Investmentprodukte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Unfallversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Freundschaftswerbung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/typen-test",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/kunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/bankverbindung-weiche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/adresse-weiche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/kraftfahrt-beitragsinformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ivk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/digitalwallet/digital-wallet-kfz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/kilometerstand",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Zahnkosten-Optimierer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/haftpflichtbescheinigungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/baugeruest",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/rohbauende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/eigentuemerwechsel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/umzug",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/widerruf-automatische-anpassung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/Bescheinigungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/beitragszahlung-aussetzen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Lebensversicherung/beitrag-aendern",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Stichtagsmeldung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtsportal/servicebereich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/unfallanpassung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich/ersatzversicherungsschein",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Newsletter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/werbung-abbestellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-widerrufen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-kuendigen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ergo-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/typen-test",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Freundschaftswerbung?intcid=9001027",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zahngesundheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbereich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Newsletter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/kunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/videoberatung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/einfach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Anbieter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Barrierefreiheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-widerrufen",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/Service/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "de/Service/_meta.json",
+  "driverVersion": "1"
+}

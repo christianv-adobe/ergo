@@ -1,0 +1,15 @@
+{
+  "_note": "Proposals awaiting the site owner. chrome-compare ignores entries without by/at; the owner signs by adding by + at (ISO date).",
+  "decisions": [
+    {
+      "finding": "panel-visual@*",
+      "decision": "accept",
+      "reason": "Open-state menu panels match in geometry (identical crop sizes); the 2–6 % differences are glyph texture from the metric-matched Fira Sans / Noto Serif substitutes for the licensed FS Me / brand serif kit, which is never rehosted. Clears when the licensed fonts are dropped in."
+    },
+    {
+      "finding": "state-missing@1440 search [type]",
+      "decision": "accept",
+      "reason": "Search typeahead calls ergo.de search APIs; the header search form submits to the ergo.de results page until search is in scope (dynamic-features plan)."
+    }
+  ]
+}

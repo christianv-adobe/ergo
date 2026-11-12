@@ -1,0 +1,1309 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-service-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Services"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zeit und Geld sparen mit den Services von ERGO"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Viele Angelegenheiten erledigen Sie hier direkt online. Weitere Services rund um Ihre Verträge finden Sie im Kundenportal."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Kundenportal",
+     "href": "/de/Service/kundenportal"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Alle Services im Überblick"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Verwalten Sie Ihre Versicherungen und persönliche Daten schnell und einfach selbst. Hier melden Sie einen Schaden oder ändern die Wohnadresse. Auch Änderungen rund um Ihre Versicherung nehmen Sie hier vor. Außerdem finden Sie viele nützliche Informationen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Umfassende Services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Meldungen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schaden- oder Leistungsfall melden"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Melden Sie Ereignisse wie einen Schaden- oder Leistungsfall, Sterbe- oder Pflegefall."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Jetzt melden",
+     "href": "/de/Service/ereignis-melden"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Persönliches"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Bankverbindung / Beitragskonto ändern"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ändern Sie hier das Beitragskonto für Ihre Verträge."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt ändern",
+     "href": "/de/Service/Kundenbereich/bankverbindung-weiche"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Meldungen"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Adresse und Kontaktdaten ändern"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Teilen Sie hier Ihre neue Adresse und aktuellen Kontaktdaten mit."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Jetzt ändern",
+     "href": "/de/Service/Kundenbereich/adresse-weiche"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unwetterschäden melden und richtig handeln"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sie sind betroffen? Melden Sie Ihren Schaden einfach online und ersparen Sie sich lange Wartezeiten am Telefon."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt melden",
+     "href": "https://schadenservice.ergo.de/unwetterschaden"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Kfz-Versicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ihr Vertrag: einsehen, verwalten, ändern, temporären / begleiteten Fahrer melden"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Vertragsinformationen einsehen & Verträge online ändern",
+     "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Informationen zu Beitragsanpassungen erhalten"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Informationen zu Beitragsanpassungen erhalten",
+     "href": "/de/Service/Kundenbereich/kraftfahrt-beitragsinformation"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Internationale Versicherungskarte anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Internationale Versicherungskarte anfordern",
+     "href": "/de/Service/Kundenbereich/ivk"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bescheinigung für das Finanzamt anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bescheinigung für das Finanzamt anfordern",
+     "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ersatzversicherungsschein anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Ersatzversicherungsschein anfordern",
+     "href": "/de/Service/Kundenbereich/ersatzversicherungsschein"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Digitale Servicekarte anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Digitale Servicekarte anfordern",
+     "href": "/de/Service/Kundenbereich/digitalwallet/digital-wallet-kfz"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Kilometerstand melden"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Kilometerstand melden",
+     "href": "/de/Service/Kundenbereich/kilometerstand"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Zahn- und Krankenversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Zahnarztkosten vergleichen (sparen)"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Zahnarztkosten vergleichen (sparen)",
+     "href": "/de/Service/Zahnkosten-Optimierer"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "goDentis-Zahnarzt finden"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "goDentis-Zahnarzt finden",
+     "href": "https://www.godentis.de/"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Haftpflichtversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vertragsinformationen einsehen & ändern"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Vertragsinformationen einsehen & ändern",
+     "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bescheinigung für das Finanzamt anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Bescheinigung für das Finanzamt anfordern",
+     "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ersatzversicherungsschein anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Ersatzversicherungsschein anfordern",
+     "href": "/de/Service/Kundenbereich/ersatzversicherungsschein"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bescheinigung für Versicherungsschutz anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bescheinigung für Versicherungsschutz anfordern",
+     "href": "/de/Service/Kundenbereich/haftpflichtbescheinigungen"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hausrat- und Wohngebäudeversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vertragsinformationen einsehen & ändern"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Vertragsinformationen einsehen & ändern",
+     "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Baugerüst melden"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Baugerüst melden",
+     "href": "/de/Service/Kundenbereich/baugeruest"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Rohbauende mitteilen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Rohbauende mitteilen",
+     "href": "/de/Service/Kundenbereich/rohbauende"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bescheinigung für das Finanzamt anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bescheinigung für das Finanzamt anfordern",
+     "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Wohngebäude Eigentümerwechsel mitteilen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Wohngebäude Eigentümerwechsel mitteilen",
+     "href": "/de/Service/Kundenbereich/eigentuemerwechsel"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Ersatzversicherungsschein anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Ersatzversicherungsschein anfordern",
+     "href": "/de/Service/Kundenbereich/ersatzversicherungsschein"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Daten zum Umzug mitteilen"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Daten zum Umzug mitteilen",
+     "href": "/de/Service/Kundenbereich/umzug"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lebensversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Beitragsanpassung widerrufen"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Beitragsanpassung widerrufen",
+     "href": "/de/Service/Kundenbereich/Lebensversicherung/widerruf-automatische-anpassung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bescheinigungen anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Bescheinigungen anfordern",
+     "href": "/de/Service/Kundenbereich/Lebensversicherung/Bescheinigungen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Beitragszahlung aussetzen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Beitragszahlung aussetzen",
+     "href": "/de/Service/Kundenbereich/Lebensversicherung/beitragszahlung-aussetzen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Beitrag oder Leistung ändern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Beitrag oder Leistung ändern",
+     "href": "/de/Service/Kundenbereich/Lebensversicherung/beitrag-aendern"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rechtsschutzversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vertragsinformationen einsehen"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Vertragsinformationen einsehen",
+     "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Stichtagmeldung abgeben"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Stichtagmeldung abgeben",
+     "href": "/de/Service/Kundenbereich/Stichtagsmeldung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Musterdokumente erhalten"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Musterdokumente erhalten",
+     "href": "/de/rechtsportal/servicebereich"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Bescheinigung für das Finanzamt anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Bescheinigung für das Finanzamt anfordern",
+     "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ersatzversicherungsschein anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Ersatzversicherungsschein anfordern",
+     "href": "/de/Service/Kundenbereich/ersatzversicherungsschein"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unfallversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vertragsinformationen einsehen"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Vertragsinformationen einsehen",
+     "href": "/de/Service/Kundenbereich/vertragsauskunft/komposit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bescheinigung für das Finanzamt anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Bescheinigung für das Finanzamt anfordern",
+     "href": "/de/Service/Kundenbereich/Finanzamtsbescheinigung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Dynamischer Anpassung widersprechen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Dynamischer Anpassung widersprechen",
+     "href": "/de/Service/Kundenbereich/unfallanpassung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ersatzversicherungsschein anfordern"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Ersatzversicherungsschein anfordern",
+     "href": "/de/Service/Kundenbereich/ersatzversicherungsschein"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Weitere Services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Newsletter abonnieren"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Newsletter abonnieren",
+     "href": "/de/Service/Newsletter"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Werbung abbestellen"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Werbung abbestellen",
+     "href": "/de/Service/werbung-abbestellen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Vertrag widerrufen"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Versicherungsschutz kündigen"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Versicherungsschutz kündigen",
+     "href": "/de/Service/vertrag-kuendigen"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Kundenbewertungen ansehen"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Kundenbewertungen ansehen",
+     "href": "/de/Service/Kundenbewertungen"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Kundenwerkstatt: mitmachen & gewinnen"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Kundenwerkstatt: mitmachen & gewinnen",
+     "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Kundenportal Sofortregistrierung mit Selfie-Ident"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-12",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Erfahren Sie hier, wie einfach, schnell und sicher Sie Ihre Anliegen im online verwalten können."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "ERGO Kundenportal",
+     "href": "https://kundenlogin.ergo.de"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "embed",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Papierlos & digital werden"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ERGO Kundenportal"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Hier sehen Sie alle Ihre Versicherungen im Überblick sowie den Status laufender Verträge. Im Kundenportal verwalten Sie einfach Ihre Verträge, melden einen Schaden direkt oder reichen Rechnungen ein und vieles mehr."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Kundenportal",
+     "href": "/de/Service/kundenportal"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Verträge unterwegs verwalten"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ERGO App"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Über die ERGO App haben Sie Ihre Versicherungen auch mobil im Blick: Finden Sie einen ERGO Berater vor Ort und melden schnell einen Schaden oder beantragen Leistung."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zur ERGO App",
+     "href": "/de/Service/ergo-app"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Welche Versicherungen sind für Sie gerade wichtig?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit jeder Lebensphase ändern sich Vorsorge und Absicherung. Junge Erwachsene z. B. haben einen anderen Bedarf als Menschen im goldenen Herbst. Passt bei Ihnen im Moment alles? Oder gibt es eine Lücke?"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Machen Sie den Check",
+     "href": "/de/Produkte/Lebensphasen"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Fast Lane"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die ERGO Fast Lane zum Altersvorsorgedepot"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Altersvorsorgedepot"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Mit dem neuen Altersvorsorgedepot wird private Altersvorsorge jetzt besonders einfach und profitabel. Mit der bleiben Sie immer einen Schritt voraus."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ERGO Fast Lane"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Komm in die ERGO Fast Lane!",
+     "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Welcher Versicherungstyp sind Sie?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Persönlichkeitstest"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Versicherungen sind nicht nur Zahlen und Verträge – sie sind auch eine Typfrage. Dieser Test liefert in wenigen Schritten eine ehrliche, manchmal überraschende Selbsteinschätzung."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Persönlichkeitstest",
+     "href": "/de/Service/typen-test"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Aktion bis 31.12.2026!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Weitersagen lohnt sich!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Kunden werben Kunden"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Erzählen Sie Ihren Freunden und Bekannten, wie zufrieden Sie mit den Leistungen und dem Service von ERGO sind. Für jeden neu geworbenen Kunden erhalten Sie als Dankeschön und sichern sich die"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "eine Geldprämie von bis zu 150 €"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Gewinnchance auf einen von 3 kleinen Goldbarren."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Gleich mitmachen",
+     "href": "/de/Service/Freundschaftswerbung?intcid=9001027"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "text-13",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ratgeber und Wissenswertes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Nicht fündig geworden? Informieren Sie sich in unserem Ratgeber über aktuelle Themen oder besuchen Sie das Rechtsportal."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratgeber Zahngesundheit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hier finden Sie alles rund um Zähne, Zahngesundheit und Zahnbehandlungen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber/zahngesundheit"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ERGO Rechtsportal"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Im Rechtsportal erwarten Sie Tipps, Urteile und Hintergrundinfos zu Rechtsthemen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "/de/rechtsportal"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ratgeber mit aktuellen Themen"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Hier bekommen Sie Tipps, Urteile und Hintergrundinfos zu unterschiedlichsten Versicherungsthemen."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr erfahren",
+     "href": "/de/Ratgeber"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-14",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Nicht sicher, was Sie benötigen?"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-15",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dann lassen Sie sich helfen. Die Experten von ERGO sind gern für Sie da."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "0800 / 3746 095"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rufen Sie an – gebührenfrei."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Finden Sie Ihren ERGO Berater."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zum Berater",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Zum Kontaktformular",
+     "href": "/de/Service/Kontakt/Kontaktformular"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Chat"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Ein Klick führt zum Chat."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Chat öffnen"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

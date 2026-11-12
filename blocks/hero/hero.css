@@ -1,37 +1,307 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+/* stylelint-disable no-descending-specificity -- canon cascade order kept */
+
+/* hero — canon product hero (program.css .cmp-hero--product): full-bleed band capped at
+   1440, teaser + image, image left (default) or right. */
+.hero.product {
+  --teaser-pb: 32px;
+  --teaser-pi: 24px;
+  --teaser-pi-end: 24px;
+  --cta-w: 100%;
+  --cta-mt: 32px;
+
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: #fff;
 }
 
-.hero {
+.hero.product.yellow {
+  background: var(--bg-yellow);
+}
+
+.hero.product.orange {
+  background: var(--bg-orange);
+}
+
+/* cluster-landing: image hidden on mobile (canon data-image-hide-mobile, /de/Service) */
+@media (width < 768px) {
+  .hero.product.hide-image-mobile .hero-image {
+    display: none;
+  }
+}
+
+/* cluster-landing: /de/Geschaeftskunden-Produkte hero band (live hero bg-magenta) */
+.hero.product.magenta {
+  background: var(--bg-magenta);
+}
+
+.hero.product .hero-image .media {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  width: 100%;
+  aspect-ratio: 2;
+  overflow: hidden;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
+.hero.product .hero-image picture {
+  display: block;
   width: 100%;
   height: 100%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero.product .hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero.product .hero-teaser {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: var(--teaser-pb) var(--teaser-pi-end) var(--teaser-pb) var(--teaser-pi);
+  hyphens: auto;
+}
+
+/* image right: the teaser's wide inline padding moves to the image side */
+.hero.product.image-right .hero-teaser {
+  padding: var(--teaser-pb) var(--teaser-pi) var(--teaser-pb) var(--teaser-pi-end);
+}
+
+.hero.product .hero-teaser-headline {
+  color: var(--c-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+}
+
+.hero.product .hero-teaser-headline :is(h1, h2) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hero.product .hero-teaser-title {
+  padding-top: 4px;
+  color: var(--c-brand);
+  font-family: var(--ff-serif);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.4px;
+}
+
+.hero.product .hero-teaser-title p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hero.product .hero-teaser-text {
+  padding-top: 32px;
+}
+
+.hero.product .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero.product .hero-actions .hero-cta {
+  --cta-width: 100%;
+  --cta-width-l: 100%;
+
+  width: var(--cta-w);
+  margin-top: var(--cta-mt);
+}
+
+@media (width >= 768px) {
+  .hero.product {
+    --cta-w: calc(50% - 12px);
+  }
+
+  .hero.product .hero-teaser-headline {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .hero.product .hero-teaser-title {
+    padding-top: 8px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .hero.product .hero-teaser-text {
+    padding-top: 48px;
+  }
+}
+
+@media (width >= 912px) {
+  .hero.product {
+    --teaser-pb: 48px;
+    --cta-w: 100%;
+
+    display: grid;
+    min-height: 360px;
+    max-width: 1440px;
+    margin-left: max(calc(50% - 50vw), calc(50% - 720px));
+    grid-template-areas: "left image teaser right";
+    grid-template-columns: 0 1fr 1fr 0;
+  }
+
+  .hero.product.image-right {
+    grid-template-areas: "left teaser image right";
+  }
+
+  .hero.product .hero-image {
+    position: relative;
+    grid-area: image;
+  }
+
+  .hero.product .hero-image .media {
+    position: absolute;
+    inset: 0;
+    aspect-ratio: auto;
+  }
+
+  .hero.product .hero-teaser {
+    grid-area: teaser;
+  }
+}
+
+@media (width >= 1152px) {
+  .hero.product {
+    --teaser-pb: 64px;
+    --teaser-pi: 32px;
+    --teaser-pi-end: 32px;
+    --cta-w: calc(50% - 12px);
+    --cta-mt: 48px;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero.product {
+    --teaser-pi: 48px;
+    --teaser-pi-end: 24px;
+  }
+}
+
+/* ---- Landing hero additions (archetype-landing, canon index.css cmp-hero) -------------
+   Content-driven slots (only present when authored): störer badge, price; variant `landing`
+   adds the canon CTA stack gap and the 24px gap under the band. */
+.hero.product.landing {
+  --cta-gap: 16px;
+
+  margin-bottom: 24px;
+}
+
+.hero.product .hero-teaser.has-storer {
+  padding-top: 56px;
+}
+
+.hero.product .hero-storer {
+  position: absolute;
+  top: 0;
+  left: var(--teaser-pi);
+  width: 80px;
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+}
+
+.hero.product .hero-storer :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero.product .hero-price {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.hero.product .hero-price p {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.hero.product .hero-price strong {
+  margin-inline: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+/* teaser text at the canon cmp-text ramp (14/21 → 16/24) */
+.hero.product.landing .hero-teaser-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero.product .hero-cta.has-icon .icon {
+  display: none;
+}
+
+.hero.product.landing .hero-actions .hero-cta + .hero-cta {
+  margin-top: var(--cta-gap);
+}
+
+@media (width >= 768px) {
+  .hero.product.landing {
+    --cta-gap: 32px;
+  }
+
+  .hero.product .hero-price p {
+    font-size: 18px;
+  }
+
+  .hero.product.landing .hero-teaser-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero.product .hero-price strong {
+    margin-inline: 8px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+@media (width >= 768px) and (width <= 911px), (width >= 1152px) {
+  .hero.product.landing .hero-actions .hero-cta + .hero-cta {
+    margin-top: var(--cta-mt);
+  }
+}
+
+@media (width >= 912px) {
+  .hero.product.landing {
+    --cta-gap: 16px;
+  }
+
+  .hero.product .hero-teaser.has-storer {
+    padding-top: var(--teaser-pb);
+  }
+
+  .hero.product .hero-storer {
+    top: 24px;
+    right: 24px;
+    left: auto;
+    width: 96px;
+    transform: none;
+  }
+
+  .hero.product .hero-storer ~ :is(.hero-teaser-headline, .hero-teaser-title) {
+    margin-right: 108px;
+  }
+}
+
+@media (width >= 1152px) {
+  .hero.product.landing {
+    --cta-gap: 48px;
   }
 }

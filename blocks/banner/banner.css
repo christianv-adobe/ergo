@@ -1,0 +1,5 @@
+/* banner — the canon text-link CTA (styles.css .cmp-cta.text-link + .ic-chevron) full width,
+   label centred; the band is the section background (section style bg-yellow). */
+.banner .cmp-cta p {
+  margin: 0;
+}

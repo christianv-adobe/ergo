@@ -1,0 +1,173 @@
+/* ekomi — canon c25 .cmp-ekomi (stardust/prototypes/index.css § eKomi rating band). */
+.ekomi {
+  padding-block: 48px;
+  line-height: 16px;
+}
+
+.ekomi .ekomi-blockquote {
+  position: relative;
+  margin-bottom: 18px;
+  color: var(--c-brand);
+  font-family: var(--ff-serif);
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.ekomi .ekomi-figure {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 6px);
+  max-width: 1008px;
+  margin: 0 auto;
+  padding: 6px 12px 18px;
+}
+
+.ekomi .ekomi-quote {
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.ekomi .ekomi-quote p {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.ekomi .ekomi-quote::before {
+  content: "„";
+  font-size: 20px;
+}
+
+.ekomi .ekomi-quote::after {
+  content: "“";
+  font-size: 20px;
+}
+
+.ekomi .ekomi-rating-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 192px;
+  color: var(--c-text);
+  text-align: center;
+}
+
+.ekomi .ekomi-seal {
+  height: 70px;
+  margin-bottom: 17px;
+  background: url("../../icons/ekomi-seal-silver.png") center / 70px 70px no-repeat;
+}
+
+.ekomi .ekomi-seal-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.ekomi .ekomi-rating {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 28px;
+  margin: 5px 0;
+  padding-left: 140px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.ekomi .ekomi-rating::before,
+.ekomi .ekomi-rating::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  mask: url("../../icons/star-filled.svg") left center / 28px 28px repeat-x;
+}
+
+.ekomi .ekomi-rating::before {
+  width: 140px;
+  background: #d9d9d9;
+}
+
+.ekomi .ekomi-rating::after {
+  width: calc(140px * var(--score, 5) / 5);
+  background: #f6cb00;
+}
+
+.ekomi .ekomi-rating strong {
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.ekomi .ekomi-rating-text p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.ekomi .ekomi-link {
+  margin-top: 40px;
+}
+
+.ekomi .ekomi-link .cmp-cta {
+  --cta-margin-inline: auto;
+}
+
+.ekomi .ekomi-link p {
+  margin: 0;
+}
+
+.ekomi .ekomi-link a.button::after {
+  content: "";
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  background-color: currentcolor;
+  mask: url("../../icons/chevron-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 768px) {
+  .ekomi .ekomi-figure {
+    width: 100%;
+    padding: 6px 0 18px;
+  }
+
+  .ekomi .ekomi-quote {
+    width: 66.6667%;
+    margin: 0 auto 8px;
+  }
+
+  .ekomi .ekomi-rating-container {
+    grid-template-columns: 70px auto;
+    column-gap: 21px;
+    align-items: center;
+    text-align: left;
+  }
+
+  .ekomi .ekomi-seal {
+    grid-row: 1 / 3;
+    width: 70px;
+    margin-bottom: 0;
+  }
+
+  .ekomi .ekomi-rating {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .ekomi .ekomi-rating strong {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .ekomi .ekomi-rating-text p {
+    font-size: 12px;
+  }
+}

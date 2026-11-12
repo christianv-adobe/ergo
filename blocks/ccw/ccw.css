@@ -1,0 +1,92 @@
+/* ccw — canon c20 column control + c10 rich text (prototypes/shared/modules.css). */
+.ccw {
+  display: flex;
+  flex-direction: column;
+  color: var(--c-text);
+}
+
+.ccw .ccw-column {
+  flex-basis: 100%;
+  width: 100%;
+  padding: 12px;
+}
+
+.ccw .ccw-column :is(h2, h3, h4, p, ul, ol, li) {
+  color: var(--c-text);
+}
+
+.ccw .ccw-column :is(p, ul, ol) {
+  margin: 0 0 20px;
+}
+
+.ccw .ccw-column :is(p, li) {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.ccw .ccw-column p + p {
+  margin-top: -10px;
+}
+
+.ccw .ccw-column :is(ul, ol) {
+  padding-left: 24px;
+}
+
+.ccw .ccw-column li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  list-style-position: outside;
+}
+
+.ccw .ccw-column ul li {
+  list-style-type: disc;
+}
+
+.ccw .ccw-column ol li {
+  list-style-type: decimal;
+}
+
+.ccw .ccw-column a:any-link:not(.button) {
+  color: var(--c-brand);
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+}
+
+.ccw .ccw-column > :last-child,
+.ccw .ccw-column > :is(ul, ol):last-child li:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .ccw {
+    flex-flow: row wrap;
+  }
+
+  .ccw .ccw-column {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .ccw .ccw-column :is(p, ul, ol) {
+    margin-bottom: 24px;
+  }
+
+  .ccw .ccw-column :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ccw .ccw-column p + p {
+    margin-top: -12px;
+  }
+
+  .ccw .ccw-column :is(ul, ol) {
+    padding-left: 28px;
+  }
+
+  .ccw .ccw-column li {
+    margin-bottom: 12px;
+  }
+}

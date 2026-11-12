@@ -1,0 +1,820 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-28T23:34:53Z",
+    "stardustVersion": "0.10.0"
+  },
+  "site": {
+    "originUrl": "https://www.ergo.de",
+    "deployUrl": null,
+    "extractedAt": "2026-10-28T14:31:24.366Z",
+    "pageCap": 0,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": [
+      {
+        "root": "/de",
+        "slug": "de",
+        "linked": 68,
+        "uncaptured": [
+          "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+          "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung",
+          "/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+          "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+          "/de/Produkte/Berufsunfaehigkeitsversicherung",
+          "/de/Produkte/Haftpflichtversicherung",
+          "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+          "/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+          "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+          "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+          "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung",
+          "/de/Produkte/Investmentprodukte",
+          "/de/Produkte/KFZ-Versicherung",
+          "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+          "/de/Produkte/KFZ-Versicherung/Motorradversicherung",
+          "/de/Produkte/Krankenhauszusatzversicherungen",
+          "/de/Produkte/Krankenversicherung",
+          "/de/Produkte/Krankenversicherung/Augenversicherung",
+          "/de/Produkte/Krankenversicherung/Krankenhauszusatzversicherung",
+          "/de/Produkte/Krankenversicherung/gesundheitsvorsorge",
+          "/de/Produkte/Lebensphasen",
+          "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+          "/de/Produkte/Monatsgeld",
+          "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+          "/de/Produkte/Rechtsschutzversicherung",
+          "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz",
+          "/de/Produkte/Reiseversicherung",
+          "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+          "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+          "/de/Produkte/Rentenversicherung",
+          "/de/Produkte/Rentenversicherung/Basis-Rente",
+          "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+          "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+          "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+          "/de/Produkte/Unfallversicherung",
+          "/de/Produkte/Zahnzusatzversicherung",
+          "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+          "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+          "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss",
+          "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+          "/de/Produkte/grundfaehigkeitsversicherung",
+          "/de/Service/Anbieter",
+          "/de/Service/Barrierefreiheit",
+          "/de/Service/Datenschutz",
+          "/de/Service/Freundschaftswerbung",
+          "/de/Service/Kontakt",
+          "/de/Service/Kontakt/Kontaktformular",
+          "/de/Service/Kontakt/Lob-und-Beschwerde",
+          "/de/Service/Kontakt/kunden",
+          "/de/Service/Kundenbereich",
+          "/de/Service/Kundenbewertungen",
+          "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+          "/de/Service/Newsletter",
+          "/de/Service/Vermittlersuche",
+          "/de/Service/einfach",
+          "/de/Service/ereignis-melden",
+          "/de/Service/kundenportal",
+          "/de/Service/typen-test",
+          "/de/Service/vertrag-kuendigen",
+          "/de/Service/vertrag-widerrufen",
+          "/de/Service/videoberatung",
+          "/de/Service/zahnversicherung-vergleich",
+          "/de/Versicherung-vor-Ort/Regional"
+        ]
+      }
+    ]
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-28T14:31:24.366Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.ergo.de/",
+      "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:31.436Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T15:28:51Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T15:28:51Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de",
+      "url": "https://www.ergo.de/de",
+      "title": "Versicherungen & Vorsorge für Ihre Sicherheit | ERGO",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:31.440Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T19:54:16Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte",
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+      "title": "Gewerbliche Versicherungen für Geschäftskunden | ERGO",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:31.434Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T19:54:16Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-produkte",
+      "url": "https://www.ergo.de/de/Produkte",
+      "title": "Alle Produkte: Versicherungen & Investment | ERGO",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:41.166Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T19:54:16Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-produkte.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-ratgeber",
+      "url": "https://www.ergo.de/de/Ratgeber",
+      "title": "Ratgeber | ERGO",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:42.604Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T16:03:40Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T16:03:40Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-ratgeber.json",
+      "prototypePath": "stardust/prototypes/de-ratgeber-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-rechtsportal",
+      "url": "https://www.ergo.de/de/rechtsportal",
+      "title": "Rechtsportal | ERGO",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:38.715Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T18:51:35Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-rechtsportal.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-service",
+      "url": "https://www.ergo.de/de/Service",
+      "title": "Servicebereich | ERGO",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:48.651Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T19:54:16Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-service.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+      "title": "Gewerbliche Cyber-Versicherung für Unternehmen | ERGO",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:51.004Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T16:23:58Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.json",
+      "prototypePath": "stardust/prototypes/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+      "title": "Betriebliche Altersversorgung für Geschäftskunden | ERGO",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:50.256Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T18:02:19Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte-betriebliche-altersversorgung.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+      "title": "Dienstreiseversicherung für Geschäftskunden | ERGO",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T14:21:55.416Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T18:02:19Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T23:34:53Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftskunden-produkte-dienstreiseversicherung.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-28T19:54:16Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de",
+        "outputPath": "de/index.html",
+        "slug": "de",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Geschaeftskunden-Produkte",
+        "outputPath": "de/Geschaeftskunden-Produkte/index.html",
+        "slug": "de-geschaeftskunden-produkte",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Produkte",
+        "outputPath": "de/Produkte/index.html",
+        "slug": "de-produkte",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Ratgeber",
+        "outputPath": "de/Ratgeber/index.html",
+        "slug": "de-ratgeber",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/rechtsportal",
+        "outputPath": "de/rechtsportal/index.html",
+        "slug": "de-rechtsportal",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Service",
+        "outputPath": "de/Service/index.html",
+        "slug": "de-service",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+        "outputPath": "de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen/index.html",
+        "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+        "outputPath": "de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung/index.html",
+        "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+        "outputPath": "de/Geschaeftskunden-Produkte/Dienstreiseversicherung/index.html",
+        "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 319,
+    "bundledAssets": [
+      "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen.css",
+      "de-ratgeber.css",
+      "de-rechtsportal.css",
+      "de.css",
+      "icons/AirplaneIcon.svg",
+      "icons/AmbulanceIcon.svg",
+      "icons/ArrowLeftIcon.svg",
+      "icons/ArrowRightIcon.svg",
+      "icons/AwardIcon.svg",
+      "icons/BlueLightIcon.svg",
+      "icons/BreadcrumbHomeIcon.svg",
+      "icons/BrokenArmIcon.svg",
+      "icons/BrokenArmStarIcon.svg",
+      "icons/BurgerMenuIcon.svg",
+      "icons/BusinessCardIcon.svg",
+      "icons/CalculatorIcon.svg",
+      "icons/CarPlusIcon.svg",
+      "icons/ChatIcon.svg",
+      "icons/CheckIcon.svg",
+      "icons/ChecklistIcon.svg",
+      "icons/ChevronRightIcon.svg",
+      "icons/CloseIcon.svg",
+      "icons/CompassIcon.svg",
+      "icons/CrossSellingIcon.svg",
+      "icons/CurrencyEuroIcon.svg",
+      "icons/DentalOrthodonticsIcon.svg",
+      "icons/DentalProphylaxisIcon.svg",
+      "icons/DocumentCurrencyEuroIcon.svg",
+      "icons/DocumentIcon.svg",
+      "icons/DocumentStarIcon.svg",
+      "icons/DownloadIcon.svg",
+      "icons/EditIcon.svg",
+      "icons/EkomiSealSilver.png",
+      "icons/FamilyIcon.svg",
+      "icons/FuneralIcon.svg",
+      "icons/GlobeIcon.svg",
+      "icons/GroupIcon.svg",
+      "icons/HandsMoneyIcon.svg",
+      "icons/HandshakeIcon.svg",
+      "icons/HeadsetIcon.svg",
+      "icons/HealthcareIcon.svg",
+      "icons/HeartIcon.svg",
+      "icons/HelpIcon.svg",
+      "icons/HobbyIcon.svg",
+      "icons/HospitalIcon.svg",
+      "icons/HouseGroundIcon.svg",
+      "icons/HouseIcon.svg",
+      "icons/LawIcon.svg",
+      "icons/LightBulbIcon.svg",
+      "icons/LightningIcon.svg",
+      "icons/LocationIcon.svg",
+      "icons/MailIcon.svg",
+      "icons/ManIcon.svg",
+      "icons/MegaphoneIcon.svg",
+      "icons/MotorVehicleIcon.svg",
+      "icons/NewArrowRightIcon.svg",
+      "icons/NewChevronDownIcon.svg",
+      "icons/NewChevronRightIcon.svg",
+      "icons/OrdersIcon.svg",
+      "icons/PatchIcon.svg",
+      "icons/PhoneIcon.svg",
+      "icons/ProfileIcon.svg",
+      "icons/RiskIcon.svg",
+      "icons/ScrollToTopIcon.svg",
+      "icons/SearchIcon.svg",
+      "icons/StarIconFilled.svg",
+      "icons/StoreIcon.svg",
+      "icons/ToolsIcon.svg",
+      "icons/ToothIcon.svg",
+      "icons/favicon-32x32.png",
+      "index.css",
+      "media/3-mio-kunden.dam.svg",
+      "media/DKV-Logo.dam.svg",
+      "media/ERGO-Logo-ohne-Claim.dam.svg",
+      "media/alleprodukte_uebersicht.w1440.webp",
+      "media/alleprodukte_uebersicht.w480.webp",
+      "media/alleprodukte_uebersicht.w768.webp",
+      "media/anwalt-vertrag.w1440.webp",
+      "media/anwalt-vertrag.w480.webp",
+      "media/anwalt-vertrag.w768.webp",
+      "media/asche-verstreuen-grossvater-kind.w1440.webp",
+      "media/asche-verstreuen-grossvater-kind.w480.webp",
+      "media/asche-verstreuen-grossvater-kind.w768.webp",
+      "media/augenkrankheiten-untersuchung.w1440.webp",
+      "media/augenkrankheiten-untersuchung.w480.webp",
+      "media/augenkrankheiten-untersuchung.w768.webp",
+      "media/augenversicherung.w1440.webp",
+      "media/augenversicherung.w480.webp",
+      "media/augenversicherung.w768.webp",
+      "media/autoversicherung.w1440.webp",
+      "media/autoversicherung.w480.webp",
+      "media/autoversicherung.w768.webp",
+      "media/beruf-kollegen-notizzettel.w1440.webp",
+      "media/beruf-kollegen-notizzettel.w480.webp",
+      "media/beruf-kollegen-notizzettel.w768.webp",
+      "media/betriebliche-altersvorsorge.w1440.webp",
+      "media/betriebliche-altersvorsorge.w480.webp",
+      "media/betriebliche-altersvorsorge.w768.webp",
+      "media/bezugsrecht-rlv-familie.w1440.webp",
+      "media/bezugsrecht-rlv-familie.w480.webp",
+      "media/bezugsrecht-rlv-familie.w768.webp",
+      "media/bkv-vorteile-arbeitgeber.w1440.webp",
+      "media/bkv-vorteile-arbeitgeber.w480.webp",
+      "media/bkv-vorteile-arbeitgeber.w768.webp",
+      "media/cyberversicherung.w1440.webp",
+      "media/cyberversicherung.w480.webp",
+      "media/cyberversicherung.w768.webp",
+      "media/dachdecker.w1440.webp",
+      "media/dachdecker.w480.webp",
+      "media/dachdecker.w768.webp",
+      "media/dienstreiseversicherung.w1440.webp",
+      "media/dienstreiseversicherung.w480.webp",
+      "media/dienstreiseversicherung.w768.webp",
+      "media/doppelhaus-bau.w1440.webp",
+      "media/doppelhaus-bau.w480.webp",
+      "media/doppelhaus-bau.w768.webp",
+      "media/e-bike-versicherung-frau.w1440.webp",
+      "media/e-bike-versicherung-frau.w480.webp",
+      "media/e-bike-versicherung-frau.w768.webp",
+      "media/einwilligung-see.w1440.webp",
+      "media/einwilligung-see.w480.webp",
+      "media/einwilligung-see.w768.webp",
+      "media/ergo_logo.dam.svg",
+      "media/facebook-sw.dam.svg",
+      "media/familien-rechtsschutzversicherung.w1440.webp",
+      "media/familien-rechtsschutzversicherung.w480.webp",
+      "media/familien-rechtsschutzversicherung.w768.webp",
+      "media/flugzeug-blauer-hintergrund.w1440.webp",
+      "media/flugzeug-blauer-hintergrund.w480.webp",
+      "media/flugzeug-blauer-hintergrund.w768.webp",
+      "media/frau-im-buero.w1440.webp",
+      "media/frau-im-buero.w480.webp",
+      "media/frau-im-buero.w768.webp",
+      "media/frau-vor-laptop.w1440.webp",
+      "media/frau-vor-laptop.w480.webp",
+      "media/frau-vor-laptop.w768.webp",
+      "media/frauaufdemfahrradunterwegs.w1440.webp",
+      "media/frauaufdemfahrradunterwegs.w480.webp",
+      "media/frauaufdemfahrradunterwegs.w768.webp",
+      "media/freunde-im-auto.w1440.webp",
+      "media/freunde-im-auto.w480.webp",
+      "media/freunde-im-auto.w768.webp",
+      "media/freundschaftswerbung.w1440.webp",
+      "media/freundschaftswerbung.w480.webp",
+      "media/freundschaftswerbung.w768.webp",
+      "media/friedhof.w1440.webp",
+      "media/friedhof.w480.webp",
+      "media/friedhof.w768.webp",
+      "media/gebaeudeversicherung.w1440.webp",
+      "media/gebaeudeversicherung.w480.webp",
+      "media/gebaeudeversicherung.w768.webp",
+      "media/geschaeftsinhaltsversicherung.w1440.webp",
+      "media/geschaeftsinhaltsversicherung.w480.webp",
+      "media/geschaeftsinhaltsversicherung.w768.webp",
+      "media/geschaeftskunden.w1440.webp",
+      "media/geschaeftskunden.w480.webp",
+      "media/geschaeftskunden.w768.webp",
+      "media/gesundheit-frau-bauchschmerzen.w1440.webp",
+      "media/gesundheit-frau-bauchschmerzen.w480.webp",
+      "media/gesundheit-frau-bauchschmerzen.w768.webp",
+      "media/gesundheitsvorsorge.w1440.webp",
+      "media/gesundheitsvorsorge.w480.webp",
+      "media/gesundheitsvorsorge.w768.webp",
+      "media/gewerbehaftpflichtversicherung-neu.w1440.webp",
+      "media/gewerbehaftpflichtversicherung-neu.w480.webp",
+      "media/gewerbehaftpflichtversicherung-neu.w768.webp",
+      "media/gewinnspiel-kreuzfahrt-lks.w1440.webp",
+      "media/gewinnspiel-kreuzfahrt-lks.w480.webp",
+      "media/gewinnspiel-kreuzfahrt-lks.w768.webp",
+      "media/halloween.w1440.webp",
+      "media/halloween.w480.webp",
+      "media/halloween.w768.webp",
+      "media/haus-familie.w1440.webp",
+      "media/haus-familie.w480.webp",
+      "media/haus-familie.w768.webp",
+      "media/hausrat-ungeziefer-paar.w1440.webp",
+      "media/hausrat-ungeziefer-paar.w480.webp",
+      "media/hausrat-ungeziefer-paar.w768.webp",
+      "media/hausratversicherung.w1440.webp",
+      "media/hausratversicherung.w480.webp",
+      "media/hausratversicherung.w768.webp",
+      "media/hund-traurige-frau.w1440.webp",
+      "media/hund-traurige-frau.w480.webp",
+      "media/hund-traurige-frau.w768.webp",
+      "media/instagram-sw.dam.svg",
+      "media/katrin.w1440.webp",
+      "media/katrin.w480.webp",
+      "media/katrin.w768.webp",
+      "media/kfz-kosten-unfall.w1440.webp",
+      "media/kfz-kosten-unfall.w480.webp",
+      "media/kfz-kosten-unfall.w768.webp",
+      "media/kfz-steuer-smart.w1440.webp",
+      "media/kfz-steuer-smart.w480.webp",
+      "media/kfz-steuer-smart.w768.webp",
+      "media/kidspolicen.w1440.webp",
+      "media/kidspolicen.w480.webp",
+      "media/kidspolicen.w768.webp",
+      "media/kreuzbiss-zahnarzt.w1440.webp",
+      "media/kreuzbiss-zahnarzt.w480.webp",
+      "media/kreuzbiss-zahnarzt.w768.webp",
+      "media/kundenbereich-vertraege-mann-tablet.w1440.webp",
+      "media/kundenbereich-vertraege-mann-tablet.w480.webp",
+      "media/kundenbereich-vertraege-mann-tablet.w768.webp",
+      "media/loginscreen-ergo-app.w1440.webp",
+      "media/loginscreen-ergo-app.w480.webp",
+      "media/loginscreen-ergo-app.w768.webp",
+      "media/nebenkostenabrechnung-stoerer.dam.svg",
+      "media/neu-stoerer.dam.svg",
+      "media/ohne-gesundheitsfragen-stoerer.dam.svg",
+      "media/paar-laptop.w1440.webp",
+      "media/paar-laptop.w480.webp",
+      "media/paar-laptop.w768.webp",
+      "media/paar-schluessel.w1440.webp",
+      "media/paar-schluessel.w480.webp",
+      "media/paar-schluessel.w768.webp",
+      "media/papierlos-2.c218x76x1022x767.w1440.webp",
+      "media/papierlos-2.c218x76x1022x767.w480.webp",
+      "media/papierlos-2.c218x76x1022x767.w768.webp",
+      "media/pflegegrad-rechner.w1440.webp",
+      "media/pflegegrad-rechner.w480.webp",
+      "media/pflegegrad-rechner.w768.webp",
+      "media/pflegegrade-wohnzimmer.w1440.webp",
+      "media/pflegegrade-wohnzimmer.w480.webp",
+      "media/pflegegrade-wohnzimmer.w768.webp",
+      "media/pflegezusatzversicherung.w1440.webp",
+      "media/pflegezusatzversicherung.w480.webp",
+      "media/pflegezusatzversicherung.w768.webp",
+      "media/pinterest-sw.dam.svg",
+      "media/private-haftpflichtversicherung.w1440.webp",
+      "media/private-haftpflichtversicherung.w480.webp",
+      "media/private-haftpflichtversicherung.w768.webp",
+      "media/private-rente.w1440.webp",
+      "media/private-rente.w480.webp",
+      "media/private-rente.w768.webp",
+      "media/rasenmaeher.w1440.webp",
+      "media/rasenmaeher.w480.webp",
+      "media/rasenmaeher.w768.webp",
+      "media/ratgeber-gesundheit.w1440.webp",
+      "media/ratgeber-gesundheit.w480.webp",
+      "media/ratgeber-gesundheit.w768.webp",
+      "media/ratgeber.w1440.webp",
+      "media/ratgeber.w480.webp",
+      "media/ratgeber.w768.webp",
+      "media/rechtsschutzversicherung.w1440.webp",
+      "media/rechtsschutzversicherung.w480.webp",
+      "media/rechtsschutzversicherung.w768.webp",
+      "media/reise-krankenschutz-surferin.w1440.webp",
+      "media/reise-krankenschutz-surferin.w480.webp",
+      "media/reise-krankenschutz-surferin.w768.webp",
+      "media/reiseversicherung_mann_surfbrett.w1440.webp",
+      "media/reiseversicherung_mann_surfbrett.w480.webp",
+      "media/reiseversicherung_mann_surfbrett.w768.webp",
+      "media/risikolebensversicherung-aktion.w1440.webp",
+      "media/risikolebensversicherung-aktion.w480.webp",
+      "media/risikolebensversicherung-aktion.w768.webp",
+      "media/service-ratgeber-zahngesundheit.c144x191x1152x576.w1440.webp",
+      "media/service-ratgeber-zahngesundheit.c144x191x1152x576.w480.webp",
+      "media/service-ratgeber-zahngesundheit.c144x191x1152x576.w768.webp",
+      "media/service-ratgeber.c144x191x1152x576.w1440.webp",
+      "media/service-ratgeber.c144x191x1152x576.w480.webp",
+      "media/service-ratgeber.c144x191x1152x576.w768.webp",
+      "media/service-rechtsportal.c144x191x1152x576.w1440.webp",
+      "media/service-rechtsportal.c144x191x1152x576.w480.webp",
+      "media/service-rechtsportal.c144x191x1152x576.w768.webp",
+      "media/service-uebersicht-paar.w1440.webp",
+      "media/service-uebersicht-paar.w480.webp",
+      "media/service-uebersicht-paar.w768.webp",
+      "media/sonderurlaub-todesfall.w1440.webp",
+      "media/sonderurlaub-todesfall.w480.webp",
+      "media/sonderurlaub-todesfall.w768.webp",
+      "media/stornierung-reise.w1440.webp",
+      "media/stornierung-reise.w480.webp",
+      "media/stornierung-reise.w768.webp",
+      "media/tiktok-sw.dam.svg",
+      "media/tipps-frueher-rente-rentner-fussball.w1440.webp",
+      "media/tipps-frueher-rente-rentner-fussball.w480.webp",
+      "media/tipps-frueher-rente-rentner-fussball.w768.webp",
+      "media/typen-test.w1440.webp",
+      "media/typen-test.w480.webp",
+      "media/typen-test.w768.webp",
+      "media/unfallversicherung.w1440.webp",
+      "media/unfallversicherung.w480.webp",
+      "media/unfallversicherung.w768.webp",
+      "media/unwetter.w1440.webp",
+      "media/unwetter.w480.webp",
+      "media/unwetter.w768.webp",
+      "media/vaterundtochter.w1440.webp",
+      "media/vaterundtochter.w480.webp",
+      "media/vaterundtochter.w768.webp",
+      "media/vermittlersuche.w1440.webp",
+      "media/vermittlersuche.w480.webp",
+      "media/vermittlersuche.w768.webp",
+      "media/versicherungskompass.w1440.webp",
+      "media/versicherungskompass.w480.webp",
+      "media/versicherungskompass.w768.webp",
+      "media/vorsorger.w1440.webp",
+      "media/vorsorger.w480.webp",
+      "media/vorsorger.w768.webp",
+      "media/youtube-sw.dam.svg",
+      "media/zahnpflege-mädchen.w1440.webp",
+      "media/zahnpflege-mädchen.w480.webp",
+      "media/zahnpflege-mädchen.w768.webp",
+      "media/zahnzusatzversicherung-im-vergleich.w1440.webp",
+      "media/zahnzusatzversicherung-im-vergleich.w480.webp",
+      "media/zahnzusatzversicherung-im-vergleich.w768.webp",
+      "media/zek-usecase-sabine.w1440.webp",
+      "media/zek-usecase-sabine.w480.webp",
+      "media/zek-usecase-sabine.w768.webp",
+      "shared/canon.css",
+      "shared/carousel.js",
+      "shared/chrome.css",
+      "shared/chrome.js",
+      "shared/fonts/fira-sans-400.woff2",
+      "shared/fonts/fira-sans-700.woff2",
+      "shared/fonts/noto-serif-400.woff2",
+      "shared/fonts/noto-serif-700.woff2",
+      "shared/modules.css",
+      "shared/product-table.js",
+      "shared/program.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 77
+      },
+      {
+        "slug": "de-ratgeber",
+        "file": "stardust/migrated/de/Ratgeber/index.html",
+        "assetsBundled": 143
+      },
+      {
+        "slug": "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen",
+        "file": "stardust/migrated/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen/index.html",
+        "assetsBundled": 44
+      },
+      {
+        "slug": "de-geschaeftskunden-produkte-betriebliche-altersversorgung",
+        "file": "stardust/migrated/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung/index.html",
+        "assetsBundled": 49
+      },
+      {
+        "slug": "de-geschaeftskunden-produkte-dienstreiseversicherung",
+        "file": "stardust/migrated/de/Geschaeftskunden-Produkte/Dienstreiseversicherung/index.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "de-rechtsportal",
+        "file": "stardust/migrated/de/rechtsportal/index.html",
+        "assetsBundled": 66
+      },
+      {
+        "slug": "de",
+        "file": "stardust/migrated/de/index.html",
+        "assetsBundled": 77
+      },
+      {
+        "slug": "de-geschaeftskunden-produkte",
+        "file": "stardust/migrated/de/Geschaeftskunden-Produkte/index.html",
+        "assetsBundled": 50
+      },
+      {
+        "slug": "de-produkte",
+        "file": "stardust/migrated/de/Produkte/index.html",
+        "assetsBundled": 68
+      },
+      {
+        "slug": "de-service",
+        "file": "stardust/migrated/de/Service/index.html",
+        "assetsBundled": 78
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-28T19:54:16Z",
+      "rendered": [
+        "de",
+        "de-geschaeftskunden-produkte",
+        "de-produkte",
+        "de-service"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

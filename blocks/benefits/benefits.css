@@ -1,0 +1,233 @@
+/* benefits — canon c16 .benefits (modules.css) + icon items (program.css). */
+.benefits {
+  --b-pad-b: 32px;
+  --b-pad-i: 32px;
+  --b-gap: 18px;
+  --b-icon-pi: 32px;
+  --benefit-color: var(--c-border);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits.grey {
+  --benefit-color: #c9c5c7;
+}
+
+.benefits.green {
+  --benefit-color: #428071;
+}
+
+.benefits.teal {
+  --benefit-color: #318187;
+}
+
+.benefits.magenta {
+  --benefit-color: #c34a89;
+}
+
+.benefits.orange {
+  --benefit-color: #b46018;
+}
+
+.benefits.yellow {
+  --benefit-color: #e5c536;
+}
+
+/* light box colours (source .benefits.is-box --benefit-color; foundation request cluster-program) */
+.benefits.light-teal {
+  --benefit-color: #ccecef;
+}
+
+.benefits.light-green {
+  --benefit-color: #d3ebe5;
+}
+
+.benefits .benefits-flag-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--b-pad-i);
+  transform: translateY(50%);
+}
+
+.benefits .benefits-flag {
+  display: -webkit-box;
+  align-self: flex-start;
+  max-width: calc(100% - 2 * var(--b-pad-i));
+  margin: 0;
+  padding: 4px 8px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--benefit-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.benefits .benefits-flag p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.benefits.flag-center .benefits-flag {
+  align-self: center;
+}
+
+.benefits.flag-right .benefits-flag {
+  align-self: flex-end;
+}
+
+.benefits .benefits-items {
+  padding: var(--b-pad-b) var(--b-pad-i);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.benefits:not(.box) .benefits-items {
+  border: 1px solid var(--benefit-color);
+}
+
+.benefits.box .benefits-items {
+  background: var(--benefit-color);
+}
+
+.benefits .benefits-item {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.benefits .benefits-item + .benefits-item {
+  margin-top: var(--b-gap);
+}
+
+.benefits .benefits-item.has-icon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: var(--b-icon-pi);
+}
+
+.benefits .benefits-item-icon {
+  position: absolute;
+  top: -2px;
+  left: calc(var(--b-icon-pi) / 2 - var(--b-pad-i) / 2 + 2px);
+  z-index: 1;
+  width: 24px;
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+}
+
+.benefits .benefits-item-icon p,
+.benefits .benefits-item-icon .icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.benefits .benefits-item-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.benefits .benefits-item-title {
+  font-weight: 700;
+}
+
+.benefits .benefits-item-title :is(h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.benefits .benefits-item-text :is(p, li) {
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.benefits .benefits-item-text :is(p, ul, ol) {
+  margin: 0 0 20px;
+}
+
+.benefits .benefits-item-text p + p {
+  margin-top: -10px;
+}
+
+.benefits .benefits-item-text :is(ul, ol) {
+  padding-left: 0;
+}
+
+.benefits .benefits-item-text :is(ul, ol) li {
+  margin-bottom: var(--b-gap);
+  padding-left: var(--b-icon-pi);
+}
+
+.benefits .benefits-item-text > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .benefits {
+    --b-pad-b: 40px;
+    --b-gap: 28px;
+    --b-icon-pi: 56px;
+  }
+
+  .benefits .benefits-flag {
+    font-size: 14px;
+  }
+
+  .benefits .benefits-item {
+    font-size: 16px;
+  }
+
+  .benefits .benefits-item.has-icon {
+    gap: 12px;
+  }
+
+  .benefits .benefits-item-icon {
+    top: -4px;
+    width: 32px;
+  }
+
+  .benefits .benefits-item-text :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .benefits .benefits-item-text :is(p, ul, ol) {
+    margin-bottom: 24px;
+  }
+
+  .benefits .benefits-item-text p + p {
+    margin-top: -12px;
+  }
+}
+
+/* ---- listing additions (archetype-listing) ------------------------------------------------ */
+.benefits .benefits-item-text a:any-link:not(.button) {
+  color: var(--c-brand);
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+}
+
+/* check-list: canon ul.check-list--black (check icon at the line start, 1lh square) */
+.benefits.check-list .benefits-item-text ul li {
+  list-style: none;
+  background: url("../../icons/check.svg") 0 0 / 1lh no-repeat;
+}
+
+.benefits .benefits-item-text > :is(ul, ol):last-child li:last-child {
+  margin-bottom: 0;
+}

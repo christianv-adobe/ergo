@@ -1,0 +1,433 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics (rollout D2-dynamic)",
+  "writtenAt": "2026-10-28T23:15:06.860Z",
+  "input": [
+   "stardust/dynamic-features.md",
+   "stardust/dynamic-features-plan.md",
+   "stardust/martech-contract.json"
+  ],
+  "origin": "https://main--856f1bba--aemcoder.aem.live",
+  "scope": [
+   "/",
+   "/de",
+   "/de/produkte",
+   "/de/geschaeftskunden-produkte",
+   "/de/service",
+   "/de/ratgeber",
+   "/de/rechtsportal",
+   "/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+   "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+   "/de/geschaeftskunden-produkte/dienstreiseversicherung"
+  ]
+ },
+ "method": "Static first: all behaviour is native block JS on authored documents (header/footer/accordion/carousel/product-table/embed); host-bound data (eKomi quotes, article data) and client-rendered promo/ccw slots are settled snapshots authored in the documents; no query index (no delivered page lists or searches the corpus); martech scaffolded with every contract part disabled. dom-count checks assert the decorated interactive state (controls wired with aria-expanded / aria-controls); the interaction itself was replayed at 1440/360 by a probe on 2026-10-28 and its numbers are in verifiedBy.",
+ "features": [
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header .headerNavigation__button[aria-expanded]",
+     "min": 5
+    },
+    {
+     "type": "dom-count",
+     "path": "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+     "selector": "header .headerNavigation__button[aria-expanded]",
+     "min": 4
+    }
+   ],
+   "id": "chrome-menu",
+   "feature": "header mega-menu flyouts + mobile drawer",
+   "class": "M",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "5 top-level aria-expanded buttons on consumer pages, 4 on Geschaeftskunden pages; click → aria-expanded=true, Escape → false (1440, cyber); 360: Menü toggle → aria-expanded=true"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "header form.cmp-search__form[role=search] input[name=search]",
+     "min": 1
+    }
+   ],
+   "id": "chrome-search",
+   "feature": "header search overlay + suggestions; results page",
+   "class": "S",
+   "pages": 6,
+   "disposition": "index-backed (interim: link-out)",
+   "status": "interim",
+   "verifiedBy": "overlay form present on 6/10 pages (consumer chrome; Geschaeftskunden chrome has no search, as on source); form action = https://www.ergo.de/de/sonstige/suchergebnisse",
+   "owner": "No results page and no /query-index.json in the 10-page scope: the header form hands off to the source results page. Wire search-index-backed results (helix-query.yaml + results page, search-query check \"Zahnzusatzversicherung\", source count 28) when the search results page joins the rollout scope."
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": "footer details > summary",
+     "min": 4
+    }
+   ],
+   "id": "footer-accordion",
+   "feature": "footer link columns collapse to accordions (mobile)",
+   "class": "M",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "4 footer <details> on 10/10 pages; 360: summary click opens 0 → 1"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+     "selector": ".accordion .accordion-toggle[aria-controls][aria-expanded]",
+     "min": 20
+    },
+    {
+     "type": "dom-count",
+     "path": "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+     "selector": ".accordion .accordion-toggle[aria-controls][aria-expanded]",
+     "min": 8
+    }
+   ],
+   "id": "content-accordion",
+   "feature": "content accordions (FAQ / coverage detail)",
+   "class": "M",
+   "pages": 4,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "toggles: bAV 20, cyber 8, Geschaeftskunden 4, Dienstreise 3; click toggles aria-expanded 1 → 2 and un-hides its panel (bAV)"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".carousel .carousel-control.next",
+     "min": 7
+    },
+    {
+     "type": "dom-count",
+     "path": "/de/ratgeber",
+     "selector": ".carousel .carousel-control.next",
+     "min": 12
+    }
+   ],
+   "id": "carousel-interaction",
+   "feature": "splide-style carousels (arrows, dots, loop, drag)",
+   "class": "M",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "next controls: home 7, produkte 12, service 11, ratgeber 12; home article slider (6 slides, 3/page at 1440): next → slides 3–5, next → wraps to 0–2 (loop), prev → back"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".carousel.articles .slide:not(.slide-clone)",
+     "min": 6
+    }
+   ],
+   "id": "l-article-teaser-rail",
+   "feature": "Ratgeber article teaser rail",
+   "class": "L",
+   "pages": 2,
+   "disposition": "index-backed (interim: document-first authored rows)",
+   "status": "interim",
+   "verifiedBy": "home rail: 6 authored article slides (source rail 18 dated cards fed by articleteaserdata.json)",
+   "owner": "ASSUMPTION A1: index-driven vs curated rail — authored rows shipped; index top-up when the owner confirms and /de/Ratgeber/** articles are migrated"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/de/ratgeber",
+     "selector": ".carousel.cards .slide:not(.slide-clone)",
+     "min": 33
+    }
+   ],
+   "id": "l-product-carousels",
+   "feature": "product / topic teaser carousels",
+   "class": "L",
+   "pages": 6,
+   "disposition": "static-snapshot (authored rows)",
+   "status": "interim",
+   "verifiedBy": "card slides: home 12, ratgeber 33 (non-clone)",
+   "owner": "ASSUMPTION A2: curated rows shipped; unfreeze to index-driven on owner request"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/de/produkte",
+     "selector": ".promo",
+     "min": 13
+    }
+   ],
+   "id": "cr-promo-placeholder",
+   "feature": "client-rendered price/CTA promo slots",
+   "class": "CR",
+   "pages": 7,
+   "disposition": "static-snapshot (settled text authored)",
+   "status": "done",
+   "snapshot": "2026-10-28 capture",
+   "verifiedBy": "promo blocks: produkte 13, service 7, ratgeber 6"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/de/ratgeber",
+     "selector": ".ccw",
+     "min": 1
+    }
+   ],
+   "id": "cr-ccw-placeholder",
+   "feature": "client-rendered column-control content",
+   "class": "CR",
+   "pages": 1,
+   "disposition": "static-snapshot (settled text authored)",
+   "status": "done",
+   "snapshot": "2026-10-28 capture",
+   "verifiedBy": "ratgeber .ccw 1"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/",
+     "selector": ".ekomi",
+     "min": 1
+    }
+   ],
+   "id": "d-reviews-quotes",
+   "feature": "eKomi review quote / rating band",
+   "class": "D",
+   "pages": 2,
+   "disposition": "data-fed → snapshot authored in the document",
+   "status": "done",
+   "snapshot": "2026-10-28 capture",
+   "verifiedBy": ".ekomi on / and /de with the captured quote + 4,6/5 rating; no data/reviews/quotes.json shipped (no consumer — the band reads the document)"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [],
+   "id": "d-article-data",
+   "feature": "article teaser data (image, date, category)",
+   "class": "D",
+   "pages": 0,
+   "disposition": "data-fed (no consumer)",
+   "status": "interim",
+   "verifiedBy": "no delivered block reads article data; images/text authored in rows (A1)",
+   "owner": "ASSUMPTION A1 — snapshot ships with the index-driven rail"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [],
+   "id": "aem-plumbing",
+   "feature": "AEM 6 CSRF / Granite / ContextHub",
+   "class": "A/D",
+   "pages": 0,
+   "disposition": "static-snapshot — nothing ships",
+   "status": "done",
+   "verifiedBy": "no consumer on the static pages"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [],
+   "id": "tooltips",
+   "feature": "info-i tooltips on price teasers / product table",
+   "class": "M",
+   "pages": 0,
+   "disposition": "rebuild-native",
+   "status": "pending rollout",
+   "verifiedBy": "0 tooltip triggers authored or rendered on the 10 delivered pages",
+   "owner": "gap: the source info-i popovers were not carried into the delivered documents; needs content + a tooltip affordance in a later round"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "dom-count",
+     "path": "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+     "selector": ".product-table [role=row]",
+     "min": 30
+    }
+   ],
+   "id": "product-table",
+   "feature": "tariff comparison table",
+   "class": "static",
+   "pages": 2,
+   "disposition": "static-snapshot",
+   "status": "done",
+   "verifiedBy": "role=row: cyber 30 (2 tables), bAV 6"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [],
+   "id": "i18n-locale",
+   "feature": "single de locale tree",
+   "class": "I18N",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "interim",
+   "verifiedBy": "/ and /de both 200 (source /de 301 → /); redirects sheet live",
+   "owner": "ASSUMPTION A3: one de tree"
+  },
+  {
+   "reproducibility": "needs-backend",
+   "checks": [],
+   "id": "x-sign-in",
+   "feature": "Log-in / registration → kunde-s.ergo.de",
+   "class": "X",
+   "pages": 10,
+   "disposition": "link-out",
+   "status": "interim",
+   "verifiedBy": "3 absolute kunde-s.ergo.de links in /nav",
+   "owner": "ASSUMPTION A4: portal auth stays on kunde-s.ergo.de"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [],
+   "id": "rum",
+   "feature": "RUM sampling",
+   "class": "T",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "ships with scripts/aem.js sampleRUM"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [],
+   "id": "dam-assets",
+   "feature": "DAM image host assets.ergo.com",
+   "class": "static",
+   "pages": 10,
+   "disposition": "static-snapshot (media rehosted)",
+   "status": "done",
+   "verifiedBy": "images served from the EDS media bus at deploy"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [
+    {
+     "type": "consent-gate",
+     "path": "/de/service",
+     "forbiddenHosts": [
+      "realperson.de"
+     ]
+    }
+   ],
+   "id": "chat-realperson",
+   "feature": "Realperson live chat",
+   "class": "T",
+   "pages": 2,
+   "disposition": "embed-passthrough (inert until D1)",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "\"Chat öffnen\" tile CTA renders as an inert button face; no realperson.de request",
+   "owner": "DECISION D1: Realperson account + domain allowlist for the new host"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [],
+   "id": "martech-onetrust",
+   "feature": "OneTrust CMP",
+   "class": "T",
+   "pages": 10,
+   "disposition": "embed-passthrough (contract consent.cmp disabled)",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "martech gate checks appended from stardust/martech-contract.json (--contract)",
+   "owner": "DECISION D2: enable consent.cmp on the new host"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [],
+   "id": "martech-launch",
+   "feature": "Adobe Launch / Web SDK",
+   "class": "T",
+   "pages": 10,
+   "disposition": "embed-passthrough (routes adobe-launch, aemMartech disabled)",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "martech gate checks (--contract)",
+   "owner": "DECISION D3: enable route + rewrite 18 rules / 5 data elements"
+  },
+  {
+   "reproducibility": "needs-business-decision",
+   "checks": [],
+   "id": "martech-gtag",
+   "feature": "Google gtag AW-980528457",
+   "class": "T",
+   "pages": 10,
+   "disposition": "embed-passthrough (route google-tag-manager disabled)",
+   "status": "scaffolded-awaiting-owner",
+   "verifiedBy": "martech gate checks (--contract)",
+   "owner": "DECISION D3"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "video-plays",
+     "path": "/de/service",
+     "trigger": ".embed iframe",
+     "iframeSelector": ".embed iframe[src*=\"youtube.com/embed/\"]",
+     "playbackHost": "youtube\\.com"
+    }
+   ],
+   "id": "embed-youtube",
+   "feature": "YouTube player (embed block, /de/service)",
+   "class": "M",
+   "pages": 1,
+   "disposition": "embed-passthrough",
+   "status": "done",
+   "verifiedBy": "iframe youtube.com/embed/njmpZ-JiKMw; player document + assets www.youtube.com 200 ×7, i.ytimg.com 200",
+   "environmentLimit": "headless Chromium: clicking the cross-origin player did not start a googlevideo stream on the probe network; playback asserted at the player-request level (www.youtube.com < 400)"
+  },
+  {
+   "reproducibility": "self",
+   "checks": [
+    {
+     "type": "no-page-errors",
+     "paths": [
+      "/",
+      "/de",
+      "/de/produkte",
+      "/de/geschaeftskunden-produkte",
+      "/de/service",
+      "/de/ratgeber",
+      "/de/rechtsportal",
+      "/de/geschaeftskunden-produkte/betriebliche-altersversorgung",
+      "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen",
+      "/de/geschaeftskunden-produkte/dienstreiseversicherung"
+     ]
+    }
+   ],
+   "id": "page-runtime",
+   "feature": "no uncaught exceptions on delivered pages",
+   "class": "—",
+   "pages": 10,
+   "disposition": "rebuild-native",
+   "status": "done",
+   "verifiedBy": "0 pageerror on probed pages"
+  }
+ ]
+}

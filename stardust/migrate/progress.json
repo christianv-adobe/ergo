@@ -1,0 +1,63 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "program"
+      ],
+      "pages": 10,
+      "startedAt": "2026-10-28T16:30:43Z",
+      "endedAt": "2026-10-28T16:31:09.844Z",
+      "verdict": "plan: 3 archetypes Path A rendered (rendered 3, unchanged 0, refused 0, passthrough 0); 7 siblings Path A′ pending their archetype unit"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "listing",
+        "program"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-28T16:30:43Z",
+      "endedAt": "2026-10-28T16:31:09.844Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 2,
+      "startedAt": "2026-10-28T17:58:15.730Z",
+      "endedAt": "2026-10-28T18:27:03.051Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "status": "done",
+      "startedAt": "2026-10-28T18:49:08.601Z",
+      "endedAt": "2026-10-28T19:19:40.632Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "landing": {
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 4,
+      "status": "done",
+      "startedAt": "2026-10-28T19:48:19.836Z",
+      "endedAt": "2026-10-28T22:05:20.058Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+    }
+  }
+}

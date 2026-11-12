@@ -1,0 +1,767 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-28T16:33:28.844Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--856f1bba--aemcoder.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-chat12-realperson-de",
+   "class": "A",
+   "feature": "unknown third-party host chat12.realperson.de",
+   "pages": 2,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "chat12.realperson.de"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "cr-client-rendered-slot-cmp-promo-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot cmp-promo__placeholder",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "Komm in die ERGO Fast Lane!",
+    "Ab 12,17 € monatlich Jetzt informieren",
+    "Z. B. 10,80 € monatlich Jetzt informieren",
+    "Unwetterschaden melden"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "delivered-by-capture",
+   "phase": "capture",
+   "decision": "inspect the consumer",
+   "alreadyDelivered": "output already carries \"Komm in die ERGO Fast Lane!\""
+  },
+  {
+   "id": "cr-client-rendered-slot-ccw-column-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot ccw__column__placeholder",
+   "pages": 2,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "Ihr Leben ist in Bewegung: Entscheidungen müssen getroffen w",
+    "Gesundheit & WohlbefindenZahngesundheitMobilität & KfzFinanz",
+    "Highlight Komfort: SB-Reduzierung um 50%, max. um 2.500 EUR ",
+    "Premium: SB-Verzicht um bis zu 5.000 EUR im ersten Schadensf"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "delivered-by-capture",
+   "phase": "capture",
+   "decision": "inspect the consumer",
+   "alreadyDelivered": "output already carries \"Ihr Leben ist in Bewegung: Entscheidunge\""
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "pages": 3,
+   "probed": 3,
+   "reach": {
+    "pages": 10,
+    "of": 10
+   },
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/ekomireact.quotes.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/jcr:content/root/articleteasercarouse.articleteaserdata.json?1793205163 → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/weisheitszaehne/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 1,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/gesundheit/amalgam/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-ergo-ergo-one-ergo-one-p",
+   "class": "D",
+   "feature": "first-party data file GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json",
+   "pages": 1,
+   "probed": 3,
+   "reach": {
+    "pages": 1,
+    "of": 10
+   },
+   "evidence": [
+    "GET /content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt/mundfaeule/jcr:content.articledata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "i18n-locale-variants-de-de-de-de-de",
+   "class": "I18N",
+   "feature": "locale variants de,de,de,de,de",
+   "pages": 1,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "https://www.ergo.de/de",
+    "https://www.ergo.de/de/Service/Vermittlersuche"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://www.ergo.de/de\""
+  },
+  {
+   "id": "l-listing-candidate-splide-list-18-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (18 cards)",
+   "pages": 2,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-splide-list-8-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (8 cards)",
+   "pages": 1,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-ul-6-cards",
+   "class": "L",
+   "feature": "listing candidate ul (6 cards)",
+   "pages": 1,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-splide-list-13-cards",
+   "class": "L",
+   "feature": "listing candidate splide__list (13 cards)",
+   "pages": 1,
+   "probed": 3,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "pages": 3,
+   "probed": 3,
+   "reach": {
+    "pages": 164,
+    "of": 10
+   },
+   "evidence": [
+    "Versicherungen & Finanzen",
+    "Service",
+    "Kontakt",
+    "Suche"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "delivered-by-capture",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)",
+   "alreadyDelivered": "output already carries \"Service\""
+  },
+  {
+   "id": "s-site-search-form-content-ergo-ergo-one-ergo-one-portal-de-",
+   "class": "S",
+   "feature": "site search form → /content/ergo/ergo-one/ergo-one-portal/de/sonstige/suchergebnisse",
+   "pages": 2,
+   "probed": 3,
+   "reach": {
+    "pages": 0,
+    "of": 10
+   },
+   "evidence": [
+    "text:search"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "privacyportal-de.onetrust.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-unknown-third-party-host-rum-hlx-page",
+   "class": "T",
+   "feature": "unknown third-party host rum.hlx.page",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "rum.hlx.page"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-assets-ergo-com",
+   "class": "T",
+   "feature": "unknown third-party host assets.ergo.com",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "assets.ergo.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "edge.adobedc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "connect.facebook.net",
+    "amplify.outbrain.com",
+    "bat.bing.com",
+    "cdn.taboola.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-scarabresearch-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.scarabresearch.com",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "cdn.scarabresearch.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids",
+   "alreadyDelivered": "output already carries \"www.facebook.com\""
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-server-cnd-motionmedia-de",
+   "class": "T",
+   "feature": "unknown third-party host server.cnd-motionmedia.de",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "server.cnd-motionmedia.de"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-trck-spoteffects-net",
+   "class": "T",
+   "feature": "unknown third-party host trck.spoteffects.net",
+   "pages": 3,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "trck.spoteffects.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-trck-ipv6-spoteffects-net",
+   "class": "T",
+   "feature": "unknown third-party host trck-ipv6.spoteffects.net",
+   "pages": 1,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "trck-ipv6.spoteffects.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 2,
+   "probed": 3,
+   "reach": null,
+   "evidence": [
+    "https://kunde-s.ergo.de/meineversicherungen/L0/Pages/Accountmanager/Registration.aspx?vu=ergo"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "delivered-by-capture",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?",
+   "alreadyDelivered": "output already carries \"https://kunde-s.ergo.de/meineversicherun\""
+  },
+  {
+   "id": "chrome-menu",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header menu: Menü, Versicherungen & Finanzen, Service, Kontakt (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "chrome-search",
+   "source": "header-contract",
+   "class": "S",
+   "feature": "header search: Suche (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "1440 click/key"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (results from the query index; overlay and typeahead per the contract)"
+  }
+ ]
+}

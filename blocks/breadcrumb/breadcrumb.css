@@ -1,0 +1,88 @@
+/* breadcrumb — canon c17 .cmp-breadcrumb (prototypes/shared/modules.css). */
+main > .section > .breadcrumb-wrapper {
+  width: min(1416px, 100% - 24px);
+}
+
+.breadcrumb {
+  --bc-sep: 16px;
+  --bc-home: 14px;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.breadcrumb ul,
+.breadcrumb ol {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin: 0 -4px;
+  padding: 4px;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: var(--c-text);
+  font-size: inherit;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.breadcrumb li[aria-current="page"],
+.breadcrumb li:last-child:not(:has(a)) {
+  font-weight: 700;
+}
+
+.breadcrumb li + li::before {
+  content: "";
+  flex: 0 0 var(--bc-sep);
+  width: var(--bc-sep);
+  height: var(--bc-sep);
+  margin-inline-end: 12px;
+  background-color: currentcolor;
+  mask: url("../../icons/chevron-right-new.svg") center / var(--bc-sep) no-repeat;
+}
+
+.breadcrumb a:any-link {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  outline-offset: 3px;
+}
+
+/* home step: icon only (label = accessible name) */
+.breadcrumb li:first-child a:any-link {
+  font-size: 0;
+  line-height: 0;
+}
+
+.breadcrumb li:first-child a:any-link::before {
+  content: "";
+  flex: 0 0 var(--bc-sep);
+  width: var(--bc-sep);
+  height: var(--bc-sep);
+  background-color: currentcolor;
+  mask: url("../../icons/breadcrumb-home.svg") center / var(--bc-home) no-repeat;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .breadcrumb a:any-link:hover {
+    color: var(--c-brand);
+    text-decoration: underline;
+  }
+}
+
+@media (width >= 768px) {
+  .breadcrumb {
+    --bc-sep: 20px;
+    --bc-home: 16px;
+
+    font-size: 14px;
+    line-height: 1.5714;
+  }
+}

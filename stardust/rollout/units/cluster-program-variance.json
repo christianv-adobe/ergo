@@ -1,0 +1,559 @@
+{
+  "archetype": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".cmp-hero--product",
+    "accordion": ".cmp-accordion__item",
+    "table": ".productTable",
+    "promo": ".cmp-promo",
+    "benefits": ".benefits",
+    "tile": ".cmp-tile",
+    "download": ".cmp-download"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "esc_container.grid-container",
+        "h": 6262
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".cmp-hero--product",
+        "count": 0
+      },
+      "accordion": {
+        "sel": ".cmp-accordion__item",
+        "count": 12,
+        "first": {
+          "rect": {
+            "w": 864,
+            "h": 58
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": "h3 fs me 16px/24px 400 rgb(51, 51, 51)",
+          "image": {
+            "w": 24,
+            "h": 24
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 3,
+        "text": "Unsere Servicepakete im Detail Leistungen Cyber-Prävention K"
+      },
+      "table": {
+        "sel": ".productTable",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 830,
+            "h": 1228
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 24,
+            "h": 24
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Leistungen Cyber-Prävention Komfort Cyber-Prävention Premium"
+      },
+      "promo": {
+        "sel": ".cmp-promo",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 391,
+            "h": 266
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(211, 235, 229)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Highlight Komfort: SB-Reduzierung um 50%, max. um 2.500 EUR "
+      },
+      "benefits": {
+        "sel": ".benefits",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 888,
+            "h": 214
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 224, 203)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "24px 12px 24px 12px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 32,
+            "h": 32
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Homeoffice-Schutz inklusive Auch im Homeoffice bzw. beim mob"
+      },
+      "tile": {
+        "sel": ".cmp-tile",
+        "count": 5,
+        "first": {
+          "rect": {
+            "w": 420,
+            "h": 158
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "24px 80px 24px 32px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "8px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Betriebskostenversicherung ERGO erstattet z. B. die fortlauf"
+      },
+      "download": {
+        "sel": ".cmp-download",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 391,
+            "h": 85
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "padding": "0px 0px 0px 0px",
+          "font": "fs me 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h3 fs me 14px/21px 700 rgb(51, 51, 51)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Prävention Historie (Stand 01.21) Dateiname onepager-cyber-p"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 6262→6773"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "accordion",
+          "msg": "12 → 24 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "accordion",
+          "msg": "heading h3 fs me 16px/24px 400 rgb(51, 51, 51) → h2 fs me 16px/24px 400 rgb(51, 51, 51); image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "table",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "table",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "table",
+          "msg": "rect{w 830 → 888, h 1228 → 1593}; padding 0px 0px 0px 0px → 0px 12px 24px 12px; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{w 391 → 864, h 266 → 318}; backgroundColor rgb(211, 235, 229) → rgb(255, 255, 255); image null → [object Object]"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "benefits",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "benefits",
+          "msg": "rect{h 214 → 164}; backgroundColor rgb(255, 224, 203) → rgba(0, 0, 0, 0); padding 24px 12px 24px 12px → 0px 12px 0px 12px"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "tile",
+          "msg": "rect{h 158 → 182}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "download",
+          "msg": "\".cmp-download\" matches 3 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 6773
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero--product",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".cmp-accordion__item",
+            "count": 24,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 58
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": "h2 fs me 16px/24px 400 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "mehr erfahren ERGO garantiert: zum vereinbarten Beginn der V"
+          },
+          "table": {
+            "sel": ".productTable",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 888,
+                "h": 1593
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 12px 24px 12px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Durchführungsweg der betrieblichen Altersversorgung (bAV) Ar"
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 318
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 345,
+                "h": 316
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Lassen Sie sich ein individuelles Angebot erstellen Sie möch"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 888,
+                "h": 164
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 12px 0px 12px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 32,
+                "h": 32
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "ERGO Betriebs-Rente Index Maximale Sicherheit durch Anlage i"
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 420,
+                "h": 182
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Gewerbliche Haftpflichtversicherung Schützen Sie sich: mit d"
+          },
+          "download": {
+            "sel": ".cmp-download",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "esc_container.grid-container 6262→3314"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "accordion",
+          "msg": "12 → 7 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "accordion",
+          "msg": "3 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "accordion",
+          "msg": "rect{h 58 → 342}; heading h3 fs me 16px/24px 400 rgb(51, 51, 51) → h2 fs me 16px/24px 400 rgb(51, 51, 51); image [object Object] → null"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "table",
+          "msg": "\".productTable\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "promo",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "promo",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "promo",
+          "msg": "rect{w 391 → 864, h 266 → 318}; backgroundColor rgb(211, 235, 229) → rgb(255, 255, 255); image null → [object Object]"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "benefits",
+          "msg": "\".benefits\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "download",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "download",
+          "msg": "rect{w 391 → 420}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "esc_container.grid-container",
+            "h": 3314
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".cmp-hero--product",
+            "count": 0
+          },
+          "accordion": {
+            "sel": ".cmp-accordion__item",
+            "count": 7,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 342
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": "h2 fs me 16px/24px 400 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "CareBasic Der attraktive Krankenversicherungs-Schutz Wenn Ih"
+          },
+          "table": {
+            "sel": ".productTable",
+            "count": 0
+          },
+          "promo": {
+            "sel": ".cmp-promo",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 864,
+                "h": 318
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": {
+                "w": 345,
+                "h": 316
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Lassen Sie sich ein individuelles Angebot erstellen Sie möch"
+          },
+          "benefits": {
+            "sel": ".benefits",
+            "count": 0
+          },
+          "tile": {
+            "sel": ".cmp-tile",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 420,
+                "h": 158
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "24px 80px 24px 32px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "8px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Industrielle Haftpflichtversicherung In Industriebetrieben k"
+          },
+          "download": {
+            "sel": ".cmp-download",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 420,
+                "h": 85
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(51, 51, 51)",
+              "padding": "0px 0px 0px 0px",
+              "font": "fs me 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 fs me 14px/21px 700 rgb(51, 51, 51)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Prospekt Dienstreise-Versicherung Dateiname prospekt-dienstr"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "SECTION HEIGHTS",
+      "accordion",
+      "table",
+      "promo",
+      "benefits",
+      "tile",
+      "download"
+    ]
+  }
+}

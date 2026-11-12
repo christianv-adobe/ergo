@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-28T16:32:24.531Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.ergo.de/",
+    "da": {
+      "org": "aemcoder",
+      "site": "856f1bba",
+      "ref": "main"
+    },
+    "liveHost": "main--856f1bba--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 10,
+    "discovered": 10,
+    "capped": false,
+    "pageCap": 0
+  },
+  "lastRun": {
+    "at": "2026-10-28T23:23:27.796Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 12,
+      "converted": 12,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

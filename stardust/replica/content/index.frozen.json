@@ -1,0 +1,73 @@
+{
+ "_why": "Live randomizes the article teaser set/order (6 of a ~10-article pool) and the eKomi quote (1 of 9) per load — nondeterministic content (recreation-procedure § capture-state policy). One observed value is frozen: the first page of the 1440 gate capture (Amalgam, Knochenaufbau, PZR) completed with Mundfäule, Weisheitszähne, Zahn ziehen (tallest card at 1440 = the gate capture height; at 360 it is 12px taller than that capture's tallest card), and the quote shown in the 360 gate capture (verbatim from ekomireact.quotes.json; it also wraps to the 1440 capture's 3 lines). Permanent residual — logged in progress.json.",
+ "articleOrder": [
+  "Wie schädlich sind Amalgamfüllungen?",
+  "Knochenaufbau für Implantate",
+  "Professionelle Zahnreinigung",
+  "Mundfäule",
+  "Weisheitszähne ziehen lassen",
+  "Zahn ziehen"
+ ],
+ "articleExtra": [
+  {
+   "kind": "article",
+   "subhead": "Professionelle Zahnreinigung",
+   "headline": "Was ist PZR?",
+   "text": "Drei Buchstaben umfassend erklärt: Lesen Sie, was es mit der professionellen Zahnreinigung auf sich hat.",
+   "cta": {
+    "tag": "a",
+    "label": "Mehr lesen",
+    "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/professionelle_zahnreinigung",
+    "aria": "Mehr lesen: Professionelle Zahnreinigung",
+    "variant": "secondary",
+    "size": null,
+    "width": null,
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "kind": "article",
+   "subhead": "Wie sinnvoll ist eine Fissurenversiegelung?",
+   "headline": "Zähne versiegeln",
+   "text": "Bei der Fissurenversiegelung wird die Oberfläche der Zähne geglättet. Dadurch können sich Verschmutzungen und Bakterien nicht so leicht ablagern.",
+   "cta": {
+    "tag": "a",
+    "label": "Mehr lesen",
+    "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/fissurenversiegelung",
+    "aria": "Mehr lesen: Wie sinnvoll ist eine Fissurenversiegelung?",
+    "variant": "secondary",
+    "size": null,
+    "width": null,
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "kind": "article",
+   "subhead": "Wurzelbehandlung",
+   "headline": "Letzte Rettung?",
+   "text": "Eine Wurzelbehandlung ist manchmal zur Erhaltung des eigenen Zahnes nötig, um Zahnersatz zu vermeiden.",
+   "cta": {
+    "tag": "a",
+    "label": "Mehr lesen",
+    "href": "/content/ergo/ergo-one/ergo-one-portal/de/Ratgeber/zahngesundheit/Wurzelbehandlung",
+    "aria": "Mehr lesen: Wurzelbehandlung",
+    "variant": "secondary",
+    "size": null,
+    "width": null,
+    "icon": null,
+    "iconPos": "right"
+   }
+  }
+ ],
+ "articleColors": [
+  "rgb(245,225,235)",
+  "rgb(204,236,239)",
+  "rgb(211,235,229)",
+  "rgb(254,246,210)",
+  "rgb(255,224,203)",
+  "rgb(245,225,235)"
+ ],
+ "ekomiQuote": "Da ich mehrmals im Jahr zur Prophylaxe zum Zahnarzt gehe, zahlt sich das für mich aus. Da ich die Kosten zu 100% erstattet bekomme. Bereits nach wenigen Tagen ist alles erledigt. Durch die App einfach und schnell."
+}

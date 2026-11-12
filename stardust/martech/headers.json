@@ -1,0 +1,11 @@
+{
+ "cache-control": "no-cache",
+ "content-security-policy": "frame-ancestors 'self'         *.dkv.com         *.erg.ravespace.cloud         *.ergo-reiseversicherung.de         *.ergo:*         *.ergo.com:*         *.ergo.de         *.ergocarbon.com         *.ergodirekt.de:*;     report-uri https://csp-reporting.ergo.com/csp-reports?tenant=erde;     report-to csp-endpoint;",
+ "content-security-policy-report-only": "worker-src 'self' blob:;     object-src 'self';     script-src 'self' 'unsafe-inline' 'unsafe-eval'         *.alida.com         *.bing.com         *.cloudfirst.digital         *.cnd-motionmedia.de         *.dkv.com         *.doubleclick.net         *.ergo-reiseversicherung.de         *.ergo.com         *.ergo.de         *.ergocarbon.com         *.ergodirekt.de         *.facebook.net         *.fww.de         *.google.com         *.googlesyndication.com         *.googletagmanager.com         *.gstatic.com         *.intelliad.de         *.licdn.com         *.onetrust.com         *.outbrain.com         *.podigee-cdn.net         *.realperson.de         *.spoteffects.net         *.taboola.com         *.youtube.com         assets.adobedtm.com         cdn.cookielaw.org         cdn.mouseflow.com         cdn.scarabresearch.com         cdn.trackjs.com         cdnjs.cloudflare.com         edge.eu1.fullstory.com         ergo-live.s3.eu-central-1.amazonaws.com         index.ergomultitool.de         js-cdn.dynatrace.com         maps.googleapis.com         platform.twitter.com         rum.hlx.page         static.xingcdn.com         wave.outbrain.com         www.facebook.com         www.googleadservices.com;     report-uri https://csp-reporting.ergo.com/csp-reports?tenant=erde;     report-to csp-endpoint;",
+ "strict-transport-security": "max-age=15724800",
+ "x-cache": "MISS",
+ "x-cache-hits": "0",
+ "x-content-type-options": "nosniff",
+ "x-trace-id": "x-amzn-trace-id;val=Root=1-6ae20977-205c09147f5ce30e31ee2530",
+ "x-xss-protection": "1; mode=block"
+}

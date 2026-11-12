@@ -1,0 +1,38 @@
+{
+  "/de/geschaeftskunden-produkte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T22:29:09.141Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/ratgeber": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T22:29:14.468Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/rechtsportal": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T22:29:21.285Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-article": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T22:29:29.228Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

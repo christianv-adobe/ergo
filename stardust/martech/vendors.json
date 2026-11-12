@@ -1,0 +1,49 @@
+{
+ "pages": 3,
+ "vendors": [
+  {
+   "host": "rum.hlx.page",
+   "pages": 3,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 3,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "www.ergo.de",
+   "pages": 3,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": true
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 3,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  }
+ ],
+ "inline": {},
+ "cspHosts": [
+  "*.dkv.com",
+  "*.erg.ravespace.cloud",
+  "*.ergo-reiseversicherung.de",
+  "*.ergo",
+  "*.ergo.com",
+  "*.ergo.de",
+  "*.ergocarbon.com",
+  "*.ergodirekt.de",
+  "csp-reporting.ergo.com"
+ ]
+}

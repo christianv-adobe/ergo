@@ -1,0 +1,786 @@
+{
+  "slug": "de-ratgeber",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "article-header",
+    "breadcrumb",
+    "ccw",
+    "promo",
+    "carousel",
+    "benefits"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "grid"
+  ],
+  "canonShas": {
+    "header": "62dc8f8f6fdf",
+    "footer": "9e7a79ce18b2",
+    "css": "49d76ee4a156"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Ratgeber | ERGO",
+    "description": "Alles, was wichtig ist: Im ERGO Ratgeber finden Sie zahlreiche aktuelle Infos zu den Themen Kfz, Gesundheit, Vorsorge, Reise und mehr ▻ Jetzt entdecken!",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ratgeber | ERGO",
+    "description": "Alles, was wichtig ist: Im ERGO Ratgeber finden Sie zahlreiche aktuelle Infos zu den Themen Kfz, Gesundheit, Vorsorge, Reise und mehr ▻ Jetzt entdecken!",
+    "url": "https://www.ergo.de/de/Ratgeber"
+  },
+  "migratedAt": "2026-10-28T16:30:44Z",
+  "designMdSha": "9d465ca20858",
+  "designJsonSha": "7ad1fc1913c1",
+  "sourceCurrentSha": "9d0499118448",
+  "sourceProposedSha": "0f6787b8c119",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 143,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-kuendigen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/zahnversicherung-vergleich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung/gesundheitsvorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenhauszusatzversicherungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Motorradversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/grundfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Monatsgeld",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Investmentprodukte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Unfallversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtsportal",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Freundschaftswerbung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/typen-test",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/kunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung/abschluss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit/stress",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit/augenkrankheiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zahngesundheit/zahnpflege-kinder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zahngesundheit/zahnersatz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/zahnersatz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zahngesundheit/zahnpflege-zahnerhalt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/zahnerhaltung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtsportal",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/kfz/autoversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/kfz/unfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung/Schutzbrief",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zuhause/e-bike-worauf-achten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Basis-Rente",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Investmentprodukte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/finanzielle_vorsorge/vermoegenswirksame-leistungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/finanzielle_vorsorge/tipps-frueher-rente",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/finanzielle_vorsorge/kapitallebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zuhause/hausbau-versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung/Bauherrenhaftpflicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zuhause/haus-versicherungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zuhause/unterschied_hausrat_haftpflicht",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/lifehacks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/typen-test",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall/versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall/beerdigung-organisieren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall/bestattungskosten-rechner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/berufsunfaehigkeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/pflege",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/pflege/pflegegrad-rechner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Private_Pflegeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/familie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/reise_und_freizeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/digital",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/beruf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/fluechtlinge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit/stress",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/kfz/steuer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall/sonderurlaub-bei-todesfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zahngesundheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/kfz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/berufsunfaehigkeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/finanzielle_vorsorge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/todesfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/familie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/zuhause",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/beruf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/reise_und_freizeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/fluechtlinge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/digital",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/pflege",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/typen-test",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Unfallversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Ratgeber/gesundheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Zahnzusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Reiseversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/KFZ-Versicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Geschaeftskunden-Produkte",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Produkte",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Kundenbereich",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/ereignis-melden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Freundschaftswerbung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Newsletter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Produkte/Lebensphasen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/Service/Kontakt/Kontaktformular",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Vermittlersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/videoberatung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/kunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/einfach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Anbieter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Barrierefreiheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/Datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/Service/vertrag-widerrufen",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/Ratgeber/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "de/Ratgeber/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,92 @@
+{
+  "/de/geschaeftskunden-produkte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:11.130Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/geschaeftskunden-produkte/betriebliche-altersversorgung": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:23.680Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:29.858Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/geschaeftskunden-produkte/dienstreiseversicherung": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:36.055Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/produkte": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:41.081Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/ratgeber": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:47.508Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/rechtsportal": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:21:54.574Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/service": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:22:16.972Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:22:23.218Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:22:29.797Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

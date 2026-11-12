@@ -1,0 +1,269 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-28T23:34:34.265Z",
+ "source": "https://www.ergo.de/",
+ "build": "https://main--856f1bba--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 16,
+  "warn": 12,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /de not in the build header"
+  },
+  {
+   "key": "motion@390 Menü [click]",
+   "width": 390,
+   "path": "Menü",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates opacity; the build does not"
+  },
+  {
+   "key": "motion@390 Menü > Versicherungen & Finanzen > Haftpflicht [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Haftpflicht",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "motion@390 Menü > Versicherungen & Finanzen > Kfz [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Kfz",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "motion@390 Menü > Versicherungen & Finanzen > Reise [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Reise",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "motion@390 Menü > Versicherungen & Finanzen > Vorsorge [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Vorsorge",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "motion@390 Menü > Versicherungen & Finanzen > Finanzen [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Finanzen",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /de not in the build header"
+  },
+  {
+   "key": "motion@1440 Versicherungen & Finanzen [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates opacity; the build does not"
+  },
+  {
+   "key": "motion@1440 Service [click]",
+   "width": 1440,
+   "path": "Service",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates opacity; the build does not"
+  },
+  {
+   "key": "motion@1440 Kontakt [click]",
+   "width": 1440,
+   "path": "Kontakt",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates opacity; the build does not"
+  },
+  {
+   "key": "motion@1440 Suche [click]",
+   "width": 1440,
+   "path": "Suche",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates opacity; the build does not"
+  },
+  {
+   "key": "state-missing@1440 search [type]",
+   "width": 1440,
+   "path": "search",
+   "id": "state-missing",
+   "action": "type",
+   "severity": "error",
+   "detail": "typing \"inhalt\" shows 9 suggestion(s) on the source, none on the build"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Zahn [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Zahn",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 6.3% (bar 2%; source 342×304, build 342×304; texture 63% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Gesundheit [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Gesundheit",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.5% (bar 2%; source 342×432, build 342×432; texture 56% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Hausrat & Gebäude [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Hausrat & Gebäude",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.9% (bar 2%; source 342×264, build 342×264; texture 50% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Haftpflicht [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Haftpflicht",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.7% (bar 2%; source 342×112, build 342×112; texture 38% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Kfz [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Kfz",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.0% (bar 2%; source 342×240, build 342×240; texture 48% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Reise [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Reise",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.7% (bar 2%; source 342×176, build 342×176; texture 54% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Vorsorge [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Vorsorge",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.3% (bar 2%; source 342×368, build 342×368; texture 44% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Versicherungen & Finanzen > Finanzen [click]",
+   "width": 390,
+   "path": "Menü > Versicherungen & Finanzen > Finanzen",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.1% (bar 2%; source 342×368, build 342×368; texture 53% thick)"
+  },
+  {
+   "key": "panel-visual@390 Menü > Kontakt [click]",
+   "width": 390,
+   "path": "Menü > Kontakt",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.6% (bar 2%; source 342×655, build 342×655; texture 41% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Versicherungen & Finanzen > Zahn [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen > Zahn",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.4% (bar 2%; source 443×304, build 443×304; texture 60% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Versicherungen & Finanzen > Gesundheit [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen > Gesundheit",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.7% (bar 2%; source 443×432, build 443×432; texture 59% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Versicherungen & Finanzen > Hausrat & Gebäude [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen > Hausrat & Gebäude",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.6% (bar 2%; source 443×240, build 443×240; texture 51% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Versicherungen & Finanzen > Haftpflicht [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen > Haftpflicht",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.1% (bar 2%; source 443×112, build 443×112; texture 33% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Versicherungen & Finanzen > Reise [click]",
+   "width": 1440,
+   "path": "Versicherungen & Finanzen > Reise",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.8% (bar 2%; source 443×176, build 443×176; texture 50% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Suche [click]",
+   "width": 1440,
+   "path": "Suche",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.7% (bar 2%; source 1440×803, build 1440×803; texture 80% thick)"
+  }
+ ]
+}

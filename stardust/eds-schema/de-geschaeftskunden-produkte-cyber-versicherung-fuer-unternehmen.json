@@ -1,0 +1,1136 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cyber-Versicherung für Unternehmen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schützen Sie Ihr Unternehmen gegen Cyber-Risiken"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Als Unternehmer arbeiten Sie selbstverständlich mit modernen Anlagen, aktuellen Betriebssystemen und einem guten Netzwerk. Aufträge, Kundendaten und sämtliche Informationen sind in Ihrem IT-System gespeichert und für Sie jederzeit abrufbar. Doch was ist, wenn plötzlich ein Virus Ihr IT-System lahmlegt? Oder ein Mitarbeiter versehentlich eine wichtige Datenbank löscht?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "sind nur einige der möglichen Szenarien. Die bzw. die ERGO Cyber-Versicherung Kompakt unterstützt Sie dabei, Ihren Geschäftsbetrieb schnell fortzusetzen. Sie erhalten Ersatz für den entstandenen Schaden. Für ausgewählte Branchen gibt es bei ERGO spezielle Konzepte."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Datenverlust oder Cyber-Bedrohungen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ERGO Cyber-Versicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Viren & Phishing"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bedienungsfehler"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bedrohung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Homeoffice-Schutz inklusive"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Auch im Homeoffice bzw. beim mobilen Arbeiten sind Sie und Ihre Mitarbeiter mit den ERGO Cyber-Versicherungen gegen die Folgen von Cyber-Risiken versichert."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Einige Beispiele aus der Praxis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ein Virus"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ein Schadprogramm im Anhang einer E-Mail dringt in die IT-Systeme des Unternehmens ein und löscht Dateien in der Buchhaltung. Die ERGO Cyber-Versicherungen erstatten die anfallenden Kosten."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Phishing"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ein Mitarbeiter wird in einer E-Mail aufgefordert, auf einen Link zu klicken und auf der dann angezeigten Website die Zugangsdaten für das Onlinebanking einzugeben. Nach einigen Tagen fehlen 90.000 € auf dem Geschäftskonto. Die ERGO Cyber-Versicherungen ersetzen den Schaden."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Bedienungsfehler"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ein Mitarbeiter löscht versehentlich eine Datenbank. Die ERGO Cyber-Versicherung übernimmt die Kosten für die Rücksicherung und Neuprogrammierung."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Bedrohung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ein Mitarbeiter klickt bei einer Internetrecherche nichts ahnend auf einen Link. Ein Krypto-Trojaner verschlüsselt alle Daten. Die ERGO Cyber-Versicherungen übernehmen die Kosten für die Behebung."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.benefits__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Präventionsdienstleistungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unsere Servicepakete im Detail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Leistungen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Cyber-Prävention Komfort"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Cyber-Prävention Premium"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Stand 08.23"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Prämienzuschlag 20%, mindestens 150 EUR, maximal 3.000 EUR"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Prämienzuschlag 20%, mindestens 300 EUR, maximal 3.000 EUR"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Onlinetraining (Cyber-Sicherheit, DSGVO)"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Browser-Check"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Blog, Newsletter, Glossar"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Phishing-Kampagnen"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Tools (E-Mail-Scanner, Datensicherheits-Check)"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Reporting (IT-Sicherheits-Score, Phishing-Report)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Automatische Aktivierung der Mitarbeiter"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Gefahrenwarnung bei akuten Cyber-Bedrohungen"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "individualisierbarer Notfallplan"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Richtlinien und Leitfäden (Datensicherungsstrategie, Datenschutz, Social Media, u.a.)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Security Baseline Check"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "im Wert von 650 €"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Highlights Komfort und Premium"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Highlight"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Komfort:"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "SB-Reduzierung um 50%, max. um 2.500 EUR im ersten Schadensfall"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Premium:"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "SB-Verzicht um bis zu 5.000 EUR im ersten Schadensfall, Verzicht auf Schadensfallkündigung, Verzicht auf Einrede der groben Fahrlässigkeit bis 5.000 EUR"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Historie Präventionspakete"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Prävention Historie (Stand 01.21)"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Dateiname"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "onepager-cyber-praevention-historie.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 29,
+     "text": "Format"
+    },
+    {
+     "role": "eyebrow",
+     "order": 30,
+     "text": "pdf"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Größe"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "63 KB"
+    }
+   ],
+   "imgCount": 22,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 22,
+      "textRuns": 19
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Zwischen diesen Varianten können Sie wählen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Cyber-Versicherung Kompakt"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Attraktiver Schutz für Ihre Daten"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bei der ERGO Cyber-Versicherung Kompakt sind die wichtigsten Eigenschäden versichert und alle Serviceleistungen enthalten."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Eigenschäden"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pauschale Versicherungssumme (wählbar)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Serviceleistungen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Cyber-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mehr Cyber-Schutz + Drittschäden"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Mit der umfangreichen ERGO Cyber-Versicherung sind noch mehr Eigenschäden versichert, Sie haben höhere Versicherungssummen und sind zusätzlich abgesichert gegen Drittschäden wie Personenschäden."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Eigenschäden"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Drittschäden"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Erhöhte Versicherungssumme"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Serviceleistungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die Varianten der ERGO Cyber-Versicherung im Vergleich"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "product-table",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ERGO Cyber-Versicherung Kompakt"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ERGO Cyber-Versicherung"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Versicherungsschutz bei Ansprüchen Dritter"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Datenschutzverletzungen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Datenvertraulichkeitsverletzungen"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "IT-Sicherheitsverletzung"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Versicherungsschutz für Eigenschäden"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Schäden durch Bedienfehler von Mitarbeitern"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ertragsausfall oder Mehrkosten"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Mehrkosten IT und Telekommunikation"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Wiederherstellung von Daten und Programmen"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Computerbetrug"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Serviceleistungen"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Kosten für IT-Dienst- und Forensikleistungen"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Benachrichtigungskosten"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Kosten für Krisenmanagement"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Kosten bei einer Cyber-Bedrohung"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Cyber-Rechtsschutz"
+    }
+   ],
+   "imgCount": 26,
+   "editableTexts": 18,
+   "repeats": [
+    {
+     "unitSelector": "DIV.productTable__row--subheading",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 4
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.productTable__row",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.productTable__row",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.productTable__row",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ihre Vorteile mit den ERGO Cyber-Versicherungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Passgenauer Schutz"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit der sichert ERGO Ihre Eigenschäden im vereinbarten Umfang ab. Wenn Sie zusätzlich die Ansprüche Dritter sowie Ertragsausfall oder Mehrkosten absichern möchten, wählen Sie einfach die ERGO Cyber-Versicherung."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ERGO Cyber-Versicherung Kompakt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Umfangreiche Serviceleistungen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Im Schadensfall übernimmt ERGO die und, wenn erforderlich, für Forensikleistungen."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Kosten für IT-Dienstleister"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Im Fall eines Reputationsschadens übernimmt ERGO auch die und PR-Maßnahmen."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Kosten für einen externen Berater"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Im Fall einer hilft ERGO, die Bedrohungslage abzuwenden."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Cyber-Bedrohung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Mehr Sicherheit durch Prävention"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Sicherheit geht vor – das gilt natürlich auch online. Zusammen mit dem Partner Perseus bietet Ihnen ERGO noch höhere Cyber-Sicherheit durch . Diese enthalten unter anderem:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "zusätzliche Servicepakete"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Sicherheitstrainings für Mitarbeiter"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Tools für den Arbeitsalltag"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Viele praktische Tipps zu Cyber-Sicherheit"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "spacer",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wissenswertes im Überblick"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-8",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hier können Sie sich bequem und einfach weitere Informationen zur ERGO Cyberversicherung herunterladen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cyber-Bedingungsupdate - 2024"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dateiname"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "bedigungsupdate-cyber-versicherungen.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Format"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "pdf"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Größe"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "1 MB"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Highlights der ERGO Cyberversicherung"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Dateiname"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "highlights-cyber-versicherungen.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 10,
+     "text": "Format"
+    },
+    {
+     "role": "eyebrow",
+     "order": 11,
+     "text": "pdf"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Größe"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "98 KB"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Lassen Sie sich ein individuelles Angebot erstellen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sie möchten eine persönliche Beratung? Ein ERGO Berater vor Ort ist für Sie da und spricht gern mit Ihnen über den passenden Versicherungsschutz."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebot anfordern",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt?popref=https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-9",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Das könnte Sie auch interessieren:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Betriebskostenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ERGO erstattet z. B. die fortlaufenden Betriebskosten und übernimmt die Kosten für eine externe Ersatzkraft."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebskostenversicherung"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Betriebsschließungsversicherung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ERGO übernimmt z. B. die laufenden Kosten und erstattet die Lohn- und Gehaltsaufwendungen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebsschliessungsversicherung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-10",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Nicht sicher, was Sie benötigen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dann lassen Sie sich helfen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Per E-Mail"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schreiben Sie eine Nachricht."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail schreiben",
+     "href": "https://www.ergo.de/de/Resources/Forms/Kontakt/Kontakt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr ERGO Berater"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gleich Termin vereinbaren."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "ERGO Berater finden",
+     "href": "/de/Service/Vermittlersuche"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mo–Sa 7–20 Uhr (gebührenfrei)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Rufen Sie an."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "0800 / 3746 095",
+     "href": "tel:08003746095"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-11",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dies ist ein Produkt der ERGO Versicherung AG."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

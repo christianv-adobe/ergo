@@ -1,0 +1,38 @@
+{
+  "/footer-geschaeftskunden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:01:30.229Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:01:30.230Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-geschaeftskunden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:01:36.398Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:01:36.431Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,1021 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-geschaeftskunden-produkte.html (2026-10-28T14:21:31.434Z)",
+  "layout": "narrow"
+ },
+ "head": {
+  "title": "Gewerbliche Versicherungen für Geschäftskunden | ERGO",
+  "description": "Gewerbliche Versicherungen von ERGO: Maßgeschneiderte Lösungen ✓ Für Unternehmen und Selbstständige ✓",
+  "lang": "de"
+ },
+ "header": {
+  "variant": "b2b",
+  "skip": "zum Inhalt springen",
+  "closeAria": "Hauptmenü schließen",
+  "top": [
+   "Produkte für Geschäftskunden",
+   "Service",
+   "Kontakt"
+  ],
+  "logoDesktop": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ergo_logo.dam.svg",
+   "alt": "Logo: ERGO. Einfach weil's wichtig ist.",
+   "href": "/de"
+  },
+  "logoMobile": {
+   "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+   "alt": "Logo: ERGO",
+   "href": "/de"
+  },
+  "buttons": [
+   {
+    "label": "Berater",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "Sie können hier einen Berater finden.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg",
+    "mobile": false
+   },
+   {
+    "label": "Log-in",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "aria": "Hier erreichen Sie das Log-in zum Kundenportal.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+    "mobile": true
+   },
+   {
+    "label": "Über ERGO",
+    "href": "https://www.ergo.com/de",
+    "aria": "Hier erfahren Sie mehr über ERGO.",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg",
+    "mobile": false
+   }
+  ],
+  "menu": {
+   "open": "Menü",
+   "close": "Hauptmenü schließen"
+  },
+  "navAria": "Untermenü",
+  "nav": [
+   {
+    "label": "Produkte für Geschäftskunden",
+    "heading": "Produkte für Geschäftskunden",
+    "children": [
+     {
+      "label": "Gewerbliche Sachversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Betriebskostenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebskostenversicherung"
+       },
+       {
+        "label": "Betriebsschließungs-Pauschalversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Betriebsschliessungsversicherung"
+       },
+       {
+        "label": "Gewerbliche Gebäudeversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung"
+       },
+       {
+        "label": "Geschäftsinhaltsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung"
+       },
+       {
+        "label": "Landwirtschaftliche Inhaltsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Landwirtschaftliche-Inhaltsversicherung"
+       },
+       {
+        "label": "Geschäft & Gebäude im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Kautionsversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Kautionsversicherung"
+     },
+     {
+      "label": "Mietkautionsversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/mietkautionsversicherung"
+     },
+     {
+      "label": "Betriebliche Altersversorgung",
+      "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+     },
+     {
+      "label": "Cyber-Versicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+     },
+     {
+      "label": "Technische Versicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Bauleistungsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Bauleistungsversicherung"
+       },
+       {
+        "label": "Elektronikversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Elektronikversicherung"
+       },
+       {
+        "label": "Maschinenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Maschinenversicherung"
+       },
+       {
+        "label": "Maschinenversicherung für fahrbare Geräte",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Fahrbare-Maschinenversicherung"
+       },
+       {
+        "label": "Montageversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Montageversicherung"
+       },
+       {
+        "label": "Photovoltaikversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung/Spezialdeckung-Erneuerbare-Energien"
+       },
+       {
+        "label": "Technische Versicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Technische-Versicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Dienstreiseversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+     },
+     {
+      "label": "Haftpflichtversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Gewerbe-Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+       },
+       {
+        "label": "Industrielle Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Industriehaftpflichtversicherung"
+       },
+       {
+        "label": "Vermögensschaden-Haftpflichtversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Vermoegensschadenhaftpflichtversicherung"
+       },
+       {
+        "label": "Haftpflichtversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Transportversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Warenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Warenversicherung"
+       },
+       {
+        "label": "Haftungsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Haftungsversicherung"
+       },
+       {
+        "label": "Schiffsversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Schiffsversicherung"
+       },
+       {
+        "label": "Nebenspartenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Nebenspartenversicherung"
+       },
+       {
+        "label": "Risikomanagement",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung/Risikomanagement"
+       },
+       {
+        "label": "Transportversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Transportversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Flottenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung"
+     },
+     {
+      "label": "Firmen-Kunstversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Firmen-Kunstversicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Rechtsschutz für Selbstständige und Unternehmer",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/firmen"
+       },
+       {
+        "label": "Rechtsschutz für Heilberufe",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/aerzte-heilberufe"
+       },
+       {
+        "label": "Rechtsschutz Agrar für Landwirte",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung/landwirte"
+       },
+       {
+        "label": "Gewerbliche Rechtsschutzversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Krankenversicherungen",
+      "heading": null,
+      "children": [
+       {
+        "label": "Betriebliche Krankenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung"
+       },
+       {
+        "label": "Gruppenversicherung",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Gruppenversicherung"
+       },
+       {
+        "label": "Krankenversicherungen im Überblick",
+        "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung"
+       }
+      ],
+      "tiles": []
+     },
+     {
+      "label": "Gruppen-Unfallversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gruppen-Unfall"
+     },
+     {
+      "label": "Geschäftskunden-Produkte im Überblick",
+      "href": "/de/Geschaeftskunden-Produkte"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/FamilyIcon.svg",
+      "title": "Sie sind Privatkunde?",
+      "text": "Dann bitte hier entlang:",
+      "cta": {
+       "label": "Privatkundenbereich",
+       "href": "/de/Produkte",
+       "aria": "Hier erreichen Sie den Privatkundenbereich."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Service",
+    "heading": "Service",
+    "children": [
+     {
+      "label": "Kundenbereich",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Kundenbewertungen",
+      "href": "/de/Service/Kundenbewertungen"
+     },
+     {
+      "label": "ERGO App",
+      "href": "/de/Service/ergo-app"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Datenschutz",
+      "href": "/de/Service/Datenschutz"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg",
+      "title": "Meine Versicherungen",
+      "text": "Sehen Sie auf einen Blick Ihre Versicherungen bei ERGO, dem ERGO Rechtsschutz und der DKV.",
+      "cta": {
+       "label": "Zum Kundenportal",
+       "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+       "aria": "Hier geht es zum Kundenportal."
+      }
+     }
+    ]
+   },
+   {
+    "label": "Kontakt",
+    "heading": "Kontakt",
+    "children": [
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ],
+    "tiles": [
+     {
+      "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg",
+      "title": "Über ERGO",
+      "text": "Erfahren Sie mehr über die ERGO Group",
+      "cta": {
+       "label": "Zur ERGO Group",
+       "href": "https://www.ergo.com/de",
+       "aria": "Hier erfahren Sie mehr zur ERGO Group."
+      }
+     }
+    ]
+   }
+  ],
+  "actionItems": [
+   {
+    "label": "ERGO Berater finden",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "Berater",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/LocationIcon.svg"
+   },
+   {
+    "label": "Log-in",
+    "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo",
+    "aria": "Log-in",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ProfileIcon.svg"
+   },
+   {
+    "label": "Über ERGO",
+    "href": "https://www.ergo.com/de",
+    "aria": "Über ERGO",
+    "icon": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/HouseIcon.svg"
+   }
+  ]
+ },
+ "footer": {
+  "variant": "b2b",
+  "note": null,
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Gewerbe-Haftpflichtversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung"
+     },
+     {
+      "label": "Betriebliche Altersversorgung",
+      "href": "/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung"
+     },
+     {
+      "label": "Cyber-Versicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+     },
+     {
+      "label": "Flottenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/flottenversicherung"
+     },
+     {
+      "label": "Betriebliche Krankenversicherung",
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung/Betriebliche-Krankenversicherung"
+     },
+     {
+      "label": "Versicherungen für Privatkunden",
+      "href": "/de"
+     },
+     {
+      "label": "Alle Geschäftskunden-Produkte im Überblick",
+      "href": "/de/Geschaeftskunden-Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/Media-Relations"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "TikTok"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": ""
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2026 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "productHero",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "magenta",
+   "pos": "right",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/geschaeftskunden.dam.jpg",
+    "alt": "Gewerbliche Versicherungen"
+   },
+   "h1": "Gewerbe-Versicherungen",
+   "title": "Willkommen im ERGO Geschäftskunden-Bereich",
+   "textHtml": null,
+   "ctas": []
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p>Unternehmer und Geschäftsführer tragen große Verantwortung für ihr Unternehmen. Dazu gehört auch eine passgenaue Absicherung. Deshalb bietet ERGO Geschäftskunden eine breit gefächerte Produktpalette und ausgezeichnete Beratung – für passende Versicherungslösungen und maximalen Schutz.&nbsp;Es erwarten Sie immer neue Versicherungslösungen und ein regelmäßig aktualisiertes Produktportfolio. Gewinnen Sie hier einen Überblick über die Produkt-Highlights.</p>"
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h2\">ERGO schützt, was Sie aufgebaut haben</h2><ul class=\"check-list--green\"><li>Sie bekommen Versicherungsschutz für <a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung\">betriebliche Risiken</a>, die <a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung\">Gewerbe-Haftpflicht</a>, <a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Vermoegensschadenhaftpflichtversicherung\">Vermögensschaden-Haftpflichtversicherung</a>, <a href=\"/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen\">Sach- und Inhaltsversicherung</a>, <a href=\"/de/Geschaeftskunden-Produkte/Transportversicherung\">Transportversicherung</a>, sowie <a href=\"/de/Geschaeftskunden-Produkte/Technische-Versicherung\">Technische Versicherungen</a>, <a href=\"/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen\">Cyber-</a> oder <a href=\"/de/Geschaeftskunden-Produkte/flottenversicherung\">Flottenversicherung</a>.<br> Im Blickfeld ist auch Ihr <a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung\">Recht</a>, Ihre <a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Krankenversicherung\">Gesundheit</a> und Ihre <a href=\"/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung\">Altersabsicherung</a>.</li><li>Sie können außerdem auch ungewöhnliche Risiken absichern. Beispielsweise durch eine <a href=\"/de/Geschaeftskunden-Produkte/Kautionsversicherung\">Kautionsversicherung</a> oder eine <a href=\"/de/Geschaeftskunden-Produkte/Firmen-Kunstversicherung\">Firmen-Kunstversicherung</a></li><li>Sie genießen Service, auf den Sie sich verlassen können und individuelle Betreuung.</li><li>Sie werden durch umfassende Serviceleistungen und persönliche Beratung immer unterstützt.</li></ul><h2 class=\"txt txt--headline txt__h2\">Welche Versicherung brauchen Sie unbedingt?</h2><p>Um diese Frage zu beantworten, sollten Sie sich fragen: Was ist das größte Risiko für mein Unternehmen? Die Schäden, die so groß sind, dass sie Ihre Existenz gefährden, sollten in jedem Fall gut abgedeckt sein. Natürlich sind auch weitere Gefahren für Ihr Unternehmen, für Ihre Mitarbeiter und Sie selbst zu beachten. ERGO hilft Ihnen bei der Bewertung und Einordnung dieser Risiken und finden den für Sie passenden Schutz.</p><p>Sie können folgende Überlegungen zugrunde legen:</p><ul><li>Fehler passieren auch den Profis. Für die Absicherung von Schäden, die Sie anderen zufügen könnten, benötigen Sie einen Haftpflicht-Schutz.</li><li>Haben Sie Betriebsinhalte, dann sollten diese ebenfalls ausreichend geschützt werden</li><li>Und Sie brauchen Rückendeckung im Fall der Fälle: Eine Rechtsschutzversicherung ist daher sinnvoll</li><li>Je nach Gewerbe sind weitere Versicherungen notwendig und ratsam. Diese richten sich nach dem Umfang des Betriebes und den möglichen Schäden, die entstehen können.</li><li>Mit all diesen Fragen lässt ERGO Sie nicht alleine. Vertrauen Sie auf individuelle Beratung und Begleitung.</li></ul>"
+  },
+  {
+   "type": "cta",
+   "size": "m",
+   "mode": "tb",
+   "bg": "green",
+   "center": true,
+   "cta": {
+    "tag": "a",
+    "label": "ERGO Berater finden",
+    "href": "/de/Service/Vermittlersuche",
+    "aria": "ERGO Berater finden",
+    "variant": "primary",
+    "size": "auto",
+    "width": "33",
+    "icon": null,
+    "iconPos": "right"
+   }
+  },
+  {
+   "type": "promo",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fff",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/gewerbliche-haftpflichtversicherung/gewerbehaftpflichtversicherung-neu.dam.jpg",
+     "alt": "Lächelnde Bedienung am Eingang der Gaststätte."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Gewerbe-Haftpflichtversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Wer einem anderen einen Schaden zufügt, ist gesetzlich zum Schadensersatz verpflichtet,&nbsp; egal, wie hoch er ist. Als Unternehmer stehen Sie außerdem für die Handlungen Ihrer Mitarbeiter ein.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Zum Produkt",
+      "href": "/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung",
+      "aria": "Zum Produkt",
+      "variant": "primary",
+      "size": "normal",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   }
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": true,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/cyberversicherung.dam.jpg",
+      "alt": "In einer Schreinerei tippt ein Mann etwas in einen Laptop.."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h4\">Cyber-Versicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Datenverlust oder Cyber-Bedrohungen sind nur einige der möglichen Szenarien. Die ERGO Cyber-Versicherung bzw. die ERGO Cyber-Versicherung Kompakt unterstützt Sie dabei, Ihren Geschäftsbetrieb schnell fortzusetzen.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Produkt",
+       "href": "/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+       "aria": "Zum Produkt",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": true,
+     "flag": "Top Produkt",
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/geschaeftsinhaltsversicherung.dam.jpg",
+      "alt": "Eine Frau sitzt im Businessoutfit in einer Produktionshalle am Laptop.."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"font font--fsme txt txt--headline txt__h4\">Geschäftsinhaltsversicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Viele Verbesserungen, einfache Prozesse und ein fairer Preis: Rundum Sicherheits-Garantie. 10 % beitragsfreie Vorsorge. Quotelungs- und Unterversicherungsverzicht.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Produkt",
+       "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung",
+       "aria": "Zum Produkt",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    },
+    {
+     "kind": "promo",
+     "v": 2,
+     "color": "#fff",
+     "pos": "top",
+     "ctaCount": 1,
+     "equal": true,
+     "flag": null,
+     "image": {
+      "src": "https://assets.ergo.com/content/dam/ergo/geschaeftskunden/gebaeudeversicherung.dam.jpg",
+      "alt": "Zwei Personen stehen lächelnd vor der offenen Tür eines Gebäudes."
+     },
+     "rounded": false,
+     "ai": false,
+     "small": null,
+     "icon": null,
+     "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Gewerbliche Gebäudeversicherung</p>",
+     "titleHtml": null,
+     "textHtml": "<p>Ein Schaden am gewerblichen Gebäude kann unvorhersehbare Folgen haben. ERGO sichert Sie individuell ab. Ganz gleich, ob Sie Ihre Immobilie selbst nutzen oder vermieten.</p>",
+     "price": null,
+     "ctas": [
+      {
+       "tag": "a",
+       "label": "Zum Produkt",
+       "href": "/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Gebaeudeversicherung",
+       "aria": "Zum Produkt",
+       "variant": "primary",
+       "size": "auto",
+       "width": "100",
+       "icon": null,
+       "iconPos": "right"
+      }
+     ],
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2>Das ist besonders in der ERGO Geschäftskunden-Produktpalette</h2>"
+  },
+  {
+   "type": "benefits",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "color": "#c9c5c7",
+   "frame": "frame",
+   "flag": null,
+   "flagPos": "left",
+   "items": [
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/BrokenArmStarIcon.svg",
+      "alt": ""
+     },
+     "title": "Berufsunfähigkeitsschutz mit Krankentagegeld",
+     "html": "<p>Eine Kombination, die Sinn macht: Berufsunfähigkeits­schutz mit Krankentagegeld. Einfach und verwaltungsarm. Mit allen Steuervorteilen.</p>"
+    },
+    {
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/CurrencyEuroIcon.svg",
+      "alt": ""
+     },
+     "title": "Kautionsversicherung für jede Unternehmensgröße",
+     "html": "<p>Die ERGO Kautionsversicherung bietet für jede Unternehmensgröße die passende Avallösung. Im Maschinen- und Anlagenbau kann ein Avalrahmen zu 100 % für Anzahlungsavale genutzt werden (entsprechende Bonität vorausgesetzt). </p>"
+    }
+   ]
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2>Die beliebtesten Produkte der Geschäftskunden von ERGO</h2>"
+  },
+  {
+   "type": "accordion",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "items": [
+    {
+     "title": "Geschäftsinhaltsversicherung",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Schützen Sie Ihr Inventar gegen Feuer, Diebstahl und mehr. ERGO erstattet Schäden zum Neuwert. Und Sie erhalten einen besonderen Schutz vor Unterversicherung.</p><p><a href=\"/de/Geschaeftskunden-Produkte/Geschaefts-Gebauede-Versicherungen/Geschaeftsinhaltsversicherung\">mehr &gt;</a><br></p>"
+      }
+     ]
+    },
+    {
+     "title": "Gewerbe-Haftpflichtversicherung",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Schützen Sie sich mit der Gewerbe-Haftpflichtversicherung von ERGO für kleine und mittelständische Unternehmen sowie Selbstständige.</p><p><a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Haftpflichtversicherung/Gewerbehaftpflichtversicherung\">mehr &gt;</a><br></p>"
+      }
+     ]
+    },
+    {
+     "title": "Betriebliche Altersversorgung",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Mit der betrieblichen Altersversorgung machen Sie Ihr Unternehmen attraktiv für Mitarbeiter und können zudem Lohnnebenkosten sparen.</p><p><a href=\"/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung\">mehr &gt;</a><br></p>"
+      }
+     ]
+    },
+    {
+     "title": "Rechtsschutz für Selbstständige und Unternehmer",
+     "open": false,
+     "blocks": [
+      {
+       "type": "richtext",
+       "size": null,
+       "mode": "bottom",
+       "bg": null,
+       "html": "<p>Für Selbstständige bzw. Unternehmer sollte das Thema Absicherung nicht zu kurz kommen. Für passenden Schutz sorgt der ERGO Rechtsschutz mit einer Absicherung, die Ihren Bedarf in den Mittelpunkt stellt.</p><p><a href=\"/de/Geschaeftskunden-Produkte/Gewerbliche-Rechtsschutzversicherung\">mehr &gt;</a><br></p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "html": "<h2 class=\"ta-c\">Nicht sicher, was Sie benötigen?</h2><p class=\"ta-c\">Dann lassen Sie sich helfen.</p><p>&nbsp;</p>",
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 3
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/PhoneIcon.svg",
+      "alt": ""
+     },
+     "title": "Mo–Sa 7–20 Uhr (gebührenfrei)",
+     "text": "Rufen Sie an.",
+     "cta": {
+      "tag": "a",
+      "label": "0800 / 3746 095",
+      "href": "tel:08003746095",
+      "aria": "0800 / 3746 095",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/ManIcon.svg",
+      "alt": ""
+     },
+     "title": "Ihr ERGO Berater",
+     "text": "Gleich Termin vereinbaren.",
+     "cta": {
+      "tag": "a",
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche",
+      "aria": "ERGO Berater finden",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": false,
+     "icon": {
+      "src": "/etc.clientlibs/ergoone/clientlibs/publish/assets/resources/icons/EditIcon.svg",
+      "alt": ""
+     },
+     "title": "Per E-Mail",
+     "text": "Schreiben Sie eine Nachricht.",
+     "cta": {
+      "tag": "a",
+      "label": "E-Mail schreiben",
+      "href": "/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden",
+      "aria": "E-Mail schreiben",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": "m"
+    }
+   ]
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

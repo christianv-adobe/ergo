@@ -1,0 +1,2846 @@
+{
+ "_source": {
+  "dom": "extract capture stardust/current/pages/de-produkte.html (2026-10-28T14:21:41.166Z)",
+  "layout": "full"
+ },
+ "head": {
+  "title": "Alle Produkte: Versicherungen & Investment | ERGO",
+  "description": "ERGO berät bedarfsgerecht, versichert passgenau und spricht die Sprache der Kunden.",
+  "lang": "de"
+ },
+ "footer": {
+  "variant": "b2b",
+  "note": null,
+  "columns": [
+   {
+    "title": "Versicherungen & Finanzen",
+    "links": [
+     {
+      "label": "Zahnzusatzversicherung",
+      "href": "/de/Produkte/Zahnzusatzversicherung"
+     },
+     {
+      "label": "Reiseversicherung",
+      "href": "/de/Produkte/Reiseversicherung"
+     },
+     {
+      "label": "Kfz-Versicherung",
+      "href": "/de/Produkte/KFZ-Versicherung"
+     },
+     {
+      "label": "Rechtsschutzversicherung",
+      "href": "/de/Produkte/Rechtsschutzversicherung"
+     },
+     {
+      "label": "Private Haftpflichtversicherung",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung"
+     },
+     {
+      "label": "Hausratversicherung",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+     },
+     {
+      "label": "Risikolebensversicherung",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung"
+     },
+     {
+      "label": "Pflegeversicherung",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung"
+     },
+     {
+      "label": "Versicherungen für Geschäftskunden",
+      "href": "/de/Geschaeftskunden-Produkte"
+     },
+     {
+      "label": "Alle Produkte im Überblick",
+      "href": "/de/Produkte"
+     }
+    ]
+   },
+   {
+    "title": "Service",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal registrieren",
+      "href": "/de/Service/Kundenbereich"
+     },
+     {
+      "label": "Schaden oder Leistungsfall melden",
+      "href": "/de/Service/ereignis-melden"
+     },
+     {
+      "label": "Ratgeber",
+      "href": "/de/Ratgeber"
+     },
+     {
+      "label": "Rechtsportal",
+      "href": "/de/rechtsportal"
+     },
+     {
+      "label": "Kunden werben Kunden",
+      "href": "https://freunde.ergo.de/?intcid=9001032"
+     },
+     {
+      "label": "Newsletter abonnieren",
+      "href": "/de/Service/Newsletter"
+     },
+     {
+      "label": "Versicherungskompass",
+      "href": "/de/Produkte/Lebensphasen"
+     },
+     {
+      "label": "An ERGO Kundenwerkstatt teilnehmen",
+      "href": "/de/Service/Kundenbewertungen/Kundenwerkstatt"
+     },
+     {
+      "label": "Alle Services im Überblick",
+      "href": "/de/Service"
+     }
+    ]
+   },
+   {
+    "title": "Kontakt",
+    "links": [
+     {
+      "label": "Im ERGO Kundenportal anmelden",
+      "href": "https://kunde-s.ergo.de/meineversicherungen/lz/start.aspx?vu=ergo"
+     },
+     {
+      "label": "E-Mail schreiben",
+      "href": "/de/Service/Kontakt/Kontaktformular"
+     },
+     {
+      "label": "ERGO Berater finden",
+      "href": "/de/Service/Vermittlersuche"
+     },
+     {
+      "label": "ERGO in Ihrer Nähe",
+      "href": "https://www.ergo.de/de/Versicherung-vor-Ort/Regional"
+     },
+     {
+      "label": "Auskunft zu bestehenden Verträgen",
+      "href": "/de/Service/Kontakt/kunden"
+     },
+     {
+      "label": "Videoberatung",
+      "href": "/de/Service/videoberatung"
+     },
+     {
+      "label": "Lob & Beschwerde mitteilen",
+      "href": "/de/Service/Kontakt/Lob-und-Beschwerde"
+     },
+     {
+      "label": "Alle Kontaktmöglichkeiten im Überblick",
+      "href": "/de/Service/Kontakt"
+     }
+    ]
+   },
+   {
+    "title": "Über ERGO",
+    "links": [
+     {
+      "label": "Unternehmen",
+      "href": "https://www.ergo.com/de/unternehmen"
+     },
+     {
+      "label": "Einfach, weil's wichtig ist.",
+      "href": "/de/Service/einfach"
+     },
+     {
+      "label": "Vertrieb",
+      "href": "https://www.ergo.com/de/unternehmen/ueber-ergo/gesellschaften-deutschland/ergo-beratung-und-vertrieb"
+     },
+     {
+      "label": "Karriere",
+      "href": "https://careers.munichre.com/de/ergo"
+     },
+     {
+      "label": "Presse",
+      "href": "https://www.ergo.com/de/newsroom"
+     },
+     {
+      "label": "Verantwortung",
+      "href": "https://www.ergo.com/de/nachhaltigkeit"
+     },
+     {
+      "label": "Menschenrechte",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/menschenrechte"
+     },
+     {
+      "label": "ERGO Hinweisgebersystem",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance#hinweisgebersystem"
+     },
+     {
+      "label": "EU-Offenlegungsverordnung",
+      "href": "https://www.ergo.com/de/unternehmen/corporate-governance/eu-offenlegungsverordnung"
+     },
+     {
+      "label": "Geschäftspartner",
+      "href": "https://www.ergo.com/de/unternehmen/geschaeftspartner"
+     }
+    ]
+   }
+  ],
+  "social": {
+   "heading": "Folgen Sie ERGO",
+   "links": [
+    {
+     "href": "https://www.instagram.com/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/instagram-sw.dam.svg",
+     "alt": "Instagram"
+    },
+    {
+     "href": "https://www.facebook.com/ERGO.Deutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/facebook-sw.dam.svg",
+     "alt": "Facebook"
+    },
+    {
+     "href": "https://www.youtube.com/ErgoDeutschland_de",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/youtube-sw.dam.svg",
+     "alt": "Youtube"
+    },
+    {
+     "href": "https://www.pinterest.de/ergodeutschland/",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/pinterest-sw.dam.svg",
+     "alt": "Pinterest"
+    },
+    {
+     "href": "https://www.tiktok.com/@ergodeutschland",
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/socialmedia/tiktok-sw.dam.svg",
+     "alt": "ERGO Blog"
+    }
+   ]
+  },
+  "ribbon": {
+   "links": [
+    {
+     "label": "Impressum/Erstinformation",
+     "href": "/de/Service/Anbieter"
+    },
+    {
+     "label": "Kontakt",
+     "href": "/de/Service/Kontakt"
+    },
+    {
+     "label": "Barrierefreiheit",
+     "href": "/de/Service/Barrierefreiheit"
+    },
+    {
+     "label": "Datenschutz",
+     "href": "/de/Service/Datenschutz"
+    }
+   ],
+   "cookies": {
+    "label": "Cookies",
+    "aria": "Cookies verwalten"
+   },
+   "sitemap": {
+    "label": "Sitemap"
+   },
+   "strong": [
+    {
+     "label": "Vertrag widerrufen",
+     "href": "/de/Service/vertrag-widerrufen"
+    }
+   ],
+   "logos": [
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/ERGO-Logo-ohne-Claim.dam.svg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/logos/DKV-Logo.dam.svg",
+     "alt": ""
+    }
+   ]
+  },
+  "copyright": "© 2026 ERGO. Alle Rechte vorbehalten."
+ },
+ "blocks": [
+  {
+   "type": "productHero",
+   "size": "m",
+   "mode": "bottom",
+   "bg": "yellow",
+   "pos": "right",
+   "image": {
+    "src": "https://assets.ergo.com/content/dam/ergo/service/alleprodukte_uebersicht.dam.jpg",
+    "alt": "Alle ERGO Produkte auf einen Blick"
+   },
+   "h1": "Alle ERGO Produkte entdecken",
+   "title": "Das ganze Angebot auf einen Blick",
+   "textHtml": null,
+   "ctas": []
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "top",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ebe6d8",
+    "pos": "right",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": "Bis 31.12.2026",
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/landingpages/gewinnspiel-kreuzfahrt-lks.dam.jpg",
+     "alt": "Ein junge Frau steht an der Reling eines Kreuzfahrtschiffs, blickt auf das offene Meer und genießt den Sonnenuntergang"
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Jetzt ERGO Sterbegeldvorsorge online oder telefonisch abschließen und eine Kreuzfahrt für 2 Personen gewinnen!</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Sichern Sie Ihre Liebsten ab – und mit etwas Glück gewinnen Sie eine <b>Premium-Kreuzfahrt</b> im Wert von <b>15.000 € für 2 Personen</b> oder weitere Sachpreise.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Abschließen und gewinnen",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung/abschluss",
+      "aria": "Abschließen und gewinnen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": "ChevronRightIcon",
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Teilnahmebedingungen",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung/gewinnspiel",
+      "aria": "Teilnahmebedingungen",
+      "variant": "text-link",
+      "size": "auto",
+      "width": "default",
+      "icon": "ChevronRightIcon",
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>ZAHNZUSATZVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Schutz nach Maß für Ihr Lächeln.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Möchten Sie hohe Zahnarztrechnungen für <b>Zahnerhalt, Zahnersatz, Kieferorthopädie oder bereits begonnene Behandlungen </b>vermeiden? Vergleichen Sie die Leistungen der ERGO Zahnversicherungen ohne Gesundheitsfragen für passgenauen Schutz.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/zahnzusatzversicherungen/zahnzusatzversicherung-im-vergleich.dam.jpg",
+     "alt": "Eltern liegen auf dem Teppichboden und lachen mit der kleinen Tochter in die Kamera. "
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Individueller Zahnschutz</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Ausgezeichnete Leistungen für Ihr schönstes Lachen. Bis zu 100 % Premiumschutz. Wählen Sie Ihre individuelle Zahnversicherung und zahlen Sie nur für Leistungen, die Sie auch wirklich brauchen.</p>",
+    "price": {
+     "prefix": "z. B.",
+     "value": "20,65",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Dental-Vorsorge für Zahnerhalt",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/zahnerhaltung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Dental-Schutz für Zahnersatz",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/zahnersatz",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Zahnzusatzversicherung mit Sofortschutz ohne Wartezeit",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-ohne-Wartezeit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Kieferorthopädie Sofortschutz für Kinder",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Kieferorthopaedie",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Zahnzusatzversicherung (DKV Deutsche Krankenversicherung AG)",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Zahnzusatzversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Zahnersatzversicherung mit Implantaten",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Zahnzusatzversicherung/Zahnersatzversicherung-mit-Implantaten",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Zahnersatzversicherung mit verdoppeltem Festzuschuss",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Zahnzusatzversicherung/verdoppelter-Festzuschuss-bei-Zahnersatz",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>LEBENSVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Damit Ihre Liebsten finanziell abgesichert sind.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Sind Sie und<b> Ihre Lieben für jede Lebenslage finanziell abgesichert?</b> Stellen Sie sich diese Frage rechtzeitig, damit es später kein böses Erwachen gibt – für Jung und Alt.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/risikolebensversicherung-aktion.dam.jpg",
+     "alt": "Ein Baby schläft auf der Brust des Vaters. Die Mutter gibt dem Baby einen Kuss auf den Kopf."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Risikolebensversicherung</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p><b>Exklusiv bei ERGO:</b> Mit Waisenschutz im Premiumtarif.</p>",
+    "price": {
+     "prefix": "Ab",
+     "value": "1,85",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Lebensversicherung/Risikolebensversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Sterbegeldversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Sterbegeldversicherungen/Sterbegeldversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Kidspolicen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>RECHTSSCHUTZVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Damit Sie Ihr gutes Recht bekommen.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Die ERGO Rechtsschutzversicherungen bieten <b>umfassenden Schutz vor finanziellen Risiken durch rechtliche Auseinandersetzungen</b>. Machen Sie kurzen Prozess mit dem Kostenrisiko bei einem Rechtsstreit.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/rechtsschutz/rechtsschutzversicherung.dam.jpg",
+     "alt": "Eine Familie spaziert am Strand."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Rechtsschutzversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Ob für Singles, Alleinerziehende, Paare und Familien: Stellen Sie sich Ihr Rechtsschutzpaket so zusammen, wie es zu Ihrer Lebenssituation und Ihren Wünschen passt.</p>",
+    "price": {
+     "prefix": "Ab",
+     "value": "12,17",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Rechtsschutzversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Rechtsschutzversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Verkehrsrechtsschutz",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Rechtsschutzversicherung/Verkehrsrechtsschutz",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Rechtsschutz für Mieter, Vermieter, Eigentümer",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Rechtsschutzversicherung/Rechtsschutz-Immobilien",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>HAFTPFLICHTVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Damit aus kleinen Missgeschicken kein großer Ärger wird.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Was auch immer passiert: Sichern Sie sich finanziell mit einer <b>Haftpflichtversicherung</b> ab, die zu Ihrer Lebenssituation passt – zum Beispiel für Sie selbst, Ihre Familie oder Ihren Hund.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/phv/private-haftpflichtversicherung.dam.jpg",
+     "alt": "Junge Leute helfen beim Umzug."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": {
+     "src": "https://assets.ergo.com/content/dam/ergo/testurteile/privathaftpflicht-best-26XS54.dam.png",
+     "alt": "Testsiegel: Stiftung Warentest zeichnet den Tarif ERGO Privat-Haftpflicht Best im Vergleich mit 424 Tarifangeboten mit der Note Sehr Gut (1,1) aus.."
+    },
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Private Haftpflichtversicherung</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p class=\"txt txt--copytext txt__paragraph\">Gegen dumm gelaufen hilft nur klug versichert. Denn dann sind Sie vor den finanziellen Folgen kleiner und großer Missgeschicke geschützt.</p>",
+    "price": {
+     "prefix": "Z. B.",
+     "value": "5,26",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Haus- und Grundbesitzer-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Haus-und-Grundbesitzerhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Bauherren-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Bauherrenhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Gewässerschaden-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Gewaesserschadenhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Jagd-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Jagdhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Hundehalter-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Hundehalterhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Pferdehalter-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Pferdehalterhaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Wassersport-Haftpflichtversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Haftpflichtversicherung/Wassersporthaftpflicht",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>KFZ-VERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Unterwegs immer gut versichert.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Schützen Sie Ihre Fahrzeuge entspannt vor hohen Kosten, die durch Unfälle, Diebstahl oder sonstige Schäden entstehen können. Egal, wie Sie motorisiert sind: Bei ERGO finden Sie alles, von A wie Autoversicherung, über E-Bike- und Motorradversicherung bis W wie Wohnmobilversicherung.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/autoversicherung.dam.jpg",
+     "alt": "Frau mit Sonnenbrille und tätowierten Armen schaut mit breitem Lächeln aus einem türkisblauen Mini Cooper."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Autoversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Schneller Schadenservice. Hohe Versicherungssummen. Umfangreicher Versicherungsschutz.</p>",
+    "price": {
+     "prefix": "Z. B. ab",
+     "value": "29,92",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/KFZ-Versicherung/Autoversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "E-Auto-Versicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/KFZ-Versicherung/e-auto-versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Motorradversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/KFZ-Versicherung/Motorradversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Versicherung für besondere Fahrzeuge",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/KFZ-Versicherung/Kfz-Versicherung-Spezial-fuer-Wohnmobile",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Schutzbrief",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/KFZ-Versicherung/Schutzbrief",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Mopedversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/KFZ-Versicherung/Mopedversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "E-Bike Versicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>UNFALL-, BERUFSUNFÄHIGKEITS- UND GRUNDFÄHIGKEITSVERSICHERUNG</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Absicherung Ihres Körpers und Ihrer Arbeitskraft.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Passiert ein Unfall, kann man seinen Beruf nicht mehr ausüben oder fallen Grundfähigkeiten des Körpers aus, fehlen Einkommen und Lebensqualität. Stellen Sie sich finanziell sicher auf. Die ERGO Unfallversicherung bietet <b>sinnvolle und wichtige Leistungen</b> für Sie und Ihre Kinder.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/unfall/unfallversicherung.dam.jpg",
+     "alt": "Mann mit Prothese sitzt am orangefarbenen Van vor Landschaft und Himmel."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/ohne-gesundheitsfragen-stoerer.dam.svg",
+     "alt": "Hinweis: Ohne Gesundheitsfragen."
+    },
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Unfallversicherung</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Individueller Schutz im Baukastensystem für finanzielle und praktische Hilfe nach einem Unfall, z. B. im Haushalt.</p>",
+    "price": {
+     "prefix": "Z. B.",
+     "value": "1,89",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Unfallversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Unfallversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Berufsunfähigkeitsversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Grundfähigkeitsversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/grundfaehigkeitsversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>HAUSRAT- UND GEBÄUDEVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Schützen Sie, was Ihnen gehört.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Dinge, die Ihnen lieb und teuer sind, bedürfen besonderer Aufmerksamkeit. <b>Sichern Sie Ihren Besitz</b> mit einer ERGO Hausrat- und einer Glasversicherung ab. Als Hauseigentümer ist die Gebäudeversicherung ebenfalls unverzichtbar.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ffe0cb",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/hausratversicherung.dam.jpg",
+     "alt": "Eine Frau sitzt entspannt mit einer Tasse Kaffee auf dem Küchenboard."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/einfacher-online-abschluss-stoerer.dam.svg",
+     "alt": "Einfacher Online Abschluss"
+    },
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Hausratversicherung&nbsp;</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Damit sichern Sie Ihr Hab und Gut finanziell ab gegen Schäden, z. B. durch Brand, Leitungswasser oder Einbruchdiebstahl. ERGO erstattet den Neuwert Ihres Hausrats. Wählen Sie individuelle Zusatzbausteine wie Fahrradschutz.</p>",
+    "price": {
+     "prefix": "Z. B.",
+     "value": "3,90",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Online abschließen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung/abschluss",
+      "aria": "Online abschließen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Wohngebäudeversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Wohngebaeudeversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Gegenstandsversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Gegenstandversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Schließfachversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/schliessfachversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Kunstversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/PrivateKunstversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Glasversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/Glasversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "E-Bike Versicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Hausrat-und-Gebaeudeversicherung/ebike-versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Geräteversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "https://technikschutz.ergo.de",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>REISEVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Urlaub? Aber sicher!</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Genießen Sie die schönste Zeit des Jahres in vollen Zügen! Und falls doch mal eine Krankheit dazwischen kommen sollte, haben Sie <b>mit einer Reiseversicherung vorausschauend vorgesorgt</b> – auch z. B. bei Reiserücktritt oder Reiseabbruch.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#fef6d2",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/sach/reise/reiseversicherung_mann_surfbrett.dam.jpg",
+     "alt": "Junger Mann geht mit seinem Surfbrett ins Meer."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Auslandskrankenversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Krank im Urlaub? Sichern Sie sich bessere medizinische Versorgung und kompetente Ansprechpartner für optimale Hilfe im Notfall. Für alle Reisen im Jahr.</p>",
+    "price": {
+     "prefix": "ab",
+     "value": "24,80",
+     "currency": "€",
+     "suffix": "jährlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Beitrag berechnen",
+      "href": "/de/Produkte/Reiseversicherung/ReisekrankenversicherungDKV/abschluss",
+      "aria": "Beitrag berechnen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": "CalculatorIcon",
+      "iconPos": "left"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "RundumSorglos-Reiseversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/RundumSorglos-Schutz",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Reiserücktrittsversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Reiseruecktrittsversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Schülerreiseversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Schuelerreise-Versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Incoming-Versicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Incoming-Versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Reiseschutz für Langzeitaufenthalte",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/langzeit",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Gruppenreiseversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Gruppenreise-Versicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Ticketversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Ticketversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Campingversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Campingversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Selbstbeteiligungs-Schutz für gemietete Wohnmobile (CDW)",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Reiseversicherung/Wohnmobil-versichern",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>RENTENVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Flexible Vorsorge für eine entspannte Zukunft.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Die <b>ausgezeichneten privaten Rentenversicherungen </b>von ERGO ermöglichen Ihnen schon mit kleinen Beiträgen ein <b>finanzielles Polster für Ihre Altersvorsorge</b>. Je füher Sie beginnen, desto besser.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/rente/private-rente.dam.jpg",
+     "alt": "Zwei Menschen surfen auf dem Sofa mit dem Tablet auf ergo.de und informieren sich."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Private Rentenversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Für jeden Vorsorgetyp gibt es das passende Anlagekonzept: von renditestark bis sicherheitsorientiert.</p>",
+    "price": {
+     "prefix": "Ab",
+     "value": "25,00",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Rentenversicherung/Private-Rentenversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "ERGO Chance Familie",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Rentenversicherung/chance",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "ERGO Balance Familie",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Rentenversicherung/Index-Rente/Indexbeteiligung-Balance",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "ERGO Index Familie",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Rentenversicherung/Index-Rente/Indexbeteiligung-Rente",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Betriebliche Altersversorgung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Mehr erfahren",
+      "href": "/de/Produkte/Rentenversicherung/Betriebliche-Altersvorsorge",
+      "aria": "Mehr erfahren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>KRANKENVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Die optimale Ergänzung für gesetzlich Krankenversicherte.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Fangen Sie Mehrkosten ab, die Sie sonst aus eigener Tasche zahlen müssen. <b>Ergänzen Sie die Leistungen Ihrer gesetzlichen Krankenversicherung</b>, z. B. mit einer Krankenhauszusatzversicherung oder Krankentagegeld. Damit Sie schneller und entspannter gesund werden.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/gesundheitsvorsorge.dam.jpg",
+     "alt": " Lächelnde Frau, die im Lotussitz auf einem Geländer im Park sitzt"
+    },
+    "rounded": false,
+    "ai": false,
+    "small": {
+     "src": "https://assets.ergo.com/content/dam/ergo/grafiken/neu-stoerer.dam.svg",
+     "alt": "Hinweis: Neu!"
+    },
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">Private Krankenzusatzversicherung</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Mit <b>ERGO Gesundheit &amp; Vorsorge </b>wählen Sie eine Zusatzversicherung für Ihre <b>private Gesundheitsvorsorge</b> mit vielen<b> starken Zuschüssen.</b></p>",
+    "price": {
+     "prefix": "Z. B.",
+     "value": "12,30",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Krankenversicherung/gesundheitsvorsorge",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Augen- und Brillenversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Augenversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Krankentagegeldversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Krankentagegeld",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Rundumzusatzversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Rundum-Zusatzversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "ERGO Krankenhauszusatzversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenhauszusatzversicherungen/Private-Krankenhauszusatzversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Krankenvollversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Krankenvollversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Beihilfeversicherung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Krankenversicherung/Beihilfeversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>PFLEGEVERSICHERUNGEN</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Damit Sie im Pflegefall Hilfe und Unterstützung bekommen.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\">Denken Sie daran: Pflegebedürftigkeit kann nicht nur ältere Menschen plötzlich und unerwartet treffen. Rechtzeitige <b>Vorsorge in eine private Pflegeversicherung zahlt sich aus</b>. Finanzielle Leistungen bei Pflegebedürftigkeit sind enorm wichtig.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#ccecef",
+    "pos": "left",
+    "ctaCount": 2,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/kranken/pflegezusatzversicherung.dam.jpg",
+     "alt": "Ältere Frau sitzt lächelnd auf einem Sofa während eine jüngere Frau von hinten ihre Arme liebevoll um sie legt."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4 font font--fsme\"><span class=\"color color--black\">Pflegezusatzversicherung</span></p>",
+    "titleHtml": null,
+    "textHtml": "<p>Die Kosten im Pflegefall sind enorm. Hier ist private Vorsorge gefragt. Auch der Staat unterstützt Sie mit einem Zuschuss.</p>",
+    "price": {
+     "prefix": "Z. B.",
+     "value": "30,20",
+     "currency": "€",
+     "suffix": "monatlich"
+    },
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     },
+     {
+      "tag": "a",
+      "label": "Beitrag berechnen",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung/abschluss-zuschuss",
+      "aria": "Beitrag berechnen",
+      "variant": "primary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Pflege Schutz Paket",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "Zum Produkt",
+      "href": "/de/Produkte/Pflegeversicherung/pflegeschutzpaket",
+      "aria": "Zum Produkt",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Pflegezusatzversicherung mit staatlicher Förderung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Pflegeversicherung/Pflegezusatzversicherung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "s",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<h2 class=\"txt txt--headline txt__h1 ta-c\"><a></a>BAUSPAREN UND FINANZPRODUKTE</h2>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "m",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"txt txt--headline txt__h2 font font--fedra-serif ta-c\"><span class=\"color color--red\">Indivduelle und zielgerichtete Finanzlösungen.</span></p>",
+   "inXf": true
+  },
+  {
+   "type": "richtext",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "html": "<p class=\"ta-c\"><b>Finanzielle Sicherheit </b>und <b>Vorsorge für später</b> sehen für jeden Menschen in unterschiedlichen Lebenssituationen anders aus. Finden Sie bei ERGO die für Sie optimalen Produkte für Immobilienfinanzierung, Geldanlage, Bausparvertrag und finanzielle Absicherung.</p>",
+   "inXf": true
+  },
+  {
+   "type": "promo",
+   "size": "l",
+   "mode": "bottom",
+   "bg": null,
+   "promo": {
+    "kind": "promo",
+    "v": 2,
+    "color": "#f5e1eb",
+    "pos": "left",
+    "ctaCount": 1,
+    "equal": false,
+    "flag": null,
+    "image": {
+     "src": "https://assets.ergo.com/content/dam/ergo/produkte/leben/rente/kidspolicen.dam.jpg",
+     "alt": "Freudig schreiender Junge mit Helm auf einem Kinderfahrzeug."
+    },
+    "rounded": false,
+    "ai": false,
+    "small": null,
+    "icon": null,
+    "headlineHtml": "<p class=\"txt txt--headline txt__h4\">ERGO Kidspolicen</p>",
+    "titleHtml": null,
+    "textHtml": "<p>Schenken Sie Zukunft und schaffen Sie für Ihre Kinder, Enkel oder Patenkinder ein attraktives Startkapital. Z. B. für den Führerschein oder ein Auslandssemester.</p>",
+    "price": null,
+    "ctas": [
+     {
+      "tag": "a",
+      "label": "Jetzt informieren",
+      "href": "/de/Produkte/Bausparen-Finanzierung/Kidspolicen",
+      "aria": "Jetzt informieren",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "100",
+      "icon": null,
+      "iconPos": "right"
+     }
+    ]
+   },
+   "inXf": true
+  },
+  {
+   "type": "carousel",
+   "size": null,
+   "mode": "bottom",
+   "bg": null,
+   "cols": {
+    "m": 2,
+    "l": 2
+   },
+   "loop": false,
+   "items": [
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Bausparvertrag",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Bausparen-Finanzierung/Bausparen",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Immobilienfinanzierung",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Bausparen-Finanzierung/Immobilienfinanzierung",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Vermögenspolicen",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Bausparen-Finanzierung/Vermoegenspolicen",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Geldanlage in Investmentfonds",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Investmentprodukte",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    },
+    {
+     "kind": "tile",
+     "v": 2,
+     "color": "#fff",
+     "reducedM": true,
+     "reducedD": true,
+     "icon": null,
+     "title": "Monatsgeld",
+     "text": null,
+     "cta": {
+      "tag": "a",
+      "label": "mehr lesen",
+      "href": "/de/Produkte/Monatsgeld",
+      "aria": "mehr lesen",
+      "variant": "secondary",
+      "size": "auto",
+      "width": "default",
+      "icon": null,
+      "iconPos": "right"
+     },
+     "slidePad": null
+    }
+   ],
+   "inXf": true
+  },
+  {
+   "type": "spacer",
+   "size": "xl",
+   "mode": "bottom",
+   "bg": null,
+   "inXf": true
+  },
+  {
+   "type": "scrolltop",
+   "size": "m",
+   "mode": "tb",
+   "bg": null,
+   "label": "Nach oben",
+   "href": "#page-top"
+  }
+ ]
+}

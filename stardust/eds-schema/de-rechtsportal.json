@@ -1,0 +1,606 @@
+{
+ "source": "file:///workspace/856f1bba/stardust/.work/deploy/probes/de-rechtsportal-sections.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "article-header",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rechtsportal"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tipps für Ihr gutes Recht"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Hier finden Sie zu ganz unterschiedlichen Rechtsthemen Tipps, Urteile und spannende Hintergrundinfos."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home Page (German)",
+     "href": "/de"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rechtsportal"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.cmp-breadcrumb__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Aktuelle Rechtsfragen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Darf ich an Halloween Waffen tragen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zu manch gruseligen Halloween-Kostümen gehören Spielzeugpistolen oder -dolche einfach dazu. Zu echt dürfen diese aber nicht aussehen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr lesen",
+     "href": "/de/rechtsportal/rechtsfrage-des-tages/halloween-mit-gummidolch"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Für Gewerbekunden"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kann ich Überstunden anordnen?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Manchmal ist mehr zu tun, als die reguläre Arbeitszeit hergibt. Als Arbeitgeber müssen Sie wissen, welche Regeln zu Überstunden gelten."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mehr lesen",
+     "href": "/de/rechtsportal/gewerbe/kann-ich-ueberstunden-anordnen"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Weitere Aktuelle Rechtsfragen",
+     "href": "/de/rechtsportal/rechtsfrage-des-tages"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Weitere Gewerberechtsfragen",
+     "href": "/de/rechtsportal/gewerbe"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Wichtige Themen und Fragestellungen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Kann ich eine Online-Reise widerrufen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Lieber doch nicht in den Sommerferien nach Kreta? Haben Sie Ihre Reise online gebucht, können Sie diese nicht so einfach widerrufen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr lesen",
+     "href": "/de/rechtsportal/reiserecht/stornierung-ruecktritt-uebertragung-von-reisen/online-reise-widerrufen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Rasen mähen zu jeder Zeit?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Es ist nicht zu überhören, überall brummen wieder die Rasenmäher. Zu jeder Tageszeit dürfen Sie Ihren lärmenden Helfer aber nicht anwerfen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr lesen",
+     "href": "/de/rechtsportal/rechtsfrage-des-tages/rasenmaehen-welche-ruhezeiten-gelten"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ansprüche bei Flugverspätung und Flugausfall"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Wurde Ihre Urlaubsfreude getrübt durch eine stundenlange Flugverspätung oder gar einen -ausfall?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Auf der können Fluggäste selbst Ihre lassen."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "*)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Seite des Bundesjustizministeriums"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Rechte und Ansprüche prüfen"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Zum Online-Portal*",
+     "href": "https://service.justiz.de/fluggastrechte"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vorlagen & Musterdokumente"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Exklusiv für ERGO Rechtsschutz Kunden:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "- über 100 Musterschreiben"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "- laufend aktualisierte Vorlagen nach aktueller Rechtslage"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "- direkt ausfüllbar und downloadbar"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Hier finden Sie laufend aktualisierte Musterschreiben, Merkblätter und Checklisten – zum kostenlosen Download."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Alle Musterdokumente anzeigen",
+     "href": "/de/rechtsportal/servicebereich"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 6,
+   "repeats": []
+  },
+  {
+   "section": "text-3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Alle Bereiche auf einen Blick"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Arbeit & Beruf"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/arbeitsrecht"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Arzt & Patient"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/patiententrecht"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Familie & Partnerschaft"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/familienrecht"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Internet & Online-Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/internetrecht"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Mietwohnung & Eigenheim"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/mietrecht"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Reise & Erholung"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/reiserecht"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Schule & Unterricht"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/schule-und-unterricht"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Studium & Ausbildung"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/ausbildungsrecht"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Testament & Erbschaft"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/testament-und-erbrecht"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Verkehr & Mobilität"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/verkehrsrecht"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Vorsorge & Pflege"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/vorsorgeverfuegung"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Gewerbe"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "mehr lesen",
+     "href": "/de/rechtsportal/gewerbe"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "spacer-1",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Auch interessant:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Rechtsschutzversicherung"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rechtsschutz für Singles, Alleinerziehende, Paare und Familien"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Genau der Schutz, den Sie für Ihr Leben brauchen: ERGO vermittelt kompetente Anwälte, hilft bei außergerichtlichen Lösungen und gibt Ihnen finanzielle Rückendeckung, wenn es zum Prozess kommt."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ab"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "12,17"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "€"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "monatlich"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt informieren",
+     "href": "/de/Produkte/Rechtsschutzversicherung"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt berechnen",
+     "href": "/de/Produkte/Rechtsschutzversicherung/abschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "spacer-2",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "promo",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hier geht´s zum ERGO Ratgeber"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ob Alltagsthemen oder Zukunftsplanung: Der bietet Ihnen aktuelle Informationen zu vielen Themen, die Sie bewegen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ERGO Ratgeber"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zum Ratgeber",
+     "href": "/de/Ratgeber"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "scroll-top",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Nach oben",
+     "href": "#page-top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

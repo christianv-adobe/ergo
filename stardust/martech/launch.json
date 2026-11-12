@@ -1,0 +1,4539 @@
+{
+ "url": "https://assets.adobedtm.com/launch-EN641c84e26bb144c49c90c0078d982c0b.min.js",
+ "pages": 3,
+ "build": "buildInfo:{minified:!0,buildDate:\"2026-10-22T07:24:09Z\",turbineBuildDate:\"2026-06-04T21:23:22Z\",turbineVersion:\"29.1.0\"}",
+ "orgId": "1D3511B55605198B7F000101@AdobeOrg",
+ "extensions": [
+  "Adobe Experience Platform Web SDK",
+  "Core",
+  "Data Layer Manager"
+ ],
+ "webSdk": {
+  "version": "2.34.1",
+  "selfHostable": true,
+  "library": "managed",
+  "instances": [
+   {
+    "name": "alloy",
+    "edgeDomain": null,
+    "defaultConsent": "pending",
+    "datastream": {
+     "ref": "%GroupOfPagesDatastream_CustomCode%",
+     "ids": [
+      "a91a67cc-9050-4e12-a01c-bb733b54c84f"
+     ]
+    },
+    "stagingDatastream": {
+     "ref": "%GroupOfPagesDatastream_CustomCode%",
+     "ids": [
+      "a91a67cc-9050-4e12-a01c-bb733b54c84f"
+     ]
+    }
+   }
+  ]
+ },
+ "target": null,
+ "dataElements": [
+  {
+   "name": "CJA_ergoag.user.occupation.state",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorFlag_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfTouristGuides",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPages_aaenabled_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfTravellersFrom41To64Years",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OfferOrderIDHashed_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "transactionID",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "oenrNumber.offer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "singleTicketPrice",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offerPDF",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "commentSent",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoStarted_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "formName",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "selfServiceType",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "saleStart",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "usedFilters.infonea",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.events-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.events",
+   "selectors": []
+  },
+  {
+   "name": "travelPriceType-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travelPriceType",
+   "selectors": []
+  },
+  {
+   "name": "prevQuestionAnswer_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dataPrivacyFooterApproved",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "makler-accepted_Cookie",
+   "type": "cookie",
+   "source": "makler-accepted",
+   "selectors": []
+  },
+  {
+   "name": "Step_CSS",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "fid",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPagesDataset_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "bankData",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "timeCounter",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dataPrivacyAccepted",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "componentNameList",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "confirmationDate",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "smokerNonSmoker",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelPrice-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travelPrice",
+   "selectors": []
+  },
+  {
+   "name": "bouncing",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "languages.agency",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "serviceOptions2",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "upload",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentInitialAvailable",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products.0.category-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products.0.category",
+   "selectors": []
+  },
+  {
+   "name": "rentalProperty",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceStart",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offlineWindowShown",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoPosition_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentInitialNotAvailable",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "endOperator",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productBranch",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelPrice",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "AA_event6_Offers",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "language",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "birthdayOld",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "exitLayer_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "wmid",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "gknr.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "brokerAssociationCode",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offerPost",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "vsnr",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "callbackTime",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "primaryCategory.Page",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "endInactivity",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "seminarPrice-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.seminarPrice",
+   "selectors": []
+  },
+  {
+   "name": "oeNumber.agentSwitch",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.page.current.error.errors",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pid.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPagesTargetProperty_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pageTemplate",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "oeNumber.adviceSwitch",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "boni",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "existingCustomer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "confirmationDate-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.confirmationDate",
+   "selectors": []
+  },
+  {
+   "name": "tariffOptions1",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "mid.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.interactiveTools.infonea.usedFiltersString",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "salesCookie",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "conversionType_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "campaignUpdatedFlag",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorMessages_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "social.agency",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "callNow",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "displayedBrand",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "actionNumber",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contactformStart",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "source",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "nationality",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "businessHours.agency",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "targetPersonalization_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "paymentMethod",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "birthdayInsuredPerson",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "brokerBranch.attributes",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "MiTest_Cookie",
+   "type": "cookie",
+   "source": "Mi_track",
+   "selectors": []
+  },
+  {
+   "name": "clickedElement_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "AA_event15_Revenue_Sales",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "sysEnv",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "userRole",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "status.identification",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "searchPhrase",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "type",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelEndDate-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travelEndDate",
+   "selectors": []
+  },
+  {
+   "name": "pageInfo",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "sid_Cookie",
+   "type": "cookie",
+   "source": "s_id",
+   "selectors": []
+  },
+  {
+   "name": "nrOfTickest-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.nrOfTickest",
+   "selectors": []
+  },
+  {
+   "name": "loginMethod",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "maritialStatus",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "actionNumber.offer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products",
+   "selectors": []
+  },
+  {
+   "name": "rdNumber.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "marketingChannel",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "user.status-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.user.status",
+   "selectors": []
+  },
+  {
+   "name": "contactAgentEmail_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.internalSearch.resultList.searchName",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelEnd",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "secureEachOther",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "role",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "jobTitle",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.product.events.tariff.travelDaysDuration.value",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "AA_eVar5_Product_Options2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "locations.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "destinationCountry",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "formFieldPath",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OrderIDHashed_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "email",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "lifeSituation",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contactReason",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfVisitors",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "digitalSignature",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contactformEnd",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "download",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "country",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "tariffOptions2",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelStartDate",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "rejectionReason.identification",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "baCategory",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "campaignTelephoneNumber",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "user.type-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.user.type",
+   "selectors": []
+  },
+  {
+   "name": "ERGOGroup_Web_XDM",
+   "type": "index",
+   "source": "%pageName%",
+   "selectors": []
+  },
+  {
+   "name": "page.nagt-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.nagt",
+   "selectors": []
+  },
+  {
+   "name": "noOfTickets",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "searchResults",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "postcode-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.postcode",
+   "selectors": []
+  },
+  {
+   "name": "birthyearsOfTravellers",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "language.download",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "gender",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Timestamp_JS",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products.0.sb-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products.0.sb",
+   "selectors": []
+  },
+  {
+   "name": "conversionType",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ticketPrice-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.ticketPrice",
+   "selectors": []
+  },
+  {
+   "name": "AA_prop28_Release",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ratingShown",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.language-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.language",
+   "selectors": []
+  },
+  {
+   "name": "contactAgentCallback_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.page.current.onsite.displayElements",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.interaction.attributes",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Ranorex_Cookie",
+   "type": "cookie",
+   "source": "ranorex",
+   "selectors": []
+  },
+  {
+   "name": "serviceStart_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "birthday",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentNumber",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ratingProducts",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "usedElement",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentUploadShown",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.hierarchy-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.hierarchy",
+   "selectors": []
+  },
+  {
+   "name": "mainCountryOfTraveller",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.process.attributes",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.page.current.topictrees",
+   "type": "customCode",
+   "source": "purpose",
+   "selectors": []
+  },
+  {
+   "name": "serviceEnd_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contactAgentCallback",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "primaryCategory.Product",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentAvailable",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "gender-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.gender",
+   "selectors": []
+  },
+  {
+   "name": "testExperience",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "selectedFromTariffComparsion",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "usedWorksheets.infonea",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorMessage-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.form.errorMessage",
+   "selectors": []
+  },
+  {
+   "name": "travelStartDate-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travelStartDate",
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.internalSearch.searchFilters",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "PagePurpose_ContextHub_MiniDataLayer",
+   "type": "javascriptVariable",
+   "source": "ContextHub.MiniDataLayer.PagePurpose",
+   "selectors": []
+  },
+  {
+   "name": "firstMessageSend_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "firstMessageSendWithAgent",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfSeminarParticipants",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "occupationalGroup",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Tarif_CSS",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div.DataElementVertriebsprodukt"
+   ]
+  },
+  {
+   "name": "revenueOffer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.page.current.variants",
+   "type": "customCode",
+   "source": "displayed brand",
+   "selectors": []
+  },
+  {
+   "name": "close",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "vehicleValue",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "AA_eVar4_Product_Options",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "scOpen",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "serviceOptions1",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OptanonActiveGroups",
+   "type": "javascriptVariable",
+   "source": "OptanonActiveGroups",
+   "selectors": []
+  },
+  {
+   "name": "AA_purchase_OffersSale",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "MarketingGeneralTrackingSwitch_JS",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "baCategory-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.baCategory",
+   "selectors": []
+  },
+  {
+   "name": "TarifModus_CSS",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div.DataElementTarifmodus"
+   ]
+  },
+  {
+   "name": "pageType",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "voucherUsed",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "hierachyOld",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "finalCheck",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoPause_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "wmid.offer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offerEmail",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offerToSaleID",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "internalSearch_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "AA_prop44_Interaction_Details",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "healthInsuranceStatus",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPagesReportSuite_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceStartDate-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.insuranceStartDate",
+   "selectors": []
+  },
+  {
+   "name": "search.type-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.search.type",
+   "selectors": []
+  },
+  {
+   "name": "daysToDeparture-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.daysToDeparture",
+   "selectors": []
+  },
+  {
+   "name": "cvrMatchinglistSea_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoName_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "contactAgentEmail",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "telephone",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pnrNumber.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "domainName",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.channel-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.channel",
+   "selectors": []
+  },
+  {
+   "name": "fap_Cookie",
+   "type": "cookie",
+   "source": "fap",
+   "selectors": []
+  },
+  {
+   "name": "sale",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "marketingChannel1",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "nextCalculation",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "componentArray",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pageTags",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorMessages_latestState_Array",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "transactionTotal",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travellers-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travellers",
+   "selectors": []
+  },
+  {
+   "name": "telephoneE164",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productName",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "order.vsnr-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.order.vsnr",
+   "selectors": []
+  },
+  {
+   "name": "timestamp.identification",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "destination-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.destination",
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.internalSearch.resultList.values",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfTravellersFrom26To64Years",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ratingService",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfTravellersFrom65Years",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "clickedSection",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CookiebotConsentMarketing",
+   "type": "javascriptVariable",
+   "source": "Cookiebot.consent.marketing",
+   "selectors": []
+  },
+  {
+   "name": "pathFormField",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.hagt-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.hagt",
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPagesTenantID_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelDurationInDays",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPages_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "head > link",
+    ".carbon-search"
+   ]
+  },
+  {
+   "name": "brokerRole",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offerToSale",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "isRemoteBranch.attributes",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "rentalProperty-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.rentalProperty",
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPagesDatastream_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "nrOfVisitors-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.nrOfVisitors",
+   "selectors": []
+  },
+  {
+   "name": "clickedElement",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dataPrivacyRejected",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "transactionID.offer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "paymentMethod-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.paymentMethod",
+   "selectors": []
+  },
+  {
+   "name": "conversionTypes_AA_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "firstCalculation",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "id",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ERGOGroup_Main_Event_Data_Set_XDM",
+   "type": "index",
+   "source": "%pageName%",
+   "selectors": []
+  },
+  {
+   "name": "targetUrl",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "calculatedValueReduced",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dynamicTelephoneNumber",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pageName",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "touristGuides-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.touristGuides",
+   "selectors": []
+  },
+  {
+   "name": "order.id-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.order.id",
+   "selectors": []
+  },
+  {
+   "name": "country-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.country",
+   "selectors": []
+  },
+  {
+   "name": "daysToDeparture",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "birthyears-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.birthyears",
+   "selectors": []
+  },
+  {
+   "name": "oldEvents",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "componentSettings",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ratingSolution",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agencyObject",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "PageName_ContextHub_MiniDataLayer",
+   "type": "javascriptVariable",
+   "source": "ContextHub.MiniDataLayer.PageName",
+   "selectors": []
+  },
+  {
+   "name": "issueDate",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "document.identification",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "chatDepartment",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuredIsInsuredPerson",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productCombination",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceDuration",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "calculatedValue",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "paymentInterval",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SalesValue_CSS",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div.DataElementBeitrag"
+   ]
+  },
+  {
+   "name": "page.oenr1-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.oenr1",
+   "selectors": []
+  },
+  {
+   "name": "fid_appEventData",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "additionalPayment",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "marketingIsReady",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products.0.id-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products.0.id",
+   "selectors": []
+  },
+  {
+   "name": "type.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelPriceType",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceEndDate-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.insuranceEndDate",
+   "selectors": []
+  },
+  {
+   "name": "open.Chat",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "teaserShown",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "cid",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "form.filledFields-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.form.filledFields",
+   "selectors": []
+  },
+  {
+   "name": "open.AdviceSwitch",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "searchResultAgents",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "agentNotAvailable",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "document.title",
+   "type": "javascriptVariable",
+   "source": "document.title",
+   "selectors": []
+  },
+  {
+   "name": "hierachyOldArray_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "voucherCode",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "regionalCluster.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OrderID_CSS",
+   "type": "domAttribute",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceEnd",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "lastSentWmid",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "search.term-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.search.term",
+   "selectors": []
+  },
+  {
+   "name": "secondMessageSend",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "usedSheet.infonea",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfTravellersUpTo25Years",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "pagePurpose",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "method.identification",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "formSent",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dataPrivacyFooterRead",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "page.name-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.page.name",
+   "selectors": []
+  },
+  {
+   "name": "firstMessageSendBeforeAgent",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "productOwner",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "PageCount",
+   "type": "cookie",
+   "source": "PageCount",
+   "selectors": []
+  },
+  {
+   "name": "testActivity",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoEnded_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "oenrNumber.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "insuranceAmount",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "brokerModus",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "seminarPricePerParticipant",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "nonce",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "script[nonce]"
+   ]
+  },
+  {
+   "name": "scCheckOut",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "internal",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.user.occupation.name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products.0.units-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products.0.units",
+   "selectors": []
+  },
+  {
+   "name": "CookiebotConsentStatistics",
+   "type": "javascriptVariable",
+   "source": "Cookiebot.consent.statistics",
+   "selectors": []
+  },
+  {
+   "name": "userAgent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "formQuestion_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "search.nrOfResults-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.search.nrOfResults",
+   "selectors": []
+  },
+  {
+   "name": "contentGroups",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "addresses.agency",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorUrl",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "intcid",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "errorType_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "viewPort",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "travelTime-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.checkout.travelTime",
+   "selectors": []
+  },
+  {
+   "name": "GroupOfPages_cjadirect_CustomCode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "offer",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "postalCode",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "searchedAgents_Array",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "landingpageMode",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "noOfInsuredPeople",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "findAgent",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "searchFilters",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "dataPrivacyShown",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.product.tariff.travelBirthDateTravellers",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "form.name-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.form.name",
+   "selectors": []
+  },
+  {
+   "name": "currency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "occupation.agency",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "loggedIn",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "videoLength_latestState",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "CJA_ergoag.product.tariff.options",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "products.0.price-ERV",
+   "type": "javascriptVariable",
+   "source": "ervDataLayer.products.0.price",
+   "selectors": []
+  },
+  {
+   "name": "clickType",
+   "type": "context_aware_data_element",
+   "source": null,
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RL018fdcc82fec47bc831bf552064ef9fa",
+   "name": "GE_03_ConnectToConsent",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL03344902f0dc4e94a839ef699b3bec05",
+   "name": "AA_02_ERV_CustomEvents",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7210723546164a66b3f0c1d9cb1adfd5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL06b660436d4748ddbc7fc4265b6cd1b3",
+   "name": "MT_99_DKVBE_B2B_PageCount_PageLoaded",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison",
+    "subdomain",
+    "customCode"
+   ],
+   "paths": [
+    "/entreprise|/bedrijf|/b2b-offer-tool|/one-person-company|/pro|/small-corporate|/corporate|/contact-corporate|/nova|/nova-en"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7b0ccacefe7e4c1493710f036c7a2a8f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0940e6278e874e61b2cf2d6008a3c005",
+   "name": "MT_01_Taboola Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC331db67dae0e400187685f7faa64c501-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "cdn.taboola.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL09a4dd033d164093af8ea1a42c0763d7",
+   "name": "MT_99_DKVBE_Microsoft_B2B",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/b2b-offer-tool|/entreprise|/bedrijf|/one-person-company|/pro|/small-corporate|/corporate|/contact-corporate|/contact-pme|/nova|/nova-en"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCd6ab7758ce584947b11af3e0e675ebd9-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0c178a04acab46d1b954fd41fc8d4358",
+   "name": "MT_99_ERGOHDIS_GooglePixel_PageLoaded_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain",
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC99630218b9194274b7a9a3405d10610a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL12232ba857584acea3205adb8a2b019f",
+   "name": "GE_03_FixforNotClosingConsentTool",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [
+    "#onetrust-accept-btn-handler",
+    "#onetrust-pc-sdk > div.ot-button-group-parent > div.ot-button-group > button.save-preference-btn-handler.onetrust-close-btn-handler",
+    "#accept-recommended-btn-handler"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC2ae30fbf6a374703ad85652803afef5f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL132b0e3ce4fc47c49fd6624f4c21cf24",
+   "name": "GE_01_Library_Load_10",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1356d8e198da464dbac68337e80ddc56",
+   "name": "MT_02_google sa360 OTR_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf5c82d4820a74301b6237848ccb6f5f9-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL14ca97ece2cf41b688a7305ce65e5259",
+   "name": "MT_02_google sa360 PageView_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC39ad36c87b404f8b8e816cba4fef988a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL16714de32d0240159f9c580ede563cb7",
+   "name": "MT_01_cnd Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe7dfe21bd2d942079000cbc05f4bf601-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "server.cnd-motionmedia.de"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1adeb2951464471a8e2055cf6faa4704",
+   "name": "MT_04_financeAds parameter_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC86422b88e8ca405aabfd9f56d3115df7-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1dcbbb461ace445088c1883862c857c8",
+   "name": "MT_99_DKVBE_Linkedin_B2bSimulation",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc045f9f8b792444485745e7b874f008b-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1ef7d7b1689f460abd6ad7cff01129c7",
+   "name": "MT_99_DKVBE_Google_AgencesSchmit",
+   "events": [
+    "click",
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.PhoneNumber > span.value > a",
+    "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.EmailAddress > a",
+    "#block-gbltoolbox-micrositeinfotop > div > div > div.brokercontact > div.tel > a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb9d4da8533484443bd68b6ea464c55b6-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2017d744688e466f98294031adc89bb4",
+   "name": "VM_03_OTB google sa360 start_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "path"
+   ],
+   "paths": [
+    "/calendar$"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC181614cb49bd4efb94c38e1d7ed90e62-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL203e31faef9f44e9aab236b2790a2da0",
+   "name": "MT_02_google rmkt OTR_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC674799e732214fdd963980b71b63b592-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL23acb16496e84038be6b5b08a496bfcc",
+   "name": "VM_03_facebook_AllEvents_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC89d03f68eb6e42e58c0f8df9252b1688-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL251d2981499c4c48b176e5d4159cab7d",
+   "name": "MT_01_Spoteffect all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb1a54416d01b4ffdb604dc24f4814541-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL254be0841a1448299aa1915bf20c6719",
+   "name": "GE_03_OTB_ButtonWeg",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL26c3417963204794a00d96643110825e",
+   "name": "MT_02_emarsys all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCd184e3582a95400f9ab98f5a6a8f6604-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2854e222ed1945579ad01573d5ea9b29",
+   "name": "VM_03_OTB google sa360 Feedback_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "path"
+   ],
+   "paths": [
+    "/finish$"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC4be49e02c6a344c5a25ac5cccdbab47e-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2ac191ccc74c49c3ac930c56eb39c484",
+   "name": "VM_03_OTB google Feedback_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "path"
+   ],
+   "paths": [
+    "/finish$"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCd801131e9767412c9740536a7b0e1f5f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2b560b1a71ef4ddd975e1ca7b257c39c",
+   "name": "MT_01_LinkedIn Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC577706c178b048109957e9bded43df58-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "snap.licdn.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3018a614f8ce49d38ef2542bc36695ae",
+   "name": "MT_01_facebook all Events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC79bf05c39e4c49c3b39360672fa9de06-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL31400425a3554c7c8c2521633244f24d",
+   "name": "MT_99_DKVBE_google Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC03c7772d48a143539dd35b437ba51acf-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL37c74e7615114e8390794b5cf18d2a93",
+   "name": "MT_99_DKVBE_Facebook_Library_Load",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC704df6a9ebed45969959911cf5549aa3-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL440533130ad54f0998e8df56e19a22c7",
+   "name": "MT_01_cnd dkv all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe875b8270cfb475994ea4664c9861ab7-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "server.cnd-motionmedia.de"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4765914371f9493a8fdd7731852e1ab9",
+   "name": "GE_03_AutoAllow4DigitalSignage",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "de/Agentur/LP/DigitalSignage"
+   ],
+   "selectors": [
+    "#onetrust-banner-sdk"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf4f37f03b77a4f90bdf18f461f8798ae-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4913e086c65e48a69f0672bf0a44f0dc",
+   "name": "MT_99_DKVBE_B2B_PageCount_InitialPageLoad",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "subdomain"
+   ],
+   "paths": [
+    "/entreprise|/bedrijf|/b2b-offer-tool|/one-person-company|/pro|/small-corporate|/corporate|/contact-corporate|/nova|/nova-en"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL50dad39978644d298361fafd4e0409d4",
+   "name": "MT_01_google_Kampagne einfach_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf3099383f744461ab3222cb1b4421ba0-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL519803cb5e864a1cb8fad513bc335489",
+   "name": "MT_04_emarsys zg Parameter_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc9d0f85aa3b841529ea6d8f03c4b7967-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5252c1bb316e4dffa143defa5f8cf2c9",
+   "name": "MT_03_google YouTube Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe37589e876844ddaa5120a564efa0e0d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL527db918f040495580e09b5acb08ddfb",
+   "name": "MT_03_FinanceAds Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCd58de55b62b948a48f3bf13c63c828bb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.financeads.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL528ea216c28f47f8bdc1371b2d72f622",
+   "name": "MT_01_facebook library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC5c2ec7365137481c81848c74da2d97b5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL52f61be05e1443c3a585298b0acc2459",
+   "name": "MT_03_cnd Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path",
+    "domain"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc3e28e5c9b7746b9bec6013636f207fe-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "server.cnd-motionmedia.de"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL550884dd5f59455b8ba3d15d54a78829",
+   "name": "MT_01_Outbrain Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe85de011cd924fac9459703b99916144-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "amplify.outbrain.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL577f5f6e9b514953942cb47e9885fb95",
+   "name": "MT_01_bing Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc26676039e19478aba9a676e8c326591-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bat.bing.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL58da75759ffa4fc9b26929d4c6b95c3d",
+   "name": "GE_03_redakteur_sitecore_fix",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [
+    "#onetrust-banner-sdk"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7669d11558e54ba092f6ee326e28c0e6-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL591f985a972446bf87fcc4ca43d0a2c1",
+   "name": "MT_01_google Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCff2c1aeb28d14ff593ba4da8a561da1d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5cd1f30a9e284308894107210f8b0a27",
+   "name": "MT_01_xing Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCde606e651e6e4c56a33bb604b62844b5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "static.xingcdn.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5d047dd65c61469296136578974690f1",
+   "name": "MT_99_DKVBE_MicrosoftAds library",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7366ecccafc9487bba95a87f9b06ca51-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bat.bing.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5e26901b7b1e4bf6ba13f68c61478f86",
+   "name": "MT_99_DKVBE_Facebook_All_Events",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC4a531474b906462f94a33201d2ea412c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5f69857ea2db4960946d2822ed28566a",
+   "name": "AA_11_Fullstory_ERGO_PageLoaded_GeneralClick_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/de/Produkte/Lebensversicherung/Risikolebensversicherung(\\\\/abschluss)?$|/de/Produkte/Rechtsschutzversicherung/abschluss$"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC66745f2b06bd4bc18b8250dbafe0909e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5fad6d2c23b944e5ac3fbf5a322bc7fe",
+   "name": "MT_99_DKVBE_Google_B2B",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/b2b-offer-tool|/entreprise|/bedrijf|/one-person-company|/pro|/small-corporate|/corporate|/contact-corporate|/contact-pme|/nova|/nova-en"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC3e86dd157aaf41a8835bea95e90589d2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL620d3d35c4434a83980477cf6f244d50",
+   "name": "MT_02_xing all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCbcea9f4ce7304c0d90e72350e7b0f95e-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL65463792e8de4b0ab5b9ad48c406ec2a",
+   "name": "VM_01_Mouseflow_SitecoreAA",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL664bd98866da40bdb462595dad8e11b1",
+   "name": "VM_03_google_AllEvents_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC09eeb603feb24ae4aec2ce8df3dd41b2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6799d6aa393d4ebea8c9051e8962b7af",
+   "name": "VM_01_Mouseflow_AppEventData",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe03dc2609937476eb11d2e2df6381fe2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6b5368a343b841e693a3a7da2c63a000",
+   "name": "MT_01_LinkedIn Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf6b57e57e3a14d7db2e390ffb814f96a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6bc3d0be6b194f1ca18761feaaecf940",
+   "name": "AA_02_ERV_oldPageBottom",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb85a9dc61fc14c838e788877903c844d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6cb357b23e084207b88086c831b9baee",
+   "name": "MT_01_Spoteffect Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7a849e8c3c3a4edfbfc4be6bb46ebcfe-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "trck.spoteffects.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL71cf500e5fe34994ba994033fcfeb56e",
+   "name": "VM_01_Mouseflow_Conversions",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC3249daa20af54257ad25c626c277edaa-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL72be451ad31f4778add213f542ffce4e",
+   "name": "GE_03_Author_Viewed_as_Published_AutoClose_50",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [
+    "#onetrust-banner-sdk"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC4989cbfd2fce40d7ba7fa4f0e907518a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL73ac3b1e29ad4e9e9b3dbaab9a6a711a",
+   "name": "GE_03_EmailTelephone_Hash",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC200d7c069b5f436186184d3669158839-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL73d731a23eec41d0a164a1b6442561ed",
+   "name": "AA_07_CloseModal_50",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "button.ee_modal__close-button"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7710e43639424302b6a337426f12dc87-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7a5b93a207d64e2699d9a21b3f963cd4",
+   "name": "AA_10_Fahrraddiebstahl_GeneralClick_50",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "#fahrraddiebstahl"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC983f1c7a55dd4eea9d7cf51987a5e2d7-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7bca434ef3e64dad94cffb03b902cbd3",
+   "name": "MT_99_DKVBE_Google_All_Pages",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC566446cf6f174de984dd2b503b7ccc50-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7f4a5b6790b64dd69b703308e748c79f",
+   "name": "MT_99_DKVBE_LinkedIn_B2B-Search-Audience",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCa8997ad9e92f43d7a190126f58334531-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL813420d9aa1d4aa7bb562f1c32484962",
+   "name": "MT_99_ERGOYAM_GooglePixel_PageLoaded_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain",
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb2cfe074601d47259f83439ffc38bd62-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8260e923b4904b64be14aebf03ece3c1",
+   "name": "MT_03_google Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc96a5b53cca64fe894f280a6266967e5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL858cafe7798d4299ba80303c7b15f4c5",
+   "name": "VM_03_OTB fb Feedback_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "path"
+   ],
+   "paths": [
+    "/finish$"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf2669bbc59524a1682b622a72234cffe-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8a4d82fd5def44f6bccbe2c49b0261ae",
+   "name": "AA_06_NewContactLeadForm_ClickSubmit_50",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [
+    "button.ee_button:nth-child(2)"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7d631d74314a485295f282a053400913-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8baefb01f76147da97833f3694c1acbf",
+   "name": "GE_03_OneTrust_Reload_OTB_iFrame",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "\\\\/de\\\\/Agentur\\\\/LP\\\\/TerminBuchen(-mail|-google)"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8bda31024b35496bbc075c44566baaef",
+   "name": "MT_03_google_Kontaktformulare_Angebot_ Feedback_50_WeAreReady",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "#c_page2 > div > div:nth-child(6) > a:nth-child(2)"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc382131a92df447d9ba4cb6a94bfe30f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8de8bf27bfee4d4e9c08d1d7764fbe27",
+   "name": "GE_03_OneTrust_Display_Banner_And_Layer_Subpages_Makler",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "subdomain"
+   ],
+   "paths": [
+    "/anbieter-datenschutz"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC8b8d0156383f4ddea0e0825ee711aa8c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL90354f9a820244209fce2165700c7b46",
+   "name": "VM_03_google SA360_AllEvents_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC17a6958138de4dd4a4977f623f3e7c04-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL903a7ce161834618a95a9710ebaea225",
+   "name": "GE_03_OneTrust_Hide_Banner_And_Layer_Subpages",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "\\\\/de\\\\/Service\\\\/Datenschutz\\\\/.+",
+    "/anbieter-datenschutz"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL91e04df77dbb414783c4e88a53dc0d3c",
+   "name": "GE_01_Redirect_QRCode_ergo.de",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "queryStringParameter",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL95093cf658bb4fcea13d662269d853ba",
+   "name": "GE_03_botsWithNoRights_AllowAll",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9684e17fde3240058d838aeef1fd3ca4",
+   "name": "MT_01_erv bing Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC8bc936311bea4b05bd15daf5a6477fbb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bat.bing.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL96e832aa30f843ee89bbba99458599af",
+   "name": "MT_99_DKVBE_Linkedin_B2bLead",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe48fc0a4c49f4252adc42ad9ecf875b6-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL99183abfdcf6434191ec35eca34d5e5a",
+   "name": "MT_02_erv bing all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC7b52b8b586a44469a8dac9072c580810-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9bdb7d757cd146fbb67bb662c945fbdf",
+   "name": "AA_03_RatingBlogArticle_Click_50",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "div.rating-form > ul"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC8281b1fba9fa4c9399d8abf400387c22-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa38805b98cc44d31a16b148dfa2f2e70",
+   "name": "MT_99_DKVBE_Google_Facebook_Microsoft_Nova-LP-Scroll",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path",
+    "domain",
+    "subdomain"
+   ],
+   "paths": [
+    "/nl/nova",
+    "/nl/nova-en",
+    "/fr/nova"
+   ],
+   "selectors": [
+    "#block-novamockuprighten > div > div.field--name-field_intro.field--type-text_long.field__item > h2",
+    "#block-novamockupright > div > div.field--name-field_intro.field--type-text_long.field__item > h2"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC1dd50cb92ed142b9935962ea5d827dc4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa518f0fdfde341c585acd524fa306dcf",
+   "name": "MT_99_DKVBE_LinkedIn_B2B-Visitors-Website-FR",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/fr/b2b-offer-tool",
+    "/fr/communication/assurance-soins-de-sante-pour-entreprises",
+    "/fr/type/assurance-soins-sante/one-person-company",
+    "/fr/type/assurance-hospitalisation/pro",
+    "/fr/type/assurance-dentaire/pro",
+    "/fr/type/assurance-soins-ambulatoires/pro",
+    "/fr/type/assurance-hospitalisation/small-corporate",
+    "/fr/type/assurance-dentaire/small-corporate",
+    "/fr/type/assurance-soins-ambulatoires/small-corporate",
+    "/fr/type/assurance-hospitalisation/corporate",
+    "/fr/type/assurance-dentaire/corporate",
+    "/fr/type/assurance-soins-ambulatoires/corporate",
+    "/fr/assurance/dkv-plan-az-plan-cafeteria",
+    "/fr/contact-corporate"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb9fb30c4447648da95abb7d04f53c0bb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa74d82779dd3481385f1cd455fb7f349",
+   "name": "MT_03_ToughFSW Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC5cc3e70a55264601997f30fbf8bef0f1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "freunde.ergo.de"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa7dd16ebb8e74672ad9da409880f77c1",
+   "name": "MT_99_DKVBE_MicrosoftAds library_AgencesSchmit",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf1cf313cfd404198a8f724a29e691702-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bat.bing.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb0b191ceca8c4eaea5e884f6681ac30f",
+   "name": "MT_03_UIM all Events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc253ca4a33614e3998930cecb290a841-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "t.uimserv.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb0b761c99768446c9abc6c0ed43e0296",
+   "name": "MT_01_LinkedIn Feedback DKV_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC433feb5ac58042d2aee2ee13b9908751-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "snap.licdn.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb1312e04c293415e940faab059e7deba",
+   "name": "AA_06_NewContactLeadForm_SuccessPage_50",
+   "events": [
+    "historyChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "hash",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc77c03febce84ad786ee2a3f71704cd3-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb19102c980a240b1b063248c03dd0fc4",
+   "name": "AA_03_ShareBlogArticle_Click_50",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "div.share > ul"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC4658968f9eeb4a0295f19b791e4b5fbe-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb3e699bb553a4c268226ef702cc127c6",
+   "name": "GE_02_dyn_TelephoneNumber_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe6cafafb591d4071aa123874f13534e1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb46422cfe1954a388f4f941944a007af",
+   "name": "MT_99_DKVBE_Linkedin_B2bOffer",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC6fd4d02e200245418a935a9becdf6f4c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb6a19e1f9e0444b099112133b18fcff1",
+   "name": "MT_99_DKVBE_Google_Facebook_Microsoft_B2B-LP-Scroll",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path",
+    "domain",
+    "subdomain"
+   ],
+   "paths": [
+    "/fr/communication/assurance-soins-de-sante-pour-entreprises",
+    "/nl/communication/gezondheidsverzekeringen-voor-ondernemingen"
+   ],
+   "selectors": [
+    "#block-gbltoolbox-content > div > article > div > div > div:nth-child(5) > div > div > div > div > div > h2"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf0879c5d85504fb08581fb8f19eb4262-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLba2fdd28af5f48f3a85ee28c0702a9f5",
+   "name": "AA_01_PageView_LibraryLoaded_SPAStateChange_NoDataLayer_50",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbd51a9e93a7244abbdd5d8c38cf6374a",
+   "name": "GE_03_OneTrust_RCM Aktionswebsites_dataSecurity+imprint",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [
+    "#onetrust-policy-text",
+    "#ot-pc-desc"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCc4b3ebd926dc48bc96e13af7fdfaa707-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "datenschutzhinweise.ergo.de",
+    "www.ergo.de"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbedd741eb1d74eee9dd4857c9aa3ed08",
+   "name": "AA_03_PageView4Blog_PageBottom_50",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc76c91d0bda747eaa8ab1590577a4a84",
+   "name": "MT_03_google sa360 Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC8cb205fa5f4d4ed6b3d9912e4ef7d12d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc8896af927da46e5a8f5a9cfe51d0005",
+   "name": "GE_03_RemoveSecondary_PreferenceButton_WhenInIframe",
+   "events": [
+    "customCode"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC8a49ba4a65b04764b5c33462ae60f379-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLca2b031b2a6e4670b916ffebd384aa6b",
+   "name": "MT_99_DKVBE_Facebook_B2B",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path",
+    "valueComparison"
+   ],
+   "paths": [
+    "/b2b-offer-tool|/entreprise|/bedrijf|/one-person-company|/pro|/small-corporate|/corporate|/contact-corporate|/contact-pme|/nova|/nova-en"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC95fe87bd8eb5498d821720a57bbfd6f4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcd2cfb43b24c4ab9aa65f975b05e598e",
+   "name": "VM_01_Mouseflow_Library",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCa2d83106893344969f7c7888b58c5395-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "cdn.mouseflow.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd0877de9f9584d708473a2deed8243c4",
+   "name": "MT_99_DKVBE_LinkedIn_B2B-Visitors-Website-NL",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "/nl/b2b-offer-tool",
+    "/nl/communication/gezondheidsverzekeringen-voor-ondernemingen",
+    "/nl/type/ziekteverzekering/one-person-company",
+    "/nl/type/hospitalisatieverzekering/pro",
+    "/nl/type/tandverzekering/pro",
+    "/nl/type/verzekering-ambulante-zorgen/pro",
+    "/nl/type/hospitalisatieverzekering/small-corporate",
+    "/nl/type/tandverzekering/small-corporate",
+    "/nl/type/verzekering-ambulante-zorgen/small-corporate",
+    "/nl/type/hospitalisatieverzekering/corporate",
+    "/nl/type/tandverzekering/corporate",
+    "/nl/type/verzekering-ambulante-zorgen/corporate",
+    "/nl/verzekering/dkv-plan-az-cafetariaplan",
+    "/nl/contact-corporate"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCaaca85205b7d4c17865b3493808a3737-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd2bd0daba88e4d839d7ffd395d57063d",
+   "name": "MT_99_DKVBE_Tradetracker",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe1d9bfa665354248bb4959e823b8f4ef-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "tm.tradetracker.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd40f47acf67b4ff3821f5a4fd0a5f222",
+   "name": "MT_02_Outbrain all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC438be8b048c74f388e606349286d94d5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd79321ca4c1b4915840659cab7207e8d",
+   "name": "MT_03_google sa360_Wohngebaeude Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb40e07153b3a4b3db8ecbbd145a5f7ba-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd9e623d69c7d4290b0d07923f2e16ace",
+   "name": "MT_01_emarsys Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb66eda789fb44d9eb3785d5a1496517a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "cdn.scarabresearch.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLde0722bb447f4ccaaf4e466936e7835d",
+   "name": "AA_11_Fullstory_ERGO_Library_InitialPageLoad_50",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "subdomain",
+    "path"
+   ],
+   "paths": [
+    "/de/Produkte/Lebensversicherung/Risikolebensversicherung(\\\\/abschluss)?$|/de/Produkte/Rechtsschutzversicherung/abschluss$"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdff0721d448c4faca9a426a68310f244",
+   "name": "MT_02_bing all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe81a1eedb40649b3a8981d4d49231330-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe03f4f54b4504a0b86c2af538bc20bc5",
+   "name": "GE_00_Warning_Message_Internet_Explorer_Not_Supported_public_aem_ergo.de",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "browser"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe16a4ee3fd4b4d7da7d6084354796e5b",
+   "name": "GE_03_OneTrust_Hide_Banner",
+   "events": [
+    "elementExists"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [
+    ".onetrust-pc-dark-filter.ot-hide"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC642da0152d5a49c1a5721df3712e28b2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe2a9769b48204c60b11dd7a8b31f23ab",
+   "name": "MT_99_DKVBE_Facebook_Communication-LPs-Scroll",
+   "events": [
+    "entersViewport"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path",
+    "domain",
+    "subdomain"
+   ],
+   "paths": [
+    ".*/communication/dkv-smile.*",
+    ".*/communication/dkv-daily.*",
+    ".*/communication/dkv-hospi.*"
+   ],
+   "selectors": [
+    ".col-1.product_matrix_col_product.container-wrapper > div.read-more-wrapper.read-more-wrapper-footer > a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCa9d5ed6185174017a84acf55e73c43a2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe8aa34b896a14fcaaad3e2dd07a66280",
+   "name": "MT_99_DKVBE_MicrosoftAds",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC3da8485a4f874edeb6c6d4e1576a0e07-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe94e2657a70d4dc8b81d2f007fc0016b",
+   "name": "MT_99_DKVBE_Google_B2C",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCe0bb1d706c61429da0ba57cf57d62b98-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLed2a1f2e0cdc4426976a48f7dd3843fd",
+   "name": "AA_03_ClickToTweetBlogArticle_Click_50",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a.ctt-btn"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC9b37abff390449bea383d75f045df141-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLefd866ab832243a7bc4317bcc701d05a",
+   "name": "AA_11_Fullstory_DKV_PageLoaded_GeneralClick_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC02aae39005b1474b95fc7daf1d5ab820-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf002970a0edc49adb1a867d86cadc0d9",
+   "name": "MT_01_ERV_google Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCa6dfa508d128478d888b319d82d3126a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf268e36b97894ddb8901a0e1bdb4d6f3",
+   "name": "GE_03_OneTrust_startergode_startdkvcom_darker_background_banner_50",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "domain",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf2a549f2a79f4cd090cb5ce0d095f47f",
+   "name": "MT_03_ERV_google SA360 Feedback_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC6f2a31d377ec4cf2811192e801ff9c8d-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf409c8d39a7941bca0975e73da5355e3",
+   "name": "MT_02_ERV_google rmkt OTR_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "domain"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCb271d89b2a14402f9601b684a5c1cd97-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf5ece687b9c44ebd85083b6451dc2b6f",
+   "name": "MT_99_DKVBE_LinkedIn_B2C",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCad0ee49c007f4e3ab1cd5a6a1db65dc1-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf7c6fae82a5c4e8a8bb731ef0b33b320",
+   "name": "MT_99_DKVBE_MicrosoftAds_AgencesSchmit",
+   "events": [
+    "click",
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "subdomain"
+   ],
+   "paths": [],
+   "selectors": [
+    "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.PhoneNumber > span.value > a",
+    "#block-gbltoolbox-gblviewmodenodehero > div > article > div > div.agent-adress > div > div > div > div.tab-content.fade.tabs-item.broker-address.in > div.info1 > span.EmailAddress > a",
+    "#block-gbltoolbox-micrositeinfotop > div > div > div.brokercontact > div.tel > a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCf12d331765df47d3b9d4064860b99648-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf8d370d48c9f428991579c35770ca25e",
+   "name": "MT_02_Taboola all events_50",
+   "events": [
+    "data_layer_push_event"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path"
+   ],
+   "paths": [
+    "ereignis-melden"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RCffb44ce3cc804850ad761d836a0d0cf5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfb452fcf96024be28e68f9e024e5ac81",
+   "name": "00_Mainpush with CustomCode",
+   "events": [
+    "data_layer_push_event",
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfec8e784479a4a8491aec7f5fb3a7dac",
+   "name": "MT_99_DKVBE_LinkedIn Library_50",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/1ef2249faa12/437cb8844047/05e6e61b41bb/RC1f0006e5dc724468ad8da4836e4b5b31-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "snap.licdn.com"
+   ],
+   "otDomainScripts": []
+  }
+ ]
+}

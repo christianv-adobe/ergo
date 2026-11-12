@@ -1,0 +1,20 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics Phase 1 (search probe, stardust/.work/dynamics/probe-search.mjs)", "writtenAt": "2026-10-28", "source": "https://www.ergo.de/de/sonstige/suchergebnisse?search=Zahnzusatzversicherung" },
+  "probes": [
+    {
+      "feature": "chrome-search",
+      "term": "Zahnzusatzversicherung",
+      "sourceResultsUrl": "https://www.ergo.de/de/sonstige/suchergebnisse?search=Zahnzusatzversicherung",
+      "expectCount": 28,
+      "facets": { "Gesamt": 28, "Produkte": 9, "Services": 4, "Ratgeber": 15, "Rechtsportal": 0, "Geschäftskunden": 0, "Unternehmen": 0 },
+      "pageSize": 10,
+      "expectTitles": [
+        "Zahnzusatzversicherung für Kinder - Kieferorthopädie",
+        "Die besten Zahnzusatzversicherungen – Stiftung Warentest (sehr gut)",
+        "Zahnzusatzversicherung Vergleich"
+      ],
+      "expectIncludes": "/de/Produkte/Zahnzusatzversicherung",
+      "note": "Source corpus is the whole ergo.de site; the migrated corpus is smaller (10 pages in scope) — a count gap is a parity note, not a failure reason to exclude search."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "/de/ratgeber": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:18:31.090Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/rechtsportal": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:18:38.126Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-article": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:02.132Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-geschaeftskunden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:06.765Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:11.518Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:16.176Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav-geschaeftskunden": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:21.993Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T23:19:27.281Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}
