@@ -607,6 +607,9 @@
 
 /* tile colours (canon --tile-bg: a coloured tile has no border) */
 .carousel .tile.tile-blue {
+  /* live: a cyan promo card carries a teal flag (homepage "Autoversicherung", flag #318187) */
+  --c-flag: #318187;
+
   border: 0;
   background: #ccecef;
 }
@@ -1461,6 +1464,10 @@
 
 .carousel .tile.promo .tile-cta-wrapper {
   gap: 16px;
+
+  /* live promo cards share one height (promo--has-equal-height) and their CTAs sit on the
+     bottom edge: at least 32px under the text, pushed down by the tallest card in the row */
+  margin-top: auto;
   padding-top: 32px;
 }
 
