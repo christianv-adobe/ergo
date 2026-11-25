@@ -4,6 +4,11 @@
 .accordion {
   --acc-bg: #fff;
   --acc-border: #c9c5c7;
+
+  /* grid column gutters outside the content line (block 888 = 864 + 2 x 12 at 1440) */
+  margin-inline: -12px;
+  padding-inline: 12px;
+  color: var(--c-text);
 }
 
 .accordion .accordion-item {
@@ -62,13 +67,14 @@
   rotate: 180deg;
 }
 
-.accordion .accordion-panel {
-  padding: 16px;
+.accordion .accordion-panel[hidden] {
+  content-visibility: hidden;
 }
 
-.accordion .accordion-panel[hidden] {
-  padding: 0;
-  content-visibility: hidden;
+/* inset on the body, not the panel: a closed (size-contained) panel stays 0 high while its
+   content keeps the open-state layout for find-in-page */
+.accordion .accordion-body {
+  padding: 16px;
 }
 
 /* panel prose: canon .col.minh > .cmp-text.rt */
@@ -84,6 +90,18 @@
 
 .accordion .accordion-body :is(p, ul, ol) {
   margin: 0 0 20px;
+}
+
+/* inline links (live .cmp-text a): brand, bold, underlined; adopted blocks keep their own */
+.accordion .accordion-body:not(.has-block) a:any-link:not(.button) {
+  color: var(--c-brand);
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  text-decoration: underline;
+}
+
+.accordion .accordion-body:not(.has-block) a:any-link:not(.button):focus-visible {
+  outline-offset: 1px;
 }
 
 .accordion .accordion-body p + p {
@@ -207,4 +225,36 @@
   .accordion.check-list .accordion-body ul li::after {
     left: -26px;
   }
+}
+
+/* reviews: eKomi review list (source .cmp-ekomiQuotes / .ekomi-review), three paragraphs per
+   review - date (grey 12px), quote (14px), review type (grey 12px) - then the "all reviews" link */
+.accordion.reviews .accordion-body p,
+.accordion.reviews .accordion-body p + p {
+  margin: 0;
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.accordion.reviews .accordion-body p:is(:nth-child(3n + 1), :nth-child(3n)) {
+  color: #737373;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.accordion.reviews .accordion-body p:nth-child(3n + 1):not(:first-child),
+.accordion.reviews .accordion-body p:has(> a:only-child) {
+  margin-top: 24px;
+}
+
+.accordion.reviews .accordion-body p:has(> a:only-child) {
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.accordion.reviews .accordion-body a:any-link:not(.button) {
+  font-size: 14px;
+  text-decoration: none;
 }

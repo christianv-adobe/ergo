@@ -1,0 +1,147 @@
+/* fund-chart — values from source computed styles (ee_tabs tab bar, map-text legend) */
+.fund-chart {
+  color: var(--c-text);
+  font-size: var(--body-font-size-xs);
+  line-height: 21px;
+}
+
+/* tab bar (source .ee_tabs__tablist / .ee_tabs__tab) */
+.fund-chart .fund-chart-tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.fund-chart .fund-chart-tab {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 14px 16px;
+  border: 0;
+  background-color: var(--background-color);
+  color: rgb(174 174 174);
+  font-family: inherit;
+  font-size: var(--body-font-size-xs);
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fund-chart .fund-chart-tab[aria-selected='true'] {
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--c-brand);
+  color: var(--c-brand);
+}
+
+.fund-chart .fund-chart-tab:focus-visible {
+  outline: 2px solid var(--c-brand);
+  outline-offset: -2px;
+}
+
+/* panels: an empty view (no captured graphic/legend) adds no space under the tabs */
+.fund-chart .fund-chart-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.fund-chart .fund-chart-panel[hidden],
+.fund-chart .fund-chart-panel:empty {
+  display: none;
+}
+
+.fund-chart .fund-chart-tabs + .fund-chart-panels .fund-chart-panel:not(:empty) {
+  padding-top: 24px;
+}
+
+.fund-chart .fund-chart-graphic img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* legend (source .map-text > .map-region-container): grid column on mobile */
+.fund-chart .fund-chart-legend ul,
+.fund-chart .fund-chart-legend ol {
+  display: grid;
+  grid-template-columns: max-content;
+  justify-content: center;
+  justify-items: start;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* the swatch sits in the item's left margin so the item box is the label text */
+.fund-chart .fund-chart-legend li {
+  position: relative;
+  margin: 0 0 0 25px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.fund-chart .fund-chart-legend li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--fund-chart-swatch, currentcolor);
+  opacity: calc(1 - var(--fund-chart-series, 0) * 0.25);
+  transform: translateY(-50%);
+}
+
+/* cyan-magenta: source .map-region-circle series palette */
+.fund-chart.cyan-magenta .fund-chart-legend li::before {
+  opacity: 1;
+}
+
+.fund-chart.cyan-magenta .fund-chart-legend li:nth-child(4n + 1) {
+  --fund-chart-swatch: rgb(10 148 165);
+}
+
+.fund-chart.cyan-magenta .fund-chart-legend li:nth-child(4n + 2) {
+  --fund-chart-swatch: rgb(0 146 131);
+}
+
+.fund-chart.cyan-magenta .fund-chart-legend li:nth-child(4n + 3) {
+  --fund-chart-swatch: rgb(178 23 102);
+}
+
+.fund-chart.cyan-magenta .fund-chart-legend li:nth-child(4n + 4) {
+  --fund-chart-swatch: var(--c-brand);
+}
+
+@media (width >= 768px) {
+  .fund-chart {
+    font-size: var(--body-font-size-s);
+    line-height: 24px;
+  }
+
+  .fund-chart .fund-chart-tab {
+    font-size: var(--body-font-size-s);
+  }
+
+  .fund-chart .fund-chart-legend ul,
+  .fund-chart .fund-chart-legend ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
+  .fund-chart .fund-chart-legend li {
+    margin: 3px 0 3px 32px;
+  }
+
+  .fund-chart .fund-chart-legend li::before {
+    left: -32px;
+    width: 24px;
+    height: 24px;
+  }
+}

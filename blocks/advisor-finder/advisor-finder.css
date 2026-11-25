@@ -1,0 +1,433 @@
+/* advisor-finder — values from the live ergo.de agency search (source capture 1440 / 375) */
+
+/* the block keeps the 888 column; its own 12px side padding replaces the wrapper gutter */
+main .section > .advisor-finder-wrapper {
+  padding-inline: 0;
+}
+
+.advisor-finder {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0 12px;
+  font-family: var(--ff-sans);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--c-text);
+}
+
+.advisor-finder p {
+  margin: 0;
+}
+
+/* ---- results column ---- */
+.advisor-finder .advisor-finder-results {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 11px 12px 16px;
+}
+
+.advisor-finder .advisor-finder-title {
+  padding-inline: 4px;
+  line-height: 32px;
+}
+
+.advisor-finder .advisor-finder-title :is(h1, h2, h3, h4, h5, h6) {
+  display: inline;
+  margin: 0;
+  font-family: var(--ff-sans);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--c-text);
+}
+
+/* filter controls (pill buttons) */
+.advisor-finder .advisor-finder-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 19px;
+}
+
+.advisor-finder .advisor-finder-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: 30px;
+  background: #fff;
+  font-size: 13.3333px;
+  line-height: normal;
+  color: var(--c-text);
+}
+
+.advisor-finder .advisor-finder-controls .advisor-finder-control {
+  min-height: 40px;
+}
+
+.advisor-finder .advisor-finder-control label {
+  flex: none;
+  font-size: 12px;
+  color: rgb(109 106 107);
+}
+
+.advisor-finder .advisor-finder-control select {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 26px 0 0;
+  border: 0;
+  background: transparent url("../../icons/chevron-down.svg") right center / 24px 24px no-repeat;
+  font: inherit;
+  color: inherit;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* result summary "100 ERGO Berater in Ihrer Nähe gefunden" */
+.advisor-finder .advisor-finder-summary {
+  margin-top: 32px;
+  padding-inline: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(109 106 107);
+}
+
+.advisor-finder .advisor-finder-title + .advisor-finder-summary {
+  margin-top: 19px;
+}
+
+.advisor-finder .advisor-finder-summary p {
+  color: inherit;
+}
+
+.advisor-finder .advisor-finder-summary strong {
+  padding-right: 5px;
+  font-weight: 700;
+}
+
+/* sort control: right-aligned pill below the summary */
+.advisor-finder .advisor-finder-sort {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-inline: 4px;
+}
+
+.advisor-finder .advisor-finder-sort .advisor-finder-control {
+  min-width: 173px;
+}
+
+.advisor-finder .advisor-finder-sort .advisor-finder-control select {
+  field-sizing: content;
+}
+
+/* ---- advisor list ---- */
+.advisor-finder .advisor-finder-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advisor-finder .advisor-finder-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin: 0;
+  padding: 20px 8px 26px 4px;
+}
+
+/* decorative details arrow (circle chevron) */
+.advisor-finder .advisor-finder-item::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  bottom: 33px;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--c-text);
+  border-radius: 50%;
+  background: url("../../icons/chevron-right.svg") center / 10px 10px no-repeat;
+  pointer-events: none;
+}
+
+.advisor-finder .advisor-finder-image picture,
+.advisor-finder .advisor-finder-image p {
+  display: block;
+  margin: 0;
+}
+
+.advisor-finder .advisor-finder-image img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.advisor-finder .advisor-finder-details {
+  padding-right: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.advisor-finder .advisor-finder-details p {
+  margin: 0;
+  color: var(--c-text);
+}
+
+.advisor-finder .advisor-finder-rating {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.advisor-finder .advisor-finder-rating::before {
+  content: "";
+  flex: none;
+  width: 100px;
+  height: 20px;
+  margin-right: 8px;
+  background:
+    linear-gradient(
+      to right,
+      #f6cb00 calc(var(--rating, 1) * 100%),
+      #d9d9d9 calc(var(--rating, 1) * 100%)
+    );
+  mask: url("../../icons/star-filled.svg") left center / 20px 20px repeat-x;
+}
+
+.advisor-finder .advisor-finder-rating strong {
+  font-weight: 700;
+}
+
+.advisor-finder .advisor-finder-rating strong span {
+  font-weight: 400;
+}
+
+.advisor-finder .advisor-finder-details .advisor-finder-name {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.advisor-finder .advisor-finder-name strong {
+  display: block;
+  font-weight: inherit;
+}
+
+/* address and distance share one line; the distance wraps as a unit */
+.advisor-finder .advisor-finder-details .advisor-finder-address {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2px;
+}
+
+.advisor-finder .advisor-finder-details .advisor-finder-distance {
+  color: rgb(109 106 107);
+}
+
+.advisor-finder .advisor-finder-details .advisor-finder-links {
+  margin-top: 3px;
+}
+
+.advisor-finder .advisor-finder-details a:any-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--c-brand);
+  text-decoration: none;
+}
+
+.advisor-finder .advisor-finder-details a:any-link:hover {
+  text-decoration: underline;
+}
+
+/* brand badge (ERGO / DKV) at the item's top right */
+.advisor-finder .advisor-finder-badge {
+  position: absolute;
+  top: 20px;
+  right: 8px;
+}
+
+.advisor-finder .advisor-finder-badge p,
+.advisor-finder .advisor-finder-badge:not(:has(p)) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px 3px;
+  border-radius: 24px;
+  background: rgb(239 231 237);
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--c-brand);
+}
+
+.advisor-finder .advisor-finder-badge.advisor-finder-badge-dkv p,
+.advisor-finder .advisor-finder-badge-dkv:not(:has(p)) {
+  background: rgb(229 233 201);
+  color: rgb(6 55 51);
+}
+
+/* mobile paging: "5 von 100 Ergebnissen wurden angezeigt" + load more */
+.advisor-finder .advisor-finder-item.advisor-finder-item-hidden {
+  display: none;
+}
+
+.advisor-finder .advisor-finder-pager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.advisor-finder .advisor-finder-counter {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(109 106 107);
+}
+
+.advisor-finder .advisor-finder-counter strong {
+  padding-right: 8px;
+  font-weight: 700;
+}
+
+.advisor-finder .advisor-finder-more {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0 0;
+  padding: 10px 20px;
+  border: 2px solid var(--c-brand);
+  border-radius: 24px;
+  background: #fff;
+  font-family: var(--ff-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--c-brand);
+  cursor: pointer;
+}
+
+.advisor-finder .advisor-finder-more::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: currentcolor;
+  mask: url("../../icons/chevron-down.svg") center / 24px 24px no-repeat;
+}
+
+.advisor-finder .advisor-finder-more[hidden] {
+  display: none;
+}
+
+/* ---- map panel (consent notice; no live map) ---- */
+.advisor-finder .advisor-finder-map {
+  order: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 21px 16px;
+  background: var(--c-line);
+}
+
+.advisor-finder .advisor-finder-map .advisor-finder-map-card {
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 16px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.advisor-finder .advisor-finder-map .advisor-finder-map-card > p {
+  margin: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.advisor-finder .advisor-finder-map .advisor-finder-map-card a:any-link {
+  color: var(--c-brand);
+  text-decoration: none;
+}
+
+.advisor-finder .advisor-finder-map .advisor-finder-map-card .advisor-finder-map-title {
+  margin: 0;
+  padding: 16px;
+  border-bottom: 1px solid var(--c-line);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.advisor-finder .advisor-finder-map .advisor-finder-map-card .advisor-finder-map-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 13px 24px;
+  border-radius: 30px;
+  background: var(--c-brand);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #fff;
+}
+
+@media (width >= 900px) {
+  .advisor-finder.advisor-finder-has-map {
+    grid-template-columns: minmax(0, 434fr) minmax(0, 414fr);
+    gap: 16px;
+    height: 800px;
+  }
+
+  .advisor-finder .advisor-finder-results {
+    padding: 10px 12px 16px 28px;
+  }
+
+  .advisor-finder.advisor-finder-has-map .advisor-finder-results {
+    overflow-y: auto;
+  }
+
+  /* desktop lists every advisor in the scrolling column */
+  .advisor-finder .advisor-finder-item.advisor-finder-item-hidden {
+    display: grid;
+  }
+
+  .advisor-finder .advisor-finder-pager {
+    display: none;
+  }
+
+  .advisor-finder .advisor-finder-map {
+    order: 0;
+    padding: 16px;
+  }
+}
+
+/* no-map: results list only, full width */
+.advisor-finder.no-map {
+  grid-template-columns: 1fr;
+  height: auto;
+}
+
+.advisor-finder.no-map .advisor-finder-map {
+  display: none;
+}

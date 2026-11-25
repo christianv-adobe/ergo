@@ -1,0 +1,34 @@
+{
+  "variantName": "embed",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Responsive 16:9 YouTube video player",
+    "layout": "Full-column 16:9 iframe"
+  },
+  "contentPattern": {
+    "structure": "one paragraph with a link to the YouTube embed URL (link text = player title)"
+  },
+  "options": [
+    {
+      "class": "widget",
+      "label": "Widget"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    }
+  ],
+  "memberVariantIds": [
+    "v_e61b1e9a6f96",
+    "v_c330f06f5e3d",
+    "v_b2f7eb52cf84",
+    "v_7539ecd99f7e"
+  ],
+  "usage": "Service page video",
+  "reuseGuidance": "Reuse embed for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

@@ -1,0 +1,16 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Page trail with home icon, chevron separators and bold current page",
+    "layout": "Single horizontal line of links"
+  },
+  "contentPattern": {
+    "structure": "one list, one item per trail step, linked except the current page"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Under the article header on listing pages",
+  "reuseGuidance": "Reuse breadcrumb for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

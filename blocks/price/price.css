@@ -1,0 +1,117 @@
+/* price — values from source .cmp-price / .cmp-tooltip (ergo.de price.css, tooltip.css) */
+.price {
+  --price-prefix-font-size: 16px;
+  --price-prefix-line-height: 24px;
+  --price-prefix-margin: 0 6px 0 0;
+  --price-suffix-margin: 0 0 0 6px;
+  --price-value-font-size: 28px;
+  --price-value-line-height: 36px;
+  --price-tooltip-size: min(40px, var(--price-value-line-height));
+  --price-tooltip-icon-size: min(calc(var(--price-prefix-font-size) + 4px), var(--price-tooltip-size));
+  --price-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 21.6c-5.28 0-9.6-4.32-9.6-9.6S6.72 2.4 12 2.4s9.6 4.32 9.6 9.6-4.32 9.6-9.6 9.6Zm0-17.28c-4.224 0-7.68 3.456-7.68 7.68s3.456 7.68 7.68 7.68 7.68-3.456 7.68-7.68-3.456-7.68-7.68-7.68Zm1.2 10.56v-3.6c0-.816-.624-1.44-1.44-1.44H9.84v1.92h1.44v3.12H9.36v1.92h5.76v-1.92H13.2Zm-1.104-8.64c-.672 0-1.2.528-1.2 1.2s.528 1.2 1.2 1.2 1.2-.528 1.2-1.2-.528-1.2-1.2-1.2Z'/%3E%3C/svg%3E");
+  --price-icon-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill-rule='evenodd' d='M12 21.6c-5.28 0-9.6-4.32-9.6-9.6S6.72 2.4 12 2.4s9.6 4.32 9.6 9.6-4.32 9.6-9.6 9.6Zm1.2-6.72v-3.6c0-.816-.624-1.44-1.44-1.44H9.84v1.92h1.44v3.12H9.36v1.92h5.76v-1.92H13.2Zm-1.104-8.64c-.672 0-1.2.528-1.2 1.2s.528 1.2 1.2 1.2 1.2-.528 1.2-1.2-.528-1.2-1.2-1.2Z'/%3E%3C/svg%3E");
+
+  position: relative;
+  text-align: center;
+  color: var(--c-text);
+}
+
+.price .price-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 100%;
+  margin: 0;
+}
+
+.price :is(.price-prefix, .price-suffix) {
+  font-size: var(--price-prefix-font-size);
+  line-height: var(--price-prefix-line-height);
+  white-space: nowrap;
+}
+
+.price .price-prefix {
+  margin: var(--price-prefix-margin);
+}
+
+.price .price-suffix {
+  margin: var(--price-suffix-margin);
+}
+
+.price .price-amount {
+  font-size: var(--price-value-font-size);
+  font-weight: 700;
+  line-height: var(--price-value-line-height);
+  white-space: nowrap;
+}
+
+.price .price-info-toggle {
+  position: relative;
+  display: block;
+  align-self: center;
+  width: var(--price-tooltip-size);
+  height: var(--price-tooltip-size);
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: currentcolor;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.price .price-info-toggle::before,
+.price .price-info-toggle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: currentcolor;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: var(--price-tooltip-icon-size);
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.price .price-info-toggle::before {
+  mask-image: var(--price-icon);
+  opacity: 1;
+}
+
+.price .price-info-toggle::after {
+  mask-image: var(--price-icon-hover);
+  opacity: 0;
+}
+
+.price .price-info-toggle:is(:hover, :focus-visible, [aria-expanded="true"])::before {
+  opacity: 0;
+}
+
+.price .price-info-toggle:is(:hover, :focus-visible, [aria-expanded="true"])::after {
+  opacity: 1;
+}
+
+.price .price-info {
+  max-width: 480px;
+  margin: 8px auto 0;
+  text-align: start;
+}
+
+.price .price-info > p {
+  margin: 0;
+}
+
+.price .price-info > p + p {
+  margin-top: 8px;
+}
+
+@media (width >= 900px) {
+  .price {
+    --price-prefix-font-size: 18px;
+    --price-prefix-margin: 0 8px 0 0;
+    --price-suffix-margin: 0 0 0 8px;
+    --price-value-font-size: 40px;
+    --price-value-line-height: 52px;
+  }
+}

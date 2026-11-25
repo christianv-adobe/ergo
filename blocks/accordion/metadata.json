@@ -1,0 +1,25 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Expandable FAQ / detail items with chevron toggle",
+    "layout": "Bordered stacked items; chevron rotates when open"
+  },
+  "contentPattern": {
+    "structure": "cell 1 item title (H3); cell 2 panel content (an empty panel adopts the next block in the section, e.g. a product-table)"
+  },
+  "options": [
+    {
+      "class": "open-first",
+      "label": "First item open"
+    },
+    {
+      "class": "check-list",
+      "label": "Check-icon list"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "FAQs and tariff details on program pages",
+  "reuseGuidance": "Reuse accordion for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

@@ -337,3 +337,81 @@
     margin-bottom: 12px;
   }
 }
+
+/* ---- catalog option classes (block-generator augment) ---- */
+
+/* dark: dark header colour (price / feature rows of a tariff comparison; colour in design pass) */
+.product-table.dark {
+  --pt-label: #333;
+  --pt-tint: #ebe6d8;
+  --pt-label-color: #fff;
+}
+
+/* ---- single-row block: one comparison row cut out of its table (no header; source
+   productTable__row measured: flat band, zebra #f6f5f5, dark price row #fff) ---- */
+.product-table:has(> .pt-table > .pt-row:only-child) {
+  background-color: #f6f5f5;
+}
+
+.product-table.dark:has(> .pt-table > .pt-row:only-child) {
+  background-color: #fff;
+}
+
+.product-table .pt-table:has(> .pt-row:only-child) {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.product-table .pt-table > .pt-row:only-child {
+  background-color: transparent;
+}
+
+/* row labels: expansion-panel summary (bold 900, 16/24 at every width) */
+.product-table .pt-row:not(.pt-row-header) .pt-cell-label .pt-text > p:has(> :is(strong, b)) {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.product-table .pt-row:not(.pt-row-header) .pt-cell-label .pt-text :is(strong, b) {
+  font-weight: 900;
+}
+
+/* price cells (canon cmp-price--size-small): prefix / bold amount / suffix, centred stack */
+.product-table .pt-text p.pt-price {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product-table .pt-price-prefix,
+.product-table .pt-price-suffix {
+  display: block;
+}
+
+.product-table .pt-price-prefix {
+  margin-bottom: 4px;
+}
+
+.product-table .pt-price-suffix {
+  margin-top: 4px;
+}
+
+.product-table .pt-price-value,
+.product-table .pt-price-currency {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (width >= 768px) {
+  .product-table .pt-text p.pt-price {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .product-table .pt-price-value,
+  .product-table .pt-price-currency {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}

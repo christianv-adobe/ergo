@@ -7,7 +7,9 @@
  *   the link title the accessible name the source gives the player (iframe aria-label).
  *
  * @ew-exempt <p> video source link (cell 1) — config, replaced by the player
- * @variants block class: none
+ * @variants block class: widget (third-party iframe at a fixed height, no 16:9 box; a
+ *   "<n>px" token in the link title sets the height) | shadow (raised player / consent
+ *   placeholder) | dark (tinted band; authored text without a link is left as is)
  */
 const YT = /(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)([\w-]{6,})/;
 
@@ -20,6 +22,10 @@ export default function decorate(block) {
     : a.href;
   const frame = document.createElement('div');
   frame.className = 'embed-frame';
+  if (block.classList.contains('widget')) {
+    const h = parseInt((a.title.match(/\b(\d{3,4})\s*px\b/) || [])[1], 10);
+    if (h) frame.style.setProperty('--embed-height', `${h}px`);
+  }
   const iframe = document.createElement('iframe');
   iframe.src = src;
   iframe.title = a.textContent.trim() || 'Video';

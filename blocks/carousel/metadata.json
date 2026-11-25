@@ -1,0 +1,555 @@
+{
+  "variantName": "carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Grid or slider of tiles, promo cards, article teasers or download cards",
+    "layout": "Responsive column grid (cols-m-*, cols-l-*) that becomes a slider with arrows and dots when slider options are set"
+  },
+  "contentPattern": {
+    "structure": "one slide per heading (tiles: optional :icon:, heading, text, CTA; optional colour word in cell 2); with cards: one row per card with optional image, flag, heading, text, CTAs"
+  },
+  "options": [
+    {
+      "class": "cols-m-2",
+      "label": "2 columns tablet"
+    },
+    {
+      "class": "cols-m-3",
+      "label": "3 columns tablet"
+    },
+    {
+      "class": "cols-l-2",
+      "label": "2 columns desktop"
+    },
+    {
+      "class": "cols-l-3",
+      "label": "3 columns desktop"
+    },
+    {
+      "class": "cols-l-4",
+      "label": "4 columns desktop"
+    },
+    {
+      "class": "slider-always",
+      "label": "Always slider"
+    },
+    {
+      "class": "slider-mobile",
+      "label": "Slider on mobile"
+    },
+    {
+      "class": "slide-pad",
+      "label": "Slide padding"
+    },
+    {
+      "class": "reduced-mobile",
+      "label": "Reduced tiles mobile"
+    },
+    {
+      "class": "reduced-desktop",
+      "label": "Reduced tiles desktop"
+    },
+    {
+      "class": "cards",
+      "label": "Promo cards"
+    },
+    {
+      "class": "blue",
+      "label": "Blue cards"
+    },
+    {
+      "class": "warmgrey",
+      "label": "Warm grey cards"
+    },
+    {
+      "class": "cta-auto",
+      "label": "Auto-width CTAs"
+    },
+    {
+      "class": "cta-primary",
+      "label": "Primary CTAs"
+    },
+    {
+      "class": "cta-secondary",
+      "label": "Secondary CTAs"
+    },
+    {
+      "class": "cta-text-link",
+      "label": "Text-link CTAs"
+    },
+    {
+      "class": "plain",
+      "label": "Plain card text"
+    },
+    {
+      "class": "canon",
+      "label": "Landing promo cards"
+    },
+    {
+      "class": "stats",
+      "label": "Stats cards"
+    },
+    {
+      "class": "articles",
+      "label": "Article teasers"
+    },
+    {
+      "class": "h-red",
+      "label": "Red card titles"
+    },
+    {
+      "class": "wide-image",
+      "label": "Wide 2:1 images"
+    },
+    {
+      "class": "headline-s",
+      "label": "Small card titles"
+    },
+    {
+      "class": "bordered",
+      "label": "Bordered"
+    },
+    {
+      "class": "icon-tiles",
+      "label": "Icon Tiles"
+    },
+    {
+      "class": "slider",
+      "label": "Slider"
+    },
+    {
+      "class": "icon",
+      "label": "Icon"
+    },
+    {
+      "class": "slider-text",
+      "label": "Slider Text"
+    },
+    {
+      "class": "bordered-text",
+      "label": "Bordered Text"
+    },
+    {
+      "class": "image-top",
+      "label": "Image Top"
+    },
+    {
+      "class": "icon-tiles-product",
+      "label": "Icon Tiles Product"
+    },
+    {
+      "class": "slider-light-magenta",
+      "label": "Slider Light Magenta"
+    },
+    {
+      "class": "link-tiles",
+      "label": "Link Tiles"
+    },
+    {
+      "class": "icon-tiles-download",
+      "label": "Icon Tiles Download"
+    },
+    {
+      "class": "image-top-grey",
+      "label": "Image Top Grey"
+    },
+    {
+      "class": "image-top-4",
+      "label": "Image Top 4"
+    },
+    {
+      "class": "orange-light",
+      "label": "Orange Light"
+    },
+    {
+      "class": "orange-light-2",
+      "label": "Orange Light 2"
+    },
+    {
+      "class": "link-tiles-orange-light",
+      "label": "Link Tiles Orange Light"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "image-top-5",
+      "label": "Image Top 5"
+    },
+    {
+      "class": "link-tiles-light",
+      "label": "Link Tiles Light"
+    },
+    {
+      "class": "slider-3",
+      "label": "Slider 3"
+    },
+    {
+      "class": "icon-light",
+      "label": "Icon Light"
+    },
+    {
+      "class": "cyan-magenta-grey",
+      "label": "Cyan Magenta Grey"
+    },
+    {
+      "class": "slider-4",
+      "label": "Slider 4"
+    },
+    {
+      "class": "slider-2",
+      "label": "Slider 2"
+    },
+    {
+      "class": "link-tiles-3",
+      "label": "Link Tiles 3"
+    },
+    {
+      "class": "image-grey",
+      "label": "Image Grey"
+    },
+    {
+      "class": "cyan-magenta",
+      "label": "Cyan Magenta"
+    },
+    {
+      "class": "cyan-light",
+      "label": "Cyan Light"
+    },
+    {
+      "class": "slider-5",
+      "label": "Slider 5"
+    },
+    {
+      "class": "icon-light-2",
+      "label": "Icon Light 2"
+    },
+    {
+      "class": "image-top-orange-light",
+      "label": "Image Top Orange Light"
+    },
+    {
+      "class": "cyan-grey",
+      "label": "Cyan Grey"
+    },
+    {
+      "class": "link-tiles-5",
+      "label": "Link Tiles 5"
+    },
+    {
+      "class": "icon-orange-light-magenta",
+      "label": "Icon Orange Light Magenta"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "link-tiles-4",
+      "label": "Link Tiles 4"
+    },
+    {
+      "class": "link-tiles-6",
+      "label": "Link Tiles 6"
+    },
+    {
+      "class": "image-grey-2",
+      "label": "Image Grey 2"
+    },
+    {
+      "class": "icon-alt",
+      "label": "Icon Alt"
+    },
+    {
+      "class": "magenta-grey",
+      "label": "Magenta Grey"
+    },
+    {
+      "class": "image-top-6",
+      "label": "Image Top 6"
+    },
+    {
+      "class": "image-top-magenta",
+      "label": "Image Top Magenta"
+    },
+    {
+      "class": "image-2",
+      "label": "Image 2"
+    },
+    {
+      "class": "image-top-light",
+      "label": "Image Top Light"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    },
+    {
+      "class": "image-top-light-grey",
+      "label": "Image Top Light Grey"
+    },
+    {
+      "class": "image-top-8",
+      "label": "Image Top 8"
+    },
+    {
+      "class": "cyan-magenta-orange",
+      "label": "Cyan Magenta Orange"
+    },
+    {
+      "class": "image-top-7",
+      "label": "Image Top 7"
+    },
+    {
+      "class": "slider-6",
+      "label": "Slider 6"
+    },
+    {
+      "class": "slider-7",
+      "label": "Slider 7"
+    },
+    {
+      "class": "image-top-grey-2",
+      "label": "Image Top Grey 2"
+    },
+    {
+      "class": "link-tiles-7",
+      "label": "Link Tiles 7"
+    },
+    {
+      "class": "link-tiles-magenta-grey",
+      "label": "Link Tiles Magenta Grey"
+    },
+    {
+      "class": "slider-orange",
+      "label": "Slider Orange"
+    },
+    {
+      "class": "slider-magenta-2",
+      "label": "Slider Magenta 2"
+    },
+    {
+      "class": "cyan-dark-orange",
+      "label": "Cyan Dark Orange"
+    },
+    {
+      "class": "cyan-light-2",
+      "label": "Cyan Light 2"
+    },
+    {
+      "class": "orange-2",
+      "label": "Orange 2"
+    },
+    {
+      "class": "image-top-9",
+      "label": "Image Top 9"
+    },
+    {
+      "class": "icon-tiles-dark",
+      "label": "Icon Tiles Dark"
+    },
+    {
+      "class": "slider-grey-image",
+      "label": "Slider Grey Image"
+    },
+    {
+      "class": "image-top-light-2",
+      "label": "Image Top Light 2"
+    },
+    {
+      "class": "slider-8",
+      "label": "Slider 8"
+    },
+    {
+      "class": "magenta-grey-3",
+      "label": "Magenta Grey 3"
+    },
+    {
+      "class": "image-top-orange",
+      "label": "Image Top Orange"
+    },
+    {
+      "class": "image-top-light-3",
+      "label": "Image Top Light 3"
+    },
+    {
+      "class": "image-top-orange-light-image-cyan",
+      "label": "Image Top Orange Light Image Cyan"
+    },
+    {
+      "class": "image-top-10",
+      "label": "Image Top 10"
+    },
+    {
+      "class": "image-top-11",
+      "label": "Image Top 11"
+    },
+    {
+      "class": "slider-9",
+      "label": "Slider 9"
+    },
+    {
+      "class": "image-top-12",
+      "label": "Image Top 12"
+    },
+    {
+      "class": "image-3",
+      "label": "Image 3"
+    },
+    {
+      "class": "magenta-2",
+      "label": "Magenta 2"
+    },
+    {
+      "class": "image-top-13",
+      "label": "Image Top 13"
+    },
+    {
+      "class": "cyan-orange",
+      "label": "Cyan Orange"
+    },
+    {
+      "class": "slider-image-light",
+      "label": "Slider Image Light"
+    },
+    {
+      "class": "link-tiles-8",
+      "label": "Link Tiles 8"
+    },
+    {
+      "class": "image-top-14",
+      "label": "Image Top 14"
+    },
+    {
+      "class": "slider-10",
+      "label": "Slider 10"
+    },
+    {
+      "class": "slider-11",
+      "label": "Slider 11"
+    },
+    {
+      "class": "slider-12",
+      "label": "Slider 12"
+    },
+    {
+      "class": "image-top-15",
+      "label": "Image Top 15"
+    },
+    {
+      "class": "slider-magenta",
+      "label": "Slider Magenta"
+    },
+    {
+      "class": "magenta-grey-2",
+      "label": "Magenta Grey 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b4355021bca9",
+    "v_28b6334008ae",
+    "v_e7a13712be33",
+    "v_231fdc510409-1",
+    "v_935f465e0134",
+    "v_28b6334008ae-1",
+    "v_587387fcaa4a",
+    "v_587387fcaa4a-1",
+    "v_ccc3122a5112",
+    "v_4d38e46a2153",
+    "v_bd5a218090cc",
+    "v_b868941019c2",
+    "v_78c43b4962c5",
+    "v_2e5585883d22",
+    "v_9690dd612fb3",
+    "v_8b887de9fd26",
+    "v_d739a72a7e0e",
+    "v_e7a13712be33-1",
+    "v_58a86fe6492e",
+    "v_935f465e0134-2",
+    "v_459b04fe583c",
+    "v_ce57f2ba58de",
+    "v_356478b8b724",
+    "v_0ae9bed1ebf0",
+    "v_283bc958e101",
+    "v_2e5585883d22-1",
+    "v_63cc9c1f9ec2-3",
+    "v_af00962cc0d7",
+    "v_ce57f2ba58de-1",
+    "v_f4d87028669b",
+    "v_252147b17842-1",
+    "v_3d9d0eae767a",
+    "v_406eceaec5b0",
+    "v_439a39a36597-3",
+    "v_65cc6ba32351",
+    "v_9daa36e03ad7",
+    "v_b68c49ffcbd2",
+    "v_0276ad7ba6a4",
+    "v_392350833009",
+    "v_439a39a36597-2",
+    "v_476a3ef225c6",
+    "v_5a6b6e9029f2",
+    "v_5a6b6e9029f2-1",
+    "v_67965cb94cbc-2",
+    "v_6d13877bd690",
+    "v_8a9c08987a77",
+    "v_935f465e0134-4",
+    "v_bd5a218090cc-1",
+    "v_c242f5cb45ce",
+    "v_c61a69db618e-1",
+    "v_e297e7fdc6d6",
+    "v_e603a49b283a",
+    "v_f00580836be4",
+    "v_f6ec52e4572b",
+    "v_231fdc510409",
+    "v_283bc958e101-1",
+    "v_283bc958e101-3",
+    "v_356478b8b724-1",
+    "v_392350833009-1",
+    "v_406eceaec5b0-1",
+    "v_40a7bcc115d0",
+    "v_439a39a36597-4",
+    "v_439a39a36597-6",
+    "v_459b04fe583c-2",
+    "v_493690fdbe20-1",
+    "v_63cc9c1f9ec2",
+    "v_63cc9c1f9ec2-1",
+    "v_63cc9c1f9ec2-2",
+    "v_63cc9c1f9ec2-4",
+    "v_63cc9c1f9ec2-5",
+    "v_643bac1d69e0",
+    "v_676217dce4f0-2",
+    "v_67965cb94cbc-1",
+    "v_67965cb94cbc-3",
+    "v_6dbc828b4576",
+    "v_6e580869b11c-1",
+    "v_7ea6404c5707",
+    "v_8b887de9fd26-1",
+    "v_8e1e5fe02696-1",
+    "v_8e1e5fe02696-2",
+    "v_935f465e0134-1",
+    "v_935f465e0134-3",
+    "v_935f465e0134-5",
+    "v_935f465e0134-6",
+    "v_9ab199288126",
+    "v_a1718d793e33-1",
+    "v_afa455fbe44e",
+    "v_b49980fadfb2",
+    "v_bd5a218090cc-2",
+    "v_bd5a218090cc-3",
+    "v_c61a69db618e",
+    "v_d1c090da3d03",
+    "v_de16d2e31be5-1",
+    "v_e147e7bf8d20",
+    "v_e297e7fdc6d6-1",
+    "v_e603a49b283a-1",
+    "v_e7a13712be33-2",
+    "v_e7a13712be33-3",
+    "v_e7a13712be33-4",
+    "v_f4ee98d28470",
+    "v_f4ee98d28470-1"
+  ],
+  "usage": "Most repeated content on every template: product tiles, link tiles, teasers and downloads",
+  "reuseGuidance": "Reuse carousel for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

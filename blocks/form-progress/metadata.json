@@ -1,0 +1,28 @@
+{
+  "variantName": "form-progress",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": ""
+  },
+  "contentPattern": {
+    "structure": "default: one row | step counter + step title (\"Schritt 1 von 3\", \"Termin auswählen\") | next step text |; the bar fill comes from \"N von M\"",
+    "stepper": "option stepper: one row per step | Step title | optional \"current\" |, or one cell with a list (bold = current step)"
+  },
+  "options": [
+    {
+      "class": "stepper",
+      "label": "Stepper"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a793a0a2752a",
+    "v_ecd70ccdd968"
+  ],
+  "usage": "Header above multi-step forms (consultation booking, contract cancellation, customer-area forms). Used on 42 catalogued pages (reuse count 42), e.g. https://www.ergo.de/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden, https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung, https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge.",
+  "reuseGuidance": "Pair with the form block on multi-step form pages; use the stepper option for the numbered step indicator. Step navigation, live form state and submission are out of scope for now: the block renders the authored steps statically."
+}

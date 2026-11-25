@@ -4,10 +4,17 @@
   --b-pad-i: 32px;
   --b-gap: 18px;
   --b-icon-pi: 32px;
-  --benefit-color: var(--c-border);
+
+  /* uncoloured frame: the live default frame-with-flag colour (data-color #77756e) */
+  --benefit-color: #77756e;
 
   display: flex;
   flex-direction: column;
+}
+
+/* uncoloured box: the live default light box colour (data-color #f5e1eb); colour options win */
+.benefits.box {
+  --benefit-color: #f5e1eb;
 }
 
 .benefits.grey {
@@ -54,26 +61,26 @@
 }
 
 .benefits .benefits-flag {
-  display: -webkit-box;
   align-self: flex-start;
-  max-width: calc(100% - 2 * var(--b-pad-i));
+  max-width: 100%;
+  margin: 0;
+}
+
+/* the paragraph is the pill (live p.benefits__flag) */
+.benefits .benefits-flag p {
+  display: -webkit-box;
   margin: 0;
   padding: 4px 8px;
   overflow: hidden;
   border-radius: 8px;
   background: var(--benefit-color);
   color: #fff;
+  font-family: inherit;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-}
-
-.benefits .benefits-flag p {
-  margin: 0;
-  color: inherit;
-  font: inherit;
 }
 
 .benefits.flag-center .benefits-flag {
@@ -111,7 +118,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   padding-left: var(--b-icon-pi);
 }
 
@@ -143,6 +149,11 @@
   font-weight: 700;
 }
 
+/* title to text: 10px, 12px from 768 (live .benefits__item-title margin) */
+.benefits .benefits-item-title + .benefits-item-text {
+  margin-top: 10px;
+}
+
 .benefits .benefits-item-title :is(h2, h3, h4, h5, h6, p) {
   margin: 0;
   color: inherit;
@@ -164,16 +175,76 @@
 }
 
 .benefits .benefits-item-text :is(ul, ol) {
-  padding-left: 0;
+  padding-left: calc(var(--b-icon-pi) / 2);
 }
 
 .benefits .benefits-item-text :is(ul, ol) li {
   margin-bottom: var(--b-gap);
-  padding-left: var(--b-icon-pi);
+  padding-left: calc(var(--b-icon-pi) / 2);
 }
 
 .benefits .benefits-item-text > :last-child {
   margin-bottom: 0;
+}
+
+/* flag on its own (import splits a box's flag off): sits over the top edge of the next block */
+.benefits.flag-only {
+  position: relative;
+  z-index: 1;
+  padding: 0 var(--b-pad-i);
+}
+
+.benefits.flag-only .benefits-flag-container {
+  padding: 0;
+  transform: none;
+}
+
+.benefits-wrapper:has(+ .benefits-wrapper) > .benefits.flag-only {
+  margin-bottom: -13px;
+}
+
+/* icon paragraph + text inside an item: icon at the line start, text indented like an item */
+.benefits .benefits-icon-row {
+  position: relative;
+  margin-bottom: var(--b-gap);
+  padding-left: var(--b-icon-pi);
+}
+
+.benefits .benefits-icon-row > :not(.benefits-icon-row-icon) {
+  margin: 0;
+}
+
+.benefits .benefits-item.has-icon .benefits-icon-row {
+  margin-left: calc(-1 * var(--b-icon-pi));
+}
+
+.benefits .benefits-item-text p.benefits-icon-row-icon {
+  position: absolute;
+  top: -2px;
+  left: calc(var(--b-icon-pi) / 2 - var(--b-pad-i) / 2 + 2px);
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+.benefits .benefits-icon-row-icon .icon,
+.benefits .benefits-icon-row-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 768px) {
+  .benefits-wrapper:has(+ .benefits-wrapper) > .benefits.flag-only {
+    margin-bottom: -14.5px;
+  }
+
+  .benefits .benefits-item-text p.benefits-icon-row-icon {
+    top: -4px;
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media (width >= 768px) {
@@ -183,7 +254,7 @@
     --b-icon-pi: 56px;
   }
 
-  .benefits .benefits-flag {
+  .benefits .benefits-flag p {
     font-size: 14px;
   }
 
@@ -191,8 +262,8 @@
     font-size: 16px;
   }
 
-  .benefits .benefits-item.has-icon {
-    gap: 12px;
+  .benefits .benefits-item-title + .benefits-item-text {
+    margin-top: 12px;
   }
 
   .benefits .benefits-item-icon {
@@ -222,8 +293,22 @@
   text-decoration: underline;
 }
 
+/* check-list: the check sits in the list's indent (li box at the text start - indent) */
+.benefits.check-list .benefits-item-text ul,
+.benefits:is(
+  .icon-list, .image, .image-2, .image-light, .image-light-2, .image-grey, .image-grey-2,
+  .image-orange, .image-orange-2
+) .benefits-item-text ul {
+  padding-left: 0;
+}
+
 /* check-list: canon ul.check-list--black (check icon at the line start, 1lh square) */
-.benefits.check-list .benefits-item-text ul li {
+.benefits.check-list .benefits-item-text ul li,
+.benefits:is(
+  .icon-list, .image, .image-2, .image-light, .image-light-2, .image-grey, .image-grey-2,
+  .image-orange, .image-orange-2
+) .benefits-item-text ul li {
+  padding-left: var(--b-icon-pi);
   list-style: none;
   background: url("../../icons/check.svg") 0 0 / 1lh no-repeat;
 }
@@ -231,3 +316,868 @@
 .benefits .benefits-item-text > :is(ul, ol):last-child li:last-child {
   margin-bottom: 0;
 }
+
+/* ---- catalog option classes (block-generator augment) -------------------------------------
+ * Structural branches only; colour tokens reuse the accent families above and are refined
+ * in the design pass. icon-list and image* (framed checklists) share the check-list rule. */
+
+/* colour-only tokens: one shared rule per colour family */
+.benefits:is(.light, .light-2, .light-3, .image-light, .image-light-2) {
+  --benefit-color: var(--c-border);
+}
+
+.benefits:is(.grey-2, .grey-light, .grey-light-2, .image-grey, .image-grey-2) {
+  --benefit-color: #c9c5c7;
+}
+
+.benefits:is(.magenta-light, .magenta-2) {
+  --benefit-color: #c34a89;
+}
+
+.benefits:is(.orange-light, .orange-light-2, .orange-2, .dark-orange, .image-orange, .image-orange-2) {
+  --benefit-color: #b46018;
+}
+
+/* icon-list: icon-led items without a frame */
+.benefits.icon-list .benefits-items {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* shadow: raised box */
+.benefits.shadow .benefits-items {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+/* side-by-side*: boxed items laid out next to each other */
+.benefits:is(
+  .side-by-side, .side-by-side-2, .side-by-side-3, .side-by-side-cyan,
+  .side-by-side-cyan-magenta, .side-by-side-dark
+) .benefits-items {
+  display: grid;
+  gap: var(--b-gap);
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.benefits:is(
+  .side-by-side, .side-by-side-2, .side-by-side-3, .side-by-side-cyan,
+  .side-by-side-cyan-magenta, .side-by-side-dark
+) .benefits-item {
+  margin-top: 0;
+  padding: var(--b-pad-b) var(--b-pad-i);
+  border: 1px solid var(--benefit-color);
+  border-radius: 8px;
+}
+
+.benefits:is(
+  .side-by-side, .side-by-side-2, .side-by-side-3, .side-by-side-cyan,
+  .side-by-side-cyan-magenta, .side-by-side-dark
+) .benefits-item.has-icon {
+  padding-left: calc(var(--b-pad-i) + var(--b-icon-pi));
+}
+
+/* steps: numbered step cards */
+.benefits.steps .benefits-items {
+  counter-reset: benefits-step;
+}
+
+.benefits.steps .benefits-item {
+  counter-increment: benefits-step;
+}
+
+.benefits.steps .benefits-item-title::before {
+  content: counter(benefits-step) ". ";
+}
+
+/* stats: row of key facts (icon, figure, caption) */
+.benefits.stats .benefits-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--b-gap);
+  text-align: center;
+}
+
+.benefits.stats .benefits-item + .benefits-item {
+  margin-top: 0;
+}
+
+.benefits.stats .benefits-item.has-icon {
+  align-items: center;
+  padding-left: 0;
+}
+
+.benefits.stats .benefits-item-icon {
+  position: static;
+  transform: none;
+}
+
+/* alt-2: single add-on item - icon, title (with price) and text in one row */
+.benefits.alt-2 .benefits-item.has-icon {
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.benefits.alt-2 .benefits-item-title {
+  flex: 1 1 auto;
+}
+
+.benefits.alt-2 .benefits-item-text {
+  flex: 1 1 100%;
+}
+
+@media (width >= 768px) {
+  .benefits:is(
+    .side-by-side, .side-by-side-2, .side-by-side-3, .side-by-side-cyan,
+    .side-by-side-cyan-magenta, .side-by-side-dark
+  ) .benefits-items {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  .benefits.steps .benefits-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--b-gap);
+  }
+
+  .benefits.steps .benefits-item + .benefits-item {
+    margin-top: 0;
+  }
+}
+
+/* consecutive framed blocks (one item each after the import split) read as one frame */
+.benefits-wrapper:has(> .benefits:not(.flag-only, .box))
+  + .benefits-wrapper > .benefits:not(.flag-only, .box) > .benefits-items:first-child {
+  padding-top: var(--b-gap);
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.benefits-wrapper:has(+ .benefits-wrapper > .benefits:not(.flag-only, .box) > .benefits-items:first-child)
+  > .benefits:not(.flag-only, .box) .benefits-items {
+  padding-bottom: 0;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* ==== looks: flags (promo flag pills) ==== */
+
+/* promo flag (live .cmp-promo__flag): a flag-only pill flush with the card corner below it;
+ * the pill is the flag div, the paragraph is bare text (12/18 mobile, 14/20 from 768) */
+.benefits.block.flag-only:is(
+  .orange, .dark-orange, .grey-light, .light-2, .magenta, .magenta-light, .orange-light-2
+) {
+  padding: 0;
+}
+
+.benefits.flag-only:where(
+  .orange, .dark-orange, .grey-light, .light-2, .magenta, .magenta-light, .orange-light-2
+) .benefits-flag {
+  padding: 5px 12px;
+  border-radius: 0 8px 8px;
+  background: var(--benefit-color);
+}
+
+.benefits.flag-right:where(
+  .flag-only.orange, .flag-only.dark-orange, .flag-only.grey-light, .flag-only.light-2,
+  .flag-only.magenta, .flag-only.magenta-light, .flag-only.orange-light-2
+) .benefits-flag {
+  border-radius: 8px 0 8px 8px;
+}
+
+.benefits.flag-only:where(.orange, .dark-orange) .benefits-flag {
+  --benefit-color: #e5c536;
+  --benefit-flag-text: var(--c-text);
+}
+
+.benefits.flag-only:where(.grey-light) .benefits-flag {
+  --benefit-color: #77756e;
+}
+
+.benefits.flag-only:where(.light-2) .benefits-flag {
+  --benefit-color: #428071;
+}
+
+.benefits.flag-only:where(.magenta, .magenta-light) .benefits-flag {
+  --benefit-color: #c34a89;
+}
+
+.benefits.flag-only:where(.orange-light-2) .benefits-flag {
+  --benefit-color: #b46018;
+}
+
+.benefits.flag-only:where(
+  .orange, .dark-orange, .grey-light, .light-2, .magenta, .magenta-light, .orange-light-2
+) .benefits-flag p {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--benefit-flag-text, #fff);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+}
+
+/* a right flag without an icon sets its text right (live text-align: right) */
+.benefits.flag-right:where(.flag-only.orange, .flag-only.magenta) .benefits-flag p {
+  text-align: right;
+}
+
+@media (width >= 768px) {
+  .benefits.flag-only:where(
+    .orange, .dark-orange, .grey-light, .light-2, .magenta, .magenta-light, .orange-light-2
+  ) .benefits-flag {
+    padding: 6px 12px;
+  }
+
+  .benefits.flag-only:where(
+    .orange, .dark-orange, .grey-light, .light-2, .magenta, .magenta-light, .orange-light-2
+  ) .benefits-flag p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* ==== end looks: flags ==== */
+
+/* ==== looks: image frames ==== */
+
+/* frame colours of the live components (data-color); the shared light/grey/orange token rule
+ * above would otherwise replace them */
+.benefits.image-light.green {
+  --benefit-color: #428071;
+}
+
+.benefits.image-grey-2 {
+  --benefit-color: #77756e;
+}
+
+.benefits.image-light-2 {
+  --benefit-color: #f5e1eb;
+}
+
+.benefits.image-light-2.light-green {
+  --benefit-color: #d3ebe5;
+}
+
+.benefits.image-orange-2 {
+  --benefit-color: #fef6d2;
+}
+
+/* a long centred flag wraps inside the frame's inner width (live: 199px of 327px on mobile) */
+.benefits:is(.image, .image-grey-2, .image-light, .image-orange) .benefits-flag {
+  max-width: calc(100% - 2 * var(--b-pad-i));
+}
+
+/* icon-list: one item of a framed benefits list per block (the import splits the items). The
+ * frame sits on the block: sides always, top on the first of a run, bottom on the last; the
+ * shared consecutive-frame rules add the item gap between joined blocks. */
+.benefits.icon-list {
+  padding-inline: var(--b-pad-i);
+  border-inline: 1px solid var(--benefit-color);
+}
+
+.benefits-wrapper:first-child > .benefits.icon-list,
+:not(.benefits-wrapper:has(> .benefits:not(.flag-only, .box))) + .benefits-wrapper > .benefits.icon-list {
+  padding-top: var(--b-pad-b);
+  border-top: 1px solid var(--benefit-color);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.benefits-wrapper:not(:has(+ .benefits-wrapper > .benefits:not(.flag-only, .box) > .benefits-items:first-child))
+  > .benefits.icon-list {
+  padding-bottom: var(--b-pad-b);
+  border-bottom: 1px solid var(--benefit-color);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* image-grey: a white promo card (grey border, raised) with a headline paragraph; the block
+ * box is the card box (no flag), so the raise sits on the block */
+.benefits.image-grey {
+  --b-pad-b: 32px;
+  --b-pad-i: 24px;
+  --b-gap: 10px;
+  --b-icon-pi: 32px;
+
+  border-radius: 8px;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.benefits.image-grey .benefits-item-text > p:first-child {
+  width: fit-content;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.benefits.image-grey .benefits-item-text > p:first-child + p {
+  margin-top: 0;
+}
+
+/* image-light-2: a caption paragraph closes the list (live txt__caption) */
+.benefits.image-light-2 .benefits-item-text > :is(ul, ol) + p:last-child {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+}
+
+@media (width >= 768px) {
+  .benefits.image-grey {
+    --b-pad-b: 48px;
+    --b-pad-i: 32px;
+    --b-gap: 12px;
+    --b-icon-pi: 36px;
+  }
+
+  .benefits.image-grey .benefits-item-text > p:first-child {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .benefits.image-light-2 .benefits-item-text > :is(ul, ol) + p:last-child {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+/* ==== end looks: image frames ==== */
+
+/* ==== looks: text frames ==== */
+
+/* look rules are scoped to their look classes; they must follow the shared join rules above */
+/* stylelint-disable no-descending-specificity */
+
+/* grey-2 / alt-2: source carousel slides and promo cards, each its own frame - no join with a
+ * neighbouring benefits block; consecutive frames are spaced by the slides' 2 x 12px gutter */
+.benefits-wrapper + .benefits-wrapper > .benefits.block:is(.grey-2, .alt-2):not(.flag-only, .box) > .benefits-items:first-child,
+.benefits-wrapper:has(> .benefits:is(.grey-2, .alt-2)) + .benefits-wrapper > .benefits:not(.flag-only, .box) > .benefits-items:first-child {
+  padding-top: var(--b-pad-b);
+  border-top: 1px solid var(--benefit-color);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.benefits-wrapper:has(+ .benefits-wrapper > .benefits:is(.grey-2, .alt-2))
+  > .benefits.block[data-block-status]:not(.flag-only, .box) .benefits-items,
+.benefits-wrapper:has(+ .benefits-wrapper)
+  > .benefits.block[data-block-name][data-block-status]:is(.grey-2, .alt-2):not(.flag-only, .box) .benefits-items {
+  padding-bottom: var(--b-pad-b);
+  border-bottom: 1px solid var(--benefit-color);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.benefits-wrapper:has(> .benefits:is(.grey-2, .alt-2):not(.flag-only))
+  + .benefits-wrapper > .benefits:not(.flag-only),
+.benefits-wrapper:has(> .benefits:not(.flag-only))
+  + .benefits-wrapper > .benefits:is(.grey-2, .alt-2):not(.flag-only) {
+  margin-top: 24px;
+}
+
+/* light: centred text on a coloured section (source .cmp-text, headline p.txt__h3) - no frame */
+.benefits.light:not(.box, .flag-only) .benefits-items,
+.benefits-wrapper + .benefits-wrapper > .benefits.light.block:not(.box, .flag-only) > .benefits-items:first-child {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item {
+  text-align: center;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item-text p {
+  margin: 0 0 14px;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item-text p + p {
+  margin-top: 0;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item-title,
+.benefits.light:not(.box, .flag-only) .benefits-item-text > p:first-child:not(:only-child) {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item-title + .benefits-item-text {
+  margin-top: 0;
+}
+
+.benefits.light:not(.box, .flag-only) .benefits-item-text > :last-child {
+  margin-bottom: 0;
+}
+
+/* orange-light: yellow frame and flag with dark flag text (live data-color #e5c536) */
+.benefits.orange-light {
+  --benefit-color: #e5c536;
+}
+
+.benefits.orange-light .benefits-flag p {
+  color: var(--c-text);
+}
+
+/* the centred flag stays 64px clear of the frame edges (wraps on mobile, live 199px of 327px) */
+.benefits.orange-light .benefits-flag-container {
+  padding: 0 64px;
+}
+
+/* plain lists in these frames keep the source disc bullets (global ul resets list-style) */
+.benefits:is(.orange-light, .orange-2, .light-3):not(.check-list)
+  .benefits-item-text ul li {
+  list-style: disc outside;
+}
+
+/* grey-light-2: calculator toggle card (source .ergo-av-toggle-card, Arial UI font) */
+.benefits.grey-light-2 {
+  max-width: 700px;
+  color: #171717;
+}
+
+.benefits.grey-light-2 .benefits-items,
+.benefits-wrapper + .benefits-wrapper > .benefits.grey-light-2.block:not(.box, .flag-only) > .benefits-items:first-child {
+  padding: 15px;
+  border: 1px solid #f0e4e8;
+  border-radius: 16px;
+}
+
+.benefits.grey-light-2 .benefits-item-text {
+  width: fit-content;
+}
+
+.benefits.grey-light-2 .benefits-item-text :is(p, li) {
+  margin: 0;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18.2px;
+}
+
+.benefits.grey-light-2 .benefits-item-text p + p {
+  margin-top: 0;
+}
+
+.benefits.grey-light-2 .benefits-item-text > p:first-child {
+  margin-bottom: 3px;
+  color: #171717;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+@media (width >= 768px) {
+  .benefits.light:not(.box, .flag-only) .benefits-item-text p {
+    margin-bottom: 16px;
+  }
+
+  .benefits.light:not(.box, .flag-only) .benefits-item-title,
+  .benefits.light:not(.box, .flag-only) .benefits-item-text > p:first-child:not(:only-child) {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .benefits.grey-light-2 .benefits-items {
+    padding: 13px 15px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ==== end looks: text frames ==== */
+
+/* ==== looks: side-by-side ==== */
+
+/* look-scoped selectors (one look class per block) never compete with the other looks' rules */
+/* stylelint-disable no-descending-specificity */
+
+/* framed cards side by side (live carouselContainer has-2-cols of .benefits is-frame):
+   24px between cards, the item icon in the card's padding */
+.benefits:is(.side-by-side, .side-by-side-2, .side-by-side-cyan, .side-by-side-cyan-magenta) .benefits-items {
+  gap: 24px;
+}
+
+.benefits:is(.side-by-side, .side-by-side-2, .side-by-side-cyan, .side-by-side-cyan-magenta) .benefits-item-icon {
+  top: calc(var(--b-pad-b) - 2px);
+  left: calc(var(--b-pad-i) + var(--b-icon-pi) / 2 - var(--b-pad-i) / 2 + 2px);
+}
+
+/* cyan-magenta: an icon list follows the card title at the item gap; the second card is magenta */
+.benefits.side-by-side-cyan-magenta .benefits-item-title + .benefits-item-text {
+  margin-top: var(--b-gap);
+}
+
+.benefits.side-by-side-cyan-magenta .benefits-item:nth-child(2) {
+  --benefit-color: #c34a89;
+}
+
+/* side-by-side authored as ONE item (title, icon rows, then a bold line opening the second
+   frame): each column's elements draw their part of the frame */
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row) {
+  padding: 0;
+  border: 0;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row) .benefits-item-text {
+  margin-top: 0;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  :is(.benefits-item-title, .benefits-icon-row, .benefits-item-text > p) {
+  margin: 0;
+  border: 1px solid var(--benefit-color);
+  border-block: 0;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  :is(.benefits-item-title, .benefits-item-text > p:first-of-type) {
+  padding: var(--b-pad-b) var(--b-pad-i) 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-radius: 8px 8px 0 0;
+  font-weight: 700;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row) .benefits-icon-row {
+  padding: var(--b-gap) var(--b-pad-i) 0 calc(var(--b-pad-i) + var(--b-icon-pi));
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  .benefits-item-text p.benefits-icon-row-icon {
+  top: calc(var(--b-gap) - 2px);
+  left: calc(var(--b-pad-i) + var(--b-icon-pi) / 2 - var(--b-pad-i) / 2 + 2px);
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  .benefits-item-text > p:not(:first-of-type) {
+  padding: var(--b-gap) var(--b-pad-i) 0 calc(var(--b-pad-i) - 10px);
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  .benefits-item-text > p .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  :is(.benefits-icon-row:last-of-type, .benefits-item-text > p:last-child) {
+  padding-bottom: var(--b-pad-b);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-radius: 0 0 8px 8px;
+}
+
+.benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+  .benefits-item-text > p:first-of-type {
+  margin-top: 24px;
+}
+
+/* side-by-side-3 (live columnControl 2/3 + 1/3 of promo boxes): a title paragraph and a list
+   per box, light green then light magenta */
+.benefits.side-by-side-3 .benefits-items {
+  padding: 12px 0 0;
+}
+
+.benefits.side-by-side-3 .benefits-item {
+  padding: 0;
+  border: 0;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > :is(p, ul) {
+  margin: 0 12px;
+  background: #d3ebe5;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > :is(p, ul):nth-of-type(2) {
+  background: #f5e1eb;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > p {
+  padding: 32px 24px 0;
+  border-radius: 8px 8px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > ul,
+.benefits.side-by-side-3 .benefits-item-text > ul:last-child {
+  margin-bottom: 36px;
+  padding: 24px 24px 32px 48px;
+  border-radius: 0 0 8px 8px;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > ul li {
+  margin-bottom: 10px;
+  padding-left: 8px;
+  list-style: disc;
+}
+
+.benefits.side-by-side-3 .benefits-item-text > ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* side-by-side-dark (live promo cards, white with a grey frame, centred): title and text
+   paragraph pairs, one card each */
+.benefits.side-by-side-dark {
+  --benefit-color: #c9c5c7;
+}
+
+.benefits.side-by-side-dark .benefits-item {
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+.benefits.side-by-side-dark .benefits-item-text > p {
+  margin: 0;
+  padding: 24px 24px 32px;
+  border: 1px solid var(--benefit-color);
+  border-top: 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.benefits.side-by-side-dark .benefits-item-text > p:nth-child(odd) {
+  padding: 48px 24px 0;
+  border: 1px solid var(--benefit-color);
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.benefits.side-by-side-dark .benefits-item-text > p:nth-child(even):not(:last-child) {
+  margin-bottom: 24px;
+}
+
+@media (width >= 768px) {
+  .benefits:is(.side-by-side, .side-by-side-2, .side-by-side-cyan, .side-by-side-cyan-magenta) .benefits-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .benefits:is(.side-by-side, .side-by-side-2, .side-by-side-cyan, .side-by-side-cyan-magenta) .benefits-item-icon {
+    top: calc(var(--b-pad-b) - 4px);
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row) {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column: 1 / -1;
+    column-gap: 24px;
+    align-content: start;
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row) .benefits-item-text {
+    display: contents;
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    :is(.benefits-item-title, .benefits-icon-row) {
+    grid-column: 1;
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    .benefits-item-text > p {
+    grid-column: 2;
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    .benefits-item-text p.benefits-icon-row-icon {
+    top: calc(var(--b-gap) - 4px);
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    .benefits-item-text > p:not(:first-of-type) {
+    padding-left: calc(var(--b-pad-i) - 2px);
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    .benefits-item-text > p .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .benefits.side-by-side .benefits-item:only-child:has(> .benefits-item-text > .benefits-icon-row)
+    .benefits-item-text > p:first-of-type {
+    margin-top: 0;
+  }
+
+  .benefits.side-by-side-3 .benefits-items {
+    display: block;
+  }
+
+  .benefits.side-by-side-3 .benefits-item-text {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .benefits.side-by-side-3 .benefits-item-text > ul {
+    align-self: start;
+  }
+
+  .benefits.side-by-side-3 .benefits-item-text > p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .benefits.side-by-side-3 .benefits-item-text > ul,
+  .benefits.side-by-side-3 .benefits-item-text > ul:last-child {
+    padding-left: 52px;
+  }
+
+  .benefits.side-by-side-3 .benefits-item-text > ul li {
+    margin-bottom: 12px;
+  }
+
+  .benefits.side-by-side-dark .benefits-items {
+    display: block;
+  }
+
+  .benefits.side-by-side-dark .benefits-item-text {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto 1fr;
+    grid-auto-columns: minmax(0, 1fr);
+    column-gap: 24px;
+  }
+
+  .benefits.side-by-side-dark .benefits-item-text > p,
+  .benefits.side-by-side-dark .benefits-item-text > p:nth-child(even):not(:last-child) {
+    margin-bottom: 0;
+    padding: 24px 32px 48px;
+  }
+
+  .benefits.side-by-side-dark .benefits-item-text > p:nth-child(odd) {
+    padding: 48px 32px 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ==== end looks: side-by-side ==== */
+
+/* ==== looks: misc (stats, steps, shadow) ==== */
+
+/* look rules are scoped to disjoint look classes; source order across looks is not significant */
+/* stylelint-disable no-descending-specificity */
+
+/* stats: figure + caption pairs (source promo cards, 48px 24px 32px; no frame, section bg).
+ * --b-gap 0: the consecutive-frames join above must not add its top padding here. */
+.benefits.stats {
+  --b-gap: 0;
+}
+
+.benefits.stats > .benefits-items {
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+.benefits.stats .benefits-item {
+  padding: 48px 24px 32px;
+}
+
+.benefits.stats .benefits-item-text {
+  display: grid;
+  row-gap: 8px;
+  text-align: center;
+}
+
+.benefits.stats .benefits-item-text p {
+  margin: 0;
+}
+
+.benefits.stats .benefits-item-text p:nth-child(odd) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+/* next card: card padding-bottom 32px + gap 24px + padding-top 48px (row gap 8px) */
+.benefits.stats .benefits-item-text p:nth-child(odd):not(:first-child) {
+  margin-top: 96px;
+}
+
+/* shadow: the review card itself (source .ekomi-review) */
+.benefits.shadow {
+  --b-gap: 0;
+
+  padding: 16px 12px;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.benefits.shadow > .benefits-items {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.benefits.shadow .benefits-item-text p {
+  margin: 0;
+  color: #737373;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.benefits.shadow .benefits-item-text p:nth-child(2) {
+  margin: 10px 0;
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* an ERGO comment headline without a comment after it stays hidden, as on the source */
+.benefits.shadow .benefits-item-text p:nth-child(4):last-child {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .benefits.stats .benefits-item {
+    padding: 48px 32px;
+  }
+
+  /* one column per figure/caption pair: 3 x 208px text, 2 x (24px gap + 2 x 32px card padding) */
+  .benefits.stats .benefits-item-text {
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    column-gap: 88px;
+  }
+
+  .benefits.stats .benefits-item-text p:nth-child(odd) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .benefits.stats .benefits-item-text p:nth-child(odd):not(:first-child) {
+    margin-top: 0;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ==== end looks: misc ==== */

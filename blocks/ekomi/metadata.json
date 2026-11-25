@@ -1,0 +1,29 @@
+{
+  "variantName": "ekomi",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Customer review band with quote, eKomi seal, star rating, source line and link to all reviews",
+    "layout": "Quote beside seal and star rating"
+  },
+  "contentPattern": {
+    "structure": "quote paragraphs; seal label paragraph; rating paragraph (bold score /5); source paragraphs; em-link CTA paragraph"
+  },
+  "options": [
+    {
+      "class": "benefits",
+      "label": "Benefits"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_c6c3d2f70ef8",
+    "v_8cb27af63199",
+    "v_287b1e65838d"
+  ],
+  "usage": "Homepage trust band",
+  "reuseGuidance": "Reuse ekomi for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

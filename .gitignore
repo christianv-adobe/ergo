@@ -13,3 +13,7 @@ helix-importer-ui
 !AGENTS.md
 # Replica runner writes the DA token to .env; keep it out of checkpoints.
 .env
+
+# nav validation infrastructure
+migration-work/navigation-validation/
+migration-work/footer-validation/

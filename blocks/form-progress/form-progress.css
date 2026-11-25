@@ -1,0 +1,189 @@
+/* form-progress — progress header of a multi-step form (source: formWrapper__header / eds-stepper) */
+
+/* default: step counter + title, next step, progress bar */
+.form-progress {
+  margin: 0 0 24px;
+  color: rgb(115 115 115);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.form-progress .form-progress-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-progress .form-progress-head p {
+  margin: 0;
+}
+
+.form-progress .form-progress-current {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.form-progress .form-progress-current strong {
+  display: block;
+  color: var(--c-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.form-progress .form-progress-next {
+  display: none;
+}
+
+.form-progress .form-progress-next strong {
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+.form-progress .form-progress-bar {
+  position: relative;
+  height: 4px;
+  margin-top: 16px;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+
+.form-progress .form-progress-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  background: var(--c-brand);
+}
+
+/* stepper: numbered step indicator */
+.form-progress.stepper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 16px;
+  color: var(--c-text);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.form-progress.stepper .form-progress-header {
+  color: var(--dark-color);
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.form-progress.stepper .form-progress-header span {
+  color: var(--c-text);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.form-progress.stepper .form-progress-steps {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-progress.stepper .form-progress-step {
+  display: flex;
+  align-items: center;
+  color: #5e5b5d;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.form-progress.stepper .form-progress-step + .form-progress-step {
+  flex: 1 1 auto;
+}
+
+.form-progress.stepper .form-progress-step + .form-progress-step::before {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: #e7e6e6;
+}
+
+.form-progress.stepper .form-progress-step-number {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--c-border);
+  border-radius: 999px;
+  background: #fff;
+  color: #5e5b5d;
+  text-align: center;
+}
+
+.form-progress.stepper .form-progress-step.is-current .form-progress-step-number,
+.form-progress.stepper .form-progress-step.is-done .form-progress-step-number {
+  border-color: var(--c-brand);
+  background: var(--c-brand);
+  color: #fff;
+}
+
+.form-progress.stepper .form-progress-step-label {
+  display: none;
+}
+
+.form-progress.stepper .form-progress-step.is-current .form-progress-step-label {
+  color: var(--c-text);
+}
+
+@media (width >= 900px) {
+  .form-progress {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .form-progress .form-progress-current strong {
+    font-size: 18px;
+  }
+
+  .form-progress .form-progress-next {
+    display: block;
+  }
+
+  .form-progress .form-progress-bar {
+    margin-top: 24px;
+  }
+
+  .form-progress.stepper {
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .form-progress.stepper .form-progress-header {
+    display: none;
+  }
+
+  .form-progress.stepper .form-progress-steps,
+  .form-progress.stepper .form-progress-step {
+    gap: 8px;
+  }
+
+  .form-progress.stepper .form-progress-step + .form-progress-step {
+    flex: 0 0 auto;
+  }
+
+  .form-progress.stepper .form-progress-step + .form-progress-step::before {
+    flex: 0 0 32px;
+  }
+
+  .form-progress.stepper .form-progress-step-label {
+    display: block;
+  }
+}

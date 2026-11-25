@@ -1,0 +1,35 @@
+{
+  "variantName": "form",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "field + text"
+  },
+  "contentPattern": {
+    "structure": "one row per field: | Label | Type | Placeholder or options | Help text (optional) |",
+    "fieldTypes": "text, email, tel, number, date, textarea, select, checkbox, radio, submit; combine with \"+\" (e.g. \"text+text\") for two inputs on one line",
+    "options": "select/radio/checkbox options as a list or one per line; for select the first entry is the placeholder",
+    "textRows": "single-cell rows render as heading, intro or legal text; a single-cell picture row becomes the form image"
+  },
+  "options": [
+    {
+      "class": "dark-light",
+      "label": "Dark Light"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    }
+  ],
+  "memberVariantIds": [
+    "v_d026fc6e4e47",
+    "v_9b13444bc450",
+    "v_d485e9cbf580"
+  ],
+  "usage": "Contact, consultation-request and filter forms (contact pages, product consultation forms, review filters). Used on 77 catalogued pages (reuse count 77), e.g. https://www.ergo.de/de/Geschaeftskunden-Produkte/kontakt-geschaeftskunden, https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung, https://www.ergo.de/de/Produkte/Krankenversicherung/gesundheitsvorsorge.",
+  "reuseGuidance": "Reuse form for any data-entry form or lone select/filter control; add an option class for colour or layout differences. Form submission, validation services and any live backend integration are out of scope for now: the block renders the authored content statically."
+}

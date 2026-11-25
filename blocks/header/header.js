@@ -1,5 +1,6 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
+import { getMetadata, loadSections } from '../../scripts/aem.js';
+// eslint-disable-next-line import/no-cycle
+import { decorateMain } from '../../scripts/scripts.js';
 
 /**
  * ERGO header — template-slotted from the gated prototype chrome
@@ -26,6 +27,62 @@ import { loadFragment } from '../fragment/fragment.js';
 
 const DESKTOP = window.matchMedia('(min-width: 1152px)');
 const ROLES = ['brand', 'tools', 'search', 'menu', 'tiles', 'drawer'];
+const NAV_OVERRIDE_META = 'nav';
+
+/**
+ * Fetches the nav fragment. Default nav: /nav.plain.html, the rendered document (DA/EDS, and
+ * aem up, which renders the content folder through the pipeline: icons, section metadata),
+ * then /content/nav.plain.html, the raw file of the local content folder. A page can name
+ * another nav document in its `nav` metadata (e.g. /nav-geschaeftskunden for the
+ * business-customer pages); that path is normalised (a leading /content and any extension are
+ * dropped) and tried the same two ways, so it can never collapse both attempts onto /content.
+ * Any failure falls back to the default nav.
+ */
+async function fetchNav() {
+  const override = (getMetadata(NAV_OVERRIDE_META) || '').trim();
+  let name = '';
+  if (override) {
+    try {
+      name = new URL(override, window.location).pathname
+        .replace(/^\/content(?=\/)/, '').replace(/(\.plain)?\.html$/, '').replace(/\/$/, '');
+    } catch (e) {
+      name = '';
+    }
+  }
+  if (name && name !== '/nav') {
+    const rootUrl = name + '.plain.html'; // eslint-disable-line prefer-template
+    const localUrl = '/content' + name + '.plain.html'; // eslint-disable-line prefer-template
+    let custom = await fetch(rootUrl);
+    if (!custom.ok) custom = await fetch(localUrl);
+    if (custom.ok) return { resp: custom, base: custom.url };
+  }
+  // metadata-independent default: rendered root document, then the raw local content file
+  let resp = await fetch('/nav.plain.html');
+  if (!resp.ok) resp = await fetch('/content/nav.plain.html');
+  return { resp, base: resp.url };
+}
+
+/** loads the nav document and decorates it like a fragment (sections, icons, blocks) */
+async function loadNav() {
+  const { resp, base } = await fetchNav();
+  if (!resp.ok) return null;
+  const main = document.createElement('main');
+  // a raw (unrendered) document still carries :icon: tokens; render them as the pipeline does
+  main.innerHTML = (await resp.text()).replace(
+    /:([a-z][a-z0-9-]*):/g,
+    (m, icon) => `<span class="icon icon-${icon}"></span>`,
+  );
+  // the document's own metadata (robots) is not header content
+  main.querySelectorAll('.metadata').forEach((m) => m.remove());
+  // media referenced relative to the nav document
+  main.querySelectorAll('img[src^="./media_"], source[srcset^="./media_"]').forEach((m) => {
+    const attr = m.tagName === 'IMG' ? 'src' : 'srcset';
+    m.setAttribute(attr, new URL(m.getAttribute(attr), base).href);
+  });
+  decorateMain(main);
+  await loadSections(main);
+  return main;
+}
 
 function el(tag, className, attrs = {}) {
   const e = document.createElement(tag);
@@ -108,8 +165,8 @@ function buildPhone(link) {
   em?.remove();
   strong?.remove();
   hours.append(...link.childNodes);
-  text.append(num, hours);
-  link.append(label, text);
+  text.append(num, ' ', hours);
+  link.append(label, ' ', text);
   const wrap = el('div', 'headerNavigation__phone-button-wrapper');
   wrap.append(link);
   return wrap;
@@ -128,9 +185,11 @@ function buildTools(section, ctx) {
     const name = img?.dataset.iconName || '';
     if (!link && name === 'burger-menu') {
       const btn = el('button', 'headerNavigation__button headerNavigation__button-with-icon '
-        + 'headerNavigation__menu-toggle hn-mobile-only', {
+        + 'headerNavigation__menu-toggle headerNavigation__button--burger hn-mobile-only', {
         type: 'button',
+        id: 'MainNavi-mobile-navigation-toggle-button',
         'data-action': 'menu',
+        'aria-haspopup': 'menu',
         'aria-expanded': 'false',
         'aria-controls': 'headerNavigation__sidebar',
       });
@@ -342,7 +401,8 @@ function buildMenu(section, tiles) {
     const heading = el('p', 'headerNavigation__navigation-item-heading');
     if (span) heading.append(...span.cloneNode(true).childNodes);
     const sub = li.querySelector(':scope > ul');
-    if (sub) sub.before(heading);
+    // after the list: the toggle button stays the list's immediate sibling (grid-placed on desktop)
+    if (sub) sub.after(heading);
     else li.append(heading);
     li.append(buildTiles(tiles[i]));
   });
@@ -499,9 +559,7 @@ function wireBehaviour(block) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
-  const fragment = await loadFragment(navPath);
+  const fragment = await loadNav();
   if (!fragment) return;
   const s = collectSections(fragment);
   const ctx = { closeLabel: '' };

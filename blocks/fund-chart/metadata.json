@@ -1,0 +1,38 @@
+{
+  "variantName": "fund-chart",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "icon",
+    "purpose": "Fund allocation chart: tab bar of breakdown views (sectors, regions, largest holdings), each with a chart graphic (e.g. world map with bubbles) and a legend of series with percentages",
+    "layout": "Tab bar on top, graphic below, centred legend row under the graphic"
+  },
+  "contentPattern": {
+    "structure": "optional 1-cell intro rows; then one row per view: tab label | graphic (picture, or a table/text) | legend list (one item per series, e.g. '66,4 % Nordamerika')"
+  },
+  "options": [
+    {
+      "class": "cyan-magenta",
+      "label": "Cyan Magenta"
+    }
+  ],
+  "memberVariantIds": [
+    "v_211556e569c0",
+    "v_eaeb3ccead42",
+    "v_eaeb3ccead42-1",
+    "v_eec7779307ad"
+  ],
+  "usage": {
+    "reuseCount": 4,
+    "pageCount": 2,
+    "samplePages": [
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/Index-Rente/index2",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/Index-Rente/index1"
+    ]
+  },
+  "reuseGuidance": "Use fund-chart for fund allocation / breakdown charts. The block renders the authored chart image and legend per view statically; the tabs only switch between authored views. Live fund data, an interactive chart library and any data service are out of scope for now and need a later integration pass."
+}

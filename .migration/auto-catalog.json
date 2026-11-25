@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "producer": "excat-replica-adapter",
+  "savedAt": "2026-11-20T09:20:02.249Z",
+  "siteUrl": "https://www.ergo.de",
+  "templates": [
+    {
+      "name": "hub-landing",
+      "description": "Section hub pages (private, business, all products, service) with product hero, promo cards and tile carousels",
+      "urls": [
+        "https://www.ergo.de/de",
+        "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+        "https://www.ergo.de/de/Produkte",
+        "https://www.ergo.de/de/Service"
+      ]
+    },
+    {
+      "name": "business-product",
+      "description": "Business insurance product pages with product hero, benefits, FAQ accordions and tariff tables",
+      "urls": [
+        "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+        "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung"
+      ]
+    },
+    {
+      "name": "business-product-cyber",
+      "description": "Cyber insurance product page: business product layout with extra tariff tables, CTAs and promo",
+      "urls": [
+        "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen"
+      ]
+    },
+    {
+      "name": "advice-hub",
+      "description": "Ratgeber advice hub: article header, breadcrumb, text columns and article card carousels",
+      "urls": [
+        "https://www.ergo.de/de/Ratgeber"
+      ]
+    },
+    {
+      "name": "legal-portal",
+      "description": "Rechtsportal listing page: article header, breadcrumb, card carousels and promos",
+      "urls": [
+        "https://www.ergo.de/de/rechtsportal"
+      ]
+    },
+    {
+      "name": "homepage",
+      "description": "Site homepage with banner, landing hero, promo card carousels, CTAs and eKomi reviews",
+      "urls": [
+        "https://www.ergo.de/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.ergo.de/de",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Produkte",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Service",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Betriebliche-Altersversorgung",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Dienstreiseversicherung",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/de/Geschaeftskunden-Produkte/Cyber-Versicherung-fuer-Unternehmen",
+      "blocks": [
+        "accordion",
+        "benefits",
+        "carousel",
+        "cta",
+        "hero",
+        "product-table",
+        "promo"
+      ]
+    },
+    {
+      "url": "https://www.ergo.de/de/Ratgeber",
+      "blocks": [
+        "article-header",
+        "benefits",
+        "breadcrumb",
+        "carousel",
+        "ccw",
+        "promo"
+      ]
+    },
+    {
+      "url": "https://www.ergo.de/de/rechtsportal",
+      "blocks": []
+    },
+    {
+      "url": "https://www.ergo.de/",
+      "blocks": [
+        "banner",
+        "carousel",
+        "cta",
+        "ekomi",
+        "hero"
+      ]
+    }
+  ]
+}

@@ -14,7 +14,8 @@
  *   - source paragraph(s) (`Ermittelt aus <strong>387.152</strong> Bewertungen<br>…`)
  *   - CTA paragraph `<em><a href>…</a></em>` (canon text link with chevron)
  *
- * @variants block class: none
+ * @variants block class: benefits (lists authored before the rating become a benefit-bullet
+ *   panel beside the rating instead of part of the quote) | alt (compact seal + score + count)
  */
 const div = (cls) => {
   const d = document.createElement('div');
@@ -31,15 +32,26 @@ export default function decorate(block) {
   const quote = [];
   const text = [];
   const ctas = [];
+  const benefits = [];
+  const withBenefits = block.classList.contains('benefits');
   let seal = null;
   nodes.forEach((el, i) => {
     if (i === r) return;
+    if (withBenefits && /^(UL|OL)$/.test(el.tagName)) {
+      benefits.push(el);
+      return;
+    }
     if (r > 0 && i === r - 1 && !isCta(el)) seal = el;
     else if (isCta(el)) ctas.push(el);
     else if (r < 0 || i < r) quote.push(el);
     else text.push(el);
   });
   const parts = [];
+  if (benefits.length) {
+    const list = div('ekomi-benefits');
+    list.append(...benefits);
+    parts.push(list);
+  }
   if (quote.length) {
     const figure = document.createElement('figure');
     figure.className = 'ekomi-figure';

@@ -12,7 +12,45 @@
  * @variants block class: frame | box (default frame) · grey | green | teal | magenta | orange
  *   | yellow (accent colour) · flag-center | flag-right (default flag left) · check-list
  *   (list items with the canon black check icon)
+ *
+ * A block holding only one short text paragraph (no heading, link, image or list) is a flag on
+ * its own (`flag-only`): the import splits a framed box's flag from its items, so the flag sits
+ * over the top edge of a benefits block that follows it. An icon paragraph inside the item text
+ * followed by a paragraph renders as an icon row (icon at the line start, text indented).
  */
+
+import { decorateIcons } from '../../scripts/aem.js';
+
+// a raw (unrendered) document still carries `:icon:` tokens as text (local preview of
+// imported .plain.html); render them as the pipeline does: <span class="icon icon-name"><img>
+const ICON_TOKEN = /^\s*:([a-z][a-z0-9-]*):\s*$/;
+function renderIconTokens(block) {
+  let hits = 0;
+  block.querySelectorAll('p').forEach((p) => {
+    if (p.children.length) return;
+    const m = ICON_TOKEN.exec(p.textContent);
+    if (!m) return;
+    const span = document.createElement('span');
+    span.className = `icon icon-${m[1]}`;
+    p.replaceChildren(span);
+    hits += 1;
+  });
+  if (hits) decorateIcons(block);
+}
+
+const FLAG_MAX = 48;
+/** one short plain-text paragraph and nothing else: a flag authored as its own block */
+function isFlagOnly(block) {
+  const rows = [...block.children];
+  if (rows.length !== 1) return false;
+  const cells = [...rows[0].children];
+  if (cells.length !== 1) return false;
+  const kids = [...cells[0].children];
+  if (kids.length > 1 || (kids[0] && kids[0].tagName !== 'P')) return false;
+  if (cells[0].querySelector('a, picture, img, .icon')) return false;
+  const text = cells[0].textContent.replace(/\s+/g, ' ').trim();
+  return !!text && text.length <= FLAG_MAX && !/[.!?]$/.test(text);
+}
 
 function collectNodes(block) {
   const out = [];
@@ -24,7 +62,36 @@ function collectNodes(block) {
 
 const isIconPara = (el) => el.tagName === 'P' && el.querySelector('.icon') && !el.textContent.trim();
 
+function iconRows(items) {
+  items.querySelectorAll('.benefits-item-text').forEach((text) => {
+    [...text.children].forEach((el) => {
+      const next = el.nextElementSibling;
+      if (!isIconPara(el) || !next || isIconPara(next)) return;
+      const row = document.createElement('div');
+      row.className = 'benefits-icon-row';
+      el.replaceWith(row);
+      el.classList.add('benefits-icon-row-icon');
+      row.append(el, next);
+    });
+  });
+}
+
 export default function decorate(block) {
+  renderIconTokens(block);
+  if (isFlagOnly(block)) {
+    const cell = block.querySelector(':scope > div > div');
+    const flagEl = document.createElement('div');
+    flagEl.className = 'benefits-flag';
+    const p = cell.querySelector('p') || document.createElement('p');
+    if (!p.parentElement) p.textContent = cell.textContent.trim();
+    flagEl.append(p);
+    const flag = document.createElement('div');
+    flag.className = 'benefits-flag-container';
+    flag.append(flagEl);
+    block.classList.add('flag-only');
+    block.replaceChildren(flag);
+    return;
+  }
   const nodes = collectNodes(block);
   if (!nodes.length) return;
   const headTag = (() => {
@@ -68,8 +135,9 @@ export default function decorate(block) {
     openItem().append(text);
   }
 
-  body.forEach((el) => {
-    if (isIconPara(el)) {
+  body.forEach((el, i) => {
+    // an icon paragraph right before an item heading is the item's icon; elsewhere it is content
+    if (headTag && isIconPara(el) && body[i + 1] && body[i + 1].tagName === headTag) {
       pendingIcon = el;
       return;
     }
@@ -105,6 +173,7 @@ export default function decorate(block) {
   // leftovers: an icon with no item heading after it stays visible
   if (pendingIcon) (current || items).append(pendingIcon);
 
+  iconRows(items);
   const parts = [];
   if (flag.children.length) parts.push(flag);
   parts.push(items);

@@ -1,0 +1,525 @@
+/* cards-tariff: tariff / step cards (source .cmp-carouselContainer > .cmp-promo).
+   Mobile first; desktop type ramp and card padding from 768px (source tablet). */
+.cards-tariff {
+  /* the section band repaints the block box so it measures like the source module */
+  --ct-link-height: 40px;
+  --ct-link-radius: 8px;
+  --cta-height: 40px;
+  --cta-radius: 8px;
+  --cta-width: 100%;
+  --cta-width-l: 100%;
+  --cta-margin-inline: 0;
+
+  /* the source module owns the 12px column gutter: take it back from the section column */
+  margin-inline: calc(-1 * var(--col-gutter));
+  padding-inline: var(--col-gutter);
+  background-color: var(--bg, transparent);
+  color: var(--c-text);
+}
+
+.cards-tariff > ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-tariff .cards-tariff-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background-color: #fff;
+}
+
+.cards-tariff .cards-tariff-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 32px 24px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.cards-tariff .cards-tariff-card-image {
+  line-height: 0;
+}
+
+.cards-tariff .cards-tariff-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* flag: tab hanging from the top edge (source promo flag container, in flow) */
+.cards-tariff .cards-tariff-flag {
+  align-self: center;
+  max-width: 80%;
+  margin: 0;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--ct-flag-bg, var(--c-flag));
+  color: var(--ct-flag-color, #fff);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cards-tariff .cards-tariff-flag + .cards-tariff-card-body {
+  padding-top: 16px;
+}
+
+.cards-tariff .cards-tariff-tagline {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cards-tariff .cards-tariff-number {
+  color: var(--c-brand);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.4px;
+}
+
+.cards-tariff .cards-tariff-name {
+  margin: 0 0 24px;
+  color: var(--c-text);
+  font-family: var(--ff-sans);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.cards-tariff .cards-tariff-name:last-child {
+  margin-bottom: 0;
+}
+
+.cards-tariff .cards-tariff-card-body > p:not([class]) {
+  margin: 0;
+}
+
+.cards-tariff .cards-tariff-card-body > p:not([class], :last-child) {
+  margin-bottom: 20px;
+}
+
+.cards-tariff .cards-tariff-features {
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+  text-align: start;
+}
+
+.cards-tariff .cards-tariff-features + p:not([class]) {
+  margin-top: 6px;
+}
+
+.cards-tariff .cards-tariff-features:last-child {
+  margin-bottom: 0;
+}
+
+.cards-tariff .cards-tariff-features li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-inline-start: 32px;
+}
+
+.cards-tariff .cards-tariff-features li:last-child {
+  margin-bottom: 0;
+}
+
+.cards-tariff .cards-tariff-features li::before {
+  content: "";
+  position: absolute;
+  top: 0.5px;
+  inset-inline-start: 0;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23009284'/%3E%3Cpath fill='%23fff' d='M16.6 7.2 10.9 15l-2.3-2.6H6.9l3.1 3.6c.2.3.5.4.9.4h.1c.3 0 .7-.2.9-.5l6.4-8.7h-1.7Z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* price: "z. B." + amount + suffix; price and actions sit at the bottom so cards align */
+.cards-tariff .cards-tariff-price {
+  margin: auto 0 32px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.cards-tariff .cards-tariff-price:last-child {
+  margin-bottom: 0;
+}
+
+.cards-tariff .cards-tariff-price strong {
+  margin-inline: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.cards-tariff .cards-tariff-price strong:first-child {
+  margin-inline-start: 0;
+}
+
+.cards-tariff .cards-tariff-actions-start {
+  margin-top: auto;
+}
+
+.cards-tariff .cards-tariff-price + .cards-tariff-actions-start {
+  margin-top: 0;
+}
+
+.cards-tariff .cards-tariff-link {
+  margin-bottom: 16px;
+}
+
+.cards-tariff .cards-tariff-link:last-child,
+.cards-tariff .cards-tariff-cta {
+  margin-bottom: 0;
+}
+
+/* text link with chevron (source cmp-cta text-link) */
+.cards-tariff .cards-tariff-link a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  min-height: var(--ct-link-height);
+  margin-inline: auto;
+  padding: 1px 0;
+  border: 1px solid transparent;
+  border-radius: var(--ct-link-radius);
+  color: var(--c-brand);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cards-tariff .cards-tariff-link a:any-link::after {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: url("../../icons/chevron-right.svg") center / 20px no-repeat;
+}
+
+.cards-tariff .cards-tariff-link a:any-link:hover {
+  color: var(--c-brand-hover);
+  text-decoration: underline;
+}
+
+/* small-screen slider controls (JS adds them for the carousel looks) */
+.cards-tariff .cards-tariff-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.cards-tariff .cards-tariff-nav button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.cards-tariff .cards-tariff-prev,
+.cards-tariff .cards-tariff-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--c-brand);
+}
+
+.cards-tariff .cards-tariff-prev::before,
+.cards-tariff .cards-tariff-next::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: currentcolor;
+  mask: url("../../icons/chevron-right.svg") center / 24px no-repeat;
+}
+
+.cards-tariff .cards-tariff-prev::before {
+  transform: scaleX(-1);
+}
+
+.cards-tariff .cards-tariff-dots {
+  display: flex;
+  gap: 12px;
+}
+
+.cards-tariff .cards-tariff-nav .cards-tariff-dot {
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--c-brand);
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.cards-tariff .cards-tariff-nav .cards-tariff-dot[aria-current="true"] {
+  background-color: var(--c-brand);
+}
+
+@media (width < 768px) {
+  .cards-tariff.cards-tariff-carousel > ul {
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .cards-tariff.cards-tariff-carousel > ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cards-tariff.cards-tariff-carousel .cards-tariff-card {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+}
+
+@media (width >= 768px) {
+  .cards-tariff {
+    --ct-link-height: 48px;
+    --ct-link-radius: 12px;
+    --cta-height: 48px;
+    --cta-radius: 12px;
+  }
+
+  .cards-tariff > ul {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  .cards-tariff .cards-tariff-nav {
+    display: none;
+  }
+
+  .cards-tariff .cards-tariff-card-body {
+    padding: 48px 32px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cards-tariff .cards-tariff-flag + .cards-tariff-card-body {
+    padding-top: 16px;
+  }
+
+  .cards-tariff .cards-tariff-flag {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .cards-tariff .cards-tariff-tagline {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cards-tariff .cards-tariff-number {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .cards-tariff .cards-tariff-name {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .cards-tariff .cards-tariff-card-body > p:not([class], :last-child) {
+    margin-bottom: 24px;
+  }
+
+  .cards-tariff .cards-tariff-features {
+    margin-bottom: 24px;
+  }
+
+  .cards-tariff .cards-tariff-features + p:not([class]) {
+    margin-top: 0;
+  }
+
+  .cards-tariff .cards-tariff-features li {
+    margin-bottom: 12px;
+    padding-inline-start: 36px;
+  }
+
+  .cards-tariff .cards-tariff-features li::before {
+    top: 2px;
+  }
+
+  /* slider looks keep the source's pagination gap under the row */
+  .cards-tariff:is(.alt, .alt-3, .grey, .grey-3) > ul {
+    padding-bottom: 24px;
+  }
+}
+
+/* ---- looks --------------------------------------------------------------------------- */
+
+/* left-aligned tariff cards */
+.cards-tariff:is(.alt, .cyan-grey, .cyan-dark-grey-orange, .grey) .cards-tariff-card-body {
+  text-align: start;
+}
+
+/* alt-2, alt-3: centred head, left list and price */
+.cards-tariff:is(.alt-2, .alt-3) .cards-tariff-card-body > :not(.cards-tariff-tagline, .cards-tariff-name) {
+  text-align: start;
+}
+
+/* grey-3: everything centred, price included */
+.cards-tariff.grey-3 .cards-tariff-price {
+  text-align: center;
+}
+
+/* serif brand-red plan names */
+.cards-tariff:is(.alt, .alt-2, .alt-3, .cyan-grey, .grey-3) .cards-tariff-name {
+  color: var(--c-brand);
+  font-family: var(--ff-serif);
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.cards-tariff:is(.alt-2, .alt-3) .cards-tariff-name {
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+/* grey: bold tagline, larger sans plan name */
+.cards-tariff.grey .cards-tariff-tagline {
+  font-weight: 700;
+  line-height: 18.2px;
+}
+
+.cards-tariff.grey .cards-tariff-name {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* flag colours */
+.cards-tariff.cyan-grey {
+  --ct-flag-bg: #428071;
+}
+
+.cards-tariff.grey {
+  --ct-flag-bg: #77756e;
+}
+
+.cards-tariff.cyan-dark-grey-orange .cards-tariff-card:nth-child(3n + 2) {
+  --ct-flag-bg: #428071;
+}
+
+.cards-tariff.cyan-dark-grey-orange .cards-tariff-card:nth-child(3n) {
+  --ct-flag-bg: #e5c536;
+  --ct-flag-color: var(--c-text);
+}
+
+/* CTA icons */
+.cards-tariff:is(.grey, .grey-3) .cards-tariff-cta a.button {
+  column-gap: 10px;
+}
+
+.cards-tariff:is(.grey, .grey-3) .cards-tariff-cta a.button::before {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: url("../../icons/calculator.svg") center / 20px no-repeat;
+}
+
+.cards-tariff.grey-3 .cards-tariff-cta a.button::before {
+  mask-image: url("../../icons/man.svg");
+}
+
+@media (width >= 768px) {
+  /* alt-2: source module is width-extended (1256 column on narrow product pages) */
+  main .cards-tariff-wrapper:has(> .cards-tariff.alt-2) {
+    width: min(var(--col-max), 100% - 2 * var(--col-gutter));
+  }
+
+  .cards-tariff:is(.alt, .alt-2, .alt-3, .cyan-grey, .grey-3) .cards-tariff-name {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  .cards-tariff:is(.alt-2, .alt-3) .cards-tariff-name {
+    font-size: 28px;
+    line-height: 36.4px;
+  }
+
+  .cards-tariff.grey .cards-tariff-tagline {
+    line-height: 20.8px;
+  }
+
+  .cards-tariff.grey .cards-tariff-name {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+
+  /* alt: large price, compact text link */
+  .cards-tariff.alt .cards-tariff-price {
+    font-size: 18px;
+  }
+
+  .cards-tariff.alt .cards-tariff-price strong {
+    margin-inline: 12px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .cards-tariff.alt .cards-tariff-price strong:first-child {
+    margin-inline-start: 0;
+  }
+
+  .cards-tariff.alt {
+    --ct-link-height: 40px;
+    --ct-link-radius: 8px;
+  }
+
+  /* cyan-grey: compact link and button */
+  .cards-tariff.cyan-grey {
+    --ct-link-height: 40px;
+    --ct-link-radius: 8px;
+    --cta-height: 40px;
+    --cta-radius: 8px;
+  }
+
+  /* grey-3: text link hugs its label */
+  .cards-tariff.grey-3 .cards-tariff-link a:any-link {
+    width: fit-content;
+  }
+}
+
+@media (width >= 912px) {
+  /* alt-3, cyan-dark-grey-orange: button hugs its label, centred */
+  .cards-tariff:is(.alt-3, .cyan-dark-grey-orange) {
+    --cta-width-l: fit-content;
+    --cta-margin-inline: auto;
+  }
+}
+
+/* the actions keep at least 32px to the content above them (source promo-cta margin-top) */
+.cards-tariff .cards-tariff-card-body > :is(p, ul, ol):has(+ .cards-tariff-actions-start) {
+  margin-bottom: 32px;
+}

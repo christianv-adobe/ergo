@@ -1,0 +1,21 @@
+{
+  "variantName": "price",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button"
+  },
+  "contentPattern": {
+    "structure": "one row | price line with the amount in bold (\"Beitrag z. B. **24,15 €** monatlich\") | info text (optional) |"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_fa66f2398acd"
+  ],
+  "usage": "Starting-price line under product heroes and promos on product pages. Used on 13 catalogued pages (reuse count 13), e.g. https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung, https://www.ergo.de/de/Produkte/KFZ-Versicherung/Autoversicherung, https://www.ergo.de/de/Produkte/Krankenversicherung/Augenversicherung.",
+  "reuseGuidance": "Reuse price for any standalone example premium line; live premium calculation is out of scope, the authored amount is shown as-is."
+}

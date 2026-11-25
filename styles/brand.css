@@ -1,0 +1,113 @@
+/*
+ * ERGO (www.ergo.de) brand tokens.
+ * Source of truth for colour, type, spacing and CTA tokens; styles/styles.css imports this
+ * file first and every block reads these names. Values are computed styles measured on
+ * https://www.ergo.de/de/Produkte/Unfallversicherung and https://www.ergo.de/ (raw extract:
+ * migration-work/brand.json).
+ *
+ * FONTS: FS Me (Fontsmith) and Fedra Serif (Typotheque) are licensed kits that are not on
+ * Typekit or Google Fonts; styles/fonts.css declares the self-hosted OFL substitutes and
+ * styles/styles.css the metric-matched local fallbacks. The brand family stays first in
+ * each stack so a licensed kit dropped in later wins without a code change.
+ */
+:root {
+  /* type */
+  --ff-sans: "FS Me", "FS Me Substitute", fs-me-fallback, arial, helvetica, sans-serif;
+  --ff-serif:
+    "Fedra Serif", "Fedra Serif Substitute", fedra-serif-fallback, georgia,
+    "Times New Roman", serif;
+  --body-font-family: var(--ff-sans);
+  --heading-font-family: var(--ff-sans);
+
+  /* colours */
+  --c-brand: #8e0038;
+  --c-brand-hover: #601028;
+  --c-brand-active: #a1354f;
+  --c-text: #333;
+  --c-border: #c9c5c7;
+  --c-border-hover: #7a7578;
+  --c-border-active: #9a9395;
+  --c-line: #d9d9d9;
+  --c-flag: #c34a89;
+  --c-ribbon: #f6f5f5;
+  --c-check: #009284;
+
+  /* section bands (Section Metadata `Style: bg-*`) */
+  --bg-yellow: #fef6d2;
+  --bg-orange: #ffe0cb;
+  --bg-magenta: #f5e1eb;
+  --bg-green: #d3ebe5;
+  --bg-blue: #ccecef;
+  --bg-warmgrey: #ebe6d8;
+  --radius: 8px;
+
+  /* boilerplate names */
+  --background-color: #fff;
+  --light-color: var(--c-ribbon);
+  --dark-color: #7a7578;
+  --text-color: var(--c-text);
+  --link-color: var(--c-brand);
+  --link-hover-color: var(--c-brand-hover);
+
+  /* body sizes (source .cmp-text ramp) */
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+
+  /* heading sizes, mobile first (desktop values from 768px below) */
+  --heading-font-size-xxl: 16px; /* h1: txt__h1 */
+  --heading-font-size-xl: 24px; /* h2: section heading */
+  --heading-font-size-l: 20px; /* h3: rich-text h3 */
+  --heading-font-size-m: 18px; /* h4-h6 */
+  --heading-font-size-s: 20px; /* kept: stock blocks read it as a fixed small heading */
+  --heading-font-size-xs: 16px;
+
+  /* spacing: source component padding-s / -m / -l / -xl */
+  --sp-s: 8px;
+  --sp-m: 24px;
+  --sp-l: 40px;
+  --sp-xl: 56px;
+  --section-padding: var(--sp-l);
+
+  /* container model: every module capped on its own (min(1256, 100% - 24), 12px gutters) */
+  --col-max: 1256px;
+  --col-gutter: 12px;
+  --content-max-width: var(--col-max);
+
+  /* fixed header height: 73px, 97px from 1152 */
+  --header-height: 73px;
+  --nav-height: var(--header-height);
+
+  /* CTA (source .cmp-cta tokens) */
+  --cta-shadow-hover:
+    rgb(58 58 58 / 4%) 0 0 2px 0, rgb(58 58 58 / 5%) 0 4px 8px 0;
+  --cta-transition-duration: 0.15s;
+  --cta-transition-timing: ease-out;
+  --focus-offset: 4px;
+  --icon-filter-brand:
+    brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(5000%)
+    hue-rotate(323deg) brightness(84%) contrast(108%);
+}
+
+@media (width >= 480px) {
+  :root {
+    --sp-s: 12px;
+    --sp-l: 48px;
+    --sp-xl: 64px;
+  }
+}
+
+@media (width >= 768px) {
+  :root {
+    --heading-font-size-xxl: 18px;
+    --heading-font-size-xl: 28px;
+    --heading-font-size-l: 24px;
+    --heading-font-size-m: 20px;
+  }
+}
+
+@media (width >= 1152px) {
+  :root {
+    --header-height: 97px;
+  }
+}

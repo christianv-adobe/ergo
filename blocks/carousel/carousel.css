@@ -1,10 +1,21 @@
 /* carousel — canon carousel container (canon.css c18), download card (program.css),
    tile (canon.css c42 + modules.css icon-less reduced variant). */
 /* stylelint-disable no-descending-specificity -- tile variants mirror the canon cascade */
+
+/* canon grid column: the block box is the 12px-padded column, the slide list bleeds back
+   over the padding (net slide gutters 12px, as live .carouselContainer > .splide__list) */
 .carousel {
   --column-width: 100%;
 
   margin-inline: -12px;
+  padding-inline: 12px;
+}
+
+/* look class `icon` also matches the global `.icon` (24px inline-block) — keep the block a block */
+.carousel.icon {
+  display: block;
+  width: auto;
+  height: auto;
 }
 
 @media (width >= 768px) and (width <= 911px) {
@@ -31,8 +42,12 @@
   }
 }
 
+/* flow-root: the track's -16px bleed (room for focus rings / shadows) stays inside the block
+   instead of collapsing through it, so the block box starts at the slides */
 .carousel .splide {
   position: relative;
+  display: flow-root;
+  margin-inline: -12px;
 }
 
 .carousel .splide-track {
@@ -87,7 +102,7 @@
   display: block;
   width: 100%;
   min-height: 40px;
-  margin: 16px auto 0;
+  margin: 40px auto 0;
   padding: 0 66px;
 }
 
@@ -119,6 +134,12 @@
   pointer-events: all;
 }
 
+/* icon-only splide buttons keep the UA button font (live: 13.33px / normal) */
+.carousel :is(.carousel-control, .carousel-indicator) {
+  font-size: 13.3333px;
+  line-height: normal;
+}
+
 .carousel .carousel-control::before {
   content: "";
   width: 20px;
@@ -137,7 +158,6 @@
   justify-content: center;
   align-items: flex-start;
   gap: var(--dot);
-  min-height: 100%;
   margin: 0 auto;
   padding: calc((var(--nav-h) - var(--dot)) / 2) 0 0;
   line-height: 1;
@@ -175,9 +195,10 @@
   }
 }
 
+/* live: 40 (48 from 912) between the slides and the arrows / dots */
 @media (width >= 912px) {
   .carousel.is-slider .carousel-navigation {
-    margin-top: 24px;
+    margin-top: 48px;
   }
 }
 
@@ -336,8 +357,11 @@
   font: inherit;
 }
 
+/* the gap above the tile text sits on its first child (live .cmp-tile__text holds the text
+   itself, its padding is part of the text box) */
 .carousel .tile-text {
-  padding-top: 24px;
+  --tile-text-pt: 24px;
+
   font-size: 14px;
   line-height: 1.4286;
 }
@@ -346,6 +370,21 @@
   margin: 0;
   color: inherit;
   font: inherit;
+}
+
+.carousel .tile:not(.promo) .tile-title + .tile-text > :first-child {
+  padding-top: var(--tile-text-pt);
+}
+
+/* list items in tile and card text sit 10 (12 from 768) apart (live canon text lists) */
+.carousel:not(.canon) :is(.tile-text, .card-text) li + li {
+  margin-top: 10px;
+}
+
+@media (width >= 768px) {
+  .carousel:not(.canon) :is(.tile-text, .card-text) li + li {
+    margin-top: 12px;
+  }
 }
 
 .carousel .tile-cta-wrapper {
@@ -365,7 +404,7 @@
   margin: 0;
 }
 
-.carousel .tile a.button::after {
+.carousel .tile:not(.promo) a.button::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -423,7 +462,7 @@
   }
 
   .carousel .tile.reduced-m .tile-text {
-    padding-top: 8px;
+    --tile-text-pt: 8px;
   }
 
   .carousel .tile.reduced-m .tile-cta-wrapper {
@@ -450,12 +489,11 @@
     inset: 0;
     justify-content: flex-end;
     column-gap: 0;
-    letter-spacing: 0;
     width: auto;
     padding: 0 20px 0 0;
     border-width: 0;
     border-radius: var(--radius);
-    font-size: 0;
+    text-align: left;
   }
 
   .carousel .tile.reduced-m a.button::before {
@@ -486,7 +524,7 @@
   }
 
   .carousel .tile.reduced-m .tile-text {
-    padding-top: 12px;
+    --tile-text-pt: 12px;
   }
 
   .carousel .tile.reduced-m a.button {
@@ -517,7 +555,7 @@
   }
 
   .carousel .tile.reduced-d .tile-text {
-    padding-top: 12px;
+    --tile-text-pt: 12px;
   }
 
   .carousel .tile.reduced-d .tile-cta-wrapper {
@@ -544,12 +582,11 @@
     inset: 0;
     justify-content: flex-end;
     column-gap: 0;
-    letter-spacing: 0;
     width: auto;
     padding: 0 32px 0 0;
     border-width: 0;
     border-radius: var(--radius);
-    font-size: 0;
+    text-align: left;
   }
 
   .carousel .tile.reduced-d a.button::before {
@@ -781,13 +818,14 @@
   --pc-pt: 16px;
 }
 
+/* canon promo title (txt__h4, sans, left — measured on every captured image card) */
 .carousel .card-headline {
   color: var(--c-text);
-  font-family: var(--ff-serif);
-  font-size: 20px;
+  font-family: var(--ff-sans);
+  font-size: 18px;
   font-weight: 700;
-  line-height: 26px;
-  text-align: center;
+  line-height: 23.4px;
+  text-align: left;
 }
 
 /* cluster-landing: subhead line above the card title (canon .cmp-promo__headline over a
@@ -819,7 +857,7 @@
 }
 
 .carousel .card-text {
-  text-align: center;
+  text-align: left;
 }
 
 .carousel .card-headline + .card-text {
@@ -919,8 +957,8 @@
   }
 
   .carousel .card-headline {
-    font-size: 24px;
-    line-height: 31.2px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .carousel .card-text :is(p, li) {
@@ -941,6 +979,36 @@
   .carousel .card-actions .card-cta {
     --cta-width: fit-content;
     --cta-margin-inline: auto;
+  }
+}
+
+/* price line before the card CTA (`Ab <strong>1,85 €</strong> monatlich`, live promo price:
+   16px label, 28/36 bold amount, 14 → 24 under the text, left-aligned) */
+.carousel .card-price {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.carousel .card-price p {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.carousel .card-price strong {
+  margin-inline: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+@media (width >= 768px) {
+  .carousel .card-price {
+    margin-top: 24px;
   }
 }
 
@@ -1021,13 +1089,13 @@
   text-align: center;
 }
 
-.carousel.canon .card-small-image {
+.carousel .card-small-image {
   position: relative;
   width: 168px;
   margin: -78px 0 0 24px;
 }
 
-.carousel.canon .card-small-image img {
+.carousel .card-small-image img {
   display: block;
   width: 168px;
   height: 112px;
@@ -1275,4 +1343,381 @@
   content: "";
   position: absolute;
   inset: 0;
+}
+
+/* ---- catalog option classes (block-generator augment) -------------------------------------
+ * Layout families are mapped to the existing flags in JS (slider* → slider-always, image* /
+ * image-top* / bordered* → cards, link-tiles* / icon-tiles* → reduced tiles). Colour words in
+ * any option token become one tone-<colour> class; the tints below are placeholders for the
+ * design pass. */
+.carousel.tone-cyan .card {
+  --card-bg: #ccecef;
+  --card-flag-bg: #318187;
+  --card-border-w: 0;
+}
+
+.carousel.tone-magenta .card {
+  --card-bg: #f5e1eb;
+  --card-flag-bg: #c34a89;
+  --card-border-w: 0;
+}
+
+.carousel.tone-orange .card {
+  --card-bg: #ffe0cb;
+  --card-flag-bg: #b46018;
+  --card-border-w: 0;
+}
+
+.carousel.tone-grey .card {
+  --card-bg: #ebe6d8;
+  --card-flag-bg: #77756e;
+  --card-border-w: 0;
+}
+
+.carousel.tone-light .card {
+  --card-bg: var(--c-bg-light, #f6f6f6);
+  --card-border-w: 0;
+}
+
+.carousel.tone-dark .card {
+  --card-bg: #333;
+  --card-border-w: 0;
+
+  color: #fff;
+}
+
+/* bordered: framed tiles / cards (keep the 1px frame even with a tone) */
+.carousel:is(.bordered, .bordered-text) .card {
+  --card-border-w: 1px;
+}
+
+/* bordered-text: text-only teaser cards — no image row */
+.carousel.bordered-text .card {
+  grid-template-rows: auto;
+}
+
+/* image-top*: image always above the card content */
+.carousel[class*="image-top"] .card.has-image {
+  grid-template-columns: 1fr;
+}
+
+/* icon-tiles-download / link-tiles download cards: left-aligned text */
+.carousel:is(.icon-tiles-download, .link-tiles-4, .link-tiles-5, .link-tiles-6, .link-tiles-7) .tile {
+  text-align: left;
+}
+
+/* ---- promo tile (canon c36 .cmp-promo painted as a tile: no CTA, several CTAs, a text link
+ * or a filled button, or a flag line before the heading) — measured on the live product
+ * pages: title txt__h4 18/23.4 → 20/26, text 14/21 → 16/24, icon 48 with 16 below, CTAs 32
+ * under the text and 16 apart, the flag a pill hanging from the top edge. */
+.carousel .tile.promo {
+  --tile-icon-size: 48px;
+}
+
+.carousel .tile.promo .tile-icon-wrapper {
+  margin: 16px 0;
+}
+
+.carousel .tile.promo .tile-title {
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+/* promo tiles (live .cmp-promo__text wraps its paragraphs): the gap stays on the container */
+.carousel .tile.promo .tile-text {
+  padding-top: var(--tile-text-pt);
+  line-height: 21px;
+}
+
+.carousel .tile.promo .tile-text :is(ul, ol) {
+  margin: 0;
+  padding-left: 24px;
+  text-align: left;
+}
+
+.carousel .tile.promo .tile-text > * + * {
+  margin-top: 21px;
+}
+
+/* a heading inside the text (h-red: "1." over "Beitrag berechnen") is the promo title; the
+   slide heading above it is the brand-colour number headline */
+.carousel .tile.promo .tile-text > :is(h2, h3, h4, h5, h6) {
+  margin: 0 0 24px;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.carousel .tile.promo:has(.tile-text > :first-child:is(h2, h3, h4, h5, h6)) .tile-title {
+  color: var(--c-brand);
+  font-size: 28px;
+  line-height: 36.4px;
+}
+
+.carousel .tile.promo:has(.tile-text > :first-child:is(h2, h3, h4, h5, h6)) .tile-text {
+  --tile-text-pt: 8px;
+}
+
+.carousel .tile.promo .tile-cta-wrapper {
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.carousel .tile.promo .cmp-cta.size-auto {
+  --cta-width: fit-content;
+}
+
+.carousel .tile.promo .cmp-cta .icon {
+  display: none;
+}
+
+.carousel .tile.promo .cmp-cta.ic-chevron-right {
+  --icon: url("../../icons/chevron-right.svg");
+}
+
+.carousel .tile.promo .cmp-cta.ic-headset {
+  --icon: url("../../icons/headset.svg");
+}
+
+.carousel .tile.promo .cmp-cta:is(.ic-chevron-right, .ic-headset) a.button::after {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px no-repeat;
+}
+
+.carousel .tile.has-flag {
+  padding-top: 0;
+}
+
+.carousel .tile-flag-container {
+  display: flex;
+  justify-content: center;
+  min-height: 28px;
+  margin-bottom: 16px;
+}
+
+.carousel .tile-flag {
+  max-width: 80%;
+  padding: 5px 8px;
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+  background: var(--c-flag);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.carousel .tile-flag p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.carousel .tile.has-flag .tile-icon-wrapper {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  .carousel .tile.promo .tile-icon-wrapper {
+    margin-top: 0;
+  }
+
+  .carousel .tile.promo .tile-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .carousel .tile.promo .tile-text {
+    line-height: 24px;
+  }
+
+  .carousel .tile.promo .tile-text > * + * {
+    margin-top: 24px;
+  }
+
+  .carousel .tile.promo .tile-text > :is(h2, h3, h4, h5, h6) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .carousel .tile.promo:has(.tile-text > :first-child:is(h2, h3, h4, h5, h6)) .tile-title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .carousel .tile-flag-container {
+    min-height: 32px;
+  }
+
+  .carousel .tile-flag {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* canon CTAs at the 1440 grid: 48 high, 12 radius (live .cmp-cta__link) */
+@media (width >= 1440px) {
+  .carousel .cmp-cta {
+    --cta-height: 48px;
+    --cta-radius: 12px;
+  }
+}
+
+/* ---- design pass 2: catalog looks ------------------------------------------------------- */
+
+/* bordered / bordered-text: canon promo with a centred 48px icon (icon container 48 from the
+   top, 16 above the title), centred title and text (live inline text-align: center) */
+.carousel:is(.bordered, .bordered-text) .card-icon-container {
+  display: flex;
+  justify-content: center;
+  padding: 48px 24px 0;
+}
+
+.carousel:is(.bordered, .bordered-text) .card-icon-container :is(p, .icon) {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+
+.carousel:is(.bordered, .bordered-text) .card-icon-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel:is(.bordered, .bordered-text) .card-icon-container + .card-content {
+  --pc-pt: 16px;
+}
+
+.carousel:is(.bordered, .bordered-text) .card:has(.card-icon-container) :is(.card-headline, .card-text) {
+  text-align: center;
+}
+
+.carousel:is(.bordered, .bordered-text) .card:has(.card-icon-container) {
+  grid-template-rows: auto 1fr;
+}
+
+/* icon-tiles: live tile grid rows sit 32 (36 from 768) apart */
+.carousel.icon-tiles .splide-list {
+  row-gap: 32px;
+}
+
+@media (width >= 768px) {
+  .carousel.icon-tiles .splide-list {
+    row-gap: 36px;
+  }
+}
+
+/* icon-tiles-product: horizontal product promo — round 232px image left, text right and
+   vertically centred, flag pinned top right; below 768 a centred 128px image over the text */
+.carousel.icon-tiles-product .card-flag {
+  margin-inline: auto 0;
+  border-radius: 0 0 0 8px;
+  text-align: left;
+}
+
+.carousel.icon-tiles-product .card-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.carousel.icon-tiles-product .card-image {
+  width: 128px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.carousel.icon-tiles-product .card-image img {
+  aspect-ratio: 1;
+}
+
+.carousel.icon-tiles-product .card-headline {
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+@media (width >= 768px) {
+  .carousel.icon-tiles-product .card {
+    grid-template-rows: auto;
+    grid-template-columns: 232px minmax(0, 1fr);
+    column-gap: 32px;
+    align-items: center;
+    padding: 32px;
+  }
+
+  .carousel.icon-tiles-product .card-flag-container {
+    position: absolute;
+    inset: 0 0 auto;
+    z-index: 2;
+  }
+
+  .carousel.icon-tiles-product .card-image-container {
+    margin-top: 0;
+  }
+
+  .carousel.icon-tiles-product .card-image {
+    width: 232px;
+  }
+
+  .carousel.icon-tiles-product .card-content {
+    padding: 0;
+  }
+
+  .carousel.icon-tiles-product .card-headline {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+}
+
+/* slider-text: centred icon over left-aligned title and text */
+.carousel.slider-text .tile {
+  text-align: left;
+}
+
+/* slider-light-magenta: the step number is a small dark line over the centred title */
+.carousel.slider-light-magenta .tile.promo:has(.tile-text > :first-child:is(h2, h3, h4, h5, h6)) .tile-title {
+  color: var(--c-text);
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.carousel.slider-light-magenta .tile.promo:has(.tile-text > :first-child:is(h2, h3, h4, h5, h6)) .tile-title > * {
+  display: inline;
+}
+
+/* image-top*: a flag authored before the image hangs over the image's top edge (live
+   .cmp-promo__flag over the image container), centred; image-top-5 pins it top right */
+.carousel[class*="image-top"] .card-flag-container:has(+ .card-image-container) {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 2;
+}
+
+.carousel.image-top-5 .card-flag-container:has(+ .card-image-container) .card-flag {
+  margin-inline: auto 0;
+  border-radius: 0 0 0 8px;
+  text-align: right;
+}
+
+/* podcast teaser (title-less card with a headset CTA — slider-2, slider-orange,
+   slider-magenta-2, cyan-light): centred text, auto-width CTA centred under it */
+.carousel .card:not(:has(.card-headline)):has(.card-cta.ic-headset) .card-text {
+  text-align: center;
+}
+
+.carousel .card:not(:has(.card-headline)):has(.card-cta.ic-headset) .card-cta {
+  --cta-width: fit-content;
+  --cta-width-l: fit-content;
+  --cta-margin-inline: auto;
 }

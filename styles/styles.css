@@ -1,11 +1,13 @@
+@import url('brand.css');
+
 /*
  * ERGO replica (www.ergo.de) — foundation (C0).
  * Lifted from the gated canon stardust/prototypes/shared/canon.css (tokens, base type,
  * container model, section spacing, backgrounds, CTA system) onto the EDS runtime.
  * Structural layer of the boilerplate kept: body gate, chrome reservation, section scaffold.
  *
- * FONTS: the licensed kits FS Me (Fontsmith) and Fedra Serif (Typotheque) are NOT
- * rehosted. styles/fonts.css declares the OFL substitutes (Fira Sans, Noto Serif) as
+ * TOKENS: styles/brand.css (imported first; colours, type, spacing, CTA).
+ * FONTS: the licensed kits FS Me (Fontsmith) and Fedra Serif (Typotheque) are NOT rehosted. styles/fonts.css declares the OFL substitutes (Fira Sans, Noto Serif) as
  * "FS Me Substitute" / "Fedra Serif Substitute"; the -fallback faces below are local
  * Arial / Times metric-matched to the substitutes so the late fonts.css swap does not shift.
  */
@@ -29,60 +31,7 @@
   line-gap-override: 0%;
 }
 
-:root {
-  /* brand type: licensed family first, OFL substitute second, metric fallback third */
-  --ff-sans: "FS Me", "FS Me Substitute", fs-me-fallback, arial, helvetica, sans-serif;
-  --ff-serif:
-    "Fedra Serif", "Fedra Serif Substitute", fedra-serif-fallback, georgia,
-    "Times New Roman", serif;
-
-  /* colours (canon) */
-  --c-brand: #8e0038;
-  --c-brand-hover: #601028;
-  --c-text: #333;
-  --c-border: #c9c5c7;
-  --c-line: #d9d9d9;
-  --c-flag: #c34a89;
-  --c-ribbon: #f6f5f5;
-  --bg-yellow: #fef6d2;
-  --bg-orange: #ffe0cb;
-  --bg-magenta: #f5e1eb;
-  --bg-green: #d3ebe5;
-  --bg-blue: #ccecef;
-  --bg-warmgrey: #ebe6d8;
-  --radius: 8px;
-
-  /* container model: every module capped on its own (live: min(1256, 100% - 24), 12px gutters) */
-  --col-max: 1256px;
-  --col-gutter: 12px;
-
-  /* fixed header height (canon --header-height): 73px, 97px from 1152 */
-  --header-height: 73px;
-  --nav-height: var(--header-height);
-  --icon-filter-brand:
-    brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(5000%)
-    hue-rotate(323deg) brightness(84%) contrast(108%);
-
-  /* boilerplate aliases (kept so stock blocks resolve every token) */
-  --background-color: #fff;
-  --light-color: var(--c-ribbon);
-  --dark-color: #7a7578;
-  --text-color: var(--c-text);
-  --link-color: var(--c-brand);
-  --link-hover-color: var(--c-brand-hover);
-  --body-font-family: var(--ff-sans);
-  --heading-font-family: var(--ff-sans);
-  --body-font-size-m: 18px;
-  --body-font-size-s: 16px;
-  --body-font-size-xs: 14px;
-  --heading-font-size-s: 20px;
-}
-
-@media (width >= 1152px) {
-  :root {
-    --header-height: 97px;
-  }
-}
+/* tokens (colours, type, spacing, CTA) live in brand.css, imported above */
 
 /* ---- Base (canon) ------------------------------------------------------------------- */
 *,
@@ -103,9 +52,9 @@ html {
 body {
   display: none;
   margin: 0;
-  background-color: #fff;
-  color: var(--c-text);
-  font-family: var(--ff-sans);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -234,9 +183,14 @@ main .default-content-wrapper h1 {
   line-height: 20.8px;
 }
 
+/* canon txt-h2 utility = serif claim heading; a plain authored h2 is the source's bare
+   .cmp-text h2: FS Me 24/31.2 -> 28/36.4 (serif only through the `serif-red` section style) */
+.txt-h2 {
+  font-family: var(--ff-serif);
+}
+
 .txt-h2,
 main .default-content-wrapper h2 {
-  font-family: var(--ff-serif);
   font-size: 24px;
   font-weight: 700;
   line-height: 31.2px;
@@ -333,33 +287,19 @@ main .section:empty {
    sp-<size>-tb. The split forms (sp-<size> + sp-top | sp-tb) also work when the
    pipeline delivers several classes. */
 main > .section:is(.sp-s, .sp-s-top, .sp-s-tb) {
-  --sp: 8px;
+  --sp: var(--sp-s);
 }
 
 main > .section:is(.sp-m, .sp-m-top, .sp-m-tb) {
-  --sp: 24px;
+  --sp: var(--sp-m);
 }
 
 main > .section:is(.sp-l, .sp-l-top, .sp-l-tb) {
-  --sp: 40px;
+  --sp: var(--sp-l);
 }
 
 main > .section:is(.sp-xl, .sp-xl-top, .sp-xl-tb) {
-  --sp: 56px;
-}
-
-@media (width >= 480px) {
-  main > .section:is(.sp-s, .sp-s-top, .sp-s-tb) {
-    --sp: 12px;
-  }
-
-  main > .section:is(.sp-l, .sp-l-top, .sp-l-tb) {
-    --sp: 48px;
-  }
-
-  main > .section:is(.sp-xl, .sp-xl-top, .sp-xl-tb) {
-    --sp: 64px;
-  }
+  --sp: var(--sp-xl);
 }
 
 main > .section:is(.sp-s, .sp-m, .sp-l, .sp-xl) {
@@ -409,6 +349,57 @@ main > .section[class*="bg-"] {
   background-color: var(--bg);
 }
 
+/* band edges: a run of consecutive sections sharing one bg-* style is one source band
+   (live: first component padding-top padding-l, last padding-bottom padding-l, 40 -> 48px).
+   Sections that carry an explicit sp-* style keep it. */
+main > .section.bg-yellow:not(.bg-yellow + .bg-yellow, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-yellow:not(:has(+ .section.bg-yellow), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
+main > .section.bg-orange:not(.bg-orange + .bg-orange, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-orange:not(:has(+ .section.bg-orange), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
+main > .section.bg-magenta:not(.bg-magenta + .bg-magenta, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-magenta:not(:has(+ .section.bg-magenta), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
+main > .section.bg-green:not(.bg-green + .bg-green, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-green:not(:has(+ .section.bg-green), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
+main > .section.bg-blue:not(.bg-blue + .bg-blue, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-blue:not(:has(+ .section.bg-blue), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
+main > .section.bg-warmgrey:not(.bg-warmgrey + .bg-warmgrey, :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-top: var(--section-padding);
+}
+
+main > .section.bg-warmgrey:not(:has(+ .section.bg-warmgrey), :is(.sp-s, .sp-m, .sp-l, .sp-xl, .sp-top, .sp-tb, .sp-s-top, .sp-m-top, .sp-l-top, .sp-xl-top, .sp-s-tb, .sp-m-tb, .sp-l-tb, .sp-xl-tb)) {
+  padding-bottom: var(--section-padding);
+}
+
 /* bleed utility for blocks painting a band inside a capped wrapper (canon) */
 .full-bleed-band,
 [class*="bg-"].bleed {
@@ -423,7 +414,9 @@ main > .section.pos-center {
 /* ---- Buttons: canon .cmp-cta painted onto the EDS button convention -----------------
    <strong><a> -> a.button.primary   (cmp-cta default: brand fill)
    <em><a>     -> a.button.secondary (cmp-cta secondary: brand outline)
-   <strong><em><a> -> a.button.accent (cmp-cta tertiary: grey outline)
+   <strong><em><a> -> a.button.accent (cmp-cta tertiary: grey outline; .tertiary is an alias)
+   States measured on the live .cmp-cta__link: hover darkens + soft shadow, active lightens
+   (#a1354f), focus-visible keeps the UA ring 4px off the edge, 0.15s ease-out.
    Geometry/variant overrides ride a WRAPPER (.cmp-cta + w-50 | w-100 | size-auto |
    size-large | text-link | secondary | tertiary | icon-left | ic-*) through --cta-* vars;
    the anchor only reads them, so a wrapper always wins over the authored emphasis. */
@@ -456,7 +449,10 @@ button.button {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  outline-offset: var(--focus-offset);
+  transition-duration: var(--cta-transition-duration);
+  transition-property: color, border-color, background-color, text-decoration, box-shadow;
+  transition-timing-function: var(--cta-transition-timing);
 }
 
 @media (width >= 912px) {
@@ -473,8 +469,8 @@ button.button.secondary {
   color: var(--cta-color, var(--c-brand));
 }
 
-a.button.accent:any-link,
-button.button.accent {
+a.button:is(.accent, .tertiary):any-link,
+button.button:is(.accent, .tertiary) {
   border-color: var(--cta-border, var(--c-border));
   background-color: var(--cta-bg, transparent);
   color: var(--cta-color, var(--c-text));
@@ -487,6 +483,7 @@ button.button.accent {
     background-color: var(--cta-bg-hover, var(--c-brand-hover));
     color: var(--cta-color-hover, #fff);
     text-decoration: var(--cta-deco-hover, none);
+    box-shadow: var(--cta-box-shadow-hover, var(--cta-shadow-hover));
   }
 
   a.button.secondary:any-link:hover,
@@ -496,9 +493,9 @@ button.button.accent {
     color: var(--cta-color-hover, var(--c-brand-hover));
   }
 
-  a.button.accent:any-link:hover,
-  button.button.accent:hover {
-    border-color: var(--cta-border-hover, #7a7578);
+  a.button:is(.accent, .tertiary):any-link:hover,
+  button.button:is(.accent, .tertiary):hover {
+    border-color: var(--cta-border-hover, var(--c-border-hover));
     background-color: var(--cta-bg-hover, var(--c-ribbon));
     color: var(--cta-color-hover, var(--c-text));
   }
@@ -544,6 +541,9 @@ button.button:disabled {
   --cta-border-hover: var(--c-brand-hover);
   --cta-bg-hover: var(--c-brand-hover);
   --cta-color-hover: #fff;
+  --cta-border-active: var(--c-brand-active);
+  --cta-bg-active: var(--c-brand-active);
+  --cta-color-active: #fff;
 }
 
 .cmp-cta.secondary {
@@ -553,15 +553,21 @@ button.button:disabled {
   --cta-border-hover: var(--c-brand-hover);
   --cta-bg-hover: transparent;
   --cta-color-hover: var(--c-brand-hover);
+  --cta-border-active: var(--c-brand-active);
+  --cta-bg-active: transparent;
+  --cta-color-active: var(--c-brand-active);
 }
 
 .cmp-cta.tertiary {
   --cta-border: var(--c-border);
   --cta-bg: transparent;
   --cta-color: var(--c-text);
-  --cta-border-hover: #7a7578;
+  --cta-border-hover: var(--c-border-hover);
   --cta-bg-hover: var(--c-ribbon);
   --cta-color-hover: var(--c-text);
+  --cta-border-active: var(--c-border-active);
+  --cta-bg-active: var(--c-ribbon);
+  --cta-color-active: var(--c-text);
 }
 
 .cmp-cta.text-link {
@@ -573,20 +579,24 @@ button.button:disabled {
   --cta-bg-hover: transparent;
   --cta-color-hover: var(--c-brand-hover);
   --cta-deco-hover: underline;
+  --cta-box-shadow-hover: none;
+  --cta-border-active: transparent;
+  --cta-bg-active: transparent;
+  --cta-color-active: var(--c-brand-active);
   --cta-pad-inline: 0;
   --cta-gap: 4px;
 }
 
 .ic-chevron {
-  --icon: url("../icons/chevron-right.svg");
+  --icon: url("/icons/chevron-right.svg");
 }
 
 .ic-calculator {
-  --icon: url("../icons/calculator.svg");
+  --icon: url("/icons/calculator.svg");
 }
 
 .ic-headset {
-  --icon: url("../icons/headset.svg");
+  --icon: url("/icons/headset.svg");
 }
 
 :is(.ic-chevron, .ic-calculator, .ic-headset) a.button::after {
@@ -600,6 +610,28 @@ button.button:disabled {
 
 .cmp-cta.icon-left a.button {
   flex-direction: row-reverse;
+}
+
+/* pressed state (live .cmp-cta__link:active); after the modifiers so wrappers can retint it */
+a.button:any-link:active,
+button.button:active {
+  border-color: var(--cta-border-active, var(--c-brand-active));
+  background-color: var(--cta-bg-active, var(--c-brand-active));
+  color: var(--cta-color-active, #fff);
+}
+
+a.button.secondary:any-link:active,
+button.button.secondary:active {
+  border-color: var(--cta-border-active, var(--c-brand-active));
+  background-color: var(--cta-bg-active, transparent);
+  color: var(--cta-color-active, var(--c-brand-active));
+}
+
+a.button:is(.accent, .tertiary):any-link:active,
+button.button:is(.accent, .tertiary):active {
+  border-color: var(--cta-border-active, var(--c-border-active));
+  background-color: var(--cta-bg-active, var(--c-ribbon));
+  color: var(--cta-color-active, var(--c-text));
 }
 
 /* ---- Experience Workspace edit mode (only inside the da.live editor) ---------------- */
@@ -651,7 +683,10 @@ a .prosemirror-editor a:any-link {
 /* stylelint-disable no-descending-specificity -- page layers mirror the canon cascade order */
 
 /* `Theme: narrow` (program / listing / product-page family): 888 column (canon .grid--narrow
-   > .col = min(888px, 100% - 24px)) and rich-text default content (canon .cmp-text.rt) */
+   > .col = min(888px, 100% - 24px)). The rich-text default content below (canon .cmp-text.rt)
+   applies on every page: the live product pages' bare .cmp-text measures the same ramp
+   (h2 FS Me 24/31.2 -> 28/36.4, h3 20/26 -> 24/31.2, p 14/21 -> 16/24 with 20 -> 24 below,
+   disc lists 24 -> 28 indent, inline links brand bold underlined). */
 :where(body.narrow main > .section) > div {
   display: flow-root;
   width: min(888px, 100% - 24px);
@@ -663,73 +698,78 @@ a .prosemirror-editor a:any-link {
   width: min(var(--col-max), 100% - 2 * var(--col-gutter));
 }
 
-body.narrow main .default-content-wrapper :is(h1, h2, h3, h4, h5, h6, p, ul, ol, li) {
+main .default-content-wrapper :is(h1, h2, h3, h4, h5, h6, p, ul, ol, li) {
   color: var(--c-text);
 }
 
-body.narrow main .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
+main .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
   font-family: inherit;
   font-weight: 700;
 }
 
-body.narrow main .default-content-wrapper h2 {
+main .default-content-wrapper h2 {
   margin-bottom: 24px;
   font-size: 24px;
   line-height: 31.2px;
 }
 
-body.narrow main .default-content-wrapper h3 {
+main .default-content-wrapper h3 {
   margin-bottom: 16px;
   font-size: 20px;
   line-height: 26px;
 }
 
-body.narrow main .default-content-wrapper :is(p, ul, ol) {
+main .default-content-wrapper :is(p, ul, ol) {
   margin-bottom: 20px;
 }
 
-body.narrow main .default-content-wrapper :is(p, li) {
+main .default-content-wrapper :is(p, li) {
   font-size: 14px;
   line-height: 21px;
 }
 
-body.narrow main .default-content-wrapper p + p {
+main .default-content-wrapper p + p {
   margin-top: -10px;
 }
 
-body.narrow main .default-content-wrapper :is(p, ul, ol) + :is(h2, h3, h4) {
+main .default-content-wrapper :is(p, ul, ol) + :is(h2, h3, h4) {
   margin-top: 48px;
 }
 
-body.narrow main .default-content-wrapper :is(ul, ol) {
+main .default-content-wrapper :is(ul, ol) {
   padding-left: 24px;
 }
 
-body.narrow main .default-content-wrapper :is(ul, ol) li {
+main .default-content-wrapper :is(ul, ol) li {
   position: relative;
   margin-bottom: 10px;
   padding-left: 8px;
   list-style-position: outside;
 }
 
-body.narrow main .default-content-wrapper ul li {
+main .default-content-wrapper ul li {
   list-style-type: disc;
 }
 
-body.narrow main .default-content-wrapper ol li {
+main .default-content-wrapper ol li {
   list-style-type: decimal;
 }
 
-/* inline links (canon .cmp-text.rt a): brand, bold, underlined */
-body.narrow main > .section:not(.scroll-top) .default-content-wrapper a:any-link:not(.button) {
+/* inline links (live .cmp-text a): brand, bold, underlined; no hover change on the source,
+   focus-visible = UA ring 1px off */
+main > .section:not(.scroll-top) .default-content-wrapper a:any-link:not(.button) {
   color: var(--c-brand);
   font-weight: 700;
   letter-spacing: 0.25px;
   text-decoration: underline;
 }
 
-body.narrow main .default-content-wrapper > :last-child,
-body.narrow main .default-content-wrapper > :is(ul, ol):last-child li:last-child {
+main > .section .default-content-wrapper a:any-link:not(.button):focus-visible {
+  outline-offset: 1px;
+}
+
+main .default-content-wrapper > :last-child,
+main .default-content-wrapper > :is(ul, ol):last-child li:last-child {
   margin-bottom: 0;
 }
 
@@ -774,6 +814,7 @@ body:not(.narrow) main > .section.eyebrow .default-content-wrapper h2 {
 
 body:not(.narrow) main > .section.serif-red .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
   color: var(--c-brand);
+  font-family: var(--ff-serif);
 }
 
 /* gap-<size>: a folded spacer column = canon padding-s/m/l/xl as the margin below the section */
@@ -817,7 +858,7 @@ main > .section.scroll-top .default-content-wrapper a:any-link::before {
   width: 18px;
   height: 18px;
   background-color: currentcolor;
-  mask: url("../icons/scroll-to-top.svg") center / contain no-repeat;
+  mask: url("/icons/scroll-to-top.svg") center / contain no-repeat;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -854,7 +895,7 @@ main > .section.check-list-first .default-content-wrapper ul:first-of-type li::b
 main > .section.check-list .default-content-wrapper ul li::after,
 main > .section.check-list-first .default-content-wrapper ul:first-of-type li::after {
   background-color: #fff;
-  mask: url("../icons/check.svg") center / 70% no-repeat;
+  mask: url("/icons/check.svg") center / 70% no-repeat;
 }
 
 @media (width >= 480px) {
@@ -872,40 +913,40 @@ main > .section.check-list-first .default-content-wrapper ul:first-of-type li::a
 }
 
 @media (width >= 768px) {
-  body.narrow main .default-content-wrapper h2 {
+  main .default-content-wrapper h2 {
     margin-bottom: 40px;
     font-size: 28px;
     line-height: 36.4px;
   }
 
-  body.narrow main .default-content-wrapper h3 {
+  main .default-content-wrapper h3 {
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 31.2px;
   }
 
-  body.narrow main .default-content-wrapper :is(p, ul, ol) {
+  main .default-content-wrapper :is(p, ul, ol) {
     margin-bottom: 24px;
   }
 
-  body.narrow main .default-content-wrapper :is(p, li) {
+  main .default-content-wrapper :is(p, li) {
     font-size: 16px;
     line-height: 24px;
   }
 
-  body.narrow main .default-content-wrapper p + p {
+  main .default-content-wrapper p + p {
     margin-top: -12px;
   }
 
-  body.narrow main .default-content-wrapper :is(p, ul, ol) + :is(h2, h3, h4) {
+  main .default-content-wrapper :is(p, ul, ol) + :is(h2, h3, h4) {
     margin-top: 64px;
   }
 
-  body.narrow main .default-content-wrapper :is(ul, ol) {
+  main .default-content-wrapper :is(ul, ol) {
     padding-left: 28px;
   }
 
-  body.narrow main .default-content-wrapper :is(ul, ol) li {
+  main .default-content-wrapper :is(ul, ol) li {
     margin-bottom: 12px;
   }
 

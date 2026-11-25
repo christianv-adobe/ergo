@@ -1,0 +1,24 @@
+{
+  "variantName": "carousel-reviews",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "button + list + text + link",
+    "purpose": "Slider of customer review cards (avatar, reviewer name, date, source logo, star rating, review text) with the reviewed agent and a homepage link",
+    "layout": "Horizontal scroll-snap track, 1 card on mobile and 2 on desktop, prev/next buttons and page dots"
+  },
+  "contentPattern": {
+    "structure": "one row per review; cell 1: avatar image (or one-letter text), reviewer name (bold or heading), date line (e.g. am 16.11.2026 auf), optional source logo image, rating paragraph (5, 4,5/5 or ★★★★★), review text; cell 2 (optional): agent name, location line, optional badge image, homepage link"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_08635f332c84",
+    "v_08635f332c84-1"
+  ],
+  "usage": "Agent review slider on 72 pages (agency/advisor pages, e.g. https://www.ergo.de/de/Versicherung-vor-Ort/aachen, https://www.ergo.de/de/Versicherung-vor-Ort/Augsburg)",
+  "reuseGuidance": "Use for review/testimonial sliders with a rating. Reviews are authored statically; a live Google/eKomi review feed is out of scope for now. For generic image or teaser sliders use carousel; for an eKomi rating summary use ekomi."
+}

@@ -1,0 +1,21 @@
+{
+  "variantName": "article-header",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Listing/article lead band: H1 kicker, serif title line and teaser text beside a full-height image",
+    "layout": "Full-bleed band capped at 1440px, teaser beside image"
+  },
+  "contentPattern": {
+    "structure": "H1 (kicker); title line paragraph; teaser paragraphs; one image"
+  },
+  "options": [
+    {
+      "class": "blue",
+      "label": "Blue"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Top of listing pages (Ratgeber, Rechtsportal)",
+  "reuseGuidance": "Reuse article-header for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

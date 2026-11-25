@@ -1,5 +1,6 @@
 /* cta — the anchor reads the --cta-* variables the foundation's .cmp-cta modifiers set
-   (styles.css); multiple CTAs stack with the canon 16px gap. */
+   (styles.css); multiple CTAs stack with the canon 16px gap. Values: live .cmp-cta
+   (migration-work/design/cta*). */
 .cta.cmp-cta {
   display: flex;
   flex-direction: column;
@@ -8,4 +9,240 @@
 
 .cta.cmp-cta p {
   margin: 0;
+}
+
+/* live data-size="auto": 48px / 12px radius from 1440px (40px / 8px below) */
+@media (width >= 1440px) {
+  .cta.cmp-cta {
+    --cta-height: 48px;
+    --cta-radius: 12px;
+  }
+}
+
+/* CTAs following text in the same section (live promo: CTA row 32px below the copy) */
+.cta-wrapper:not(:first-child) > .cta.cmp-cta:not(.alt-3) > :first-child {
+  margin-top: 32px;
+}
+
+/* plain (unformatted) link beside a button: live cmp-cta text-link variant */
+.cta.cmp-cta p > a:any-link:not(.button) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  min-height: var(--cta-height, 40px);
+  padding: 1px 0;
+  border: 1px solid transparent;
+  border-radius: var(--cta-radius, 8px);
+  color: var(--c-brand);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: color var(--cta-transition-duration) var(--cta-transition-timing);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cta.cmp-cta p > a:any-link:not(.button):hover {
+    color: var(--c-brand-hover);
+    text-decoration: underline;
+  }
+}
+
+.cta.cmp-cta p > a:any-link:not(.button):active {
+  color: var(--c-brand-active);
+}
+
+.cta.cmp-cta:is(.ic-chevron, .ic-calculator, .ic-headset) p > a:any-link:not(.button)::after {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px no-repeat;
+}
+
+/* ---- catalog option classes ---- */
+
+/* alt / magenta: single standalone button (w-33 of the full row, centred by pos-center) */
+.cta.cmp-cta:is(.alt, .magenta) {
+  text-align: center;
+}
+
+/* alt-2 / magenta-2: button pair stacked full width on mobile, two equal columns on desktop */
+.cta.cmp-cta:is(.alt-2, .magenta-2) {
+  column-gap: 24px;
+}
+
+/* colour-only accent hook */
+.cta.cmp-cta:is(.magenta, .magenta-2) {
+  --cta-tone: var(--c-brand, currentcolor);
+}
+
+@media (width >= 912px) {
+  .cta.cmp-cta:is(.alt-2, .magenta-2) {
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  .cta.cmp-cta:is(.alt-2, .magenta-2) > * {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  /* button + text link (live promo CTA row): side by side, content width */
+  .cta.cmp-cta:not(.alt-2, .magenta-2, .alt-3):has(> p > a:any-link:not(.button)) {
+    --cta-width-l: fit-content;
+
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 24px;
+  }
+
+  /* row layouts: every CTA sits 32px below preceding copy, not only the first */
+  .cta-wrapper:not(:first-child) > .cta.cmp-cta:is(.alt-2, .magenta-2) > *,
+  .cta-wrapper:not(:first-child) > .cta.cmp-cta:not(.alt-2, .magenta-2, .alt-3):has(> p > a:any-link:not(.button)) > * {
+    margin-top: 32px;
+  }
+}
+
+/* alt-3: step navigation (live ee_step-navigation): chevron steps, the first one current */
+.cta.cmp-cta.alt-3 {
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 8px;
+  color: rgb(0 0 0);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cta.cmp-cta.alt-3 .cta-steps {
+  display: flex;
+  flex: 1 1 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: cta-step;
+}
+
+.cta.cmp-cta.alt-3 .cta-step {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  background-color: var(--c-line);
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%, 12px 50%);
+  counter-increment: cta-step;
+}
+
+.cta.cmp-cta.alt-3 .cta-step + .cta-step {
+  margin-left: -6px;
+}
+
+.cta.cmp-cta.alt-3 .cta-step:first-child {
+  border-radius: 8px 0 0 8px;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%);
+}
+
+.cta.cmp-cta.alt-3 .cta-step:last-child {
+  border-radius: 0 8px 8px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 12px 50%);
+}
+
+.cta.cmp-cta.alt-3 .cta-step:only-child {
+  border-radius: 8px;
+  clip-path: none;
+}
+
+.cta.cmp-cta.alt-3 .cta-step.active {
+  background-color: var(--c-brand);
+}
+
+.cta.cmp-cta.alt-3 .cta-step-button {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 49px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: rgb(105 105 105);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  cursor: default;
+}
+
+.cta.cmp-cta.alt-3 .cta-step.active .cta-step-button {
+  color: #fff;
+}
+
+.cta.cmp-cta.alt-3 .cta-step-button::before {
+  content: counter(cta-step);
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--c-brand);
+  border-radius: 50%;
+  color: var(--c-brand);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cta.cmp-cta.alt-3 .cta-step.active .cta-step-button::before {
+  border-color: currentcolor;
+  color: inherit;
+}
+
+/* mobile: number only (label kept for assistive tech) */
+.cta.cmp-cta.alt-3 .cta-step-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width >= 912px) {
+  .cta.cmp-cta.alt-3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cta.cmp-cta.alt-3 .cta-step-button {
+    justify-content: flex-start;
+    column-gap: 20px;
+    min-height: 63px;
+    font-size: 18px;
+  }
+
+  .cta.cmp-cta.alt-3 .cta-step-button::before {
+    margin-left: 36px;
+  }
+
+  .cta.cmp-cta.alt-3 .cta-step:first-child .cta-step-button::before {
+    margin-left: 24px;
+  }
+
+  .cta.cmp-cta.alt-3 .cta-step-label {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-right: 24px;
+    clip-path: none;
+    text-overflow: ellipsis;
+  }
 }

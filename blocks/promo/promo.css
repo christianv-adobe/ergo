@@ -7,6 +7,12 @@
   --promo-border-w: 1px;
 }
 
+/* white card (source data-color #fff), also on a coloured section band */
+.promo.white {
+  --promo-bg: #fff;
+  --promo-border-w: 1px;
+}
+
 .promo.blue {
   --promo-bg: #ccecef;
   --promo-flag-bg: #318187;
@@ -447,6 +453,7 @@
   margin-right: 0;
   margin-left: auto;
   border-radius: 0 0 0 8px;
+  text-align: right;
 }
 
 /* price (canon c25 .cmp-price): amount bold 28/36 between prefix and suffix */
@@ -476,23 +483,61 @@
   display: none;
 }
 
-/* lock icon (not in the foundation icon set): painted with ::before so a single-CTA card keeps
-   its ::after stretched link; authored left of the label (`:lock: <strong><a>`) */
+/* CTA icons; a relative url() in --icon resolves against the stylesheet that paints it, so the
+   foundation icons are re-declared here with this file's path. Outside the foundation set:
+   `:lock:`, `:pdf:` (canon PdfIcon), `:chevron-right:` */
+.promo .promo-cta.ic-calculator {
+  --icon: url("../../icons/calculator.svg");
+}
+
+.promo .promo-cta.ic-headset {
+  --icon: url("../../icons/headset.svg");
+}
+
+.promo .promo-cta.ic-chevron {
+  --icon: url("../../icons/chevron-right.svg");
+}
+
 .promo .promo-cta.ic-lock {
   --icon: url("../../icons/lock.svg");
 }
 
-.promo .promo-cta.ic-lock.icon-left a.button {
+.promo .promo-cta.ic-pdf {
+  --icon: url("../../icons/document.svg");
+}
+
+.promo .promo-cta.ic-chevron-right {
+  --icon: url("../../icons/chevron-right.svg");
+}
+
+/* every CTA icon is painted with ::before (left of the label for icon-left, else right), so a
+   single-CTA card keeps its ::after stretched link */
+.promo .promo-cta.has-icon a.button {
   flex-direction: row;
 }
 
-.promo .promo-cta.ic-lock.icon-left a.button::before {
+.promo .promo-cta.has-icon a.button::before {
   content: "";
   flex: 0 0 20px;
   width: 20px;
   height: 20px;
   background-color: currentcolor;
   mask: var(--icon) center / 20px no-repeat;
+}
+
+.promo .promo-cta.has-icon:not(.icon-left) a.button::before {
+  order: 1;
+}
+
+.promo .promo-card:not([data-cta-count="1"]) .promo-cta.has-icon a.button::after {
+  content: none;
+}
+
+.promo .promo-card[data-cta-count="1"] .promo-cta.has-icon a.button::after {
+  width: auto;
+  height: auto;
+  background: none;
+  mask: none;
 }
 
 /* rounded image (podcast): centred circle, image left from 768 */
@@ -590,5 +635,130 @@
 
   .promo.rounded.image-left .promo-content {
     align-self: center;
+  }
+}
+
+/* ---- catalog looks (block-generator augment; design pass from the source captures) ----
+ * Layout flags per look come from JS (image-left / image-right / rounded / headline-m /
+ * flag-right / center / cta-auto / cta-large). Card colours below are the looks' source
+ * data-color; :where() keeps an authored colour class (blue, orange, ...) in charge. */
+.promo:where(.white-card, .grey, .grey-2, .image-grey, .image-grey-2, .magenta-grey, .round-image, .round-image-3) {
+  --promo-bg: #fff;
+  --promo-border-w: 1px;
+}
+
+.promo:where(.image, .round-image-full-image) {
+  --promo-bg: #ffe0cb;
+  --promo-flag-bg: #b46018;
+  --promo-border-w: 0;
+}
+
+.promo:where(.light, .image-light, .round-image-2, .round-image-full-image-2) {
+  --promo-bg: #ccecef;
+  --promo-flag-bg: #318187;
+  --promo-border-w: 0;
+}
+
+.promo:where(.round-image-4) {
+  --promo-bg: #d3ebe5;
+  --promo-flag-bg: #428071;
+  --promo-border-w: 0;
+}
+
+.promo:where(.round-image-3) {
+  --promo-flag-bg: #c34a89;
+}
+
+/* round-image-4: green check list (source ul.check-list--green) */
+.promo.round-image-4 .promo-text ul {
+  padding: 0;
+  list-style: none;
+}
+
+.promo.round-image-4 .promo-text li {
+  position: relative;
+  padding-left: 32px;
+}
+
+.promo.round-image-4 .promo-text li + li {
+  margin-top: 10px;
+}
+
+.promo.round-image-4 .promo-text li::before,
+.promo.round-image-4 .promo-text li::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: calc(1lh - 4px);
+  height: calc(1lh - 4px);
+}
+
+.promo.round-image-4 .promo-text li::before {
+  border-radius: 50%;
+  background: #009284;
+}
+
+.promo.round-image-4 .promo-text li::after {
+  background-color: #fff;
+  mask: url("../../icons/check.svg") center / 70% no-repeat;
+}
+
+/* magenta-grey: centred contact tile (source cmp-tile): icon, title, text, full-width CTA */
+.promo.magenta-grey .promo-card {
+  --promo-cta-width: 100%;
+}
+
+.promo.magenta-grey .promo-card.has-image .promo-image-container {
+  width: 32px;
+  margin: 32px auto 0;
+}
+
+.promo.magenta-grey .promo-image img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.promo.magenta-grey .promo-card.has-image .promo-content {
+  --pc-pt: 16px;
+}
+
+.promo.magenta-grey .promo-headline {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.promo.magenta-grey .promo-headline + .promo-text {
+  margin-top: 8px;
+}
+
+/* image-grey-2: the störer badge is desktop-only (source hides it below 768) */
+@media (width <= 767px) {
+  .promo.image-grey-2 .promo-small-image {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .promo.round-image-4 .promo-text li {
+    padding-left: 36px;
+  }
+
+  .promo.round-image-4 .promo-text li + li {
+    margin-top: 12px;
+  }
+
+  .promo.magenta-grey .promo-card.has-image .promo-image-container {
+    width: 48px;
+    margin-top: 48px;
+  }
+
+  .promo.magenta-grey .promo-headline {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .promo.magenta-grey .promo-headline + .promo-text {
+    margin-top: 24px;
   }
 }
