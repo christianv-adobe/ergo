@@ -11,12 +11,46 @@
  *     first icon row (falls back to the first row); headings in cells render teaser-size
  *
  * @variants block class: label-4 | label-6 (label column width in 12ths at ≥912, default 6)
- *   · green | magenta | teal | yellow | orange | grey (header colour)
+ *   · green | magenta | teal | yellow | orange | grey | dark (header colour)
  *   · sticky (header row + sub-headings stick under the site header; pinned header shows
  *     only the first line of each cell)
  */
 
 const isIconOnly = (cell) => !!cell && !!cell.querySelector('.icon, img, picture') && !cell.textContent.trim();
+
+const AMOUNT = /^([\d.,\s]*\d[\d.,]*)\s*(€|EUR)$/;
+
+/**
+ * Price cell (parser output "prefix **27,02 €** suffix") -> canon cmp-price stack:
+ * prefix line, bold value + currency, suffix line.
+ */
+function decoratePrice(cell) {
+  const els = [...cell.children];
+  const line = els.length === 1 && els[0].tagName === 'P' ? els[0] : null;
+  const host = line || (els.length === 1 && els[0].tagName === 'STRONG' ? cell : null);
+  if (!host) return;
+  const nodes = [...host.childNodes].filter((n) => n.nodeType !== 3 || n.textContent.trim());
+  const strongs = nodes.filter((n) => n.nodeType === 1);
+  if (strongs.length !== 1 || strongs[0].tagName !== 'STRONG') return;
+  const m = strongs[0].textContent.trim().replace(/\u00a0/g, ' ').match(AMOUNT);
+  if (!m) return;
+  const at = nodes.indexOf(strongs[0]);
+  const text = (list) => list.map((n) => n.textContent).join(' ').trim();
+  const span = (cls, txt) => {
+    const s = document.createElement('span');
+    s.className = cls;
+    s.textContent = txt;
+    return s;
+  };
+  const p = document.createElement('p');
+  p.className = 'pt-price';
+  const prefix = text(nodes.slice(0, at));
+  const suffix = text(nodes.slice(at + 1));
+  if (prefix) p.append(span('pt-price-prefix', prefix));
+  p.append(span('pt-price-value', m[1].trim()), span('pt-price-currency', `\u00a0${m[2]}`));
+  if (suffix) p.append(span('pt-price-suffix', suffix));
+  host.replaceChildren(p);
+}
 
 function cellEl(source, kind, role, tariffCols) {
   const cell = document.createElement('div');
@@ -31,7 +65,10 @@ function cellEl(source, kind, role, tariffCols) {
   } else {
     const text = document.createElement('div');
     text.className = 'pt-text';
-    if (source) text.append(...source.children);
+    if (source) {
+      if (kind === 'tariff') decoratePrice(source);
+      text.append(...source.children);
+    }
     cell.append(text);
   }
   return cell;
@@ -45,7 +82,8 @@ export default function decorate(block) {
   const isIconRow = (row) => row.children.length > 1 && [...row.children].slice(1).some(isIconOnly);
 
   const firstData = rows.findIndex((r) => isSub(r) || isIconRow(r));
-  let headerIdx = 0;
+  // a one-row block (a single comparison row cut out of its table) has no header
+  let headerIdx = rows.length > 1 ? 0 : -1;
   if (firstData > 0) {
     for (let i = firstData - 1; i >= 0; i -= 1) {
       if (rows[i].children.length > 1) {

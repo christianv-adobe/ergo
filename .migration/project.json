@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "ergo": {
+      "previewOrg": "christianv-adobe",
+      "previewSite": "ergo",
+      "contentHostUrl": "https://content.da.live/christianv-adobe/ergo/"
+    }
+  },
+  "type": "da"
+}

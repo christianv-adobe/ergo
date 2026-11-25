@@ -1,0 +1,74 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Page lead band with image, H1, serif title line, teaser text, price and CTAs (product pages and the landing page)",
+    "layout": "Image beside a teaser panel; image left by default, right with image-right; coloured band behind the teaser"
+  },
+  "contentPattern": {
+    "structure": "image; optional stoerer badge image; H1; title line paragraph; teaser paragraphs; optional price paragraph (bold amount); CTA paragraphs (strong link primary, em link secondary, optional :icon: token)"
+  },
+  "options": [
+    {
+      "class": "product",
+      "label": "Product hero"
+    },
+    {
+      "class": "yellow",
+      "label": "Yellow"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    },
+    {
+      "class": "image-right",
+      "label": "Image right"
+    },
+    {
+      "class": "hide-image-mobile",
+      "label": "Hide image on mobile"
+    },
+    {
+      "class": "landing",
+      "label": "Landing hero"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "image-2",
+      "label": "Image 2"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_7c0a44320e63",
+    "v_5e7ebca8da01",
+    "v_6d7a85697c95",
+    "v_52de09f8c8e7",
+    "v_2887cd3c06ab",
+    "v_291989a85ec7",
+    "v_52b9c4a992da",
+    "v_1ab9aa0d5923",
+    "v_24c2d7bbadde",
+    "v_5e7ebca8da01-1",
+    "v_52b9c4a992da-2",
+    "v_52b9c4a992da-3"
+  ],
+  "usage": "Top of landing, product (program) and service pages",
+  "reuseGuidance": "Reuse hero for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

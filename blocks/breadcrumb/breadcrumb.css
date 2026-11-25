@@ -1,12 +1,17 @@
 /* breadcrumb — canon c17 .cmp-breadcrumb (prototypes/shared/modules.css). */
+
+/* source: 1416px component box carrying the 12px column gutter itself
+   (vertical 24px padding-m comes from the section style sp-m-tb) */
 main > .section > .breadcrumb-wrapper {
   width: min(1416px, 100% - 24px);
+  padding-inline: 0;
 }
 
 .breadcrumb {
   --bc-sep: 16px;
   --bc-home: 14px;
 
+  padding-inline: var(--col-gutter);
   font-size: 12px;
   line-height: 1.5;
 }
@@ -55,10 +60,12 @@ main > .section > .breadcrumb-wrapper {
   outline-offset: 3px;
 }
 
-/* home step: icon only (label = accessible name) */
+/* home step: icon only; the label is clipped but stays the link's accessible name */
 .breadcrumb li:first-child a:any-link {
-  font-size: 0;
-  line-height: 0;
+  width: var(--bc-sep);
+  height: var(--bc-sep);
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .breadcrumb li:first-child a:any-link::before {

@@ -1,0 +1,16 @@
+{
+  "variantName": "banner",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Promo text-link bar above the hero",
+    "layout": "Full-width coloured band (section style) with one centred chevron text link"
+  },
+  "contentPattern": {
+    "structure": "one CTA paragraph with an em link"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top of the homepage",
+  "reuseGuidance": "Reuse banner for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

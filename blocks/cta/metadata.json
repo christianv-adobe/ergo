@@ -1,0 +1,81 @@
+{
+  "variantName": "cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Standalone call-to-action button group using the site CTA styles",
+    "layout": "Stacked CTA buttons with 16px gap; width and style from option classes"
+  },
+  "contentPattern": {
+    "structure": "one or more CTA paragraphs (strong link primary, em link secondary, strong+em link tertiary)"
+  },
+  "options": [
+    {
+      "class": "size-auto",
+      "label": "Auto width"
+    },
+    {
+      "class": "w-33",
+      "label": "One-third width"
+    },
+    {
+      "class": "w-50",
+      "label": "Half width"
+    },
+    {
+      "class": "w-100",
+      "label": "Full width"
+    },
+    {
+      "class": "primary",
+      "label": "Primary"
+    },
+    {
+      "class": "secondary",
+      "label": "Secondary"
+    },
+    {
+      "class": "tertiary",
+      "label": "Tertiary"
+    },
+    {
+      "class": "text-link",
+      "label": "Text link"
+    },
+    {
+      "class": "ic-chevron",
+      "label": "Chevron icon"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    },
+    {
+      "class": "alt-3",
+      "label": "Alt 3"
+    },
+    {
+      "class": "magenta-2",
+      "label": "Magenta 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_fd1d219434b4",
+    "v_1e332a66d595",
+    "v_e95f4810d8c2",
+    "v_7d84cb152fc8",
+    "v_3b05e9802b99",
+    "v_9eca3848bd26",
+    "v_0bf082ae8e3d"
+  ],
+  "usage": "Button rows between content sections on landing and program pages",
+  "reuseGuidance": "Reuse cta for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

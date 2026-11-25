@@ -1,0 +1,68 @@
+{
+  "variantName": "cards-tariff",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + list + button + link",
+    "purpose": "Tariff/plan comparison cards with optional flag badge, tagline, plan name, feature checklist, price, compare link and calculate button",
+    "layout": "Equal-height cards in a responsive grid; price and actions pinned to the card bottom"
+  },
+  "contentPattern": {
+    "structure": "one row per tariff card; optional first cell with a short flag text (e.g. Bestseller); body cell: tagline paragraph, plan-name heading, feature list, price paragraph (e.g. z.B. 1,85 € mtl.), optional compare link paragraph, calculate button link last"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "alt-3",
+      "label": "Alt 3"
+    },
+    {
+      "class": "cyan-grey",
+      "label": "Cyan Grey"
+    },
+    {
+      "class": "cyan-dark-grey-orange",
+      "label": "Cyan Dark Grey Orange"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "grey-3",
+      "label": "Grey 3"
+    }
+  ],
+  "memberVariantIds": [
+    "v_7a5f366a3557",
+    "v_0e8c0a63c88f",
+    "v_1b32867781fe",
+    "v_d02c9ac3b06a-1",
+    "v_0e8c0a63c88f-1",
+    "v_439a39a36597-7",
+    "v_4d38e46a2153-1",
+    "v_676217dce4f0-3",
+    "v_6809bb7624d5",
+    "v_76a2e9833ede",
+    "v_8a9c08987a77-1",
+    "v_d02c9ac3b06a",
+    "v_d1c090da3d03-1"
+  ],
+  "usage": "Tariff/plan comparison on 17 product pages (e.g. https://www.ergo.de/de/Produkte/Haftpflichtversicherung/Privathaftpflichtversicherung, https://www.ergo.de/de/Produkte/Rechtsschutzversicherung, https://www.ergo.de/de/Produkte/Unfallversicherung)",
+  "reuseGuidance": "Use for side-by-side tariff or plan tiers with features, price and a calculate CTA. Colour differences (grey, cyan-grey, ...) and layout tweaks (alt, alt-2, alt-3) are option classes; do not fork a new block. Plain feature/benefit cards without price belong in benefits."
+}

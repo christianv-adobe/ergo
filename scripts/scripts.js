@@ -10,6 +10,9 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  readBlockConfig,
+  toClassName,
+  toCamelCase,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -159,14 +162,71 @@ function decorateButtons(main) {
 }
 
 /**
+ * Turns literal `:icon-name:` tokens in text into `<span class="icon icon-icon-name">` (the markup
+ * Edge Delivery produces from Document Authoring), so locally previewed .plain.html content shows
+ * its icons too. decorateIcons then loads /icons/<name>.svg.
+ * @param {Element} main The main element
+ */
+function decorateIconTokens(main) {
+  const TOKEN = /:([a-z0-9]+(?:-[a-z0-9]+)*):/g;
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (TOKEN.test(node.nodeValue) && !node.parentElement.closest('code, pre, script, style')) nodes.push(node);
+    TOKEN.lastIndex = 0;
+  }
+  nodes.forEach((node) => {
+    const frag = document.createDocumentFragment();
+    let last = 0;
+    node.nodeValue.replace(TOKEN, (match, name, index) => {
+      if (index > last) frag.append(node.nodeValue.slice(last, index));
+      const span = document.createElement('span');
+      span.className = `icon icon-${name}`;
+      frag.append(span);
+      last = index + match.length;
+      return match;
+    });
+    if (last < node.nodeValue.length) frag.append(node.nodeValue.slice(last));
+    node.replaceWith(frag);
+  });
+}
+
+/**
+ * Applies each section's Section Metadata table (the vendored aem.js decorateSections does not):
+ * `Style` values become section classes, other keys become data attributes; the table is removed.
+ * @param {Element} main The main element
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div.section').forEach((section) => {
+    const sectionMeta = section.querySelector(':scope > div > div.section-metadata');
+    if (!sectionMeta) return;
+    const meta = readBlockConfig(sectionMeta);
+    Object.keys(meta).forEach((key) => {
+      if (key === 'style') {
+        `${meta.style}`.split(',').map((s) => toClassName(s.trim())).filter(Boolean)
+          .forEach((cls) => section.classList.add(cls));
+      } else {
+        section.dataset[toCamelCase(key)] = meta[key];
+      }
+    });
+    const wrapper = sectionMeta.parentElement;
+    sectionMeta.remove();
+    if (wrapper && !wrapper.children.length) wrapper.remove();
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
+  decorateIconTokens(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
 }

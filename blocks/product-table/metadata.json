@@ -1,0 +1,64 @@
+{
+  "variantName": "product-table",
+  "baseBlock": "table",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Tariff comparison table with label column, tariff columns, coloured header and group sub-headings",
+    "layout": "Coloured header row, zebra rows, optional sticky header under the site header"
+  },
+  "contentPattern": {
+    "structure": "one row per table row: label cell then tariff cells (text or :check:/:close: icon paragraphs); a single-cell H3 row starts a group"
+  },
+  "options": [
+    {
+      "class": "label-4",
+      "label": "Label column 4/12"
+    },
+    {
+      "class": "label-6",
+      "label": "Label column 6/12"
+    },
+    {
+      "class": "green",
+      "label": "Green header"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta header"
+    },
+    {
+      "class": "teal",
+      "label": "Teal header"
+    },
+    {
+      "class": "yellow",
+      "label": "Yellow header"
+    },
+    {
+      "class": "orange",
+      "label": "Orange header"
+    },
+    {
+      "class": "sticky",
+      "label": "Sticky header"
+    },
+    {
+      "class": "left",
+      "label": "Left aligned"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "v_bf116f00753b",
+    "v_54faa5235b10",
+    "v_782f75fcc711",
+    "v_ccb0dbb95232",
+    "v_78fdfbe06f21",
+    "v_dc7eac9670a7"
+  ],
+  "usage": "Tariff comparisons on program pages, often inside an accordion panel",
+  "reuseGuidance": "Reuse product-table for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

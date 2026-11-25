@@ -1,0 +1,29 @@
+{
+  "variantName": "tabs-content",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "list + heading + text",
+    "purpose": "Tab bar switching between rich content panels (product options, life stages)",
+    "layout": "Underlined text tab bar above one visible panel; icon-stepper turns the tabs into connected round icon steps with a highlighted panel"
+  },
+  "contentPattern": {
+    "structure": "one row per tab; cell 1: tab label (optionally an :icon: or image before the text); cell 2: panel content (headings, text, lists) or a single link to a fragment (e.g. /fragments/tabs/einmalanlage) when the panel holds other blocks; further cells become side-by-side panel columns"
+  },
+  "options": [
+    {
+      "class": "icon-stepper",
+      "label": "Icon Stepper"
+    }
+  ],
+  "memberVariantIds": [
+    "v_3d15b9a3edb4",
+    "v_deb62a2a0895"
+  ],
+  "usage": "Tabbed content on 5 pages (e.g. https://www.ergo.de/de/Produkte/app_produkte/investment_app, https://www.ergo.de/de/Produkte/Investmentprodukte, https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot)",
+  "reuseGuidance": "Use for tabbed panels. Put panels that contain blocks (boxes, cards, notes) in a fragment and author the fragment link in the panel cell; the fragment loads when the tab is first shown (the first tab on page load). Use the icon-stepper option for icon step/timeline navigation instead of a new block."
+}

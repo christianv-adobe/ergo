@@ -1,0 +1,628 @@
+/* calculator: values measured on ergo.de (migration-work/design/calculator*) */
+
+/* ---- base = default look (ERGO ee_input form row) -------------------------------- */
+.calculator {
+  display: grid;
+  gap: 24px;
+  max-width: 514px;
+  margin-inline: auto;
+  padding: 10px 0;
+  color: rgb(0 0 0);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.calculator .calculator-inputs,
+.calculator .calculator-results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.calculator .calculator-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calculator .calculator-label:empty {
+  display: none;
+}
+
+.calculator .calculator-label p,
+.calculator .calculator-hint p,
+.calculator .calculator-value p,
+.calculator .calculator-intro p {
+  margin: 0;
+}
+
+.calculator .calculator-field select,
+.calculator .calculator-field input[type='text'],
+.calculator .calculator-field input[type='search'] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 49px;
+  margin: 0;
+  padding: 0 15px;
+  border: 0;
+  border-bottom: 1px solid rgb(174 174 174);
+  border-radius: 2px 2px 0 0;
+  background-color: rgb(247 247 247);
+  color: rgb(115 115 115);
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.calculator .calculator-field input::placeholder {
+  color: rgb(115 115 115);
+  opacity: 1;
+}
+
+.calculator .calculator-field select {
+  padding: 0 48px 0 12px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23737373' transform='rotate(-90 12 12.167)' d='M18.17 19.66 8.02 12.14l10.15-7.52V2.17L6.6 10.7a1.76 1.76 0 0 0 0 2.89l11.57 8.58z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 18px 18px;
+}
+
+/* number + unit: value box on the left, bold unit on the right */
+.calculator .calculator-input {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.calculator .calculator-input input[type='text'] {
+  width: 48px;
+  padding: 0;
+  text-align: center;
+}
+
+.calculator .calculator-unit {
+  display: flex;
+  padding: 0 8px;
+  color: rgb(51 51 51);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.calculator .calculator-field-checkbox {
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.calculator .calculator-field-checkbox input {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  accent-color: var(--c-brand);
+}
+
+.calculator .calculator-field-checkbox .calculator-label {
+  flex: 1;
+  color: rgb(51 51 51);
+}
+
+.calculator .calculator-range {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.calculator .calculator-range input {
+  width: 100%;
+  accent-color: var(--c-brand);
+}
+
+.calculator .calculator-date {
+  display: flex;
+  gap: 20px;
+}
+
+.calculator .calculator-date input[type='text'] {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.calculator .calculator-value {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.calculator .calculator-hint {
+  font-size: 0.875em;
+}
+
+.calculator .calculator-field-checkbox .calculator-hint {
+  flex-basis: 100%;
+}
+
+.calculator .calculator-field select:focus-visible,
+.calculator .calculator-field input:focus-visible {
+  outline: 2px solid var(--c-brand);
+  outline-offset: 0;
+}
+
+.calculator .calculator-table {
+  overflow-x: auto;
+}
+
+.calculator .calculator-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media (width >= 900px) {
+  .calculator {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .calculator .calculator-input {
+    align-items: stretch;
+    padding-top: 0;
+  }
+
+  .calculator .calculator-unit {
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  .calculator.calculator-has-results {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .calculator.alt.calculator-has-results {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- visually hidden labels: the source names these fields via aria-label only --- */
+.calculator.alt .calculator-label,
+.calculator.light-2 .calculator-label,
+.calculator.light-3 .calculator-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- light: select with bold question and grey tip -------------------------------- */
+.calculator.light {
+  max-width: none;
+  padding: 0;
+}
+
+.calculator.light .calculator-field {
+  gap: 0;
+}
+
+.calculator.light .calculator-label {
+  align-self: flex-start;
+  margin-bottom: 16px;
+  padding-right: 50px;
+  color: rgb(0 0 0);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.calculator.light .calculator-hint p {
+  display: inline;
+  padding-left: 12px;
+}
+
+.calculator.light .calculator-hint {
+  color: rgb(174 174 174);
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.256px;
+}
+
+@media (width >= 900px) {
+  .calculator.light {
+    padding: 0 150px;
+  }
+
+  .calculator.light .calculator-label {
+    margin: 3px 0 17px;
+  }
+}
+
+/* ---- light-2 / light-3: white bordered input, unit as an inner adornment ----------- */
+.calculator.light-2,
+.calculator.light-3 {
+  max-width: 568px;
+  padding: 0;
+  color: rgb(51 51 51);
+}
+
+.calculator.light-2 .calculator-field select,
+.calculator.light-2 .calculator-field input[type='text'],
+.calculator.light-2 .calculator-field input[type='search'],
+.calculator.light-3 .calculator-field select,
+.calculator.light-3 .calculator-field input[type='text'],
+.calculator.light-3 .calculator-field input[type='search'] {
+  border: 1px solid rgb(217 217 217);
+  border-radius: var(--radius);
+  background-color: rgb(255 255 255);
+  color: rgb(51 51 51);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.calculator.light-2 .calculator-input,
+.calculator.light-3 .calculator-input {
+  position: relative;
+  display: block;
+  padding: 0;
+}
+
+.calculator.light-2 .calculator-input input[type='text'],
+.calculator.light-3 .calculator-input input[type='text'] {
+  width: 100%;
+  padding: 0 64px 0 15px;
+  text-align: start;
+}
+
+.calculator.light-2 .calculator-unit,
+.calculator.light-3 .calculator-unit {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  padding: 0;
+  transform: translateY(-50%);
+  color: rgb(115 115 115);
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.calculator.light-2 .calculator-inputs {
+  gap: 8px;
+}
+
+/* ---- alt: centred date row (TT / MM / JJJJ) ----------------------------------------- */
+.calculator.alt {
+  max-width: 380px;
+  padding: 0;
+  color: rgb(51 51 51);
+  font-size: 15px;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.calculator.alt .calculator-date {
+  justify-content: center;
+}
+
+.calculator.alt .calculator-date input[type='text'] {
+  flex: 0 0 54px;
+  text-align: start;
+}
+
+.calculator.alt .calculator-date input[type='text']:nth-child(2) {
+  flex: 1 1 0;
+}
+
+.calculator.alt .calculator-date input[type='text']:last-child {
+  flex-basis: 65px;
+}
+
+@media (width >= 900px) {
+  .calculator.alt .calculator-date input[type='text'] {
+    flex-basis: 90px;
+  }
+
+  .calculator.alt .calculator-date input[type='text']:last-child {
+    flex-basis: 108px;
+  }
+}
+
+/* ---- magenta-shadow-light: Förderrechner cards (inputs | results) ------------------ */
+.calculator.magenta-shadow-light {
+  max-width: none;
+  gap: 20px;
+  padding: 0;
+  color: rgb(51 51 51);
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 25.6px;
+  hyphens: auto;
+}
+
+.calculator.magenta-shadow-light .calculator-inputs,
+.calculator.magenta-shadow-light .calculator-results {
+  gap: 0;
+  padding: 14px;
+  border: 1px solid rgb(217 217 217);
+  border-radius: 12px;
+  background-color: rgb(255 255 255);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+}
+
+.calculator.magenta-shadow-light h3,
+.calculator.magenta-shadow-light .calculator-results > .calculator-intro:first-child {
+  margin: 0 0 19.2px;
+  font-family: inherit;
+  font-size: 17.6px;
+  font-weight: 600;
+  line-height: 22.88px;
+}
+
+.calculator.magenta-shadow-light .calculator-field {
+  gap: 0;
+  margin-bottom: 18px;
+}
+
+.calculator.magenta-shadow-light .calculator-label {
+  margin-bottom: 5.6px;
+  font-size: 15.2px;
+  font-weight: 500;
+  line-height: 20.52px;
+}
+
+.calculator.magenta-shadow-light .calculator-range {
+  gap: 1.6px;
+}
+
+.calculator.magenta-shadow-light .calculator-range input {
+  height: 34px;
+  margin: 0;
+  background: transparent;
+  appearance: none;
+}
+
+.calculator.magenta-shadow-light .calculator-range input::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(var(--c-brand) 0 0) 0 / 50% 100% no-repeat rgb(217 217 217);
+}
+
+.calculator.magenta-shadow-light .calculator-range input::-moz-range-track {
+  height: 6px;
+  border-radius: 3px;
+  background: rgb(217 217 217);
+}
+
+.calculator.magenta-shadow-light .calculator-range input::-moz-range-progress {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--c-brand);
+}
+
+.calculator.magenta-shadow-light .calculator-range input::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  margin-top: -7px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--c-brand);
+  appearance: none;
+}
+
+.calculator.magenta-shadow-light .calculator-range input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--c-brand);
+}
+
+.calculator.magenta-shadow-light .calculator-range output {
+  color: rgb(102 102 102);
+  font-size: 14.08px;
+  line-height: 20.416px;
+}
+
+.calculator.magenta-shadow-light .calculator-hint {
+  margin-top: 5.6px;
+  color: rgb(102 102 102);
+  font-size: 12.8px;
+  font-style: italic;
+  line-height: 17.92px;
+}
+
+.calculator.magenta-shadow-light .calculator-field select {
+  height: 40px;
+  padding: 0 40px 0 12px;
+  border: 1px solid rgb(217 217 217);
+  border-radius: 8px;
+  background-color: rgb(255 255 255);
+  color: rgb(51 51 51);
+  font-size: 16px;
+}
+
+.calculator.magenta-shadow-light .calculator-inputs > .calculator-intro:last-child {
+  padding: 16px 16px 16px 20px;
+  border-left: 4px solid var(--c-brand);
+  border-radius: 4px;
+  background-color: rgb(240 240 240);
+  color: rgb(85 85 85);
+  font-size: 13.6px;
+  line-height: 20.4px;
+}
+
+.calculator.magenta-shadow-light .calculator-inputs > .calculator-intro:last-child strong {
+  color: rgb(51 51 51);
+}
+
+.calculator.magenta-shadow-light .calculator-table th,
+.calculator.magenta-shadow-light .calculator-table td {
+  padding: 8.8px 4.8px;
+  border-bottom: 1px solid rgb(224 224 224);
+  font-size: 12px;
+  line-height: 16.2px;
+  text-align: left;
+}
+
+.calculator.magenta-shadow-light .calculator-table th {
+  background-color: rgb(245 245 245);
+  font-weight: 600;
+}
+
+.calculator.magenta-shadow-light .calculator-table tbody tr:last-child td {
+  border-top: 2px solid rgb(51 51 51);
+  color: var(--c-brand);
+  font-weight: 600;
+}
+
+.calculator.magenta-shadow-light .calculator-table tbody tr:last-child td:first-child {
+  color: rgb(51 51 51);
+  font-weight: 700;
+}
+
+@media (width >= 900px) {
+  .calculator.magenta-shadow-light {
+    gap: 32px;
+  }
+
+  .calculator.magenta-shadow-light.calculator-has-results {
+    grid-template-columns: repeat(2, minmax(0, 400px));
+    justify-content: center;
+  }
+
+  .calculator.magenta-shadow-light .calculator-inputs,
+  .calculator.magenta-shadow-light .calculator-results {
+    padding: 24px;
+  }
+
+  .calculator.magenta-shadow-light h3,
+  .calculator.magenta-shadow-light .calculator-results > .calculator-intro:first-child {
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-field {
+    margin-bottom: 24px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-range {
+    gap: 4px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-range input {
+    height: 20px;
+    margin-top: 6px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-range output {
+    font-size: 14.4px;
+    line-height: 23.04px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-hint {
+    margin-top: 8px;
+    line-height: 20.48px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-inputs > .calculator-intro:last-child {
+    font-size: 14.4px;
+    line-height: 23.04px;
+  }
+
+  .calculator.magenta-shadow-light .calculator-table th,
+  .calculator.magenta-shadow-light .calculator-table td {
+    padding: 12px;
+    font-size: 15.2px;
+    line-height: 24.32px;
+  }
+}
+
+/* ---- cyan-dark-shadow-light: tariff comparison, one shadowed card per heading ------ */
+.calculator.cyan-dark-shadow-light {
+  max-width: none;
+  padding: 0.1px 0;
+  color: rgb(51 51 51);
+  font-size: 15px;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.calculator.cyan-dark-shadow-light .calculator-inputs {
+  gap: 48px;
+}
+
+.calculator.cyan-dark-shadow-light .calculator-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator.cyan-dark-shadow-light h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  overflow-wrap: anywhere;
+}
+
+.calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(2) {
+  padding: 4px 0 24px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(n + 3) {
+  padding: 12px 16px;
+  background-color: rgb(255 255 255);
+  box-shadow: rgb(0 0 0 / 18%) 0 2px 4px 0;
+  clip-path: inset(0 -8px);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(3) {
+  border-radius: 8px 8px 0 0;
+  clip-path: inset(-8px -8px 0);
+}
+
+.calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(n + 3):last-child {
+  clip-path: inset(0 -8px -8px);
+}
+
+@media (width >= 900px) {
+  .calculator.cyan-dark-shadow-light .calculator-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
+  }
+
+  .calculator.cyan-dark-shadow-light h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(2) {
+    padding: 8px 0 32px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .calculator.cyan-dark-shadow-light .calculator-group > .calculator-intro:nth-child(n + 3) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -29,6 +29,13 @@
  *   · img-natural (image at its own aspect ratio, default 3:2) · flag-right (flag top-right)
  *   · title-sans (title line sans, text colour
  *   — canon txt__h2 without serif/red)
+ * @variants catalog looks (block-generator augment) map to the flags above in PROMO_FAMILIES,
+ *   following each look's source card: image* | grey* | light | white-card |
+ *   round-image-full-image* → image-left (+ cta-auto / headline-m / cta-large per look) ·
+ *   round-image → image-right · round-image-2|3|4 → rounded + image-left · magenta-grey →
+ *   centred tile. Card colours per look live in promo.css. red-light | magenta-red-light:
+ *   default card (their sources are not promo cards).
+ * · cta-large (canon data-size="large" CTAs, 48px at every width)
  */
 
 function collectNodes(block) {
@@ -121,6 +128,7 @@ function buildCard(unit, block) {
   unit.ctas.forEach((p) => {
     const cta = div('promo-cta cmp-cta w-100');
     if (block.classList.contains('cta-auto')) cta.classList.add('size-auto');
+    if (block.classList.contains('cta-large')) cta.classList.add('size-large');
     // a CTA link authored without emphasis = canon text-link CTA (cluster-landing /de/Produkte)
     const plain = p.querySelector('a');
     // (decorateButtons has already turned emphasised links into a.button and dropped the marks)
@@ -142,7 +150,79 @@ function buildCard(unit, block) {
   return card;
 }
 
+/*
+ * Icon tokens left as literal text (`:calculator: <strong><a>`; previews that skip the
+ * pipeline's icon conversion) become the `span.icon` the pipeline renders, and a CTA paragraph
+ * that only failed decorateButtons because of the token is buttonised the same way.
+ */
+function decorateIconTokens(block) {
+  block.querySelectorAll('p').forEach((p) => {
+    const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+    const hits = [];
+    while (walker.nextNode()) {
+      if (/:[a-z][a-z0-9-]*:/.test(walker.currentNode.textContent)) hits.push(walker.currentNode);
+    }
+    hits.forEach((node) => {
+      const frag = document.createDocumentFragment();
+      node.textContent.split(/(:[a-z][a-z0-9-]*:)/).forEach((part) => {
+        const m = /^:([a-z][a-z0-9-]*):$/.exec(part);
+        if (m) {
+          const span = document.createElement('span');
+          span.className = `icon icon-${m[1]}`;
+          frag.append(span);
+        } else if (part) frag.append(part);
+      });
+      node.replaceWith(frag);
+    });
+    const a = p.querySelector('a');
+    if (!hits.length || !a || a.classList.contains('button')) return;
+    if (p.textContent.trim() !== a.textContent.trim() || a.querySelector('img')) return;
+    const strong = a.closest('strong');
+    const em = a.closest('em');
+    if (!strong && !em) return;
+    p.classList.add('button-wrapper');
+    a.classList.add('button');
+    if (strong && em) {
+      a.classList.add('accent');
+      (strong.contains(em) ? strong : em).replaceWith(a);
+    } else if (strong) {
+      a.classList.add('primary');
+      strong.replaceWith(a);
+    } else {
+      a.classList.add('secondary');
+      em.replaceWith(a);
+    }
+  });
+}
+
+// catalog option classes → the existing layout flags (additive; the authored tokens stay).
+// Flags per look follow its source card (data-image-position, data-is-rounded, data-size,
+// headline size, flag position).
+const PROMO_FAMILIES = [
+  [/^(white-card|grey|image-2|image-grey-2)$/, ['image-left']],
+  [/^(image|image-light|grey-2|light|round-image-full-image(-2)?)$/, ['image-left', 'cta-auto']],
+  [/^image-grey$/, ['image-left', 'headline-m', 'cta-large']],
+  [/^round-image$/, ['image-right', 'headline-m', 'cta-auto']],
+  [/^round-image-2$/, ['rounded', 'image-left', 'headline-m', 'cta-auto']],
+  [/^round-image-3$/, ['rounded', 'image-left', 'flag-right']],
+  [/^round-image-4$/, ['rounded', 'image-left']],
+  [/^magenta-grey$/, ['center', 'cta-auto']],
+];
+
+function applyOptionFamilies(block) {
+  [...block.classList].forEach((t) => {
+    PROMO_FAMILIES.forEach(([re, flags]) => {
+      if (!re.test(t)) return;
+      // an authored image position wins over the look's
+      const authoredPos = ['image-left', 'image-right'].find((c) => block.classList.contains(c));
+      block.classList.add(...flags.filter((f) => !authoredPos || !/^image-(left|right)$/.test(f)));
+    });
+  });
+}
+
 export default function decorate(block) {
+  applyOptionFamilies(block);
+  decorateIconTokens(block);
   const nodes = collectNodes(block);
   if (!nodes.length) return;
   const counts = {};

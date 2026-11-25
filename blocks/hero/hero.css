@@ -8,19 +8,25 @@
   --teaser-pi-end: 24px;
   --cta-w: 100%;
   --cta-mt: 32px;
+  --cta-gap: 16px;
 
   width: 100vw;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
+
+  /* canon padding-m: a transparent 24px under the band (the band colour stops at the
+     content box) */
+  padding-bottom: 24px;
   background: #fff;
+  background-clip: content-box;
 }
 
 .hero.product.yellow {
-  background: var(--bg-yellow);
+  background-color: var(--bg-yellow);
 }
 
 .hero.product.orange {
-  background: var(--bg-orange);
+  background-color: var(--bg-orange);
 }
 
 /* cluster-landing: image hidden on mobile (canon data-image-hide-mobile, /de/Service) */
@@ -31,8 +37,22 @@
 }
 
 /* cluster-landing: /de/Geschaeftskunden-Produkte hero band (live hero bg-magenta) */
-.hero.product.magenta {
-  background: var(--bg-magenta);
+.hero.product.magenta:not(.yellow, .orange) {
+  background-color: var(--bg-magenta);
+}
+
+/* live hero bands bg-blue / bg-green / bg-gray (the import maps them to blue / green / warmgrey;
+   they win over a catalog look class "magenta") */
+.hero.product.blue:not(.yellow, .orange) {
+  background-color: var(--bg-blue);
+}
+
+.hero.product.green:not(.yellow, .orange) {
+  background-color: var(--bg-green);
+}
+
+.hero.product.warmgrey:not(.yellow, .orange) {
+  background-color: var(--bg-warmgrey);
 }
 
 .hero.product .hero-image .media {
@@ -102,6 +122,52 @@
   padding-top: 32px;
 }
 
+/* teaser text at the canon cmp-text ramp (14/21 -> 16/24) */
+.hero.product .hero-teaser-text :is(p, ul) {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero.product .hero-teaser-text > * + * {
+  margin-top: 10px;
+}
+
+/* benefit list: canon ul.check-list--green (teal disc, white check) */
+.hero.product .hero-teaser-text ul {
+  padding: 0;
+  list-style: none;
+}
+
+.hero.product .hero-teaser-text li {
+  position: relative;
+  padding-left: 32px;
+}
+
+.hero.product .hero-teaser-text li + li {
+  margin-top: 10px;
+}
+
+.hero.product .hero-teaser-text li::before,
+.hero.product .hero-teaser-text li::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: calc(1lh - 4px);
+  height: calc(1lh - 4px);
+}
+
+.hero.product .hero-teaser-text li::before {
+  border-radius: 50%;
+  background: var(--c-check);
+}
+
+.hero.product .hero-teaser-text li::after {
+  background-color: #fff;
+  mask: url("../../icons/check.svg") center / 70% no-repeat;
+}
+
 .hero.product .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -114,6 +180,11 @@
 
   width: var(--cta-w);
   margin-top: var(--cta-mt);
+}
+
+/* stacked CTAs sit 16px apart; side by side they share the row (see the gap ramp below) */
+.hero.product .hero-actions .hero-cta + .hero-cta {
+  margin-top: var(--cta-gap);
 }
 
 @media (width >= 768px) {
@@ -135,6 +206,20 @@
   .hero.product .hero-teaser-text {
     padding-top: 48px;
   }
+
+  .hero.product .hero-teaser-text :is(p, ul) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero.product .hero-teaser-text > * + *,
+  .hero.product .hero-teaser-text li + li {
+    margin-top: 12px;
+  }
+
+  .hero.product .hero-teaser-text li {
+    padding-left: 36px;
+  }
 }
 
 @media (width >= 912px) {
@@ -143,6 +228,10 @@
     --cta-w: 100%;
 
     display: grid;
+
+    /* the live band is at least 360px tall; the transparent padding-bottom comes on top of it
+       (content-box: border-box would take the 24/48px out of the band and shorten the image) */
+    box-sizing: content-box;
     min-height: 360px;
     max-width: 1440px;
     margin-left: max(calc(50% - 50vw), calc(50% - 720px));
@@ -190,11 +279,6 @@
 /* ---- Landing hero additions (archetype-landing, canon index.css cmp-hero) -------------
    Content-driven slots (only present when authored): störer badge, price; variant `landing`
    adds the canon CTA stack gap and the 24px gap under the band. */
-.hero.product.landing {
-  --cta-gap: 16px;
-
-  margin-bottom: 24px;
-}
 
 .hero.product .hero-teaser.has-storer {
   padding-top: 56px;
@@ -226,6 +310,8 @@
   align-items: center;
   max-width: 100%;
   margin: 0;
+  font-size: 16px;
+  line-height: 24px;
   white-space: nowrap;
 }
 
@@ -236,33 +322,45 @@
   line-height: 36px;
 }
 
-/* teaser text at the canon cmp-text ramp (14/21 → 16/24) */
-.hero.product.landing .hero-teaser-text p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 21px;
-}
-
 .hero.product .hero-cta.has-icon .icon {
   display: none;
 }
 
-.hero.product.landing .hero-actions .hero-cta + .hero-cta {
-  margin-top: var(--cta-gap);
+/* CTA icons painted by the canon ::after mask. Root-relative URLs: a url() inside a custom
+   property resolves against the sheet that reads it, so styles.css' relative --icon values
+   would point under /blocks/ here. */
+.hero.product .hero-cta.ic-calculator {
+  --icon: url("/icons/calculator.svg");
+}
+
+.hero.product .hero-cta.ic-chevron {
+  --icon: url("/icons/chevron-right.svg");
+}
+
+.hero.product .hero-cta.ic-headset {
+  --icon: url("/icons/headset.svg");
+}
+
+.hero.product .hero-cta.ic-man {
+  --icon: url("/icons/man.svg");
+}
+
+.hero.product .hero-cta.ic-phone {
+  --icon: url("/icons/phone.svg");
+}
+
+.hero.product .hero-cta.has-icon a.button::after {
+  content: "";
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px no-repeat;
 }
 
 @media (width >= 768px) {
-  .hero.product.landing {
-    --cta-gap: 32px;
-  }
-
   .hero.product .hero-price p {
     font-size: 18px;
-  }
-
-  .hero.product.landing .hero-teaser-text p {
-    font-size: 16px;
-    line-height: 24px;
   }
 
   .hero.product .hero-price strong {
@@ -272,17 +370,14 @@
   }
 }
 
+/* side-by-side CTAs (50% width) keep the row: the second one takes the first one's offset */
 @media (width >= 768px) and (width <= 911px), (width >= 1152px) {
-  .hero.product.landing .hero-actions .hero-cta + .hero-cta {
+  .hero.product .hero-actions .hero-cta + .hero-cta {
     margin-top: var(--cta-mt);
   }
 }
 
 @media (width >= 912px) {
-  .hero.product.landing {
-    --cta-gap: 16px;
-  }
-
   .hero.product .hero-teaser.has-storer {
     padding-top: var(--teaser-pb);
   }
@@ -300,8 +395,21 @@
   }
 }
 
-@media (width >= 1152px) {
-  .hero.product.landing {
-    --cta-gap: 48px;
+/* ---- catalog option classes (block-generator augment) ----
+ * light / light-2 / image / image-2 imply `product` in JS and keep the authored band colour.
+ * The import maps only bg-yellow / bg-orange / bg-magenta, so an uncoloured image / light-2
+ * hero is the live bg-blue band (measured on /gesundheitsvorsorge, /private-rentenversicherung). */
+.hero.product:is(.image, .light-2):not(.yellow, .orange, .magenta, .blue, .green, .warmgrey) {
+  background-color: var(--bg-blue);
+}
+
+/* image / image-2: canon padding-l under the band (40 -> 48) */
+.hero.product:is(.image, .image-2) {
+  padding-bottom: 40px;
+}
+
+@media (width >= 768px) {
+  .hero.product:is(.image, .image-2) {
+    padding-bottom: 48px;
   }
 }

@@ -41,7 +41,17 @@
  *   (`left` only in `cards` rows: left-aligned headline/text, canon .cmp-promo__headline.left;
  *   colour words also colour `cards` and `articles` rows)
  * @ew-exempt metadata — the tile background colour cell (cell 2) is never displayed
+ * @variants catalog option families (block-generator augment; numbered suffixes such as
+ *   `slider-7` / `image-top-12` and colour suffixes behave like their family): slider* →
+ *   slider-always · image* | image-top* | bordered | bordered-text | link-tiles-light |
+ *   link-tiles-orange-light | link-tiles-magenta-grey → cards (one card per row or heading)
+ *   · link-tiles* | icon-tiles* → reduced tiles (icon left, arrow right) · icon* → centred
+ *   icon tiles (default tile) · colour words in a token (cyan | magenta | orange | grey |
+ *   light | dark) → block class tone-<colour> (first colour word wins; colour in the
+ *   design pass). The authored option classes stay on the block.
  */
+
+import { decorateIcons } from '../../scripts/aem.js';
 
 function stripInstrumentation(el) {
   el.querySelectorAll('[data-prose-index], [data-image-index]').forEach((n) => {
@@ -101,7 +111,11 @@ function takeColours(block) {
 
 function segment(block) {
   const nodes = [];
-  block.querySelectorAll(':scope > div > div').forEach((cell) => nodes.push(...cell.children));
+  const rowOf = new Map();
+  block.querySelectorAll(':scope > div > div').forEach((cell) => {
+    [...cell.children].forEach((el) => rowOf.set(el, cell.parentElement));
+    nodes.push(...cell.children);
+  });
   const counts = {};
   nodes.filter(isHeading).forEach((n) => {
     counts[n.tagName] = (counts[n.tagName] || 0) + 1;
@@ -114,12 +128,18 @@ function segment(block) {
   const slides = [];
   let pending = [];
   let current = null;
+  // content of a row before its slide heading (icon, flag line) leads that row's slide
+  const headedRows = new Set(nodes.filter((n) => n.tagName === headTag).map((n) => rowOf.get(n)));
+  const leadsNext = (el) => current && rowOf.get(el) !== current.row
+    && headedRows.has(rowOf.get(el));
   nodes.forEach((el) => {
     if (el.tagName === headTag) {
-      current = { lead: pending, heading: el, rest: [] };
+      current = {
+        lead: pending, heading: el, rest: [], row: rowOf.get(el),
+      };
       slides.push(current);
       pending = [];
-    } else if (isIconPara(el) || !current) {
+    } else if (isIconPara(el) || !current || leadsNext(el)) {
       pending.push(el);
     } else {
       current.rest.push(el);
@@ -161,6 +181,20 @@ function buildDownload(unit, link) {
   return card;
 }
 
+// CTA icon token (decorated `.icon-<name>` span) → canon wrapper modifiers ic-<name> (+ icon-left)
+function ctaIcon(p, wrapper) {
+  const icon = p.querySelector('.icon');
+  const a = p.querySelector('a');
+  if (!icon || !a) return;
+  const name = [...icon.classList].find((c) => c.startsWith('icon-') && c !== 'icon');
+  if (!name) return;
+  wrapper.classList.add(`ic-${name.slice(5)}`, 'has-icon');
+  // eslint-disable-next-line no-bitwise
+  if (icon.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) {
+    wrapper.classList.add('icon-left');
+  }
+}
+
 function buildTile(unit, block, colours) {
   const tile = div('tile');
   const colour = colours && colours.get(unit.heading);
@@ -176,9 +210,20 @@ function buildTile(unit, block, colours) {
   } else {
     tile.classList.add('no-icon');
   }
-  const title = div('tile-title');
-  title.append(...other, unit.heading);
-  tile.append(title);
+  if (other.length) {
+    // text authored before the heading is the tile flag (canon .cmp-promo__flag)
+    const fc = div('tile-flag-container');
+    const f = div('tile-flag');
+    f.append(...other);
+    fc.append(f);
+    tile.prepend(fc);
+    tile.classList.add('has-flag');
+  }
+  if (unit.heading) {
+    const title = div('tile-title');
+    title.append(unit.heading);
+    tile.append(title);
+  }
   const text = div('tile-text');
   const ctas = div('tile-cta-wrapper');
   unit.rest.forEach((el) => {
@@ -202,21 +247,33 @@ function buildTile(unit, block, colours) {
   });
   if (text.children.length) tile.append(text);
   if (ctas.children.length) tile.append(ctas);
-  return tile;
-}
-
-// CTA icon token (decorated `.icon-<name>` span) → canon wrapper modifiers ic-<name> (+ icon-left)
-function ctaIcon(p, wrapper) {
-  const icon = p.querySelector('.icon');
-  const a = p.querySelector('a');
-  if (!icon || !a) return;
-  const name = [...icon.classList].find((c) => c.startsWith('icon-') && c !== 'icon');
-  if (!name) return;
-  wrapper.classList.add(`ic-${name.slice(5)}`, 'has-icon');
-  // eslint-disable-next-line no-bitwise
-  if (icon.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) {
-    wrapper.classList.add('icon-left');
+  // canon tile (c42) = one link-tile CTA (<em><a>, no icon); anything else (no CTA, several
+  // CTAs, a text link or filled button, a flag) is the canon promo (c36) painted as a tile
+  const links = [...ctas.querySelectorAll('a')];
+  const tileCta = links.length === 1 && links[0].matches('.button.secondary')
+    && !ctas.querySelector('.icon') && ctas.children.length === 1;
+  if (!tileCta && !ctas.querySelector('.static')) {
+    tile.classList.add('promo');
+    ctas.querySelectorAll(':scope > .cmp-cta').forEach((c) => {
+      const a = c.querySelector('a');
+      c.className = 'cmp-cta';
+      if (!a) return;
+      let kind = 'text-link';
+      if (a.matches('.button.primary')) kind = 'primary';
+      else if (a.matches('.button.secondary')) kind = 'secondary';
+      else if (a.matches('.button.accent')) kind = 'tertiary';
+      else a.classList.add('button');
+      c.classList.add(kind, kind === 'text-link' ? 'size-auto' : 'w-100');
+      ctaIcon(c, c);
+    });
+  } else if (!text.children.length || !unit.heading) {
+    // a link tile (icon, title or text line, CTA) is reduced at every width, as live
+    tile.classList.add('reduced-m', 'reduced-d');
+  } else {
+    // canon tiles are reduced below 768 (live data-variant-mobile="reduced")
+    tile.classList.add('reduced-m');
   }
+  return tile;
 }
 
 // promo-card slide (variant `cards`): one authored row = one card
@@ -382,7 +439,22 @@ function buildSlide(unit, block, colours) {
   } else if (unit.heading) {
     slide.append(buildTile(unit, block, colours));
   } else {
-    slide.append(...unit.lead, ...unit.rest);
+    // a slide without a heading: icon + text line + CTA is a link tile without a title;
+    // other text is a promo card (first of several text lines = flag); media stays as-is
+    const nodes = [...unit.lead, ...unit.rest];
+    const texts = nodes.filter((el) => el.tagName === 'P' && !isIconPara(el) && !isMedia(el)
+      && !isCta(el) && !isStaticCta(el));
+    if (nodes.some(isIconPara) && texts.length === 1 && nodes.some(isCta)) {
+      slide.append(buildTile({
+        lead: nodes.filter(isIconPara),
+        heading: null,
+        rest: nodes.filter((el) => !isIconPara(el)),
+      }, block, colours));
+    } else if (texts.length) {
+      slide.append(buildCard(nodes, block));
+    } else {
+      slide.append(...nodes);
+    }
   }
   return slide;
 }
@@ -411,17 +483,23 @@ function mountSlider(block, list, slides, nav) {
   const prev = nav.querySelector('.prev');
   const next = nav.querySelector('.next');
   const state = {
-    page: 0, pages: 1, per: 1, on: false, clones: 0, cloned: false,
+    page: 0, pages: 1, per: 1, on: false, clones: 0,
   };
   const unclone = () => {
     list.querySelectorAll('.slide-clone').forEach((c) => c.remove());
     state.clones = 0;
   };
+  // loop clones on both ends, as splide mounts them: twice the widest page (desktop columns)
+  const colsOf = (prefix) => [...block.classList]
+    .map((c) => c.match(new RegExp(`^cols-${prefix}-(\\d)$`)))
+    .filter(Boolean).map((m) => Number(m[1]))[0];
+  const maxPer = colsOf('l') || colsOf('m') || 1;
   const reclone = () => {
     unclone();
-    const n = Math.min(slides.length, state.per * 2);
+    const n = Math.min(slides.length, maxPer * 2);
     const mk = (s) => {
       const c = stripInstrumentation(s.cloneNode(true)); // EW4
+      c.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));
       c.classList.add('slide-clone');
       c.setAttribute('inert', '');
       c.setAttribute('aria-hidden', 'true');
@@ -440,11 +518,11 @@ function mountSlider(block, list, slides, nav) {
       list.style.transform = '';
       return;
     }
-    const slideW = slides[0].getBoundingClientRect().width;
-    list.style.transform = `translateX(${-(state.clones + state.page * state.per) * slideW}px)`;
+    // in slide widths (the list's --column-width share), so it holds while the section is
+    // still hidden at decoration time and across resizes
+    const shift = state.clones + state.page * state.per;
+    list.style.transform = shift ? `translateX(calc(${-shift} * var(--column-width)))` : '';
     [...dots.children].forEach((li, i) => li.firstElementChild.classList.toggle('is-active', i === state.page));
-    prev.setAttribute('aria-label', state.page === 0 ? 'gehe zur letzten Seite' : 'vorherige Seite');
-    next.setAttribute('aria-label', state.page === state.pages - 1 ? 'gehe zur ersten Seite' : 'nächste Seite');
     const first = state.page * state.per;
     slides.forEach((s, i) => {
       const vis = i >= first && i < first + state.per;
@@ -452,19 +530,7 @@ function mountSlider(block, list, slides, nav) {
       s.toggleAttribute('inert', !vis);
     });
   };
-  // loop clones are built on the first navigation (presentational only; at rest they would
-  // just duplicate the slide text for non-rendering readers)
-  const ensureClones = () => {
-    if (!state.on || state.clones) return;
-    state.cloned = true;
-    reclone();
-    list.style.transition = 'none';
-    render();
-    list.getBoundingClientRect();
-    list.style.transition = '';
-  };
   const go = (p) => {
-    ensureClones();
     state.page = (p + state.pages) % state.pages;
     render();
   };
@@ -474,8 +540,9 @@ function mountSlider(block, list, slides, nav) {
     const mobile = block.classList.contains('slider-mobile') && MOBILE.matches;
     state.on = (always || mobile) && slides.length > state.per;
     block.classList.toggle('is-slider', state.on);
-    if (state.on && state.cloned) reclone();
-    else unclone();
+    // clones are inert and aria-hidden; they only fill the track edges (loop type, as live)
+    if (!state.on) unclone();
+    else if (!state.clones) reclone();
     state.pages = state.on ? Math.ceil(slides.length / state.per) : 1;
     state.page = Math.min(state.page, state.pages - 1);
     dots.replaceChildren();
@@ -553,7 +620,65 @@ function cardSlides(block) {
     });
 }
 
+const TONE_WORDS = ['cyan', 'magenta', 'orange', 'grey', 'light', 'dark'];
+const CARD_LINK_TILES = ['link-tiles-light', 'link-tiles-orange-light', 'link-tiles-magenta-grey'];
+
+// catalog option classes → the existing behaviour flags (additive; unknown tokens ignored)
+function applyOptionFamilies(block) {
+  const tokens = [...block.classList];
+  const add = (...cls) => block.classList.add(...cls);
+  tokens.forEach((t) => {
+    if (/^slider(-|$)/.test(t) && t !== 'slider-always' && t !== 'slider-mobile') {
+      add('slider-always');
+    } else if (CARD_LINK_TILES.includes(t)) {
+      add('cards');
+    } else if (/^(link-tiles|icon-tiles)(-|$)/.test(t)) {
+      add('reduced-mobile', 'reduced-desktop');
+    } else if (/^(image|image-top|bordered|bordered-text)(-|$)/.test(t)) {
+      add('cards');
+    }
+  });
+  if (![...block.classList].some((c) => c.startsWith('tone-'))) {
+    const tone = tokens.flatMap((t) => t.split('-')).find((w) => TONE_WORDS.includes(w));
+    if (tone) add(`tone-${tone}`);
+  }
+}
+
+// a raw (unrendered) document still carries `:icon:` tokens as text (local preview of
+// imported .plain.html); render them as the pipeline does: <span class="icon icon-name"><img>
+const ICON_TOKEN = /:([a-z][a-z0-9-]*):/g;
+function renderIconTokens(block) {
+  const walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT);
+  const hits = [];
+  while (walker.nextNode()) {
+    if (ICON_TOKEN.test(walker.currentNode.nodeValue)) hits.push(walker.currentNode);
+    ICON_TOKEN.lastIndex = 0;
+  }
+  hits.forEach((node) => {
+    const frag = document.createDocumentFragment();
+    let last = 0;
+    node.nodeValue.replace(ICON_TOKEN, (m, name, at) => {
+      if (at > last) frag.append(node.nodeValue.slice(last, at));
+      const span = document.createElement('span');
+      span.className = `icon icon-${name}`;
+      frag.append(span);
+      last = at + m.length;
+      return m;
+    });
+    if (last < node.nodeValue.length) frag.append(node.nodeValue.slice(last));
+    const parent = node.parentNode;
+    node.replaceWith(frag);
+    // a paragraph holding only the icon is an icon paragraph (no stray whitespace text)
+    if (parent && parent.tagName === 'P' && !parent.textContent.trim()) {
+      [...parent.childNodes].filter((n) => n.nodeType === 3).forEach((n) => n.remove());
+    }
+  });
+  if (hits.length) decorateIcons(block);
+}
+
 export default function decorate(block) {
+  renderIconTokens(block);
+  applyOptionFamilies(block);
   let slides;
   if (block.classList.contains('cards') || block.classList.contains('articles')) {
     slides = cardSlides(block);

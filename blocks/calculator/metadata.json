@@ -1,0 +1,72 @@
+{
+  "variantName": "calculator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "field",
+    "purpose": "Static rendering of a premium / subsidy calculator or tariff configurator: labelled fields (select, range, checkbox, date, value) with hints and an optional result table",
+    "layout": "Stacked fields; with a results row, inputs and results sit side by side on desktop"
+  },
+  "contentPattern": {
+    "structure": "one row per item. 1 cell = intro text or heading (or a result table). 2-3 cells = field: label | control | optional hint. Control cell: a list (optionally preceded by 'select'; bold item = selected) renders a select; 'checkbox' or '[ ]'/'[x]' a checkbox; 'range: <value>' a slider with the value; 'date' day/month/year inputs; 'input: <placeholder>' or 'search: <placeholder>' a text input; any other content is shown as a static value (e.g. '67 Jahre'). A row whose first cell is 'Results' (or 'Ergebnis') starts the results panel; its second cell is the panel heading"
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    },
+    {
+      "class": "light-3",
+      "label": "Light 3"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "magenta-shadow-light",
+      "label": "Magenta Shadow Light"
+    },
+    {
+      "class": "cyan-dark-shadow-light",
+      "label": "Cyan Dark Shadow Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_dc2c9aa22daf",
+    "v_973986bec943",
+    "v_9d4670f7deb8",
+    "v_39c65fab0077",
+    "v_41fbb7877322",
+    "v_46abbe0ab210",
+    "v_5459650d4fb7",
+    "v_61da4f8bcba4",
+    "v_9a1dd5d5daec",
+    "v_ed345663fc4f"
+  ],
+  "usage": {
+    "reuseCount": 24,
+    "pageCount": 11,
+    "samplePages": [
+      "https://www.ergo.de/de/Produkte/grundfaehigkeitsversicherung",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/chance",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/dynamik-rente",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/Private-Rentenversicherung",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/Zukunfts-Rente",
+      "https://www.ergo.de/de/Ratgeber/finanzielle_vorsorge/grundrente",
+      "https://www.ergo.de/de/Produkte/Rentenversicherung/altersvorsorgedepot",
+      "https://www.ergo.de/de/Ratgeber/interviews/dieter-sprott-private-altersvorsorgereform",
+      "https://www.ergo.de/de/Produkte/Berufsunfaehigkeitsversicherung",
+      "https://www.ergo.de/de/Produkte/Zahnzusatzversicherung/Zahnzusatzversicherung-im-Vergleich"
+    ]
+  },
+  "reuseGuidance": "Use calculator for every premium, pension-subsidy, age, contribution and tariff-configurator widget. The block renders the authored fields, labels, options and result table statically: live calculation, quote services, profession lookup and form submission are out of scope for now and will need a later integration pass. Add an option class rather than a new block for colour or panel differences."
+}

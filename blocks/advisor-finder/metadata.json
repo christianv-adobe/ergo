@@ -1,0 +1,54 @@
+{
+  "variantName": "advisor-finder",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button + image + link + text",
+    "purpose": "Advisor search results page: title, filter and sort controls, result count, list of advisors (photo, rating, name, address, distance, homepage link, badge) beside a map panel",
+    "layout": "Results list left, map panel right on desktop; stacked on mobile; no-map renders the list full width"
+  },
+  "contentPattern": {
+    "structure": "1 cell heading = title; label | list = filter or sort select (bold item selected); 1 cell text = result summary; picture | details | optional badge = one advisor (details: rating, name, address, distance, links); 'Map' (or 'Karte') | content = map panel (consent notice and button); rows after the last advisor also go to the map panel"
+  },
+  "options": [
+    {
+      "class": "no-map",
+      "label": "No Map"
+    }
+  ],
+  "memberVariantIds": [
+    "v_c9c5f2f1b7fd",
+    "v_c9c5f2f1b7fd-1",
+    "v_c9c5f2f1b7fd-2",
+    "v_c9c5f2f1b7fd-3",
+    "v_c9c5f2f1b7fd-4",
+    "v_c9c5f2f1b7fd-5",
+    "v_c9c5f2f1b7fd-6",
+    "v_c9c5f2f1b7fd-7",
+    "v_c9c5f2f1b7fd-8",
+    "v_c9c5f2f1b7fd-9",
+    "v_eb168cca9614",
+    "v_f68dc0445b77"
+  ],
+  "usage": {
+    "reuseCount": 194,
+    "pageCount": 194,
+    "samplePages": [
+      "https://www.ergo.de/de/Versicherung-vor-Ort/aachen",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/aachen/Zahnzusatzversicherung-ohne-Wartezeit",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Badenbaden",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Badenbaden/Zahnzusatzversicherung-ohne-Wartezeit",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Berlin-Mitte",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Berlin-Mitte/Zahnzusatzversicherung-ohne-Wartezeit",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Dinslaken",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Dinslaken/Zahnzusatzversicherung-ohne-Wartezeit",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Duesseldorf",
+      "https://www.ergo.de/de/Versicherung-vor-Ort/Duesseldorf/Zahnzusatzversicherung-ohne-Wartezeit"
+    ]
+  },
+  "reuseGuidance": "Use advisor-finder for every advisor / agency search result page; use the no-map option for list-only instances. The block renders the authored advisors, filter and sort options and the map consent notice statically: live advisor search, geolocation, filtering/sorting, the Google Maps embed and any submission are out of scope for now and need a later integration pass."
+}

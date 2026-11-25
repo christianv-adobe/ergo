@@ -1,0 +1,112 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.10.0",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.ergo.de",
+  "previewBase": "https://main--856f1bba--aemcoder.aem.page/de",
+  "convertedAt": "2026-11-12T12:01:26.575Z",
+  "counts": {
+    "pages": 10,
+    "templates": 6,
+    "blockVariants": 12
+  },
+  "templateNames": {
+    "landing": {
+      "name": "hub-landing",
+      "description": "Section hub pages (private, business, all products, service) with product hero, promo cards and tile carousels"
+    },
+    "program": {
+      "name": "business-product",
+      "description": "Business insurance product pages with product hero, benefits, FAQ accordions and tariff tables"
+    },
+    "de-geschaeftskunden-produkte-cyber-versicherung-fuer-unternehmen": {
+      "name": "business-product-cyber",
+      "description": "Cyber insurance product page: business product layout with extra tariff tables, CTAs and promo"
+    },
+    "de-ratgeber": {
+      "name": "advice-hub",
+      "description": "Ratgeber advice hub: article header, breadcrumb, text columns and article card carousels"
+    },
+    "listing": {
+      "name": "legal-portal",
+      "description": "Rechtsportal listing page: article header, breadcrumb, card carousels and promos"
+    },
+    "index": {
+      "name": "homepage",
+      "description": "Site homepage with banner, landing hero, promo card carousels, CTAs and eKomi reviews"
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-12T12:02:24.460Z",
+    "pages": [
+      {
+        "slug": "www_ergo_de--20f9b61a",
+        "captured": 5,
+        "total": 5,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/"
+      },
+      {
+        "slug": "www_ergo_de_de--b1ad153f",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de"
+      },
+      {
+        "slug": "www_ergo_de_de_Geschaeftskunden-Produkte--dd90959c",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/geschaeftskunden-produkte"
+      },
+      {
+        "slug": "www_ergo_de_de_Geschaeftskunden-Produkte_Betriebliche-Altersversorgung--e3d0666c",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/geschaeftskunden-produkte/betriebliche-altersversorgung"
+      },
+      {
+        "slug": "www_ergo_de_de_Geschaeftskunden-Produkte_Cyber-Versicherung-fuer-Unternehmen--a8df1435",
+        "captured": 4,
+        "total": 7,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/geschaeftskunden-produkte/cyber-versicherung-fuer-unternehmen"
+      },
+      {
+        "slug": "www_ergo_de_de_Geschaeftskunden-Produkte_Dienstreiseversicherung--67ab87da",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/geschaeftskunden-produkte/dienstreiseversicherung"
+      },
+      {
+        "slug": "www_ergo_de_de_Produkte--20486594",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/produkte"
+      },
+      {
+        "slug": "www_ergo_de_de_Ratgeber--2b03bf08",
+        "captured": 2,
+        "total": 6,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/ratgeber"
+      },
+      {
+        "slug": "www_ergo_de_de_Service--b4cc44e4",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/service"
+      },
+      {
+        "slug": "www_ergo_de_de_rechtsportal--7d971e42",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261112--ergo--christianv-adobe.aem.page/de/rechtsportal"
+      }
+    ],
+    "variants": {
+      "total": 12,
+      "cropped": 11
+    }
+  }
+}

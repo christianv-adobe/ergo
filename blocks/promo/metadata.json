@@ -1,0 +1,197 @@
+{
+  "variantName": "promo",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Promo card with optional image, flag, headline, title line, text, price and CTAs; several cards lay out in two columns",
+    "layout": "Card in a background colour with image top, left or right"
+  },
+  "contentPattern": {
+    "structure": "per card: optional image (+ optional stoerer image), optional flag paragraph, headline heading, optional title-line heading, text, optional price, CTA paragraphs"
+  },
+  "options": [
+    {
+      "class": "white",
+      "label": "White"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "yellow",
+      "label": "Yellow"
+    },
+    {
+      "class": "green",
+      "label": "Green"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "warmgrey",
+      "label": "Warm grey"
+    },
+    {
+      "class": "image-left",
+      "label": "Image left"
+    },
+    {
+      "class": "image-right",
+      "label": "Image right"
+    },
+    {
+      "class": "hide-image-mobile",
+      "label": "Hide image on mobile"
+    },
+    {
+      "class": "center",
+      "label": "Centred"
+    },
+    {
+      "class": "rounded",
+      "label": "Round image"
+    },
+    {
+      "class": "headline-xs",
+      "label": "Headline XS"
+    },
+    {
+      "class": "headline-s",
+      "label": "Headline S"
+    },
+    {
+      "class": "headline-m",
+      "label": "Headline M"
+    },
+    {
+      "class": "headline-l",
+      "label": "Headline L"
+    },
+    {
+      "class": "headline-sub",
+      "label": "Subhead headline"
+    },
+    {
+      "class": "img-natural",
+      "label": "Natural image ratio"
+    },
+    {
+      "class": "flag-right",
+      "label": "Flag right"
+    },
+    {
+      "class": "title-sans",
+      "label": "Sans title line"
+    },
+    {
+      "class": "cta-auto",
+      "label": "Auto-width CTAs"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "white-card",
+      "label": "White Card"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "round-image",
+      "label": "Round Image"
+    },
+    {
+      "class": "round-image-full-image",
+      "label": "Round Image Full Image"
+    },
+    {
+      "class": "round-image-2",
+      "label": "Round Image 2"
+    },
+    {
+      "class": "round-image-full-image-2",
+      "label": "Round Image Full Image 2"
+    },
+    {
+      "class": "image-light",
+      "label": "Image Light"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "image-grey",
+      "label": "Image Grey"
+    },
+    {
+      "class": "red-light",
+      "label": "Red Light"
+    },
+    {
+      "class": "image-2",
+      "label": "Image 2"
+    },
+    {
+      "class": "round-image-3",
+      "label": "Round Image 3"
+    },
+    {
+      "class": "round-image-4",
+      "label": "Round Image 4"
+    },
+    {
+      "class": "image-grey-2",
+      "label": "Image Grey 2"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "magenta-grey",
+      "label": "Magenta Grey"
+    },
+    {
+      "class": "magenta-red-light",
+      "label": "Magenta Red Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_8699f3885727",
+    "v_3db5eba13b22",
+    "v_0f842726dc64",
+    "v_c301a626688e",
+    "v_69d5ed63f736",
+    "v_8699f3885727-1",
+    "v_8e1e5fe02696",
+    "v_0f842726dc64-1",
+    "v_118357c01fcf",
+    "v_a4e9dc3d6f4f",
+    "v_cbda459689ef",
+    "v_06ec1f0cd38c",
+    "v_45173797b535",
+    "v_52b9c4a992da-1",
+    "v_5a6b6e9029f2-3",
+    "v_b3c294464091",
+    "v_0446ae19f95e",
+    "v_3db5eba13b22-1",
+    "v_439a39a36597-1",
+    "v_493690fdbe20",
+    "v_65cc6ba32351-1",
+    "v_69d5ed63f736-1",
+    "v_a60904b9d326"
+  ],
+  "usage": "Product and service promotions across all templates",
+  "reuseGuidance": "Reuse promo for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

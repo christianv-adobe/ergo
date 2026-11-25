@@ -1,0 +1,36 @@
+{
+  "variantName": "ccw",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Rich-text column control, stacked on mobile and halves from 768px",
+    "layout": "Two equal columns of rich text"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell per column with any rich text"
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "cyan-light",
+      "label": "Cyan Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_860d9c59f66b",
+    "v_0ae9bed1ebf0-1",
+    "v_372d22860c7f",
+    "v_c3d2db38267a",
+    "v_f4ee98d28470-2",
+    "v_ff607ac92b6f"
+  ],
+  "usage": "Intro text columns on the Ratgeber page",
+  "reuseGuidance": "Reuse ccw for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}

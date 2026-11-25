@@ -1,7 +1,12 @@
 /* ccw — canon c20 column control + c10 rich text (prototypes/shared/modules.css). */
+/* stylelint-disable no-descending-specificity -- option looks override the base cascade */
+
+/* columnControl: 12px gutters outside the grid line (block 888 = 864 + 2 x 12 at 1440) */
 .ccw {
   display: flex;
   flex-direction: column;
+  margin-inline: -12px;
+  padding-inline: 12px;
   color: var(--c-text);
 }
 
@@ -15,6 +20,13 @@
   color: var(--c-text);
 }
 
+.ccw .ccw-column h2 {
+  margin: 0 0 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+}
+
 .ccw .ccw-column :is(p, ul, ol) {
   margin: 0 0 20px;
 }
@@ -26,6 +38,10 @@
 
 .ccw .ccw-column p + p {
   margin-top: -10px;
+}
+
+.ccw .ccw-column h2 + p {
+  margin-top: 14px;
 }
 
 .ccw .ccw-column :is(ul, ol) {
@@ -59,6 +75,70 @@
   margin-bottom: 0;
 }
 
+/* reduced navigation tile (cmp-tile reduced): bold title + arrow, the whole tile is the link */
+.ccw .ccw-tile {
+  position: relative;
+  margin: 24px 0 0;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background-color: #fff;
+}
+
+.ccw .ccw-column:not(:last-child) > .ccw-tile:last-child {
+  margin-bottom: 8px;
+}
+
+.ccw .ccw-column .ccw-tile p.ccw-tile-title {
+  display: flex;
+  align-items: center;
+  min-height: 94px;
+  margin: 0;
+  padding: 16px 60px 16px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.ccw .ccw-tile p.ccw-tile-title strong {
+  flex: 1 1 auto;
+  font-weight: inherit;
+}
+
+.ccw .ccw-column .ccw-tile p.button-wrapper {
+  margin: 0;
+}
+
+main .ccw .ccw-tile a.button:any-link {
+  --cta-border: transparent;
+  --cta-bg: transparent;
+  --cta-color: var(--c-text);
+  --cta-border-hover: transparent;
+  --cta-bg-hover: transparent;
+  --cta-color-hover: var(--c-brand);
+  --cta-shadow-hover: none;
+
+  position: absolute;
+  inset: 0;
+  justify-content: flex-end;
+  width: auto;
+  min-width: 0;
+  text-align: left;
+  min-height: 0;
+  padding: 0 20px 0 0;
+  border-width: 0;
+  border-radius: calc(var(--radius) - 1px);
+  -webkit-text-fill-color: transparent;
+}
+
+main .ccw .ccw-tile a.button:any-link::after {
+  content: "";
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  background-color: currentcolor;
+  mask: url("../../icons/arrow-right-new.svg") center / contain no-repeat;
+}
+
 @media (width >= 768px) {
   .ccw {
     flex-flow: row wrap;
@@ -67,6 +147,12 @@
   .ccw .ccw-column {
     flex-basis: 50%;
     width: 50%;
+  }
+
+  .ccw .ccw-column h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 36.4px;
   }
 
   .ccw .ccw-column :is(p, ul, ol) {
@@ -82,11 +168,177 @@
     margin-top: -12px;
   }
 
+  .ccw .ccw-column h2 + p {
+    margin-top: 16px;
+  }
+
   .ccw .ccw-column :is(ul, ol) {
     padding-left: 28px;
   }
 
   .ccw .ccw-column li {
     margin-bottom: 12px;
+  }
+
+  .ccw .ccw-column:not(:last-child) > .ccw-tile:last-child {
+    margin-bottom: 12px;
+  }
+
+  .ccw .ccw-column .ccw-tile p.ccw-tile-title {
+    padding: 24px 80px 24px 32px;
+    font-size: 18px;
+  }
+
+  main .ccw .ccw-tile a.button:any-link {
+    padding-right: 32px;
+  }
+}
+
+/* ---- catalog option classes (block-generator augment) ---- */
+
+/* light / cyan-light: the column control paints its own band (columnControl bg-*) */
+.ccw:is(.light, .cyan-light) {
+  padding-block: 24px;
+  background-color: var(--ccw-tint);
+}
+
+.ccw.light {
+  --ccw-tint: var(--bg, var(--c-ribbon));
+}
+
+.ccw.cyan-light {
+  --ccw-tint: var(--c-bg-cyan-light, #e5f4f6);
+}
+
+/* image: rounded image column; the text column is a padding-m rich text (24px below) */
+.ccw .ccw-column-image picture {
+  display: block;
+}
+
+.ccw .ccw-column-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ccw.image .ccw-column-image img {
+  border-radius: var(--radius);
+}
+
+.ccw.image .ccw-column:not(.ccw-column-image) {
+  padding-bottom: 36px;
+}
+
+/* image: lists are the green check list (canon ul.check-list--green) */
+.ccw.image .ccw-column ul {
+  padding-left: 0;
+}
+
+.ccw.image .ccw-column ul li {
+  padding-left: 32px;
+  list-style: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23009284'/%3E%3Cpath d='m7.5 12.3 3 3 6-6.3' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") 0 0 / 1lh no-repeat;
+}
+
+@media (width >= 768px) {
+  .ccw.image {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .ccw.image .ccw-column-image {
+    flex: 0 0 33.3333%;
+    width: 33.3333%;
+  }
+
+  .ccw.image .ccw-column:not(.ccw-column-image) {
+    flex: 1 1 auto;
+    width: auto;
+  }
+
+  .ccw.image .ccw-column ul li {
+    padding-left: 36px;
+  }
+}
+
+/* ---- comparison row (productTable__row look: label cell + icon tariff cells) ---- */
+.ccw.ccw-row {
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.ccw.ccw-row .ccw-column {
+  width: auto;
+  overflow: clip;
+}
+
+.ccw.ccw-row .ccw-column-label {
+  flex: 0 0 100%;
+  align-self: flex-start;
+  padding: 16px 16px 0;
+  text-align: left;
+}
+
+.ccw.ccw-row .ccw-column-label :is(p, li) {
+  margin: 0;
+}
+
+.ccw.ccw-row .ccw-column-image {
+  position: relative;
+  flex: 1 1 0;
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.ccw.ccw-row .ccw-column-image::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 0;
+  width: 1px;
+  border-left: 1px solid #000;
+}
+
+.ccw.ccw-row .ccw-column-image:nth-child(2)::before {
+  content: none;
+}
+
+.ccw.ccw-row .ccw-column-image picture {
+  height: 31px;
+}
+
+.ccw.ccw-row .ccw-column-image img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+}
+
+@media (width >= 912px) {
+  .ccw.ccw-row {
+    flex-wrap: nowrap;
+  }
+
+  .ccw.ccw-row .ccw-column-label {
+    flex-basis: 50%;
+    padding: 24px;
+  }
+
+  .ccw.ccw-row .ccw-column-image {
+    padding: 24px;
+  }
+
+  .ccw.ccw-row .ccw-column-image::before {
+    top: 16px;
+    bottom: 16px;
+  }
+
+  .ccw.ccw-row .ccw-column-image:nth-child(2)::before {
+    content: "";
   }
 }

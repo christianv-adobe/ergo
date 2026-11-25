@@ -42,6 +42,7 @@
   border-bottom: 1px solid var(--c-line);
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation {
     --btn-size: 64px;
@@ -58,6 +59,7 @@
   padding: 12px 24px;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__container {
     column-gap: 36px;
@@ -65,6 +67,7 @@
   }
 }
 
+/* breakpoint-exception: source widens the bar container at 1440px (measured) */
 @media (width >= 1440px) {
   .header .headerNavigation__container {
     column-gap: 48px;
@@ -82,6 +85,7 @@
   overflow: hidden;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__logos {
     flex-grow: 0;
@@ -119,6 +123,7 @@
   display: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__logo--mobile {
     display: none;
@@ -133,6 +138,7 @@
   display: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__links-container {
     display: block;
@@ -197,6 +203,7 @@
   margin-left: auto;
 }
 
+/* breakpoint-exception: source widens the bar container at 1440px (measured) */
 @media (width >= 1440px) {
   .header .headerNavigation__buttons-container {
     column-gap: 16px;
@@ -227,6 +234,7 @@
   text-align: center;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__button-with-icon .button__label {
     font-size: 12px;
@@ -238,6 +246,7 @@
   display: none !important;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .hn-desktop-only {
     display: flex !important;
@@ -281,6 +290,7 @@
   display: block;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__phone-button-wrapper:not(:first-child) {
     border-left: 1px solid var(--c-line);
@@ -338,6 +348,7 @@
   line-height: 20px;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation .headerNavigation__button--phone {
     --icon-color: var(--c-brand);
@@ -352,6 +363,7 @@
   }
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured); below-breakpoint override of shared base rules */
 @media (width < 1152px) {
   .header .headerNavigation .headerNavigation__button--phone {
     display: flex;
@@ -394,6 +406,7 @@
   border: 0;
   padding: 0;
   margin: 0;
+  transition: opacity 0.05s, display 0.05s allow-discrete;
 }
 
 .header .headerNavigation__sidebar[hidden] {
@@ -416,6 +429,7 @@
   background: #fff;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__sidebar {
     height: auto;
@@ -433,6 +447,7 @@
   margin: 0 auto;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__flyout-container {
     display: grid;
@@ -446,6 +461,7 @@
   display: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__close-button {
     grid-area: buttonClose;
@@ -486,6 +502,7 @@
   padding: 32px 24px 0;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__search-container {
     display: none;
@@ -523,6 +540,7 @@
   display: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .cmp-search__heading {
     display: block;
@@ -533,6 +551,11 @@
     font-weight: 700;
     line-height: 1.4444;
   }
+}
+
+/* no UA form margin (quirks-mode documents add margin-block-end: 1em) */
+.header .cmp-search__form {
+  margin: 0;
 }
 
 .header .cmp-search__input-wrapper {
@@ -611,6 +634,7 @@
   display: block;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .cmp-search__suggestions-container {
     display: block;
@@ -625,6 +649,7 @@
   line-height: 1.5;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .cmp-search__suggestions-header {
     padding: 12px 16px;
@@ -644,6 +669,7 @@
   padding: 28px 24px 32px;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__navigation-container {
     display: contents;
@@ -727,6 +753,7 @@
   display: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured); below-breakpoint override of shared base rules */
 @media (width < 1152px) {
   .header .headerNavigation__navigation-button[aria-haspopup="true"][aria-expanded="true"] {
     flex-direction: row-reverse;
@@ -751,15 +778,25 @@
     display: none;
   }
 
-  .header .headerNavigation__navigation-container:has(.headerNavigation__navigation-button[aria-expanded="true"]) ~ .headerNavigation__action-items-container {
+  .header .headerNavigation__flyout-container:has(.headerNavigation__navigation-button[aria-expanded="true"]) ~ .headerNavigation__action-items-container {
     display: none;
   }
 
   .header .headerNavigation__tiles-container.has-tiles {
+    position: relative;
     margin-top: 24px;
     padding: 48px 0 24px;
     flex-direction: column;
     row-gap: 32px;
+  }
+
+  /* full-bleed divider above the tiles (drawn outside the box, as on the source) */
+  .header .headerNavigation__tiles-container.has-tiles::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -24px;
+    right: -24px;
     border-top: 1px solid var(--c-line);
   }
 
@@ -768,6 +805,7 @@
   }
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__navigation-list[data-level="1"],
   .header .headerNavigation__navigation-list[data-level="1"] > .headerNavigation__navigation-item {
@@ -897,6 +935,7 @@
   text-align: center;
 }
 
+/* breakpoint-exception: source drawer tiles switch layout at 768px (measured) */
 @media (width >= 768px) {
   .header .cmp-tile {
     --tile-icon-size: 48px;
@@ -912,6 +951,7 @@
   margin-bottom: 12px;
 }
 
+/* breakpoint-exception: source drawer tiles switch layout at 768px (measured) */
 @media (width >= 768px) {
   .header .cmp-tile__icon-wrapper {
     margin-bottom: 16px;
@@ -954,6 +994,7 @@
   padding-top: 24px;
 }
 
+/* breakpoint-exception: source drawer tiles switch layout at 768px (measured) */
 @media (width >= 768px) {
   .header .cmp-tile__title {
     font-size: 18px;
@@ -1070,6 +1111,7 @@
   content: none;
 }
 
+/* breakpoint-exception: source drawer tiles switch layout at 768px (measured) */
 @media (width >= 768px) {
   .header .cmp-tile.reduced {
     --tile-icon-size: 48px;
@@ -1111,13 +1153,15 @@
   outline: none;
 }
 
+/* breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured); below-breakpoint override of shared base rules */
 @media (width < 1152px) {
   .header .headerNavigation__navigation-button[aria-haspopup="true"][aria-expanded="true"] {
     justify-content: flex-end;
   }
 }
 
-/* live: the desktop flyout box spans to the viewport bottom over the backdrop */
+/* live: the desktop flyout box spans to the viewport bottom over the backdrop;
+   breakpoint-exception: source (ergo.de) switches bar/drawer to the desktop flyout at 1152px (measured) */
 @media (width >= 1152px) {
   .header .headerNavigation__sidebar {
     height: calc(100dvh - var(--header-height));

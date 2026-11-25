@@ -1,0 +1,203 @@
+/* form — static rendering of ERGO "formlabel" fields (source #formwrapperreact_cop) */
+.form {
+  --form-field-bg: rgb(247 247 247);
+  --form-field-color: rgb(115 115 115);
+  --form-field-border: rgb(174 174 174);
+  --form-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 7.5l9 9 9-9'/%3E%3C/svg%3E");
+
+  color: var(--c-text);
+  font-family: var(--ff-sans);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* source reserves a 50px gutter right of the fields (validation icon column) */
+.form:not(.image) {
+  margin-inline-end: 50px;
+}
+
+.form .form-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.form .form-field {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 14px;
+  align-items: start;
+  padding-bottom: 10px;
+}
+
+.form .form-label {
+  display: block;
+  justify-self: start;
+  max-width: calc(100% - 62px);
+  margin-top: 13px;
+}
+
+.form .form-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.form .form-controls-split {
+  flex-direction: row;
+  gap: 16px;
+}
+
+.form .form-controls-split > :first-child {
+  flex: 3 1 0;
+}
+
+.form .form-controls-split > :not(:first-child) {
+  flex: 1 1 0;
+}
+
+.form input:not([type="checkbox"], [type="radio"]),
+.form select,
+.form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 12px;
+  border: 0 solid var(--form-field-border);
+  border-bottom-width: 1px;
+  border-radius: 0;
+  background-color: var(--form-field-bg);
+  color: var(--form-field-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form select {
+  appearance: none;
+  padding-right: 42px;
+  background-image: var(--form-chevron);
+  background-size: 18px auto;
+  background-position: calc(100% - 12px) 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--form-field-color);
+}
+
+.form textarea {
+  min-height: 96px;
+  resize: vertical;
+}
+
+.form .form-help {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.form .form-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+
+.form .form-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form .form-field-submit {
+  display: flex;
+}
+
+.form .form-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* image: lone filter select (source .cmp-ekomiOverview select) — the block is the control */
+.form.image:not(:has(> .form-image)) {
+  box-sizing: border-box;
+  padding: 12px;
+  border: 0 solid var(--form-field-border);
+  border-bottom-width: 1px;
+  background-color: var(--form-field-bg);
+  background-image: var(--form-chevron);
+  background-size: 18px auto;
+  background-position: calc(100% - 12px) 50%;
+  background-repeat: no-repeat;
+  color: var(--form-field-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form.image:not(:has(> .form-image)) .form-field {
+  display: block;
+  padding: 0;
+}
+
+.form.image:not(:has(> .form-image)) .form-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.form.image:not(:has(> .form-image)) select {
+  width: calc(100% + 24px);
+  max-width: none;
+  margin: -12px;
+  border: 0;
+  background: transparent;
+}
+
+@media (width >= 900px) {
+  .form {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form .form-field {
+    grid-template-columns: 210px minmax(0, 1fr);
+    column-gap: 64px;
+    padding-block: 10px;
+  }
+
+  .form .form-label {
+    justify-self: stretch;
+    max-width: none;
+    min-height: 36px;
+  }
+
+  .form .form-field-submit {
+    padding-left: 274px;
+  }
+
+  .form.image:not(:has(> .form-image)) {
+    max-width: 550px;
+  }
+
+  /* image with an authored picture: picture beside the form */
+  .form.image:has(> .form-image) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 32px;
+    align-items: start;
+  }
+}
+
+/* dark-light: colour option */
+.form.dark-light {
+  padding: 24px;
+}

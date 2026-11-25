@@ -1,0 +1,257 @@
+{
+  "variantName": "benefits",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Framed or boxed list of benefit items with optional flag label",
+    "layout": "Bordered frame or filled box in an accent colour; items with optional icon, heading and text"
+  },
+  "contentPattern": {
+    "structure": "optional flag paragraph before the first item; per item: optional :icon: paragraph, H3 title, text or list"
+  },
+  "options": [
+    {
+      "class": "frame",
+      "label": "Frame"
+    },
+    {
+      "class": "box",
+      "label": "Box"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "green",
+      "label": "Green"
+    },
+    {
+      "class": "light-green",
+      "label": "Light green"
+    },
+    {
+      "class": "light-teal",
+      "label": "Light teal"
+    },
+    {
+      "class": "teal",
+      "label": "Teal"
+    },
+    {
+      "class": "magenta",
+      "label": "Magenta"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "yellow",
+      "label": "Yellow"
+    },
+    {
+      "class": "flag-center",
+      "label": "Flag centred"
+    },
+    {
+      "class": "flag-right",
+      "label": "Flag right"
+    },
+    {
+      "class": "check-list",
+      "label": "Check-icon list"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "icon-list",
+      "label": "Icon List"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    },
+    {
+      "class": "magenta-light",
+      "label": "Magenta Light"
+    },
+    {
+      "class": "dark-orange",
+      "label": "Dark Orange"
+    },
+    {
+      "class": "image-light",
+      "label": "Image Light"
+    },
+    {
+      "class": "light-3",
+      "label": "Light 3"
+    },
+    {
+      "class": "stats",
+      "label": "Stats"
+    },
+    {
+      "class": "grey-light",
+      "label": "Grey Light"
+    },
+    {
+      "class": "side-by-side",
+      "label": "Side By Side"
+    },
+    {
+      "class": "magenta-2",
+      "label": "Magenta 2"
+    },
+    {
+      "class": "grey-light-2",
+      "label": "Grey Light 2"
+    },
+    {
+      "class": "image-light-2",
+      "label": "Image Light 2"
+    },
+    {
+      "class": "image-grey",
+      "label": "Image Grey"
+    },
+    {
+      "class": "side-by-side-cyan-magenta",
+      "label": "Side By Side Cyan Magenta"
+    },
+    {
+      "class": "steps",
+      "label": "Steps"
+    },
+    {
+      "class": "image-orange-2",
+      "label": "Image Orange 2"
+    },
+    {
+      "class": "image-grey-2",
+      "label": "Image Grey 2"
+    },
+    {
+      "class": "side-by-side-dark",
+      "label": "Side By Side Dark"
+    },
+    {
+      "class": "side-by-side-cyan",
+      "label": "Side By Side Cyan"
+    },
+    {
+      "class": "orange-light",
+      "label": "Orange Light"
+    },
+    {
+      "class": "orange-light-2",
+      "label": "Orange Light 2"
+    },
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    },
+    {
+      "class": "image-2",
+      "label": "Image 2"
+    },
+    {
+      "class": "side-by-side-2",
+      "label": "Side By Side 2"
+    },
+    {
+      "class": "orange-2",
+      "label": "Orange 2"
+    },
+    {
+      "class": "image-orange",
+      "label": "Image Orange"
+    },
+    {
+      "class": "side-by-side-3",
+      "label": "Side By Side 3"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_2f60c58a6b1c",
+    "v_89c0bd8701ec",
+    "v_676217dce4f0",
+    "v_757a9bec80a5",
+    "v_5d817e2feda3",
+    "v_2ab614707ba1",
+    "v_b1908048129c",
+    "v_cad47162e475",
+    "v_dd5f9b27debb",
+    "v_7bbe0d009501",
+    "v_a1718d793e33",
+    "v_2e41aa9e0047",
+    "v_de16d2e31be5",
+    "v_ed21c02e23be",
+    "v_8905c8e6e5c0",
+    "v_bfabacc06fb9",
+    "v_fc0d53c10347",
+    "v_439a39a36597",
+    "v_781c3a0263dd",
+    "v_ec23409ba61c",
+    "v_f05be1ce2e91-2",
+    "v_5fd963a9bb9e-1",
+    "v_f05be1ce2e91-1",
+    "v_f05be1ce2e91",
+    "v_316100c16cc1",
+    "v_8c4de5359fc9",
+    "v_5a6b6e9029f2-2",
+    "v_67965cb94cbc",
+    "v_8a8b964046ae",
+    "v_e0b1f4b185b8",
+    "v_0e8a0b91b787",
+    "v_4eb28bc5c52c",
+    "v_65cc6ba32351-2",
+    "v_676217dce4f0-1",
+    "v_89c0bd8701ec-1",
+    "v_ad8ab7705fc5",
+    "v_c74c42ee1465",
+    "v_f6ec52e4572b-1",
+    "v_061bad286367",
+    "v_133068f3453d",
+    "v_24ef7ae18ae9",
+    "v_252147b17842",
+    "v_26e3213a884b",
+    "v_283bc958e101-2",
+    "v_356478b8b724-2",
+    "v_439a39a36597-5",
+    "v_459b04fe583c-1",
+    "v_493690fdbe20-2",
+    "v_5fd963a9bb9e",
+    "v_676217dce4f0-4",
+    "v_6e580869b11c",
+    "v_7704adfcc04d",
+    "v_86c57c01bf18",
+    "v_89aefeb90100",
+    "v_89c0bd8701ec-2",
+    "v_935f465e0134-7",
+    "v_bff38cdf1a0c",
+    "v_bff38cdf1a0c-1",
+    "v_c1a52445b2ab",
+    "v_c878904d3f25",
+    "v_c878904d3f25-1",
+    "v_d2407c91768f",
+    "v_e10adfa0c7c1"
+  ],
+  "usage": "Product benefit summaries on program pages and the Ratgeber page",
+  "reuseGuidance": "Reuse benefits for new pages with the same content pattern; add an option class rather than a new block for colour or layout differences."
+}
