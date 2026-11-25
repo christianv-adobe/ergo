@@ -173,7 +173,8 @@ export default function decorate(block) {
   // leftovers: an icon with no item heading after it stays visible
   if (pendingIcon) (current || items).append(pendingIcon);
 
-  iconRows(items);
+  // stats: an icon sits above its figure (own grid row), not at the start of the line
+  if (!block.classList.contains('stats')) iconRows(items);
   const parts = [];
   if (flag.children.length) parts.push(flag);
   parts.push(items);

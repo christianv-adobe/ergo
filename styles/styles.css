@@ -778,12 +778,18 @@ main > .section.ta-c .default-content-wrapper :is(h1, h2, h3, h4, h5, h6, p) {
   text-align: center;
 }
 
+/* h-c: centred headings over left-aligned text (live inline text-align:center on headings only) */
+main > .section.h-c .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
+  text-align: center;
+}
+
 body.narrow main > .section.serif-red .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
   color: var(--c-brand);
   font-family: var(--ff-serif);
 }
 
-body.narrow main > .section.h-red .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
+/* h-red: brand-red sans headings (live span.color--red); applies on every page */
+main > .section.h-red .default-content-wrapper :is(h1, h2, h3, h4, h5, h6) {
   color: var(--c-brand);
 }
 

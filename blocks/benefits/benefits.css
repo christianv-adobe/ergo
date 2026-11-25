@@ -1106,15 +1106,38 @@
   margin: 0;
 }
 
-.benefits.stats .benefits-item-text p:nth-child(odd) {
+/* figures: every odd paragraph (figure, caption pairs) or, with icons (icon, figure, caption
+ * triples), the paragraph after each icon */
+.benefits.stats .benefits-item-text:not(:has(.icon)) p:nth-child(odd),
+.benefits.stats .benefits-item-text p:has(> .icon) + p {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
 }
 
 /* next card: card padding-bottom 32px + gap 24px + padding-top 48px (row gap 8px) */
-.benefits.stats .benefits-item-text p:nth-child(odd):not(:first-child) {
+.benefits.stats .benefits-item-text:not(:has(.icon)) p:nth-child(odd):not(:first-child),
+.benefits.stats .benefits-item-text p:has(> .icon):not(:first-child) {
   margin-top: 96px;
+}
+
+/* icon above the figure: 48px (source .cmp-promo__icon medium), 16px to the figure */
+.benefits.stats .benefits-item-text p:has(> .icon) {
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  margin-bottom: 8px;
+  line-height: 0;
+}
+
+.benefits.stats .benefits-item-text p > .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.benefits.stats .benefits-item-text p > .icon img {
+  width: 100%;
+  height: 100%;
 }
 
 /* shadow: the review card itself (source .ekomi-review) */
@@ -1168,12 +1191,18 @@
     column-gap: 88px;
   }
 
-  .benefits.stats .benefits-item-text p:nth-child(odd) {
+  .benefits.stats .benefits-item-text:has(.icon) {
+    grid-template-rows: auto auto auto;
+  }
+
+  .benefits.stats .benefits-item-text:not(:has(.icon)) p:nth-child(odd),
+  .benefits.stats .benefits-item-text p:has(> .icon) + p {
     font-size: 20px;
     line-height: 26px;
   }
 
-  .benefits.stats .benefits-item-text p:nth-child(odd):not(:first-child) {
+  .benefits.stats .benefits-item-text:not(:has(.icon)) p:nth-child(odd):not(:first-child),
+  .benefits.stats .benefits-item-text p:has(> .icon):not(:first-child) {
     margin-top: 0;
   }
 }
