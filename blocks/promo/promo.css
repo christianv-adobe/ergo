@@ -7,6 +7,11 @@
   --promo-border-w: 1px;
 }
 
+/* promo cards stacked in one section (live: one carousel container, 24px row gap between cards) */
+.promo-wrapper + .promo-wrapper > .promo {
+  margin-top: 24px;
+}
+
 /* white card (source data-color #fff), also on a coloured section band */
 .promo.white {
   --promo-bg: #fff;
@@ -354,6 +359,12 @@
   .promo .promo-actions .promo-cta {
     --cta-width: 100%;
   }
+}
+
+/* a card's only CTA spans the whole text column (live data-width 100 on every single-CTA promo);
+   two CTAs keep sharing the row (calc(50% - 12px) from 768) */
+.promo .promo-card[data-cta-count="1"] {
+  --promo-cta-width: 100%;
 }
 
 @media (width >= 912px) {

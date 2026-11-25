@@ -1,7 +1,7 @@
 /* stylelint-disable no-descending-specificity -- canon cascade order kept */
 
 /* hero — canon product hero (program.css .cmp-hero--product): full-bleed band capped at
-   1440, teaser + image, image left (default) or right. */
+   1920 with teaser + image in the centred 1440 column, image left (default) or right. */
 .hero.product {
   --teaser-pb: 32px;
   --teaser-pi: 24px;
@@ -233,10 +233,13 @@
        (content-box: border-box would take the 24/48px out of the band and shorten the image) */
     box-sizing: content-box;
     min-height: 360px;
-    max-width: 1440px;
-    margin-left: max(calc(50% - 50vw), calc(50% - 720px));
+
+    /* live .cmp-hero.full-width: the band spans the viewport (capped at 1920), while teaser and
+       image stay in the centred 1440 column (two 720 halves); the outer columns take the rest */
+    max-width: 1920px;
+    margin-left: max(calc(50% - 50vw), calc(50% - 960px));
     grid-template-areas: "left image teaser right";
-    grid-template-columns: 0 1fr 1fr 0;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 720px) minmax(0, 720px) minmax(0, 1fr);
   }
 
   .hero.product.image-right {
